@@ -1,0 +1,142 @@
+{
+  "checked_local": "2026-10-12T20:37:45.825721+11:00",
+  "scope": "Sensor preparation only; no SLAM, RViz or control nodes started during this audit",
+  "foundation_checks_passed": true,
+  "full_mapping_ready": false,
+  "changes": [
+    "New sensor-only launcher",
+    "Cleaned raw/body/deskewed outputs; remove zero/nonfinite XYZ without altering retained point records, frames or source stamps",
+    "Standard /odom relay retains complete vendor message",
+    "Typed-byte-array publishing avoids filtering queue buildup",
+    "Graceful shutdown ignores duplicate forwarded SIGINT"
+  ],
+  "sensor_rates_hz": {
+    "/utlidar/cloud": 15.42128169927826,
+    "/utlidar/cloud_base": 15.427167360000082,
+    "/utlidar/cloud_deskewed": 15.426657111795603,
+    "/utlidar/imu": 247.53963906555643,
+    "/utlidar/robot_odom": 148.51492648379997,
+    "/lf/sportmodestate": 20.00073729808002,
+    "/utlidar/lidar_state": 5.002283582406226
+  },
+  "odometry_pose_variation_30s": {
+    "child_frame": "base_link",
+    "position_start_m": [
+      0.513003408908844,
+      -1.0740108489990234,
+      0.3047407567501068
+    ],
+    "position_end_m": [
+      0.5132745504379272,
+      -1.0738075971603394,
+      0.3047404885292053
+    ],
+    "position_span_m": [
+      0.0004775524139404297,
+      0.00047135353088378906,
+      1.52587890625e-05
+    ],
+    "net_translation_m": 0.00033886444290381966,
+    "largest_position_step_m": 5.6131311458438455e-05,
+    "yaw_span_deg": 0.5048829204664252,
+    "yaw_net_change_deg": -0.49676295972219353,
+    "largest_yaw_step_deg": 0.008388667193259315,
+    "quaternion_norm": {
+      "min": 0.999999847381765,
+      "median": 0.9999999983644179,
+      "max": 1.0000001501113733
+    },
+    "pose_covariance_all_zero": true,
+    "twist_covariance_all_zero": true
+  },
+  "pose_variation_interpretation": "User confirmed robot stays in place while standing, with vibration/sway from balancing; heading change may include physical body rotation.",
+  "remaining": [
+    "Robot-specific CMU IMU calibration missing",
+    "LiDAR generation reported likely L1, not conclusively identified",
+    "Sparse useful angular coverage under prior height selection; mapping quality and correction behavior require a later mapping test"
+  ],
+  "cleaning_verification": {
+    "duration_s": 12.0,
+    "streams": {
+      "/utlidar/cloud": {
+        "checked": 187,
+        "failed": 0,
+        "last_removed": 0,
+        "source_received": 187,
+        "clean_received": 187,
+        "clean_minus_source_receipt_ms": {
+          "median": 3.546559004462324,
+          "p95": 8.256464696023611,
+          "max": 13.364515994908288
+        },
+        "source_receipt_rate_hz": 15.54386965243058,
+        "clean_receipt_rate_hz": 15.540025441199669
+      },
+      "/utlidar/cloud_base": {
+        "checked": 187,
+        "failed": 0,
+        "last_removed": 0,
+        "source_received": 187,
+        "clean_received": 187,
+        "clean_minus_source_receipt_ms": {
+          "median": 5.339056006050669,
+          "p95": 11.532844303292215,
+          "max": 21.89701099996455
+        },
+        "source_receipt_rate_hz": 15.539632888358538,
+        "clean_receipt_rate_hz": 15.532504540903972
+      },
+      "/utlidar/cloud_deskewed": {
+        "checked": 184,
+        "failed": 0,
+        "last_removed": 10000,
+        "source_received": 185,
+        "clean_received": 185,
+        "clean_minus_source_receipt_ms": {
+          "median": 3.7522474958677776,
+          "p95": 6.355697345134103,
+          "max": 13.34171999769751
+        },
+        "source_receipt_rate_hz": 15.365299964085231,
+        "clean_receipt_rate_hz": 15.365056670836607
+      }
+    },
+    "tf_child_frames_observed": 43,
+    "standard_odometry": {
+      "checked": 1772,
+      "failed": 0
+    },
+    "tf_frames_with_multiple_parents": {},
+    "tf_publishers": {
+      "/tf": [
+        "go2_robot_state_publisher",
+        "doggy_go2_state"
+      ],
+      "/tf_static": [
+        "go2_robot_state_publisher",
+        "doggy_go2_state"
+      ]
+    },
+    "tf_publishers_expected_only": true,
+    "mapping_nodes_running": [],
+    "clock_publishers": {
+      "/clock": [],
+      "/doggy/robot_clock": [
+        "doggy_go2_state"
+      ]
+    },
+    "errors": [],
+    "passed": true,
+    "method": "Matched source timestamps, unchanged frame/field definitions and exact retained point bytes; no SLAM or commands."
+  },
+  "official_urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "mapping_algorithms_started_this_audit": false,
+  "rviz_started_this_audit": false,
+  "robot_commands_sent": false,
+  "test_processes_stopped": true,
+  "start_sensors_only": "bash scripts/start_mapping_sensors.sh",
+  "document": "MAPPING_PREREQUISITES.md",
+  "remaining_test_processes": [],
+  "calibration_status": "Automatic run completed; candidate held for review; level-ground CMU gravity-sign mismatch persists",
+  "user_pause": "Resume tomorrow at user request"
+}

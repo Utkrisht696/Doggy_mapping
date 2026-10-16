@@ -1,0 +1,44 @@
+{
+  "approved": false,
+  "status": "Review only; no kernel/sysctl/DDS/adapter application changes made.",
+  "scope": "First isolate socket receive-buffer fix; leave source subscription QoS unchanged for this test.",
+  "kernel_setting": {
+    "name": "net.core.rmem_max",
+    "observed": 212992,
+    "proposed": 8388608,
+    "temporary_until_reboot": true,
+    "apply_argv": [
+      "sudo",
+      "-n",
+      "sysctl",
+      "-w",
+      "net.core.rmem_max=8388608"
+    ],
+    "rollback_argv": [
+      "sudo",
+      "-n",
+      "sysctl",
+      "-w",
+      "net.core.rmem_max=212992"
+    ],
+    "rmem_default_changed": false,
+    "persistent_system_files_changed": false
+  },
+  "test_dds_profile": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100/cyclonedds.receive_buffer.review.xml",
+  "profile_request_bytes": 8388608,
+  "use_profile_via": "CYCLONEDDS_URI exported AFTER sourcing setup_ros.sh; do not overwrite active config/cyclonedds.xml for this first test.",
+  "restart_scope": [
+    "existing headless sensor launch",
+    "existing body-IMU adapter"
+  ],
+  "verification": [
+    "Confirm actual new UDP receive buffer with ss/proc counters.",
+    "Repeat same baseline/recording-load comparison.",
+    "Compare adapter socket drop deltas, observed source-stamp losses and latency tails.",
+    "Verify original timestamps, fixed-bias math, TF ownership and geometry unchanged."
+  ],
+  "rollback": "Stop test-profile sensor processes, restore old rmem_max, restart original launch/adapter with unchanged active DDS profile.",
+  "persistent_solution": "Only propose persistence after the temporary comparison succeeds; test profile requires the temporary kernel limit and must not be used after reverting it.",
+  "measurement_frames_and_imu_correction_changed": false,
+  "mapper_or_robot_commands": false
+}

@@ -1,0 +1,56 @@
+{
+  "created_local": "2026-10-16T16:55:51.134266+11:00",
+  "authorization": "User selected standalone Point-LIO and requested removal of CMU and associated tooling.",
+  "retired_commit": "43d5f54b389b251713f0097893c30fa76c870d54",
+  "packages_removed": [
+    "calibrate_imu",
+    "go2_sport_api",
+    "point_lio_unilidar",
+    "transform_sensors"
+  ],
+  "active_paths_removed": [
+    "third_party/autonomy_stack_go2",
+    "ros2_ws/src/transform_sensors",
+    "scripts/calibrate_imu.sh",
+    "scripts/run_imu_calibration.py",
+    "config/slam/imu_calib_data.cmu_candidate.yaml",
+    "IMU_CALIBRATION_RESUME.md"
+  ],
+  "backup": "reports/point_lio_migration_20261016/retired_cmu_backup.tar.gz",
+  "protected_sha256": {
+    "sdk/unitree_ros/robots/go2_description/urdf/go2_description.urdf": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+    "scripts/go2_frames.py": "d8e4874b7c3b4ede61489b7800db26d92d0d50d10bd281bd21478606712db13c",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214",
+    "launch/go2_visualization.launch.py": "68ee643d35971d55ab0aed7e707560991ecc5ad9ea1cad163b5ca36dc0a6e8f0",
+    "launch/mapping_sensors.launch.py": "7092071f1164820638c0f798e2fbfba73c016fe948e9fb13224cc9b1c5c69e8a"
+  },
+  "preserved": "Official SDK/messages, developer URDF, generic ROS dependencies, SLAM Toolbox, sensor helpers, bags and historical reports.",
+  "actually_removed": [
+    "ros2_ws/src/calibrate_imu",
+    "ros2_ws/build/calibrate_imu",
+    "ros2_ws/install/calibrate_imu",
+    "ros2_ws/src/go2_sport_api",
+    "ros2_ws/build/go2_sport_api",
+    "ros2_ws/install/go2_sport_api",
+    "ros2_ws/src/point_lio_unilidar",
+    "ros2_ws/build/point_lio_unilidar",
+    "ros2_ws/install/point_lio_unilidar",
+    "ros2_ws/src/transform_sensors",
+    "ros2_ws/build/transform_sensors",
+    "ros2_ws/install/transform_sensors",
+    "third_party/autonomy_stack_go2",
+    "scripts/calibrate_imu.sh",
+    "scripts/run_imu_calibration.py",
+    "config/slam/imu_calib_data.cmu_candidate.yaml",
+    "IMU_CALIBRATION_RESUME.md",
+    "scripts/__pycache__/run_imu_calibration.cpython-310.pyc",
+    "launch/slam/__pycache__/slam_test.launch.cpython-310.pyc"
+  ],
+  "standalone_source": "third_party/point_lio_ros2",
+  "standalone_workspace_link": "ros2_ws/src/point_lio",
+  "completed_local": "2026-10-16T17:01:10.544165+11:00",
+  "status": "CMU retired from active workspace; standalone point_lio built and installed; input configuration and mapping tests pending.",
+  "standalone_commit": "a8e2d0d5090af97ead8dd4fac3d37cf3dbb33ff7",
+  "verification": "reports/point_lio_migration_20261016/verification.json",
+  "readiness_document": "POINT_LIO_SETUP.md"
+}

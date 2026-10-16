@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "messages": 78334,
+  "metadata_matches": true,
+  "quick_check": "ok",
+  "read_only_after_recorder_exited": true
+}

@@ -1,0 +1,29 @@
+{
+  "phases": [
+    [
+      "pitch_1",
+      40.632000000000005,
+      69.904,
+      1
+    ],
+    [
+      "roll_3",
+      80.616,
+      103.964,
+      0
+    ],
+    [
+      "pitch_2",
+      114.56400000000001,
+      148.71200000000002,
+      1
+    ],
+    [
+      "roll_5",
+      155.268,
+      182.60000000000002,
+      0
+    ]
+  ],
+  "method": "0.5 s RMS of measured gyro, >0.035 rad/s and 1.15x the other tilt axis; quiet gaps >4 s separate groups, duration at least 5 s. Used only to select excited diagnostic intervals."
+}

@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "developer_source_and_installed_urdf_unchanged": true,
+    "frame_tests_passed": 6,
+    "python_compile_passed": true,
+    "all_three_launch_argument_checks_passed": true,
+    "live_tf_passed": true,
+    "live_geometry_passed": true,
+    "upstream_point_lio_clean": true
+  },
+  "source_urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "installed_urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "before_hashes": {
+    "scripts/go2_frames.py": "d8e4874b7c3b4ede61489b7800db26d92d0d50d10bd281bd21478606712db13c",
+    "scripts/check_lidar_tf.py": "b36a1e9aeeee792b280dd0ad82ac36e0e8cbd56b32341cb6bcc9abfc1b60f355",
+    "launch/mapping_sensors.launch.py": "7092071f1164820638c0f798e2fbfba73c016fe948e9fb13224cc9b1c5c69e8a",
+    "launch/go2_visualization.launch.py": "68ee643d35971d55ab0aed7e707560991ecc5ad9ea1cad163b5ca36dc0a6e8f0",
+    "launch/slam/slam_test.launch.py": "d9af64c9f8a2a1975b3d1ba568038e78011af558a6f84a3164cd261e2b0d3333",
+    "tests/test_go2_frames.py": "382793578d68f498b81c88d54cb6af0b42df20ef1a26176a7dec43c67d00eee8",
+    "TF_CONSISTENCY.md": "e7e2d04eb1a5cc8e36e8a85baafddc11df88dcc4b5fabf798e8ba32e4ecbdf38",
+    "POINT_LIO_SETUP.md": "fa7b3008bff33623a342560775c8e40f3a2e5fdd61b763d39cbaeca7e7e78906",
+    "reports/point_lio_steps/STATE.json": "8606ac169895838b371f05ff256c98b69b94d6e47c4cc5cbfda0c9acfb79e8b2"
+  },
+  "current_hashes": {
+    "scripts/go2_frames.py": "e7b2b179a2b33ddb9b065cb5a64d09b081d4ae5ca30ded18a895360ff2e29cef",
+    "scripts/check_lidar_tf.py": "845755a6de48a4b62a822bc918953a3448332d51766e0828c9e797431ad15a83",
+    "launch/mapping_sensors.launch.py": "e61475c4286b5ddd62e4d7b103a5e138adea9a1cdd33c911f0126bf038437376",
+    "launch/go2_visualization.launch.py": "7b418605a57625860e0d4a4842bbded89252c125721e47b513057768afafed45",
+    "launch/slam/slam_test.launch.py": "90fafbe38961196d75f1362d26d0c1551818f84afb47364b7c8e2cc565eb6ea2",
+    "tests/test_go2_frames.py": "7e1bc284d83c4983a8922cff09bfe8a4a779978aa181b59ea098baa162917f12",
+    "TF_CONSISTENCY.md": "ae173dab29a206f196ef3d47053964f1480a62a38388e31d44f9188a4d078542",
+    "POINT_LIO_SETUP.md": "361ace56302b813cffe1308aad6abde4d6e3102beddd4139205dbfc481d94226",
+    "reports/point_lio_steps/STATE.json": "2e46fdac140def13ec0f4421e95079ca00f3e378240e32332a6840c9c6c21fe8"
+  },
+  "new_profile_sha256": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+  "mapping_or_robot_commands_started": false,
+  "awaiting_user_doublecheck": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "stopped",
+  "bag": "/home/jain/Doggy/reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag",
+  "domain": 197,
+  "localhost_only": true,
+  "rate": 1.0,
+  "estimator_started": false,
+  "robot_commands_sent": false,
+  "clock": "Recorded /doggy/robot_clock; RViz remaps /clock to that topic",
+  "view": "Recorded registered scans, recorded canonical TF, recorded developer robot model, reconstructed path from recorded odometry",
+  "rviz_pid": 1205968,
+  "player_pid": 1206010,
+  "topics": [
+    "/point_lio/cloud_registered",
+    "/point_lio/odometry",
+    "/tf",
+    "/tf_static",
+    "/robot_description",
+    "/joint_states",
+    "/doggy/robot_clock"
+  ],
+  "player_returncode": 0,
+  "final_counts": {
+    "poses": 2074,
+    "registered_clouds": 2074,
+    "clocks": 5947,
+    "tf_messages": 10821
+  }
+}

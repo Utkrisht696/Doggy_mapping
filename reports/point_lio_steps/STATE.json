@@ -1,0 +1,363 @@
+{
+  "saved_local": "2026-10-16T22:47:06.301027+11:00",
+  "workflow": "Complete and verify one requirement at a time. Request user double-check before proceeding. Propose application code/config changes before applying them.",
+  "current_step": 7,
+  "steps": [
+    {
+      "number": 1,
+      "name": "Acceleration validity",
+      "status": "Complete for the approved calibrated body-IMU route: held-pose, sitting and standing checks passed; user independently checked output and confirmed standing.",
+      "report": "reports/point_lio_steps/step_01_accelerometer/REPORT.md",
+      "decoder_crosscheck_passed": true,
+      "acceleration_validity_passed": true,
+      "user_topic_echo_review_received": true,
+      "next_input_needed": null,
+      "body_imu_screening": "reports/point_lio_steps/step_01_accelerometer/body_imu_suitability.json",
+      "selected_source": "/sportmodestate.imu_state",
+      "output_topic": "/doggy/imu/body_calibrated",
+      "lidar_imu_repaired": false,
+      "body_input_static_validation_passed": true,
+      "full_dynamic_calibration_passed": false,
+      "user_implementation_approval_received": true,
+      "live_validation": "reports/point_lio_steps/step_01_accelerometer/body_imu_live_validation.json",
+      "user_output_doublecheck_received": true,
+      "standing_confirmation": "reports/point_lio_steps/step_01_accelerometer/standing_user_confirmation.json",
+      "completed_local": "2026-10-16T17:37:17.921504+11:00"
+    },
+    {
+      "number": 2,
+      "name": "Extrinsics and sensor TF",
+      "status": "Complete: approved geometry applied, offline/live checks passed and user independently confirmed both TF lookups.",
+      "report": "reports/point_lio_steps/step_02_geometry/REPORT.md",
+      "proposal": "reports/point_lio_steps/step_02_geometry/geometry_proposal.json",
+      "runtime_sensor_bringup_session": 12713,
+      "user_implementation_approval_received": true,
+      "user_output_doublecheck_received": true,
+      "active_geometry_profile": "config/point_lio/sensor_geometry.json",
+      "live_validation": "reports/point_lio_steps/step_02_geometry/applied_geometry_validation.json",
+      "completed_local": "2026-10-16T18:41:59.089987+11:00",
+      "user_doublecheck": "reports/point_lio_steps/step_02_geometry/user_tf_doublecheck.json"
+    },
+    {
+      "number": 3,
+      "name": "Go2 input profile",
+      "status": "Complete: approved profile applied and parameter loading validated; user accepted the result and requested step 4.",
+      "report": "reports/point_lio_steps/step_03_input_profile/REPORT.md",
+      "proposal": "reports/point_lio_steps/step_03_input_profile/go2_body_imu.review.yaml",
+      "active_profile": "config/point_lio/go2_body_imu.yaml",
+      "user_implementation_approval_received": true,
+      "user_output_doublecheck_received": true,
+      "validation": "reports/point_lio_steps/step_03_input_profile/applied_profile_validation.json",
+      "applied_local": "2026-10-16T18:44:59.739822+11:00",
+      "user_checkpoint_acceptance": "okay nice lets fix the timing issues and validate it",
+      "completed_local": "2026-10-16T18:50:57.200123+11:00"
+    },
+    {
+      "number": 4,
+      "name": "Relative timing and clocks",
+      "status": "Transport/coverage checks pass for tested workloads. Additional motion confirmed; independent cloud-based acquisition-lag fit inconclusive. Zero offset remains provisional. Passive LowState comparison shows ~500 fresh samples/s but replacement timestamp mapping is not yet validated.",
+      "report": "reports/point_lio_steps/step_04_timing/REPORT.md",
+      "capture": "reports/point_lio_steps/step_04_timing/live_timing_capture.npz",
+      "application_configuration_changed": false,
+      "timestamp_transport_passed": true,
+      "acquisition_latency_calibrated": false,
+      "analysis": "reports/point_lio_steps/step_04_timing/timing_analysis.json",
+      "clock_reference_validation": "reports/point_lio_steps/step_04_timing/clock_reference_validation.json",
+      "user_input_needed": null,
+      "recorder_recovery_verification": "reports/point_lio_steps/step_04_timing/recorder_validation_result.json",
+      "relative_imu_response_timing_checked": true,
+      "posture_result": "reports/point_lio_steps/step_04_timing/posture_timing_result.json",
+      "user_output_doublecheck_received": false,
+      "dropout_comparison": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195913+1100/comparison.json",
+      "dropout_report": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100/REPORT.md",
+      "receive_buffer_proposal": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100/receive_buffer_proposal.json",
+      "receive_buffer_user_approval_received": true,
+      "receive_buffer_implementation": "reports/point_lio_steps/step_04_timing/dropout_qos/buffer_test_runtime/implementation.json",
+      "receive_buffer_current_run": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100",
+      "receive_buffer_fix_verified": true,
+      "receive_buffer_result": "reports/point_lio_steps/step_04_timing/dropout_qos/buffer_test_runtime/before_after_result.json",
+      "runtime_configuration_changed": true,
+      "application_code_changed": true,
+      "active_configuration_files_changed": false,
+      "next_adapter_qos_proposal": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100/next_adapter_qos_review/proposal.json",
+      "adapter_qos_user_approval_received": true,
+      "adapter_qos_implementation": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/implementation.json",
+      "adapter_qos_sample_completeness_verified": true,
+      "adapter_delivery_latency_validated": true,
+      "adapter_qos_result": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/result.json",
+      "adapter_qos_report": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/REPORT.md",
+      "adapter_qos_user_output_doublecheck_received": true,
+      "adapter_qos_user_doublecheck": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/user_seated_doublecheck.json",
+      "adapter_delivery_latency_validation_scope": "Tested passive sensors, ten-topic recording, and additional subscriber load; no Point-LIO/RViz workload.",
+      "delivery_delay_result": "reports/point_lio_steps/step_04_timing/delivery_delay/result.json",
+      "delivery_delay_report": "reports/point_lio_steps/step_04_timing/delivery_delay/REPORT.md",
+      "delivery_delay_user_doublecheck_received": true,
+      "final_motion_result": "reports/point_lio_steps/step_04_timing/final_timing_check/result.json",
+      "final_motion_report": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/REPORT.md",
+      "fresh_dynamic_transport_checked": true,
+      "delivery_delay_user_acceptance": "User requested the next timing check, followed by Point-LIO mapping.",
+      "additional_motion_recording": "reports/point_lio_steps/step_04_timing/temporal_motion/current_recording.json",
+      "additional_motion_confirmation": "reports/point_lio_steps/step_04_timing/temporal_motion/motion_confirmation.json",
+      "additional_motion_report": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/REPORT.md",
+      "independent_acquisition_fit_completed": true,
+      "lowstate_comparison_report": "reports/point_lio_steps/step_04_timing/lowstate_comparison/20261016T211531+1100/REPORT.md",
+      "lowstate_source_selected": false
+    },
+    {
+      "number": 5,
+      "name": "Estimator output TF integration",
+      "status": "Launch/output-TF and RViz implemented with user authorization. Seven tests and isolated ROS preview/transport checks passed. Await user GUI verification before any mapping/replay test.",
+      "proposal": "reports/point_lio_steps/step_05_output_tf/TF_PROPOSAL.md",
+      "user_implementation_approval_received": true,
+      "user_authorization": "do 1 and 2 and let me verify it before we begin",
+      "user_output_doublecheck_received": true,
+      "implementation": "reports/point_lio_steps/step_05_output_tf/implementation.json",
+      "verification_guide": "reports/point_lio_steps/step_05_output_tf/VERIFY.md",
+      "estimator_output_live_validated": false,
+      "user_checkpoint_acceptance": "User supplied preview status and said: alright lets test mapping"
+    },
+    {
+      "number": 6,
+      "name": "Saved-bag validation",
+      "status": "Full seed=4000 repeat completed and reviewed by user, who approved live mapping with the same trial settings; active defaults unchanged.",
+      "user_mapping_test_approval_received": true,
+      "report": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100/REPORT.md",
+      "result": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100/result.json",
+      "proposed_next_trial": null,
+      "next_trial_approved": false,
+      "gyro_trial_user_approval_received": true,
+      "gyro_trial_passed": false,
+      "gyro_trial_adopted": false,
+      "seed_trial_user_approval_received": true,
+      "seed_trial_report": "reports/point_lio_steps/step_06_saved_bag/20261016T215126+1100/REPORT.md",
+      "seed_trial_adopted": false,
+      "seed_trial_repeat": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100",
+      "seed_trial_passed_initial_stop_gate": true,
+      "seed_trial_mapping_quality_accepted": false,
+      "user_output_doublecheck_received": true,
+      "user_requested_live_test": true
+    },
+    {
+      "number": 7,
+      "name": "Live manual mapping test",
+      "status": "Two-distance live test saved and analysed against nominal distances and vendor odometry; user review pending",
+      "drive_capture": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100",
+      "restart_capture": "reports/point_lio_steps/step_07_live_test/20261016T221648+1100",
+      "saved_maps": "reports/point_lio_steps/step_07_live_test/saved_maps",
+      "user_confirmed_manual_movement": true,
+      "first_run_stop_initiated_by": "assistant, before user motion confirmation; not evidence of stationary drift",
+      "robot_commands_sent": false,
+      "drift_review": "reports/point_lio_steps/step_07_live_test/drift_review/REPORT.md",
+      "drift_review_summary": "Continuous mapping with centimetre stationary wander and good drain revisit height consistency; residual vertical/attitude accuracy concern relative to user lowest-point constraint; absolute horizontal drift not independently measured.",
+      "user_terrain_reference": "Drain at first right turn is lower than other route sections",
+      "mapping_quality_fully_validated": false,
+      "current_accuracy_test": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100",
+      "accuracy_report": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/REPORT.md",
+      "accuracy_conclusion": "Point-LIO agrees much more closely with user-reported 3 m and 5 m distances and has smaller estimated return offsets than vendor odometry. Starting floor repeats within millimetres on median; absolute height accuracy along the route is not independently established."
+    }
+  ],
+  "application_code_or_configuration_changed": true,
+  "robot_commands_sent": false,
+  "mapping_or_replay_started": true,
+  "access_constraints": {
+    "topics_only": true,
+    "ssh_available": false,
+    "unitree_app_available": false,
+    "factory_calibration_files_available": false
+  },
+  "approved_changes": [
+    "scripts/publish_body_imu.py",
+    "config/point_lio/body_imu_calibration.json",
+    "scripts/go2_frames.py",
+    "launch/mapping_sensors.launch.py",
+    "launch/go2_visualization.launch.py",
+    "launch/slam/slam_test.launch.py",
+    "config/point_lio/sensor_geometry.json",
+    "scripts/check_lidar_tf.py",
+    "tests/test_go2_frames.py",
+    "config/point_lio/go2_body_imu.yaml",
+    "scripts/point_lio_tf.py",
+    "scripts/publish_point_lio_tf.py",
+    "scripts/start_point_lio.sh",
+    "launch/point_lio_go2.launch.py",
+    "config/point_lio/cyclonedds_live.xml",
+    "config/point_lio/go2_point_lio.rviz",
+    "config/point_lio/go2_point_lio_preview.rviz",
+    "tests/test_point_lio_tf.py"
+  ],
+  "runtime": {
+    "body_imu_adapter": "running unchanged",
+    "session_id": 4424,
+    "pid_file": "reports/point_lio_steps/step_01_accelerometer/body_imu_adapter.pid",
+    "output_topic": "/doggy/imu/body_calibrated",
+    "frame": "imu",
+    "point_lio": "stopped after user completed two-distance test",
+    "new_tf": "radar -> utlidar_lidar, sole RSP owner",
+    "sensor_bringup": "running headless with approved temporary DDS receive-buffer profile",
+    "sensor_bringup_session": 79938,
+    "body_imu_interruption": "Original session 55738 exited 1. Existing log reports out-of-range source quaternion. Independent of isolated replay; no restart/guard changes.",
+    "posture_timing_recording": {
+      "directory": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100",
+      "bag": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/bag",
+      "log": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/record.log",
+      "qos": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/record_qos.yaml",
+      "topics": [
+        "/utlidar/cloud",
+        "/utlidar/cloud_base",
+        "/utlidar/imu",
+        "/doggy/imu/body_calibrated",
+        "/sportmodestate",
+        "/utlidar/robot_odom",
+        "/utlidar/lidar_state",
+        "/doggy/robot_clock",
+        "/tf",
+        "/tf_static"
+      ],
+      "status": "stopped_saved",
+      "user_posture": "Standing and settled; user replied ready again",
+      "robot_commands_sent": false,
+      "wrapper_pid": 1133662,
+      "started_host_ns": 1792138658220924515,
+      "pid": 1133685,
+      "session_id": 3690,
+      "verification": "Recorder alive for 13-second check; all ten topics subscribed; database file growing; no recorder errors. No database connection opened.",
+      "startup_file_sizes": [
+        {
+          "host_ns": 1792138682849469068,
+          "bytes": 71045120
+        },
+        {
+          "host_ns": 1792138683851190825,
+          "bytes": 74104832
+        },
+        {
+          "host_ns": 1792138684853102800,
+          "bytes": 77332480
+        },
+        {
+          "host_ns": 1792138685854793529,
+          "bytes": 80375808
+        },
+        {
+          "host_ns": 1792138686855945459,
+          "bytes": 83591168
+        },
+        {
+          "host_ns": 1792138687856854899,
+          "bytes": 86654976
+        },
+        {
+          "host_ns": 1792138688857978860,
+          "bytes": 89899008
+        },
+        {
+          "host_ns": 1792138689858954153,
+          "bytes": 92946432
+        },
+        {
+          "host_ns": 1792138690860102053,
+          "bytes": 96178176
+        },
+        {
+          "host_ns": 1792138691862156028,
+          "bytes": 99237888
+        },
+        {
+          "host_ns": 1792138692863882842,
+          "bytes": 102285312
+        },
+        {
+          "host_ns": 1792138693864951292,
+          "bytes": 105525248
+        },
+        {
+          "host_ns": 1792138694866183192,
+          "bytes": 108580864
+        }
+      ],
+      "cue_host_ns": 1792138739484015700,
+      "cue_local": "2026-10-16T19:18:59.484619+11:00",
+      "planned_sequence": "10 s still; gentle alternating pitch 4-5 times; neutral 5 s; gentle alternating roll 4-5 times; neutral still 10 s; user done. Comfortable small angles, no exact 5-degree requirement; feet planted; no automated movement.",
+      "returncode": -2,
+      "stopped_host_ns": 1792138841487432889,
+      "stop_reason": "User done; SIGINT stop completed with recorder flush, metadata and database checks. CLI return -2 reflects interrupt, not a recording failure.",
+      "stored_topic_counts": {
+        "/doggy/imu/body_calibrated": 53394,
+        "/tf": 11295,
+        "/tf_static": 1,
+        "/doggy/robot_clock": 7664,
+        "/sportmodestate": 54090,
+        "/utlidar/cloud_base": 2793,
+        "/utlidar/cloud": 2792,
+        "/utlidar/imu": 44776,
+        "/utlidar/lidar_state": 906,
+        "/utlidar/robot_odom": 27346
+      },
+      "stored_receipt_start_ns": 1792138660010894397,
+      "stored_receipt_end_ns": 1792138841221493988,
+      "metadata_message_count_matches": true
+    },
+    "posture_timing_recorder": "stopped_saved; fresh two-block manual recording verified and analysed",
+    "qos_comparison": "completed; all diagnostic observers and recorders stopped",
+    "body_imu_pid": 1201330,
+    "temporary_dds_profile": "reports/point_lio_steps/step_04_timing/dropout_qos/buffer_test_runtime/cyclonedds.buffer_test.xml",
+    "kernel_rmem_max": 8388608,
+    "profiling": "stopped; ordinary adapter restored",
+    "laptop_power_profile": "performance, selected by user",
+    "latest_timing_motion_recording": {
+      "directory": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100",
+      "bag": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/bag",
+      "status": "stopped_saved",
+      "session_id": 20561
+    },
+    "additional_temporal_motion_recording": {
+      "directory": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100",
+      "bag": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/bag",
+      "session_id": 60461,
+      "status": "stopped_saved",
+      "automatic_limit_seconds": 300,
+      "topics": [
+        "/utlidar/cloud",
+        "/utlidar/cloud_base",
+        "/utlidar/imu",
+        "/doggy/imu/body_calibrated",
+        "/sportmodestate",
+        "/utlidar/robot_odom",
+        "/utlidar/lidar_state",
+        "/doggy/robot_clock",
+        "/tf",
+        "/tf_static",
+        "/odom",
+        "/joint_states",
+        "/robot_description"
+      ],
+      "user_confirmed_clear_space_and_cable_slack": true,
+      "robot_commands_sent": false,
+      "recording_verified": true,
+      "motion_plot": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/motion_overview.png",
+      "motion_confirmation_pending": false
+    },
+    "point_lio_preview": "stopped",
+    "rviz": "live accuracy-test RViz stopped cleanly",
+    "saved_bag_test": {
+      "directory": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100",
+      "status": "stopped_saved",
+      "robot_commands_sent": false
+    },
+    "live_adapter_status": "reports/point_lio_steps/step_06_saved_bag/20261016T214343+1100/live_adapter_status.json",
+    "live_mapping": {
+      "directory": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100",
+      "status": "stopped_saved_and_analysed",
+      "report": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/REPORT.md"
+    },
+    "bag_replay": "isolated saved-bag viewer stopped before new live test",
+    "drift_review": "reports/point_lio_steps/step_07_live_test/drift_review/REPORT.md",
+    "latest_accuracy_test": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/summary.json"
+  },
+  "approved_runtime_changes": {
+    "kernel_rmem_max": 8388608,
+    "dds_receive_buffer_request_bytes": 8388608,
+    "temporary_until_reboot": true,
+    "active_config_files_unchanged": true
+  }
+}

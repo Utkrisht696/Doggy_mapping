@@ -1,0 +1,175 @@
+{
+  "saved_local": "2026-10-16T20:34:35.615000+11:00",
+  "power_saver_trace": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T202514+1100",
+  "performance_trace": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T203011+1100",
+  "comparisons": [
+    {
+      "phase": "baseline",
+      "power_saver": {
+        "delay_ms": {
+          "min": -1.967269,
+          "median": 1.262413,
+          "p95": 2.043830049999998,
+          "p99": 23.38195257999985,
+          "max": 56.373983
+        },
+        "adapter_median_cpu_percent_one_core": 67.98823755898464,
+        "host_median_busy_percent": 30.534351145038162
+      },
+      "performance": {
+        "delay_ms": {
+          "min": -1.136966,
+          "median": 0.013401,
+          "p95": 0.60509675,
+          "p99": 0.6326784999999999,
+          "max": 1.168247
+        },
+        "adapter_median_cpu_percent_one_core": 14.992270644915388,
+        "host_median_busy_percent": 7.954545454545459,
+        "missing_output_timestamps": 0,
+        "source_unique_samples": 6526
+      }
+    },
+    {
+      "phase": "recording_only_before",
+      "power_saver": {
+        "delay_ms": {
+          "min": 0.044439,
+          "median": 1.355275,
+          "p95": 2.003825,
+          "p99": 3.1457895600000048,
+          "max": 16.241286
+        },
+        "adapter_median_cpu_percent_one_core": 75.96124206757614,
+        "host_median_busy_percent": 42.87564766839378
+      },
+      "performance": {
+        "delay_ms": {
+          "min": 0.006408,
+          "median": 0.0154605,
+          "p95": 0.6107522999999999,
+          "p99": 0.64613673,
+          "max": 3.498871
+        },
+        "adapter_median_cpu_percent_one_core": 15.994049046189236,
+        "host_median_busy_percent": 9.75918884664132,
+        "missing_output_timestamps": 0,
+        "source_unique_samples": 9558
+      }
+    },
+    {
+      "phase": "recording_with_old_probes",
+      "power_saver": {
+        "delay_ms": {
+          "min": 0.043856,
+          "median": 1.803862,
+          "p95": 14.440231500000003,
+          "p99": 209.36245098000015,
+          "max": 309.182004
+        },
+        "adapter_median_cpu_percent_one_core": 83.98930874892142,
+        "host_median_busy_percent": 78.73711340206185
+      },
+      "performance": {
+        "delay_ms": {
+          "min": -0.029382,
+          "median": 0.5970424999999999,
+          "p95": 0.6603457999999999,
+          "p99": 1.2114446199999995,
+          "max": 3.770128
+        },
+        "adapter_median_cpu_percent_one_core": 20.991907703547913,
+        "host_median_busy_percent": 19.721871049304674,
+        "missing_output_timestamps": 0,
+        "source_unique_samples": 9562
+      }
+    },
+    {
+      "phase": "recording_only_after",
+      "power_saver": {
+        "delay_ms": {
+          "min": 0.046401,
+          "median": 1.3536324999999998,
+          "p95": 2.0665983,
+          "p99": 10.651261509999953,
+          "max": 71.895072
+        },
+        "adapter_median_cpu_percent_one_core": 75.96564575215892,
+        "host_median_busy_percent": 43.11688311688312
+      },
+      "performance": {
+        "delay_ms": {
+          "min": 0.006449,
+          "median": 0.016532,
+          "p95": 0.6136512,
+          "p99": 0.64615505,
+          "max": 4.980201
+        },
+        "adapter_median_cpu_percent_one_core": 15.994375849636866,
+        "host_median_busy_percent": 10.288582183186957,
+        "missing_output_timestamps": 0,
+        "source_unique_samples": 9560
+      }
+    },
+    {
+      "phase": "recovery",
+      "power_saver": {
+        "delay_ms": {
+          "min": -1.949995,
+          "median": 1.2769425,
+          "p95": 3.410893599999999,
+          "p99": 39.9868327099999,
+          "max": 62.650902
+        },
+        "adapter_median_cpu_percent_one_core": 69.9724197410073,
+        "host_median_busy_percent": 31.443298969072163
+      },
+      "performance": {
+        "delay_ms": {
+          "min": 0.005616,
+          "median": 0.01324,
+          "p95": 0.6036237999999999,
+          "p99": 0.6355633399999999,
+          "max": 2.32913
+        },
+        "adapter_median_cpu_percent_one_core": 13.999800740836056,
+        "host_median_busy_percent": 7.458912768647286,
+        "missing_output_timestamps": 0,
+        "source_unique_samples": 3572
+      }
+    }
+  ],
+  "performance_total_interior_source_samples": 38778,
+  "performance_observed_missing_output_timestamps": 0,
+  "performance_largest_relative_delay_ms": 4.980201,
+  "performance_largest_phase_p99_ms": 1.2114446199999995,
+  "network_overflows_power_saver": 0,
+  "network_overflows_performance": 0,
+  "passive_delivery_check_passed": true,
+  "diagnosis": "Power-saver mode kept CPU frequencies near 800-900 MHz. Four extra Python diagnostic source subscribers increased CPU occupancy and runnable scheduling delay. User-selected Performance mode raised sampled frequency to about 4.2 GHz, reduced adapter CPU use and eliminated large delivery backlog in the repeated workload. This strongly supports CPU/power-profile contention amplified by audit workload, rather than a constant timestamp offset.",
+  "change": "User independently changed laptop profile to Performance; agent did not change application code, settings, TF, calibration or timestamps and did not restart sensor processes.",
+  "current_power_profile": "performance",
+  "normal_sensor_processes_remained_running": true,
+  "adapter_pid_unchanged": 1155223,
+  "robot_commands_sent": false,
+  "mapping_or_replay_started": false,
+  "diagnostic_recorder_and_observers_stopped": true,
+  "user_result_doublecheck_pending": true,
+  "timing_step_complete": false,
+  "remaining": [
+    "Physical LiDAR-cloud/body-IMU acquisition offset remains uncalibrated.",
+    "Point-LIO processing and RViz workload were not exercised; live estimator CPU headroom still needs validation in its own authorized stage.",
+    "Receive-buffer setup remains temporary and needs reapplication after laptop reboot."
+  ],
+  "measurement_limits": [
+    "One continuous A/B/A trial; phase ordering, startup and host workload may confound causality.",
+    "Only observed source messages are the reference, not all samples produced inside robot.",
+    "Raw observer polls both subscriptions and reads source first; sub-millisecond relative timing can be biased by polling/order.",
+    "DDS output source_timestamp is host write time, not sensor acquisition time.",
+    "No physical clock-offset or LiDAR-IMU calibration inferred.",
+    "No application code change, process restart, robot motion command or mapping was performed.",
+    "Phase interiors exclude first 5 and last 3 seconds to avoid process-start/stop transitions; transitions where the observer blocks waiting for probes are not latency measurements.",
+    "Sub-millisecond values are limited by observer polling/order; interpret the millisecond tail bounds rather than treating the small median as exact adapter compute latency.",
+    "The two power-profile traces are successive live samples, not an identical-packet replay or proof of every possible future worst case."
+  ]
+}

@@ -1,0 +1,690 @@
+{
+  "lag_sign_convention": "delta = body event timestamp minus LiDAR-IMU event timestamp; compare body(t+delta) with R*lidar_gyro(t). Positive delta would be subtracted from body IMU stamps by Point-LIO time_lag_imu_to_lidar.",
+  "comparison_type": "Sensor gyro response delay; internal LiDAR gyro->cloud hardware synchronization is not proven by this test. Fixed reviewed raw-cloud rotation used for gyro axes, as supported by prior bag.",
+  "body_rpy_range_degrees": [
+    [
+      -33.50093878115142,
+      34.567839790355265
+    ],
+    [
+      -17.837683487406387,
+      17.740758186883564
+    ],
+    [
+      -5.9785379956067155,
+      -0.6472591251887289
+    ]
+  ],
+  "phase_fits": [
+    {
+      "phase": "pitch_1",
+      "axis": 1,
+      "window_source_s": [
+        40.632000000000005,
+        69.904
+      ],
+      "zero_phase_lowpass_hz": 3.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.0040241434578840414,
+      "rmse_best_rad_s": 0.003878282736103964,
+      "correlation_best": 0.9996705344054174,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0072668076437918,
+      "constant_body_minus_lidar_offset_rad_s": 0.0032383021035124575,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0014999999999998348,
+        -0.0004999999999998339
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_3",
+      "axis": 0,
+      "window_source_s": [
+        80.616,
+        103.964
+      ],
+      "zero_phase_lowpass_hz": 3.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.0059393777344200985,
+      "rmse_best_rad_s": 0.004863234043274307,
+      "correlation_best": 0.9999855336029677,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9874047842362552,
+      "constant_body_minus_lidar_offset_rad_s": 0.00906940086309114,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_2",
+      "axis": 1,
+      "window_source_s": [
+        114.56400000000001,
+        148.71200000000002
+      ],
+      "zero_phase_lowpass_hz": 3.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.008903660947635736,
+      "rmse_best_rad_s": 0.00865533477216934,
+      "correlation_best": 0.9983841541502869,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0009518209040054,
+      "constant_body_minus_lidar_offset_rad_s": -0.006027197768277891,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0034999999999998366,
+        -0.0004999999999998339
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_5",
+      "axis": 0,
+      "window_source_s": [
+        155.268,
+        182.60000000000002
+      ],
+      "zero_phase_lowpass_hz": 3.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.042643618368625326,
+      "rmse_best_rad_s": 0.042599107449605676,
+      "correlation_best": 0.9889278403022981,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.989521085212756,
+      "constant_body_minus_lidar_offset_rad_s": -0.010556712342495953,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.006499999999999839,
+        0.0045000000000001705
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_1",
+      "axis": 1,
+      "window_source_s": [
+        40.632000000000005,
+        69.904
+      ],
+      "zero_phase_lowpass_hz": 5.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.004391365961655112,
+      "rmse_best_rad_s": 0.0040846058483781,
+      "correlation_best": 0.9996690604972537,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0070575673483533,
+      "constant_body_minus_lidar_offset_rad_s": 0.0032374224605840655,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0014999999999998348,
+        -0.0004999999999998339
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_3",
+      "axis": 0,
+      "window_source_s": [
+        80.616,
+        103.964
+      ],
+      "zero_phase_lowpass_hz": 5.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.006939891959628597,
+      "rmse_best_rad_s": 0.00521678553132387,
+      "correlation_best": 0.9999771602153045,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9874417893861667,
+      "constant_body_minus_lidar_offset_rad_s": 0.00906932419725656,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_2",
+      "axis": 1,
+      "window_source_s": [
+        114.56400000000001,
+        148.71200000000002
+      ],
+      "zero_phase_lowpass_hz": 5.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.009176746800737393,
+      "rmse_best_rad_s": 0.0088041025826768,
+      "correlation_best": 0.9984614654000984,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0011696379673816,
+      "constant_body_minus_lidar_offset_rad_s": -0.00602674440412767,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.002999999999999836,
+        -0.0004999999999998339
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_5",
+      "axis": 0,
+      "window_source_s": [
+        155.268,
+        182.60000000000002
+      ],
+      "zero_phase_lowpass_hz": 5.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.042872339163224554,
+      "rmse_best_rad_s": 0.04273265770764116,
+      "correlation_best": 0.9896863463231237,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9894496172231273,
+      "constant_body_minus_lidar_offset_rad_s": -0.010556285462106598,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.005499999999999838,
+        0.0025000000000001688
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_1",
+      "axis": 1,
+      "window_source_s": [
+        40.632000000000005,
+        69.904
+      ],
+      "zero_phase_lowpass_hz": 10.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.005243977474826865,
+      "rmse_best_rad_s": 0.004898932558095131,
+      "correlation_best": 0.9995267431799316,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0069657919559292,
+      "constant_body_minus_lidar_offset_rad_s": 0.003240891808508836,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0014999999999998348,
+        -0.0004999999999998339
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_3",
+      "axis": 0,
+      "window_source_s": [
+        80.616,
+        103.964
+      ],
+      "zero_phase_lowpass_hz": 10.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.008707062689855414,
+      "rmse_best_rad_s": 0.006277032404220015,
+      "correlation_best": 0.9999363619152306,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9873783328918587,
+      "constant_body_minus_lidar_offset_rad_s": 0.009069434446115826,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_2",
+      "axis": 1,
+      "window_source_s": [
+        114.56400000000001,
+        148.71200000000002
+      ],
+      "zero_phase_lowpass_hz": 10.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.009639936295730657,
+      "rmse_best_rad_s": 0.009206578878707515,
+      "correlation_best": 0.9983515607881196,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0010184674043843,
+      "constant_body_minus_lidar_offset_rad_s": -0.0060279641822289995,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.002999999999999836,
+        -0.0009999999999998344
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_5",
+      "axis": 0,
+      "window_source_s": [
+        155.268,
+        182.60000000000002
+      ],
+      "zero_phase_lowpass_hz": 10.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.04318720493032519,
+      "rmse_best_rad_s": 0.04293766626730265,
+      "correlation_best": 0.9899985177987726,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9891293077037387,
+      "constant_body_minus_lidar_offset_rad_s": -0.010558574372292143,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.003999999999999837,
+        0.0015000000000001679
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_1",
+      "axis": 1,
+      "window_source_s": [
+        40.632000000000005,
+        69.904
+      ],
+      "zero_phase_lowpass_hz": 20.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.006475077854833401,
+      "rmse_best_rad_s": 0.0061391227647323784,
+      "correlation_best": 0.9992442473919938,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0067157563092817,
+      "constant_body_minus_lidar_offset_rad_s": 0.0032441285637994015,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0004999999999998339
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_3",
+      "axis": 0,
+      "window_source_s": [
+        80.616,
+        103.964
+      ],
+      "zero_phase_lowpass_hz": 20.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.010918015155077246,
+      "rmse_best_rad_s": 0.007661510658936456,
+      "correlation_best": 0.9998707505898842,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9871428103336626,
+      "constant_body_minus_lidar_offset_rad_s": 0.009069325309951685,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch_2",
+      "axis": 1,
+      "window_source_s": [
+        114.56400000000001,
+        148.71200000000002
+      ],
+      "zero_phase_lowpass_hz": 20.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0019999999999998352,
+      "rmse_zero_rad_s": 0.010420001984490616,
+      "rmse_best_rad_s": 0.009923771673641828,
+      "correlation_best": 0.9980955467470669,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0006296645701944,
+      "constant_body_minus_lidar_offset_rad_s": -0.006029150056110476,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.002999999999999836,
+        -0.0009999999999998344
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll_5",
+      "axis": 0,
+      "window_source_s": [
+        155.268,
+        182.60000000000002
+      ],
+      "zero_phase_lowpass_hz": 20.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.04364770579462397,
+      "rmse_best_rad_s": 0.0432006893272731,
+      "correlation_best": 0.9900362517249175,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9885319864675743,
+      "constant_body_minus_lidar_offset_rad_s": -0.010559196464796137,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0034999999999998366,
+        0.000500000000000167
+      ],
+      "lag_search_boundary_hit": false
+    }
+  ],
+  "short_window_fits": [
+    {
+      "phase": "pitch_1",
+      "start_s": 40.632000000000005,
+      "end_s": 46.632000000000005,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9991386089076556,
+      "rmse_rad_s": 0.004546908630534578
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 43.632000000000005,
+      "end_s": 49.632000000000005,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9998371499602722,
+      "rmse_rad_s": 0.002901485776926856
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 46.632000000000005,
+      "end_s": 52.632000000000005,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9998414429917541,
+      "rmse_rad_s": 0.0027593323537507216
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 49.632000000000005,
+      "end_s": 55.632000000000005,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999611632575145,
+      "rmse_rad_s": 0.002115346514175997
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 52.632000000000005,
+      "end_s": 58.632000000000005,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9999424926380132,
+      "rmse_rad_s": 0.001976588529894725
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 55.632000000000005,
+      "end_s": 61.632000000000005,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9996955408949877,
+      "rmse_rad_s": 0.00390281130100005
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 58.632000000000005,
+      "end_s": 64.632,
+      "lag_s": 0.0010000000000001674,
+      "corr": 0.9992240364003235,
+      "rmse_rad_s": 0.003992271604600898
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 61.632000000000005,
+      "end_s": 67.632,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9995656376297194,
+      "rmse_rad_s": 0.002972009724639943
+    },
+    {
+      "phase": "pitch_1",
+      "start_s": 64.632,
+      "end_s": 70.632,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999482421293763,
+      "rmse_rad_s": 0.0019862151677195513
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 80.616,
+      "end_s": 86.616,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999650912304834,
+      "rmse_rad_s": 0.003287244087698649
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 83.616,
+      "end_s": 89.616,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999778756222888,
+      "rmse_rad_s": 0.00467889027861726
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 86.616,
+      "end_s": 92.616,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999473635658122,
+      "rmse_rad_s": 0.0045162114284693616
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 89.616,
+      "end_s": 95.616,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999819775425647,
+      "rmse_rad_s": 0.0064513048762360435
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 92.616,
+      "end_s": 98.616,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999882671579694,
+      "rmse_rad_s": 0.006467321486511796
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 95.616,
+      "end_s": 101.616,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999884220121068,
+      "rmse_rad_s": 0.0052233309106689794
+    },
+    {
+      "phase": "roll_3",
+      "start_s": 98.616,
+      "end_s": 104.616,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999799750195666,
+      "rmse_rad_s": 0.004867956054637063
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 114.56400000000001,
+      "end_s": 120.56400000000001,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9985878556752102,
+      "rmse_rad_s": 0.005776024486433211
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 117.56400000000001,
+      "end_s": 123.56400000000001,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9953394741204686,
+      "rmse_rad_s": 0.01721350616624784
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 120.56400000000001,
+      "end_s": 126.56400000000001,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9945364322243213,
+      "rmse_rad_s": 0.018071023611323726
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 123.56400000000001,
+      "end_s": 129.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9998776752255732,
+      "rmse_rad_s": 0.0019862940822675734
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 126.56400000000001,
+      "end_s": 132.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999061855790103,
+      "rmse_rad_s": 0.0017886940676770616
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 129.56400000000002,
+      "end_s": 135.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9998696459158272,
+      "rmse_rad_s": 0.0026306842218339977
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 132.56400000000002,
+      "end_s": 138.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9998753928552581,
+      "rmse_rad_s": 0.0023873320368934053
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 135.56400000000002,
+      "end_s": 141.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999147935998184,
+      "rmse_rad_s": 0.0018765741514920474
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 138.56400000000002,
+      "end_s": 144.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9998954525097081,
+      "rmse_rad_s": 0.0020797158545899333
+    },
+    {
+      "phase": "pitch_2",
+      "start_s": 141.56400000000002,
+      "end_s": 147.56400000000002,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999457702822182,
+      "rmse_rad_s": 0.0019893985204579904
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 155.268,
+      "end_s": 161.268,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999826756909401,
+      "rmse_rad_s": 0.004445515423861143
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 158.268,
+      "end_s": 164.268,
+      "lag_s": -0.0024999999999998357,
+      "corr": 0.9993238475466234,
+      "rmse_rad_s": 0.006292641859188725
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 161.268,
+      "end_s": 167.268,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9586946081265869,
+      "rmse_rad_s": 0.059911511185590884
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 164.268,
+      "end_s": 170.268,
+      "lag_s": -0.002999999999999836,
+      "corr": 0.9888884060255346,
+      "rmse_rad_s": 0.05503344378399208
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 167.268,
+      "end_s": 173.268,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9859878167299838,
+      "rmse_rad_s": 0.04349220263270527
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 170.268,
+      "end_s": 176.268,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999381168907899,
+      "rmse_rad_s": 0.004980952041575582
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 173.268,
+      "end_s": 179.268,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999500436097588,
+      "rmse_rad_s": 0.003603265645110427
+    },
+    {
+      "phase": "roll_5",
+      "start_s": 176.268,
+      "end_s": 182.268,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999898435927849,
+      "rmse_rad_s": 0.004728148102142514
+    }
+  ],
+  "quality": {
+    "body": {
+      "messages": 60810,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        0.497292,
+        3.965792,
+        4.127159,
+        7.681614359999904,
+        35.957254
+      ]
+    },
+    "sport": {
+      "messages": 61663,
+      "backsteps": 0,
+      "duplicates": 884,
+      "interval_ms_quantiles": [
+        0.0,
+        3.963167,
+        4.12516075,
+        7.562010249999991,
+        35.957254
+      ]
+    },
+    "lidar_imu": {
+      "messages": 51318,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        0.079155,
+        4.478931,
+        6.330632999999998,
+        9.181661679999998,
+        19.432067
+      ]
+    },
+    "cloud": {
+      "messages": 3200,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        52.626133,
+        64.918995,
+        67.66877199999999,
+        70.0132656,
+        76.877832
+      ]
+    },
+    "odom": {
+      "messages": 31229,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        4.000425,
+        6.658554,
+        7.421481749999999,
+        10.753896369999998,
+        24.492026
+      ]
+    },
+    "clock": {
+      "messages": 8794,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        20.000219,
+        23.553133,
+        26.832914600000002,
+        28.921575599999997,
+        41.303634
+      ]
+    }
+  },
+  "no_configuration_changes": true,
+  "no_mapper_or_bag_replay": true
+}

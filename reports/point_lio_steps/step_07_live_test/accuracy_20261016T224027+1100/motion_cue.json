@@ -1,0 +1,9 @@
+{
+  "cue_local": "2026-10-16T22:41:28.788820+11:00",
+  "cue_host_ns": 1792150888788848092,
+  "message": "Continue the manual route; return to marked start and heading, remain still 20 seconds at the end",
+  "observed_pose_travel_before_formal_cue": true,
+  "stationary_interval_must_be_determined_from_recorded_motion_not_phase_label": true,
+  "no_stop_requested_for_pose_travel": true,
+  "robot_commands_sent": false
+}

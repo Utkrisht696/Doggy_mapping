@@ -1,0 +1,34 @@
+{
+  "saved_local": "2026-10-16T20:20:50.204872+11:00",
+  "user_reported_posture": "sitting",
+  "user_independent_echo_received": true,
+  "source_stamps": [
+    [
+      1792142391,
+      48338809
+    ],
+    [
+      1792142394,
+      993992455
+    ],
+    [
+      1792142398,
+      704086745
+    ]
+  ],
+  "all_frame_ids": "imu",
+  "acceleration_norms_m_s2": [
+    9.831288997260161,
+    9.813112584351115,
+    9.860903248157985
+  ],
+  "orientation_pitch_degrees": [
+    -5.88613069748739,
+    -5.9069378719286165,
+    -5.911718912878096
+  ],
+  "interpretation": "Seated tilt plausibly explains forward specific force; approximate gravity-vector agreement, not proof of precise bias or alignment calibration.",
+  "remaining": "Three isolated echoes do not validate delivery latency, sample continuity or cloud acquisition timing.",
+  "code_changed": false,
+  "timing_step_complete": false
+}

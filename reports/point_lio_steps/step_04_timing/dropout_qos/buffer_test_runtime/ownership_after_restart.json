@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "two_tf_owners": true,
+    "one_static_tf_owner": true,
+    "one_clock_owner": true,
+    "one_body_imu_owner": true
+  },
+  "publishers": {
+    "/tf": [
+      "go2_robot_state_publisher",
+      "doggy_go2_state"
+    ],
+    "/tf_static": [
+      "go2_robot_state_publisher"
+    ],
+    "/doggy/robot_clock": [
+      "doggy_go2_state"
+    ],
+    "/doggy/imu/body_calibrated": [
+      "doggy_body_imu"
+    ]
+  }
+}

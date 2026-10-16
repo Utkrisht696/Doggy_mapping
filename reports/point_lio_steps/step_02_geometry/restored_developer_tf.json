@@ -1,0 +1,772 @@
+{
+  "checked_local": "2026-10-16T17:43:07.744769+11:00",
+  "scope": "Existing sensor-only launch restored without application changes, RViz, mapping or robot commands. Raw measurement frame proposal remains unapplied.",
+  "message_info_keys": [
+    "received_timestamp",
+    "source_timestamp"
+  ],
+  "topic_publishers": {
+    "/tf": [
+      {
+        "name": "go2_robot_state_publisher",
+        "gid": "011084763615cc5548c89977000016030000000000000000"
+      },
+      {
+        "name": "doggy_go2_state",
+        "gid": "0110ab4cd6f65ae3d8eb1910000017030000000000000000"
+      }
+    ],
+    "/tf_static": [
+      {
+        "name": "go2_robot_state_publisher",
+        "gid": "011084763615cc5548c89977000017030000000000000000"
+      }
+    ]
+  },
+  "tf_edges": {
+    "FL_calf_rotor": {
+      "parents": [
+        "FL_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        -0.03235,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FL_calflower1": {
+      "parents": [
+        "FL_calflower"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.01,
+        0.0,
+        -0.04
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.2377026264271346,
+        0.0,
+        0.9713379748520296
+      ]
+    },
+    "FL_calflower": {
+      "parents": [
+        "FL_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.024997395914712332,
+        0.0,
+        0.9996875162757025
+      ]
+    },
+    "FL_foot": {
+      "parents": [
+        "FL_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FL_hip_rotor": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.11215,
+        0.04675,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FL_thigh_rotor": {
+      "parents": [
+        "FL_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        -0.00015,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FR_calf_rotor": {
+      "parents": [
+        "FR_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.03235,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FR_calflower1": {
+      "parents": [
+        "FR_calflower"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.01,
+        0.0,
+        -0.04
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.2377026264271346,
+        0.0,
+        0.9713379748520296
+      ]
+    },
+    "FR_calflower": {
+      "parents": [
+        "FR_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.024997395914712332,
+        0.0,
+        0.9996875162757025
+      ]
+    },
+    "FR_foot": {
+      "parents": [
+        "FR_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FR_hip_rotor": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.11215,
+        -0.04675,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "FR_thigh_rotor": {
+      "parents": [
+        "FR_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.00015,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Head_lower": {
+      "parents": [
+        "Head_upper"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.008,
+        0.0,
+        -0.07
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Head_upper": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.285,
+        0.0,
+        0.01
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RL_calf_rotor": {
+      "parents": [
+        "RL_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        -0.03235,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RL_calflower1": {
+      "parents": [
+        "RL_calflower"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.01,
+        0.0,
+        -0.04
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.2377026264271346,
+        0.0,
+        0.9713379748520296
+      ]
+    },
+    "RL_calflower": {
+      "parents": [
+        "RL_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.024997395914712332,
+        0.0,
+        0.9996875162757025
+      ]
+    },
+    "RL_foot": {
+      "parents": [
+        "RL_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RL_hip_rotor": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.11215,
+        0.04675,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RL_thigh_rotor": {
+      "parents": [
+        "RL_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        -0.00015,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RR_calf_rotor": {
+      "parents": [
+        "RR_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.03235,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RR_calflower1": {
+      "parents": [
+        "RR_calflower"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.01,
+        0.0,
+        -0.04
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.2377026264271346,
+        0.0,
+        0.9713379748520296
+      ]
+    },
+    "RR_calflower": {
+      "parents": [
+        "RR_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.02,
+        0.0,
+        -0.148
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.024997395914712332,
+        0.0,
+        0.9996875162757025
+      ]
+    },
+    "RR_foot": {
+      "parents": [
+        "RR_calf"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RR_hip_rotor": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.11215,
+        -0.04675,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "RR_thigh_rotor": {
+      "parents": [
+        "RR_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.00015,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "front_camera": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.32715,
+        -3e-05,
+        0.04297
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "imu": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.02557,
+        0.0,
+        0.04232
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "radar": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.28945,
+        0.0,
+        -0.046825
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.9913405653290647,
+        0.0,
+        0.13131596830945733
+      ]
+    },
+    "FL_calf": {
+      "parents": [
+        "FL_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        -0.6337798582416241,
+        0.0,
+        0.7735134719494076
+      ]
+    },
+    "FL_hip": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.1934,
+        0.0465,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.004045747359458665,
+        0.0,
+        0.0,
+        0.9999918159306622
+      ]
+    },
+    "FL_thigh": {
+      "parents": [
+        "FL_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0955,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.3245890250043474,
+        0.0,
+        0.9458551500344686
+      ]
+    },
+    "FR_calf": {
+      "parents": [
+        "FR_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        -0.6277059046393914,
+        0.0,
+        0.7784505747193224
+      ]
+    },
+    "FR_hip": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.1934,
+        -0.0465,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        -0.0010180061787374664,
+        0.0,
+        0.0,
+        0.9999994818315758
+      ]
+    },
+    "FR_thigh": {
+      "parents": [
+        "FR_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        -0.0955,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.32333558452601147,
+        0.0,
+        0.9462843651774147
+      ]
+    },
+    "RL_calf": {
+      "parents": [
+        "RL_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        -0.6254652446918418,
+        0.0,
+        0.780252028310452
+      ]
+    },
+    "RL_hip": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.1934,
+        0.0465,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.02835736955693358,
+        0.0,
+        0.0,
+        0.9995978489331655
+      ]
+    },
+    "RL_thigh": {
+      "parents": [
+        "RL_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0955,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.3220651557633253,
+        0.0,
+        0.9467175056177767
+      ]
+    },
+    "RR_calf": {
+      "parents": [
+        "RR_thigh"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        -0.213
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        -0.6287137730374657,
+        0.0,
+        0.7776367992790685
+      ]
+    },
+    "RR_hip": {
+      "parents": [
+        "base_link"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.1934,
+        -0.0465,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        -0.030596945238702208,
+        0.0,
+        0.0,
+        0.9995318038672205
+      ]
+    },
+    "RR_thigh": {
+      "parents": [
+        "RR_hip"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        -0.0955,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.3221654842909498,
+        0.0,
+        0.9466833687836591
+      ]
+    },
+    "base_footprint": {
+      "parents": [
+        "odom"
+      ],
+      "publishers": [],
+      "xyz": [
+        -0.04602346569299698,
+        0.21282631158828735,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        -0.9921087103453718,
+        0.12538064785621048
+      ]
+    },
+    "base_link": {
+      "parents": [
+        "base_footprint"
+      ],
+      "publishers": [],
+      "xyz": [
+        0.0,
+        0.0,
+        0.32469406723976135
+      ],
+      "quaternion_xyzw": [
+        -0.0009414284754513751,
+        0.013459890137734513,
+        -1.2672677467295834e-05,
+        -0.9999089683112703
+      ]
+    }
+  },
+  "checks": {
+    "body_imu_tf": true,
+    "radar_tf": true,
+    "developer_imu_origin": true,
+    "unique_parents": true,
+    "legacy_base_absent": true,
+    "raw_sensor_still_unconnected": true,
+    "expected_dynamic_tf_publishers": true,
+    "single_expected_static_tf_publisher": true
+  },
+  "passed": true,
+  "per_message_publisher_identity_available": false,
+  "ownership_evidence": "Installed rclpy exposes only receive/source timestamps, not per-message publisher GID. Static topic has only RSP; dynamic topic has only RSP and state adapter. Verified adapter source publishes only base_footprint/base_link; URDF joints are RSP-owned. This is endpoint-and-source ownership evidence, not packet-GID attribution."
+}

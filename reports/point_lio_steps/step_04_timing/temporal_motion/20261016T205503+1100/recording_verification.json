@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "checks": {
+    "sqlite_integrity_ok": true,
+    "clean_recorder_exit": true,
+    "all_13_topics_saved": true,
+    "metadata_message_counts_match": true,
+    "no_recorder_errors": true,
+    "protected_application_files_unchanged": true
+  },
+  "topic_counts": {
+    "/tf": 15817,
+    "/tf_static": 1,
+    "/robot_description": 1,
+    "/odom": 37918,
+    "/joint_states": 5068,
+    "/doggy/robot_clock": 10748,
+    "/doggy/imu/body_calibrated": 73859,
+    "/utlidar/cloud": 3906,
+    "/utlidar/imu": 62278,
+    "/sportmodestate": 74915,
+    "/utlidar/cloud_base": 3906,
+    "/utlidar/lidar_state": 1266,
+    "/utlidar/robot_odom": 37902
+  },
+  "topic_duration_s": {
+    "/tf": 253.363461744,
+    "/tf_static": 0.0,
+    "/robot_description": 0.0,
+    "/odom": 253.383072304,
+    "/joint_states": 253.331832778,
+    "/doggy/robot_clock": 253.341710241,
+    "/doggy/imu/body_calibrated": 253.381298294,
+    "/utlidar/cloud": 253.202212376,
+    "/utlidar/imu": 253.277307295,
+    "/sportmodestate": 253.275636972,
+    "/utlidar/cloud_base": 253.203048493,
+    "/utlidar/lidar_state": 252.989721913,
+    "/utlidar/robot_odom": 253.275808319
+  },
+  "host_global_udp_delta": {
+    "InDatagrams": 1789900,
+    "NoPorts": 860,
+    "InErrors": 0,
+    "OutDatagrams": 154540,
+    "RcvbufErrors": 0,
+    "SndbufErrors": 0,
+    "InCsumErrors": 0,
+    "IgnoredMulti": 105,
+    "MemErrors": 0
+  },
+  "ethernet_delta": {
+    "rx_packets": 1895167,
+    "rx_dropped": 0,
+    "rx_errors": 0
+  },
+  "power_profile_before": "performance",
+  "power_profile_after": "performance",
+  "no_live_database_opened": true
+}

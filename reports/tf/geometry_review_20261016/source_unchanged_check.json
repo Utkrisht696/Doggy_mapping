@@ -1,0 +1,10 @@
+{
+  "scripts/go2_frames.py": true,
+  "scripts/publish_go2_state.py": true,
+  "launch/go2_visualization.launch.py": true,
+  "launch/mapping_sensors.launch.py": true,
+  "launch/slam/slam_test.launch.py": true,
+  "ros2_ws/src/transform_sensors/transform_sensors/transform_everything.py": true,
+  "sdk/unitree_ros/robots/go2_description/urdf/go2_description.urdf": true,
+  "third_party/autonomy_stack_go2/src/slam/point_lio_unilidar/config/utlidar.yaml": true
+}

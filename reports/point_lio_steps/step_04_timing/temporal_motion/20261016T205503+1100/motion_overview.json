@@ -1,0 +1,179 @@
+{
+  "recording_duration_s": 253.383110135,
+  "cue_source_elapsed_s_approx": 15.796748955,
+  "position_reference": "Vendor /utlidar/robot_odom, centred at median first 8 seconds after cue and rotated into initial vendor heading; not independent LiDAR-only or ground truth.",
+  "orientation_reference": "Calibrated body IMU quaternion; roll/pitch absolute Euler angles, yaw unwrapped relative to initial stationary heading.",
+  "forward_range_m": [
+    -0.03066238215508237,
+    1.466431469954236
+  ],
+  "left_range_m": [
+    -0.2765875429176603,
+    0.32431039875192036
+  ],
+  "height_change_range_m": [
+    -0.04938670992851257,
+    0.012067943811416626
+  ],
+  "body_rpy_range_deg": [
+    [
+      -30.660556232075944,
+      30.5331054146816
+    ],
+    [
+      -18.140227360835084,
+      15.560965132237106
+    ],
+    [
+      -376.0759241073658,
+      95.32909246948124
+    ]
+  ],
+  "rough_movement_intervals_source_elapsed_s": {
+    "translation_from_vendor_odom_speed_over_0_04_m_s": [
+      [
+        68.9,
+        74.5
+      ],
+      [
+        79.1,
+        84.1
+      ],
+      [
+        91.3,
+        96.5
+      ],
+      [
+        100.4,
+        105.0
+      ],
+      [
+        109.1,
+        112.6
+      ],
+      [
+        120.4,
+        122.5
+      ],
+      [
+        125.7,
+        126.6
+      ],
+      [
+        144.3,
+        145.8
+      ],
+      [
+        183.8,
+        187.0
+      ],
+      [
+        191.3,
+        193.6
+      ],
+      [
+        202.2,
+        205.0
+      ],
+      [
+        206.4,
+        209.6
+      ]
+    ],
+    "turning_from_body_yaw_rate_over_5_deg_s": [
+      [
+        113.5,
+        117.5
+      ],
+      [
+        124.9,
+        127.0
+      ],
+      [
+        130.2,
+        132.3
+      ],
+      [
+        135.6,
+        138.9
+      ],
+      [
+        142.7,
+        146.1
+      ],
+      [
+        187.3,
+        190.1
+      ],
+      [
+        194.7,
+        196.9
+      ],
+      [
+        199.0,
+        202.8
+      ],
+      [
+        205.1,
+        210.1
+      ]
+    ],
+    "tilting_from_roll_pitch_rate_over_5_deg_s": [
+      [
+        69.9,
+        71.1
+      ],
+      [
+        74.3,
+        75.2
+      ],
+      [
+        93.0,
+        94.5
+      ],
+      [
+        110.8,
+        111.5
+      ],
+      [
+        125.7,
+        126.3
+      ],
+      [
+        143.9,
+        145.8
+      ],
+      [
+        155.2,
+        157.5
+      ],
+      [
+        159.2,
+        162.1
+      ],
+      [
+        164.2,
+        165.0
+      ],
+      [
+        166.0,
+        167.7
+      ],
+      [
+        169.2,
+        172.7
+      ],
+      [
+        173.6,
+        175.5
+      ],
+      [
+        187.4,
+        188.3
+      ]
+    ]
+  },
+  "user_confirmation_pending": false,
+  "note": "Paths need not be straight; the calibration analysis must use actual measured motion. This plot does not establish timing synchronization.",
+  "user_confirmation": "yeah looks about right"
+}

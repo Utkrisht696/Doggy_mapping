@@ -1,0 +1,32 @@
+{
+  "phase": "sensor_baseline",
+  "observer_returncodes": {
+    "be5": 0,
+    "be2000": 0,
+    "reliable2000": 0,
+    "reliable_reference": 0,
+    "adapter_output": 0
+  },
+  "recorder_returncode": null,
+  "host_global_udp_delta": {
+    "InDatagrams": 538008,
+    "NoPorts": 4,
+    "InErrors": 1182,
+    "OutDatagrams": 32769,
+    "RcvbufErrors": 1182,
+    "SndbufErrors": 0,
+    "InCsumErrors": 0,
+    "IgnoredMulti": 30,
+    "MemErrors": 0
+  },
+  "ethernet_delta": {
+    "rx_packets": 436853,
+    "rx_bytes": 575283288,
+    "rx_errors": 0,
+    "rx_dropped": 0,
+    "rx_missed_errors": 0,
+    "tx_packets": 7855,
+    "tx_errors": 0,
+    "tx_dropped": 0
+  }
+}

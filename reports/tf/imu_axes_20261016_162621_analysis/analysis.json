@@ -1,0 +1,1099 @@
+{
+  "bag": "/home/jain/Doggy/ros2_ws/reports/tf/imu_axes_20261016_162621",
+  "duration_s": 87.279051969,
+  "topic_counts": {
+    "/utlidar/imu": 21408,
+    "/lowstate": 43564,
+    "/lf/lowstate": 1744,
+    "/utlidar/robot_odom": 13119,
+    "/utlidar/lidar_state": 436
+  },
+  "user_context": "Operator performed pitch, then roll after a pause, then yaw; held each pose about five seconds. Movement windows identified from measured body attitude, not assumed equal durations.",
+  "motion_windows_approx_s": {
+    "baseline": [
+      0,
+      4
+    ],
+    "pitch": [
+      5,
+      29
+    ],
+    "pause_before_roll": [
+      32,
+      40
+    ],
+    "roll": [
+      41,
+      60
+    ],
+    "yaw": [
+      63,
+      81
+    ],
+    "final": [
+      83,
+      87
+    ]
+  },
+  "source_bag_unchanged": true,
+  "code_or_configuration_changed": false,
+  "motion_commands_sent": false,
+  "sensor_tf_published": false,
+  "quality": {
+    "imu_count": 21408,
+    "imu_source_rate_hz": 245.62548330038103,
+    "imu_source_interval_ms_quantiles": [
+      0.13303756713867188,
+      1.008749008178711,
+      4.485845565795898,
+      5.066871643066406,
+      13.611793518066406
+    ],
+    "nonpositive_imu_source_intervals": 0,
+    "imu_quaternion_norm": {
+      "mean": 0.9983124323549896,
+      "std": 1.876823109104544e-08,
+      "min": 0.9983123493318045,
+      "max": 0.998312524456231
+    },
+    "body_tick_nonpositive_steps": 98,
+    "body_quaternion_rpy_vs_reported_rpy_max_error_degrees": 1.997376634221837e-05
+  },
+  "body_angle_ranges_degrees": {
+    "roll": [
+      -7.930534352849097,
+      -7.676758759614638,
+      0.15619490037396722,
+      5.335989901211834,
+      5.426043149309761
+    ],
+    "pitch": [
+      -6.025466954172427,
+      -5.992750540147136,
+      0.9210728341650518,
+      4.978040134690294,
+      5.145926846163783
+    ],
+    "yaw_unwrapped": [
+      -203.65198386031403,
+      -203.42453377982017,
+      -173.07157039792213,
+      -148.23771496448617,
+      -147.6178732482508
+    ]
+  },
+  "quaternion_hypotheses": {
+    "as_published_ROS_XYZW": {
+      "own_gyro_correlation_xyz": [
+        0.18737506050907243,
+        -0.6135111564279759,
+        -0.7097854852634936
+      ],
+      "own_gyro_rms_difference_rad_s": [
+        0.1152105111480214,
+        0.07975984372877704,
+        0.17251213113997563
+      ],
+      "gravity_direction_disagreement_deg_quantiles": [
+        2.137460519617359,
+        27.76506933351704,
+        37.740136459448536,
+        59.331684295377464,
+        158.99744242826088
+      ],
+      "assumptions": "Quaternion maps sensor into a gravity-referenced Z-up world. Gyro comparison uses the sensor own source timestamps, so no cross-device clock alignment is needed."
+    },
+    "scalar_first_fields_reinterpreted_as_ROS": {
+      "own_gyro_correlation_xyz": [
+        0.8174253430228811,
+        0.8274040059092737,
+        0.9976857955204421
+      ],
+      "own_gyro_rms_difference_rad_s": [
+        0.024902963717113306,
+        0.02844589916652864,
+        0.008669552760206357
+      ],
+      "gravity_direction_disagreement_deg_quantiles": [
+        0.014880815056933696,
+        0.4069714852455822,
+        2.4091798063797425,
+        9.960364568911146,
+        139.5319985300155
+      ],
+      "assumptions": "Quaternion maps sensor into a gravity-referenced Z-up world. Gyro comparison uses the sensor own source timestamps, so no cross-device clock alignment is needed."
+    }
+  },
+  "covariance": {
+    "imu_messages_with_any_nonzero_covariance": {
+      "orientation": 0,
+      "gyro": 0,
+      "acceleration": 0
+    },
+    "interpretation": "All-zero sensor_msgs/Imu covariance arrays mean unknown. No covariance values added or tuned."
+  },
+  "gyro_frame_crosscheck": {
+    "method": "Apply rotation recovered from earlier independent raw/body cloud pairs, without refitting rotation to IMU data; compare 50ms-smoothed gyro streams on 100Hz bag-receipt grid.",
+    "reference_rotation_matrix": [
+      [
+        0.5261139017353029,
+        -0.8101358157255057,
+        0.2586196482860969
+      ],
+      [
+        -0.8386681734567218,
+        -0.5446427221842449,
+        1.5814066921490184e-06
+      ],
+      [
+        0.14085402809867137,
+        -0.21689690004816572,
+        -0.9659792324464709
+      ]
+    ],
+    "receipt_lag_s": 0.002,
+    "comparison_offset_body_minus_rotated_lidar_rad_s": [
+      -0.004744443061507377,
+      -0.002588153316805132,
+      -0.011337873307087994
+    ],
+    "per_axis_correlation": [
+      0.9394959949472118,
+      0.904181910267416,
+      0.9986987434134789
+    ],
+    "rms_difference_after_comparison_offset_rad_s": [
+      0.01629437101001343,
+      0.016361466400998777,
+      0.006706349328410371
+    ],
+    "limitations": "Receipt alignment is not hardware synchronization. Similar axes are supported; this does not determine IMU origin, lever arm or validate acceleration/quaternion mounting consistency. Offset is a comparison nuisance term and has not been installed as calibration.",
+    "phase_metrics": {
+      "baseline": {
+        "rms_difference_rad_s": [
+          0.0038819423587106022,
+          0.0037370084711125127,
+          0.004159108210763537
+        ],
+        "body_angle_min_degrees": [
+          -1.2843605109168337,
+          0.7036012118174325,
+          -171.4831552649223
+        ],
+        "body_angle_max_degrees": [
+          -0.9196521014568362,
+          0.8685687431283406,
+          -170.41480439570557
+        ]
+      },
+      "pitch": {
+        "rms_difference_rad_s": [
+          0.02194775601218374,
+          0.011408845379000094,
+          0.009302090357188302
+        ],
+        "body_angle_min_degrees": [
+          -1.1238805206123297,
+          -6.025466954172427,
+          -173.31706105707073
+        ],
+        "body_angle_max_degrees": [
+          0.5928595661834606,
+          5.145926846163783,
+          -171.79014494735767
+        ]
+      },
+      "pause_before_roll": {
+        "rms_difference_rad_s": [
+          0.004103476809312597,
+          0.004145282741674576,
+          0.004372755725872426
+        ],
+        "body_angle_min_degrees": [
+          0.1002740672359167,
+          1.5898525676549957,
+          -173.33510641685788
+        ],
+        "body_angle_max_degrees": [
+          0.3920239100960387,
+          1.663577309390996,
+          -172.8459419288799
+        ]
+      },
+      "roll": {
+        "rms_difference_rad_s": [
+          0.0219799312253779,
+          0.02801191419211242,
+          0.0065218682574151934
+        ],
+        "body_angle_min_degrees": [
+          -7.930534352849097,
+          -0.11426766409192494,
+          -174.12616526615042
+        ],
+        "body_angle_max_degrees": [
+          5.426043149309761,
+          1.9374664010046263,
+          -171.1310726735865
+        ]
+      },
+      "yaw": {
+        "rms_difference_rad_s": [
+          0.006397100978613605,
+          0.004409822112329556,
+          0.005694057547429634
+        ],
+        "body_angle_min_degrees": [
+          -0.7727716047592095,
+          -1.213076067705232,
+          -203.65198386031403
+        ],
+        "body_angle_max_degrees": [
+          1.1748941363060972,
+          1.876203019244197,
+          -147.6178732482508
+        ]
+      },
+      "final": {
+        "rms_difference_rad_s": [
+          0.004343805573003344,
+          0.005432785851710935,
+          0.0028722793552448177
+        ],
+        "body_angle_min_degrees": [
+          -0.7553247402980581,
+          0.895852200572221,
+          -170.9878026255563
+        ],
+        "body_angle_max_degrees": [
+          -0.49813060536749587,
+          1.1825414935772784,
+          -170.1336191679545
+        ]
+      }
+    }
+  },
+  "held_pose_checks": [
+    {
+      "label": "baseline",
+      "start_s": 0.5,
+      "end_s": 3,
+      "imu_samples": 614,
+      "body_rpy_median_degrees": [
+        -0.9517934775870353,
+        0.7373140117044105,
+        -170.7030383786801
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          2.984754090588722,
+          0.00012723169803728596,
+          9.802635534578503
+        ],
+        "std": [
+          0.12663407806363797,
+          0.08163152333080838,
+          0.135775533465463
+        ],
+        "min": [
+          2.514136791229248,
+          -0.2549331784248352,
+          9.382577896118164
+        ],
+        "max": [
+          3.38447642326355,
+          0.2952747344970703,
+          10.311890602111816
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 10.248105690656157,
+        "std": 0.13373505603336688,
+        "min": 9.83465997010772,
+        "max": 10.720140527223345
+      },
+      "mapped_acceleration_mean_m_s2": [
+        4.10537169959405,
+        -2.5032720552364554,
+        -9.048755309262122
+      ],
+      "median_expected_specific_force_direction_error_degrees": 152.14900336853543,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 27.850996631464582,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          34.57136709507254,
+          36.35397396827864,
+          37.582002575164495,
+          38.79964087220981,
+          39.835055247553285
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.028356627168861056,
+          0.16109055394947944,
+          0.6756536900652934,
+          1.6256450307196069,
+          2.7373463427027533
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          -0.0010031898106861146,
+          -0.0003915940153923814,
+          -0.004801671388005478
+        ],
+        "body_mean_rad_s": [
+          -0.004498161702305735,
+          -0.003455925528355259,
+          -0.01655125633704948
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.001249471169887757,
+          0.0004761781961577457,
+          0.0004117116419560078
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.07158942465784195,
+          0.027283000935991463,
+          0.023589339460480516
+        ]
+      }
+    },
+    {
+      "label": "pitch_negative",
+      "start_s": 10,
+      "end_s": 12.5,
+      "imu_samples": 614,
+      "body_rpy_median_degrees": [
+        -0.21187600321029953,
+        -6.009048246624774,
+        -172.9134105375013
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          3.952753224279671,
+          -0.0003690597021433522,
+          9.80267548638757
+        ],
+        "std": [
+          0.11605039004095234,
+          0.07129677339461804,
+          0.127945189669372
+        ],
+        "min": [
+          3.6277856826782227,
+          -0.20692841708660126,
+          9.32784652709961
+        ],
+        "max": [
+          4.32265567779541,
+          0.2783638536930084,
+          10.260664939880371
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 10.570599582154012,
+        "std": 0.11853374174596633,
+        "min": 10.133651606277585,
+        "max": 10.978221885762155
+      },
+      "mapped_acceleration_mean_m_s2": [
+        4.615061896457723,
+        -3.3148318190343633,
+        -8.91233968063737
+      ],
+      "median_expected_specific_force_direction_error_degrees": 142.35517481357982,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 37.64482518642018,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          44.833686366775424,
+          46.04351084974354,
+          47.39419030412677,
+          48.7478555959747,
+          49.90941387283874
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.5488830521362732,
+          1.1108646433046763,
+          2.170156009504029,
+          3.7365463735475797,
+          4.6047594641777305
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          0.0005566896660286868,
+          -0.0008579216949519163,
+          5.0751651644662644e-05
+        ],
+        "body_mean_rad_s": [
+          -0.00341992454174906,
+          -0.0035528695297427477,
+          -0.010882740166876466
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.0007678288537296303,
+          0.00010679451798569937,
+          -0.0004043814885668646
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.043993352707075634,
+          0.006118875155714536,
+          -0.023169352608099093
+        ]
+      }
+    },
+    {
+      "label": "pitch_positive",
+      "start_s": 22,
+      "end_s": 24.5,
+      "imu_samples": 616,
+      "body_rpy_median_degrees": [
+        0.42087773741985346,
+        5.032807601007558,
+        -173.20349550174092
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          1.8306795559920275,
+          0.002835454475762044,
+          9.805186352172456
+        ],
+        "std": [
+          0.14053065933209696,
+          0.08705797651143707,
+          0.1215297723662365
+        ],
+        "min": [
+          1.3331074714660645,
+          -0.25379547476768494,
+          9.341194152832031
+        ],
+        "max": [
+          2.224147081375122,
+          0.25932422280311584,
+          10.220976829528809
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 9.97599895616586,
+        "std": 0.12090222079802201,
+        "min": 9.51496359468599,
+        "max": 10.336165048138318
+      },
+      "mapped_acceleration_mean_m_s2": [
+        3.496662706583822,
+        -1.5368614830653893,
+        -9.214362798132816
+      ],
+      "median_expected_specific_force_direction_error_degrees": 162.20838875355074,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 17.791611246449264,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          25.124526793712967,
+          27.118285869342767,
+          28.58090959128421,
+          30.158851942300718,
+          31.86490508505797
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.04619869951189231,
+          0.6704597241133148,
+          1.6127511775758399,
+          3.1407030423281017,
+          5.003782615371129
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          0.0007098540906295765,
+          -0.0003500706165240546,
+          -0.0008703739015003373
+        ],
+        "body_mean_rad_s": [
+          -0.0032872722909657245,
+          -0.0036036027773854473,
+          -0.01134771522144633
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.0007473166799120759,
+          0.0006653788440562605,
+          -0.0008605319871420013
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.04281809171869102,
+          0.03812339954171709,
+          -0.0493048509992427
+        ]
+      }
+    },
+    {
+      "label": "pause",
+      "start_s": 35,
+      "end_s": 39,
+      "imu_samples": 984,
+      "body_rpy_median_degrees": [
+        0.2517951505361449,
+        1.630011038406056,
+        -173.149946818648
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          2.5056565573545004,
+          -0.00607857430180794,
+          9.805447928304595
+        ],
+        "std": [
+          0.1279061514317621,
+          0.07539366447694247,
+          0.11962899824714487
+        ],
+        "min": [
+          2.1305713653564453,
+          -0.23829588294029236,
+          9.224015235900879
+        ],
+        "max": [
+          2.950380802154541,
+          0.30838000774383545,
+          10.259664535522461
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 10.121658444048274,
+        "std": 0.11638915171637891,
+        "min": 9.552295385881326,
+        "max": 10.586935782885076
+      },
+      "mapped_acceleration_mean_m_s2": [
+        3.859066713054633,
+        -2.09808825061065,
+        -9.117608820519504
+      ],
+      "median_expected_specific_force_direction_error_degrees": 155.82463263119442,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 24.17536736880558,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          31.430429393015444,
+          32.37795963519069,
+          33.66623707223438,
+          34.98393906226802,
+          36.19138913636045
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.029331396086917854,
+          0.16105464275689374,
+          0.6345768438603112,
+          1.6954323581003743,
+          3.0999563127092515
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          0.0007119209002465955,
+          -0.0013929156763088858,
+          -0.00022490183121739153
+        ],
+        "body_mean_rad_s": [
+          -0.002539590111176949,
+          -0.003959587438788731,
+          -0.012225505843060092
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.0014929320500838327,
+          -2.148155432528734e-05,
+          0.0006627307047547062
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.08553870556961725,
+          -0.0012308024002199633,
+          0.03797167233617531
+        ]
+      }
+    },
+    {
+      "label": "roll_negative",
+      "start_s": 47,
+      "end_s": 50,
+      "imu_samples": 739,
+      "body_rpy_median_degrees": [
+        -7.746672917468347,
+        1.3211454018264366,
+        -173.79053660052517
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          4.792610564638378,
+          0.004640993465107383,
+          9.80877532107259
+        ],
+        "std": [
+          0.1362065799898702,
+          0.08431207940463549,
+          0.13771088839915238
+        ],
+        "min": [
+          4.3476715087890625,
+          -0.21565505862236023,
+          9.386855125427246
+        ],
+        "max": [
+          5.168271064758301,
+          0.2545005977153778,
+          10.321890830993652
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 10.918240816466541,
+        "std": 0.1336165557862731,
+        "min": 10.529957120631805,
+        "max": 11.39864294707919
+      },
+      "mapped_acceleration_mean_m_s2": [
+        5.054441232286239,
+        -4.021922119986196,
+        -8.801021369847755
+      ],
+      "median_expected_specific_force_direction_error_degrees": 139.44617921629225,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 40.55382078370775,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          51.7808436464807,
+          53.30067194891255,
+          54.549550681330324,
+          55.78835705954224,
+          57.39865422147328
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.018647678839029763,
+          0.2995249813313027,
+          1.1128943751835794,
+          2.3461591230318617,
+          3.3310792085036103
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          0.00013640071639461259,
+          -0.0009759700215018773,
+          -0.0003954714438121379
+        ],
+        "body_mean_rad_s": [
+          -0.0039840885094987845,
+          -0.0036616685185581446,
+          -0.010941684798492739
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.0006239538356139799,
+          9.75451802511353e-05,
+          -0.0007916599524073926
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.03574992139168061,
+          0.00558892714023292,
+          -0.045358774082471215
+        ]
+      }
+    },
+    {
+      "label": "roll_positive",
+      "start_s": 55,
+      "end_s": 57,
+      "imu_samples": 491,
+      "body_rpy_median_degrees": [
+        5.357416610180646,
+        -0.06774817613484038,
+        -173.57085039606088
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          1.29906208779807,
+          0.0052798822104395985,
+          9.80663972765268
+        ],
+        "std": [
+          0.11631326829262485,
+          0.07006237474931395,
+          0.11341800395243035
+        ],
+        "min": [
+          0.9603918790817261,
+          -0.18309511244297028,
+          9.441553115844727
+        ],
+        "max": [
+          1.7798402309417725,
+          0.23795591294765472,
+          10.17075252532959
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 9.893238542017404,
+        "std": 0.11360123320002681,
+        "min": 9.539935963361875,
+        "max": 10.270575883163827
+      },
+      "mapped_acceleration_mean_m_s2": [
+        3.2153669191603664,
+        -1.0923421695146953,
+        -9.291177379264447
+      ],
+      "median_expected_specific_force_direction_error_degrees": 160.92552336898132,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 19.074476631018683,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          30.29605260613589,
+          31.582239523632182,
+          33.81625724135732,
+          37.17928076203381,
+          38.8687234500953
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          3.737435145101194,
+          5.067331958707026,
+          8.249513088607591,
+          12.876337445566264,
+          14.170139668071762
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          -0.00022787420563710758,
+          -0.00038825192549281416,
+          -0.0006118326548054675
+        ],
+        "body_mean_rad_s": [
+          -0.004663727159844712,
+          -0.003416302626952529,
+          -0.011184209969709627
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.0003085901072997733,
+          0.0004398973846545828,
+          -0.0007654959921838348
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.01768091074776623,
+          0.02520426355955054,
+          -0.043859689586313186
+        ]
+      }
+    },
+    {
+      "label": "yaw_positive",
+      "start_s": 66,
+      "end_s": 69,
+      "imu_samples": 740,
+      "body_rpy_median_degrees": [
+        0.3683928029293301,
+        -0.07071597337049026,
+        -147.80590152591208
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          2.8614735393910795,
+          -0.06065662378143217,
+          9.81497831860104
+        ],
+        "std": [
+          0.13742901765990806,
+          0.10710072935837021,
+          0.12259060802671172
+        ],
+        "min": [
+          2.4445712566375732,
+          -0.4048915207386017,
+          9.342083930969238
+        ],
+        "max": [
+          3.3094654083251953,
+          0.2203122228384018,
+          10.243274688720703
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 10.225303627767964,
+        "std": 0.11857873126385836,
+        "min": 9.764386350192126,
+        "max": 10.619632813333734
+      },
+      "mapped_acceleration_mean_m_s2": [
+        4.092947352599956,
+        -2.3667750765086377,
+        -9.064858914694423
+      ],
+      "median_expected_specific_force_direction_error_degrees": 152.59064060019017,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 27.409359399809844,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          30.464278001791833,
+          31.828406147646792,
+          33.207147949973375,
+          34.674264567874424,
+          35.83965190317707
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.1575732563849358,
+          0.7660638073533056,
+          2.0737843315688274,
+          4.7330748292440425,
+          6.639789837896275
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          0.002948019484248904,
+          -0.003053902449488411,
+          -0.0025452896969990037
+        ],
+        "body_mean_rad_s": [
+          -0.0021979953681584446,
+          -0.003575737194235747,
+          -0.008195433405771231
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          0.00040157179089997126,
+          -0.0020663185720577962,
+          -0.0056877295983157675
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          0.02300836879007835,
+          -0.1183913333084106,
+          -0.3258829009951325
+        ]
+      }
+    },
+    {
+      "label": "yaw_negative",
+      "start_s": 76,
+      "end_s": 79,
+      "imu_samples": 736,
+      "body_rpy_median_degrees": [
+        0.816354214759841,
+        -1.102303099250613,
+        -203.62081770713127
+      ],
+      "raw_acceleration_m_s2": {
+        "mean": [
+          2.692428923819376,
+          -0.008691540015760162,
+          9.813193475422652
+        ],
+        "std": [
+          0.1294486155474102,
+          0.09140301091928099,
+          0.12196578237106655
+        ],
+        "min": [
+          2.297105550765991,
+          -0.33240512013435364,
+          9.32088565826416
+        ],
+        "max": [
+          3.2457656860351562,
+          0.2682596445083618,
+          10.21773910522461
+        ]
+      },
+      "raw_acceleration_norm_m_s2": {
+        "mean": 10.177085194334603,
+        "std": 0.12222639879238979,
+        "min": 9.676094817994645,
+        "max": 10.590174651088835
+      },
+      "mapped_acceleration_mean_m_s2": [
+        3.9614502592934007,
+        -2.253305145037652,
+        -9.098216473862093
+      ],
+      "median_expected_specific_force_direction_error_degrees": 152.80614611008087,
+      "median_error_if_entire_acceleration_sign_is_flipped_degrees": 27.19385388991911,
+      "quaternion_gravity_error_degrees": {
+        "as_published_ROS_XYZW": [
+          57.88836372482867,
+          59.25433646441058,
+          60.42343831668883,
+          61.51438689644331,
+          62.86871012107939
+        ],
+        "scalar_first_fields_reinterpreted_as_ROS": [
+          0.08989676448850949,
+          0.6073591169038273,
+          2.194797612614453,
+          4.261684440486661,
+          5.53625975567632
+        ]
+      },
+      "gyro_comparison": {
+        "rotated_lidar_mean_rad_s": [
+          -0.00047842774071952523,
+          -0.0008429726073826577,
+          0.004350021696484015
+        ],
+        "body_mean_rad_s": [
+          -0.0037156419123833377,
+          -0.003994030986369277,
+          -0.011754126386872182
+        ],
+        "difference_after_global_comparison_offset_rad_s": [
+          -0.0015072288898435645,
+          0.0005629050621814872,
+          0.004766274776268203
+        ],
+        "difference_after_global_comparison_offset_degrees_s": [
+          -0.08635785414822472,
+          0.03225208432954839,
+          0.27308742867982877
+        ]
+      }
+    }
+  ],
+  "conclusions": [
+    "All three intended motion sections and the intervening pause are present; this recording is useful and does not need repeating for these checks.",
+    "Scalar-first reinterpretation is strongly supported by gravity consistency and independent agreement of quaternion increments with the same IMU gyro; vendor documentation of this DDS firmware remains unavailable.",
+    "Raw LiDAR gyro axes agree well with the raw cloud rotation recovered from earlier independent cloud pairs, supporting aligned raw gyro/cloud axes.",
+    "Gyro frame agreement is not a complete calibration: residual offsets vary across held postures. Do not infer mapping readiness from correlation alone.",
+    "The acceleration stream is inconsistent with expected body gravity under that same rotation across held postures; this is not explained by sensor mounting tilt alone or a missing TF.",
+    "Reordering the quaternion improves its internal consistency, but does not by itself validate its fused orientation against physical body attitude. Do not treat it as ready for orientation fusion.",
+    "Unknown covariance is separate from the frame and data-consistency problem; no covariance should be fabricated to conceal it.",
+    "No full sensor TF, calibration or Point-LIO input-path changes have been applied."
+  ],
+  "next_step": "Review a coherent gyro/frame input path for the existing CMU Point-LIO integration, and separately resolve the acceleration/quaternion convention. Retain raw topics, original developer mount geometry, and require user confirmation before code/config changes.",
+  "cloud_frame_crosscheck": {
+    "method": "Apply the previously recovered raw/body stream conversion unchanged to this independent operator-controlled pitch/roll/yaw bag; require exact header stamp and unique ring/time/intensity point correspondence. No fit to this bag and no TF published.",
+    "pairs": [
+      {
+        "requested_s": 2,
+        "receipt_s": 2.038467648,
+        "matched": true,
+        "unique_points": 1309,
+        "residual_m_quantiles": [
+          2.1961970243249336e-09,
+          6.374470165461531e-08,
+          3.0023047546815803e-07,
+          6.543531276788065e-07,
+          1.9312549156584234e-06
+        ]
+      },
+      {
+        "requested_s": 10,
+        "receipt_s": 10.014755102,
+        "matched": true,
+        "unique_points": 1197,
+        "residual_m_quantiles": [
+          2.0535644829860416e-09,
+          7.332418810930667e-08,
+          6.521452325653789e-07,
+          1.2815021260918019e-06,
+          1.875126136043631e-06
+        ]
+      },
+      {
+        "requested_s": 22,
+        "receipt_s": 22.011103711,
+        "matched": true,
+        "unique_points": 891,
+        "residual_m_quantiles": [
+          3.5280186160719187e-09,
+          5.858677935241593e-08,
+          5.172621396559039e-07,
+          1.2450426111044447e-06,
+          2.1808123604426017e-06
+        ]
+      },
+      {
+        "requested_s": 36,
+        "receipt_s": 36.017915736,
+        "matched": true,
+        "unique_points": 1288,
+        "residual_m_quantiles": [
+          5.492514463581952e-09,
+          6.73728843243707e-08,
+          5.178924001636434e-07,
+          1.1963491743367561e-06,
+          2.176495627562015e-06
+        ]
+      },
+      {
+        "requested_s": 45,
+        "receipt_s": 45.032892633,
+        "matched": true,
+        "unique_points": 946,
+        "residual_m_quantiles": [
+          9.361324331952403e-09,
+          6.713521356811846e-08,
+          5.741650205119539e-07,
+          1.1215783474764174e-06,
+          2.448172492893401e-06
+        ]
+      },
+      {
+        "requested_s": 48,
+        "receipt_s": 48.017229711,
+        "matched": true,
+        "unique_points": 1016,
+        "residual_m_quantiles": [
+          6.533694190679818e-09,
+          7.425025191780287e-08,
+          5.781747912972566e-07,
+          1.177149598542965e-06,
+          2.1290242625492805e-06
+        ]
+      },
+      {
+        "requested_s": 55,
+        "receipt_s": 55.021220526,
+        "matched": true,
+        "unique_points": 1236,
+        "residual_m_quantiles": [
+          1.573431630605384e-09,
+          7.383596222187953e-08,
+          7.365900467491873e-07,
+          1.3261065268825912e-06,
+          2.1940259549109234e-06
+        ]
+      },
+      {
+        "requested_s": 66,
+        "receipt_s": 66.043358463,
+        "matched": true,
+        "unique_points": 1366,
+        "residual_m_quantiles": [
+          5.164001401250246e-09,
+          6.404983744458998e-08,
+          2.810571603115669e-07,
+          5.141070755545812e-07,
+          8.546291553749783e-07
+        ]
+      },
+      {
+        "requested_s": 76,
+        "receipt_s": 76.032088939,
+        "matched": true,
+        "unique_points": 1272,
+        "residual_m_quantiles": [
+          5.385982315236325e-09,
+          6.254536378172827e-08,
+          2.849624318852356e-07,
+          5.956300719430651e-07,
+          9.87949130219807e-07
+        ]
+      },
+      {
+        "requested_s": 84,
+        "receipt_s": 84.011561472,
+        "matched": true,
+        "unique_points": 1317,
+        "residual_m_quantiles": [
+          3.693899187066284e-09,
+          6.397485395766409e-08,
+          2.553193917295165e-07,
+          5.246877575063187e-07,
+          1.7743381064069422e-06
+        ]
+      }
+    ],
+    "points": 11838,
+    "max_residual_m": 2.448172492893401e-06,
+    "sqlite_quick_check": "ok"
+  }
+}

@@ -1,0 +1,2117 @@
+{
+  "checked_local": "2026-10-12T20:12:48.067926+11:00",
+  "duration_s": 30.0,
+  "method": "Passive subscriptions; no SLAM, cloud registration optimization, service calls or robot commands.",
+  "motion_condition": "User confirmed robot stays in place while standing, with vibration/sway from balancing; heading change may include physical body rotation.",
+  "streams": {
+    "/utlidar/cloud": {
+      "messages": 463,
+      "rate_hz": 15.42128169927826,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.04114204899815377,
+        "median": 0.06479812750330893,
+        "max": 0.08768312900792807
+      },
+      "header_interval_s": {
+        "min": 0.06094050407409668,
+        "median": 0.06490600109100342,
+        "max": 0.06910991668701172
+      },
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": {
+        "min": 787.2817091941833,
+        "median": 787.286016702652,
+        "max": 787.3088817596436
+      },
+      "frame": "utlidar_lidar"
+    },
+    "/utlidar/cloud_base": {
+      "messages": 463,
+      "rate_hz": 15.427167360000082,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.044397485005902126,
+        "median": 0.06482990900258301,
+        "max": 0.08006430399836972
+      },
+      "header_interval_s": {
+        "min": 0.06094050407409668,
+        "median": 0.06490600109100342,
+        "max": 0.06910991668701172
+      },
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": {
+        "min": 787.2833807468414,
+        "median": 787.288242816925,
+        "max": 787.3097655773163
+      },
+      "frame": "base_link"
+    },
+    "/utlidar/cloud_deskewed": {
+      "messages": 463,
+      "rate_hz": 15.426657111795603,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.04451573900587391,
+        "median": 0.06512877399654826,
+        "max": 0.07912213700183202
+      },
+      "header_interval_s": {
+        "min": 0.06232786178588867,
+        "median": 0.06490230560302734,
+        "max": 0.06765890121459961
+      },
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": {
+        "min": 787.2275147438049,
+        "median": 787.2344467639923,
+        "max": 787.2542037963867
+      },
+      "frame": "odom"
+    },
+    "/utlidar/imu": {
+      "messages": 7422,
+      "rate_hz": 247.53963906555643,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.0010980160004692152,
+        "median": 0.00399212799675297,
+        "max": 0.03973102000600193
+      },
+      "header_interval_s": {
+        "min": 0.00010347366333007812,
+        "median": 0.004468679428100586,
+        "max": 0.022478580474853516
+      },
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": {
+        "min": 787.2184641361237,
+        "median": 787.2198436260223,
+        "max": 787.2385175228119
+      },
+      "frame": "utlidar_imu"
+    },
+    "/utlidar/robot_odom": {
+      "messages": 4453,
+      "rate_hz": 148.51492648379997,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.001459353996324353,
+        "median": 0.006585846000234596,
+        "max": 0.04230531399662141
+      },
+      "header_interval_s": {
+        "min": 0.004000425338745117,
+        "median": 0.006666421890258789,
+        "max": 0.024965286254882812
+      },
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": {
+        "min": 787.2188251018524,
+        "median": 787.2202117443085,
+        "max": 787.2493228912354
+      },
+      "frame": "odom"
+    },
+    "/lf/sportmodestate": {
+      "messages": 599,
+      "rate_hz": 20.00073729808002,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.03488575200026389,
+        "median": 0.049988280501565896,
+        "max": 0.06621548200200778
+      },
+      "header_interval_s": null,
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": null
+    },
+    "/utlidar/lidar_state": {
+      "messages": 150,
+      "rate_hz": 5.002283582406226,
+      "publisher_count": 1,
+      "receipt_interval_s": {
+        "min": 0.18331259800470434,
+        "median": 0.19993578900175635,
+        "max": 0.20708427199861035
+      },
+      "header_interval_s": null,
+      "non_increasing_headers": 0,
+      "laptop_minus_header_s": null
+    }
+  },
+  "cloud_samples": {
+    "/utlidar/cloud": [
+      {
+        "receipt": 112107.174168209,
+        "points": 3913,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3913,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -1.4215912818908691,
+          -5.092185974121094,
+          0.027796627953648567
+        ],
+        "xyz_max": [
+          11.499890327453613,
+          0.8479829430580139,
+          2.706592321395874
+        ]
+      },
+      {
+        "receipt": 112108.206324128,
+        "points": 3764,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3764,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -1.9048868417739868,
+          -4.563085079193115,
+          0.027796627953648567
+        ],
+        "xyz_max": [
+          11.9124116897583,
+          1.0807123184204102,
+          2.366215467453003
+        ]
+      },
+      {
+        "receipt": 112109.248811397,
+        "points": 3943,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3943,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -1.7093493938446045,
+          -4.488290786743164,
+          0.04076959937810898
+        ],
+        "xyz_max": [
+          11.83266544342041,
+          0.7416880130767822,
+          2.732789993286133
+        ]
+      },
+      {
+        "receipt": 112110.28135887,
+        "points": 3826,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3826,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.247882127761841,
+          -4.656007766723633,
+          0.02643134631216526
+        ],
+        "xyz_max": [
+          11.764267921447754,
+          0.9987391829490662,
+          2.2080607414245605
+        ]
+      },
+      {
+        "receipt": 112111.318739435,
+        "points": 3970,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3970,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -1.9719823598861694,
+          -4.700912952423096,
+          0.03251053765416145
+        ],
+        "xyz_max": [
+          11.95094108581543,
+          0.7919134497642517,
+          2.560354232788086
+        ]
+      },
+      {
+        "receipt": 112112.357799807,
+        "points": 3782,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3782,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.3645520210266113,
+          -4.502844333648682,
+          0.027512194588780403
+        ],
+        "xyz_max": [
+          11.88510799407959,
+          0.9783905148506165,
+          2.32352614402771
+        ]
+      },
+      {
+        "receipt": 112113.396818464,
+        "points": 3936,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3936,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -1.8917007446289062,
+          -4.556565284729004,
+          0.038130827248096466
+        ],
+        "xyz_max": [
+          11.971418380737305,
+          0.6262083053588867,
+          2.435520648956299
+        ]
+      },
+      {
+        "receipt": 112114.435450651,
+        "points": 3773,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3773,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.607511520385742,
+          -12.607486724853516,
+          0.027000214904546738
+        ],
+        "xyz_max": [
+          11.905829429626465,
+          0.94358229637146,
+          2.346980571746826
+        ]
+      },
+      {
+        "receipt": 112115.473247476,
+        "points": 3944,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3944,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.0323894023895264,
+          -4.910874366760254,
+          0.03287098929286003
+        ],
+        "xyz_max": [
+          11.925034523010254,
+          0.6374833583831787,
+          2.702817916870117
+        ]
+      },
+      {
+        "receipt": 112116.508312329,
+        "points": 3831,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3831,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.8898046016693115,
+          -4.649932861328125,
+          0.025862479582428932
+        ],
+        "xyz_max": [
+          11.76108169555664,
+          0.9032671451568604,
+          2.3294858932495117
+        ]
+      },
+      {
+        "receipt": 112117.548542943,
+        "points": 3975,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3975,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.275892496109009,
+          -4.725160121917725,
+          0.03460114821791649
+        ],
+        "xyz_max": [
+          11.946619033813477,
+          0.6313607692718506,
+          2.5537872314453125
+        ]
+      },
+      {
+        "receipt": 112118.582245601,
+        "points": 3825,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3825,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.7588002681732178,
+          -4.899077892303467,
+          0.02517983876168728
+        ],
+        "xyz_max": [
+          11.86181926727295,
+          2.316311836242676,
+          2.4680323600769043
+        ]
+      },
+      {
+        "receipt": 112119.620479016,
+        "points": 3942,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3942,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.7075228691101074,
+          -4.719171524047852,
+          0.033808156847953796
+        ],
+        "xyz_max": [
+          11.957352638244629,
+          2.9474406242370605,
+          2.56564998626709
+        ]
+      },
+      {
+        "receipt": 112120.658886719,
+        "points": 3826,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3826,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.5763370990753174,
+          -2.9979963302612305,
+          0.02682955376803875
+        ],
+        "xyz_max": [
+          11.941754341125488,
+          2.251565456390381,
+          2.473296642303467
+        ]
+      },
+      {
+        "receipt": 112121.699159198,
+        "points": 3933,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3933,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.692957639694214,
+          -3.1881892681121826,
+          0.029218796640634537
+        ],
+        "xyz_max": [
+          11.975354194641113,
+          3.4107139110565186,
+          2.5743350982666016
+        ]
+      },
+      {
+        "receipt": 112122.733475292,
+        "points": 3857,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3857,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -4.114609718322754,
+          -3.1781840324401855,
+          0.026772666722536087
+        ],
+        "xyz_max": [
+          11.896645545959473,
+          2.266248941421509,
+          1.7078465223312378
+        ]
+      },
+      {
+        "receipt": 112123.7714465,
+        "points": 3954,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3954,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.6969704627990723,
+          -2.9440813064575195,
+          0.043274860829114914
+        ],
+        "xyz_max": [
+          11.948163032531738,
+          2.906414270401001,
+          2.5520927906036377
+        ]
+      },
+      {
+        "receipt": 112124.811161362,
+        "points": 3838,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3838,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.4620864391326904,
+          -2.7063095569610596,
+          0.027796627953648567
+        ],
+        "xyz_max": [
+          11.894993782043457,
+          1.9853317737579346,
+          2.4785609245300293
+        ]
+      },
+      {
+        "receipt": 112125.853183036,
+        "points": 3964,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3964,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.2253119945526123,
+          -2.8794593811035156,
+          0.04078478366136551
+        ],
+        "xyz_max": [
+          11.830739974975586,
+          2.9856514930725098,
+          2.7208011150360107
+        ]
+      },
+      {
+        "receipt": 112126.884162791,
+        "points": 3876,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3876,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -4.8458333015441895,
+          -3.5804855823516846,
+          0.02580559253692627
+        ],
+        "xyz_max": [
+          11.939516067504883,
+          2.0760247707366943,
+          2.326794385910034
+        ]
+      },
+      {
+        "receipt": 112127.924990619,
+        "points": 3948,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3948,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.6744799613952637,
+          -3.5235822200775146,
+          0.04076959937810898
+        ],
+        "xyz_max": [
+          11.834081649780273,
+          2.947829484939575,
+          2.42624568939209
+        ]
+      },
+      {
+        "receipt": 112128.960164789,
+        "points": 3894,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3894,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -4.3217267990112305,
+          -3.440587282180786,
+          0.0266020055860281
+        ],
+        "xyz_max": [
+          11.800455093383789,
+          2.158322334289551,
+          2.334484338760376
+        ]
+      },
+      {
+        "receipt": 112129.997916541,
+        "points": 3935,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3935,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.0983779430389404,
+          -6.10449743270874,
+          0.03784903138875961
+        ],
+        "xyz_max": [
+          11.962357521057129,
+          2.9334752559661865,
+          2.560565948486328
+        ]
+      },
+      {
+        "receipt": 112131.037709193,
+        "points": 3875,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3875,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.394615888595581,
+          -5.373045444488525,
+          0.02603313885629177
+        ],
+        "xyz_max": [
+          11.665596961975098,
+          1.9471005201339722,
+          2.3604378700256348
+        ]
+      },
+      {
+        "receipt": 112132.073994586,
+        "points": 3949,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3949,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.1857337951660156,
+          -7.37369966506958,
+          0.04593979939818382
+        ],
+        "xyz_max": [
+          11.843117713928223,
+          2.534327745437622,
+          2.71480655670166
+        ]
+      },
+      {
+        "receipt": 112133.111159129,
+        "points": 3923,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3923,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -4.236052989959717,
+          -7.3053879737854,
+          0.027113987132906914
+        ],
+        "xyz_max": [
+          11.619048118591309,
+          2.3649442195892334,
+          2.4512269496917725
+        ]
+      },
+      {
+        "receipt": 112134.148778473,
+        "points": 3939,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3939,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -2.8338541984558105,
+          -7.383505344390869,
+          0.040556974709033966
+        ],
+        "xyz_max": [
+          11.951261520385742,
+          2.9647674560546875,
+          2.5673444271087646
+        ]
+      },
+      {
+        "receipt": 112135.186809416,
+        "points": 3934,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3934,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -4.1001386642456055,
+          -7.296874046325684,
+          0.02745530754327774
+        ],
+        "xyz_max": [
+          11.894098281860352,
+          2.3676538467407227,
+          2.319873571395874
+        ]
+      },
+      {
+        "receipt": 112136.223594472,
+        "points": 3931,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 3931,
+        "is_dense": true,
+        "frame": "utlidar_lidar",
+        "xyz_min": [
+          -3.265951633453369,
+          -7.304040908813477,
+          0.06211087852716446
+        ],
+        "xyz_max": [
+          11.831796646118164,
+          2.935703754425049,
+          2.431689500808716
+        ]
+      }
+    ],
+    "/utlidar/cloud_base": [
+      {
+        "receipt": 112107.187183556,
+        "points": 1127,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1127,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.4283766448497772,
+          -9.333877563476562,
+          -0.6325044631958008
+        ],
+        "xyz_max": [
+          8.518560409545898,
+          1.5759577751159668,
+          0.8711103796958923
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 80,
+          "-0.15": 21,
+          "0": 19,
+          "0.05": 17
+        }
+      },
+      {
+        "receipt": 112108.211970583,
+        "points": 958,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 958,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.670494556427002,
+          -9.720104217529297,
+          -0.47514021396636963
+        ],
+        "xyz_max": [
+          7.874658584594727,
+          1.878936767578125,
+          1.1157760620117188
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 81,
+          "-0.15": 25,
+          "0": 16,
+          "0.05": 16
+        }
+      },
+      {
+        "receipt": 112109.251208719,
+        "points": 1155,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1155,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.4337961971759796,
+          -9.554811477661133,
+          -0.6253348588943481
+        ],
+        "xyz_max": [
+          8.79294204711914,
+          1.8222360610961914,
+          0.9399140477180481
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 82,
+          "-0.15": 22,
+          "0": 18,
+          "0.05": 17
+        }
+      },
+      {
+        "receipt": 112110.285425156,
+        "points": 1056,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1056,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5454659461975098,
+          -9.57402229309082,
+          -0.5315424203872681
+        ],
+        "xyz_max": [
+          7.520270824432373,
+          2.368992567062378,
+          0.873536229133606
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 90,
+          "-0.15": 34,
+          "0": 19,
+          "0.05": 18
+        }
+      },
+      {
+        "receipt": 112111.323057448,
+        "points": 1195,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1195,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.43326476216316223,
+          -9.233631134033203,
+          -0.599714994430542
+        ],
+        "xyz_max": [
+          9.081098556518555,
+          2.2051053047180176,
+          1.4482321739196777
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 85,
+          "-0.15": 19,
+          "0": 15,
+          "0.05": 15
+        }
+      },
+      {
+        "receipt": 112112.36153968,
+        "points": 1017,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1017,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5347353219985962,
+          -9.786116600036621,
+          -0.5371925830841064
+        ],
+        "xyz_max": [
+          7.260068416595459,
+          2.534325122833252,
+          0.8477303385734558
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 81,
+          "-0.15": 30,
+          "0": 16,
+          "0.05": 14
+        }
+      },
+      {
+        "receipt": 112113.401973665,
+        "points": 1190,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1190,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.4197426736354828,
+          -9.4818754196167,
+          -0.5973587036132812
+        ],
+        "xyz_max": [
+          8.778783798217773,
+          2.1585640907287598,
+          1.3716869354248047
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 88,
+          "-0.15": 22,
+          "0": 17,
+          "0.05": 15
+        }
+      },
+      {
+        "receipt": 112114.440087605,
+        "points": 1010,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1010,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5206758975982666,
+          -9.769445419311523,
+          -0.3977534770965576
+        ],
+        "xyz_max": [
+          14.201618194580078,
+          2.865734338760376,
+          1.4640860557556152
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 84,
+          "-0.15": 28,
+          "0": 15,
+          "0.05": 14
+        }
+      },
+      {
+        "receipt": 112115.477964041,
+        "points": 1215,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1215,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.3535946309566498,
+          -9.4407320022583,
+          -0.6555747985839844
+        ],
+        "xyz_max": [
+          9.591203689575195,
+          2.3873984813690186,
+          1.5704450607299805
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 97,
+          "-0.15": 21,
+          "0": 15,
+          "0.05": 14
+        }
+      },
+      {
+        "receipt": 112116.513711635,
+        "points": 1071,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1071,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5380618572235107,
+          -9.529109954833984,
+          -0.4509042501449585
+        ],
+        "xyz_max": [
+          7.605409622192383,
+          3.274092435836792,
+          0.9778593182563782
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 85,
+          "-0.15": 36,
+          "0": 19,
+          "0.05": 16
+        }
+      },
+      {
+        "receipt": 112117.553042455,
+        "points": 1252,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1252,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.3924504220485687,
+          -9.34997272491455,
+          -0.6311787366867065
+        ],
+        "xyz_max": [
+          8.938125610351562,
+          2.7854037284851074,
+          1.4129525423049927
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 95,
+          "-0.15": 23,
+          "0": 18,
+          "0.05": 17
+        }
+      },
+      {
+        "receipt": 112118.586911848,
+        "points": 1130,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1130,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.527309775352478,
+          -10.076879501342773,
+          -0.4734853506088257
+        ],
+        "xyz_max": [
+          8.056781768798828,
+          4.496333122253418,
+          0.9400981664657593
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 90,
+          "-0.15": 31,
+          "0": 16,
+          "0.05": 15
+        }
+      },
+      {
+        "receipt": 112119.623035002,
+        "points": 1247,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1247,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.32984402775764465,
+          -9.225977897644043,
+          -0.5997782945632935
+        ],
+        "xyz_max": [
+          9.177038192749023,
+          3.5603225231170654,
+          1.4716169834136963
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 95,
+          "-0.15": 22,
+          "0": 15,
+          "0.05": 15
+        }
+      },
+      {
+        "receipt": 112120.663879738,
+        "points": 1142,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1142,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5216846466064453,
+          -9.638842582702637,
+          -0.49901700019836426
+        ],
+        "xyz_max": [
+          9.324480056762695,
+          4.243803024291992,
+          1.2184207439422607
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 90,
+          "-0.15": 27,
+          "0": 11,
+          "0.05": 10
+        }
+      },
+      {
+        "receipt": 112121.703245259,
+        "points": 1293,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1293,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.48442932963371277,
+          -9.873639106750488,
+          -0.5874449014663696
+        ],
+        "xyz_max": [
+          9.394119262695312,
+          3.6106953620910645,
+          1.5240877866744995
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 105,
+          "-0.15": 21,
+          "0": 13,
+          "0.05": 12
+        }
+      },
+      {
+        "receipt": 112122.73836496,
+        "points": 1190,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1190,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5347669124603271,
+          -9.789121627807617,
+          -0.4383973479270935
+        ],
+        "xyz_max": [
+          7.276884078979492,
+          5.181768417358398,
+          0.7183547019958496
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 92,
+          "-0.15": 30,
+          "0": 14,
+          "0.05": 13
+        }
+      },
+      {
+        "receipt": 112123.775470504,
+        "points": 1324,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1324,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.3400173485279083,
+          -9.332427024841309,
+          -0.6571531295776367
+        ],
+        "xyz_max": [
+          8.82180404663086,
+          3.6320667266845703,
+          1.383832335472107
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 107,
+          "-0.15": 24,
+          "0": 15,
+          "0.05": 14
+        }
+      },
+      {
+        "receipt": 112124.816187753,
+        "points": 1191,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1191,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5233830213546753,
+          -9.96852970123291,
+          -0.4812554121017456
+        ],
+        "xyz_max": [
+          8.2811861038208,
+          4.08228874206543,
+          0.7061514854431152
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 98,
+          "-0.15": 24,
+          "0": 12,
+          "0.05": 10
+        }
+      },
+      {
+        "receipt": 112125.85648655,
+        "points": 1328,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1328,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.43476155400276184,
+          -9.604316711425781,
+          -0.6033186912536621
+        ],
+        "xyz_max": [
+          8.689352035522461,
+          4.054717063903809,
+          0.9158036708831787
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 101,
+          "-0.15": 21,
+          "0": 12,
+          "0.05": 11
+        }
+      },
+      {
+        "receipt": 112126.889880271,
+        "points": 1222,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1222,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5417876243591309,
+          -9.680580139160156,
+          -0.5428900718688965
+        ],
+        "xyz_max": [
+          8.598468780517578,
+          6.014133453369141,
+          0.9140084981918335
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 92,
+          "-0.15": 28,
+          "0": 14,
+          "0.05": 11
+        }
+      },
+      {
+        "receipt": 112127.928616618,
+        "points": 1360,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1360,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.43667295575141907,
+          -9.541516304016113,
+          -0.6204071044921875
+        ],
+        "xyz_max": [
+          7.500108242034912,
+          3.7275803089141846,
+          0.9451016783714294
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 107,
+          "-0.15": 20,
+          "0": 13,
+          "0.05": 11
+        }
+      },
+      {
+        "receipt": 112128.963792668,
+        "points": 1273,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1273,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5440871715545654,
+          -9.504393577575684,
+          -0.5033601522445679
+        ],
+        "xyz_max": [
+          7.6782121658325195,
+          5.294072151184082,
+          0.8926585912704468
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 101,
+          "-0.15": 31,
+          "0": 14,
+          "0.05": 13
+        }
+      },
+      {
+        "receipt": 112130.001287447,
+        "points": 1365,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1365,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5763038396835327,
+          -9.228734970092773,
+          -0.6181172132492065
+        ],
+        "xyz_max": [
+          9.118213653564453,
+          5.923283100128174,
+          1.4567745923995972
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 105,
+          "-0.15": 21,
+          "0": 13,
+          "0.05": 12
+        }
+      },
+      {
+        "receipt": 112131.041796556,
+        "points": 1280,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1280,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5272102355957031,
+          -9.638951301574707,
+          -0.4670935869216919
+        ],
+        "xyz_max": [
+          8.33277702331543,
+          5.457266330718994,
+          0.9016444087028503
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 103,
+          "-0.15": 30,
+          "0": 10,
+          "0.05": 9
+        }
+      },
+      {
+        "receipt": 112132.079515206,
+        "points": 1387,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1387,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.6329354047775269,
+          -9.64350414276123,
+          -0.5738527774810791
+        ],
+        "xyz_max": [
+          8.636089324951172,
+          6.687807083129883,
+          0.9013985395431519
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 110,
+          "-0.15": 27,
+          "0": 12,
+          "0.05": 11
+        }
+      },
+      {
+        "receipt": 112133.115525685,
+        "points": 1324,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1324,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5469576120376587,
+          -9.944351196289062,
+          -0.5374557971954346
+        ],
+        "xyz_max": [
+          7.757373809814453,
+          6.984834671020508,
+          0.7095044851303101
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 101,
+          "-0.15": 29,
+          "0": 12,
+          "0.05": 11
+        }
+      },
+      {
+        "receipt": 112134.153846047,
+        "points": 1408,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1408,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.5721570253372192,
+          -9.214963912963867,
+          -0.5923951864242554
+        ],
+        "xyz_max": [
+          9.197220802307129,
+          6.291693687438965,
+          1.476950764656067
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 115,
+          "-0.15": 28,
+          "0": 15,
+          "0.05": 12
+        }
+      },
+      {
+        "receipt": 112135.191637238,
+        "points": 1326,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1326,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.6081606149673462,
+          -9.795120239257812,
+          -0.5370117425918579
+        ],
+        "xyz_max": [
+          7.246621608734131,
+          6.6048054695129395,
+          0.6574512720108032
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 109,
+          "-0.15": 32,
+          "0": 11,
+          "0.05": 9
+        }
+      },
+      {
+        "receipt": 112136.227136694,
+        "points": 1399,
+        "zero_xyz": 0,
+        "nonfinite_xyz": 0,
+        "usable_points": 1399,
+        "is_dense": true,
+        "frame": "base_link",
+        "xyz_min": [
+          -0.652286171913147,
+          -9.50235652923584,
+          -0.6103204488754272
+        ],
+        "xyz_max": [
+          7.568336486816406,
+          6.63193416595459,
+          0.9617729783058167
+        ],
+        "potential_1deg_angular_bins_by_min_height": {
+          "-0.3": 114,
+          "-0.15": 28,
+          "0": 15,
+          "0.05": 12
+        }
+      }
+    ],
+    "/utlidar/cloud_deskewed": [
+      {
+        "receipt": 112107.199890264,
+        "points": 11127,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1127,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.24826592206954956,
+          -6.385307788848877,
+          -0.10227736830711365
+        ],
+        "xyz_max": [
+          11.941638946533203,
+          2.7196133136749268,
+          1.4258089065551758
+        ]
+      },
+      {
+        "receipt": 112108.217665508,
+        "points": 10958,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 958,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.5328450798988342,
+          -6.63893461227417,
+          -0.10067981481552124
+        ],
+        "xyz_max": [
+          11.354914665222168,
+          2.038027286529541,
+          1.6743743419647217
+        ]
+      },
+      {
+        "receipt": 112109.253738909,
+        "points": 11155,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1155,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.386513888835907,
+          -6.424422264099121,
+          -0.09406191110610962
+        ],
+        "xyz_max": [
+          12.141474723815918,
+          2.020017385482788,
+          1.4899065494537354
+        ]
+      },
+      {
+        "receipt": 112110.289588376,
+        "points": 11056,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1056,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.6280742883682251,
+          -7.232903480529785,
+          -0.12203514575958252
+        ],
+        "xyz_max": [
+          11.353181838989258,
+          1.4977270364761353,
+          1.1863197088241577
+        ]
+      },
+      {
+        "receipt": 112111.330389547,
+        "points": 11195,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1195,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.34420573711395264,
+          -6.089278221130371,
+          -0.08319747447967529
+        ],
+        "xyz_max": [
+          12.376340866088867,
+          1.621938943862915,
+          1.9232014417648315
+        ]
+      },
+      {
+        "receipt": 112112.36802844,
+        "points": 11017,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1017,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.6611918807029724,
+          -6.77031946182251,
+          -0.12902230024337769
+        ],
+        "xyz_max": [
+          11.201495170593262,
+          1.9524420499801636,
+          1.4083244800567627
+        ]
+      },
+      {
+        "receipt": 112113.414649498,
+        "points": 11190,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1190,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.25560683012008667,
+          -6.295095920562744,
+          -0.08915063738822937
+        ],
+        "xyz_max": [
+          12.201006889343262,
+          2.095093250274658,
+          1.8657512664794922
+        ]
+      },
+      {
+        "receipt": 112114.448433323,
+        "points": 11010,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1010,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.7431206107139587,
+          -6.9554243087768555,
+          -0.15003269910812378
+        ],
+        "xyz_max": [
+          12.512014389038086,
+          6.811271667480469,
+          1.549011468887329
+        ]
+      },
+      {
+        "receipt": 112115.485907884,
+        "points": 11215,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1215,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.32688283920288086,
+          -6.521460056304932,
+          -0.11265847086906433
+        ],
+        "xyz_max": [
+          12.662567138671875,
+          1.852144718170166,
+          2.0188965797424316
+        ]
+      },
+      {
+        "receipt": 112116.521684477,
+        "points": 11071,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1071,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.8157994747161865,
+          -7.1733078956604,
+          -0.1675339937210083
+        ],
+        "xyz_max": [
+          11.392301559448242,
+          1.9001837968826294,
+          1.530184030532837
+        ]
+      },
+      {
+        "receipt": 112117.558238037,
+        "points": 11252,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1252,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.46372711658477783,
+          -6.889756679534912,
+          -0.09831768274307251
+        ],
+        "xyz_max": [
+          12.280485153198242,
+          1.6192885637283325,
+          1.8946335315704346
+        ]
+      },
+      {
+        "receipt": 112118.592726704,
+        "points": 11130,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1130,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -1.0734305381774902,
+          -7.271581172943115,
+          -0.2336222529411316
+        ],
+        "xyz_max": [
+          11.683403015136719,
+          3.1301283836364746,
+          1.29180908203125
+        ]
+      },
+      {
+        "receipt": 112119.63026095,
+        "points": 11247,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1247,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.2649562358856201,
+          -5.98790979385376,
+          -0.08213838934898376
+        ],
+        "xyz_max": [
+          12.432671546936035,
+          2.4956555366516113,
+          1.936586856842041
+        ]
+      },
+      {
+        "receipt": 112120.66836698,
+        "points": 11142,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1142,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -1.0112531185150146,
+          -6.852603435516357,
+          -0.2170133888721466
+        ],
+        "xyz_max": [
+          12.541147232055664,
+          2.8800716400146484,
+          1.678462028503418
+        ]
+      },
+      {
+        "receipt": 112121.709866988,
+        "points": 11293,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1293,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.3267289996147156,
+          -6.973745346069336,
+          -0.07794457674026489
+        ],
+        "xyz_max": [
+          12.572151184082031,
+          2.717529773712158,
+          1.9801126718521118
+        ]
+      },
+      {
+        "receipt": 112122.748991231,
+        "points": 11190,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1190,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.9882254004478455,
+          -6.793100357055664,
+          -0.2671666145324707
+        ],
+        "xyz_max": [
+          11.203639030456543,
+          3.9289464950561523,
+          1.027123212814331
+        ]
+      },
+      {
+        "receipt": 112123.779786547,
+        "points": 11324,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1324,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.46692073345184326,
+          -6.166514873504639,
+          -0.12143096327781677
+        ],
+        "xyz_max": [
+          12.204060554504395,
+          2.6828761100769043,
+          1.868762493133545
+        ]
+      },
+      {
+        "receipt": 112124.833346479,
+        "points": 11191,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1191,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.973550021648407,
+          -7.090907096862793,
+          -0.20940354466438293
+        ],
+        "xyz_max": [
+          11.822198867797852,
+          2.7188849449157715,
+          1.0707515478134155
+        ]
+      },
+      {
+        "receipt": 112125.85929345,
+        "points": 11328,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1328,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.660642683506012,
+          -6.550832748413086,
+          -0.08040088415145874
+        ],
+        "xyz_max": [
+          12.041807174682617,
+          2.8592000007629395,
+          1.4634884595870972
+        ]
+      },
+      {
+        "receipt": 112126.897536337,
+        "points": 11222,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1222,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -1.3908729553222656,
+          -6.606215476989746,
+          -0.3197125792503357
+        ],
+        "xyz_max": [
+          11.363883972167969,
+          4.656167984008789,
+          1.4640734195709229
+        ]
+      },
+      {
+        "receipt": 112127.93293142,
+        "points": 11360,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1360,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.4016040563583374,
+          -6.455934524536133,
+          -0.07777059078216553
+        ],
+        "xyz_max": [
+          11.376357078552246,
+          3.209726333618164,
+          1.4889925718307495
+        ]
+      },
+      {
+        "receipt": 112128.974394391,
+        "points": 11273,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1273,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -1.218768835067749,
+          -7.151223182678223,
+          -0.27343377470970154
+        ],
+        "xyz_max": [
+          11.42874813079834,
+          3.941824436187744,
+          1.4402168989181519
+        ]
+      },
+      {
+        "receipt": 112130.006279171,
+        "points": 11365,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1365,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.2714182138442993,
+          -6.083705425262451,
+          -0.10985130071640015
+        ],
+        "xyz_max": [
+          12.387374877929688,
+          5.905481815338135,
+          1.922968864440918
+        ]
+      },
+      {
+        "receipt": 112131.051878541,
+        "points": 11280,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1280,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.945976734161377,
+          -6.795106887817383,
+          -0.2854553461074829
+        ],
+        "xyz_max": [
+          11.858181953430176,
+          5.2575507164001465,
+          1.4625458717346191
+        ]
+      },
+      {
+        "receipt": 112132.082451326,
+        "points": 11387,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1387,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.2905336618423462,
+          -6.618956565856934,
+          -0.08841946721076965
+        ],
+        "xyz_max": [
+          11.99343490600586,
+          7.01542329788208,
+          1.447380542755127
+        ]
+      },
+      {
+        "receipt": 112133.12794091,
+        "points": 11324,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1324,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -1.2015304565429688,
+          -7.401816368103027,
+          -0.3308492600917816
+        ],
+        "xyz_max": [
+          11.475163459777832,
+          7.166032791137695,
+          1.0655230283737183
+        ]
+      },
+      {
+        "receipt": 112134.171607409,
+        "points": 11408,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1408,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.25724858045578003,
+          -6.012524604797363,
+          -0.07771393656730652
+        ],
+        "xyz_max": [
+          12.427377700805664,
+          6.760556221008301,
+          1.9385459423065186
+        ]
+      },
+      {
+        "receipt": 112135.199114645,
+        "points": 11326,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1326,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.9592549204826355,
+          -6.842978477478027,
+          -0.2657284736633301
+        ],
+        "xyz_max": [
+          11.173201560974121,
+          6.921955108642578,
+          1.000706434249878
+        ]
+      },
+      {
+        "receipt": 112136.237797234,
+        "points": 11399,
+        "zero_xyz": 10000,
+        "nonfinite_xyz": 0,
+        "usable_points": 1399,
+        "is_dense": true,
+        "frame": "odom",
+        "xyz_min": [
+          -0.33626115322113037,
+          -6.422100067138672,
+          -0.0789901614189148
+        ],
+        "xyz_max": [
+          11.395840644836426,
+          6.873572826385498,
+          1.5067307949066162
+        ]
+      }
+    ]
+  },
+  "errors": [],
+  "odometry": {
+    "child_frame": "base_link",
+    "position_start_m": [
+      0.513003408908844,
+      -1.0740108489990234,
+      0.3047407567501068
+    ],
+    "position_end_m": [
+      0.5132745504379272,
+      -1.0738075971603394,
+      0.3047404885292053
+    ],
+    "position_span_m": [
+      0.0004775524139404297,
+      0.00047135353088378906,
+      1.52587890625e-05
+    ],
+    "net_translation_m": 0.00033886444290381966,
+    "largest_position_step_m": 5.6131311458438455e-05,
+    "yaw_span_deg": 0.5048829204664252,
+    "yaw_net_change_deg": -0.49676295972219353,
+    "largest_yaw_step_deg": 0.008388667193259315,
+    "quaternion_norm": {
+      "min": 0.999999847381765,
+      "median": 0.9999999983644179,
+      "max": 1.0000001501113733
+    },
+    "pose_covariance_all_zero": true,
+    "twist_covariance_all_zero": true
+  },
+  "imu": {
+    "finite_values": true,
+    "acceleration_norm_m_s2": {
+      "min": 9.921322647325207,
+      "median": 10.364363252486022,
+      "max": 10.863727049300952
+    },
+    "angular_velocity_mean_rad_s": [
+      -0.0013249884544974011,
+      0.0005705050233176375,
+      0.0004997404923154885
+    ],
+    "angular_velocity_std_rad_s": [
+      0.006178061026860217,
+      0.007568655220112326,
+      0.004550332294033507
+    ],
+    "quaternion_norm": {
+      "min": 0.9983123728178293,
+      "median": 0.9983124238223936,
+      "max": 0.9983124744156594
+    },
+    "covariances_all_zero": true
+  },
+  "sport_position": {
+    "span_m": [
+      0.0004521012306213379,
+      0.0004521608352661133,
+      1.5079975128173828e-05
+    ],
+    "net_translation_m": 0.00035348261008039117,
+    "note": "Separate vendor estimate; no frame alias or fusion assumed."
+  },
+  "lidar_state": {
+    "stamp": 1791795580.62748,
+    "firmware_version": "",
+    "software_version": "1.0.0.38",
+    "sdk_version": "",
+    "sys_rotation_speed": 12947.77734375,
+    "com_rotation_speed": 262.7602844238281,
+    "error_state": 0,
+    "cloud_frequency": 15.416465759277344,
+    "cloud_packet_loss_rate": 0.0,
+    "cloud_size": 58339,
+    "cloud_scan_num": 210,
+    "imu_frequency": 248.76622009277344,
+    "imu_packet_loss_rate": 0.0,
+    "imu_rpy": [
+      -76.10737609863281,
+      19.17424201965332,
+      -0.14941345155239105
+    ],
+    "serial_recv_stamp": 1791795580.6270456,
+    "serial_buffer_size": 0,
+    "serial_buffer_read": 240
+  },
+  "local_publishers": {
+    "/tf": [
+      {
+        "node": "doggy_go2_state",
+        "namespace": "/"
+      },
+      {
+        "node": "go2_robot_state_publisher",
+        "namespace": "/"
+      }
+    ],
+    "/tf_static": [
+      {
+        "node": "doggy_go2_state",
+        "namespace": "/"
+      },
+      {
+        "node": "go2_robot_state_publisher",
+        "namespace": "/"
+      }
+    ],
+    "/doggy/robot_clock": [
+      {
+        "node": "doggy_go2_state",
+        "namespace": "/"
+      }
+    ],
+    "/clock": [],
+    "/joint_states": [
+      {
+        "node": "doggy_go2_state",
+        "namespace": "/"
+      }
+    ]
+  },
+  "tf_tree": "base_link: \n  parent: 'odom'\n  broadcaster: 'default_authority'\n  rate: 43.061\n  most_recent_transform: 1791795580.787584\n  oldest_transform: 1791795570.778507\n  buffer_length: 10.009\nbase: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_calf_rotor: \n  parent: 'FL_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_thigh: \n  parent: 'FL_hip'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nFL_calflower1: \n  parent: 'FL_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_calflower: \n  parent: 'FL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_calf: \n  parent: 'FL_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nFL_foot: \n  parent: 'FL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_hip_rotor: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_thigh_rotor: \n  parent: 'FL_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_hip: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nFR_calf_rotor: \n  parent: 'FR_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_thigh: \n  parent: 'FR_hip'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nFR_calflower1: \n  parent: 'FR_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_calflower: \n  parent: 'FR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_calf: \n  parent: 'FR_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nFR_foot: \n  parent: 'FR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_hip_rotor: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_thigh_rotor: \n  parent: 'FR_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_hip: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nHead_lower: \n  parent: 'Head_upper'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nHead_upper: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_calf_rotor: \n  parent: 'RL_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_thigh: \n  parent: 'RL_hip'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nRL_calflower1: \n  parent: 'RL_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_calflower: \n  parent: 'RL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_calf: \n  parent: 'RL_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nRL_foot: \n  parent: 'RL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_hip_rotor: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_thigh_rotor: \n  parent: 'RL_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_hip: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nRR_calf_rotor: \n  parent: 'RR_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_thigh: \n  parent: 'RR_hip'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nRR_calflower1: \n  parent: 'RR_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_calflower: \n  parent: 'RR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_calf: \n  parent: 'RR_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nRR_foot: \n  parent: 'RR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_hip_rotor: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_thigh_rotor: \n  parent: 'RR_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_hip: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 20.108\n  most_recent_transform: 1791795580.774319\n  oldest_transform: 1791795570.778507\n  buffer_length: 9.996\nfront_camera: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nimu: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nradar: \n  parent: 'base'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\n",
+  "tf_matches_odometry": {
+    "stamp_distance_s": 0.0,
+    "translation_error_m": 0.0
+  },
+  "body_deskewed_consistency": {
+    "nearest_neighbor_distance_m": {
+      "min": 1.863908306102466e-06,
+      "median": 4.20273945335441e-05,
+      "max": 0.0012551796462026347
+    },
+    "points_compared": 1333,
+    "note": "Existing TF only; no transform fitted. Clouds have different processing/timestamps."
+  },
+  "lidar_generation_user_report": "L1 most likely; not independently confirmed",
+  "global_clock_query_note": "Rechecked using a separate unremapped node: no /clock publisher; original checker had /clock remapped to /doggy/robot_clock."
+}

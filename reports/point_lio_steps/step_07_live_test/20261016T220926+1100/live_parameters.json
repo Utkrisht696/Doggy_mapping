@@ -1,0 +1,16 @@
+{
+  "init_map_size": 4000,
+  "mapping.imu_meas_omg_cov": 0.1,
+  "common.imu_topic": "/doggy/imu/body_calibrated",
+  "common.time_lag_imu_to_lidar": 0.0,
+  "odom_header_frame_id": "map",
+  "odom_child_frame_id": "imu",
+  "tf_publishers": [
+    "go2_robot_state_publisher",
+    "doggy_point_lio_tf",
+    "doggy_go2_state"
+  ],
+  "private_raw_tf_publishers": [
+    "doggy_point_lio"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "enough_clock_samples": true,
+    "clock_stamps_match_vendor_odometry": true,
+    "clock_stamps_match_relayed_odometry": true,
+    "clock_strictly_increasing": true
+  },
+  "counts": {
+    "clock": 856,
+    "source": 3043,
+    "relay": 3042
+  },
+  "interior_clock_samples": 759,
+  "missing_source_stamps": [],
+  "missing_relay_stamps": [],
+  "method": "20-second high-depth RELIABLE capture; exclude 1-second discovery/shutdown boundaries; exact integer timestamp comparison."
+}

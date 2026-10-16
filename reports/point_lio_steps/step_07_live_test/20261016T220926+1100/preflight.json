@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "sport": 2070,
+    "converted": 2026,
+    "duplicates": 44
+  },
+  "source_quaternion_norm_minmax": [
+    0.9999999403953552,
+    1.000000238418579
+  ],
+  "conversion_error_count": 0,
+  "conversion_errors": [],
+  "clouds": 107,
+  "clock_messages": 302,
+  "sport_modes": [
+    0
+  ],
+  "body_height_median_m": 0.32282131910324097,
+  "point_lio_running": false,
+  "calibrated_imu_existing_publishers": 0,
+  "clock_publishers": 1,
+  "calibrated_accel_norm_mean": 9.805205818376281,
+  "calibrated_gyro_mean": [
+    0.0045669136355788115,
+    0.0006161712660520077,
+    0.001215514473218175
+  ],
+  "calibrated_gyro_max_norm": 0.041439255820798174,
+  "tf_checks": {
+    "base_link <- utlidar_lidar": true,
+    "imu <- utlidar_lidar": true,
+    "odom <- imu": true
+  },
+  "cloud_frame": "utlidar_lidar",
+  "passed": true
+}

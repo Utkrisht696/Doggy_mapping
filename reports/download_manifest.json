@@ -1,0 +1,488 @@
+{
+  "repositories": {
+    "sdk/unilidar_sdk": {
+      "url": "https://github.com/unitreerobotics/unilidar_sdk.git",
+      "commit": "1bd7d95d8ab7ce7a22058d2bb07e39fd62612aa6",
+      "branch": "main",
+      "local_changes": ""
+    },
+    "sdk/unilidar_sdk2": {
+      "url": "https://github.com/unitreerobotics/unilidar_sdk2.git",
+      "commit": "0e3c51f512e6b8ff60b8c32f160b412cb48445c2",
+      "branch": "main",
+      "local_changes": "?? unitree_lidar_sdk/bin/\n?? unitree_lidar_sdk/build/"
+    },
+    "sdk/unitree_model": {
+      "url": "https://github.com/unitreerobotics/unitree_model.git",
+      "commit": "b6a8942b0803b6c137e58cef12beb4b03e4a2fa7",
+      "branch": "main",
+      "local_changes": ""
+    },
+    "sdk/unitree_ros2": {
+      "url": "https://github.com/unitreerobotics/unitree_ros2.git",
+      "commit": "668d1ec5a05d1c38d3306bdca7d59f2ba3581a88",
+      "branch": "master",
+      "local_changes": "M cyclonedds_ws/src/unitree/unitree_go/CMakeLists.txt\n?? cyclonedds_ws/src/unitree/unitree_go/msg/VoxelMapCompressed.msg"
+    },
+    "sdk/unitree_sdk2": {
+      "url": "https://github.com/unitreerobotics/unitree_sdk2.git",
+      "commit": "63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36",
+      "branch": "main",
+      "local_changes": ""
+    },
+    "sdk/unitree_sdk2_python": {
+      "url": "https://github.com/unitreerobotics/unitree_sdk2_python.git",
+      "commit": "814556d15970dd2ecf1c9984e845ca02ab07e206",
+      "branch": "master",
+      "local_changes": ""
+    },
+    "sdk/unitree_slam": {
+      "url": "https://github.com/unitreerobotics/unitree_slam.git",
+      "commit": "1e49bfa4dca2c992a566ee7d1d8480d4102149b8",
+      "branch": "main",
+      "local_changes": "?? build/"
+    },
+    "third_party/navigation2": {
+      "url": "https://github.com/ros-navigation/navigation2.git",
+      "commit": "3c3db59d6969d8ecee8e68468693d006397f4a0c",
+      "branch": "humble",
+      "local_changes": ""
+    },
+    "third_party/pointcloud_to_laserscan": {
+      "url": "https://github.com/ros-perception/pointcloud_to_laserscan.git",
+      "commit": "59bf996fb3ee7db0026a5cd3ce0d2a39d2e602ea",
+      "branch": "humble",
+      "local_changes": ""
+    },
+    "third_party/robot_localization": {
+      "url": "https://github.com/cra-ros-pkg/robot_localization.git",
+      "commit": "8696ee5a9e4f959fcaae37835dcf2ed12ead581b",
+      "branch": "humble-devel",
+      "local_changes": ""
+    },
+    "sdk/unitree_ros": {
+      "url": "https://github.com/unitreerobotics/unitree_ros.git",
+      "commit": "5994d4faef0a9cadd3287f8de0199a67eeb2a259",
+      "branch": "master",
+      "local_changes": "",
+      "sparse_path": "robots/go2_description"
+    },
+    "third_party/autonomy_stack_go2": {
+      "url": "https://github.com/jizhang-cmu/autonomy_stack_go2.git",
+      "commit": "43d5f54b389b251713f0097893c30fa76c870d54",
+      "branch": "foxy-humble",
+      "local_changes": ""
+    }
+  },
+  "debian_packages": [
+    {
+      "file": "downloads/debs/comerr-dev_2.1-1.46.5-2ubuntu1.2_amd64.deb",
+      "metadata": "Package: comerr-dev\nVersion: 2.1-1.46.5-2ubuntu1.2\nArchitecture: amd64",
+      "sha256": "b1094bc872f0d1f2440f26f581e8fcad5d71dc420dd1c75018b0a9d935248577"
+    },
+    {
+      "file": "downloads/debs/krb5-multidev_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: krb5-multidev\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "0b37373e56348269bef4dca0d166914be563573332da89e974ec32018d60dce3"
+    },
+    {
+      "file": "downloads/debs/libacl1-dev_2.3.1-1_amd64.deb",
+      "metadata": "Package: libacl1-dev\nVersion: 2.3.1-1\nArchitecture: amd64",
+      "sha256": "e408d4c70e7801074ea459180208a542d54f56389ba485370434f2d00e950980"
+    },
+    {
+      "file": "downloads/debs/libattr1-dev_1%3a2.5.1-1ubuntu0.1_amd64.deb",
+      "metadata": "Package: libattr1-dev\nVersion: 1:2.5.1-1ubuntu0.1\nArchitecture: amd64",
+      "sha256": "06342741c3cd3da53de793972b9423bbd58902d63bd7e076ce86e22ee2d6496f"
+    },
+    {
+      "file": "downloads/debs/libbenchmark-dev_1.6.1-1_amd64.deb",
+      "metadata": "Package: libbenchmark-dev\nVersion: 1.6.1-1\nArchitecture: amd64",
+      "sha256": "320904d52edce5f4f7bfc4c05a7bc513511ba85dafb0e735f57c58bb86e88246"
+    },
+    {
+      "file": "downloads/debs/libbenchmark1_1.6.1-1_amd64.deb",
+      "metadata": "Package: libbenchmark1\nVersion: 1.6.1-1\nArchitecture: amd64",
+      "sha256": "a3459915a49ea8c8dd4a6af02b4e5fd762714ebf513bb0a92eb9e568dce31d6e"
+    },
+    {
+      "file": "downloads/debs/libbsd-dev_0.11.5-1_amd64.deb",
+      "metadata": "Package: libbsd-dev\nVersion: 0.11.5-1\nArchitecture: amd64",
+      "sha256": "16f20fc8f05bdb68b0db046a4f91dfe664d91409bc4e196b302ab5432bce5022"
+    },
+    {
+      "file": "downloads/debs/libgeographic-dev_1.52-1_amd64.deb",
+      "metadata": "Package: libgeographic-dev\nVersion: 1.52-1\nArchitecture: amd64",
+      "sha256": "33130034ffdf72478b89c996830a7411de7942027efc29e4b8ba76a6e6cedb12"
+    },
+    {
+      "file": "downloads/debs/libgeographic19_1.52-1_amd64.deb",
+      "metadata": "Package: libgeographic19\nVersion: 1.52-1\nArchitecture: amd64",
+      "sha256": "143c1b80105e2b72ad492de6e91abc5f26dbe0197e5e4f4ecedf4392d201ab83"
+    },
+    {
+      "file": "downloads/debs/libgssapi-krb5-2_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libgssapi-krb5-2\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "08e98a3dc74361cdb13c0d68bc73e0352552490546c1ad3ce5bff5426f6a2dfe"
+    },
+    {
+      "file": "downloads/debs/libgssapi-krb5-2_1.19.2-2ubuntu0.10_i386.deb",
+      "metadata": "Package: libgssapi-krb5-2\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: i386",
+      "sha256": "ddc671437663cee6e8c22704e2382cc51ea90cbb890d4ae327b56964e3b1c43d"
+    },
+    {
+      "file": "downloads/debs/libgssrpc4_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libgssrpc4\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "37481241adc5d1c46672ad3c1920a82e6c26f97a473467a84adc0f7dfa77799e"
+    },
+    {
+      "file": "downloads/debs/libk5crypto3_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libk5crypto3\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "40429c0099678fbc35045f0c63a10bc3490251d80cf1006095eaa0272c8d5e27"
+    },
+    {
+      "file": "downloads/debs/libk5crypto3_1.19.2-2ubuntu0.10_i386.deb",
+      "metadata": "Package: libk5crypto3\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: i386",
+      "sha256": "57396a64a45e989da04767f10ffd55d3dfe2c74a2df1c78e25b0d531f9a1e3ac"
+    },
+    {
+      "file": "downloads/debs/libkadm5clnt-mit12_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libkadm5clnt-mit12\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "1f1b618fcf2a6ebc7b8bbe098e7c9afe31d59c4201c4f7b0a83347e9d071098a"
+    },
+    {
+      "file": "downloads/debs/libkadm5srv-mit12_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libkadm5srv-mit12\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "33f9e251251f85af8ddb00bfe7e334d4b3a5bd3e10fa18044206be026d801773"
+    },
+    {
+      "file": "downloads/debs/libkdb5-10_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libkdb5-10\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "80bb07a9be24d740794777c75023d328b24c722fcb1a3762d2cc88941c19fb6f"
+    },
+    {
+      "file": "downloads/debs/libkrb5-3_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libkrb5-3\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "0da3e0df7d6314615160a42f65ff345986783be02cd65a6ce797cfbacc7bcb0d"
+    },
+    {
+      "file": "downloads/debs/libkrb5-3_1.19.2-2ubuntu0.10_i386.deb",
+      "metadata": "Package: libkrb5-3\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: i386",
+      "sha256": "e38011a40fd8cbfb263f3883b9926e3b730057185a3144873ab133010fc2dfad"
+    },
+    {
+      "file": "downloads/debs/libkrb5-dev_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libkrb5-dev\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "9ef65ad8bf324927d4a35b72d17ad7153451a43a501213888ec78873b7119d24"
+    },
+    {
+      "file": "downloads/debs/libkrb5support0_1.19.2-2ubuntu0.10_amd64.deb",
+      "metadata": "Package: libkrb5support0\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: amd64",
+      "sha256": "0406052ac2d267f05088ada6d36df61aaa338cbe8d5e13fb1d7f79da560817ed"
+    },
+    {
+      "file": "downloads/debs/libkrb5support0_1.19.2-2ubuntu0.10_i386.deb",
+      "metadata": "Package: libkrb5support0\nVersion: 1.19.2-2ubuntu0.10\nArchitecture: i386",
+      "sha256": "87e6953510a7cf5a70a9ff5b6ff3faad7404e8638f0f9600cd41b3660a609823"
+    },
+    {
+      "file": "downloads/debs/libmd-dev_1.0.4-1build1_amd64.deb",
+      "metadata": "Package: libmd-dev\nVersion: 1.0.4-1build1\nArchitecture: amd64",
+      "sha256": "a2cefd3f43134c7e662b43d5da1bc42bb80927032f3a142da845939d09288bc5"
+    },
+    {
+      "file": "downloads/debs/libnanoflann-dev_1.4.2+ds-1_all.deb",
+      "metadata": "Package: libnanoflann-dev\nVersion: 1.4.2+ds-1\nArchitecture: all",
+      "sha256": "31f973f4d3dcf247dfecb51492319a35f6515094273a3c43e1b9f9539e169d44"
+    },
+    {
+      "file": "downloads/debs/libncurses-dev_6.3-2ubuntu0.3_amd64.deb",
+      "metadata": "Package: libncurses-dev\nVersion: 6.3-2ubuntu0.3\nArchitecture: amd64",
+      "sha256": "e51d55c365b957b442a1cef83256e4c3f71a66a743e5ba972a902f2da6b1123e"
+    },
+    {
+      "file": "downloads/debs/libnorm-dev_1.5.9+dfsg-2_amd64.deb",
+      "metadata": "Package: libnorm-dev\nVersion: 1.5.9+dfsg-2\nArchitecture: amd64",
+      "sha256": "b286f251528030761b96d4233bf4b27ce24cd7f700169e4b4aa6cf2ae7da5fd6"
+    },
+    {
+      "file": "downloads/debs/libomp-14-dev_1%3a14.0.0-1ubuntu1.1_amd64.deb",
+      "metadata": "Package: libomp-14-dev\nVersion: 1:14.0.0-1ubuntu1.1\nArchitecture: amd64",
+      "sha256": "ce3d72f3d7c1b499b156303c8415e729fe027da7ab2f45653e92e3e64593c402"
+    },
+    {
+      "file": "downloads/debs/libomp-dev_1%3a14.0-55~exp2_amd64.deb",
+      "metadata": "Package: libomp-dev\nVersion: 1:14.0-55~exp2\nArchitecture: amd64",
+      "sha256": "445f75e6fd75fe5606e7a2855b8bf13ddb4301ae4ed6d364d30b5e403f86e634"
+    },
+    {
+      "file": "downloads/debs/libomp5-14_1%3a14.0.0-1ubuntu1.1_amd64.deb",
+      "metadata": "Package: libomp5-14\nVersion: 1:14.0.0-1ubuntu1.1\nArchitecture: amd64",
+      "sha256": "7b69ec021dd19555c16e250827f57be88381ff2fff9bdbd1b3a2d25d27558cea"
+    },
+    {
+      "file": "downloads/debs/libpgm-dev_5.3.128~dfsg-2_amd64.deb",
+      "metadata": "Package: libpgm-dev\nVersion: 5.3.128~dfsg-2\nArchitecture: amd64",
+      "sha256": "1b35994a72c9de66be8a36b705b08e77d62b1fb02c3b45cedf57ea266c5619ed"
+    },
+    {
+      "file": "downloads/debs/libsodium-dev_1.0.18-1ubuntu0.22.04.1_amd64.deb",
+      "metadata": "Package: libsodium-dev\nVersion: 1.0.18-1ubuntu0.22.04.1\nArchitecture: amd64",
+      "sha256": "e89724be580faf6db2728a79de2e9b93edfa42a8dc78f200526832563a6bb469"
+    },
+    {
+      "file": "downloads/debs/libxtensor-dev_0.23.10-15_amd64.deb",
+      "metadata": "Package: libxtensor-dev\nVersion: 0.23.10-15\nArchitecture: amd64",
+      "sha256": "6872062869d9e198767898236b79ee7c9596896e18871d8cedf663cf26fdcdbf"
+    },
+    {
+      "file": "downloads/debs/libzmq3-dev_4.3.4-2_amd64.deb",
+      "metadata": "Package: libzmq3-dev\nVersion: 4.3.4-2\nArchitecture: amd64",
+      "sha256": "c6ed849e53257b52d3d9df299a698cfb37862a4ce464a803324ad00cd7d471c0"
+    },
+    {
+      "file": "downloads/debs/ros-humble-behaviortree-cpp-v3_3.8.7-1jammy.20260908.003336_amd64.deb",
+      "metadata": "Package: ros-humble-behaviortree-cpp-v3\nVersion: 3.8.7-1jammy.20260908.003336\nArchitecture: amd64",
+      "sha256": "4c6e13b9d6649fcd75bed803799a99b989df224dc4f01e2a7bf0899482b155ad"
+    },
+    {
+      "file": "downloads/debs/ros-humble-costmap-queue_1.1.20-1jammy.20260908.011000_amd64.deb",
+      "metadata": "Package: ros-humble-costmap-queue\nVersion: 1.1.20-1jammy.20260908.011000\nArchitecture: amd64",
+      "sha256": "a3aa56d03dfb9e7dea80039f353235b5031d0ddc7ade9c3467bde1a6133d1b82"
+    },
+    {
+      "file": "downloads/debs/ros-humble-cyclonedds_0.10.5-2jammy.20260226.013234_amd64.deb",
+      "metadata": "Package: ros-humble-cyclonedds\nVersion: 0.10.5-2jammy.20260226.013234\nArchitecture: amd64",
+      "sha256": "67fc80cb92cd24f791d37059debaf80dd69d2268cc503bfce0f192d87eb8860b"
+    },
+    {
+      "file": "downloads/debs/ros-humble-dwb-core_1.1.20-1jammy.20260908.005222_amd64.deb",
+      "metadata": "Package: ros-humble-dwb-core\nVersion: 1.1.20-1jammy.20260908.005222\nArchitecture: amd64",
+      "sha256": "ae743f426281a4e55fad34f0a97f89ad5e33a131dc876f8e45c4eaa735d7c5b8"
+    },
+    {
+      "file": "downloads/debs/ros-humble-dwb-critics_1.1.20-1jammy.20260908.011533_amd64.deb",
+      "metadata": "Package: ros-humble-dwb-critics\nVersion: 1.1.20-1jammy.20260908.011533\nArchitecture: amd64",
+      "sha256": "9cc5f27a7a5758e9f0c4ced8e37bd456283825f9b0eb430b89e111c8e99dd926"
+    },
+    {
+      "file": "downloads/debs/ros-humble-dwb-msgs_1.1.20-1jammy.20260907.212657_amd64.deb",
+      "metadata": "Package: ros-humble-dwb-msgs\nVersion: 1.1.20-1jammy.20260907.212657\nArchitecture: amd64",
+      "sha256": "326a22cee1b7ce7762474d9c4a94e5de6c4c44bc47cf6192cecc339fe01804a3"
+    },
+    {
+      "file": "downloads/debs/ros-humble-dwb-plugins_1.1.20-1jammy.20260908.005659_amd64.deb",
+      "metadata": "Package: ros-humble-dwb-plugins\nVersion: 1.1.20-1jammy.20260908.005659\nArchitecture: amd64",
+      "sha256": "b8f970c931e66dc783a719aab6d22544092abbe9cd5012de6febaccab5ece0ce"
+    },
+    {
+      "file": "downloads/debs/ros-humble-geographic-msgs_1.0.6-1jammy.20260907.212142_amd64.deb",
+      "metadata": "Package: ros-humble-geographic-msgs\nVersion: 1.0.6-1jammy.20260907.212142\nArchitecture: amd64",
+      "sha256": "21ce6a2516aca5e21d1dbf02c20d02e95d6b675d59daa5264f4a0b290c5541fc"
+    },
+    {
+      "file": "downloads/debs/ros-humble-iceoryx-binding-c_2.0.5-1jammy.20260226.012512_amd64.deb",
+      "metadata": "Package: ros-humble-iceoryx-binding-c\nVersion: 2.0.5-1jammy.20260226.012512\nArchitecture: amd64",
+      "sha256": "4846326e189194045b5ba646082ae41a4d4dddd08735c327d3b1fc99763425f7"
+    },
+    {
+      "file": "downloads/debs/ros-humble-iceoryx-hoofs_2.0.5-1jammy.20260226.011054_amd64.deb",
+      "metadata": "Package: ros-humble-iceoryx-hoofs\nVersion: 2.0.5-1jammy.20260226.011054\nArchitecture: amd64",
+      "sha256": "e42fb25192b3d04342096fb54144beb1d8245273aa628c900fa32509d17fcf4a"
+    },
+    {
+      "file": "downloads/debs/ros-humble-iceoryx-posh_2.0.5-1jammy.20260226.011738_amd64.deb",
+      "metadata": "Package: ros-humble-iceoryx-posh\nVersion: 2.0.5-1jammy.20260226.011738\nArchitecture: amd64",
+      "sha256": "594190c3e29bf9ee6a9728230ddef1aff88489dce0678134bc945b85d1ad1f45"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav-2d-msgs_1.1.20-1jammy.20260907.212326_amd64.deb",
+      "metadata": "Package: ros-humble-nav-2d-msgs\nVersion: 1.1.20-1jammy.20260907.212326\nArchitecture: amd64",
+      "sha256": "dc3415db8e526df626b7139720785e84bb0a2fefa3cd8d2f7e55207128ea0091"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav-2d-utils_1.1.20-1jammy.20260908.000907_amd64.deb",
+      "metadata": "Package: ros-humble-nav-2d-utils\nVersion: 1.1.20-1jammy.20260908.000907\nArchitecture: amd64",
+      "sha256": "df85b77ad8c8ad54ce714893bf3061a3db601229e928ebd4b2e397f84c893bcd"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-amcl_1.1.20-1jammy.20260908.000809_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-amcl\nVersion: 1.1.20-1jammy.20260908.000809\nArchitecture: amd64",
+      "sha256": "309f1db12114db8f567d7e278b1168329b1a01b366615f0f16dc59418b775ee4"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-behavior-tree_1.1.20-1jammy.20260908.004120_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-behavior-tree\nVersion: 1.1.20-1jammy.20260908.004120\nArchitecture: amd64",
+      "sha256": "d3361158db7ed999cc7beb8767e16fc1f4173ec66dca9a7b77076109fde5460f"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-behaviors_1.1.20-1jammy.20260908.011930_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-behaviors\nVersion: 1.1.20-1jammy.20260908.011930\nArchitecture: amd64",
+      "sha256": "4ca38f16ab3527135697c3427079ae186177e788b1f692832043d52576f6229a"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-bringup_1.1.20-1jammy.20260908.021125_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-bringup\nVersion: 1.1.20-1jammy.20260908.021125\nArchitecture: amd64",
+      "sha256": "5374afe2d9847015a887118fb3157e89482ec14aaac2f8f5acd7dfca46b865ca"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-bt-navigator_1.1.20-1jammy.20260908.011944_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-bt-navigator\nVersion: 1.1.20-1jammy.20260908.011944\nArchitecture: amd64",
+      "sha256": "3d1c84695d4a75262afe24f1a3bfc54209933c9218cb0e35c295e8ca28534c5a"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-collision-monitor_1.1.20-1jammy.20260908.010715_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-collision-monitor\nVersion: 1.1.20-1jammy.20260908.010715\nArchitecture: amd64",
+      "sha256": "99bd134a691ab743cbde5f661b80a540153ec4cdefce3f538fde895ed90691ad"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-constrained-smoother_1.1.20-1jammy.20260908.005501_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-constrained-smoother\nVersion: 1.1.20-1jammy.20260908.005501\nArchitecture: amd64",
+      "sha256": "d3155098a3ef7687824a77756e3a7e2bc384bdc78be4adb3543b79803d0681c3"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-controller_1.1.20-1jammy.20260908.005456_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-controller\nVersion: 1.1.20-1jammy.20260908.005456\nArchitecture: amd64",
+      "sha256": "3d6f78d928efc9b388e14cbf100f97f08aafdc952b8426db883549459eb490aa"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-core_1.1.20-1jammy.20260908.004903_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-core\nVersion: 1.1.20-1jammy.20260908.004903\nArchitecture: amd64",
+      "sha256": "d2bef6d0ee947d83f4dba5baef9aba93b7e70f6270bff7755b36ac258236afdc"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-costmap-2d_1.1.20-1jammy.20260908.002855_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-costmap-2d\nVersion: 1.1.20-1jammy.20260908.002855\nArchitecture: amd64",
+      "sha256": "2fb08cfa9bc9ba139891096abb52f36bafc716ea53d67b4ef5eb4161b277d098"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-dwb-controller_1.1.20-1jammy.20260908.012626_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-dwb-controller\nVersion: 1.1.20-1jammy.20260908.012626\nArchitecture: amd64",
+      "sha256": "4cf942f6850a0b659105443f96d24398d5d4252540052846b631ae6596049195"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-lifecycle-manager_1.1.20-1jammy.20260908.000824_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-lifecycle-manager\nVersion: 1.1.20-1jammy.20260908.000824\nArchitecture: amd64",
+      "sha256": "870f001600faed2ecbf0ef166eb301b29952deb1e07f6113174354d64c2f18a8"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-mppi-controller_1.1.20-1jammy.20260908.012051_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-mppi-controller\nVersion: 1.1.20-1jammy.20260908.012051\nArchitecture: amd64",
+      "sha256": "a6365998c0e7de752b020c534aa400aec719a57187725f4d7916cfb06a2e55dc"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-navfn-planner_1.1.20-1jammy.20260908.005505_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-navfn-planner\nVersion: 1.1.20-1jammy.20260908.005505\nArchitecture: amd64",
+      "sha256": "d8e15b0263fc3b42f01ea3e74a11bb13580752a5130aa1462b72c94c8f348950"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-planner_1.1.20-1jammy.20260908.005526_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-planner\nVersion: 1.1.20-1jammy.20260908.005526\nArchitecture: amd64",
+      "sha256": "7e1fc3869351ab7ef3775f6aea364330a86e9ae2efafea495ed6d538ae9ed538"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-regulated-pure-pursuit-controller_1.1.20-1jammy.20260908.005527_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-regulated-pure-pursuit-controller\nVersion: 1.1.20-1jammy.20260908.005527\nArchitecture: amd64",
+      "sha256": "1e9ad0c7995b0da8cf42df6393c36dd9bfc2ebccbf9553f60439d4e9009a7106"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-rotation-shim-controller_1.1.20-1jammy.20260908.010304_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-rotation-shim-controller\nVersion: 1.1.20-1jammy.20260908.010304\nArchitecture: amd64",
+      "sha256": "d1510d7b14dcf420600d5168b05adc0316b5ad85e9d7e995b19bf03f6d8a4d59"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-route_1.1.20-1jammy.20260908.005219_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-route\nVersion: 1.1.20-1jammy.20260908.005219\nArchitecture: amd64",
+      "sha256": "f6d254715abe6f55eebd0c1c429a23a5e91d973f6a0e4138f9d945d4fe887ae0"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-rviz-plugins_1.1.20-1jammy.20260908.014610_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-rviz-plugins\nVersion: 1.1.20-1jammy.20260908.014610\nArchitecture: amd64",
+      "sha256": "8397d419b01f10c289c689c1e5cbb7de1e8f82de005eb759c4759951d2b205a5"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-simple-commander_1.1.20-1jammy.20260907.224519_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-simple-commander\nVersion: 1.1.20-1jammy.20260907.224519\nArchitecture: amd64",
+      "sha256": "8a21a245a55e2d9632a10a881f88c52a8c8879481369b8b62e1dedcf21731189"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-smac-planner_1.1.20-1jammy.20260908.005553_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-smac-planner\nVersion: 1.1.20-1jammy.20260908.005553\nArchitecture: amd64",
+      "sha256": "6c923aa9f679a7c90fec447d609c42199909a84f14e056b63450c3696a67689b"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-smoother_1.1.20-1jammy.20260908.005556_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-smoother\nVersion: 1.1.20-1jammy.20260908.005556\nArchitecture: amd64",
+      "sha256": "a9015b76bd84a3974708fa220c10625b197f40eb2d61548c2f2937adbd67825a"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-theta-star-planner_1.1.20-1jammy.20260908.005548_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-theta-star-planner\nVersion: 1.1.20-1jammy.20260908.005548\nArchitecture: amd64",
+      "sha256": "c4af342697ed8d3ba65a7b06738e0abf9e09aeaa895a621253523845953985ea"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-velocity-smoother_1.1.20-1jammy.20260908.000910_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-velocity-smoother\nVersion: 1.1.20-1jammy.20260908.000910\nArchitecture: amd64",
+      "sha256": "b8ed0acee10f6b9d80a28e4d6aece21aa315c55f01fd02bd31812846686650bc"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-voxel-grid_1.1.20-1jammy.20260908.002526_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-voxel-grid\nVersion: 1.1.20-1jammy.20260908.002526\nArchitecture: amd64",
+      "sha256": "bcb6b7a3b2096ce3b71e8a7b56ae4ce2cbe7381c81d2d64cc350e1ad7dd5b108"
+    },
+    {
+      "file": "downloads/debs/ros-humble-nav2-waypoint-follower_1.1.20-1jammy.20260908.005557_amd64.deb",
+      "metadata": "Package: ros-humble-nav2-waypoint-follower\nVersion: 1.1.20-1jammy.20260908.005557\nArchitecture: amd64",
+      "sha256": "d0cf3bc532d8ffe5e3ea0a890b0ce4c3993bb54a14063acd2d47fb8d5b1555ff"
+    },
+    {
+      "file": "downloads/debs/ros-humble-navigation2_1.1.20-1jammy.20260908.015443_amd64.deb",
+      "metadata": "Package: ros-humble-navigation2\nVersion: 1.1.20-1jammy.20260908.015443\nArchitecture: amd64",
+      "sha256": "484bdacc1b7f5e76f59eeb9ecabb029a0f0c5379c32ba91cceeea79916cc3e70"
+    },
+    {
+      "file": "downloads/debs/ros-humble-ompl_1.7.0-4jammy.20260226.011457_amd64.deb",
+      "metadata": "Package: ros-humble-ompl\nVersion: 1.7.0-4jammy.20260226.011457\nArchitecture: amd64",
+      "sha256": "60896765db24e9488873f24bbe76a43e8c5700292519a458517c853a4c51c7d0"
+    },
+    {
+      "file": "downloads/debs/ros-humble-pointcloud-to-laserscan_2.0.1-3jammy.20260908.002219_amd64.deb",
+      "metadata": "Package: ros-humble-pointcloud-to-laserscan\nVersion: 2.0.1-3jammy.20260908.002219\nArchitecture: amd64",
+      "sha256": "ea5d49cb508a4209762b90a54e07afcc2da5d8d8746a02335523ccaf25186ba9"
+    },
+    {
+      "file": "downloads/debs/ros-humble-rmw-cyclonedds-cpp_1.3.5-1jammy.20260907.205235_amd64.deb",
+      "metadata": "Package: ros-humble-rmw-cyclonedds-cpp\nVersion: 1.3.5-1jammy.20260907.205235\nArchitecture: amd64",
+      "sha256": "ae2ff11a00949188d711e2e7efbcd2b212d38a467a099cf939461a67c99710c9"
+    },
+    {
+      "file": "downloads/debs/ros-humble-robot-localization_3.5.4-1jammy.20260908.012128_amd64.deb",
+      "metadata": "Package: ros-humble-robot-localization\nVersion: 3.5.4-1jammy.20260908.012128\nArchitecture: amd64",
+      "sha256": "c100c00249465eff288a35edfbbc68515c083b6834aab4c4a9e49738a4378468"
+    },
+    {
+      "file": "downloads/debs/ros-humble-rosidl-generator-dds-idl_0.8.1-2jammy.20260605.104953_amd64.deb",
+      "metadata": "Package: ros-humble-rosidl-generator-dds-idl\nVersion: 0.8.1-2jammy.20260605.104953\nArchitecture: amd64",
+      "sha256": "7167c7d1429429915694be1e7a3d53f61488c698c80295876f6872cf2b2e02fb"
+    },
+    {
+      "file": "downloads/debs/xtl-dev_0.7.2-2_all.deb",
+      "metadata": "Package: xtl-dev\nVersion: 0.7.2-2\nArchitecture: all",
+      "sha256": "4c03cb8f283024af22dd354abeb45f5f5eb247ac39ebfdfcd09d57be7f251189"
+    },
+    {
+      "file": "downloads/debs/ros-humble-pcl-ros_2.4.5-2jammy.20260908.000723_amd64.deb",
+      "metadata": "Package: ros-humble-pcl-ros\nVersion: 2.4.5-2jammy.20260908.000723\nArchitecture: amd64",
+      "sha256": "d45962521ae961b563375c2b9695f7cbe2cec7e7da92931c3eaf90b22556d823"
+    }
+  ],
+  "mapping_additions": {
+    "cmu_source_commit": "43d5f54b389b251713f0097893c30fa76c870d54",
+    "local_python_dependency": {
+      "file": "downloads/wheels/transforms3d-0.4.2-py3-none-any.whl",
+      "sha256": "1c70399d9e9473ecc23311fd947f727f7c69ed0b063244828c383aa1aefa5941"
+    },
+    "local_transform_sensors_changes": "ros2_ws/src/transform_sensors/LOCAL_CHANGES.md",
+    "test_document": "SLAM_TESTS.md"
+  }
+}

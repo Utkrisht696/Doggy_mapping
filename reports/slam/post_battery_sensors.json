@@ -1,0 +1,142 @@
+{
+  "checked_local": "2026-10-12T19:51:27.517829+11:00",
+  "duration_s": 10.0,
+  "topics": {
+    "/utlidar/cloud": {
+      "messages": 155,
+      "receipt_rate_hz": 15.43,
+      "frame": "utlidar_lidar",
+      "stamp": 1791794300.237193,
+      "laptop_minus_header_seconds": 787.28,
+      "points": 3770,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7
+        },
+        {
+          "name": "ring",
+          "offset": 20,
+          "datatype": 4
+        },
+        {
+          "name": "time",
+          "offset": 24,
+          "datatype": 7
+        }
+      ]
+    },
+    "/utlidar/cloud_base": {
+      "messages": 155,
+      "receipt_rate_hz": 15.43,
+      "frame": "base_link",
+      "stamp": 1791794300.237193,
+      "laptop_minus_header_seconds": 787.28,
+      "points": 977,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7
+        },
+        {
+          "name": "ring",
+          "offset": 20,
+          "datatype": 4
+        },
+        {
+          "name": "time",
+          "offset": 24,
+          "datatype": 7
+        }
+      ]
+    },
+    "/utlidar/cloud_deskewed": {
+      "messages": 155,
+      "receipt_rate_hz": 15.42,
+      "frame": "odom",
+      "stamp": 1791794300.2996678,
+      "laptop_minus_header_seconds": 787.218,
+      "points": 10977,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7
+        }
+      ]
+    },
+    "/utlidar/imu": {
+      "messages": 2480,
+      "receipt_rate_hz": 247.99,
+      "frame": "utlidar_imu",
+      "stamp": 1791794300.3210714,
+      "laptop_minus_header_seconds": 787.197,
+      "acceleration_norm_m_s2": 10.242182365365775
+    },
+    "/utlidar/robot_odom": {
+      "messages": 1487,
+      "receipt_rate_hz": 148.74,
+      "frame": "odom",
+      "stamp": 1791794300.3156338,
+      "laptop_minus_header_seconds": 787.202,
+      "child_frame": "base_link"
+    },
+    "/lf/lowstate": {
+      "messages": 200,
+      "receipt_rate_hz": 20.0,
+      "motor_count": 20
+    }
+  },
+  "checks": {
+    "all_sensor_streams_received": true
+  },
+  "startup_passed": true,
+  "scope": "Stationary read-only startup check; does not establish walking mapping quality or drift."
+}

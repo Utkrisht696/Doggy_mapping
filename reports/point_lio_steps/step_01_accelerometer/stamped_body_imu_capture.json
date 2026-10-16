@@ -1,0 +1,27 @@
+{
+  "captured_local": "2026-10-16T17:23:32.779340+11:00",
+  "scope": "Passive subscriptions only; no robot commands, calibration or application changes",
+  "duration_s": 25.92114466597559,
+  "arrays": {
+    "sport": [
+      6190,
+      17
+    ],
+    "sport_lf": [
+      499,
+      17
+    ],
+    "lowstate": [
+      6191,
+      17
+    ],
+    "lidar_imu": [
+      5771,
+      13
+    ],
+    "odom": [
+      3720,
+      3
+    ]
+  }
+}

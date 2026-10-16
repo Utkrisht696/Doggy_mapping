@@ -1,0 +1,21 @@
+{
+  "approved": true,
+  "authorization": "User: do it, approving the reviewed reliable/depth-2000 source subscription patch, body-adapter-only restart and repeat comparison.",
+  "approved_local": "2026-10-16T19:58:26.851435+11:00",
+  "review_candidate": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100/next_adapter_qos_review/publish_body_imu.py",
+  "before_sha256": "a116c57f1902aa9564c0a75a17f261a303685c9340ac94e491c2ca7dcf46fbe5",
+  "reviewed_candidate_sha256": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+  "status": "Approved change verified; observed timestamp loss eliminated in baseline and recording trials. Remaining intermittent latency keeps timing step open.",
+  "buffer_profile": "reports/point_lio_steps/step_04_timing/dropout_qos/buffer_test_runtime/cyclonedds.buffer_test.xml",
+  "sensor_launch_session_unchanged": 79938,
+  "mapper_started": false,
+  "active_sha256": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+  "applied_exact_review_candidate": true,
+  "conversion_and_timestamp_guard_ast_unchanged": true,
+  "syntax_check_passed": true,
+  "adapter_session": 55738,
+  "adapter_pid": 1155223,
+  "last_saved_local": "2026-10-16T20:14:13.288874+11:00",
+  "result": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/result.json",
+  "normal_adapter_restored": true
+}

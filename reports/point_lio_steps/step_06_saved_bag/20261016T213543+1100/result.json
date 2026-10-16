@@ -1,0 +1,178 @@
+{
+  "source_elapsed_s": 13.680819511,
+  "odometry_messages": 209,
+  "registered_clouds": 209,
+  "map_to_odom_transforms": 209,
+  "last_bridge_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": 1792144505134654045,
+    "last_tf_error": "",
+    "lookup_failures": 205,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 183,
+    "received": 183,
+    "waiting": 0
+  },
+  "player_running": false,
+  "mapping_running": false,
+  "playback_rate": 0.5,
+  "stationary_max_displacement_m": 2.104090981259113,
+  "stationary_orientation_range_deg": 179.98331545306294,
+  "stop_reason": "stationary_drift_gate_failed",
+  "tf_parents": {
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ],
+    "FL_calf": [
+      "FL_thigh"
+    ],
+    "FL_hip": [
+      "base_link"
+    ],
+    "FL_thigh": [
+      "FL_hip"
+    ],
+    "FR_calf": [
+      "FR_thigh"
+    ],
+    "FR_hip": [
+      "base_link"
+    ],
+    "FR_thigh": [
+      "FR_hip"
+    ],
+    "RL_calf": [
+      "RL_thigh"
+    ],
+    "RL_hip": [
+      "base_link"
+    ],
+    "RL_thigh": [
+      "RL_hip"
+    ],
+    "RR_calf": [
+      "RR_thigh"
+    ],
+    "RR_hip": [
+      "base_link"
+    ],
+    "RR_thigh": [
+      "RR_hip"
+    ],
+    "FL_calf_rotor": [
+      "FL_thigh"
+    ],
+    "FL_calflower1": [
+      "FL_calflower"
+    ],
+    "FL_calflower": [
+      "FL_calf"
+    ],
+    "FL_foot": [
+      "FL_calf"
+    ],
+    "FL_hip_rotor": [
+      "base_link"
+    ],
+    "FL_thigh_rotor": [
+      "FL_hip"
+    ],
+    "FR_calf_rotor": [
+      "FR_thigh"
+    ],
+    "FR_calflower1": [
+      "FR_calflower"
+    ],
+    "FR_calflower": [
+      "FR_calf"
+    ],
+    "FR_foot": [
+      "FR_calf"
+    ],
+    "FR_hip_rotor": [
+      "base_link"
+    ],
+    "FR_thigh_rotor": [
+      "FR_hip"
+    ],
+    "Head_lower": [
+      "Head_upper"
+    ],
+    "Head_upper": [
+      "base_link"
+    ],
+    "RL_calf_rotor": [
+      "RL_thigh"
+    ],
+    "RL_calflower1": [
+      "RL_calflower"
+    ],
+    "RL_calflower": [
+      "RL_calf"
+    ],
+    "RL_foot": [
+      "RL_calf"
+    ],
+    "RL_hip_rotor": [
+      "base_link"
+    ],
+    "RL_thigh_rotor": [
+      "RL_hip"
+    ],
+    "RR_calf_rotor": [
+      "RR_thigh"
+    ],
+    "RR_calflower1": [
+      "RR_calflower"
+    ],
+    "RR_calflower": [
+      "RR_calf"
+    ],
+    "RR_foot": [
+      "RR_calf"
+    ],
+    "RR_hip_rotor": [
+      "base_link"
+    ],
+    "RR_thigh_rotor": [
+      "RR_hip"
+    ],
+    "front_camera": [
+      "base_link"
+    ],
+    "imu": [
+      "base_link"
+    ],
+    "radar": [
+      "base_link"
+    ],
+    "utlidar_lidar": [
+      "radar"
+    ],
+    "odom": [
+      "map"
+    ]
+  },
+  "multiple_tf_parents": {},
+  "input_cloud_messages": 212,
+  "input_imu_messages": 4014,
+  "launch_returncode": 0,
+  "player_returncode": 0,
+  "application_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "robot_commands_sent": false,
+  "application_unchanged": true
+}

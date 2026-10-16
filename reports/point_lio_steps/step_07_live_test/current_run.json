@@ -1,0 +1,14 @@
+{
+  "directory": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100",
+  "status": "stopped_saved_and_analysed",
+  "session_id": 56147,
+  "init_map_size": 4000,
+  "gyro_variance": 0.1,
+  "robot_commands_sent": false,
+  "purpose": "User-authorized vertical and odometry accuracy test",
+  "launch_pid": 1213050,
+  "recorder_pid": 1213015,
+  "motion_cue_local": "2026-10-16T22:41:28.788820+11:00",
+  "analysis_report": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/REPORT.md",
+  "summary": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/summary.json"
+}

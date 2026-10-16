@@ -1,0 +1,8 @@
+{
+  "imu_samples": 738,
+  "receipt_rate_hz": 245.89755865480817,
+  "fresh": true,
+  "invalid_measurements": 0,
+  "conflicting_nodes": [],
+  "motion_commands_sent": false
+}

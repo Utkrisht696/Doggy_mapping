@@ -1,0 +1,21 @@
+{
+  "only_opened_after_clean_recorder_exit": true,
+  "integrity": [
+    "ok"
+  ],
+  "metadata_messages": 135798,
+  "database_messages": 135798,
+  "topic_counts": {
+    "/doggy/imu/body_calibrated": 35644,
+    "/doggy/robot_clock": 5050,
+    "/sportmodestate": 35772,
+    "/utlidar/cloud_base": 1842,
+    "/tf": 7437,
+    "/tf_static": 1,
+    "/utlidar/cloud": 1842,
+    "/utlidar/imu": 29537,
+    "/utlidar/lidar_state": 597,
+    "/utlidar/robot_odom": 18076
+  },
+  "passed": true
+}

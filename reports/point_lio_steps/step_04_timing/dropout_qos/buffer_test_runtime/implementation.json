@@ -1,0 +1,46 @@
+{
+  "approved": true,
+  "approved_local": "2026-10-16T19:49:27.212292+11:00",
+  "authorization": "User explicitly approved the temporary laptop-side buffer change, restart and comparison: okay do it",
+  "status": "Approved temporary receive-buffer fix verified: host and adapter socket overflows zero in both repeats. Remaining calibrated-output path misses need the separate proposed QoS test.",
+  "kernel_target": 8388608,
+  "kernel_previous": 212992,
+  "kernel_default_unchanged": 212992,
+  "persistent_system_files_changed": false,
+  "active_config_files_changed": false,
+  "test_profile": "reports/point_lio_steps/step_04_timing/dropout_qos/buffer_test_runtime/cyclonedds.buffer_test.xml",
+  "profile_identical_to_review": true,
+  "before_hashes": {
+    "scripts/publish_body_imu.py": "a116c57f1902aa9564c0a75a17f261a303685c9340ac94e491c2ca7dcf46fbe5",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "config/cyclonedds.xml": "ae17322e9dff855b93c9b2082f75f83278b4364ff40ed5ba786f29fcbfa5f6e6",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214",
+    "scripts/go2_frames.py": "e7b2b179a2b33ddb9b065cb5a64d09b081d4ae5ca30ded18a895360ff2e29cef",
+    "sdk/unitree_ros/robots/go2_description/urdf/go2_description.urdf": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e"
+  },
+  "prepared_launch_wrappers": [
+    "start_sensors.sh",
+    "start_body_imu.sh",
+    "run_comparison.sh"
+  ],
+  "baseline_comparison": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100/comparison.json",
+  "robot_commands_sent": false,
+  "mapper_started": false,
+  "kernel_prerequisite_verified": true,
+  "body_imu_session": 27719,
+  "sensor_launch_session": 79938,
+  "body_imu_pid": 1146579,
+  "after_hashes": {
+    "scripts/publish_body_imu.py": "a116c57f1902aa9564c0a75a17f261a303685c9340ac94e491c2ca7dcf46fbe5",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "config/cyclonedds.xml": "ae17322e9dff855b93c9b2082f75f83278b4364ff40ed5ba786f29fcbfa5f6e6",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214",
+    "scripts/go2_frames.py": "e7b2b179a2b33ddb9b065cb5a64d09b081d4ae5ca30ded18a895360ff2e29cef",
+    "sdk/unitree_ros/robots/go2_description/urdf/go2_description.urdf": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e"
+  },
+  "protected_files_unchanged": true,
+  "comparison_directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100",
+  "verification": "reports/point_lio_steps/step_04_timing/dropout_qos/buffer_test_runtime/before_after_result.json"
+}

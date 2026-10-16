@@ -1,0 +1,14 @@
+{
+  "profile_during_trace": "power-saver",
+  "profile_read_before_user_change": "power-saver",
+  "cpu_energy_preference": "power",
+  "observed_frequency_summary": "approximately 800-900 MHz during baseline and recording/probe phases",
+  "ac_online": true,
+  "battery_status": "Full",
+  "battery_percent": 100,
+  "scaling_max_freq_khz": 4500000,
+  "intel_pstate_no_turbo": 0,
+  "intel_pstate_max_perf_pct": 100,
+  "evidence": "Read-only powerprofilesctl get and sysfs checks immediately after the trace, before user reported changing to Performance. Frequency samples are preserved in resources.json.",
+  "changed_by_agent": false
+}

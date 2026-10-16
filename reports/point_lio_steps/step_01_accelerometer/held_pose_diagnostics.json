@@ -1,0 +1,233 @@
+{
+  "saved_local": "2026-10-16",
+  "status": "NOT FIXED; diagnostic only; awaiting user review and valid input solution",
+  "source": "reports/tf/imu_axes_20261016_162621_analysis/analysis.json",
+  "reference_assumptions": "Quasistatic body RPY is an attitude reference; apply the earlier independently recovered cloud rotation, also supported by gyro correspondence. This is not a surveyed physical extrinsic or a factory calibration.",
+  "held_poses": [
+    {
+      "pose": "baseline",
+      "reported_mean": [
+        2.984754090588722,
+        0.00012723169803728596,
+        9.802635534578503
+      ],
+      "reference_specific_force": [
+        1.4512164634877673,
+        -1.9356132818298142,
+        -9.503565447862497
+      ],
+      "required_constant_bias": [
+        1.5335376271009546,
+        1.9357405135278514,
+        19.306200982441
+      ],
+      "rpy_degrees": [
+        -0.9517934775870353,
+        0.7373140117044105,
+        -170.7030383786801
+      ]
+    },
+    {
+      "pose": "pitch_negative",
+      "reported_mean": [
+        3.952753224279671,
+        -0.0003690597021433522,
+        9.80267548638757
+      ],
+      "reference_specific_force": [
+        1.9440695966014288,
+        -2.927384704061909,
+        -9.155402581017078
+      ],
+      "required_constant_bias": [
+        2.0086836276782423,
+        2.927015644359766,
+        18.95807806740465
+      ],
+      "rpy_degrees": [
+        -0.21187600321029953,
+        -6.009048246624774,
+        -172.9134105375013
+      ]
+    },
+    {
+      "pose": "pitch_positive",
+      "reported_mean": [
+        1.8306795559920275,
+        0.002835454475762044,
+        9.805186352172456
+      ],
+      "reference_specific_force": [
+        0.8631465276911847,
+        -1.4608974310491778,
+        -9.658733922734823
+      ],
+      "required_constant_bias": [
+        0.9675330283008428,
+        1.4637328855249399,
+        19.46392027490728
+      ],
+      "rpy_degrees": [
+        0.42087773741985346,
+        5.032807601007558,
+        -173.20349550174092
+      ]
+    },
+    {
+      "pose": "pause",
+      "reported_mean": [
+        2.5056565573545004,
+        -0.00607857430180794,
+        9.805447928304595
+      ],
+      "reference_specific_force": [
+        1.197843972989424,
+        -1.9236242822668306,
+        -9.54123805695813
+      ],
+      "required_constant_bias": [
+        1.3078125843650765,
+        1.9175457079650227,
+        19.346685985262724
+      ],
+      "rpy_degrees": [
+        0.2517951505361449,
+        1.630011038406056,
+        -173.149946818648
+      ]
+    },
+    {
+      "pose": "roll_negative",
+      "reported_mean": [
+        4.792610564638378,
+        0.004640993465107383,
+        9.80877532107259
+      ],
+      "reference_specific_force": [
+        2.357696096868517,
+        -1.2041277034299056,
+        -9.442548904355405
+      ],
+      "required_constant_bias": [
+        2.4349144677698606,
+        1.208768696895013,
+        19.251324225427993
+      ],
+      "rpy_degrees": [
+        -7.746672917468347,
+        1.3211454018264366,
+        -173.79053660052517
+      ]
+    },
+    {
+      "pose": "roll_positive",
+      "reported_mean": [
+        1.29906208779807,
+        0.0052798822104395985,
+        9.80663972765268
+      ],
+      "reference_specific_force": [
+        0.613461837881331,
+        -2.6258242559756027,
+        -9.428631702038917
+      ],
+      "required_constant_bias": [
+        0.6856002499167391,
+        2.6311041381860423,
+        19.235271429691597
+      ],
+      "rpy_degrees": [
+        5.357416610180646,
+        -0.06774817613484038,
+        -173.57085039606088
+      ]
+    },
+    {
+      "pose": "yaw_positive",
+      "reported_mean": [
+        2.8614735393910795,
+        -0.06065662378143217,
+        9.81497831860104
+      ],
+      "reference_specific_force": [
+        1.3347638791818945,
+        -2.171133344258302,
+        -9.469686880292342
+      ],
+      "required_constant_bias": [
+        1.526709660209185,
+        2.11047672047687,
+        19.284665198893382
+      ],
+      "rpy_degrees": [
+        0.3683928029293301,
+        -0.07071597337049026,
+        -147.80590152591208
+      ]
+    },
+    {
+      "pose": "yaw_negative",
+      "reported_mean": [
+        2.692428923819376,
+        -0.008691540015760162,
+        9.813193475422652
+      ],
+      "reference_specific_force": [
+        1.3630073211560132,
+        -2.3553440596231705,
+        -9.421515251050268
+      ],
+      "required_constant_bias": [
+        1.329421602663363,
+        2.34665251960741,
+        19.23470872647292
+      ],
+      "rpy_degrees": [
+        0.816354214759841,
+        -1.102303099250613,
+        -203.62081770713127
+      ]
+    }
+  ],
+  "non_yaw_five_pose_checks": {
+    "expected_axis_peak_to_peak": [
+      1.744234258987186,
+      1.7232570006320036,
+      0.503331341717745
+    ],
+    "reported_axis_peak_to_peak": [
+      3.4935484768403073,
+      0.00564894191258295,
+      0.006139786494086863
+    ],
+    "constant_bias_fit_rms_per_axis": [
+      0.6445654185447528,
+      0.6587676157617952,
+      0.16377402409528982
+    ],
+    "diagnostic_axis_fits": [
+      {
+        "axis": "x",
+        "diagnostic_gain": 1.9915460604338509,
+        "diagnostic_offset": 0.09235939992037787,
+        "residual_rms": 0.012290771494287346
+      },
+      {
+        "axis": "y",
+        "diagnostic_gain": 0.0012199030222842038,
+        "diagnostic_offset": 0.004980242249884094,
+        "residual_rms": 0.0021470274069927556
+      },
+      {
+        "axis": "z",
+        "diagnostic_gain": -0.004098181882652609,
+        "diagnostic_offset": 9.766504759660394,
+        "residual_rms": 0.0022614345328736836
+      }
+    ]
+  },
+  "limitations": "Five held means cover limited angles and do not establish full calibration. Near-zero diagnostic Y/Z response cannot justify a stable inverse correction. Gain fits are not calibration values to install.",
+  "application_code_or_config_changed": false,
+  "sensor_topic_modified": false,
+  "next_step_started": false
+}

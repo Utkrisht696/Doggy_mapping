@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "early_time_s": 84.621452332,
+      "late_time_s": 104.979973078,
+      "common_15cm_xy_cells": 206,
+      "median_late_minus_early_height_m": 0.022166356444358826,
+      "median_absolute_height_difference_m": 0.025233328342437744,
+      "p90_absolute_height_difference_m": 0.057231247425079346,
+      "fraction_absolute_height_difference_under_5cm": 0.8495145631067961,
+      "method": "Map-XY grid 15 cm; median floor-candidate Z per cell, >=4 points each epoch; 3-second windows; range <6 m and 0.15\u20130.9 m below estimated IMU. Conditional on correct XY associations and static scene; not independent vertical accuracy."
+    },
+    {
+      "early_time_s": 77.360413075,
+      "late_time_s": 113.992022276,
+      "common_15cm_xy_cells": 313,
+      "median_late_minus_early_height_m": 6.181001663208008e-05,
+      "median_absolute_height_difference_m": 0.012531161308288574,
+      "p90_absolute_height_difference_m": 0.03342365026474001,
+      "fraction_absolute_height_difference_under_5cm": 0.9840255591054313,
+      "method": "Map-XY grid 15 cm; median floor-candidate Z per cell, >=4 points each epoch; 3-second windows; range <6 m and 0.15\u20130.9 m below estimated IMU. Conditional on correct XY associations and static scene; not independent vertical accuracy."
+    }
+  ],
+  "horizontal_drift_measured": false
+}

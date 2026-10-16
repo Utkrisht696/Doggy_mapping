@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "sqlite_integrity_ok": true,
+    "clean_exit": true,
+    "all_requested_topics_saved": true,
+    "metadata_counts_match": true,
+    "no_recorder_errors": true,
+    "application_hashes_unchanged": true
+  },
+  "counts": {
+    "/tf": 12946,
+    "/odom": 31246,
+    "/doggy/robot_clock": 8794,
+    "/doggy/imu/body_calibrated": 60810,
+    "/tf_static": 1,
+    "/sportmodestate": 61663,
+    "/utlidar/cloud_base": 3200,
+    "/utlidar/cloud": 3200,
+    "/utlidar/imu": 51318,
+    "/utlidar/lidar_state": 1037,
+    "/utlidar/robot_odom": 31229
+  },
+  "topic_duration_s": {
+    "/tf": 207.603745782,
+    "/odom": 207.609555864,
+    "/doggy/robot_clock": 207.603696925,
+    "/doggy/imu/body_calibrated": 207.609618993,
+    "/tf_static": 0.0,
+    "/sportmodestate": 207.503283384,
+    "/utlidar/cloud_base": 207.430895239,
+    "/utlidar/cloud": 207.429412275,
+    "/utlidar/imu": 207.500806252,
+    "/utlidar/lidar_state": 207.204106248,
+    "/utlidar/robot_odom": 207.500948057
+  },
+  "no_live_database_opened": true
+}

@@ -1,0 +1,65 @@
+/utlidar/cloud:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/utlidar/cloud_base:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/utlidar/imu:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 10000
+/doggy/imu/body_calibrated:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 10000
+/sportmodestate:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 10000
+/utlidar/robot_odom:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/utlidar/lidar_state:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/doggy/robot_clock:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/tf:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/tf_static:
+  reliability: reliable
+  durability: transient_local
+  history: keep_last
+  depth: 100
+/odom:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/joint_states:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 1000
+/robot_description:
+  reliability: reliable
+  durability: transient_local
+  history: keep_last
+  depth: 1

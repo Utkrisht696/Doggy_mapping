@@ -1,0 +1,64 @@
+{
+  "saved_local": "2026-10-16T21:02:17.189387+11:00",
+  "directory": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100",
+  "bag": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/bag",
+  "recording_verified": true,
+  "duration_s": 253.383110135,
+  "motion_plot": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/motion_overview.png",
+  "motion_data": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/motion_overview.json",
+  "rough_timeline_s_from_recording_start": [
+    {
+      "interval": [
+        0,
+        69
+      ],
+      "description": "Mostly stationary before first walk."
+    },
+    {
+      "interval": [
+        69,
+        113
+      ],
+      "description": "Repeated forward/back excursions with lateral deviations; approximate forward excursion 1.1 m from vendor odometry."
+    },
+    {
+      "interval": [
+        113,
+        146
+      ],
+      "description": "Larger left/right heading changes, with some translation."
+    },
+    {
+      "interval": [
+        155,
+        176
+      ],
+      "description": "Distinct pitch then roll body tilts."
+    },
+    {
+      "interval": [
+        184,
+        210
+      ],
+      "description": "Further translation and heading changes, reaching continuous relative yaw about -376 degrees."
+    },
+    {
+      "interval": [
+        210,
+        253
+      ],
+      "description": "Final stationary period."
+    }
+  ],
+  "user_report": "Forward/back passes were not perfectly straight; user requests a motion overview to confirm.",
+  "interpretation": "Curved passes do not invalidate capture. Motion estimation must use actual recorded motion, not commanded straight-line assumptions.",
+  "confirmation_pending": false,
+  "independent_lidar_timing_fit_started": true,
+  "mapping_started": false,
+  "application_unchanged": true,
+  "user_confirmation": "yeah looks about right",
+  "confirmed_local": "2026-10-16T21:02:59.289448+11:00",
+  "independent_lidar_timing_fit_completed": true,
+  "acquisition_offset_validated": false,
+  "report": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/REPORT.md"
+}

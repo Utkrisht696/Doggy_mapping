@@ -1,0 +1,80 @@
+{
+  "saved_local": "2026-10-16T17:45:26.779544+11:00",
+  "workflow": "Complete and verify one requirement at a time. Request user double-check before proceeding. Propose application code/config changes before applying them.",
+  "current_step": 2,
+  "steps": [
+    {
+      "number": 1,
+      "name": "Acceleration validity",
+      "status": "Complete for the approved calibrated body-IMU route: held-pose, sitting and standing checks passed; user independently checked output and confirmed standing.",
+      "report": "reports/point_lio_steps/step_01_accelerometer/REPORT.md",
+      "decoder_crosscheck_passed": true,
+      "acceleration_validity_passed": true,
+      "user_topic_echo_review_received": true,
+      "next_input_needed": null,
+      "body_imu_screening": "reports/point_lio_steps/step_01_accelerometer/body_imu_suitability.json",
+      "selected_source": "/sportmodestate.imu_state",
+      "output_topic": "/doggy/imu/body_calibrated",
+      "lidar_imu_repaired": false,
+      "body_input_static_validation_passed": true,
+      "full_dynamic_calibration_passed": false,
+      "user_implementation_approval_received": true,
+      "live_validation": "reports/point_lio_steps/step_01_accelerometer/body_imu_live_validation.json",
+      "user_output_doublecheck_received": true,
+      "standing_confirmation": "reports/point_lio_steps/step_01_accelerometer/standing_user_confirmation.json",
+      "completed_local": "2026-10-16T17:37:17.921504+11:00"
+    },
+    {
+      "number": 2,
+      "name": "Extrinsics and sensor TF",
+      "status": "Developer body/sensor tree restored and verified; raw measurement-frame and body-IMU extrinsics prepared, awaiting approval before code/config/TF changes.",
+      "report": "reports/point_lio_steps/step_02_geometry/REPORT.md",
+      "proposal": "reports/point_lio_steps/step_02_geometry/geometry_proposal.json",
+      "runtime_sensor_bringup_session": 80250
+    },
+    {
+      "number": 3,
+      "name": "Go2 input profile",
+      "status": "queued"
+    },
+    {
+      "number": 4,
+      "name": "Relative timing and clocks",
+      "status": "queued"
+    },
+    {
+      "number": 5,
+      "name": "Estimator output TF integration",
+      "status": "queued"
+    },
+    {
+      "number": 6,
+      "name": "Saved-bag validation",
+      "status": "queued"
+    }
+  ],
+  "application_code_or_configuration_changed": true,
+  "robot_commands_sent": false,
+  "mapping_or_replay_started": false,
+  "access_constraints": {
+    "topics_only": true,
+    "ssh_available": false,
+    "unitree_app_available": false,
+    "factory_calibration_files_available": false
+  },
+  "approved_changes": [
+    "scripts/publish_body_imu.py",
+    "config/point_lio/body_imu_calibration.json"
+  ],
+  "runtime": {
+    "body_imu_adapter": "running",
+    "session_id": 16417,
+    "pid_file": "reports/point_lio_steps/step_01_accelerometer/body_imu_adapter.pid",
+    "output_topic": "/doggy/imu/body_calibrated",
+    "frame": "imu",
+    "point_lio": "not started by this work",
+    "new_tf": "none",
+    "sensor_bringup": "running, headless existing launcher",
+    "sensor_bringup_session": 80250
+  }
+}

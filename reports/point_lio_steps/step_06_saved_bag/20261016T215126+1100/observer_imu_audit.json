@@ -1,0 +1,28 @@
+{
+  "observer_qos": "Best-effort depth 5",
+  "expected_in_observed_stamp_interval": 73850,
+  "observed": 56963,
+  "missing": 16887,
+  "missing_by_10s_interval": {
+    "70-80": 31,
+    "90-100": 21,
+    "100-110": 8,
+    "110-120": 27,
+    "120-130": 176,
+    "130-140": 279,
+    "140-150": 505,
+    "150-160": 835,
+    "160-170": 1159,
+    "170-180": 1289,
+    "180-190": 1376,
+    "190-200": 1419,
+    "200-210": 1604,
+    "210-220": 1769,
+    "220-230": 1765,
+    "230-240": 1912,
+    "240-250": 2013,
+    "250-260": 699
+  },
+  "mapper_imu_subscriber_qos": "Reliable depth 200000, per source; mapper callback counts were not instrumented",
+  "interpretation": "Missing passive-observer samples do not establish missing mapper input; this run cannot certify mapper IMU sample completeness."
+}

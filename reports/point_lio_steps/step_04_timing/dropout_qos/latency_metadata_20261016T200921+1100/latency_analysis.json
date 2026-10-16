@@ -1,0 +1,102 @@
+{
+  "recording_directory": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200921+1100",
+  "common_interval_s": 61.373901243,
+  "matched_unique_output_packets": 18300,
+  "source_union_stamps": 18300,
+  "missing_output_stamps": 0,
+  "output_dds_source_metadata_positive": true,
+  "output_observer_receipt_metadata_available": false,
+  "adapter_dds_publication_minus_first_source_observer_ms": {
+    "min": 694.568713,
+    "median": 2369.2335430000003,
+    "p95": 4027.52236545,
+    "p99": 4340.18446323,
+    "max": 4351.454674
+  },
+  "output_callback_minus_adapter_dds_publication_ms": {
+    "min": 0.645854,
+    "median": 1.2847015000000002,
+    "p95": 3.8537243999999995,
+    "p99": 6.487818359999943,
+    "max": 59.584052
+  },
+  "output_callback_minus_first_source_observer_ms": {
+    "min": 695.558114,
+    "median": 2370.57847,
+    "p95": 4028.5861619,
+    "p99": 4341.880546599999,
+    "max": 4353.962406
+  },
+  "worst_events": [
+    {
+      "stamp_ns": 1792141813490043403,
+      "adapter_publication_relative_ms": 4351.22766,
+      "output_observer_after_publication_ms": 2.734746,
+      "total_relative_ms": 4353.962406
+    },
+    {
+      "stamp_ns": 1792141813494068403,
+      "adapter_publication_relative_ms": 4351.454674,
+      "output_observer_after_publication_ms": 2.423246,
+      "total_relative_ms": 4353.87792
+    },
+    {
+      "stamp_ns": 1792141813486062152,
+      "adapter_publication_relative_ms": 4350.806708,
+      "output_observer_after_publication_ms": 3.05378,
+      "total_relative_ms": 4353.860488
+    },
+    {
+      "stamp_ns": 1792141813293992883,
+      "adapter_publication_relative_ms": 4348.070149,
+      "output_observer_after_publication_ms": 4.853438,
+      "total_relative_ms": 4352.923587
+    },
+    {
+      "stamp_ns": 1792141813476023693,
+      "adapter_publication_relative_ms": 4349.655409,
+      "output_observer_after_publication_ms": 3.068026,
+      "total_relative_ms": 4352.723435
+    },
+    {
+      "stamp_ns": 1792141813466027859,
+      "adapter_publication_relative_ms": 4350.873832,
+      "output_observer_after_publication_ms": 1.090795,
+      "total_relative_ms": 4351.964627
+    },
+    {
+      "stamp_ns": 1792141813296019966,
+      "adapter_publication_relative_ms": 4348.548683,
+      "output_observer_after_publication_ms": 3.401133,
+      "total_relative_ms": 4351.949816
+    },
+    {
+      "stamp_ns": 1792141813314017718,
+      "adapter_publication_relative_ms": 4348.894921,
+      "output_observer_after_publication_ms": 2.931413,
+      "total_relative_ms": 4351.826334
+    },
+    {
+      "stamp_ns": 1792141813462004150,
+      "adapter_publication_relative_ms": 4350.45008,
+      "output_observer_after_publication_ms": 1.343077,
+      "total_relative_ms": 4351.793157
+    },
+    {
+      "stamp_ns": 1792141813460009733,
+      "adapter_publication_relative_ms": 4350.745072,
+      "output_observer_after_publication_ms": 1.041192,
+      "total_relative_ms": 4351.786264
+    }
+  ],
+  "method": "Same source TimeSpec matched across independent observers; earliest host callback time among source observers compared with output DDS source_timestamp (local publisher write timestamp) and output host callback time. DDS source stamp from robot is not compared directly to laptop time. Installed RMW provides received_timestamp=0, so network receipt and callback scheduling cannot be separated. Test-only executor preserves DDS metadata while retaining original callback scheduling.",
+  "limits": [
+    "Relative to independent source observer, not actual input receipt time inside adapter; negative values can occur.",
+    "DDS publication timestamp is write-time metadata and does not prove exact transmission completion or physical acquisition time.",
+    "Metadata retention adds small audit overhead.",
+    "The 68-second diagnostic is a separate recording-load trial and is not a re-interpretation of the earlier 606 ms event.",
+    "Adapter was running under cProfile; instrumentation materially reduced throughput and caused multi-second backlog. Use the separate unprofiled trace for normal latency figures."
+  ],
+  "profiling_enabled": true,
+  "representative_of_unprofiled_operation": false
+}

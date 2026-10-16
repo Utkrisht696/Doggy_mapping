@@ -1,0 +1,18 @@
+{
+  "observed_source_interval_s": 13.680819511,
+  "vendor_body_position_max_displacement_m": 0.00033598433251049874,
+  "body_fused_orientation_max_change_deg": 0.061597962203032576,
+  "point_lio_orientation_max_change_from_first_deg": 179.5141096294669,
+  "point_lio_position_max_displacement_from_first_m": 2.3268964511760606,
+  "estimator_tf_stamps_exact_match": true,
+  "imu_missing_in_observed_stamp_interval": 0,
+  "cloud_missing_in_observed_stamp_interval": 0,
+  "raw_to_vendor_body_geometry_pairs": 212,
+  "raw_to_vendor_body_matched_points": 241279,
+  "raw_to_vendor_body_geometry_residual_m_quantiles": {
+    "median": 6.428589566566199e-08,
+    "p95": 2.952659031748959e-07,
+    "max": 5.344103313368682e-06
+  },
+  "raw_to_body_comparison_note": "Uniquely matched ring/time/intensity signatures, not array indices; vendor body clouds contain a filtered subset."
+}

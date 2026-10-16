@@ -1,0 +1,15 @@
+{
+  "directory": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100",
+  "baseline_directory": "reports/point_lio_steps/step_06_saved_bag/20261016T213543+1100",
+  "repeat_of": "reports/point_lio_steps/step_06_saved_bag/20261016T215126+1100",
+  "status": "stopped_saved",
+  "user_approval": "yeah do it",
+  "parameter": "init_map_size",
+  "baseline_value": 10,
+  "trial_value": 4000,
+  "gyro_variance": 0.1,
+  "observer_corrected": true,
+  "result": "startup_improved_residual_mapping_drift",
+  "report": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100/REPORT.md",
+  "user_review_pending": true
+}

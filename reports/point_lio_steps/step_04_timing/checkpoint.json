@@ -1,0 +1,9 @@
+{
+  "passive_checks_passed": true,
+  "acquisition_lag_validated": false,
+  "profile_unchanged": true,
+  "profile_sha256": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+  "mapping_started": false,
+  "robot_commands_sent": false,
+  "awaiting_user_readiness": true
+}

@@ -1,0 +1,20 @@
+{
+  "packages": {
+    "point_lio_unilidar": "/home/jain/Doggy/ros2_ws/install/point_lio_unilidar",
+    "transform_sensors": "/home/jain/Doggy/ros2_ws/install/transform_sensors",
+    "slam_toolbox": "/opt/ros/humble",
+    "pointcloud_to_laserscan": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "go2_description": "/home/jain/Doggy/ros2_ws/install/go2_description",
+    "robot_state_publisher": "/opt/ros/humble",
+    "tf2_ros": "/opt/ros/humble",
+    "unitree_go": "/home/jain/Doggy/ros2_ws/install/unitree_go"
+  },
+  "transforms3d_version": "0.4.2",
+  "urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "installed_urdf_matches": true,
+  "missing_shared_libraries": {
+    "point_lio_unilidar": [],
+    "slam_toolbox": [],
+    "pointcloud_to_laserscan": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "purpose": "Vertical repeatability and odometry accuracy/consistency",
+  "start": "Hold still 20 seconds after initialization; mark physical start position and heading",
+  "route": "A to B 3-5 m, hold 10 s, return to same A position/heading, hold 20 s; repeat once without estimator restart if feasible",
+  "optional_reference": "Record measured A-B distance; measured floor heights if available",
+  "same_settings": true,
+  "init_map_size": 4000,
+  "gyro_variance": 0.1,
+  "time_lag": 0.0,
+  "automatic_stop_for_real_pose_travel": false,
+  "robot_commands_sent": false
+}

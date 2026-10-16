@@ -1,0 +1,9 @@
+{
+  "recorded_tf_transforms_loaded": 47598,
+  "poses_tested": 2074,
+  "successful_lookups": 2074,
+  "lookup_errors": [],
+  "position_difference_max_m": 5.972610353098583e-15,
+  "rotation_difference_max_deg": 8.906713723449293e-14,
+  "method": "Recorded global TF chain map->odom->base_footprint->base_link->imu at each original LIO timestamp; no private direct map->imu TF."
+}

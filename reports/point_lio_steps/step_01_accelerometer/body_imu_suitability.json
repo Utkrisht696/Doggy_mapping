@@ -1,0 +1,231 @@
+{
+  "scope": "Offline suitability screening of body IMU from existing posture bag; no input substitution or calibration applied.",
+  "reference_limitations": "Body RPY comes from the robot estimator, not an independent surveyed reference. Held angles are limited; this is not complete calibration.",
+  "held_poses": [
+    {
+      "pose": "baseline",
+      "samples": 1249,
+      "reported_acc_mean": [
+        -0.25044518997900195,
+        -0.18088874335380628,
+        9.525326644066718
+      ],
+      "reported_acc_norm_mean": 9.530473866803478,
+      "expected_quasistatic_specific_force_mean": [
+        -0.12690682861351116,
+        -0.16334543078894634,
+        9.804466693189196
+      ],
+      "mean_difference": [
+        -0.12353836136549076,
+        -0.01754331256486003,
+        -0.2791400491224667
+      ],
+      "acc_std": [
+        0.03546271984239778,
+        0.037302754281963335,
+        0.03719109029823089
+      ]
+    },
+    {
+      "pose": "pitch_negative",
+      "samples": 1250,
+      "reported_acc_mean": [
+        0.8733760486602783,
+        -0.06015479631200433,
+        9.486464908599853
+      ],
+      "reported_acc_norm_mean": 9.526886476896223,
+      "expected_quasistatic_specific_force_mean": [
+        1.026598064283202,
+        -0.03603364033674743,
+        9.75270114213271
+      ],
+      "mean_difference": [
+        -0.15322201562292306,
+        -0.024121155975256908,
+        -0.2662362335328383
+      ],
+      "acc_std": [
+        0.022006381806751695,
+        0.04070295851571143,
+        0.027852865050785554
+      ]
+    },
+    {
+      "pose": "pitch_positive",
+      "samples": 1246,
+      "reported_acc_mean": [
+        -0.9826929736194794,
+        0.04756025943073951,
+        9.483045712711341
+      ],
+      "reported_acc_norm_mean": 9.534025262732792,
+      "expected_quasistatic_specific_force_mean": [
+        -0.8619236858623184,
+        0.07146742873028661,
+        9.76843577176332
+      ],
+      "mean_difference": [
+        -0.12076928775716121,
+        -0.023907169299547212,
+        -0.28539005905196657
+      ],
+      "acc_std": [
+        0.019954575158916993,
+        0.03354913997266907,
+        0.030323232952240663
+      ]
+    },
+    {
+      "pose": "pause",
+      "samples": 2000,
+      "reported_acc_mean": [
+        -0.39776728285849094,
+        0.01563593268650584,
+        9.521837069511413
+      ],
+      "reported_acc_norm_mean": 9.530257755617477,
+      "expected_quasistatic_specific_force_mean": [
+        -0.2788683463043197,
+        0.044268378247210534,
+        9.802579345323734
+      ],
+      "mean_difference": [
+        -0.11889893655417115,
+        -0.028632445560704718,
+        -0.28074227581233135
+      ],
+      "acc_std": [
+        0.02202595938545584,
+        0.0384838918923906,
+        0.028056207105509427
+      ]
+    },
+    {
+      "pose": "roll_negative",
+      "samples": 1500,
+      "reported_acc_mean": [
+        -0.3492940774361292,
+        -1.3240047172705331,
+        9.434057312011719
+      ],
+      "reported_acc_norm_mean": 9.533002569711291,
+      "expected_quasistatic_specific_force_mean": [
+        -0.22552835522366058,
+        -1.3229196230620512,
+        9.71438998054154
+      ],
+      "mean_difference": [
+        -0.1237657222124685,
+        -0.0010850942084818477,
+        -0.2803326685298193
+      ],
+      "acc_std": [
+        0.021659622291547723,
+        0.03503851704769879,
+        0.027212364393562973
+      ]
+    },
+    {
+      "pose": "roll_positive",
+      "samples": 1000,
+      "reported_acc_mean": [
+        -0.1146427571028471,
+        0.8854799363017082,
+        9.489761940002442
+      ],
+      "reported_acc_norm_mean": 9.531745784525155,
+      "expected_quasistatic_specific_force_mean": [
+        0.011802992474597984,
+        0.9158973430270485,
+        9.763778435554503
+      ],
+      "mean_difference": [
+        -0.12644574957744517,
+        -0.03041740672534004,
+        -0.2740164955520694
+      ],
+      "acc_std": [
+        0.018495061569261347,
+        0.032031766173256586,
+        0.02750775371620925
+      ]
+    },
+    {
+      "pose": "yaw_positive",
+      "samples": 1500,
+      "reported_acc_mean": [
+        -0.10108718591928482,
+        0.0015362794717463353,
+        9.532429402033488
+      ],
+      "reported_acc_norm_mean": 9.533061887957427,
+      "expected_quasistatic_specific_force_mean": [
+        0.01212474900277588,
+        0.06400079307619465,
+        9.806433096357143
+      ],
+      "mean_difference": [
+        -0.1132119349220608,
+        -0.062464513604448275,
+        -0.2740036943236535
+      ],
+      "acc_std": [
+        0.020754478741635406,
+        0.03749448511556894,
+        0.03157817412414756
+      ]
+    },
+    {
+      "pose": "yaw_negative",
+      "samples": 1500,
+      "reported_acc_mean": [
+        0.01917516138885791,
+        0.15604289388159912,
+        9.52866974322001
+      ],
+      "reported_acc_norm_mean": 9.530040688571276,
+      "expected_quasistatic_specific_force_mean": [
+        0.1888065504081279,
+        0.14036739224193698,
+        9.803824345447357
+      ],
+      "mean_difference": [
+        -0.16963138901927002,
+        0.015675501639662262,
+        -0.2751546022273311
+      ],
+      "acc_std": [
+        0.03035618197668316,
+        0.022129373862190375,
+        0.03058477221924568
+      ]
+    }
+  ],
+  "five_pose_comparison": {
+    "reference_peak_to_peak": [
+      1.8885217501455203,
+      2.2388169660890997,
+      0.09007671264765627
+    ],
+    "reported_peak_to_peak": [
+      1.8560690222797578,
+      2.2094846535722414,
+      0.0912693320549991
+    ],
+    "constant_comparison_offset": [
+      -0.12954822730709786,
+      -0.019414827754697234,
+      -0.27702310115783924
+    ],
+    "rms_after_constant_comparison_offset": [
+      0.011972462192151373,
+      0.010028649987525751,
+      0.00649364119280678
+    ]
+  },
+  "body_imu_ready_for_point_lio": false,
+  "timing_validated": false,
+  "calibration_applied": false
+}

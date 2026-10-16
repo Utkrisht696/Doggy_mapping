@@ -1,0 +1,66 @@
+{
+  "completed_local": "2026-10-16T22:47:06.301027+11:00",
+  "bag": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/bag",
+  "status": "stopped_saved_and_analysed",
+  "mapping_stopped": true,
+  "recording_stopped": true,
+  "recorder_returncode": 0,
+  "mapper_launch_returncode": 0,
+  "user_motion_confirmed": true,
+  "nominal_distances_m": [
+    3,
+    5
+  ],
+  "point_lio_outbound_horizontal_displacement_m": [
+    2.9336972681166715,
+    5.028370270891672
+  ],
+  "vendor_outbound_horizontal_displacement_m": [
+    2.442901647233816,
+    4.226113003514448
+  ],
+  "comparison": {
+    "point_lio": {
+      "final_horizontal_offset_from_original_start_m": 0.039072885846815765,
+      "final_vertical_offset_from_original_start_m": -0.0035297720362069893,
+      "final_3d_offset_from_original_start_m": 0.039231998407242584,
+      "additional_late_still_translation_m": 0.0028858628223388653
+    },
+    "vendor": {
+      "final_horizontal_offset_from_original_start_m": 0.19041607283172463,
+      "final_vertical_offset_from_original_start_m": 0.00026925830674906504,
+      "final_3d_offset_from_original_start_m": 0.1904162632043083,
+      "additional_late_still_translation_m": 0.0010418112933107094
+    }
+  },
+  "floor_checks": [
+    {
+      "hold": "return_3m",
+      "common_15cm_xy_cells": 413,
+      "median_signed_floor_height_difference_m": -0.0027107149362564087,
+      "median_absolute_floor_height_difference_m": 0.005075961351394653,
+      "p90_absolute_floor_height_difference_m": 0.025904214382171636,
+      "note": "As-recorded map; no ICP or re-levelling. Same XY cells assume adequate horizontal registration. Ground candidates within 3 m of original start, 0.15\u20130.9 m below original estimated IMU."
+    },
+    {
+      "hold": "return_5m",
+      "common_15cm_xy_cells": 433,
+      "median_signed_floor_height_difference_m": -0.0022244155406951904,
+      "median_absolute_floor_height_difference_m": 0.003236740827560425,
+      "p90_absolute_floor_height_difference_m": 0.01723411083221436,
+      "note": "As-recorded map; no ICP or re-levelling. Same XY cells assume adequate horizontal registration. Ground candidates within 3 m of original start, 0.15\u20130.9 m below original estimated IMU."
+    },
+    {
+      "hold": "late_still",
+      "common_15cm_xy_cells": 433,
+      "median_signed_floor_height_difference_m": -0.001449495553970337,
+      "median_absolute_floor_height_difference_m": 0.0035253912210464478,
+      "p90_absolute_floor_height_difference_m": 0.01634267568588257,
+      "note": "As-recorded map; no ICP or re-levelling. Same XY cells assume adequate horizontal registration. Ground candidates within 3 m of original start, 0.15\u20130.9 m below original estimated IMU."
+    }
+  ],
+  "conclusion": "Point-LIO agrees much more closely with user-reported 3 m and 5 m distances and has smaller estimated return offsets than vendor odometry. Starting floor repeats within millimetres on median; absolute height accuracy along the route is not independently established.",
+  "missing_tf_only_final_shutdown_sample": true,
+  "application_unchanged": true,
+  "robot_commands_sent": false
+}

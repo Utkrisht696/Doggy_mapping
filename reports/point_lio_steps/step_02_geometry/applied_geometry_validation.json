@@ -1,0 +1,321 @@
+{
+  "passed": true,
+  "checks": {
+    "fresh_pairs": true,
+    "live_tf_matches_vendor_body_cloud": true,
+    "expected_cloud_frames": true,
+    "body_imu_extrinsics_match_tf": true,
+    "unique_observed_parents": true,
+    "measurement_parent": true,
+    "no_legacy_body_alias": true,
+    "all_45_frames_present": true,
+    "expected_tf_endpoints": true,
+    "body_imu_live_and_unique": true,
+    "one_robot_clock": true
+  },
+  "pairs": [
+    {
+      "stamp_ns": 1792133548831291675,
+      "count": 1505,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 9.000504185314376e-07,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133548896475076,
+      "count": 964,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.7407175393069627e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133548961238145,
+      "count": 1378,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 2.065045146033543e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549026036977,
+      "count": 1277,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 2.1239897469830243e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549094926834,
+      "count": 1263,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.7347729045334146e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549156953096,
+      "count": 1179,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.556198049565963e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549219997644,
+      "count": 1182,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.9920032519699368e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549284952640,
+      "count": 1481,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 8.632771171646967e-07,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549351810693,
+      "count": 990,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 2.338942683572355e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549415467977,
+      "count": 1415,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.2809716387508093e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549481432914,
+      "count": 1184,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 2.0216721303280834e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549544939279,
+      "count": 1363,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.84007552611367e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549609983682,
+      "count": 1117,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.8550286244154632e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549674638509,
+      "count": 1279,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 2.069323160908219e-06,
+      "odom_tf_at_source_stamp": true
+    },
+    {
+      "stamp_ns": 1792133549739486694,
+      "count": 1435,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "max_residual_m": 1.0263331283179445e-06,
+      "odom_tf_at_source_stamp": true
+    }
+  ],
+  "matched_points": 19012,
+  "max_residual_m": 2.338942683572355e-06,
+  "body_imu_samples": 1043,
+  "body_imu_acc_norm_mean": 9.809673601419464,
+  "extrinsic_tf": {
+    "rotation": [
+      [
+        0.5261139017353029,
+        -0.8101358157255062,
+        0.2586196482860971
+      ],
+      [
+        -0.8386681734567222,
+        -0.5446427221842449,
+        1.5814066920971648e-06
+      ],
+      [
+        0.14085402809867142,
+        -0.21689690004816597,
+        -0.9659792324464718
+      ]
+    ],
+    "translation_m": [
+      0.30773002866813115,
+      1.994733730970033e-08,
+      -0.04232001537439001
+    ],
+    "max_rotation_error": 8.881784197001252e-16,
+    "max_translation_error_m": 1.6653345369377348e-16
+  },
+  "publisher_endpoints": {
+    "/tf": [
+      "doggy_go2_state",
+      "go2_robot_state_publisher"
+    ],
+    "/tf_static": [
+      "go2_robot_state_publisher"
+    ],
+    "/doggy/imu/body_calibrated": [
+      "doggy_body_imu"
+    ],
+    "/doggy/robot_clock": [
+      "doggy_go2_state"
+    ]
+  },
+  "observed_parents": {
+    "FL_calf_rotor": [
+      "FL_thigh"
+    ],
+    "FL_calflower1": [
+      "FL_calflower"
+    ],
+    "FL_calflower": [
+      "FL_calf"
+    ],
+    "FL_foot": [
+      "FL_calf"
+    ],
+    "FL_hip_rotor": [
+      "base_link"
+    ],
+    "FL_thigh_rotor": [
+      "FL_hip"
+    ],
+    "FR_calf_rotor": [
+      "FR_thigh"
+    ],
+    "FR_calflower1": [
+      "FR_calflower"
+    ],
+    "FR_calflower": [
+      "FR_calf"
+    ],
+    "FR_foot": [
+      "FR_calf"
+    ],
+    "FR_hip_rotor": [
+      "base_link"
+    ],
+    "FR_thigh_rotor": [
+      "FR_hip"
+    ],
+    "Head_lower": [
+      "Head_upper"
+    ],
+    "Head_upper": [
+      "base_link"
+    ],
+    "RL_calf_rotor": [
+      "RL_thigh"
+    ],
+    "RL_calflower1": [
+      "RL_calflower"
+    ],
+    "RL_calflower": [
+      "RL_calf"
+    ],
+    "RL_foot": [
+      "RL_calf"
+    ],
+    "RL_hip_rotor": [
+      "base_link"
+    ],
+    "RL_thigh_rotor": [
+      "RL_hip"
+    ],
+    "RR_calf_rotor": [
+      "RR_thigh"
+    ],
+    "RR_calflower1": [
+      "RR_calflower"
+    ],
+    "RR_calflower": [
+      "RR_calf"
+    ],
+    "RR_foot": [
+      "RR_calf"
+    ],
+    "RR_hip_rotor": [
+      "base_link"
+    ],
+    "RR_thigh_rotor": [
+      "RR_hip"
+    ],
+    "front_camera": [
+      "base_link"
+    ],
+    "imu": [
+      "base_link"
+    ],
+    "radar": [
+      "base_link"
+    ],
+    "utlidar_lidar": [
+      "radar"
+    ],
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ],
+    "FL_calf": [
+      "FL_thigh"
+    ],
+    "FL_hip": [
+      "base_link"
+    ],
+    "FL_thigh": [
+      "FL_hip"
+    ],
+    "FR_calf": [
+      "FR_thigh"
+    ],
+    "FR_hip": [
+      "base_link"
+    ],
+    "FR_thigh": [
+      "FR_hip"
+    ],
+    "RL_calf": [
+      "RL_thigh"
+    ],
+    "RL_hip": [
+      "base_link"
+    ],
+    "RL_thigh": [
+      "RL_hip"
+    ],
+    "RR_calf": [
+      "RR_thigh"
+    ],
+    "RR_hip": [
+      "base_link"
+    ],
+    "RR_thigh": [
+      "RR_hip"
+    ]
+  },
+  "frame_count": 45,
+  "transient_lookup_errors": [],
+  "ownership_method": "Observed parent uniqueness plus publisher endpoints and reviewed source ownership; this Humble API does not provide per-message publisher GID.",
+  "limitation": "Stream-coordinate agreement, not surveyed physical placement accuracy."
+}

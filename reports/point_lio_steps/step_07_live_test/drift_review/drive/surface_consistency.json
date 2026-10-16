@@ -1,0 +1,87 @@
+{
+  "method": "Point-to-plane ICP of 3-second map-frame scan windows, 5 cm voxels, 6 m local radius, <35 cm correspondence gate; Huber weighting 3 cm. Local diagnostic fit only.",
+  "revisit_candidates": 5,
+  "selected_revisits": [
+    {
+      "early_time_s": 84.621452332,
+      "late_time_s": 104.979973078,
+      "estimated_imu_position_separation_m": 0.027950193109175354,
+      "early_submap_points": 7945,
+      "late_submap_points": 9777,
+      "window_half_width_s": 1.5,
+      "before_fit": {
+        "source_points": 9777,
+        "overlap_fraction_within_0_35m": 0.23790528792063004,
+        "planar_correspondences": 2326,
+        "absolute_point_to_plane_residual_m": {
+          "median": 0.03125917591772065,
+          "p90": 0.15061682650378064,
+          "p95": 0.21231688547914157
+        }
+      },
+      "after_local_fit": {
+        "source_points": 9777,
+        "overlap_fraction_within_0_35m": 0.26654392963076606,
+        "planar_correspondences": 2606,
+        "absolute_point_to_plane_residual_m": {
+          "median": 0.01949383452984926,
+          "p90": 0.08560482046333755,
+          "p95": 0.13420434443450796
+        }
+      },
+      "local_fit_rotation_deg": 5.707489771338513,
+      "local_fit_translation_at_overlap_center_m": 0.2174265625773453,
+      "local_fit_translation_xyz_m": [
+        -0.16558538874225398,
+        -0.13869153310735483,
+        -0.024908789485006542
+      ],
+      "fit_jacobian_condition_number_units_mixed": 12.510729982567252,
+      "iterations": 25,
+      "interpretation": "Small correction means local registered surfaces agree at this overlap. ICP is not independent truth; moving objects, viewpoint, sparse returns and underconstrained planes affect the fit. No trajectory or application changed.",
+      "accepted_as_drift_measurement": false,
+      "rejection_reason": "Opposite viewing directions expose different walls; only partial surfaces overlap. ICP exhausted 25 iterations, and translation/yaw corrections cannot be treated as measured drift."
+    },
+    {
+      "early_time_s": 77.360413075,
+      "late_time_s": 113.992022276,
+      "estimated_imu_position_separation_m": 0.09017326416070989,
+      "early_submap_points": 11970,
+      "late_submap_points": 12985,
+      "window_half_width_s": 1.5,
+      "before_fit": {
+        "source_points": 12985,
+        "overlap_fraction_within_0_35m": 0.3104351174432037,
+        "planar_correspondences": 4031,
+        "absolute_point_to_plane_residual_m": {
+          "median": 0.021036623824716414,
+          "p90": 0.05843399904781683,
+          "p95": 0.08013710798480567
+        }
+      },
+      "after_local_fit": {
+        "source_points": 12985,
+        "overlap_fraction_within_0_35m": 0.30050057758952636,
+        "planar_correspondences": 3902,
+        "absolute_point_to_plane_residual_m": {
+          "median": 0.01594799163243591,
+          "p90": 0.04528958746799208,
+          "p95": 0.061090352175643986
+        }
+      },
+      "local_fit_rotation_deg": 9.053418120970283,
+      "local_fit_translation_at_overlap_center_m": 0.15751918008652652,
+      "local_fit_translation_xyz_m": [
+        -0.11792927031030206,
+        0.1040456843561674,
+        -0.008914867697731789
+      ],
+      "fit_jacobian_condition_number_units_mixed": 21.643882050598663,
+      "iterations": 25,
+      "interpretation": "Small correction means local registered surfaces agree at this overlap. ICP is not independent truth; moving objects, viewpoint, sparse returns and underconstrained planes affect the fit. No trajectory or application changed.",
+      "accepted_as_drift_measurement": false,
+      "rejection_reason": "Opposite viewing directions expose different walls; only partial surfaces overlap. ICP exhausted 25 iterations, and translation/yaw corrections cannot be treated as measured drift."
+    }
+  ],
+  "no_external_ground_truth": true
+}

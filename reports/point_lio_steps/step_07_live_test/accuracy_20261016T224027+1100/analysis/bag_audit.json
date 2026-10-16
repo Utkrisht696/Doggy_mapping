@@ -1,0 +1,731 @@
+{
+  "source_run": "/home/jain/Doggy/reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100",
+  "topic_counts": {
+    "/tf": 14870,
+    "/tf_static": 1,
+    "/robot_description": 1,
+    "/odom": 28669,
+    "/joint_states": 3843,
+    "/doggy/robot_clock": 8150,
+    "/doggy/imu/body_calibrated": 55826,
+    "/utlidar/cloud": 2962,
+    "/utlidar/imu": 47496,
+    "/sportmodestate": 56707,
+    "/utlidar/cloud_base": 2962,
+    "/utlidar/lidar_state": 960,
+    "/utlidar/robot_odom": 28648,
+    "/point_lio/raw_tf": 2879,
+    "/point_lio/odometry": 2879,
+    "/point_lio/cloud_registered": 2879,
+    "/point_lio/initial_map": 1,
+    "/point_lio/tf_status": 37
+  },
+  "frames": {
+    "/doggy/imu/body_calibrated": [
+      "imu"
+    ],
+    "/utlidar/robot_odom": [
+      "odom"
+    ],
+    "/utlidar/cloud": [
+      "utlidar_lidar"
+    ],
+    "/point_lio/odometry": [
+      "map"
+    ]
+  },
+  "tf_parents": {
+    "FL_calf_rotor": [
+      "FL_thigh"
+    ],
+    "FL_calflower1": [
+      "FL_calflower"
+    ],
+    "FL_calflower": [
+      "FL_calf"
+    ],
+    "FL_foot": [
+      "FL_calf"
+    ],
+    "FL_hip_rotor": [
+      "base_link"
+    ],
+    "FL_thigh_rotor": [
+      "FL_hip"
+    ],
+    "FR_calf_rotor": [
+      "FR_thigh"
+    ],
+    "FR_calflower1": [
+      "FR_calflower"
+    ],
+    "FR_calflower": [
+      "FR_calf"
+    ],
+    "FR_foot": [
+      "FR_calf"
+    ],
+    "FR_hip_rotor": [
+      "base_link"
+    ],
+    "FR_thigh_rotor": [
+      "FR_hip"
+    ],
+    "Head_lower": [
+      "Head_upper"
+    ],
+    "Head_upper": [
+      "base_link"
+    ],
+    "RL_calf_rotor": [
+      "RL_thigh"
+    ],
+    "RL_calflower1": [
+      "RL_calflower"
+    ],
+    "RL_calflower": [
+      "RL_calf"
+    ],
+    "RL_foot": [
+      "RL_calf"
+    ],
+    "RL_hip_rotor": [
+      "base_link"
+    ],
+    "RL_thigh_rotor": [
+      "RL_hip"
+    ],
+    "RR_calf_rotor": [
+      "RR_thigh"
+    ],
+    "RR_calflower1": [
+      "RR_calflower"
+    ],
+    "RR_calflower": [
+      "RR_calf"
+    ],
+    "RR_foot": [
+      "RR_calf"
+    ],
+    "RR_hip_rotor": [
+      "base_link"
+    ],
+    "RR_thigh_rotor": [
+      "RR_hip"
+    ],
+    "front_camera": [
+      "base_link"
+    ],
+    "imu": [
+      "base_link"
+    ],
+    "radar": [
+      "base_link"
+    ],
+    "utlidar_lidar": [
+      "radar"
+    ],
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ],
+    "FL_calf": [
+      "FL_thigh"
+    ],
+    "FL_hip": [
+      "base_link"
+    ],
+    "FL_thigh": [
+      "FL_hip"
+    ],
+    "FR_calf": [
+      "FR_thigh"
+    ],
+    "FR_hip": [
+      "base_link"
+    ],
+    "FR_thigh": [
+      "FR_hip"
+    ],
+    "RL_calf": [
+      "RL_thigh"
+    ],
+    "RL_hip": [
+      "base_link"
+    ],
+    "RL_thigh": [
+      "RL_hip"
+    ],
+    "RR_calf": [
+      "RR_thigh"
+    ],
+    "RR_hip": [
+      "base_link"
+    ],
+    "RR_thigh": [
+      "RR_hip"
+    ],
+    "odom": [
+      "map"
+    ]
+  },
+  "bridge_status_samples": [
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150831234241008,
+      "last_tf_error": "",
+      "lookup_failures": 52,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 67,
+      "received": 67,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150836291171789,
+      "last_tf_error": "",
+      "lookup_failures": 117,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 145,
+      "received": 145,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150841282675504,
+      "last_tf_error": "",
+      "lookup_failures": 180,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 222,
+      "received": 222,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150846275760173,
+      "last_tf_error": "",
+      "lookup_failures": 252,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 299,
+      "received": 299,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150851268663883,
+      "last_tf_error": "",
+      "lookup_failures": 316,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 376,
+      "received": 376,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150856262685775,
+      "last_tf_error": "",
+      "lookup_failures": 376,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 453,
+      "received": 453,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150861253140687,
+      "last_tf_error": "",
+      "lookup_failures": 437,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 530,
+      "received": 530,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150866247750520,
+      "last_tf_error": "",
+      "lookup_failures": 499,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 607,
+      "received": 607,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150871239684581,
+      "last_tf_error": "",
+      "lookup_failures": 560,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 684,
+      "received": 684,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150876230537414,
+      "last_tf_error": "",
+      "lookup_failures": 621,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 761,
+      "received": 761,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150881224182605,
+      "last_tf_error": "Lookup would require extrapolation into the future.  Requested time 1792150881.289161 but the latest data is at time 1792150881.285673, when looking up transform from frame [imu] to frame [odom]",
+      "lookup_failures": 694,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 838,
+      "received": 839,
+      "waiting": 1
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150886281158447,
+      "last_tf_error": "",
+      "lookup_failures": 750,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 916,
+      "received": 916,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150891273666620,
+      "last_tf_error": "",
+      "lookup_failures": 816,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 993,
+      "received": 993,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150896266726732,
+      "last_tf_error": "",
+      "lookup_failures": 876,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1070,
+      "received": 1070,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150901259176492,
+      "last_tf_error": "",
+      "lookup_failures": 936,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1147,
+      "received": 1147,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150906253168106,
+      "last_tf_error": "",
+      "lookup_failures": 994,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1224,
+      "received": 1224,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150911245651960,
+      "last_tf_error": "",
+      "lookup_failures": 1036,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1301,
+      "received": 1301,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150916238683462,
+      "last_tf_error": "",
+      "lookup_failures": 1089,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1378,
+      "received": 1378,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150921296183109,
+      "last_tf_error": "",
+      "lookup_failures": 1141,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1456,
+      "received": 1456,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150926287647247,
+      "last_tf_error": "",
+      "lookup_failures": 1208,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1533,
+      "received": 1533,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150931279687881,
+      "last_tf_error": "",
+      "lookup_failures": 1265,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1610,
+      "received": 1610,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150936271240711,
+      "last_tf_error": "",
+      "lookup_failures": 1333,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1687,
+      "received": 1687,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150941262502431,
+      "last_tf_error": "",
+      "lookup_failures": 1396,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1764,
+      "received": 1764,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150946255180597,
+      "last_tf_error": "",
+      "lookup_failures": 1449,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1841,
+      "received": 1841,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150951247155904,
+      "last_tf_error": "",
+      "lookup_failures": 1504,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1918,
+      "received": 1918,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150956238684177,
+      "last_tf_error": "",
+      "lookup_failures": 1565,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1995,
+      "received": 1995,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150961295165300,
+      "last_tf_error": "",
+      "lookup_failures": 1630,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2073,
+      "received": 2073,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150966288283824,
+      "last_tf_error": "",
+      "lookup_failures": 1695,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2150,
+      "received": 2150,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150971279661417,
+      "last_tf_error": "",
+      "lookup_failures": 1764,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2227,
+      "received": 2227,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150976272277832,
+      "last_tf_error": "",
+      "lookup_failures": 1833,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2304,
+      "received": 2304,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150981264153242,
+      "last_tf_error": "",
+      "lookup_failures": 1901,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2381,
+      "received": 2381,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150986256810665,
+      "last_tf_error": "",
+      "lookup_failures": 1963,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2458,
+      "received": 2458,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150991248648643,
+      "last_tf_error": "",
+      "lookup_failures": 2030,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2535,
+      "received": 2535,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792150996240679740,
+      "last_tf_error": "",
+      "lookup_failures": 2091,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2612,
+      "received": 2612,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792151001233136177,
+      "last_tf_error": "",
+      "lookup_failures": 2148,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2689,
+      "received": 2689,
+      "waiting": 0
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792151006225667476,
+      "last_tf_error": "Lookup would require extrapolation into the future.  Requested time 1792151006.290165 but the latest data is at time 1792151006.276433, when looking up transform from frame [imu] to frame [odom]",
+      "lookup_failures": 2217,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2766,
+      "received": 2767,
+      "waiting": 1
+    },
+    {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792151011282733440,
+      "last_tf_error": "",
+      "lookup_failures": 2284,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 2844,
+      "received": 2844,
+      "waiting": 0
+    }
+  ]
+}

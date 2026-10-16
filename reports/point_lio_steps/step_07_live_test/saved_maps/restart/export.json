@@ -1,0 +1,20 @@
+{
+  "source_run": "reports/point_lio_steps/step_07_live_test/20261016T221648+1100",
+  "source_bag": "/home/jain/Doggy/reports/point_lio_steps/step_07_live_test/20261016T221648+1100/bag/bag_0.db3",
+  "frame": "map",
+  "registered_scan_messages": 1879,
+  "full_finite_points": 966183,
+  "voxel_size_m": 0.05,
+  "voxel_points": 46891,
+  "preview_points": 46778,
+  "output_duration_s": 121.768511534,
+  "pose_extent_xyz_m": [
+    0.07253513950229083,
+    0.09762089615558814,
+    0.01811733652378876
+  ],
+  "map_type": "Accumulated recorded Point-LIO registered scans; not an internal estimator map dump or 2D occupancy grid",
+  "visualization_only_tail_crop_percent": 0.5,
+  "full_pcd_cropped": false,
+  "estimator_rerun": false
+}

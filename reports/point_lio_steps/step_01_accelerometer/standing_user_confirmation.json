@@ -1,0 +1,67 @@
+{
+  "checked_local": "2026-10-16T17:36:25.204823+11:00",
+  "user_context": "User provided four corrected-IMU readings and explicitly reported dog standing. No motion was commanded.",
+  "user_examples": [
+    [
+      0.15758778810871504,
+      0.02143288073701586,
+      9.791902968678919
+    ],
+    [
+      0.15040518254412077,
+      0.03340388876957621,
+      9.80507034996554
+    ],
+    [
+      0.13364577204359435,
+      0.03699519155187334,
+      9.848166892323938
+    ],
+    [
+      0.14681387603653334,
+      0.05136040268106188,
+      9.869714209828821
+    ]
+  ],
+  "user_example_norms_m_s2": [
+    9.793194424055958,
+    9.806280747892874,
+    9.849143159465621,
+    9.87093971154
+  ],
+  "duration_s": 15.245469010988018,
+  "messages": 4282,
+  "receipt_hz": 289.74379055904745,
+  "mean_acceleration_xyz": [
+    0.17651327429863614,
+    -0.021058888113166696,
+    9.802055340685706
+  ],
+  "mean_acceleration_magnitude": 9.803780923826707,
+  "std_acceleration_magnitude": 0.04095419554813682,
+  "mean_gyro_xyz": [
+    -0.0002427348351052478,
+    0.0002812639932292736,
+    6.991721492163717e-05
+  ],
+  "body_rpy_median_deg": [
+    0.084050770466603,
+    -1.6002877093246,
+    -171.29455325137073
+  ],
+  "body_rpy_span_deg": [
+    0.07127871359002252,
+    0.09285343355856147,
+    0.17074106887197874
+  ],
+  "checks": {
+    "enough_messages": true,
+    "single_adapter_publisher": true,
+    "strictly_increasing_timestamps": true,
+    "finite": true,
+    "mean_specific_force_near_gravity": true,
+    "low_mean_gyro": true
+  },
+  "passed": true,
+  "scope": "Step 1 standing confirmation, static input quality only; no complete dynamic or timing validation claimed."
+}

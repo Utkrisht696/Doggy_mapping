@@ -1,0 +1,63 @@
+{
+  "host_ns": 1792140795180708194,
+  "monotonic_ns": 186466284662340,
+  "udp_host_global": {
+    "InDatagrams": 60450573,
+    "NoPorts": 57479,
+    "InErrors": 95894,
+    "OutDatagrams": 5583734,
+    "RcvbufErrors": 95894,
+    "SndbufErrors": 0,
+    "InCsumErrors": 0,
+    "IgnoredMulti": 857637,
+    "MemErrors": 0
+  },
+  "ethernet": {
+    "rx_packets": 217999008,
+    "rx_bytes": 304602521195,
+    "rx_errors": 0,
+    "rx_dropped": 0,
+    "rx_missed_errors": 0,
+    "tx_packets": 8378861,
+    "tx_errors": 0,
+    "tx_dropped": 0
+  },
+  "process_udp_sockets": {
+    "1147205": null,
+    "1147206": null,
+    "1147207": null,
+    "1147208": null,
+    "1147209": null,
+    "1146579": [
+      {
+        "inode": "4759558",
+        "local": "00000000:1CE8",
+        "rx_queue_bytes": 0,
+        "drops": 0
+      },
+      {
+        "inode": "4759559",
+        "local": "00000000:1CE9",
+        "rx_queue_bytes": 0,
+        "drops": 0
+      },
+      {
+        "inode": "4759560",
+        "local": "457BA8C0:8645",
+        "rx_queue_bytes": 0,
+        "drops": 0
+      },
+      {
+        "inode": "4759557",
+        "local": "00000000:A797",
+        "rx_queue_bytes": 0,
+        "drops": 0
+      }
+    ]
+  },
+  "loadavg": [
+    10.63427734375,
+    7.07275390625,
+    4.98681640625
+  ]
+}

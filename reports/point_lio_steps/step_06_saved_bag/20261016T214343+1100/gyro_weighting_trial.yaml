@@ -1,0 +1,5 @@
+# User-approved temporary override for this isolated saved-bag trial only.
+/**:
+  ros__parameters:
+    mapping:
+      imu_meas_omg_cov: 0.0001

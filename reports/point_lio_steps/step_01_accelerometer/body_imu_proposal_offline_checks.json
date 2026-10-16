@@ -1,0 +1,14 @@
+{
+  "same_stamp_changed_data": true,
+  "backward_stamp": true,
+  "unapproved_calibration_rejected": true,
+  "source_stamps_preserved": true,
+  "developer_body_imu_frame": true,
+  "unknown_covariance_preserved": true,
+  "quaternion_conversion_normalized": true,
+  "all_6190_captured_inputs_processed": true,
+  "identical_duplicate_count": 29,
+  "published_message_candidates": 6161,
+  "no_node_or_publisher_started": true,
+  "mean_corrected_acceleration_norm": 9.806840715205764
+}

@@ -1,0 +1,74 @@
+{
+  "duration_s": 12.0,
+  "streams": {
+    "/utlidar/cloud": {
+      "checked": 187,
+      "failed": 0,
+      "last_removed": 0,
+      "source_received": 187,
+      "clean_received": 187,
+      "clean_minus_source_receipt_ms": {
+        "median": 3.546559004462324,
+        "p95": 8.256464696023611,
+        "max": 13.364515994908288
+      },
+      "source_receipt_rate_hz": 15.54386965243058,
+      "clean_receipt_rate_hz": 15.540025441199669
+    },
+    "/utlidar/cloud_base": {
+      "checked": 187,
+      "failed": 0,
+      "last_removed": 0,
+      "source_received": 187,
+      "clean_received": 187,
+      "clean_minus_source_receipt_ms": {
+        "median": 5.339056006050669,
+        "p95": 11.532844303292215,
+        "max": 21.89701099996455
+      },
+      "source_receipt_rate_hz": 15.539632888358538,
+      "clean_receipt_rate_hz": 15.532504540903972
+    },
+    "/utlidar/cloud_deskewed": {
+      "checked": 184,
+      "failed": 0,
+      "last_removed": 10000,
+      "source_received": 185,
+      "clean_received": 185,
+      "clean_minus_source_receipt_ms": {
+        "median": 3.7522474958677776,
+        "p95": 6.355697345134103,
+        "max": 13.34171999769751
+      },
+      "source_receipt_rate_hz": 15.365299964085231,
+      "clean_receipt_rate_hz": 15.365056670836607
+    }
+  },
+  "tf_child_frames_observed": 43,
+  "standard_odometry": {
+    "checked": 1772,
+    "failed": 0
+  },
+  "tf_frames_with_multiple_parents": {},
+  "tf_publishers": {
+    "/tf": [
+      "go2_robot_state_publisher",
+      "doggy_go2_state"
+    ],
+    "/tf_static": [
+      "go2_robot_state_publisher",
+      "doggy_go2_state"
+    ]
+  },
+  "tf_publishers_expected_only": true,
+  "mapping_nodes_running": [],
+  "clock_publishers": {
+    "/clock": [],
+    "/doggy/robot_clock": [
+      "doggy_go2_state"
+    ]
+  },
+  "errors": [],
+  "passed": true,
+  "method": "Matched source timestamps, unchanged frame/field definitions and exact retained point bytes; no SLAM or commands."
+}

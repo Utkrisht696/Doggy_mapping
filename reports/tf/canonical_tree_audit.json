@@ -1,0 +1,393 @@
+{
+  "checked_local": "2026-10-16T15:17:35.591782+11:00",
+  "checks": {
+    "canonical_chain": true,
+    "legacy_base_absent": true,
+    "single_parent_per_child": true,
+    "dynamic_authorities": true,
+    "static_authority": true,
+    "single_robot_clock": true,
+    "planar_footprint": true,
+    "no_slam_or_calibration_nodes": true
+  },
+  "passed": true,
+  "publishers": {
+    "/tf": [
+      "go2_robot_state_publisher",
+      "doggy_go2_state"
+    ],
+    "/tf_static": [
+      "go2_robot_state_publisher"
+    ],
+    "/doggy/robot_clock": [
+      "doggy_go2_state"
+    ]
+  },
+  "frames": [
+    "FL_calf",
+    "FL_calf_rotor",
+    "FL_calflower",
+    "FL_calflower1",
+    "FL_foot",
+    "FL_hip",
+    "FL_hip_rotor",
+    "FL_thigh",
+    "FL_thigh_rotor",
+    "FR_calf",
+    "FR_calf_rotor",
+    "FR_calflower",
+    "FR_calflower1",
+    "FR_foot",
+    "FR_hip",
+    "FR_hip_rotor",
+    "FR_thigh",
+    "FR_thigh_rotor",
+    "Head_lower",
+    "Head_upper",
+    "RL_calf",
+    "RL_calf_rotor",
+    "RL_calflower",
+    "RL_calflower1",
+    "RL_foot",
+    "RL_hip",
+    "RL_hip_rotor",
+    "RL_thigh",
+    "RL_thigh_rotor",
+    "RR_calf",
+    "RR_calf_rotor",
+    "RR_calflower",
+    "RR_calflower1",
+    "RR_foot",
+    "RR_hip",
+    "RR_hip_rotor",
+    "RR_thigh",
+    "RR_thigh_rotor",
+    "base_footprint",
+    "base_link",
+    "front_camera",
+    "imu",
+    "odom",
+    "radar"
+  ],
+  "edges": [
+    {
+      "parent": "FL_thigh",
+      "child": "FL_calf_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FL_calflower",
+      "child": "FL_calflower1",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FL_calf",
+      "child": "FL_calflower",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FL_calf",
+      "child": "FL_foot",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "FL_hip_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FL_hip",
+      "child": "FL_thigh_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FR_thigh",
+      "child": "FR_calf_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FR_calflower",
+      "child": "FR_calflower1",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FR_calf",
+      "child": "FR_calflower",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FR_calf",
+      "child": "FR_foot",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "FR_hip_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "FR_hip",
+      "child": "FR_thigh_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "Head_upper",
+      "child": "Head_lower",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "Head_upper",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RL_thigh",
+      "child": "RL_calf_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RL_calflower",
+      "child": "RL_calflower1",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RL_calf",
+      "child": "RL_calflower",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RL_calf",
+      "child": "RL_foot",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "RL_hip_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RL_hip",
+      "child": "RL_thigh_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RR_thigh",
+      "child": "RR_calf_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RR_calflower",
+      "child": "RR_calflower1",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RR_calf",
+      "child": "RR_calflower",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RR_calf",
+      "child": "RR_foot",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "RR_hip_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "RR_hip",
+      "child": "RR_thigh_rotor",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "front_camera",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "imu",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "radar",
+      "types": [
+        "static"
+      ]
+    },
+    {
+      "parent": "odom",
+      "child": "base_footprint",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "base_footprint",
+      "child": "base_link",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "FL_thigh",
+      "child": "FL_calf",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "FL_hip",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "FL_hip",
+      "child": "FL_thigh",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "FR_thigh",
+      "child": "FR_calf",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "FR_hip",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "FR_hip",
+      "child": "FR_thigh",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "RL_thigh",
+      "child": "RL_calf",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "RL_hip",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "RL_hip",
+      "child": "RL_thigh",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "RR_thigh",
+      "child": "RR_calf",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "base_link",
+      "child": "RR_hip",
+      "types": [
+        "dynamic"
+      ]
+    },
+    {
+      "parent": "RR_hip",
+      "child": "RR_thigh",
+      "types": [
+        "dynamic"
+      ]
+    }
+  ],
+  "last_footprint": {
+    "position": [
+      0.5779877305030823,
+      -1.4739032983779907,
+      0.0
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      0.0,
+      -0.7732454003172354,
+      0.6341068923204024
+    ]
+  },
+  "unverified_sensor_frames": [
+    "utlidar_lidar",
+    "utlidar_imu"
+  ],
+  "unexpected_mapping_calibration_nodes": []
+}

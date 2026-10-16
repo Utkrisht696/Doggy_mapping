@@ -1,0 +1,290 @@
+{
+  "directory": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T202514+1100",
+  "valid": true,
+  "phases": [
+    {
+      "phase": "baseline",
+      "analysis_interior_seconds": 22.00062348,
+      "observed_source_unique_samples": 6540,
+      "matched_output_samples": 6540,
+      "missing_output_timestamps": 0,
+      "source_monotonic_backsteps": 0,
+      "output_relative_to_source_receipt_ms": {
+        "min": -1.967269,
+        "median": 1.262413,
+        "p95": 2.043830049999998,
+        "p99": 23.38195257999985,
+        "max": 56.373983
+      },
+      "adapter_dds_write_relative_to_source_receipt_ms": {
+        "min": -13.735664,
+        "median": 0.656657,
+        "p95": 1.3326864999999999,
+        "p99": 21.223273419999988,
+        "max": 53.696509
+      },
+      "output_receipt_after_dds_write_ms": {
+        "min": 0.124777,
+        "median": 0.4938625,
+        "p95": 0.8095362499999998,
+        "p99": 3.1285032699999866,
+        "max": 17.749724
+      },
+      "samples_delay_over_20ms": 78,
+      "samples_delay_over_100ms": 0,
+      "adapter_cpu_percent_one_core": {
+        "min": 63.98751398842041,
+        "median": 67.98823755898464,
+        "p95": 72.9832367473545,
+        "p99": 73.70590245810169,
+        "max": 73.9862602335708
+      },
+      "host_cpu_busy_percent": {
+        "min": 26.580645161290317,
+        "median": 30.534351145038162,
+        "p95": 43.92146832275468,
+        "p99": 68.43444558117571,
+        "max": 75.95419847328245
+      },
+      "adapter_main_thread_runnable_wait_ms_per_second": {
+        "min": 1.07782,
+        "median": 3.584215,
+        "p95": 15.943993199999966,
+        "p99": 162.84230535999978,
+        "max": 217.461335
+      }
+    },
+    {
+      "phase": "recording_only_before",
+      "analysis_interior_seconds": 32.000158256,
+      "observed_source_unique_samples": 9548,
+      "matched_output_samples": 9548,
+      "missing_output_timestamps": 0,
+      "source_monotonic_backsteps": 0,
+      "output_relative_to_source_receipt_ms": {
+        "min": 0.044439,
+        "median": 1.355275,
+        "p95": 2.003825,
+        "p99": 3.1457895600000048,
+        "max": 16.241286
+      },
+      "adapter_dds_write_relative_to_source_receipt_ms": {
+        "min": -11.888312,
+        "median": 0.714072,
+        "p95": 1.2573341,
+        "p99": 2.2135133300000094,
+        "max": 6.824563
+      },
+      "output_receipt_after_dds_write_ms": {
+        "min": 0.133337,
+        "median": 0.4993475,
+        "p95": 0.8195657000000001,
+        "p99": 1.9681111900000159,
+        "max": 15.562168
+      },
+      "samples_delay_over_20ms": 0,
+      "samples_delay_over_100ms": 0,
+      "adapter_cpu_percent_one_core": {
+        "min": 73.96229150907077,
+        "median": 75.96124206757614,
+        "p95": 82.19529963151025,
+        "p99": 85.83223417440345,
+        "max": 86.97730596830405
+      },
+      "host_cpu_busy_percent": {
+        "min": 38.92529488859764,
+        "median": 42.87564766839378,
+        "p95": 51.81881667105236,
+        "p99": 57.36417582189576,
+        "max": 59.94729907773386
+      },
+      "adapter_main_thread_runnable_wait_ms_per_second": {
+        "min": 3.08923,
+        "median": 5.937624,
+        "p95": 13.7140938,
+        "p99": 15.620308499999997,
+        "max": 16.288035
+      }
+    },
+    {
+      "phase": "recording_with_old_probes",
+      "analysis_interior_seconds": 32.000649693,
+      "observed_source_unique_samples": 9559,
+      "matched_output_samples": 9559,
+      "missing_output_timestamps": 0,
+      "source_monotonic_backsteps": 0,
+      "output_relative_to_source_receipt_ms": {
+        "min": 0.043856,
+        "median": 1.803862,
+        "p95": 14.440231500000003,
+        "p99": 209.36245098000015,
+        "max": 309.182004
+      },
+      "adapter_dds_write_relative_to_source_receipt_ms": {
+        "min": -29.284588,
+        "median": 0.931336,
+        "p95": 12.126422900000001,
+        "p99": 208.67074866000013,
+        "max": 283.311247
+      },
+      "output_receipt_after_dds_write_ms": {
+        "min": 0.179096,
+        "median": 0.885567,
+        "p95": 3.163422300000001,
+        "p99": 7.818049020000006,
+        "max": 46.663854
+      },
+      "samples_delay_over_20ms": 384,
+      "samples_delay_over_100ms": 225,
+      "adapter_cpu_percent_one_core": {
+        "min": 58.816173109387606,
+        "median": 83.98930874892142,
+        "p95": 85.96406296257447,
+        "p99": 89.05897263729527,
+        "max": 90.93877038027034
+      },
+      "host_cpu_busy_percent": {
+        "min": 75.22816166883963,
+        "median": 78.73711340206185,
+        "p95": 95.07671170139685,
+        "p99": 98.02443074301038,
+        "max": 99.12935323383084
+      },
+      "adapter_main_thread_runnable_wait_ms_per_second": {
+        "min": 47.371361,
+        "median": 63.92888,
+        "p95": 197.11109850000005,
+        "p99": 367.8899135799995,
+        "max": 449.437499
+      }
+    },
+    {
+      "phase": "recording_only_after",
+      "analysis_interior_seconds": 32.000497454,
+      "observed_source_unique_samples": 9560,
+      "matched_output_samples": 9560,
+      "missing_output_timestamps": 0,
+      "source_monotonic_backsteps": 0,
+      "output_relative_to_source_receipt_ms": {
+        "min": 0.046401,
+        "median": 1.3536324999999998,
+        "p95": 2.0665983,
+        "p99": 10.651261509999953,
+        "max": 71.895072
+      },
+      "adapter_dds_write_relative_to_source_receipt_ms": {
+        "min": -10.390543,
+        "median": 0.711757,
+        "p95": 1.2920205499999997,
+        "p99": 6.802686239999984,
+        "max": 62.821402
+      },
+      "output_receipt_after_dds_write_ms": {
+        "min": 0.125932,
+        "median": 0.4942905,
+        "p95": 0.8247353499999996,
+        "p99": 2.63810863,
+        "max": 12.195905
+      },
+      "samples_delay_over_20ms": 84,
+      "samples_delay_over_100ms": 0,
+      "adapter_cpu_percent_one_core": {
+        "min": 70.97089873782706,
+        "median": 75.96564575215892,
+        "p95": 81.07674267330766,
+        "p99": 81.97168675304822,
+        "max": 81.98527569044182
+      },
+      "host_cpu_busy_percent": {
+        "min": 39.02759526938239,
+        "median": 43.11688311688312,
+        "p95": 52.591346477356836,
+        "p99": 52.914474126909354,
+        "max": 53.10880829015544
+      },
+      "adapter_main_thread_runnable_wait_ms_per_second": {
+        "min": 3.15491,
+        "median": 6.239544,
+        "p95": 18.326478300000016,
+        "p99": 72.05191195999981,
+        "max": 98.989621
+      }
+    },
+    {
+      "phase": "recovery",
+      "analysis_interior_seconds": 12.001119815,
+      "observed_source_unique_samples": 3552,
+      "matched_output_samples": 3552,
+      "missing_output_timestamps": 0,
+      "source_monotonic_backsteps": 0,
+      "output_relative_to_source_receipt_ms": {
+        "min": -1.949995,
+        "median": 1.2769425,
+        "p95": 3.410893599999999,
+        "p99": 39.9868327099999,
+        "max": 62.650902
+      },
+      "adapter_dds_write_relative_to_source_receipt_ms": {
+        "min": -19.01611,
+        "median": 0.6779105000000001,
+        "p95": 2.4999536499999975,
+        "p99": 39.44262546,
+        "max": 56.641615
+      },
+      "output_receipt_after_dds_write_ms": {
+        "min": 0.130403,
+        "median": 0.489641,
+        "p95": 0.8133667999999998,
+        "p99": 4.094990909999996,
+        "max": 19.188881
+      },
+      "samples_delay_over_20ms": 88,
+      "samples_delay_over_100ms": 0,
+      "adapter_cpu_percent_one_core": {
+        "min": 65.97439210567858,
+        "median": 69.9724197410073,
+        "p95": 76.07523888742483,
+        "p99": 76.81391990213638,
+        "max": 76.99859015581426
+      },
+      "host_cpu_busy_percent": {
+        "min": 28.36970474967908,
+        "median": 31.443298969072163,
+        "p95": 58.633162085546466,
+        "p99": 69.23299374026453,
+        "max": 71.88295165394403
+      },
+      "adapter_main_thread_runnable_wait_ms_per_second": {
+        "min": 1.255682,
+        "median": 3.809063,
+        "p95": 66.71139679999966,
+        "p99": 180.13283696000005,
+        "max": 208.488197
+      }
+    }
+  ],
+  "network_global_udp_delta": {
+    "InDatagrams": 1505123,
+    "NoPorts": 596,
+    "InErrors": 0,
+    "OutDatagrams": 82630,
+    "RcvbufErrors": 0,
+    "SndbufErrors": 0,
+    "InCsumErrors": 0,
+    "IgnoredMulti": 71,
+    "MemErrors": 0
+  },
+  "cdr_stamps_verified_against_deserialization": [
+    5,
+    5
+  ],
+  "protected_files_unchanged": true,
+  "limits": [
+    "One continuous A/B/A trial; phase ordering, startup and host workload may confound causality.",
+    "Only observed source messages are the reference, not all samples produced inside robot.",
+    "Raw observer polls both subscriptions and reads source first; sub-millisecond relative timing can be biased by polling/order.",
+    "DDS output source_timestamp is host write time, not sensor acquisition time.",
+    "No physical clock-offset or LiDAR-IMU calibration inferred.",
+    "No application code change, process restart, robot motion command or mapping was performed."
+  ]
+}

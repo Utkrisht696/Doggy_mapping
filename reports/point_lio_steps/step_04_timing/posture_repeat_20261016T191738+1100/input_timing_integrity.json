@@ -1,0 +1,260 @@
+{
+  "input_timing_integrity_passed": true,
+  "checks": {
+    "bag_saved_cleanly": true,
+    "no_decoding_errors": true,
+    "selected_imu_strictly_increasing": true,
+    "raw_cloud_headers_strictly_increasing": true,
+    "point_times_finite_nonnegative": true,
+    "every_interior_cloud_has_bracketing_imu": true,
+    "source_stamp_and_fixed_bias_values_preserved": true,
+    "all_clock_stamps_have_source_or_both_body_tf_evidence": true
+  },
+  "recording_duration_s": 181.210599591,
+  "interior_scans": 2763,
+  "covered_scans": 2763,
+  "motion_window_scans": 1156,
+  "matched_body_source_packets": 53350,
+  "maximum_matched_value_error": 0.0,
+  "max_body_imu_gap_ms": 33.94767,
+  "motion_gap_count_over_12_ms": 44,
+  "motion_gaps_also_present_in_sport_capture": 44,
+  "motion_gaps": [
+    {
+      "time_source_s": 99.146174462,
+      "gap_ms": 33.94767,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 101.669974257,
+      "gap_ms": 29.948836,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 103.298468129,
+      "gap_ms": 21.475711,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 104.576089299,
+      "gap_ms": 14.749377,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 107.50606626,
+      "gap_ms": 19.892961,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 107.623998105,
+      "gap_ms": 19.975086,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 116.832160531,
+      "gap_ms": 13.805251,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 117.678058366,
+      "gap_ms": 14.496251,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 118.088100615,
+      "gap_ms": 14.461418,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 123.839996151,
+      "gap_ms": 17.998544,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 124.608088645,
+      "gap_ms": 13.95946,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 124.886323465,
+      "gap_ms": 12.039709,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 124.952153721,
+      "gap_ms": 29.272128,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 125.73455955,
+      "gap_ms": 13.399751,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 126.126388339,
+      "gap_ms": 15.584502,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 128.98801396,
+      "gap_ms": 13.73371,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 130.230018335,
+      "gap_ms": 17.95221,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 133.034053783,
+      "gap_ms": 23.913795,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 133.516273957,
+      "gap_ms": 17.668585,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 134.470001261,
+      "gap_ms": 23.960919,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 137.64006033,
+      "gap_ms": 16.758585,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 139.456064387,
+      "gap_ms": 17.908919,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 142.082058151,
+      "gap_ms": 17.926543,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 142.524255737,
+      "gap_ms": 15.715877,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 143.078104876,
+      "gap_ms": 17.858877,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 144.515986062,
+      "gap_ms": 13.972585,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 144.602073571,
+      "gap_ms": 13.986876,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 146.554034392,
+      "gap_ms": 21.909419,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 154.070034105,
+      "gap_ms": 12.571127,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 159.454140188,
+      "gap_ms": 17.842294,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 162.116096122,
+      "gap_ms": 12.19771,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 162.244073552,
+      "gap_ms": 13.912126,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 162.269987638,
+      "gap_ms": 18.070751,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 162.376318857,
+      "gap_ms": 14.521793,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 162.638179591,
+      "gap_ms": 13.596918,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 162.774050272,
+      "gap_ms": 14.017501,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 163.678279238,
+      "gap_ms": 15.740168,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 163.82009121,
+      "gap_ms": 13.868543,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 163.95003839,
+      "gap_ms": 14.04396,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 164.194336873,
+      "gap_ms": 13.655959,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 167.042146992,
+      "gap_ms": 13.795252,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 167.166071505,
+      "gap_ms": 12.047001,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 168.206236651,
+      "gap_ms": 15.842168,
+      "recorded_sport_packets_inside": 0
+    },
+    {
+      "time_source_s": 169.894018945,
+      "gap_ms": 17.928086,
+      "recorded_sport_packets_inside": 0
+    }
+  ],
+  "clock_stamps_checked": 7579,
+  "clock_stamps_absent_from_source_recording": 1,
+  "lidar_status_error_codes": [
+    0.0
+  ],
+  "reported_lidar_packet_loss_max": {
+    "cloud": 0.5524861812591553,
+    "imu": 0.0
+  },
+  "profile_sha256": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+  "notes": [
+    "Bracketing is a coverage check, not a no-drop guarantee.",
+    "A gap in both captures may originate in robot publishing or common transport; it does not prove a hardware sampling gap.",
+    "A timestamp offset cannot recover missing samples.",
+    "Inter-sensor acquisition lag is considered separately from input transport/integrity."
+  ]
+}

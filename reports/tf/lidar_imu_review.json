@@ -1,0 +1,86 @@
+{
+  "status": "Read-only check complete; no sensor TF, quaternion correction, calibration or covariance edits applied",
+  "user_context": "Earlier capture included sitting followed by standing, confirmed by user. A separate twelve-second standing capture was then collected.",
+  "standing_capture": {
+    "samples": 2937,
+    "source_rate_hz": 244.58458554279002,
+    "mean_acceleration_m_s2": [
+      3.434641312124131,
+      -0.0006709086988882311,
+      9.80826876104223
+    ],
+    "mean_acceleration_norm_m_s2": 10.393429600183973,
+    "mean_gyro_rad_s": [
+      -0.0002579516071560371,
+      0.0005726672016327925,
+      0.0004155339897306584
+    ],
+    "body_rpy_degrees": {
+      "mean": [
+        -1.762099100933495,
+        -0.5417855920279562,
+        0.4595257193954196
+      ],
+      "std": [
+        0.010272848927331544,
+        0.0050073492377852935,
+        0.04872652749569267
+      ],
+      "min": [
+        -1.7888792641489955,
+        -0.5522943790116672,
+        0.36755395698167465
+      ],
+      "max": [
+        -1.7419896953317406,
+        -0.5259093048870551,
+        0.5528224380118738
+      ]
+    },
+    "quaternion_norm": {
+      "mean": 0.998312407524329,
+      "std": 2.3903096593926268e-08,
+      "min": 0.9983123502444822,
+      "max": 0.9983124625833337
+    }
+  },
+  "ordering_evidence": {
+    "as_published_median_gravity_disagreement_degrees": 161.5492913259801,
+    "scalar_first_hypothesis_median_gravity_disagreement_degrees": 0.6227152150606117,
+    "hypothesis": "Incoming orientation fields (x,y,z,w) appear to contain scalar-first components (qw,qx,qy,qz).",
+    "potential_ROS_conversion_NOT_APPLIED": {
+      "x": "incoming.y",
+      "y": "incoming.z",
+      "z": "incoming.w",
+      "w": "incoming.x"
+    },
+    "transition_gyro_correlation_as_published": [
+      -0.6483588457959053,
+      0.5980225206719277,
+      0.11451140467671293
+    ],
+    "transition_gyro_correlation_scalar_first": [
+      0.87263808419476,
+      0.7319325817135082,
+      0.9506205816612034
+    ],
+    "conclusion": "Strong evidence for a component-order problem in this stream, not manufacturer confirmation of this DDS firmware. No correction applied.",
+    "source_conflict": "The standalone L1 SDK documents XYZW and its ROS driver copies that order. The running DDS publisher implementation is not available through the accessible topics."
+  },
+  "mapping_readiness": false,
+  "remaining": [
+    "Confirm orientation interpretation with deliberate, separate pitch/roll/yaw observations before applying a corrected topic.",
+    "Validate gyro axes relative to the robot body; current transition/receipt-time comparison does not justify a mounting TF.",
+    "Separate acceleration bias/scale and gravity projection; one standing posture cannot identify all calibration parameters.",
+    "Establish DDS IMU frame origin relative to the developer mount before adopting the SDK internal-IMU position offset.",
+    "Retain unknown message covariance; characterize a suitable noise model separately rather than inserting guessed values."
+  ],
+  "sources": [
+    "https://github.com/unitreerobotics/unilidar_sdk/blob/main/unitree_lidar_sdk/include/unitree_lidar_sdk.h",
+    "https://github.com/unitreerobotics/unilidar_sdk/blob/main/unitree_lidar_ros2/src/unitree_lidar_ros2/include/unitree_lidar_ros2.h",
+    "https://github.com/ros2/common_interfaces/blob/humble/geometry_msgs/msg/Quaternion.msg"
+  ],
+  "motion_commands_sent": false,
+  "code_or_configuration_changed": false,
+  "lidar_tf_proposal": "Unapplied; user requested IMU investigation first."
+}

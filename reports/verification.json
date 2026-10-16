@@ -1,0 +1,49 @@
+{
+  "ros_message_roundtrips": {
+    "unitree_api/msg/Request": "passed (local only; no commands sent)",
+    "unitree_go/msg/LowState": "passed (local only; no commands sent)",
+    "unitree_go/msg/SportModeState": "passed (local only; no commands sent)",
+    "unitree_go/msg/VoxelMapCompressed": "passed (local only; no commands sent)",
+    "unitree_interfaces/msg/QtCommand": "passed (local only; no commands sent)",
+    "unitree_interfaces/msg/PcToImage": "passed (local only; no commands sent)"
+  },
+  "nav_packages": {
+    "nav2_bringup": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "nav2_controller": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "nav2_waypoint_follower": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "nav2_collision_monitor": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "pointcloud_to_laserscan": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "robot_localization": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "slam_toolbox": "/opt/ros/humble",
+    "rmw_cyclonedds_cpp": "/home/jain/Doggy/local/system/opt/ros/humble"
+  },
+  "missing_shared_libraries": {},
+  "cpp_sdk_subscriber_compiled": true,
+  "native_sdk_state_reception": {
+    "received": {
+      "rt/lf/sportmodestate": 121,
+      "rt/lf/lowstate": 120
+    },
+    "first": {
+      "rt/lf/sportmodestate": {
+        "mode": 0,
+        "error_code": 100,
+        "position": [
+          -0.010734646581113338,
+          -0.011458957567811012,
+          0.318075031042099
+        ],
+        "velocity": [
+          -0.010050694458186626,
+          -0.010240837000310421,
+          -0.03288097307085991
+        ]
+      },
+      "rt/lf/lowstate": {
+        "battery_soc": 67,
+        "power_v": 29.473140716552734,
+        "power_a": 0.9912710189819336
+      }
+    }
+  }
+}

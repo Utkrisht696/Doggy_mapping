@@ -1,0 +1,21 @@
+--- scripts/publish_body_imu.py (current)
++++ scripts/publish_body_imu.py (proposed, not applied)
+@@ -13,7 +13,7 @@
+ import rclpy
+ from rclpy.executors import ExternalShutdownException
+ from rclpy.node import Node
+-from rclpy.qos import qos_profile_sensor_data
++from rclpy.qos import QoSProfile, ReliabilityPolicy
+ from sensor_msgs.msg import Imu
+ from unitree_go.msg import SportModeState
+ 
+@@ -84,7 +84,8 @@
+         self.converter = BodyImuConverter(calibration)
+         self.publisher = self.create_publisher(Imu, calibration['output_topic'], 100)
+         self.subscription = self.create_subscription(
+-            SportModeState, calibration['source_topic'], self.receive, qos_profile_sensor_data)
++            SportModeState, calibration['source_topic'], self.receive,
++            QoSProfile(depth=2000, reliability=ReliabilityPolicy.RELIABLE))
+         self.published = self.duplicates = 0
+         self.create_timer(5.0, self.status)
+         self.get_logger().info('Body IMU only: preserving source stamps and applying reviewed fixed biases.')

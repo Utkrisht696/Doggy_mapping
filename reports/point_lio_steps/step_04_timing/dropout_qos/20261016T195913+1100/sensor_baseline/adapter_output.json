@@ -1,0 +1,21 @@
+{
+  "name": "adapter_output",
+  "pid": 1150027,
+  "topic": "/doggy/imu/body_calibrated",
+  "depth": 10000,
+  "reliability": "reliable",
+  "start_mono_ns": 186826490210382,
+  "end_mono_ns": 186894491582009,
+  "duration_s": 68.001371627,
+  "messages": 20192,
+  "endpoints": [
+    {
+      "node": "doggy_body_imu",
+      "namespace": "/",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "durability": "DurabilityPolicy.VOLATILE"
+    }
+  ],
+  "errors": [],
+  "robot_commands_sent": false
+}

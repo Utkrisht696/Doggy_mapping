@@ -1,0 +1,8 @@
+{
+  "mapping.imu_meas_omg_cov": 0.0001,
+  "common.time_lag_imu_to_lidar": 0.0,
+  "odometry.publish_odometry_without_downsample": false,
+  "common.imu_topic": "/doggy/imu/body_calibrated",
+  "odom_header_frame_id": "map",
+  "odom_child_frame_id": "imu"
+}

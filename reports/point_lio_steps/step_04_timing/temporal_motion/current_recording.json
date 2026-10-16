@@ -1,0 +1,92 @@
+{
+  "directory": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100",
+  "bag": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/bag",
+  "qos": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/record_qos.yaml",
+  "topics": [
+    "/utlidar/cloud",
+    "/utlidar/cloud_base",
+    "/utlidar/imu",
+    "/doggy/imu/body_calibrated",
+    "/sportmodestate",
+    "/utlidar/robot_odom",
+    "/utlidar/lidar_state",
+    "/doggy/robot_clock",
+    "/tf",
+    "/tf_static",
+    "/odom",
+    "/joint_states",
+    "/robot_description"
+  ],
+  "status": "stopped_saved",
+  "user_readiness": "User confirmed clear 0.5-1 m walking space, stationary walls/corners, small turns and Ethernet slack. Waiting for cue.",
+  "purpose": "Additional varied yaw/translation plus body tilts for independent cloud/body-IMU temporal calibration; no calibration result is promised from capture alone.",
+  "robot_commands_sent": false,
+  "mapping_started": false,
+  "previous_recordings_preserved": true,
+  "application_hashes_before": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214"
+  },
+  "network_before": {
+    "snmp": "Ip: Forwarding DefaultTTL InReceives InHdrErrors InAddrErrors ForwDatagrams InUnknownProtos InDiscards InDelivers OutRequests OutDiscards OutNoRoutes ReasmTimeout ReasmReqds ReasmOKs ReasmFails FragOKs FragFails FragCreates OutTransmits\nIp: 1 64 159952745 0 1 73697 0 0 42583862 14996569 0 34254 2 130763488 13468825 3 3485 0 7008 15068815\nIcmp: InMsgs InErrors InCsumErrors InDestUnreachs InTimeExcds InParmProbs InSrcQuenchs InRedirects InEchos InEchoReps InTimestamps InTimestampReps InAddrMasks InAddrMaskReps OutMsgs OutErrors OutRateLimitGlobal OutRateLimitHost OutDestUnreachs OutTimeExcds OutParmProbs OutSrcQuenchs OutRedirects OutEchos OutEchoReps OutTimestamps OutTimestampReps OutAddrMasks OutAddrMaskReps\nIcmp: 11993 0 0 9686 0 0 0 0 2294 13 0 0 0 0 29987 0 432 37986 27680 0 0 0 0 13 2294 0 0 0 0\nIcmpMsg: InType0 InType3 InType8 OutType0 OutType3 OutType8\nIcmpMsg: 13 9686 2294 2294 27680 13\nTcp: RtoAlgorithm RtoMin RtoMax MaxConn ActiveOpens PassiveOpens AttemptFails EstabResets CurrEstab InSegs OutSegs RetransSegs InErrs OutRsts InCsumErrors\nTcp: 1 200 120000 -1 25358 940 9308 1664 12 12154169 10682624 6533 142 15844 0\nUdp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors\nUdp: 78791251 64932 96358 6329134 96358 0 0 859102 0\nUdpLite: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors\nUdpLite: 0 0 0 0 0 0 0 0 0\n",
+    "ethernet": {
+      "rx_packets": "241669591",
+      "rx_dropped": "0",
+      "rx_errors": "0"
+    }
+  },
+  "power_profile_before": "performance",
+  "wrapper_pid": 1171533,
+  "pid": 1171558,
+  "started_host_ns": 1792144505741071236,
+  "stop_reason": "user_stop",
+  "network_after": {
+    "snmp": "Ip: Forwarding DefaultTTL InReceives InHdrErrors InAddrErrors ForwDatagrams InUnknownProtos InDiscards InDelivers OutRequests OutDiscards OutNoRoutes ReasmTimeout ReasmReqds ReasmOKs ReasmFails FragOKs FragFails FragCreates OutTransmits\nIp: 1 64 161994508 0 1 73697 0 0 43105243 15151614 0 34254 2 132458313 13643268 3 3485 0 7008 15223860\nIcmp: InMsgs InErrors InCsumErrors InDestUnreachs InTimeExcds InParmProbs InSrcQuenchs InRedirects InEchos InEchoReps InTimestamps InTimestampReps InAddrMasks InAddrMaskReps OutMsgs OutErrors OutRateLimitGlobal OutRateLimitHost OutDestUnreachs OutTimeExcds OutParmProbs OutSrcQuenchs OutRedirects OutEchos OutEchoReps OutTimestamps OutTimestampReps OutAddrMasks OutAddrMaskReps\nIcmp: 12121 0 0 9814 0 0 0 0 2294 13 0 0 0 0 30370 0 432 38463 28063 0 0 0 0 13 2294 0 0 0 0\nIcmpMsg: InType0 InType3 InType8 OutType0 OutType3 OutType8\nIcmpMsg: 13 9814 2294 2294 28063 13\nTcp: RtoAlgorithm RtoMin RtoMax MaxConn ActiveOpens PassiveOpens AttemptFails EstabResets CurrEstab InSegs OutSegs RetransSegs InErrs OutRsts InCsumErrors\nTcp: 1 200 120000 -1 25400 940 9308 1667 12 12156225 10685063 6536 142 15846 0\nUdp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors\nUdp: 80581151 65792 96358 6483674 96358 0 0 859207 0\nUdpLite: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors\nUdpLite: 0 0 0 0 0 0 0 0 0\n",
+    "ethernet": {
+      "rx_packets": "243564758",
+      "rx_dropped": "0",
+      "rx_errors": "0"
+    }
+  },
+  "power_profile_after": "performance",
+  "startup_verification": {
+    "recorder_alive": true,
+    "all_13_topics_subscribed": true,
+    "missing_topics": [],
+    "database_growing": true,
+    "file_bytes": 50757632,
+    "recorder_errors": false,
+    "no_live_database_opened": true
+  },
+  "cue_host_ns": 1792144521904096065,
+  "session_id": 60461,
+  "planned_sequence": "10 s still; two short forward/back passes with stops; two small alternating turns with stops; small body pitch/roll; repeat a short pass and turns at a different gentle pace; 10 s still; user done.",
+  "returncode": 0,
+  "stopped_host_ns": 1792144759820162069,
+  "application_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214"
+  },
+  "metadata_message_count_matches": true,
+  "stored_topic_counts": {
+    "/tf": 15817,
+    "/tf_static": 1,
+    "/robot_description": 1,
+    "/odom": 37918,
+    "/joint_states": 5068,
+    "/doggy/robot_clock": 10748,
+    "/doggy/imu/body_calibrated": 73859,
+    "/utlidar/cloud": 3906,
+    "/utlidar/imu": 62278,
+    "/sportmodestate": 74915,
+    "/utlidar/cloud_base": 3906,
+    "/utlidar/lidar_state": 1266,
+    "/utlidar/robot_odom": 37902
+  },
+  "stored_receipt_start_ns": 1792144506105679809,
+  "stored_receipt_end_ns": 1792144759488789944
+}

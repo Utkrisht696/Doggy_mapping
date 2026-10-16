@@ -1,0 +1,1461 @@
+{
+  "saved_local": "2026-10-16T15:59:36.319028+11:00",
+  "duration_s": 21.178730458021164,
+  "imu_frames": [
+    "utlidar_imu"
+  ],
+  "imu_columns": [
+    "source_ns",
+    "receipt_monotonic_s",
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz",
+    "qx_field",
+    "qy_field",
+    "qz_field",
+    "qw_field"
+  ],
+  "body_columns": [
+    "receipt_monotonic_s",
+    "boot_tick",
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz",
+    "roll_rad",
+    "pitch_rad",
+    "yaw_rad",
+    "qw",
+    "qx",
+    "qy",
+    "qz"
+  ],
+  "odom_columns": [
+    "source_ns",
+    "receipt_monotonic_s",
+    "px",
+    "py",
+    "pz",
+    "qx",
+    "qy",
+    "qz",
+    "qw"
+  ],
+  "counts": {
+    "imu": 4562,
+    "lf_lowstate": 401,
+    "lowstate": 4870,
+    "odom": 3000,
+    "lidar_status": 100
+  },
+  "lidar_status": [
+    {
+      "stamp": 1792126744.1061616,
+      "imu_rpy": [
+        -164.99534606933594,
+        20.80710220336914,
+        -0.015883415937423706
+      ],
+      "imu_frequency": 245.96627807617188,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126744.3061225,
+      "imu_rpy": [
+        -164.98561096191406,
+        20.820960998535156,
+        -0.007505315355956554
+      ],
+      "imu_frequency": 245.95404052734375,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126744.5061135,
+      "imu_rpy": [
+        -164.97857666015625,
+        20.82842445373535,
+        -0.003321149619296193
+      ],
+      "imu_frequency": 248.4196014404297,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126744.7061098,
+      "imu_rpy": [
+        -164.98988342285156,
+        20.84156036376953,
+        -0.026776602491736412
+      ],
+      "imu_frequency": 248.44174194335938,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126744.9061167,
+      "imu_rpy": [
+        -164.99615478515625,
+        20.83480453491211,
+        -0.021378550678491592
+      ],
+      "imu_frequency": 246.070068359375,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126745.1061225,
+      "imu_rpy": [
+        -164.99407958984375,
+        20.82837677001953,
+        -0.013586963526904583
+      ],
+      "imu_frequency": 243.24534606933594,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126745.3061345,
+      "imu_rpy": [
+        -164.99571228027344,
+        20.834524154663086,
+        -0.02306867390871048
+      ],
+      "imu_frequency": 245.95884704589844,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126745.5061212,
+      "imu_rpy": [
+        -164.9985809326172,
+        20.827917098999023,
+        -0.03835568204522133
+      ],
+      "imu_frequency": 245.35557556152344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126745.706116,
+      "imu_rpy": [
+        -165.0055389404297,
+        20.817996978759766,
+        -0.03309151157736778
+      ],
+      "imu_frequency": 245.64369201660156,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126745.9061117,
+      "imu_rpy": [
+        -164.98977661132812,
+        20.80927276611328,
+        -0.023269200697541237
+      ],
+      "imu_frequency": 245.63671875,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126746.1061113,
+      "imu_rpy": [
+        -164.9820556640625,
+        20.8065242767334,
+        -0.026032939553260803
+      ],
+      "imu_frequency": 245.96585083007812,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126746.3061118,
+      "imu_rpy": [
+        -164.96536254882812,
+        20.80368995666504,
+        -0.017497200518846512
+      ],
+      "imu_frequency": 247.0443572998047,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126746.5061219,
+      "imu_rpy": [
+        -164.94497680664062,
+        20.795639038085938,
+        -4.3618070776574314e-05
+      ],
+      "imu_frequency": 245.6601104736328,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126746.7061205,
+      "imu_rpy": [
+        -164.9278106689453,
+        20.808462142944336,
+        0.007980460301041603
+      ],
+      "imu_frequency": 245.655029296875,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126746.9061227,
+      "imu_rpy": [
+        -164.912841796875,
+        20.809261322021484,
+        0.007644059602171183
+      ],
+      "imu_frequency": 248.4347686767578,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126747.1061227,
+      "imu_rpy": [
+        -164.91110229492188,
+        20.804384231567383,
+        -0.008372603915631771
+      ],
+      "imu_frequency": 248.39151000976562,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126747.306129,
+      "imu_rpy": [
+        -164.91018676757812,
+        20.809877395629883,
+        -0.012503786943852901
+      ],
+      "imu_frequency": 246.19932556152344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126747.5061185,
+      "imu_rpy": [
+        -164.91098022460938,
+        20.82372283935547,
+        -0.023225050419569016
+      ],
+      "imu_frequency": 245.9930877685547,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126747.7061207,
+      "imu_rpy": [
+        -164.9098358154297,
+        20.823774337768555,
+        -0.04079536721110344
+      ],
+      "imu_frequency": 248.2036895751953,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126747.9061198,
+      "imu_rpy": [
+        -164.90672302246094,
+        20.82862663269043,
+        -0.05223745107650757
+      ],
+      "imu_frequency": 248.43609619140625,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126748.1061199,
+      "imu_rpy": [
+        -164.90692138671875,
+        20.826719284057617,
+        -0.04495569318532944
+      ],
+      "imu_frequency": 248.29452514648438,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126748.3061204,
+      "imu_rpy": [
+        -164.9041748046875,
+        20.82474136352539,
+        -0.03463070094585419
+      ],
+      "imu_frequency": 245.655029296875,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126748.5061371,
+      "imu_rpy": [
+        -164.90054321289062,
+        20.830495834350586,
+        -0.034915558993816376
+      ],
+      "imu_frequency": 243.24562072753906,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126748.7061133,
+      "imu_rpy": [
+        -164.8924102783203,
+        20.804460525512695,
+        -0.022401709109544754
+      ],
+      "imu_frequency": 244.10948181152344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126748.906112,
+      "imu_rpy": [
+        -164.8946990966797,
+        20.81804656982422,
+        -0.00977855734527111
+      ],
+      "imu_frequency": 245.95753479003906,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126749.106117,
+      "imu_rpy": [
+        -164.88723754882812,
+        20.816442489624023,
+        -0.010661828331649303
+      ],
+      "imu_frequency": 248.26913452148438,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126749.3061113,
+      "imu_rpy": [
+        -164.88880920410156,
+        20.80987548828125,
+        -0.019328294321894646
+      ],
+      "imu_frequency": 248.43016052246094,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126749.5061178,
+      "imu_rpy": [
+        -164.88905334472656,
+        20.804800033569336,
+        -0.010179567150771618
+      ],
+      "imu_frequency": 246.40576171875,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126749.706122,
+      "imu_rpy": [
+        -164.88992309570312,
+        20.80717658996582,
+        -0.007926387712359428
+      ],
+      "imu_frequency": 245.97268676757812,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126749.9062293,
+      "imu_rpy": [
+        -164.88589477539062,
+        20.81412124633789,
+        -0.012968682684004307
+      ],
+      "imu_frequency": 245.9719696044922,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126750.106117,
+      "imu_rpy": [
+        -164.8843231201172,
+        20.806732177734375,
+        -0.01369722094386816
+      ],
+      "imu_frequency": 247.96595764160156,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126750.3061244,
+      "imu_rpy": [
+        -164.87916564941406,
+        20.796451568603516,
+        0.0027735752519220114
+      ],
+      "imu_frequency": 248.42361450195312,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126750.5061092,
+      "imu_rpy": [
+        -164.88070678710938,
+        20.78928565979004,
+        -0.012820928357541561
+      ],
+      "imu_frequency": 246.42359924316406,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126750.7061176,
+      "imu_rpy": [
+        -164.87962341308594,
+        20.780250549316406,
+        -0.010041824541985989
+      ],
+      "imu_frequency": 248.46047973632812,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126750.9061253,
+      "imu_rpy": [
+        -164.88546752929688,
+        20.769454956054688,
+        -0.0309342872351408
+      ],
+      "imu_frequency": 248.79156494140625,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126751.1061223,
+      "imu_rpy": [
+        -164.86936950683594,
+        20.76119613647461,
+        -0.01718849502503872
+      ],
+      "imu_frequency": 248.24717712402344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126751.3061082,
+      "imu_rpy": [
+        -164.8635711669922,
+        20.76835060119629,
+        -0.017860164865851402
+      ],
+      "imu_frequency": 242.93312072753906,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126751.5061314,
+      "imu_rpy": [
+        -164.85516357421875,
+        20.778018951416016,
+        -0.026437897235155106
+      ],
+      "imu_frequency": 242.2067413330078,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126751.7061105,
+      "imu_rpy": [
+        -164.84878540039062,
+        20.775575637817383,
+        -0.035281967371702194
+      ],
+      "imu_frequency": 242.94064331054688,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126751.9061217,
+      "imu_rpy": [
+        -164.84298706054688,
+        20.771818161010742,
+        -0.015768742188811302
+      ],
+      "imu_frequency": 245.64659118652344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126752.1066515,
+      "imu_rpy": [
+        -164.8467559814453,
+        20.779315948486328,
+        -0.019605334848165512
+      ],
+      "imu_frequency": 248.42539978027344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126752.3061154,
+      "imu_rpy": [
+        -164.8456268310547,
+        20.784276962280273,
+        -0.011506153270602226
+      ],
+      "imu_frequency": 245.6728973388672,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126752.5061135,
+      "imu_rpy": [
+        -164.83973693847656,
+        20.78214454650879,
+        -0.009824486449360847
+      ],
+      "imu_frequency": 245.4824981689453,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126752.7061217,
+      "imu_rpy": [
+        -164.830322265625,
+        20.783790588378906,
+        0.0062975892797112465
+      ],
+      "imu_frequency": 245.93276977539062,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126752.9061127,
+      "imu_rpy": [
+        -164.8282928466797,
+        20.79511833190918,
+        0.0021311806049197912
+      ],
+      "imu_frequency": 245.6583709716797,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126753.1061099,
+      "imu_rpy": [
+        -164.82186889648438,
+        20.79053497314453,
+        -0.003886517370119691
+      ],
+      "imu_frequency": 248.44606018066406,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126753.306113,
+      "imu_rpy": [
+        -164.81533813476562,
+        20.791059494018555,
+        0.005830150097608566
+      ],
+      "imu_frequency": 248.73611450195312,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126753.5061219,
+      "imu_rpy": [
+        -164.8132781982422,
+        20.795177459716797,
+        0.0040404312312603
+      ],
+      "imu_frequency": 248.44740295410156,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126753.7061188,
+      "imu_rpy": [
+        -164.813232421875,
+        20.7959041595459,
+        -0.003832942573353648
+      ],
+      "imu_frequency": 248.43016052246094,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126753.9061155,
+      "imu_rpy": [
+        -164.80722045898438,
+        20.79309844970703,
+        0.00234173028729856
+      ],
+      "imu_frequency": 248.36477661132812,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126754.1061182,
+      "imu_rpy": [
+        -164.80963134765625,
+        20.786163330078125,
+        0.0008300720946863294
+      ],
+      "imu_frequency": 245.66505432128906,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126754.3061209,
+      "imu_rpy": [
+        -164.79275512695312,
+        20.794252395629883,
+        0.013790951110422611
+      ],
+      "imu_frequency": 245.58006286621094,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126754.5061197,
+      "imu_rpy": [
+        -164.7948760986328,
+        20.809246063232422,
+        -0.01067880168557167
+      ],
+      "imu_frequency": 248.42555236816406,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126754.7061172,
+      "imu_rpy": [
+        -164.7940216064453,
+        20.816879272460938,
+        -0.023928571492433548
+      ],
+      "imu_frequency": 246.6545867919922,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126754.9061139,
+      "imu_rpy": [
+        -164.7864532470703,
+        20.809188842773438,
+        -0.006412442307919264
+      ],
+      "imu_frequency": 248.10166931152344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126755.1061666,
+      "imu_rpy": [
+        -164.7794952392578,
+        20.802568435668945,
+        -0.009943060576915741
+      ],
+      "imu_frequency": 248.39761352539062,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126755.306122,
+      "imu_rpy": [
+        -164.77674865722656,
+        20.8137149810791,
+        -0.01002719346433878
+      ],
+      "imu_frequency": 248.67787170410156,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126755.5061228,
+      "imu_rpy": [
+        -164.7734375,
+        20.806577682495117,
+        -0.020752348005771637
+      ],
+      "imu_frequency": 245.6634521484375,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126755.7061124,
+      "imu_rpy": [
+        -164.78192138671875,
+        20.822647094726562,
+        -0.016687169671058655
+      ],
+      "imu_frequency": 245.8839874267578,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126755.9061162,
+      "imu_rpy": [
+        -164.79031372070312,
+        20.81657600402832,
+        -0.019252244383096695
+      ],
+      "imu_frequency": 248.7572784423828,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126756.1061163,
+      "imu_rpy": [
+        -164.78318786621094,
+        20.82613182067871,
+        -0.02130000852048397
+      ],
+      "imu_frequency": 245.67465209960938,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126756.3061204,
+      "imu_rpy": [
+        -164.78990173339844,
+        20.812788009643555,
+        -0.028553254902362823
+      ],
+      "imu_frequency": 245.9629364013672,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126756.5061207,
+      "imu_rpy": [
+        -164.7942352294922,
+        20.834199905395508,
+        -0.029073700308799744
+      ],
+      "imu_frequency": 245.65052795410156,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126756.70612,
+      "imu_rpy": [
+        -164.82711791992188,
+        20.853378295898438,
+        -0.028531866148114204
+      ],
+      "imu_frequency": 245.3467254638672,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126756.9061239,
+      "imu_rpy": [
+        -164.8204345703125,
+        20.830965042114258,
+        -0.03903507813811302
+      ],
+      "imu_frequency": 248.43104553222656,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126757.1061184,
+      "imu_rpy": [
+        -164.9700469970703,
+        21.901948928833008,
+        -0.418034166097641
+      ],
+      "imu_frequency": 245.91603088378906,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126757.306122,
+      "imu_rpy": [
+        -165.26702880859375,
+        22.0591983795166,
+        -0.806381106376648
+      ],
+      "imu_frequency": 242.85865783691406,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126757.5061147,
+      "imu_rpy": [
+        -165.4569854736328,
+        23.13296127319336,
+        -2.7957053184509277
+      ],
+      "imu_frequency": 245.07955932617188,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126757.7061627,
+      "imu_rpy": [
+        -165.30245971679688,
+        23.041933059692383,
+        -2.9805281162261963
+      ],
+      "imu_frequency": 243.01400756835938,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126757.906114,
+      "imu_rpy": [
+        -164.9392547607422,
+        22.727333068847656,
+        -2.333527088165283
+      ],
+      "imu_frequency": 245.97691345214844,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126758.106867,
+      "imu_rpy": [
+        -164.72608947753906,
+        22.34107208251953,
+        -1.7411985397338867
+      ],
+      "imu_frequency": 248.57545471191406,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126758.3061292,
+      "imu_rpy": [
+        -164.5646514892578,
+        22.114442825317383,
+        -1.3658064603805542
+      ],
+      "imu_frequency": 247.50657653808594,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126758.5061214,
+      "imu_rpy": [
+        -164.3673858642578,
+        21.815378189086914,
+        -0.8606405854225159
+      ],
+      "imu_frequency": 245.63743591308594,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126758.7061183,
+      "imu_rpy": [
+        -164.20819091796875,
+        21.569534301757812,
+        -0.47242119908332825
+      ],
+      "imu_frequency": 246.58047485351562,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126758.9061158,
+      "imu_rpy": [
+        -164.0704803466797,
+        21.3560848236084,
+        -0.11185172945261002
+      ],
+      "imu_frequency": 245.02764892578125,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126759.1061249,
+      "imu_rpy": [
+        -163.9442138671875,
+        21.152589797973633,
+        0.21014373004436493
+      ],
+      "imu_frequency": 246.2080841064453,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126759.3061259,
+      "imu_rpy": [
+        -163.82272338867188,
+        20.945362091064453,
+        0.5055468678474426
+      ],
+      "imu_frequency": 245.42416381835938,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126759.5061297,
+      "imu_rpy": [
+        -163.73458862304688,
+        20.776119232177734,
+        0.7610026597976685
+      ],
+      "imu_frequency": 242.7176971435547,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126759.7061298,
+      "imu_rpy": [
+        -162.31089782714844,
+        19.592891693115234,
+        1.0920090675354004
+      ],
+      "imu_frequency": 245.46392822265625,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126759.9061468,
+      "imu_rpy": [
+        -161.00364685058594,
+        20.074665069580078,
+        0.8368375301361084
+      ],
+      "imu_frequency": 245.79258728027344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126760.1061468,
+      "imu_rpy": [
+        -160.59658813476562,
+        19.907827377319336,
+        1.2352207899093628
+      ],
+      "imu_frequency": 245.35426330566406,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126760.3061228,
+      "imu_rpy": [
+        -160.1812744140625,
+        20.019075393676758,
+        1.6786420345306396
+      ],
+      "imu_frequency": 248.59255981445312,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126760.5061235,
+      "imu_rpy": [
+        -160.0376739501953,
+        20.077167510986328,
+        2.0209836959838867
+      ],
+      "imu_frequency": 248.79229736328125,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126760.7061112,
+      "imu_rpy": [
+        -159.94332885742188,
+        20.119834899902344,
+        2.310481071472168
+      ],
+      "imu_frequency": 245.5690155029297,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126760.9068615,
+      "imu_rpy": [
+        -159.83213806152344,
+        20.153913497924805,
+        2.5858442783355713
+      ],
+      "imu_frequency": 245.98814392089844,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126761.1061125,
+      "imu_rpy": [
+        -159.74623107910156,
+        20.200443267822266,
+        2.8295998573303223
+      ],
+      "imu_frequency": 246.362060546875,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126761.3061163,
+      "imu_rpy": [
+        -159.66250610351562,
+        20.23474884033203,
+        3.0555386543273926
+      ],
+      "imu_frequency": 248.11634826660156,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126761.5061347,
+      "imu_rpy": [
+        -159.59573364257812,
+        20.262165069580078,
+        3.233006000518799
+      ],
+      "imu_frequency": 245.94923400878906,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126761.7061405,
+      "imu_rpy": [
+        -159.51165771484375,
+        20.29081916809082,
+        3.428762912750244
+      ],
+      "imu_frequency": 245.8736572265625,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126761.9061484,
+      "imu_rpy": [
+        -159.44985961914062,
+        20.318544387817383,
+        3.5881147384643555
+      ],
+      "imu_frequency": 248.44561767578125,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126762.1061869,
+      "imu_rpy": [
+        -159.38211059570312,
+        20.33382225036621,
+        3.738753318786621
+      ],
+      "imu_frequency": 248.05126953125,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126762.3063176,
+      "imu_rpy": [
+        -159.3566131591797,
+        20.33131217956543,
+        3.8305726051330566
+      ],
+      "imu_frequency": 245.64398193359375,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126762.506157,
+      "imu_rpy": [
+        -159.501708984375,
+        20.216943740844727,
+        3.4610116481781006
+      ],
+      "imu_frequency": 245.73033142089844,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126762.7061443,
+      "imu_rpy": [
+        -159.64862060546875,
+        20.142946243286133,
+        3.133127450942993
+      ],
+      "imu_frequency": 248.451416015625,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126762.9061184,
+      "imu_rpy": [
+        -159.7624053955078,
+        20.082212448120117,
+        2.833454132080078
+      ],
+      "imu_frequency": 248.768310546875,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126763.1061332,
+      "imu_rpy": [
+        -159.8662567138672,
+        19.99886131286621,
+        2.544412136077881
+      ],
+      "imu_frequency": 245.9049530029297,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126763.3061495,
+      "imu_rpy": [
+        -159.95184326171875,
+        19.938669204711914,
+        2.3141229152679443
+      ],
+      "imu_frequency": 242.95486450195312,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126763.5061104,
+      "imu_rpy": [
+        -160.0277099609375,
+        19.893692016601562,
+        2.093014717102051
+      ],
+      "imu_frequency": 243.19163513183594,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126763.7061117,
+      "imu_rpy": [
+        -160.08535766601562,
+        19.839265823364258,
+        1.8967618942260742
+      ],
+      "imu_frequency": 245.64572143554688,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    },
+    {
+      "stamp": 1792126763.9061208,
+      "imu_rpy": [
+        -160.13302612304688,
+        19.790273666381836,
+        1.724168062210083
+      ],
+      "imu_frequency": 245.48497009277344,
+      "imu_packet_loss_rate": 0.0,
+      "error_state": 0,
+      "software_version": "1.0.0.38",
+      "firmware_version": "",
+      "sdk_version": ""
+    }
+  ],
+  "motion_commands_sent": false,
+  "code_or_configuration_changed": false,
+  "user_followup": "User confirmed this capture included sitting followed by standing; do not interpret its transition spikes as stationary sensor noise."
+}

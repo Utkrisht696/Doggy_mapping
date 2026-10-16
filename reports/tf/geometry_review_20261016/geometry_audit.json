@@ -1,0 +1,381 @@
+{
+  "saved_local": "2026-10-16T16:45:58.211637+11:00",
+  "scope": "Offline manufacturer/URDF/CMU geometry audit only. No source, config, TF, processes or robot settings changed. New files are reports only.",
+  "notation": "T_A_B maps coordinates in B into A: p_A = R_A_B p_B + t_A_B. Thus t_A_B is origin B expressed in A.",
+  "manufacturer": {
+    "profile": "Both current Unitree L1 and L2 README coordinate definitions agree on the same internal IMU offset and parallel axes. Physical generation still not confirmed.",
+    "lidar_origin": "Centre of bottom mounting surface",
+    "imu_origin_in_lidar_m": [
+      -0.007698,
+      -0.014655,
+      0.00667
+    ],
+    "T_L_I": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.007698
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.014655
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.00667
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_lio_required_T_I_L": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.007698
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.014655
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -0.00667
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "evidence_status": "Manufacturer-specified geometry. Exact equivalence of this robot DDS cloud origin to that SDK origin is not independently established by the available topics.",
+    "sources": [
+      "https://github.com/unitreerobotics/unilidar_sdk#coordinate-system-definition",
+      "https://github.com/unitreerobotics/unilidar_sdk2#2-coordinate-system-definition"
+    ]
+  },
+  "point_lio_code_contract": {
+    "source": "third_party/autonomy_stack_go2/src/slam/point_lio_unilidar/src/laserMapping.cpp:147",
+    "equation": "p_imu = Lidar_R_wrt_IMU * p_lidar + Lidar_T_wrt_IMU",
+    "raw_input_extrinsic_R_if_manufacturer_profile_applies": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "raw_input_extrinsic_T_m_if_manufacturer_profile_applies": [
+      0.007698,
+      0.014655,
+      -0.00667
+    ],
+    "warning": "The YAML prose comment says imu to lidar; the executable equation establishes LiDAR coordinates to IMU coordinates. Verify using the equation, not ambiguous prose."
+  },
+  "current_cmu_processing": {
+    "cloud_equation": "p_Lp = R_C p_L + c",
+    "cloud_rotation_R_C": [
+      [
+        -0.9655129059697727,
+        0.0,
+        0.2603551966176304
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.2603551966176304,
+        0.0,
+        -0.9655129059697727
+      ]
+    ],
+    "cloud_translation_c_m": [
+      0.0,
+      0.0,
+      -0.046825
+    ],
+    "gyro_equation_before_bias_and_projection": "g_Ip = R_G g_I",
+    "gyro_rotation_R_G": [
+      [
+        0.9654726320503461,
+        0.0,
+        0.260504504302281
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.260504504302281,
+        0.0,
+        -0.9654726320503461
+      ]
+    ],
+    "configured_quaternion_left_rotation_R_Q": [
+      [
+        0.9655129059697727,
+        -9.793177720293495e-12,
+        -0.2603551966176304
+      ],
+      [
+        -9.455439479399005e-12,
+        -1.0,
+        2.5497047108784104e-12
+      ],
+      [
+        -0.2603551966176304,
+        0.0,
+        -0.9655129059697727
+      ]
+    ],
+    "quaternion_rotation_vs_vector_rotation_difference_degrees": 30.191139035095105,
+    "processed_relative_R_Ip_Lp_if_raw_frames_parallel": [
+      [
+        -0.864352585167816,
+        0.0,
+        -0.5028862779135195
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        -0.5028862779135195,
+        0.0,
+        0.864352585167816
+      ]
+    ],
+    "processed_relative_T_Ip_Lp_m_if_origins_defined_as_below": [
+      -0.017853006685473197,
+      -0.014655,
+      0.04891837593037775
+    ],
+    "processed_relative_rotation_angle_degrees": 180.0,
+    "origin_assumption_for_this_algebra": "Gyro-only rotation changes axes at the physical IMU origin. No IMU coordinate-origin translation is applied. Cloud output is shifted by c. Both output headers being body does not itself make these origins or axes identical.",
+    "current_yaml_R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "current_yaml_T_m": [
+      0.007698,
+      0.014655,
+      -0.00667
+    ],
+    "arbitrary_point_count_for_composition_check": 2000,
+    "computed_correct_processed_composition_max_abs_error": 3.552713678800501e-15,
+    "current_identity_extrinsic_point_error_median_m_for_arbitrary_points": 7.079514605912262,
+    "finding": "Given parallel raw gyro/cloud axes supported by this robot bag, existing cloud and IMU geometric processing does not compose with the current identity extrinsic. This is profile-specific evidence, not a claim about every CMU-supported firmware.",
+    "calibration_projection_note": "The later cross-axis gyro correction is a calibration mapping, not generally an orthonormal rotation; it cannot be represented by TF."
+  },
+  "conditional_geometry_for_review_NOT_ACTIVE": {
+    "unchanged_developer_mount_T_B_radar": [
+      [
+        -0.9655122329338991,
+        0.0,
+        0.2603576925212619,
+        0.28945
+      ],
+      [
+        0.0,
+        0.9999999999999999,
+        0.0,
+        0.0
+      ],
+      [
+        -0.2603576925212619,
+        0.0,
+        -0.9655122329338991,
+        -0.046825
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "verified_vendor_stream_conversion_T_B_L": [
+      [
+        0.5261139017353029,
+        -0.8101358157255057,
+        0.2586196482860969,
+        0.28216002866813134
+      ],
+      [
+        -0.8386681734567218,
+        -0.5446427221842449,
+        1.5814066921490184e-06,
+        1.994733730970033e-08
+      ],
+      [
+        0.14085402809867137,
+        -0.21689690004816572,
+        -0.9659792324464709,
+        -1.5374389983335845e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "earlier_proposed_measurement_edge_T_radar_L": [
+      [
+        -0.5446418377801135,
+        0.8386668168324143,
+        0.0017996898859337983,
+        -0.0051526884508107385
+      ],
+      [
+        -0.8386681734567221,
+        -0.544642722184245,
+        1.5814066921490189e-06,
+        1.9947337309700334e-08
+      ],
+      [
+        0.0009815142718790353,
+        -0.001508481329177707,
+        0.9999983805555949,
+        -0.04710809557747972
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "manufacturer_profile_edge_T_L_I": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.007698
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.014655
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.00667
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "composed_T_B_I_if_profile_applies": [
+      [
+        0.5261139017353029,
+        -0.8101358157255057,
+        0.2586196482860969,
+        0.29170753728609855
+      ],
+      [
+        -0.8386681734567218,
+        -0.5446427221842449,
+        1.5814066921490184e-06,
+        0.0144378371881999
+      ],
+      [
+        0.14085402809867137,
+        -0.21689690004816572,
+        -0.9659792324464709,
+        -0.0043487670929056475
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "same_rotation_preprocessed_extrinsic_T_m_if_using_body_aligned_axes_at_distinct_sensor_origins": [
+      -0.009547508617967191,
+      -0.01443781724086259,
+      0.004348751718515664
+    ],
+    "status": "Review only; not an approved or published full sensor TF. Translation-to-DDS-origin assumption remains explicit."
+  },
+  "checks": {
+    "manufacturer_forward_inverse_composition": true,
+    "raw_translation_has_expected_inverse_sign": true,
+    "cmu_rotations_are_proper": true,
+    "processed_extrinsic_composition_roundtrip": true,
+    "processed_rotation_is_not_identity_for_parallel_raw_frames": true,
+    "common_rotation_requires_rotated_lever_arm": true,
+    "developer_mount_then_measurement_edge_reconstructs_vendor_conversion": true,
+    "conditional_imu_parent_chain_matches_direct_composition": true
+  },
+  "all_algebra_checks_passed": true,
+  "what_is_validated": [
+    "Direction of manufacturer internal offset and its inverse matches the Point-LIO executable equation.",
+    "URDF radar geometry remains unchanged; measured cloud conversion can be expressed beneath it without changing that geometry.",
+    "Existing bag supports common raw gyro/cloud axes and validates the earlier cloud conversion through pitch, roll and yaw.",
+    "Point-LIO extrinsics must be recomputed after any geometric preprocessing, including translations."
+  ],
+  "what_is_not_validated": [
+    "Exact physical IMU position relative to this DDS cloud origin; no explicit factory DDS-to-SDK-origin document or calibration topic found.",
+    "A raw orientation/acceleration convention correction or successful full inertial calibration.",
+    "Mapping quality, translational drift or autonomous navigation."
+  ],
+  "recommended_geometry_design_for_later_review": "Prefer retaining native sensor coordinate frames and applying each geometric transform once. If processed axes/origins are retained, derive their full relative transform from composition and label those frames unambiguously. Do not combine a physical base_link origin with an IMU-centred estimator state silently.",
+  "source_sha256": {
+    "scripts/go2_frames.py": "d8e4874b7c3b4ede61489b7800db26d92d0d50d10bd281bd21478606712db13c",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214",
+    "launch/go2_visualization.launch.py": "68ee643d35971d55ab0aed7e707560991ecc5ad9ea1cad163b5ca36dc0a6e8f0",
+    "launch/mapping_sensors.launch.py": "7092071f1164820638c0f798e2fbfba73c016fe948e9fb13224cc9b1c5c69e8a",
+    "launch/slam/slam_test.launch.py": "b081ae444a0a90a0ea3c0e55447a0ce0c6ad15333570c5240f5f1922a1f47e93",
+    "ros2_ws/src/transform_sensors/transform_sensors/transform_everything.py": "02a673878553e92c8d9506ca592ebe6b5f6159f6ae13bbe5aff1ec54ba609b45",
+    "sdk/unitree_ros/robots/go2_description/urdf/go2_description.urdf": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+    "third_party/autonomy_stack_go2/src/slam/point_lio_unilidar/config/utlidar.yaml": "1af1481363341db7e46be97a08d52c2089684e44466d5c1fe7a25b5c08fadb5f"
+  }
+}

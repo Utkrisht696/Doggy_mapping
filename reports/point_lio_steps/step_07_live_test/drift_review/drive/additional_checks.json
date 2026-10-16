@@ -1,0 +1,491 @@
+{
+  "stationary_surface_repeatability": {
+    "early_window_s": [
+      2,
+      4
+    ],
+    "late_window_s": [
+      23,
+      25
+    ],
+    "nearest_neighbor_median_m": 0.02299908744700365,
+    "nearest_neighbor_p90_m": 0.05807433247434208,
+    "fraction_within_0_10m": 0.9655480984340045,
+    "reverse_nearest_neighbor_median_m": 0.02300401875566093,
+    "interpretation": "As-recorded clouds without additional registration; includes sparse sampling and visibility differences."
+  },
+  "smoothed_travel_comparison": [
+    {
+      "gaussian_sigma_s": 0.15,
+      "lio_smoothed_path_length_m": 23.77868507638926,
+      "vendor_smoothed_path_length_m": 18.037214721351027,
+      "ratio": 1.318312469177513
+    },
+    {
+      "gaussian_sigma_s": 0.3,
+      "lio_smoothed_path_length_m": 22.484852040302478,
+      "vendor_smoothed_path_length_m": 17.87277468383923,
+      "ratio": 1.258050439176271
+    },
+    {
+      "gaussian_sigma_s": 0.5,
+      "lio_smoothed_path_length_m": 21.792440657781427,
+      "vendor_smoothed_path_length_m": 17.750352065531725,
+      "ratio": 1.2277187842430897
+    }
+  ],
+  "local_floor_planes": [
+    {
+      "time_s": 5.0,
+      "floor_z_at_robot_xy_m": -0.35619678041102343,
+      "plane_slope_xy": [
+        -0.012595999053379036,
+        -0.00881267432378402
+      ],
+      "tilt_deg": 0.880726143596641,
+      "inlier_fraction": 0.5597349444552718,
+      "inliers": 2872,
+      "residual_rms_m": 0.013048533130860945,
+      "lio_imu_z_m": -0.0034925237947296154
+    },
+    {
+      "time_s": 10.0,
+      "floor_z_at_robot_xy_m": -0.3564513387697636,
+      "plane_slope_xy": [
+        -0.011013195809733183,
+        -0.00781821483067724
+      ],
+      "tilt_deg": 0.773795962656814,
+      "inlier_fraction": 0.5445751138088012,
+      "inliers": 2871,
+      "residual_rms_m": 0.01272220811970323,
+      "lio_imu_z_m": -0.0016629521051794449
+    },
+    {
+      "time_s": 15.0,
+      "floor_z_at_robot_xy_m": -0.36382722016202473,
+      "plane_slope_xy": [
+        -0.0063255655562913056,
+        -0.011334677672050208
+      ],
+      "tilt_deg": 0.7436735594079337,
+      "inlier_fraction": 0.5741430700447094,
+      "inliers": 3082,
+      "residual_rms_m": 0.013202662398362614,
+      "lio_imu_z_m": -0.0025475156671461922
+    },
+    {
+      "time_s": 20.0,
+      "floor_z_at_robot_xy_m": -0.3604276686642914,
+      "plane_slope_xy": [
+        -0.009462362969444745,
+        -0.009186811427636166
+      ],
+      "tilt_deg": 0.7555956845800114,
+      "inlier_fraction": 0.5754251234229293,
+      "inliers": 3147,
+      "residual_rms_m": 0.012991762026644853,
+      "lio_imu_z_m": -0.001441691832775835
+    },
+    {
+      "time_s": 25.0,
+      "floor_z_at_robot_xy_m": -0.36900374437840805,
+      "plane_slope_xy": [
+        -0.006232356219555477,
+        -0.013123664556253689
+      ],
+      "tilt_deg": 0.832354345869329,
+      "inlier_fraction": 0.5929285449833395,
+      "inliers": 3203,
+      "residual_rms_m": 0.013882350226797955,
+      "lio_imu_z_m": 0.0003684449264520684
+    },
+    {
+      "time_s": 30.0,
+      "floor_z_at_robot_xy_m": -0.3635359213710677,
+      "plane_slope_xy": [
+        -0.010451870584400657,
+        -0.01646542429466097
+      ],
+      "tilt_deg": 1.1172756029442472,
+      "inlier_fraction": 0.5688249400479616,
+      "inliers": 3558,
+      "residual_rms_m": 0.013040420649932397,
+      "lio_imu_z_m": 0.0018715461507851489
+    },
+    {
+      "time_s": 35.0,
+      "floor_z_at_robot_xy_m": -0.36256144565601667,
+      "plane_slope_xy": [
+        -0.021927396198825246,
+        -0.02871132486885436
+      ],
+      "tilt_deg": 2.06901747844455,
+      "inlier_fraction": 0.5856581164575922,
+      "inliers": 3128,
+      "residual_rms_m": 0.011947052419795018,
+      "lio_imu_z_m": -0.036785413213691054
+    },
+    {
+      "time_s": 40.0,
+      "floor_z_at_robot_xy_m": -0.39422169327640694,
+      "plane_slope_xy": [
+        -0.009823141702247103,
+        -0.012214684087433147
+      ],
+      "tilt_deg": 0.8980140355489146,
+      "inlier_fraction": 0.5509056839475328,
+      "inliers": 3528,
+      "residual_rms_m": 0.011518204875707365,
+      "lio_imu_z_m": -0.043684507330515314
+    },
+    {
+      "time_s": 45.0,
+      "floor_z_at_robot_xy_m": -0.39890053067331177,
+      "plane_slope_xy": [
+        -0.018381047678780214,
+        -0.011045747804518613
+      ],
+      "tilt_deg": 1.228497566519403,
+      "inlier_fraction": 0.6156194352582041,
+      "inliers": 4840,
+      "residual_rms_m": 0.012590075944405898,
+      "lio_imu_z_m": -0.07989282108075671
+    },
+    {
+      "time_s": 50.0,
+      "floor_z_at_robot_xy_m": -0.40438580114785044,
+      "plane_slope_xy": [
+        -0.02154709383926596,
+        -0.012040742630903323
+      ],
+      "tilt_deg": 1.4139518696035769,
+      "inlier_fraction": 0.6436353972893968,
+      "inliers": 4844,
+      "residual_rms_m": 0.013426169583401914,
+      "lio_imu_z_m": -0.08355853561063846
+    },
+    {
+      "time_s": 55.0,
+      "floor_z_at_robot_xy_m": -0.4105916917704869,
+      "plane_slope_xy": [
+        -0.01945856412109632,
+        -0.001934178071899828
+      ],
+      "tilt_deg": 1.1202450478699075,
+      "inlier_fraction": 0.649656121045392,
+      "inliers": 4723,
+      "residual_rms_m": 0.013655318292058006,
+      "lio_imu_z_m": -0.041028142431673756
+    },
+    {
+      "time_s": 60.0,
+      "floor_z_at_robot_xy_m": -0.42160585376042,
+      "plane_slope_xy": [
+        -0.025972226928472536,
+        -0.012426182884618775
+      ],
+      "tilt_deg": 1.6491918681940538,
+      "inlier_fraction": 0.6767878077373974,
+      "inliers": 5773,
+      "residual_rms_m": 0.012721370332564607,
+      "lio_imu_z_m": -0.08075903084008015
+    },
+    {
+      "time_s": 65.0,
+      "floor_z_at_robot_xy_m": -0.45304433589215287,
+      "plane_slope_xy": [
+        -0.02332584844498919,
+        -0.02184638760938795
+      ],
+      "tilt_deg": 1.8304768180710125,
+      "inlier_fraction": 0.6253916530893596,
+      "inliers": 4990,
+      "residual_rms_m": 0.012692560756229012,
+      "lio_imu_z_m": -0.08875654025676624
+    },
+    {
+      "time_s": 70.0,
+      "floor_z_at_robot_xy_m": -0.4503841233002296,
+      "plane_slope_xy": [
+        -0.0335139631442534,
+        -0.013665044082957989
+      ],
+      "tilt_deg": 2.0727902457640055,
+      "inlier_fraction": 0.6021408305390766,
+      "inliers": 4669,
+      "residual_rms_m": 0.012380915953912356,
+      "lio_imu_z_m": -0.06688246865349497
+    },
+    {
+      "time_s": 75.0,
+      "floor_z_at_robot_xy_m": -0.4265552140490333,
+      "plane_slope_xy": [
+        -0.012714073046382562,
+        -0.008850622920441586
+      ],
+      "tilt_deg": 0.8875166044448882,
+      "inlier_fraction": 0.6228386167146974,
+      "inliers": 5187,
+      "residual_rms_m": 0.012302056063315905,
+      "lio_imu_z_m": -0.06903195395418504
+    },
+    {
+      "time_s": 80.0,
+      "floor_z_at_robot_xy_m": -0.4122173974729278,
+      "plane_slope_xy": [
+        -0.013135077974389309,
+        -0.006163709812500917
+      ],
+      "tilt_deg": 0.8312668887266774,
+      "inlier_fraction": 0.5883052313013403,
+      "inliers": 5443,
+      "residual_rms_m": 0.01240375967996889,
+      "lio_imu_z_m": -0.02903481246989088
+    },
+    {
+      "time_s": 85.0,
+      "floor_z_at_robot_xy_m": -0.3950337436360295,
+      "plane_slope_xy": [
+        -0.00585084459444958,
+        0.005304958203402987
+      ],
+      "tilt_deg": 0.4525001806981623,
+      "inlier_fraction": 0.5833333333333334,
+      "inliers": 3913,
+      "residual_rms_m": 0.012205603699948143,
+      "lio_imu_z_m": -0.030335599222786794
+    },
+    {
+      "time_s": 90.0,
+      "floor_z_at_robot_xy_m": -0.3928939637726585,
+      "plane_slope_xy": [
+        -0.010610222216165196,
+        0.010290700186170981
+      ],
+      "tilt_deg": 0.8468221432119112,
+      "inlier_fraction": 0.6584984358706987,
+      "inliers": 2526,
+      "residual_rms_m": 0.011356660297288471,
+      "lio_imu_z_m": -0.034603745839842125
+    },
+    {
+      "time_s": 95.0,
+      "floor_z_at_robot_xy_m": -0.3899639022570611,
+      "plane_slope_xy": [
+        -0.005608361003251861,
+        0.008436483556621494
+      ],
+      "tilt_deg": 0.5804176908892371,
+      "inlier_fraction": 0.6005586592178771,
+      "inliers": 3225,
+      "residual_rms_m": 0.01205357249761803,
+      "lio_imu_z_m": -0.03383870560192851
+    },
+    {
+      "time_s": 100.0,
+      "floor_z_at_robot_xy_m": -0.3898452329111361,
+      "plane_slope_xy": [
+        -0.00958933814626894,
+        -0.012958514608745308
+      ],
+      "tilt_deg": 0.9235708069104244,
+      "inlier_fraction": 0.4731420161883738,
+      "inliers": 3215,
+      "residual_rms_m": 0.012354881324735778,
+      "lio_imu_z_m": -0.0015224584382488658
+    },
+    {
+      "time_s": 105.0,
+      "floor_z_at_robot_xy_m": -0.3926076845552443,
+      "plane_slope_xy": [
+        -0.002894942009636023,
+        -0.011056803678605676
+      ],
+      "tilt_deg": 0.6548339157633897,
+      "inlier_fraction": 0.5740809968847352,
+      "inliers": 4607,
+      "residual_rms_m": 0.012571365636009172,
+      "lio_imu_z_m": -0.00876003611994396
+    },
+    {
+      "time_s": 110.0,
+      "floor_z_at_robot_xy_m": -0.38561597252622914,
+      "plane_slope_xy": [
+        -0.017762943641487478,
+        -0.024538409307782116
+      ],
+      "tilt_deg": 1.7351208311642408,
+      "inlier_fraction": 0.6321058688147295,
+      "inliers": 5493,
+      "residual_rms_m": 0.012686991046311408,
+      "lio_imu_z_m": -0.03484722521986087
+    },
+    {
+      "time_s": 115.0,
+      "floor_z_at_robot_xy_m": -0.4291635528693686,
+      "plane_slope_xy": [
+        -0.026808648456133146,
+        -0.01810296296940156
+      ],
+      "tilt_deg": 1.8527824091995966,
+      "inlier_fraction": 0.6552187855591186,
+      "inliers": 6334,
+      "residual_rms_m": 0.012356286701944592,
+      "lio_imu_z_m": -0.0723441109533973
+    },
+    {
+      "time_s": 120.0,
+      "floor_z_at_robot_xy_m": -0.4867405159474506,
+      "plane_slope_xy": [
+        -0.014712989570068197,
+        -0.01618085060772817
+      ],
+      "tilt_deg": 1.2528525466058704,
+      "inlier_fraction": 0.564176245210728,
+      "inliers": 2945,
+      "residual_rms_m": 0.012745873498164664,
+      "lio_imu_z_m": -0.11719933317347195
+    },
+    {
+      "time_s": 125.0,
+      "floor_z_at_robot_xy_m": -0.5460228984472052,
+      "plane_slope_xy": [
+        -0.004401714842385457,
+        -0.0136547895141505
+      ],
+      "tilt_deg": 0.8219501063570733,
+      "inlier_fraction": 0.5835862713051599,
+      "inliers": 4999,
+      "residual_rms_m": 0.012813677646111524,
+      "lio_imu_z_m": -0.1737144099532693
+    },
+    {
+      "time_s": 130.0,
+      "floor_z_at_robot_xy_m": -0.5856420462905639,
+      "plane_slope_xy": [
+        -0.004306050421988572,
+        -0.006226736996092219
+      ],
+      "tilt_deg": 0.43375642637075995,
+      "inlier_fraction": 0.6377535101404056,
+      "inliers": 6132,
+      "residual_rms_m": 0.012414382503732448,
+      "lio_imu_z_m": -0.22058485255281315
+    }
+  ],
+  "floor_interpretation": "Floor map height change is a potential vertical map inconsistency only if the real floor remains the same level. Different floor sections and pose sway are not independently measured.",
+  "revisit_fit_accepted": false,
+  "single_initial_vs_quiet_window_alignment": {
+    "quiet_window_s": [
+      3,
+      25
+    ],
+    "quiet_window_endpoint_difference_m": 1.8811779608729033,
+    "quiet_window_endpoint_xyz_difference_m": [
+      1.714276206521479,
+      0.759819792775049,
+      -0.15086911789874158
+    ]
+  },
+  "drive_imu_gaps": {
+    "over_10ms": 230,
+    "over_20ms": 5,
+    "max_ms": 24.258669,
+    "unique_sport_gap_max_ms": 24.258669,
+    "same_gap_in_sport_stamps": true,
+    "gap_intervals_s": [
+      [
+        2.079249417,
+        0.024258669
+      ],
+      [
+        11.684914132,
+        0.02389917
+      ],
+      [
+        51.171012058,
+        0.021792002
+      ],
+      [
+        58.757264195,
+        0.021557794
+      ],
+      [
+        57.859376397,
+        0.021437419
+      ],
+      [
+        21.154911626,
+        0.019974793
+      ],
+      [
+        59.288890916,
+        0.019966835
+      ],
+      [
+        89.750945935,
+        0.019901877
+      ],
+      [
+        109.472944208,
+        0.019873794
+      ],
+      [
+        61.229463444,
+        0.018057668
+      ]
+    ],
+    "note": "No adapter stamp losses relative to recorded unique SportModeState stamps. Gaps already occur in recorded source times; recording alone cannot identify firmware vs upstream DDS loss."
+  },
+  "restart_imu_gaps": {
+    "over_10ms": 225,
+    "over_20ms": 2,
+    "max_ms": 22.170168,
+    "unique_sport_gap_max_ms": 22.170168,
+    "same_gap_in_sport_stamps": true,
+    "gap_intervals_s": [
+      [
+        122.039942714,
+        0.022170168
+      ],
+      [
+        51.422022576,
+        0.020364336
+      ],
+      [
+        46.366085777,
+        0.019782877
+      ],
+      [
+        54.336036244,
+        0.017955294
+      ],
+      [
+        75.557962751,
+        0.017933419
+      ],
+      [
+        109.138011501,
+        0.017870126
+      ],
+      [
+        105.894047383,
+        0.017827377
+      ],
+      [
+        19.656150426,
+        0.017704752
+      ],
+      [
+        81.72793833,
+        0.01765896
+      ],
+      [
+        115.944436684,
+        0.017452752
+      ]
+    ],
+    "note": "No adapter stamp losses relative to recorded unique SportModeState stamps. Gaps already occur in recorded source times; recording alone cannot identify firmware vs upstream DDS loss."
+  }
+}

@@ -1,0 +1,95 @@
+Fri Oct 16 20:12:27 2026    /home/jain/Doggy/reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/adapter_recording_load.pstats
+
+         53107749 function calls (53102658 primitive calls) in 190.551 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2893 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    383/1    0.004    0.000  190.552  190.552 {built-in method builtins.exec}
+        1    0.000    0.000  190.552  190.552 publish_body_imu.py:1(<module>)
+        1    0.000    0.000  189.193  189.193 publish_body_imu.py:106(main)
+        1    0.367    0.367  188.301  188.301 __init__.py:214(spin)
+    56398    0.150    0.000  187.038    0.003 executors.py:807(spin_once)
+    56398    0.670    0.000  186.887    0.003 executors.py:792(_spin_once_impl)
+    56398    1.135    0.000   97.305    0.002 executors.py:762(wait_for_ready_callbacks)
+   112858    3.253    0.000   96.170    0.001 {built-in method builtins.next}
+   112772   42.704    0.000   92.839    0.001 executors.py:516(_wait_for_ready_callbacks)
+    56397    0.899    0.000   88.835    0.002 task.py:235(__call__)
+    56397    0.725    0.000   87.230    0.002 task.py:269(_execute_coroutine_step)
+    56397    0.642    0.000   85.356    0.002 {method 'send' of 'coroutine' objects}
+    56397    1.513    0.000   84.714    0.002 executors.py:468(handler)
+    56397    0.674    0.000   46.402    0.001 executors.py:103(await_or_execute)
+    56360    0.324    0.000   46.364    0.001 executors.py:405(_execute_subscription)
+    56360    0.679    0.000   44.044    0.001 publish_body_imu.py:93(receive)
+    56360    9.324    0.000   31.284    0.001 executors.py:398(_take_subscription)
+    56360    7.661    0.000   29.419    0.001 publish_body_imu.py:44(convert)
+    56029    3.344    0.000   16.071    0.000 _imu.py:106(__init__)
+    56360    4.327    0.000   14.963    0.000 _sport_mode_state.py:129(__init__)
+    56030   13.122    0.000   13.946    0.000 publisher.py:60(publish)
+  1178028    5.161    0.000   12.819    0.000 contextlib.py:482(enter_context)
+   421392    2.185    0.000    8.231    0.000 {method 'extend' of 'list' objects}
+  1178028    2.934    0.000    6.675    0.000 contextlib.py:509(_push_cm_exit)
+   112720    2.585    0.000    6.548    0.000 _imu_state.py:89(__init__)
+   252434    4.024    0.000    6.208    0.000 waitable.py:37(__add__)
+    84145    4.532    0.000    5.951    0.000 contextlib.py:533(__exit__)
+   925595    1.754    0.000    5.077    0.000 executors.py:507(can_execute)
+    56397    1.138    0.000    4.739    0.000 executors.py:450(_make_handler)
+898848/898626    2.838    0.000    4.453    0.000 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+   981992    3.347    0.000    3.857    0.000 callback_groups.py:101(can_execute)
+    56397    0.977    0.000    3.444    0.000 task.py:215(__init__)
+       44    0.008    0.000    3.333    0.076 __init__.py:1(<module>)
+    56029    1.025    0.000    3.321    0.000 _header.py:76(__init__)
+   674393    1.560    0.000    3.312    0.000 {built-in method builtins.all}
+   112720    1.330    0.000    2.550    0.000 _time_spec.py:72(__init__)
+   957127    2.549    0.000    2.549    0.000 {built-in method numpy.zeros}
+   112794    0.238    0.000    2.544    0.000 inspect.py:308(iscoroutinefunction)
+   112058    1.305    0.000    2.514    0.000 _vector3.py:77(__init__)
+  1178028    1.936    0.000    2.465    0.000 contextlib.py:514(_push_exit_callback)
+   112794    1.247    0.000    2.306    0.000 inspect.py:290(_has_code_flag)
+  5752948    2.249    0.000    2.249    0.000 {built-in method builtins.isinstance}
+    56029    1.241    0.000    2.241    0.000 _quaternion.py:104(__init__)
+   140544    2.070    0.000    2.215    0.000 context.py:82(ok)
+   252432    2.109    0.000    2.109    0.000 qos_event.py:112(add_to_wait_set)
+
+
+Fri Oct 16 20:12:27 2026    /home/jain/Doggy/reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/adapter_recording_load.pstats
+
+         53107749 function calls (53102658 primitive calls) in 190.551 seconds
+
+   Ordered by: internal time
+   List reduced from 2893 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   112772   42.704    0.000   92.839    0.001 executors.py:516(_wait_for_ready_callbacks)
+    56030   13.122    0.000   13.946    0.000 publisher.py:60(publish)
+    56360    9.324    0.000   31.284    0.001 executors.py:398(_take_subscription)
+    56360    7.661    0.000   29.419    0.001 publish_body_imu.py:44(convert)
+  1178028    5.161    0.000   12.819    0.000 contextlib.py:482(enter_context)
+    84145    4.532    0.000    5.951    0.000 contextlib.py:533(__exit__)
+    56360    4.327    0.000   14.963    0.000 _sport_mode_state.py:129(__init__)
+   252434    4.024    0.000    6.208    0.000 waitable.py:37(__add__)
+   981992    3.347    0.000    3.857    0.000 callback_groups.py:101(can_execute)
+    56029    3.344    0.000   16.071    0.000 _imu.py:106(__init__)
+   112858    3.253    0.000   96.170    0.001 {built-in method builtins.next}
+  1178028    2.934    0.000    6.675    0.000 contextlib.py:509(_push_cm_exit)
+898848/898626    2.838    0.000    4.453    0.000 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+   112720    2.585    0.000    6.548    0.000 _imu_state.py:89(__init__)
+   957127    2.549    0.000    2.549    0.000 {built-in method numpy.zeros}
+  5752948    2.249    0.000    2.249    0.000 {built-in method builtins.isinstance}
+   421392    2.185    0.000    8.231    0.000 {method 'extend' of 'list' objects}
+   252432    2.109    0.000    2.109    0.000 qos_event.py:112(add_to_wait_set)
+   140544    2.070    0.000    2.215    0.000 context.py:82(ok)
+  1178028    1.936    0.000    2.465    0.000 contextlib.py:514(_push_exit_callback)
+   112807    1.846    0.000    1.846    0.000 guard_condition.py:32(trigger)
+   925595    1.754    0.000    5.077    0.000 executors.py:507(can_execute)
+   674393    1.560    0.000    3.312    0.000 {built-in method builtins.all}
+    56397    1.513    0.000   84.714    0.002 executors.py:468(handler)
+   112720    1.330    0.000    2.550    0.000 _time_spec.py:72(__init__)
+   112058    1.305    0.000    2.514    0.000 _vector3.py:77(__init__)
+  1178028    1.275    0.000    1.275    0.000 contextlib.py:442(_create_exit_wrapper)
+   112794    1.247    0.000    2.306    0.000 inspect.py:290(_has_code_flag)
+    56029    1.241    0.000    2.241    0.000 _quaternion.py:104(__init__)
+  3036536    1.198    0.000    1.198    0.000 {built-in method builtins.getattr}
+
+

@@ -1,0 +1,9 @@
+{
+  "cause": "Test preparation Python syntax error followed by shell fall-through; the old diagnostic runner started instead of a fresh run.",
+  "test_stopped": true,
+  "original_full_run_outputs_preserved": true,
+  "original_full_run_odometry_messages": 3894,
+  "aborted_restart_saved_separately": "reports/point_lio_steps/step_06_saved_bag/20261016T215126+1100/unintended_restart",
+  "active_application_files_changed": false,
+  "live_robot_commands_sent": false
+}

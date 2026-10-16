@@ -1,0 +1,84 @@
+{
+  "directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195913+1100",
+  "phases": [
+    {
+      "phase": "sensor_baseline",
+      "observer_returncodes": {
+        "be5": 0,
+        "be2000": 0,
+        "reliable2000": 0,
+        "reliable_reference": 0,
+        "adapter_output": 0
+      },
+      "recorder_returncode": null,
+      "host_global_udp_delta": {
+        "InDatagrams": 538031,
+        "NoPorts": 4,
+        "InErrors": 0,
+        "OutDatagrams": 32555,
+        "RcvbufErrors": 0,
+        "SndbufErrors": 0,
+        "InCsumErrors": 0,
+        "IgnoredMulti": 31,
+        "MemErrors": 0
+      },
+      "ethernet_delta": {
+        "rx_packets": 436225,
+        "rx_bytes": 574937038,
+        "rx_errors": 0,
+        "rx_dropped": 0,
+        "rx_missed_errors": 0,
+        "tx_packets": 7687,
+        "tx_errors": 0,
+        "tx_dropped": 0
+      }
+    },
+    {
+      "phase": "with_recording",
+      "observer_returncodes": {
+        "be5": 0,
+        "be2000": 0,
+        "reliable2000": 0,
+        "reliable_reference": 0,
+        "adapter_output": 0
+      },
+      "recorder_returncode": 0,
+      "host_global_udp_delta": {
+        "InDatagrams": 1003624,
+        "NoPorts": 142,
+        "InErrors": 0,
+        "OutDatagrams": 40334,
+        "RcvbufErrors": 0,
+        "SndbufErrors": 0,
+        "InCsumErrors": 0,
+        "IgnoredMulti": 28,
+        "MemErrors": 0
+      },
+      "ethernet_delta": {
+        "rx_packets": 455349,
+        "rx_bytes": 583103788,
+        "rx_errors": 0,
+        "rx_dropped": 0,
+        "rx_missed_errors": 0,
+        "tx_packets": 29576,
+        "tx_errors": 0,
+        "tx_dropped": 0
+      }
+    }
+  ],
+  "initial_hashes": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214"
+  },
+  "final_hashes": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214"
+  },
+  "protected_files_unchanged": true,
+  "robot_commands_sent": false,
+  "mapper_started": false
+}

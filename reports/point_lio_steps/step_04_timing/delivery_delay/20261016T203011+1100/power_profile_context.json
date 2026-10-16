@@ -1,0 +1,8 @@
+{
+  "profile_at_start": "performance",
+  "cpu_energy_preference": "performance",
+  "starting_cpu0_frequency_khz": 4199804,
+  "authorization": "User: yeah i changed it to performance for you",
+  "changed_by_agent": false,
+  "previous_profile_not_restored": "User selected Performance independently; do not override it."
+}

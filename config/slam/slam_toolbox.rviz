@@ -1,0 +1,157 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+  Property Tree Widget:
+    Expanded:
+    - /Global Options1
+    - /SLAM occupancy map1
+    - /Live mapping scan1
+    Splitter Ratio: 0.5
+  Help Height: 90
+  Tree Height: 600
+- Class: rviz_common/Views
+  Name: Views
+- Class: rviz_common/Time
+  Name: Time
+  Experimental: false
+  SyncMode: 0
+  SyncSource: ''
+Visualization Manager:
+  Class: ''
+  Displays:
+  - Class: rviz_default_plugins/Map
+    Name: SLAM occupancy map
+    Enabled: true
+    Value: true
+    Alpha: 0.8
+    Color Scheme: map
+    Draw Behind: true
+    Use Timestamp: false
+    Topic:
+      Value: /tests/slam_toolbox/map
+      Depth: 1
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Durability Policy: Transient Local
+  - Class: rviz_default_plugins/LaserScan
+    Name: Live mapping scan
+    Enabled: true
+    Value: true
+    Alpha: 1.0
+    Color: 255; 100; 65
+    Color Transformer: FlatColor
+    Position Transformer: XYZ
+    Style: Points
+    Size (Pixels): 4
+    Size (m): 0.03
+    Decay Time: 0.2
+    Selectable: true
+    Use Fixed Frame: true
+    Topic:
+      Value: /tests/slam_toolbox/scan
+      Depth: 5
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Durability Policy: Volatile
+  - Class: rviz_default_plugins/Grid
+    Name: Ground grid
+    Enabled: true
+    Value: true
+    Alpha: 0.4
+    Cell Size: 1
+    Color: 120; 130; 145
+    Line Style:
+      Line Width: 0.02
+      Value: Lines
+    Plane: XY
+    Plane Cell Count: 20
+    Normal Cell Count: 0
+    Reference Frame: map
+    Offset:
+      X: 0
+      Y: 0
+      Z: 0
+  - Class: rviz_default_plugins/RobotModel
+    Name: Unitree Go2 - official URDF
+    Enabled: true
+    Value: true
+    Alpha: 1.0
+    Visual Enabled: true
+    Collision Enabled: false
+    Description Source: Topic
+    Description Topic:
+      Value: /robot_description
+      Depth: 1
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Durability Policy: Transient Local
+    TF Prefix: ''
+    Update Interval: 0
+    Links:
+      All Links Enabled: true
+      Expand Tree: false
+      Link Tree Style: Links in Alphabetic Order
+  - Class: rviz_default_plugins/PointCloud2
+    Name: Deskewed LiDAR - cyan
+    Enabled: false
+    Value: false
+    Alpha: 0.8
+    Color: 75; 220; 255
+    Color Transformer: FlatColor
+    Position Transformer: XYZ
+    Style: Points
+    Size (Pixels): 2
+    Size (m): 0.01
+    Decay Time: 0.1
+    Selectable: true
+    Use Fixed Frame: true
+    Topic:
+      Value: /utlidar/cloud_deskewed
+      Depth: 5
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Durability Policy: Volatile
+  Enabled: true
+  Global Options:
+    Background Color: 24; 29; 38
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+  - Class: rviz_default_plugins/Interact
+  - Class: rviz_default_plugins/MoveCamera
+  - Class: rviz_default_plugins/Select
+  - Class: rviz_default_plugins/FocusCamera
+  - Class: rviz_default_plugins/Measure
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 12
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 1.2
+      Target Frame: base_link
+      Value: Orbit (rviz)
+      Yaw: 0.8
+    Saved: null
+Window Geometry:
+  Width: 1280
+  Height: 900
+  X: 60
+  Y: 60
+  Hide Left Dock: false
+  Hide Right Dock: false
+  Displays:
+    collapsed: false
+  Views:
+    collapsed: false
+  Time:
+    collapsed: false

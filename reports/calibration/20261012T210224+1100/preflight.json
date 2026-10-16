@@ -1,0 +1,19 @@
+{
+  "imu_samples": 739,
+  "receipt_rate_hz": 245.79976266448355,
+  "fresh": true,
+  "invalid_measurements": 0,
+  "conflicting_nodes": [],
+  "motion_commands_sent": false,
+  "raw_acceleration_mean_m_s2": [
+    3.262491373635113,
+    -0.0036910412901147937,
+    9.806374579547061
+  ],
+  "cmu_transformed_acceleration_mean_m_s2": [
+    5.704450882392438,
+    0.0036910412901147937,
+    -8.617892578107623
+  ],
+  "cmu_positive_z_gravity_assumption_met": false
+}

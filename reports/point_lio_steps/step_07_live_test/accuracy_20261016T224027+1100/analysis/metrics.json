@@ -1,0 +1,302 @@
+{
+  "source_run": "/home/jain/Doggy/reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100",
+  "seconds_reference": "Seconds after first recorded Point-LIO pose",
+  "duration_s": 186.596399307,
+  "lio_poses": 2879,
+  "lio_nonfinite_values": 0,
+  "lio_dt_s": {
+    "median": 0.06492769699999812,
+    "p95": 0.06556973510000574,
+    "p99": 0.06664770880002074,
+    "max": 0.06958913799999777
+  },
+  "lio_step_translation_m": {
+    "median": 0.006859629293349405,
+    "p95": 0.028413996974503232,
+    "p99": 0.042007934080051386,
+    "max": 0.05482045311281814
+  },
+  "lio_step_angle_deg": {
+    "median": 0.28400993976046185,
+    "p95": 1.1208889758486649,
+    "p99": 1.7061331787297118,
+    "max": 2.862704035042751
+  },
+  "lio_speed_m_s": {
+    "median": 0.10587986663423975,
+    "p95": 0.4369130458185747,
+    "p99": 0.6464343269673034,
+    "max": 0.8495075045406432
+  },
+  "lio_angular_speed_deg_s": {
+    "median": 4.373057620295507,
+    "p95": 17.411139007883506,
+    "p99": 26.337632451596438,
+    "max": 43.80472748611583
+  },
+  "lio_raw_path_length_m": 29.35157002015254,
+  "lio_height_change_end_m": 0.0027074701517431814,
+  "lio_height_extent_m": 0.11359463663107557,
+  "reference_height_change_end_m": 0.00023572309467434494,
+  "single_initial_alignment_reference_comparison": {
+    "reference": "Vendor /utlidar/robot_odom with developer body->IMU lever arm; shares body IMU and is not ground truth",
+    "position_difference_m": {
+      "median": 0.18151752790217984,
+      "p95": 0.8797904125543748,
+      "p99": 0.9252381494089859,
+      "max": 0.9325933616935033
+    },
+    "orientation_difference_deg": {
+      "median": 1.7532469076394106,
+      "p95": 2.2232839883068722,
+      "p99": 2.329736556912725,
+      "max": 2.5156651940771426
+    },
+    "endpoint_position_difference_m": 0.18809010230532935,
+    "endpoint_difference_xyz_m": [
+      0.17511110573726454,
+      0.06861397597565455,
+      0.0024717470570688243
+    ],
+    "endpoint_orientation_difference_deg": 1.6001574663522702
+  },
+  "candidate_stationary_segments": [
+    {
+      "start_s": 0.5,
+      "end_s": 12.56,
+      "duration_s": 12.06,
+      "lio_net_translation_m": 0.005656923756596075,
+      "lio_max_excursion_m": 0.03853959773972588,
+      "lio_max_rotation_deg": 1.3967640821285336,
+      "reference_max_translation_m": 0.0006694407572153781,
+      "reference_max_rotation_deg": 0.2643601935597823,
+      "relative_translation_error_change_max_m": 0.03858169486652112,
+      "body_gyro_rms_max_rad_s": 0.015477363931721218,
+      "classification": "Candidate stationary from vendor odometry, SportModeState velocity and calibrated body gyro; not externally verified"
+    },
+    {
+      "start_s": 25.84,
+      "end_s": 32.660000000000004,
+      "duration_s": 6.820000000000004,
+      "lio_net_translation_m": 0.01640578884073912,
+      "lio_max_excursion_m": 0.04413089217533194,
+      "lio_max_rotation_deg": 1.1090516857913264,
+      "reference_max_translation_m": 0.004843936399484098,
+      "reference_max_rotation_deg": 0.28028136528905634,
+      "relative_translation_error_change_max_m": 0.04113689233687821,
+      "body_gyro_rms_max_rad_s": 0.01575494544103272,
+      "classification": "Candidate stationary from vendor odometry, SportModeState velocity and calibrated body gyro; not externally verified"
+    },
+    {
+      "start_s": 58.02,
+      "end_s": 64.18,
+      "duration_s": 6.160000000000004,
+      "lio_net_translation_m": 0.008498480932064114,
+      "lio_max_excursion_m": 0.022873946994090115,
+      "lio_max_rotation_deg": 0.562894994971229,
+      "reference_max_translation_m": 0.006766376552318293,
+      "reference_max_rotation_deg": 0.1821438718916483,
+      "relative_translation_error_change_max_m": 0.01982775827257463,
+      "body_gyro_rms_max_rad_s": 0.01606859766473438,
+      "classification": "Candidate stationary from vendor odometry, SportModeState velocity and calibrated body gyro; not externally verified"
+    },
+    {
+      "start_s": 81.3,
+      "end_s": 84.56,
+      "duration_s": 3.260000000000005,
+      "lio_net_translation_m": 0.02486977715505088,
+      "lio_max_excursion_m": 0.0286363242778174,
+      "lio_max_rotation_deg": 0.8743726078298434,
+      "reference_max_translation_m": 0.0046611997119462645,
+      "reference_max_rotation_deg": 0.645510127502538,
+      "relative_translation_error_change_max_m": 0.026916721176456583,
+      "body_gyro_rms_max_rad_s": 0.01784904451142788,
+      "classification": "Candidate stationary from vendor odometry, SportModeState velocity and calibrated body gyro; not externally verified"
+    },
+    {
+      "start_s": 106.8,
+      "end_s": 186.08,
+      "duration_s": 79.28000000000002,
+      "lio_net_translation_m": 0.006501849235823535,
+      "lio_max_excursion_m": 0.021597453445367155,
+      "lio_max_rotation_deg": 0.6525026091967273,
+      "reference_max_translation_m": 0.0022842205183938183,
+      "reference_max_rotation_deg": 0.5058309424531079,
+      "relative_translation_error_change_max_m": 0.02075324081074305,
+      "body_gyro_rms_max_rad_s": 0.015948590497979663,
+      "classification": "Candidate stationary from vendor odometry, SportModeState velocity and calibrated body gyro; not externally verified"
+    }
+  ],
+  "position_step_over_0_15_m_count": 0,
+  "rotation_step_over_5_deg_count": 0,
+  "tf_pose_stamp_sequence_exact_match": false,
+  "tf_conflicting_parents": {},
+  "lio_stamps": {
+    "samples": 2879,
+    "duplicates": 0,
+    "backward": 0,
+    "positive_dt_s": {
+      "median": 0.064927697,
+      "p95": 0.0655697351,
+      "p99": 0.0666477088,
+      "max": 0.069589138
+    },
+    "gap_over_3_median_dt_count": 0
+  },
+  "vendor_stamps": {
+    "samples": 28648,
+    "duplicates": 0,
+    "backward": 0,
+    "positive_dt_s": {
+      "median": 0.006660462,
+      "p95": 0.0076417926999999995,
+      "p99": 0.012792673240000007,
+      "max": 0.033891917
+    },
+    "gap_over_3_median_dt_count": 29
+  },
+  "imu_stamps": {
+    "samples": 55826,
+    "duplicates": 0,
+    "backward": 0,
+    "positive_dt_s": {
+      "median": 0.003968417,
+      "p95": 0.004144001,
+      "p99": 0.007953751,
+      "max": 0.029592878
+    },
+    "gap_over_3_median_dt_count": 288
+  },
+  "sport_stamps": {
+    "samples": 56707,
+    "duplicates": 885,
+    "backward": 0,
+    "positive_dt_s": {
+      "median": 0.003968417,
+      "p95": 0.004144001,
+      "p99": 0.007953751,
+      "max": 0.029592878
+    },
+    "gap_over_3_median_dt_count": 288
+  },
+  "raw_stamps": {
+    "samples": 2962,
+    "duplicates": 0,
+    "backward": 0,
+    "positive_dt_s": {
+      "median": 0.064897775,
+      "p95": 0.068552017,
+      "p99": 0.0706772804,
+      "max": 0.073909283
+    },
+    "gap_over_3_median_dt_count": 0
+  },
+  "body_imu_missing_unique_sport_stamp_count": 0,
+  "raw_scan_imu_outer_bracketing": {
+    "scans_within_imu_recording": 2961,
+    "scans_outside_imu_recording": 1,
+    "point_time_span_s": {
+      "median": 0.06206803396344185,
+      "p95": 0.0627612080425024,
+      "p99": 0.06315788298845292,
+      "max": 0.06777654588222504
+    }
+  },
+  "relative_pose_reference_comparison": {
+    "1s": {
+      "translation_difference_m": {
+        "median": 0.012594734538400215,
+        "p95": 0.0788683505385077,
+        "p99": 0.12132958265201457,
+        "max": 0.14356350709659682
+      },
+      "rotation_difference_deg": {
+        "median": 0.31761261799530377,
+        "p95": 0.7869716989752047,
+        "p99": 1.0801218819679865,
+        "max": 1.8219590190640875
+      },
+      "largest_translation_difference_time_s": 72.552896261
+    },
+    "5s": {
+      "translation_difference_m": {
+        "median": 0.015638552787465093,
+        "p95": 0.3149046578077003,
+        "p99": 0.49313319175499,
+        "max": 0.5468449451472488
+      },
+      "rotation_difference_deg": {
+        "median": 0.3830676267106402,
+        "p95": 1.1474316957700592,
+        "p99": 1.5146080400167534,
+        "max": 2.464269503801865
+      },
+      "largest_translation_difference_time_s": 70.737647533
+    }
+  },
+  "bridge_last_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": 1792151011282733440,
+    "last_tf_error": "",
+    "lookup_failures": 2284,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 2844,
+    "received": 2844,
+    "waiting": 0
+  },
+  "largest_pose_steps": [
+    {
+      "time_s": 76.184926748,
+      "distance_m": 0.05482045311281814,
+      "dt_s": 0.06453204099999255,
+      "angle_deg": 1.5618479169701855
+    },
+    {
+      "time_s": 73.006921291,
+      "distance_m": 0.05431708717007698,
+      "dt_s": 0.06429791399999374,
+      "angle_deg": 0.5793574931240127
+    },
+    {
+      "time_s": 75.471979379,
+      "distance_m": 0.05323410816788917,
+      "dt_s": 0.06558418200000915,
+      "angle_deg": 1.2244726571219657
+    },
+    {
+      "time_s": 72.942623377,
+      "distance_m": 0.05100767383574572,
+      "dt_s": 0.06524157600000535,
+      "angle_deg": 0.6430455150257213
+    },
+    {
+      "time_s": 76.379913091,
+      "distance_m": 0.050576872475900085,
+      "dt_s": 0.06550192800000332,
+      "angle_deg": 1.4255957954014442
+    },
+    {
+      "time_s": 73.461180448,
+      "distance_m": 0.050511892087449065,
+      "dt_s": 0.06524252899998828,
+      "angle_deg": 0.9023923861202273
+    },
+    {
+      "time_s": 76.444920063,
+      "distance_m": 0.05027648572459484,
+      "dt_s": 0.06500697199999195,
+      "angle_deg": 1.2262401125428295
+    },
+    {
+      "time_s": 72.812422991,
+      "distance_m": 0.049799415603763934,
+      "dt_s": 0.06452107500000182,
+      "angle_deg": 1.4143092288083077
+    }
+  ]
+}

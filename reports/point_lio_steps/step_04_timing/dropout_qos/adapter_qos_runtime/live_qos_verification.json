@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source_subscriptions": [
+    {
+      "node": "doggy_body_imu",
+      "reliability": "RELIABLE",
+      "depth": 2000
+    }
+  ],
+  "output_publishers": [
+    "doggy_body_imu"
+  ],
+  "adapter_pid": 1149716,
+  "socket_details": [
+    "\t skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o0,bl0,d0)         ",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o48,bl0,d0)        ",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o48,bl0,d0)        ",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f0,w0,o0,bl0,d0)            "
+  ]
+}

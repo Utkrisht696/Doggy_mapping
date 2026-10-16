@@ -1,0 +1,17 @@
+{
+  "adapter_pid": 1146579,
+  "requested_receive_buffer_bytes": 8388608,
+  "observed_linux_rb_bytes": 16777216,
+  "linux_accounting_doubles_requested_buffer": true,
+  "ss_lines": [
+    "UNCONN 0      0                                    0.0.0.0:7400       0.0.0.0:*    users:((\"python3\",pid=1146579,fd=5))",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o48,bl0,d0)        ",
+    "UNCONN 0      0                                    0.0.0.0:7401       0.0.0.0:*    users:((\"python3\",pid=1146579,fd=6))",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o48,bl0,d0)        ",
+    "UNCONN 0      0                             192.168.123.69:34373      0.0.0.0:*    users:((\"python3\",pid=1146579,fd=7))",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f0,w0,o0,bl0,d0)            ",
+    "UNCONN 0      0                                    0.0.0.0:42903      0.0.0.0:*    users:((\"python3\",pid=1146579,fd=4))",
+    "\t skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o0,bl0,d0)         "
+  ],
+  "passed": true
+}

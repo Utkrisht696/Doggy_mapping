@@ -1,0 +1,37 @@
+{
+  "wall_elapsed_s": 39.14592224400258,
+  "phase": "live_mapping",
+  "raw_clouds": 601,
+  "calibrated_imu_samples": 11424,
+  "lio_poses": 522,
+  "map_to_odom_transforms": 522,
+  "last_bridge_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": 1792149429030251979,
+    "last_tf_error": "",
+    "lookup_failures": 330,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 457,
+    "received": 457,
+    "waiting": 0
+  },
+  "input_age_s": {
+    "imu": 0.00017618900164961815,
+    "cloud": 0.04386606399202719,
+    "odom": 0.0384868010005448
+  },
+  "adapter_alive": true,
+  "startup_position_excursion_m": 0.05605159035260179,
+  "startup_orientation_change_deg": 3.2233079367544466,
+  "latest_pose_xyz": [
+    -0.0005794848428989746,
+    0.013716457467789269,
+    0.0007799401086741056
+  ],
+  "output_source_span_s": 33.781551104
+}

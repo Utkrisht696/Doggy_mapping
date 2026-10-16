@@ -1,0 +1,42 @@
+{
+  "saved_local": "2026-10-16T21:30:31.711812+11:00",
+  "user_authorization": "do 1 and 2 and let me verify it before we begin",
+  "implemented": [
+    "scripts/point_lio_tf.py",
+    "scripts/publish_point_lio_tf.py",
+    "scripts/start_point_lio.sh",
+    "launch/point_lio_go2.launch.py",
+    "config/point_lio/cyclonedds_live.xml",
+    "config/point_lio/go2_point_lio.rviz",
+    "config/point_lio/go2_point_lio_preview.rviz",
+    "tests/test_point_lio_tf.py"
+  ],
+  "input_profile_changes": "Header comments only; parsed parameters equal approved review YAML. Launch overrides frame names and per-scan odometry output.",
+  "unit_tests_passed": 7,
+  "random_full_3d_compositions_checked": 500,
+  "isolated_preview_and_ros_transport_passed": true,
+  "test_domain": 197,
+  "no_robot_contact_during_synthetic_tests": true,
+  "estimator_started": false,
+  "mapping_started": false,
+  "bag_replay_started": false,
+  "rviz_opened": false,
+  "user_verification_pending": true,
+  "sha256": {
+    "scripts/point_lio_tf.py": "d662fd163ffa801aaa7f5da441c729e0a16adb7b357891cd303fd932bfcf1021",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "scripts/start_point_lio.sh": "25da1a7ce0e27d02e9c2d8acd10744c02bd5d6581f51a9621dfd72c14c3ee75f",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd",
+    "config/point_lio/cyclonedds_live.xml": "d2761ae088ccd48572ba15842a25732fa6db04579ee8ba8ee9f7fa31744555a4",
+    "config/point_lio/go2_point_lio.rviz": "95c6754d16976de7c8741ffde1ae6758f170d469558b32c95120c5045fe2f155",
+    "config/point_lio/go2_point_lio_preview.rviz": "018c7c99ff46f3c49b3a2947c27626a38c0e0471757ebbcb52b24d7fe73182b4",
+    "tests/test_point_lio_tf.py": "c2688794f88a36bba1d34612abd3fe0e3112bbc56d9fdf1dfdf55f14196ce165"
+  },
+  "retained_input_hashes": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "sdk/unitree_ros/robots/go2_description/urdf/go2_description.urdf": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e"
+  },
+  "wrapper_kernel_gate": "Refuses to continue if the kernel buffer setting is unavailable, nonnumeric or below the validated minimum."
+}

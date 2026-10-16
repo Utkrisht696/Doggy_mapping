@@ -1,0 +1,9 @@
+{
+  "statement": "check where i am saying robot turned 90 degree that spot is lower than everywhere else so you can use that as a ref",
+  "constraint": "The first roughly 90-degree right-turn/drain area is lower than the other sections of this route. Qualitative terrain ordering, not a measured surveyed height.",
+  "source": "User observation",
+  "turn_region_source_time_s": [
+    65,
+    75
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "saved_local": "2026-10-16T15:19:16.443255+11:00",
+  "status": "Approved body/footprint TF changes active and verified; raw sensor frame connection pending validation and approval.",
+  "body_chain": [
+    "odom",
+    "base_footprint",
+    "base_link"
+  ],
+  "legacy_base_alias_removed": true,
+  "original_developer_geometry_preserved": true,
+  "footprint_ground_z_m": 0.0,
+  "footprint_definition": "Body XY and yaw projected onto the horizontal odom z=0 reference; full body height, roll and pitch preserved in the next edge.",
+  "user_confirmed_standing_on_level_floor": true,
+  "checks": {
+    "live_model_and_pose_check": true,
+    "ownership_and_topology_check": true,
+    "unit_tests": "4 passed: pose composition, heading wrap, invalid inputs, unchanged developer geometry"
+  },
+  "runtime_at_save": {
+    "visualization": "running",
+    "slam": "off",
+    "point_lio": "off",
+    "calibration": "off",
+    "motion_command_sent_this_tf_change": false
+  },
+  "remaining": [
+    "Validate utlidar_lidar and utlidar_imu relationships to developer mount frames before proposing additional TF.",
+    "Obtain approval for any further code/config changes.",
+    "Resolve existing IMU calibration/profile prerequisites before Point-LIO testing."
+  ],
+  "documentation": "TF_CONSISTENCY.md",
+  "evidence": [
+    "reports/tf/canonical_tf_check.json",
+    "reports/tf/canonical_tree_audit.json",
+    "reports/tf/ground_reference_check.json",
+    "reports/tf/canonical_launch.log"
+  ],
+  "latest_offline_geometry_review": {
+    "saved_local": "2026-10-16T16:45:58.211637+11:00",
+    "report": "reports/tf/geometry_review_20261016/REPORT.md",
+    "application_code_changed": false,
+    "sensor_tf_added": false,
+    "status": "Offset direction checked; current CMU preprocessing/extrinsic mismatch identified; DDS origin assumption remains explicit."
+  },
+  "standalone_point_lio_migration": {
+    "saved_local": "2026-10-16T17:01:10.544165+11:00",
+    "report": "POINT_LIO_SETUP.md",
+    "manifest": "reports/point_lio_migration_20261016/migration.json",
+    "cmu_active_packages_removed": true,
+    "standalone_package": "point_lio",
+    "built": true,
+    "sensor_tf_added": false,
+    "mapping_started": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "duration_s": 15.000194253,
+  "topics": {
+    "/lowstate": {
+      "publisher_endpoints": [
+        {
+          "node": "_CREATED_BY_BARE_DDS_APP_",
+          "reliability": "RELIABLE"
+        }
+      ],
+      "received_messages": 7495,
+      "interior_messages": 6000,
+      "receipt_hz": 499.9873312928291,
+      "distinct_gyro_acc_updates_hz_observed": 499.2372252782207,
+      "all_six_values_unchanged_consecutive_messages": 9,
+      "has_epoch_header": false,
+      "interior_span_s": 11.998304006,
+      "dds_publication_timestamp_nonzero": true,
+      "unique_ticks": 5991,
+      "tick_backsteps": 0,
+      "tick_step_quantiles": [
+        0.0,
+        2.0,
+        3.0,
+        3.0,
+        7.0
+      ],
+      "tick_span": 11998,
+      "first_imu_q_wxyz": [
+        -0.9965481162071228,
+        0.008401121012866497,
+        -0.002226261654868722,
+        0.08256122469902039
+      ],
+      "mean_gyro_xyz": [
+        0.0011938062030628013,
+        -0.003474537087138742,
+        -0.010431778290406025
+      ],
+      "mean_acceleration_xyz": [
+        -0.1572449825828274,
+        -0.19259916135668756,
+        9.53264290380478
+      ]
+    },
+    "/lf/lowstate": {
+      "publisher_endpoints": [
+        {
+          "node": "_CREATED_BY_BARE_DDS_APP_",
+          "reliability": "RELIABLE"
+        }
+      ],
+      "received_messages": 300,
+      "interior_messages": 240,
+      "receipt_hz": 19.99998595482158,
+      "distinct_gyro_acc_updates_hz_observed": 19.99998595482158,
+      "all_six_values_unchanged_consecutive_messages": 0,
+      "has_epoch_header": false,
+      "interior_span_s": 11.950008392,
+      "dds_publication_timestamp_nonzero": true,
+      "unique_ticks": 240,
+      "tick_backsteps": 0,
+      "tick_step_quantiles": [
+        49.0,
+        50.0,
+        50.0,
+        50.0,
+        51.0
+      ],
+      "tick_span": 11950,
+      "first_imu_q_wxyz": [
+        -0.9965562224388123,
+        0.008392547257244587,
+        -0.0022622656542807817,
+        0.08246339112520218
+      ],
+      "mean_gyro_xyz": [
+        0.000909913288099536,
+        -0.003457670366818396,
+        -0.010492853474473426
+      ],
+      "mean_acceleration_xyz": [
+        -0.15611192695796489,
+        -0.193062439126273,
+        9.531825697422027
+      ]
+    },
+    "/hf/lowstate": {
+      "publisher_endpoints": [],
+      "received_messages": 0,
+      "interior_messages": 0,
+      "receipt_hz": 0,
+      "distinct_gyro_acc_updates_hz_observed": 0,
+      "all_six_values_unchanged_consecutive_messages": 0,
+      "has_epoch_header": false,
+      "interior_span_s": 0,
+      "dds_publication_timestamp_nonzero": false
+    },
+    "/sportmodestate": {
+      "publisher_endpoints": [
+        {
+          "node": "_CREATED_BY_BARE_DDS_APP_",
+          "reliability": "RELIABLE"
+        }
+      ],
+      "received_messages": 4428,
+      "interior_messages": 3543,
+      "receipt_hz": 295.20697321816607,
+      "distinct_gyro_acc_updates_hz_observed": 286.8725019245984,
+      "all_six_values_unchanged_consecutive_messages": 100,
+      "has_epoch_header": true,
+      "interior_span_s": 11.998361561,
+      "dds_publication_timestamp_nonzero": true,
+      "first_imu_q_wxyz": [
+        -0.9971466064453125,
+        0.008412148803472519,
+        -0.002153517911210656,
+        0.07498807460069656
+      ],
+      "mean_gyro_xyz": [
+        0.001125397773382272,
+        -0.0035262263038992408,
+        -0.01053297749360129
+      ],
+      "mean_acceleration_xyz": [
+        -0.15732094609961145,
+        -0.1925629462721891,
+        9.532979278553686
+      ]
+    }
+  },
+  "raw_parsing_verified": {
+    "/lowstate": 5,
+    "/lf/lowstate": 5,
+    "/hf/lowstate": 0,
+    "/sportmodestate": 5
+  },
+  "offsets": {
+    "LowState": [
+      28,
+      1100
+    ],
+    "SportModeState": [
+      16,
+      null
+    ]
+  },
+  "robot_commands_sent": false,
+  "application_changed": false
+}

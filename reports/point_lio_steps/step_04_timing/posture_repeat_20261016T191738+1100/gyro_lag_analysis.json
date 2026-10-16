@@ -1,0 +1,354 @@
+{
+  "lag_sign_convention": "delta = body event timestamp minus LiDAR-IMU event timestamp; compare body(t+delta) with R*lidar_gyro(t). Positive delta would be subtracted from body IMU stamps by Point-LIO time_lag_imu_to_lidar.",
+  "comparison_type": "Sensor gyro response delay; internal LiDAR gyro->cloud hardware synchronization is not proven by this test. Fixed reviewed raw-cloud rotation used for gyro axes, as supported by prior bag.",
+  "body_rpy_range_degrees": [
+    [
+      -34.19513500286421,
+      34.59122054289755
+    ],
+    [
+      -17.44058842244264,
+      17.45260556625956
+    ],
+    [
+      -2.7253492025401864,
+      0.6858563337889455
+    ]
+  ],
+  "phase_fits": [
+    {
+      "phase": "pitch",
+      "axis": 1,
+      "window_source_s": [
+        90.0,
+        126.0
+      ],
+      "zero_phase_lowpass_hz": 3.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.0029877527567078897,
+      "rmse_best_rad_s": 0.0021174260600414934,
+      "correlation_best": 0.999970437335656,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0072419356183835,
+      "constant_body_minus_lidar_offset_rad_s": -0.0035667998798376032,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "axis": 0,
+      "window_source_s": [
+        129.0,
+        165.0
+      ],
+      "zero_phase_lowpass_hz": 3.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.040633834999408085,
+      "rmse_best_rad_s": 0.04060634061152821,
+      "correlation_best": 0.9939189663753016,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9969168043281034,
+      "constant_body_minus_lidar_offset_rad_s": -0.006487181381780369,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.005499999999999838,
+        0.00400000000000017
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "axis": 1,
+      "window_source_s": [
+        90.0,
+        126.0
+      ],
+      "zero_phase_lowpass_hz": 5.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.003671932410151603,
+      "rmse_best_rad_s": 0.00247681691255618,
+      "correlation_best": 0.9999561689357644,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.007297463217751,
+      "constant_body_minus_lidar_offset_rad_s": -0.0035685426715728425,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "axis": 0,
+      "window_source_s": [
+        129.0,
+        165.0
+      ],
+      "zero_phase_lowpass_hz": 5.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.040849740765332876,
+      "rmse_best_rad_s": 0.04075451496696551,
+      "correlation_best": 0.994183408253098,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9963956182549186,
+      "constant_body_minus_lidar_offset_rad_s": -0.0064863456627713735,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0044999999999998375,
+        0.0025000000000001688
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "axis": 1,
+      "window_source_s": [
+        90.0,
+        126.0
+      ],
+      "zero_phase_lowpass_hz": 10.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.004661356862615005,
+      "rmse_best_rad_s": 0.003609117145045936,
+      "correlation_best": 0.9998782267332192,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0070701312146648,
+      "constant_body_minus_lidar_offset_rad_s": -0.0035711657344702124,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "axis": 0,
+      "window_source_s": [
+        129.0,
+        165.0
+      ],
+      "zero_phase_lowpass_hz": 10.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0009999999999998344,
+      "rmse_zero_rad_s": 0.041173489834023635,
+      "rmse_best_rad_s": 0.040973574141079716,
+      "correlation_best": 0.9942672982727341,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9961619452521556,
+      "constant_body_minus_lidar_offset_rad_s": -0.006484592978389799,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0034999999999998366,
+        0.0015000000000001679
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "axis": 1,
+      "window_source_s": [
+        90.0,
+        126.0
+      ],
+      "zero_phase_lowpass_hz": 20.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.005991291835563069,
+      "rmse_best_rad_s": 0.005030634674860889,
+      "correlation_best": 0.9997394833048753,
+      "body_vs_rotated_lidar_gain_diagnostic": 1.0068370375628761,
+      "constant_body_minus_lidar_offset_rad_s": -0.0035740723132866793,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.0019999999999998352,
+        -0.0014999999999998348
+      ],
+      "lag_search_boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "axis": 0,
+      "window_source_s": [
+        129.0,
+        165.0
+      ],
+      "zero_phase_lowpass_hz": 20.0,
+      "body_stamp_minus_lidar_stamp_best_s": -0.0014999999999998348,
+      "rmse_zero_rad_s": 0.0417538384434186,
+      "rmse_best_rad_s": 0.04123808694046512,
+      "correlation_best": 0.9942720882718031,
+      "body_vs_rotated_lidar_gain_diagnostic": 0.9958875200839883,
+      "constant_body_minus_lidar_offset_rad_s": -0.006484921842184058,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.002999999999999836,
+        0.000500000000000167
+      ],
+      "lag_search_boundary_hit": false
+    }
+  ],
+  "short_window_fits": [
+    {
+      "phase": "pitch",
+      "start_s": 90.0,
+      "end_s": 100.0,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9998750462616179,
+      "rmse_rad_s": 0.0020631932378878384
+    },
+    {
+      "phase": "pitch",
+      "start_s": 95.0,
+      "end_s": 105.0,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999553820941794,
+      "rmse_rad_s": 0.0023695181204087907
+    },
+    {
+      "phase": "pitch",
+      "start_s": 100.0,
+      "end_s": 110.0,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999633311778895,
+      "rmse_rad_s": 0.0025156852254100918
+    },
+    {
+      "phase": "pitch",
+      "start_s": 105.0,
+      "end_s": 115.0,
+      "lag_s": -0.0019999999999998352,
+      "corr": 0.9999734727895816,
+      "rmse_rad_s": 0.0026873394699432813
+    },
+    {
+      "phase": "pitch",
+      "start_s": 110.0,
+      "end_s": 120.0,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999769578796778,
+      "rmse_rad_s": 0.002720255256431057
+    },
+    {
+      "phase": "pitch",
+      "start_s": 115.0,
+      "end_s": 125.0,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999610589300624,
+      "rmse_rad_s": 0.0025844839312023173
+    },
+    {
+      "phase": "roll",
+      "start_s": 129.0,
+      "end_s": 139.0,
+      "lag_s": -0.0014999999999998348,
+      "corr": 0.9999829426898017,
+      "rmse_rad_s": 0.003917694877923703
+    },
+    {
+      "phase": "roll",
+      "start_s": 134.0,
+      "end_s": 144.0,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9965904974706801,
+      "rmse_rad_s": 0.03815067283895537
+    },
+    {
+      "phase": "roll",
+      "start_s": 139.0,
+      "end_s": 149.0,
+      "lag_s": -0.0004999999999998339,
+      "corr": 0.9893831922208369,
+      "rmse_rad_s": 0.06440927792857647
+    },
+    {
+      "phase": "roll",
+      "start_s": 144.0,
+      "end_s": 154.0,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9909629831301963,
+      "rmse_rad_s": 0.061017097508532875
+    },
+    {
+      "phase": "roll",
+      "start_s": 149.0,
+      "end_s": 159.0,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9999927133583452,
+      "rmse_rad_s": 0.005815720079112117
+    },
+    {
+      "phase": "roll",
+      "start_s": 154.0,
+      "end_s": 164.0,
+      "lag_s": -0.0009999999999998344,
+      "corr": 0.9999701766331406,
+      "rmse_rad_s": 0.005799706660283833
+    }
+  ],
+  "quality": {
+    "body": {
+      "messages": 53394,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        0.188709,
+        3.967251,
+        4.1133754,
+        6.048839000000003,
+        33.94767
+      ]
+    },
+    "sport": {
+      "messages": 54090,
+      "backsteps": 0,
+      "duplicates": 575,
+      "interval_ms_quantiles": [
+        0.0,
+        3.965209,
+        4.108417,
+        5.971503000000005,
+        33.94767
+      ]
+    },
+    "lidar_imu": {
+      "messages": 44776,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        0.055551,
+        4.479408,
+        6.421661099999992,
+        9.483875880000001,
+        16.546488
+      ]
+    },
+    "cloud": {
+      "messages": 2792,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        55.666685,
+        64.934254,
+        67.611098,
+        69.7292325,
+        74.004411
+      ]
+    },
+    "odom": {
+      "messages": 27346,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        4.000187,
+        6.661415,
+        7.226800999999999,
+        9.677791040000002,
+        25.847196
+      ]
+    },
+    "clock": {
+      "messages": 7664,
+      "backsteps": 0,
+      "duplicates": 0,
+      "interval_ms_quantiles": [
+        20.000219,
+        23.690939,
+        26.822090499999998,
+        28.129272800000003,
+        53.129673
+      ]
+    }
+  },
+  "no_configuration_changes": true,
+  "no_mapper_or_bag_replay": true
+}

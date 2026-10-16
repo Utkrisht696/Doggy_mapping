@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": {
+    "enough_clock_samples": true,
+    "clock_stamps_match_vendor_odometry": true,
+    "clock_stamps_match_relayed_odometry": true,
+    "clock_strictly_increasing": true
+  },
+  "interior_clock_samples": 1827,
+  "method": "Fresh same-capture RELIABLE source/relay/private-clock subscriptions; 1-second interior margins, exact integer matching."
+}

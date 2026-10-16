@@ -1,0 +1,47 @@
+[
+  {
+    "frame": "utlidar_lidar",
+    "point_count": 3750,
+    "point_time_min": 0.0,
+    "point_time_max": 0.062042079865932465,
+    "point_time_finite": true,
+    "ring_min": 1,
+    "ring_max": 1
+  },
+  {
+    "frame": "utlidar_lidar",
+    "point_count": 3995,
+    "point_time_min": 0.0,
+    "point_time_max": 0.062265701591968536,
+    "point_time_finite": true,
+    "ring_min": 1,
+    "ring_max": 1
+  },
+  {
+    "frame": "utlidar_lidar",
+    "point_count": 3912,
+    "point_time_min": 7.716666914348025e-06,
+    "point_time_max": 0.0622103177011013,
+    "point_time_finite": true,
+    "ring_min": 1,
+    "ring_max": 1
+  },
+  {
+    "frame": "utlidar_lidar",
+    "point_count": 3689,
+    "point_time_min": 0.0,
+    "point_time_max": 0.062173210084438324,
+    "point_time_finite": true,
+    "ring_min": 1,
+    "ring_max": 1
+  },
+  {
+    "frame": "utlidar_lidar",
+    "point_count": 3868,
+    "point_time_min": 0.0,
+    "point_time_max": 0.06205236166715622,
+    "point_time_finite": true,
+    "ring_min": 1,
+    "ring_max": 1
+  }
+]

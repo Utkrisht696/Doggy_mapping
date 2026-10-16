@@ -1,0 +1,57 @@
+{
+  "temporary_buffer_fix_verified": true,
+  "all_timing_and_dropout_issues_fixed": false,
+  "checks": {
+    "actual_adapter_receive_buffer_verified": true,
+    "host_receive_buffer_overflow_zero_both_phases": true,
+    "adapter_socket_drops_zero_both_phases": true,
+    "comparison_valid": true,
+    "active_files_unchanged": true,
+    "tf_source_stamp_and_model_check": true,
+    "publisher_ownership_check": true,
+    "load_bag_saved_correctly": true
+  },
+  "before_after": [
+    {
+      "phase": "sensor_baseline",
+      "host_udp_overflow_before": 1182,
+      "host_udp_overflow_after": 0,
+      "adapter_socket_drops_before": 107,
+      "adapter_socket_drops_after": 0,
+      "observed_source_union_before": 19388,
+      "observed_source_union_after": 19441,
+      "be5_missed_before": 30,
+      "be5_missed_after": 11,
+      "be2000_missed_after": 0,
+      "reliable2000_missed_after": 0,
+      "adapter_output_missed_before": 74,
+      "adapter_output_missed_after": 79
+    },
+    {
+      "phase": "with_recording",
+      "host_udp_overflow_before": 6708,
+      "host_udp_overflow_after": 0,
+      "adapter_socket_drops_before": 456,
+      "adapter_socket_drops_after": 0,
+      "observed_source_union_before": 19551,
+      "observed_source_union_after": 19520,
+      "be5_missed_before": 440,
+      "be5_missed_after": 103,
+      "be2000_missed_after": 0,
+      "reliable2000_missed_after": 0,
+      "adapter_output_missed_before": 713,
+      "adapter_output_missed_after": 302
+    }
+  ],
+  "baseline_directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100",
+  "after_directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100",
+  "kernel_rmem_max": 8388608,
+  "kernel_rmem_default": 212992,
+  "requested_dds_receive_buffer_bytes": 8388608,
+  "observed_linux_rb_bytes": 16777216,
+  "remaining_issue": "Shallow source observers and calibrated output capture still miss observed source stamps. Deep source observers miss none in these trials. App-queue/output-delivery path needs its separate next test.",
+  "next_proposal": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100/next_adapter_qos_review/adapter_qos.patch",
+  "physical_acquisition_lag_calibrated": false,
+  "source_qos_code_changed": false,
+  "persistent_os_or_active_config_change": false
+}

@@ -1,0 +1,394 @@
+{
+  "created_local": "2026-10-16T22:59:04.818258+11:00",
+  "raw_recordings_uploaded_to_git": false,
+  "location": "Original /home/jain/Doggy workspace on laptop; relative paths below",
+  "recordings": [
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T202514+1100/bag",
+      "duration_ns": 119410273806,
+      "message_count": 135798,
+      "topic_counts": {
+        "/utlidar/robot_odom": 18076,
+        "/utlidar/lidar_state": 597,
+        "/utlidar/imu": 29537,
+        "/utlidar/cloud": 1842,
+        "/tf_static": 1,
+        "/tf": 7437,
+        "/utlidar/cloud_base": 1842,
+        "/sportmodestate": 35772,
+        "/doggy/robot_clock": 5050,
+        "/doggy/imu/body_calibrated": 35644
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T202514+1100/bag/bag_0.db3",
+          "bytes": 330031104,
+          "sha256": "395e7a465d5917c01b179f070785547ddc0c3ac88266d23e9bb219f8c53eb609"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T203011+1100/bag",
+      "duration_ns": 119622098902,
+      "message_count": 136045,
+      "topic_counts": {
+        "/utlidar/robot_odom": 18104,
+        "/utlidar/lidar_state": 598,
+        "/utlidar/cloud_base": 1843,
+        "/sportmodestate": 35825,
+        "/doggy/imu/body_calibrated": 35728,
+        "/doggy/robot_clock": 5067,
+        "/tf": 7460,
+        "/utlidar/imu": 29576,
+        "/utlidar/cloud": 1843,
+        "/tf_static": 1
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/delivery_delay/20261016T203011+1100/bag/bag_0.db3",
+          "bytes": 330964992,
+          "sha256": "9f45d27d22045cbdbdf5bdb1a6576334180d61c0fd4a9ec6d73e0531ac495207"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100/with_recording/bag",
+      "duration_ns": 69558650544,
+      "message_count": 78182,
+      "topic_counts": {
+        "/utlidar/robot_odom": 10493,
+        "/utlidar/lidar_state": 348,
+        "/utlidar/imu": 17204,
+        "/utlidar/cloud": 1072,
+        "/tf_static": 1,
+        "/tf": 4302,
+        "/utlidar/cloud_base": 1073,
+        "/sportmodestate": 20762,
+        "/doggy/robot_clock": 2906,
+        "/doggy/imu/body_calibrated": 20021
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T194021+1100/with_recording/bag/bag_0.db3",
+          "bytes": 191393792,
+          "sha256": "660b158ed0158cc657088edab3aad892c727da05b3636093e51b599eeaa9d4fc"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100/with_recording/bag",
+      "duration_ns": 69185153351,
+      "message_count": 78334,
+      "topic_counts": {
+        "/utlidar/robot_odom": 10470,
+        "/utlidar/lidar_state": 346,
+        "/utlidar/imu": 17111,
+        "/utlidar/cloud": 1066,
+        "/tf_static": 1,
+        "/tf": 4304,
+        "/utlidar/cloud_base": 1067,
+        "/sportmodestate": 20724,
+        "/doggy/robot_clock": 2923,
+        "/doggy/imu/body_calibrated": 20322
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195050+1100/with_recording/bag/bag_0.db3",
+          "bytes": 190648320,
+          "sha256": "a1cfeff195f591803d3974dd6b4b7fc36a4cbfa14d01c94e5eaf4d36133291a3"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195913+1100/with_recording/bag",
+      "duration_ns": 69368516804,
+      "message_count": 78813,
+      "topic_counts": {
+        "/utlidar/robot_odom": 10490,
+        "/utlidar/lidar_state": 346,
+        "/utlidar/imu": 17145,
+        "/utlidar/cloud": 1069,
+        "/tf_static": 1,
+        "/tf": 4300,
+        "/utlidar/cloud_base": 1069,
+        "/sportmodestate": 20781,
+        "/doggy/robot_clock": 2913,
+        "/doggy/imu/body_calibrated": 20699
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195913+1100/with_recording/bag/bag_0.db3",
+          "bytes": 191070208,
+          "sha256": "3f6ea0f4e7ebd5f6c76e874dc302c6b05e297bfb240319c8fe987fb2c2b32a1a"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200446+1100/with_recording/bag",
+      "duration_ns": 68407073279,
+      "message_count": 77793,
+      "topic_counts": {
+        "/doggy/robot_clock": 2846,
+        "/utlidar/robot_odom": 10341,
+        "/utlidar/lidar_state": 342,
+        "/utlidar/imu": 16891,
+        "/utlidar/cloud": 1054,
+        "/tf_static": 1,
+        "/tf": 4222,
+        "/utlidar/cloud_base": 1055,
+        "/sportmodestate": 20495,
+        "/doggy/imu/body_calibrated": 20546
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200446+1100/with_recording/bag/bag_0.db3",
+          "bytes": 187092992,
+          "sha256": "ca0773ec077f5b2dff2f8b834ae07762f8aedd3de3890f7ee5175eb067c3ea71"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200921+1100/with_recording/bag",
+      "duration_ns": 69270410726,
+      "message_count": 77625,
+      "topic_counts": {
+        "/utlidar/robot_odom": 10483,
+        "/utlidar/lidar_state": 346,
+        "/utlidar/imu": 17122,
+        "/utlidar/cloud": 1068,
+        "/tf_static": 1,
+        "/tf": 4304,
+        "/utlidar/cloud_base": 1069,
+        "/sportmodestate": 20741,
+        "/doggy/robot_clock": 2920,
+        "/doggy/imu/body_calibrated": 19571
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200921+1100/with_recording/bag/bag_0.db3",
+          "bytes": 190935040,
+          "sha256": "b486e6218c15f1dd75b8df92da4caed7bbae3873ae08a7b3c70dc3dbef7fe959"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/bag",
+      "duration_ns": 207610155744,
+      "message_count": 265444,
+      "topic_counts": {
+        "/utlidar/robot_odom": 31229,
+        "/utlidar/lidar_state": 1037,
+        "/utlidar/cloud_base": 3200,
+        "/sportmodestate": 61663,
+        "/utlidar/imu": 51318,
+        "/utlidar/cloud": 3200,
+        "/tf_static": 1,
+        "/doggy/imu/body_calibrated": 60810,
+        "/doggy/robot_clock": 8794,
+        "/odom": 31246,
+        "/tf": 12946
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/bag/bag_0.db3",
+          "bytes": 679079936,
+          "sha256": "6236cbf3981cc52d65d482b9b7d18d8ef96d4367866392d7675a8fb173d6a935"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/bag",
+      "duration_ns": 181210599591,
+      "message_count": 205057,
+      "topic_counts": {
+        "/utlidar/robot_odom": 27346,
+        "/utlidar/lidar_state": 906,
+        "/utlidar/cloud_base": 2793,
+        "/sportmodestate": 54090,
+        "/doggy/robot_clock": 7664,
+        "/utlidar/imu": 44776,
+        "/utlidar/cloud": 2792,
+        "/tf_static": 1,
+        "/tf": 11295,
+        "/doggy/imu/body_calibrated": 53394
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/bag/bag_0.db3",
+          "bytes": 569098240,
+          "sha256": "a7a7a9746e21a2bff0648e2bb862b56a84d190545c26f9c817d0cf176a2a44b8"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/recorder_validation_20261016T191547+1100/bag",
+      "duration_ns": 28010043861,
+      "message_count": 31331,
+      "topic_counts": {
+        "/doggy/robot_clock": 1183,
+        "/utlidar/robot_odom": 4168,
+        "/utlidar/lidar_state": 140,
+        "/utlidar/imu": 6921,
+        "/utlidar/cloud": 432,
+        "/tf_static": 1,
+        "/tf": 1751,
+        "/utlidar/cloud_base": 432,
+        "/sportmodestate": 8230,
+        "/doggy/imu/body_calibrated": 8073
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/recorder_validation_20261016T191547+1100/bag/bag_0.db3",
+          "bytes": 87281664,
+          "sha256": "8a8e71e7f276952cc5c329d753d141e443703f5cc6bdcdac43f750971392be39"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/bag",
+      "duration_ns": 253383110135,
+      "message_count": 327585,
+      "topic_counts": {
+        "/utlidar/robot_odom": 37902,
+        "/utlidar/lidar_state": 1266,
+        "/utlidar/cloud_base": 3906,
+        "/sportmodestate": 74915,
+        "/doggy/imu/body_calibrated": 73859,
+        "/doggy/robot_clock": 10748,
+        "/joint_states": 5068,
+        "/odom": 37918,
+        "/utlidar/imu": 62278,
+        "/utlidar/cloud": 3906,
+        "/robot_description": 1,
+        "/tf_static": 1,
+        "/tf": 15817
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_04_timing/temporal_motion/20261016T205503+1100/bag/bag_0.db3",
+          "bytes": 825450496,
+          "sha256": "2579319e638649eeec049430ce9e49efc5062e2ec9859528f63f06ec7166d115"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag",
+      "duration_ns": 140017731711,
+      "message_count": 189723,
+      "topic_counts": {
+        "/point_lio/tf_status": 27,
+        "/point_lio/initial_map": 1,
+        "/point_lio/cloud_registered": 2074,
+        "/point_lio/odometry": 2074,
+        "/point_lio/raw_tf": 2074,
+        "/tf": 10821,
+        "/tf_static": 1,
+        "/utlidar/cloud": 2157,
+        "/odom": 20973,
+        "/robot_description": 1,
+        "/utlidar/imu": 34622,
+        "/doggy/robot_clock": 5947,
+        "/joint_states": 2800,
+        "/sportmodestate": 41433,
+        "/utlidar/cloud_base": 2158,
+        "/doggy/imu/body_calibrated": 40904,
+        "/utlidar/lidar_state": 700,
+        "/utlidar/robot_odom": 20956
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag/bag_0.db3",
+          "bytes": 506261504,
+          "sha256": "5d7b73c955c063166e886404e420f3410015e6f6a96f5ce2d46f9b05dc4014a0"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_07_live_test/20261016T221648+1100/bag",
+      "duration_ns": 127232607273,
+      "message_count": 172552,
+      "topic_counts": {
+        "/point_lio/tf_status": 24,
+        "/point_lio/initial_map": 1,
+        "/point_lio/cloud_registered": 1879,
+        "/point_lio/odometry": 1879,
+        "/point_lio/raw_tf": 1879,
+        "/tf": 9828,
+        "/tf_static": 1,
+        "/utlidar/cloud": 1960,
+        "/odom": 19100,
+        "/robot_description": 1,
+        "/utlidar/imu": 31440,
+        "/doggy/robot_clock": 5404,
+        "/joint_states": 2545,
+        "/sportmodestate": 37701,
+        "/utlidar/cloud_base": 1961,
+        "/doggy/imu/body_calibrated": 37230,
+        "/utlidar/lidar_state": 635,
+        "/utlidar/robot_odom": 19084
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_07_live_test/20261016T221648+1100/bag/bag_0.db3",
+          "bytes": 464814080,
+          "sha256": "96ac6b70c6e411a73fb8c8c0c5c959f4aae5dad8dabac8ccc52e4c14bff1adce"
+        }
+      ]
+    },
+    {
+      "directory": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/bag",
+      "duration_ns": 192157589598,
+      "message_count": 259770,
+      "topic_counts": {
+        "/point_lio/tf_status": 37,
+        "/point_lio/initial_map": 1,
+        "/point_lio/cloud_registered": 2879,
+        "/point_lio/odometry": 2879,
+        "/point_lio/raw_tf": 2879,
+        "/tf": 14870,
+        "/tf_static": 1,
+        "/utlidar/cloud": 2962,
+        "/odom": 28669,
+        "/robot_description": 1,
+        "/utlidar/imu": 47496,
+        "/doggy/robot_clock": 8150,
+        "/joint_states": 3843,
+        "/sportmodestate": 56707,
+        "/utlidar/cloud_base": 2962,
+        "/doggy/imu/body_calibrated": 55826,
+        "/utlidar/lidar_state": 960,
+        "/utlidar/robot_odom": 28648
+      },
+      "files": [
+        {
+          "path": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/bag/bag_0.db3",
+          "bytes": 681922560,
+          "sha256": "aa1349067f1223a0a9d0a0777847f8e86e21282061128f42d908548cdd766bde"
+        }
+      ]
+    }
+  ],
+  "excluded_from_git": [
+    "Raw rosbag database files",
+    "NPZ/NPY captures",
+    "Full-resolution PCD/PLY accumulations",
+    "Build/install/log trees",
+    "Virtual environment, downloaded packages and extracted dependencies",
+    "Retired CMU archive"
+  ],
+  "included_map_pcd": "reports/point_lio_steps/step_07_live_test/saved_maps/drive/map_5cm.pcd",
+  "additional_databases_without_metadata": [
+    {
+      "path": "reports/point_lio_steps/step_04_timing/posture_20261016T191129+1100/bag/bag_0.db3",
+      "bytes": 18497536,
+      "sha256": "bce712b4bc418f1a6e3607299813061f04fedfc57bdc1c14ad7ee5237a25daca",
+      "status": "No rosbag metadata.yaml found; retained local partial/diagnostic database, not asserted as clean complete recording"
+    },
+    {
+      "path": "reports/tf/imu_axis_test_20261016T162053+1100/imu_axis_test_20261016T162053+1100_0.db3",
+      "bytes": 39309312,
+      "sha256": "e28ba55d96b57795007a09e87f478a79838816d78d877855c3caa8395489ecde",
+      "status": "No rosbag metadata.yaml found; retained local partial/diagnostic database, not asserted as clean complete recording"
+    }
+  ]
+}

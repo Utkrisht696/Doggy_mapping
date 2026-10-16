@@ -1,0 +1,56 @@
+{
+  "received_local": "2026-10-16T18:41:59.089987+11:00",
+  "source": "User pasted repeated tf2_echo output for both requested transforms",
+  "base_link_to_lidar": {
+    "translation_m_rounded": [
+      0.282,
+      0.0,
+      0.0
+    ],
+    "rotation_matrix_rounded": [
+      [
+        0.526,
+        -0.81,
+        0.259
+      ],
+      [
+        -0.839,
+        -0.545,
+        0.0
+      ],
+      [
+        0.141,
+        -0.217,
+        -0.966
+      ]
+    ]
+  },
+  "imu_to_lidar": {
+    "translation_m_rounded": [
+      0.308,
+      0.0,
+      -0.042
+    ],
+    "rotation_matrix_rounded": [
+      [
+        0.526,
+        -0.81,
+        0.259
+      ],
+      [
+        -0.839,
+        -0.545,
+        0.0
+      ],
+      [
+        0.141,
+        -0.217,
+        -0.966
+      ]
+    ]
+  },
+  "matches_reviewed_geometry_at_display_precision": true,
+  "initial_discovery_warning_cleared": true,
+  "static_transform_time_zero_expected": true,
+  "step_2_complete": true
+}

@@ -1,0 +1,11 @@
+{
+  "approved": true,
+  "user_approval": "yeah do it",
+  "scope": "Change only init_map_size from 10 to 4000 relative to original baseline, original gyro variance 0.1, isolated saved-bag replay with same gates; no live adapter restart or robot commands.",
+  "production_launch_sha256": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd",
+  "trial_launch_changes": [
+    "Resolve root to original workspace location",
+    "Add one startup-map threshold parameter file to mapper only"
+  ],
+  "failed_gyro_override_loaded": false
+}

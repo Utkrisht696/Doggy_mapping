@@ -1,0 +1,30 @@
+{
+  "checked_local": "2026-10-12T19:18:40.064958+11:00",
+  "odom_messages": 1201,
+  "publishers": {
+    "/utlidar/robot_odom": [
+      {
+        "node": "_CREATED_BY_BARE_DDS_APP_",
+        "namespace": "_CREATED_BY_BARE_DDS_APP_"
+      }
+    ],
+    "/tf": [],
+    "/tf_static": [],
+    "/joint_states": []
+  },
+  "observed_tf_edges": [],
+  "observed_rate_hz": 149.93233428185874,
+  "frame_id": "odom",
+  "child_frame_id": "base_link",
+  "position_m": {
+    "x": -0.006625334732234478,
+    "y": 0.002277159597724676,
+    "z": 0.3171946406364441
+  },
+  "linear_velocity_m_s": {
+    "x": -0.012236540205776691,
+    "y": -0.00705565232783556,
+    "z": -0.03544112294912338
+  },
+  "host_minus_header_stamp_s": 787.0233256816864
+}

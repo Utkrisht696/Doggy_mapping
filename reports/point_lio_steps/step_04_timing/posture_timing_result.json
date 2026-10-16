@@ -1,0 +1,18 @@
+{
+  "saved_local": "2026-10-16T19:33:58.472037+11:00",
+  "report": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/REPORT.md",
+  "input_timing_integrity_passed": true,
+  "relative_imu_response_offset_s": {
+    "pitch": -0.0015,
+    "roll": -0.001
+  },
+  "cloud_acquisition_lag_calibrated": false,
+  "maximum_observed_body_gap_ms": 33.94767,
+  "configuration_changed": false,
+  "profile_sha256": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+  "chosen_time_lag_imu_to_lidar_s": 0.0,
+  "zero_lag_status": "Unchanged provisional starting value, not certified acquisition calibration",
+  "user_doublecheck_pending": true,
+  "mapper_started": false,
+  "next_step_5_authorized": false
+}

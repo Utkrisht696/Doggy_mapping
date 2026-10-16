@@ -1,0 +1,21 @@
+{
+  "name": "reliable_reference",
+  "pid": 1152313,
+  "topic": "/sportmodestate",
+  "depth": 2000,
+  "reliability": "reliable",
+  "start_mono_ns": 187159870840323,
+  "end_mono_ns": 187227873436292,
+  "duration_s": 68.002595969,
+  "messages": 20373,
+  "endpoints": [
+    {
+      "node": "_CREATED_BY_BARE_DDS_APP_",
+      "namespace": "_CREATED_BY_BARE_DDS_APP_",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "durability": "DurabilityPolicy.VOLATILE"
+    }
+  ],
+  "errors": [],
+  "robot_commands_sent": false
+}

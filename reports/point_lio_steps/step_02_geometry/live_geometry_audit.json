@@ -1,0 +1,101 @@
+{
+  "checked_local": "2026-10-16T17:38:51.710755+11:00",
+  "scope": "Passive current cloud-coordinate and TF audit; no fitting, publishing TF, configuration updates or mapping.",
+  "pairs": [
+    {
+      "stamp_ns": 1792132707132455587,
+      "matched_points": 1298,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 8.181223788983932e-08,
+      "max_residual_m": 2.24437957088661e-06
+    },
+    {
+      "stamp_ns": 1792132707651300668,
+      "matched_points": 1323,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 6.864223628013462e-08,
+      "max_residual_m": 1.9742354808049825e-06
+    },
+    {
+      "stamp_ns": 1792132708169995784,
+      "matched_points": 1252,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 7.571768963865413e-08,
+      "max_residual_m": 1.7988610138491763e-06
+    },
+    {
+      "stamp_ns": 1792132708689460992,
+      "matched_points": 1218,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 6.139493013176401e-08,
+      "max_residual_m": 1.1805620777250076e-06
+    },
+    {
+      "stamp_ns": 1792132709207440853,
+      "matched_points": 1265,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 8.095471944877243e-08,
+      "max_residual_m": 2.4021301194880446e-06
+    },
+    {
+      "stamp_ns": 1792132709726948022,
+      "matched_points": 1361,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 6.775774952226479e-08,
+      "max_residual_m": 9.401005536149276e-07
+    },
+    {
+      "stamp_ns": 1792132710245441913,
+      "matched_points": 1221,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 7.728953580352213e-08,
+      "max_residual_m": 2.4254629473189205e-06
+    },
+    {
+      "stamp_ns": 1792132710764616489,
+      "matched_points": 1236,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 6.252201636383547e-08,
+      "max_residual_m": 8.992632391792943e-07
+    },
+    {
+      "stamp_ns": 1792132711282942533,
+      "matched_points": 1275,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 8.5057242969506e-08,
+      "max_residual_m": 2.520980150572244e-06
+    },
+    {
+      "stamp_ns": 1792132711801953554,
+      "matched_points": 1387,
+      "raw_frame": "utlidar_lidar",
+      "body_frame": "base_link",
+      "median_residual_m": 6.427118913382774e-08,
+      "max_residual_m": 9.521350248127399e-07
+    }
+  ],
+  "matched_points": 12836,
+  "max_numerical_conversion_residual_m": 2.520980150572244e-06,
+  "tf_edges": {},
+  "checks": {
+    "enough_independent_cloud_pairs": true,
+    "unchanged_conversion_matches_current_clouds": true,
+    "expected_cloud_frame_ids": true,
+    "existing_body_imu_tf_present": false,
+    "developer_radar_tf_present": false,
+    "no_duplicate_parents": true,
+    "no_duplicate_child_publishers": true,
+    "legacy_base_frame_absent": true
+  },
+  "passed": false,
+  "limitations": "Published coordinate equivalence only; not a surveyed physical LiDAR mount. No sensor TF or Point-LIO extrinsic has been applied."
+}

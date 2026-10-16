@@ -1,0 +1,168 @@
+{
+  "method": "Use the first earlier raw/body cloud pair to recover the vendor stream conversion, then test it unchanged against later independent pairs. No fitted transform is published or applied to the robot.",
+  "reference_stamp_ns": 1792126228063470363,
+  "reference_rotation_matrix": [
+    [
+      0.5261139017353029,
+      -0.8101358157255057,
+      0.2586196482860969
+    ],
+    [
+      -0.8386681734567218,
+      -0.5446427221842449,
+      1.5814066921490184e-06
+    ],
+    [
+      0.14085402809867137,
+      -0.21689690004816572,
+      -0.9659792324464709
+    ]
+  ],
+  "reference_translation_m": [
+    0.28216002866813134,
+    1.994733730970033e-08,
+    -1.5374389983335845e-08
+  ],
+  "reference_rpy_degrees": [
+    -167.34493525815424,
+    -8.097268174805656,
+    -57.899100469858624
+  ],
+  "holdout_pairs": [
+    {
+      "stamp_ns": 1792126447882478475,
+      "unique_correspondences": 449,
+      "reference_transform_residual_m_quantiles": [
+        5.5256131930715394e-09,
+        5.0636457867536095e-08,
+        5.289591118075845e-07,
+        7.712337736931788e-07,
+        9.21332007827755e-07
+      ]
+    },
+    {
+      "stamp_ns": 1792126447946960926,
+      "unique_correspondences": 597,
+      "reference_transform_residual_m_quantiles": [
+        4.7518677838463225e-09,
+        5.303354291685695e-08,
+        4.313788504755251e-07,
+        7.551614981884946e-07,
+        1.6245226207342505e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448012458324,
+      "unique_correspondences": 416,
+      "reference_transform_residual_m_quantiles": [
+        5.047288167905014e-09,
+        3.899670895715033e-08,
+        5.760196475826737e-07,
+        1.1005371151829699e-06,
+        2.102832027085993e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448076964616,
+      "unique_correspondences": 378,
+      "reference_transform_residual_m_quantiles": [
+        5.395298000038504e-09,
+        4.44469906587843e-08,
+        2.7127692139782684e-07,
+        5.231541580712742e-07,
+        8.786909344628419e-07
+      ]
+    },
+    {
+      "stamp_ns": 1792126448141968011,
+      "unique_correspondences": 584,
+      "reference_transform_residual_m_quantiles": [
+        5.861899645894189e-09,
+        7.576668113845102e-08,
+        6.975594806214234e-07,
+        9.833196218932804e-07,
+        1.7441860306596133e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448206461906,
+      "unique_correspondences": 525,
+      "reference_transform_residual_m_quantiles": [
+        4.846068326199915e-09,
+        3.9942928108606637e-08,
+        1.772097640820896e-07,
+        4.0689026565998094e-07,
+        1.007337042170455e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448271530628,
+      "unique_correspondences": 386,
+      "reference_transform_residual_m_quantiles": [
+        3.679554740854363e-09,
+        3.868901701584053e-08,
+        4.794979508507101e-07,
+        7.632853917016465e-07,
+        1.3224279654589478e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448336528301,
+      "unique_correspondences": 439,
+      "reference_transform_residual_m_quantiles": [
+        6.512561840141763e-09,
+        4.823000356615004e-08,
+        3.9948865193612214e-07,
+        5.849587440658448e-07,
+        8.314078477192219e-07
+      ]
+    },
+    {
+      "stamp_ns": 1792126448401434659,
+      "unique_correspondences": 588,
+      "reference_transform_residual_m_quantiles": [
+        3.5494002595648704e-09,
+        4.906020076705193e-08,
+        5.483643520987083e-07,
+        9.213623947766228e-07,
+        1.3610112476012822e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448466118812,
+      "unique_correspondences": 426,
+      "reference_transform_residual_m_quantiles": [
+        7.600699195220123e-09,
+        3.826001690100687e-08,
+        3.789229459587757e-07,
+        7.461825480733472e-07,
+        1.0842524804790888e-06
+      ]
+    },
+    {
+      "stamp_ns": 1792126448530974388,
+      "unique_correspondences": 383,
+      "reference_transform_residual_m_quantiles": [
+        9.783077605541204e-09,
+        3.96201654656308e-08,
+        3.420936876324388e-07,
+        5.194565180643106e-07,
+        9.365603504102858e-07
+      ]
+    },
+    {
+      "stamp_ns": 1792126448596087932,
+      "unique_correspondences": 535,
+      "reference_transform_residual_m_quantiles": [
+        5.665853532769239e-09,
+        6.241780737002933e-08,
+        5.784561330773722e-07,
+        7.151316333210073e-07,
+        1.1914093627001924e-06
+      ]
+    }
+  ],
+  "max_holdout_residual_m": 2.102832027085993e-06,
+  "motion_commands_sent": false,
+  "sensor_tf_published": false
+}

@@ -1,0 +1,16 @@
+{
+  "approved": true,
+  "user_approval": "yeah do it",
+  "scope": "One temporary gyro measurement variance override during an isolated saved-bag mapping trial; active profile/calibration/timing/geometry unchanged.",
+  "baseline_value": 0.1,
+  "trial_value": 0.0001,
+  "production_launch_sha256": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd",
+  "trial_launch_changes": [
+    "Resolve root to original workspace location",
+    "Add one trial parameter file to mapper only"
+  ],
+  "diagnostic_harness_change": "Consume completed rate-service future once, to prevent repeated progress output; does not affect sensor inputs or first stationary gate.",
+  "trial_completed": true,
+  "trial_result": "stationary_drift_gate_failed",
+  "override_adopted_into_default": false
+}

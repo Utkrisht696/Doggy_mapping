@@ -1,0 +1,201 @@
+{
+  "method": "Select fixed floor inlier candidates from unconstrained per-scan planes. Apply the reviewed LiDAR-to-body-IMU extrinsics and integrate calibrated body gyro at actual source dt. For each candidate lag, rotate each individual point at its own acquisition time plus lag; refit world normals separately per scan, with free plane offset, then minimize between-scan normal dispersion using a non-saturating Huber loss. Fused attitude is an independent diagnostic only. No translation/rotation/bias/offset is optimized or published.",
+  "lag_sign": "Positive delta would be subtracted from body IMU stamps by Point-LIO only if independently validated.",
+  "results": [
+    {
+      "reference": "integrated_calibrated_gyro",
+      "phase": "pitch_1",
+      "source_window_s": [
+        40.632000000000005,
+        69.904
+      ],
+      "floor_scans": 151,
+      "selected_points": 18120,
+      "best_body_stamp_minus_cloud_point_stamp_s": 0.019,
+      "best_loss": 0.0006168250921295953,
+      "zero_loss": 0.0006186955686839046,
+      "zero_to_best_loss_improvement_percent": 0.30232583664502566,
+      "normal_angle_rms_zero_deg": 2.7128951453495547,
+      "normal_angle_rms_best_deg": 2.7094253950481577,
+      "median_intrascan_plane_rms_zero_m": 0.010490767957586678,
+      "median_intrascan_plane_rms_best_m": 0.010499911849086907,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.05,
+        0.08
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "integrated_calibrated_gyro",
+      "phase": "roll_3",
+      "source_window_s": [
+        80.616,
+        103.964
+      ],
+      "floor_scans": 120,
+      "selected_points": 14400,
+      "best_body_stamp_minus_cloud_point_stamp_s": 0.004,
+      "best_loss": 0.0006637632812052425,
+      "zero_loss": 0.0006642525091261365,
+      "zero_to_best_loss_improvement_percent": 0.07365089543095195,
+      "normal_angle_rms_zero_deg": 2.641109589042648,
+      "normal_angle_rms_best_deg": 2.6402061719477015,
+      "median_intrascan_plane_rms_zero_m": 0.01078161767614784,
+      "median_intrascan_plane_rms_best_m": 0.010781063242764786,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.03,
+        0.04
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "integrated_calibrated_gyro",
+      "phase": "pitch_2",
+      "source_window_s": [
+        114.56400000000001,
+        148.71200000000002
+      ],
+      "floor_scans": 175,
+      "selected_points": 21000,
+      "best_body_stamp_minus_cloud_point_stamp_s": -0.005,
+      "best_loss": 0.0006973237799697249,
+      "zero_loss": 0.0006974936335913005,
+      "zero_to_best_loss_improvement_percent": 0.02435199597465245,
+      "normal_angle_rms_zero_deg": 2.868278194978692,
+      "normal_angle_rms_best_deg": 2.8687637100300662,
+      "median_intrascan_plane_rms_zero_m": 0.010427058711497846,
+      "median_intrascan_plane_rms_best_m": 0.010399442516110212,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.09,
+        0.08
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "integrated_calibrated_gyro",
+      "phase": "roll_5",
+      "source_window_s": [
+        155.268,
+        182.60000000000002
+      ],
+      "floor_scans": 141,
+      "selected_points": 16920,
+      "best_body_stamp_minus_cloud_point_stamp_s": -0.008,
+      "best_loss": 0.0007391412340746829,
+      "zero_loss": 0.0007398738073703445,
+      "zero_to_best_loss_improvement_percent": 0.09901327609707215,
+      "normal_angle_rms_zero_deg": 2.9574940110254064,
+      "normal_angle_rms_best_deg": 2.9599838340180344,
+      "median_intrascan_plane_rms_zero_m": 0.010584669569199272,
+      "median_intrascan_plane_rms_best_m": 0.010584059168474606,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.05,
+        0.05
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "fused_orientation_diagnostic",
+      "phase": "pitch_1",
+      "source_window_s": [
+        40.632000000000005,
+        69.904
+      ],
+      "floor_scans": 151,
+      "selected_points": 18120,
+      "best_body_stamp_minus_cloud_point_stamp_s": 0.011,
+      "best_loss": 0.00034950106946102536,
+      "zero_loss": 0.00035045217437222284,
+      "zero_to_best_loss_improvement_percent": 0.27139363963177526,
+      "normal_angle_rms_zero_deg": 1.8744679656790526,
+      "normal_angle_rms_best_deg": 1.8724226453898993,
+      "median_intrascan_plane_rms_zero_m": 0.0104910380673531,
+      "median_intrascan_plane_rms_best_m": 0.010491479906582208,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.03,
+        0.05
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "fused_orientation_diagnostic",
+      "phase": "roll_3",
+      "source_window_s": [
+        80.616,
+        103.964
+      ],
+      "floor_scans": 120,
+      "selected_points": 14400,
+      "best_body_stamp_minus_cloud_point_stamp_s": 0.008,
+      "best_loss": 0.0004328855872178545,
+      "zero_loss": 0.0004349910935740243,
+      "zero_to_best_loss_improvement_percent": 0.48403436007627,
+      "normal_angle_rms_zero_deg": 1.847928156831966,
+      "normal_angle_rms_best_deg": 1.8437587303892264,
+      "median_intrascan_plane_rms_zero_m": 0.010779811643589146,
+      "median_intrascan_plane_rms_best_m": 0.010778556652917536,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.01,
+        0.03
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "fused_orientation_diagnostic",
+      "phase": "pitch_2",
+      "source_window_s": [
+        114.56400000000001,
+        148.71200000000002
+      ],
+      "floor_scans": 175,
+      "selected_points": 21000,
+      "best_body_stamp_minus_cloud_point_stamp_s": -0.003,
+      "best_loss": 0.0003935453442822507,
+      "zero_loss": 0.00039361729728002847,
+      "zero_to_best_loss_improvement_percent": 0.01827993796893443,
+      "normal_angle_rms_zero_deg": 1.873772020061917,
+      "normal_angle_rms_best_deg": 1.8744256890177105,
+      "median_intrascan_plane_rms_zero_m": 0.010464855479513459,
+      "median_intrascan_plane_rms_best_m": 0.010444752227967046,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.05,
+        0.04
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "fused_orientation_diagnostic",
+      "phase": "roll_5",
+      "source_window_s": [
+        155.268,
+        182.60000000000002
+      ],
+      "floor_scans": 141,
+      "selected_points": 16920,
+      "best_body_stamp_minus_cloud_point_stamp_s": 0.002,
+      "best_loss": 0.0004476886443224049,
+      "zero_loss": 0.0004477601190975482,
+      "zero_to_best_loss_improvement_percent": 0.015962738103459228,
+      "normal_angle_rms_zero_deg": 1.9499058423730833,
+      "normal_angle_rms_best_deg": 1.948776804060549,
+      "median_intrascan_plane_rms_zero_m": 0.010581047986933897,
+      "median_intrascan_plane_rms_best_m": 0.010581005893733777,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.02,
+        0.03
+      ],
+      "boundary_hit": false
+    }
+  ],
+  "elapsed_s": 6.547845155990217,
+  "application_changed": false,
+  "mapper_or_replay_started": false,
+  "limits": [
+    "This is a floor diagnostic, not a general temporal calibration package.",
+    "Within-scan body translation is not compensated; posture motion and pivot/lever arm can bias results.",
+    "Only rotational motion about two axes is excited; raw LiDAR internal IMU still has invalid acceleration and is not an absolute reference.",
+    "Sparse/noisy points, imperfect physical extrinsics, gyro drift and fixed inlier selection can confound lag.",
+    "Loss-width ranges are sensitivity measures, not confidence intervals.",
+    "Fresh repeat blocks are considered independently; disagreement prevents applying a correction."
+  ]
+}

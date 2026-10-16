@@ -1,0 +1,13 @@
+{
+  "approved_local": "2026-10-16T18:43:31.999117+11:00",
+  "authorization": "User: yeah do it, approving application and parameter validation without starting Point-LIO",
+  "active_profile": "config/point_lio/go2_body_imu.yaml",
+  "target_previously_existed": false,
+  "draft_sha256": "276eda09bba8663fe36550d74b17c95af7022b4f5e734007089468b2a2e2b919",
+  "active_sha256": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+  "only_comment_header_differs_from_review": true,
+  "application_changes": [
+    "config/point_lio/go2_body_imu.yaml"
+  ],
+  "mapper_started": false
+}

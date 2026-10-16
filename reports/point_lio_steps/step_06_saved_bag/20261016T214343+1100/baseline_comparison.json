@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "position_max_displacement_from_first_m": 2.3268964511760606,
+    "orientation_max_change_from_first_deg": 179.5141096294669,
+    "continuous_yaw_change_at_end_deg": -291.826448383181,
+    "odometry_messages": 208
+  },
+  "gyro_variance_trial": {
+    "position_max_displacement_from_first_m": 1.655739627309983,
+    "orientation_max_change_from_first_deg": 179.54715475867582,
+    "continuous_yaw_change_at_end_deg": -294.21593785843874,
+    "odometry_messages": 208
+  },
+  "common_input_cloud_interval_s": 13.680819511,
+  "same_output_stamp_sequence": true,
+  "trial_exact_tf_stamp_match": true,
+  "both_failed_stationary_gate": true,
+  "root_cause_established": false,
+  "default_profile_changed": false,
+  "trial_imu_missing_in_observed_stamp_interval": 0,
+  "trial_cloud_missing_in_observed_stamp_interval": 0,
+  "trial_full_observed_output": {
+    "odometry_messages": 209,
+    "position_max_displacement_from_first_m": 1.655739627309983,
+    "continuous_yaw_change_at_end_deg": -295.6423875083474,
+    "last_output_stamp_ns": 1792144506820060968,
+    "last_input_cloud_header_stamp_ns": 1792144506758457183,
+    "note": "Output is stamped at scan end, later than the raw-cloud header; common-prefix comparison excludes the last output to use the same source cutoff."
+  }
+}

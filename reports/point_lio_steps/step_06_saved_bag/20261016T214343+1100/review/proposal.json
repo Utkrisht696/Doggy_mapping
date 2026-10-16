@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "applied": false,
+  "parameter": "init_map_size",
+  "baseline": 10,
+  "candidate": 4000,
+  "units": "Accumulated downsampled points in the initial map, not scan count",
+  "reference_profile": "config/point_lio/go2_body_imu.yaml",
+  "gyro_measurement_variance": 0.1,
+  "failed_gyro_trial_override_will_be_loaded": false,
+  "scope": "Only startup point threshold differs from the original mapping baseline. Use another isolated saved-bag replay, stationary at startup, same stop gates.",
+  "rationale": "The initial threshold permits one sparse scan to seed the map. Offline nearest-five plane-screening of a fixed held-out stationary scan accepted 216/357 matches against a 481-point one-scan seed and 357/357 against a 4039-point ten-scan seed. This approximate check does not prove those correspondences are correct or that the estimator will stabilize.",
+  "active_files_will_change": false,
+  "timing_offset_will_change": false,
+  "extrinsics_will_change": false,
+  "live_robot_movement": false,
+  "override": "reports/point_lio_steps/step_06_saved_bag/20261016T214343+1100/review/denser_seed_trial.yaml",
+  "requires_user_confirmation": true
+}

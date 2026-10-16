@@ -1,0 +1,41 @@
+{
+  "clouds_examined": 10,
+  "user_condition": "Standing normally on level floor",
+  "method": "Read-only nearby cloud-height statistics; no sensor transform fitted",
+  "body_position_odom": [
+    0.5779402256011963,
+    -1.4745434522628784,
+    0.3279268145561218
+  ],
+  "nearby_points_below_body": 9592,
+  "dominant_height_bins": [
+    {
+      "z_center_m": -0.02499999999999869,
+      "points": 1310
+    },
+    {
+      "z_center_m": -0.014999999999998681,
+      "points": 1137
+    },
+    {
+      "z_center_m": -0.004999999999998672,
+      "points": 1017
+    },
+    {
+      "z_center_m": -0.04499999999999871,
+      "points": 963
+    },
+    {
+      "z_center_m": -0.0349999999999987,
+      "points": 932
+    }
+  ],
+  "z_quantiles": [
+    -0.06597830802202224,
+    -0.0387117862701416,
+    -0.01758599281311035,
+    0.005836904048919678,
+    0.21285422369837728
+  ],
+  "near_zero_plane_points": 3978
+}

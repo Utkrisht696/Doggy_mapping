@@ -1,0 +1,99 @@
+{
+  "created_local": "2026-10-16T17:43:51.408862+11:00",
+  "approved": false,
+  "status": "Review-only step 2 geometry. No application code/configuration or sensor TF applied.",
+  "convention": "T_A_B maps coordinates B into A; Point-LIO needs p_imu=extrinsic_R*p_lidar+extrinsic_T.",
+  "imu_source": "/doggy/imu/body_calibrated",
+  "imu_frame": "imu",
+  "lidar_source": "/utlidar/cloud",
+  "lidar_frame": "utlidar_lidar",
+  "source_urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "unchanged_developer_mounts": {
+    "imu": {
+      "xyz": [
+        -0.02557,
+        0.0,
+        0.04232
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "radar": {
+      "xyz": [
+        0.28945,
+        0.0,
+        -0.046825
+      ],
+      "rpy": [
+        0.0,
+        2.8782,
+        0.0
+      ]
+    }
+  },
+  "proposed_measurement_tf": {
+    "parent": "radar",
+    "child": "utlidar_lidar",
+    "translation_m": [
+      -0.005152688450810778,
+      1.9947337309700327e-08,
+      -0.04710809557747969
+    ],
+    "rotation_xyzw": [
+      -0.0007911776879826205,
+      0.00042867244871045253,
+      -0.8788178054238481,
+      0.4771566358626999
+    ],
+    "rpy_radians": [
+      -0.00150848262788812,
+      -0.0009815144294726963,
+      -2.1467586346833887
+    ],
+    "rpy_degrees": [
+      -0.08642968804679273,
+      -0.056236634339976395,
+      -123.00020940062508
+    ],
+    "basis": "Recovered exact conversion between vendor raw and body cloud streams, independently validated across captures/postures. Not manufacturer-specified physical mount geometry."
+  },
+  "point_lio_body_imu_extrinsics": {
+    "mapping.extrinsic_R": [
+      0.5261139017353029,
+      -0.8101358157255057,
+      0.2586196482860969,
+      -0.8386681734567218,
+      -0.5446427221842449,
+      1.5814066921490184e-06,
+      0.14085402809867137,
+      -0.21689690004816572,
+      -0.9659792324464709
+    ],
+    "mapping.extrinsic_T": [
+      0.3077300286681313,
+      1.994733730970033e-08,
+      -0.04232001537438999
+    ],
+    "maps_from": "utlidar_lidar",
+    "maps_to": "imu",
+    "basis": "Compose vendor raw->body coordinate conversion with inverse of the unchanged developer body-IMU mount; do not use LiDAR internal IMU offset."
+  },
+  "live_validation": "reports/point_lio_steps/step_02_geometry/live_geometry_audit.json",
+  "equation_checks": {
+    "relative_rotation_is_rigid": true,
+    "point_lio_direct_vs_body_chain": true,
+    "radar_chain_preserves_vendor_cloud_conversion": true,
+    "quaternion_roundtrip": true,
+    "developer_source_hash_unchanged": true
+  },
+  "max_chain_error": 1.7763568394002505e-15,
+  "caveats": [
+    "Exact conversion agreement is numerical stream consistency, not micrometre physical placement accuracy.",
+    "Absolute physical body-frame/URDF correspondence is assumed from vendor body frame labels and developer geometry.",
+    "Selected body IMU already has developer TF; invalid raw LiDAR IMU utlidar_imu is not selected and no guessed TF is proposed for it.",
+    "New raw-cloud measurement edge requires user approval before publication."
+  ]
+}

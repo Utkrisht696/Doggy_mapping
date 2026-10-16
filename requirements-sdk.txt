@@ -1,0 +1,4 @@
+# Python SDK runtime pins compatible with this laptop's Python 3.10.
+cyclonedds==0.10.2
+numpy==1.26.4
+opencv-python==4.11.0.86

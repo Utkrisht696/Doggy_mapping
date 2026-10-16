@@ -1,0 +1,188 @@
+{
+  "wall_elapsed_s": 140.75367687598919,
+  "phase": "stationary_startup",
+  "raw_clouds": 2156,
+  "calibrated_imu_samples": 40843,
+  "lio_poses": 2074,
+  "map_to_odom_transforms": 2074,
+  "last_bridge_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": 1792149331509243726,
+    "last_tf_error": "",
+    "lookup_failures": 1557,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 2074,
+    "received": 2074,
+    "waiting": 0
+  },
+  "input_age_s": {
+    "imu": 0.8314383669930976,
+    "cloud": 0.8868641029985156,
+    "odom": 0.8816460320085753
+  },
+  "adapter_alive": true,
+  "startup_position_excursion_m": 0.2755939543594445,
+  "startup_orientation_change_deg": 3.27916431043673,
+  "latest_pose_xyz": [
+    8.033689840711034,
+    4.384437852818611,
+    -0.20198029450312804
+  ],
+  "output_source_span_s": 134.417033728,
+  "stop_reason": "user_requested_stop",
+  "robot_commands_sent": false,
+  "recorder_returncode": 0,
+  "launch_returncode": 0,
+  "application_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "network_after": "Ip: Forwarding DefaultTTL InReceives InHdrErrors InAddrErrors ForwDatagrams InUnknownProtos InDiscards InDelivers OutRequests OutDiscards OutNoRoutes ReasmTimeout ReasmReqds ReasmOKs ReasmFails FragOKs FragFails FragCreates OutTransmits\nIp: 1 64 192457995 0 1 73697 0 0 49165338 16541874 0 34669 2 159662380 16443943 3 7698 0 41147 16644046\nIcmp: InMsgs InErrors InCsumErrors InDestUnreachs InTimeExcds InParmProbs InSrcQuenchs InRedirects InEchos InEchoReps InTimestamps InTimestampReps InAddrMasks InAddrMaskReps OutMsgs OutErrors OutRateLimitGlobal OutRateLimitHost OutDestUnreachs OutTimeExcds OutParmProbs OutSrcQuenchs OutRedirects OutEchos OutEchoReps OutTimestamps OutTimestampReps OutAddrMasks OutAddrMaskReps\nIcmp: 16723 0 0 14416 0 0 0 0 2294 13 0 0 0 0 37757 0 432 43676 35450 0 0 0 0 13 2294 0 0 0 0\nIcmpMsg: InType0 InType3 InType8 OutType0 OutType3 OutType8\nIcmpMsg: 13 14416 2294 2294 35450 13\nTcp: RtoAlgorithm RtoMin RtoMax MaxConn ActiveOpens PassiveOpens AttemptFails EstabResets CurrEstab InSegs OutSegs RetransSegs InErrs OutRsts InCsumErrors\nTcp: 1 200 120000 -1 26062 973 9308 1721 15 12208209 10745864 6760 148 15953 0\nUdp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors\nUdp: 97326494 78360 96358 7864164 96358 0 0 861099 0\nUdpLite: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors\nUdpLite: 0 0 0 0 0 0 0 0 0\n",
+  "tf_parents": {
+    "FL_calf_rotor": [
+      "FL_thigh"
+    ],
+    "FL_calflower1": [
+      "FL_calflower"
+    ],
+    "FL_calflower": [
+      "FL_calf"
+    ],
+    "FL_foot": [
+      "FL_calf"
+    ],
+    "FL_hip_rotor": [
+      "base_link"
+    ],
+    "FL_thigh_rotor": [
+      "FL_hip"
+    ],
+    "FR_calf_rotor": [
+      "FR_thigh"
+    ],
+    "FR_calflower1": [
+      "FR_calflower"
+    ],
+    "FR_calflower": [
+      "FR_calf"
+    ],
+    "FR_foot": [
+      "FR_calf"
+    ],
+    "FR_hip_rotor": [
+      "base_link"
+    ],
+    "FR_thigh_rotor": [
+      "FR_hip"
+    ],
+    "Head_lower": [
+      "Head_upper"
+    ],
+    "Head_upper": [
+      "base_link"
+    ],
+    "RL_calf_rotor": [
+      "RL_thigh"
+    ],
+    "RL_calflower1": [
+      "RL_calflower"
+    ],
+    "RL_calflower": [
+      "RL_calf"
+    ],
+    "RL_foot": [
+      "RL_calf"
+    ],
+    "RL_hip_rotor": [
+      "base_link"
+    ],
+    "RL_thigh_rotor": [
+      "RL_hip"
+    ],
+    "RR_calf_rotor": [
+      "RR_thigh"
+    ],
+    "RR_calflower1": [
+      "RR_calflower"
+    ],
+    "RR_calflower": [
+      "RR_calf"
+    ],
+    "RR_foot": [
+      "RR_calf"
+    ],
+    "RR_hip_rotor": [
+      "base_link"
+    ],
+    "RR_thigh_rotor": [
+      "RR_hip"
+    ],
+    "front_camera": [
+      "base_link"
+    ],
+    "imu": [
+      "base_link"
+    ],
+    "radar": [
+      "base_link"
+    ],
+    "utlidar_lidar": [
+      "radar"
+    ],
+    "FL_calf": [
+      "FL_thigh"
+    ],
+    "FL_hip": [
+      "base_link"
+    ],
+    "FL_thigh": [
+      "FL_hip"
+    ],
+    "FR_calf": [
+      "FR_thigh"
+    ],
+    "FR_hip": [
+      "base_link"
+    ],
+    "FR_thigh": [
+      "FR_hip"
+    ],
+    "RL_calf": [
+      "RL_thigh"
+    ],
+    "RL_hip": [
+      "base_link"
+    ],
+    "RL_thigh": [
+      "RL_hip"
+    ],
+    "RR_calf": [
+      "RR_thigh"
+    ],
+    "RR_hip": [
+      "base_link"
+    ],
+    "RR_thigh": [
+      "RR_hip"
+    ],
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ],
+    "odom": [
+      "map"
+    ]
+  },
+  "application_unchanged": true
+}

@@ -1,0 +1,6 @@
+{
+  "requested_by": "assistant",
+  "reason": "Unexpected multi-metre estimated travel before the movement cue; awaiting user clarification of real motion.",
+  "robot_motion_command_sent": false,
+  "monotonic_time": 195017.11770821
+}

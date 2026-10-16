@@ -1,0 +1,30 @@
+{
+  "preview_launch_passed": true,
+  "isolated_domain": 197,
+  "localhost_only": true,
+  "mapper_present": false,
+  "estimator_odometry_publishers_before_synthetic_test": 0,
+  "global_tf_messages_before_synthetic_test": 0,
+  "initial_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": null,
+    "last_tf_error": "",
+    "lookup_failures": 0,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 0,
+    "received": 0,
+    "waiting": 0
+  },
+  "rviz_not_started": true,
+  "robot_contacted": false,
+  "synthetic_transport_passed": true,
+  "exact_source_stamp_preserved": true,
+  "exact_time_tf_interpolation_passed": true,
+  "synthetic_map_to_odom_x": 17.876543211,
+  "launch_returncode": 0
+}

@@ -1,0 +1,63 @@
+{
+  "bag": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/bag",
+  "decoded_counts": {
+    "body": 53394,
+    "sport": 54090,
+    "lidar_imu": 44776,
+    "odom": 27346,
+    "clock": 7664,
+    "cloud": 2792,
+    "status": 906
+  },
+  "errors": [],
+  "source_bag_unchanged": true,
+  "decoding_elapsed_s": 79.3262972139928,
+  "cue_host_ns": 1792138739484015700,
+  "imu_columns": [
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz",
+    "qw",
+    "qx",
+    "qy",
+    "qz"
+  ],
+  "sport_columns": [
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz",
+    "qw",
+    "qx",
+    "qy",
+    "qz",
+    "roll",
+    "pitch",
+    "yaw"
+  ],
+  "odom_columns": [
+    "x",
+    "y",
+    "z",
+    "qw",
+    "qx",
+    "qy",
+    "qz",
+    "wx",
+    "wy",
+    "wz"
+  ],
+  "cloud_columns": [
+    "kept_time_min_s",
+    "kept_time_max_s",
+    "raw_points",
+    "kept_points",
+    "nonfinite_times",
+    "negative_time_steps"
+  ]
+}

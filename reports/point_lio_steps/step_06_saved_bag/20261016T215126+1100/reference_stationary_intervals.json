@@ -1,0 +1,10 @@
+{
+  "initial_still": {
+    "vendor_position_max_displacement_from_first_m": 0.0008964502463413573,
+    "body_orientation_max_change_from_first_deg": 0.3103894872463266
+  },
+  "final_still": {
+    "vendor_position_max_displacement_from_first_m": 0.000978981717500217,
+    "body_orientation_max_change_from_first_deg": 0.12648686245952462
+  }
+}

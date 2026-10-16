@@ -1,0 +1,10 @@
+{
+  "acceleration_xyz": [
+    3.90864634513855,
+    0.035757191479206085,
+    9.731149673461914
+  ],
+  "norm_m_s2": 10.48685218716395,
+  "source": "User ros2 topic echo output, 16 October 2026",
+  "observation": "Consistent with earlier quiet baseline; user did not explicitly confirm untouched during the capture."
+}

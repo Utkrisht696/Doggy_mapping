@@ -1,0 +1,6 @@
+{
+  "user_statement": "the whole route wasnt perfectly levelled there is a little bit of a dip. the robot walks forward and takes a roughly 90 degree turn towards right. thats where there is a drain so there is a little bit of a decline there.",
+  "level_floor_assumption_valid": false,
+  "physical_terrain_profile_measured": false,
+  "map_height_change_is_not_assigned_entirely_to_drift": true
+}

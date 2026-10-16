@@ -1,0 +1,67 @@
+{
+  "directory": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100",
+  "bag": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/bag",
+  "qos": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/record_qos.yaml",
+  "topics": [
+    "/utlidar/cloud",
+    "/utlidar/cloud_base",
+    "/utlidar/imu",
+    "/doggy/imu/body_calibrated",
+    "/sportmodestate",
+    "/utlidar/robot_odom",
+    "/utlidar/lidar_state",
+    "/doggy/robot_clock",
+    "/tf",
+    "/tf_static",
+    "/odom"
+  ],
+  "status": "stopped_saved",
+  "user_posture": "Standing and ready; stand-lock, level floor, clear space, remote ready",
+  "robot_commands_sent": false,
+  "mapping_started": false,
+  "application_hashes_before": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214"
+  },
+  "wrapper_pid": 1165369,
+  "pid": 1165383,
+  "started_host_ns": 1792143567607520885,
+  "stop_reason": "user_stop",
+  "startup_verification": {
+    "recorder_alive": true,
+    "all_11_topics_subscribed": true,
+    "database_file_growing": true,
+    "before_bytes": 39612416,
+    "after_bytes": 46129152,
+    "no_live_database_opened": true,
+    "no_error_in_log": true
+  },
+  "cue_host_ns": 1792143582286259145,
+  "session_id": 20561,
+  "returncode": 0,
+  "stopped_host_ns": 1792143775836730341,
+  "application_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/go2_body_imu.yaml": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_go2_state.py": "feab06a2b681b665a7116ffe2bdb1c214c4216c6f3e36c4ca5698c85c5763214"
+  },
+  "metadata_message_count_matches": true,
+  "stored_topic_counts": {
+    "/tf": 12946,
+    "/odom": 31246,
+    "/doggy/robot_clock": 8794,
+    "/doggy/imu/body_calibrated": 60810,
+    "/tf_static": 1,
+    "/sportmodestate": 61663,
+    "/utlidar/cloud_base": 3200,
+    "/utlidar/cloud": 3200,
+    "/utlidar/imu": 51318,
+    "/utlidar/lidar_state": 1037,
+    "/utlidar/robot_odom": 31229
+  },
+  "stored_receipt_start_ns": 1792143567959199416,
+  "stored_receipt_end_ns": 1792143775569355160
+}

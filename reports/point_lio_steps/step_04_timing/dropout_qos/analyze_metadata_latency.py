@@ -1,0 +1,16 @@
+"""Offline split of adapter DDS publication and output-observer callback delay."""
+from pathlib import Path
+import json,numpy as np
+BASE=Path(__file__).resolve().parent;ROOT=BASE.parents[3];run=ROOT/json.loads((BASE/'metadata_current_run.json').read_text())['directory'];folder=run/'with_recording';names=['be5','be2000','reliable2000','reliable_reference','adapter_output'];raw={n:np.load(folder/(n+'.npz')) for n in names};lo=max(int(v['stamp_ns'].min()) for v in raw.values())+10**9;hi=min(int(v['stamp_ns'].max()) for v in raw.values())-10**9
+unique={}
+for name,data in raw.items():
+ ix=np.flatnonzero((data['stamp_ns']>=lo)&(data['stamp_ns']<=hi));t,first=np.unique(data['stamp_ns'][ix],return_index=True);ix=ix[first];unique[name]={k:data[k][ix] for k in data.files};unique[name]['stamp_ns']=t
+source_first={};source_union=set()
+for name in names[:-1]:
+ u=unique[name]
+ for st,h in zip(u['stamp_ns'],u['host_ns']):source_first[int(st)]=min(source_first.get(int(st),int(h)),int(h));source_union.add(int(st))
+u=unique['adapter_output'];sel=np.array([int(st) in source_first for st in u['stamp_ns']]);st=u['stamp_ns'][sel];h=u['host_ns'][sel];pub=u['dds_source_ns'][sel];first=np.array([source_first[int(t)] for t in st],dtype=np.int64)
+def stats(a):return dict(zip(['min','median','p95','p99','max'],map(float,np.percentile(a,[0,50,95,99,100]))))
+pre=(pub-first)/1e6;post=(h-pub)/1e6;total=(h-first)/1e6;largest=np.argsort(total)[-10:][::-1]
+result={'recording_directory':str(run.relative_to(ROOT)),'common_interval_s':(hi-lo)/1e9,'matched_unique_output_packets':len(st),'source_union_stamps':len(source_union),'missing_output_stamps':len(source_union-set(map(int,u['stamp_ns']))),'output_dds_source_metadata_positive':bool(np.all(pub>0)),'output_observer_receipt_metadata_available':bool(np.all(u['dds_received_ns']>0)),'adapter_dds_publication_minus_first_source_observer_ms':stats(pre),'output_callback_minus_adapter_dds_publication_ms':stats(post),'output_callback_minus_first_source_observer_ms':stats(total),'worst_events':[{'stamp_ns':int(st[i]),'adapter_publication_relative_ms':float(pre[i]),'output_observer_after_publication_ms':float(post[i]),'total_relative_ms':float(total[i])} for i in largest],'method':'Same source TimeSpec matched across independent observers; earliest host callback time among source observers compared with output DDS source_timestamp (local publisher write timestamp) and output host callback time. DDS source stamp from robot is not compared directly to laptop time. Installed RMW provides received_timestamp=0, so network receipt and callback scheduling cannot be separated. Test-only executor preserves DDS metadata while retaining original callback scheduling.','limits':['Relative to independent source observer, not actual input receipt time inside adapter; negative values can occur.','DDS publication timestamp is write-time metadata and does not prove exact transmission completion or physical acquisition time.','Metadata retention adds small audit overhead.','The 68-second diagnostic is a separate recording-load trial and is not a re-interpretation of the earlier 606 ms event.']}
+(run/'latency_analysis.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

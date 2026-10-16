@@ -1,0 +1,210 @@
+{
+  "saved_local": "2026-10-16T15:27:37.008989+11:00",
+  "duration_s": 7.001708861993393,
+  "motion_commands_sent": false,
+  "streams": {
+    "lidar": {
+      "samples": 1733,
+      "last": {
+        "a": [
+          2.7159547805786133,
+          -0.07308202981948853,
+          9.492937088012695
+        ],
+        "g": [
+          0.01585366763174534,
+          -0.011912597343325615,
+          0.0016531581059098244
+        ],
+        "q": [
+          0.4558575749397278,
+          -0.1182265654206276,
+          -0.06137149780988693,
+          -0.8781102299690247
+        ],
+        "frame": "utlidar_imu",
+        "orientation_covariance": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "a": {
+        "mean": [
+          2.677047744075205,
+          -0.00017073405367809693,
+          9.804500473625593
+        ],
+        "std": [
+          0.12424298292458295,
+          0.07615158932585739,
+          0.10987012361985453
+        ],
+        "min": [
+          2.298283338546753,
+          -0.2536716163158417,
+          9.410079002380371
+        ],
+        "max": [
+          3.114168405532837,
+          0.2920611500740051,
+          10.351295471191406
+        ]
+      },
+      "g": {
+        "mean": [
+          0.008373255298392716,
+          0.0004221349333781815,
+          0.0007251954309982068
+        ],
+        "std": [
+          0.005615355690624292,
+          0.006652831856000963,
+          0.0033884183006013652
+        ],
+        "min": [
+          -0.008678087033331394,
+          -0.018425295129418373,
+          -0.009402615018188953
+        ],
+        "max": [
+          0.02798956073820591,
+          0.023008452728390694,
+          0.010990994982421398
+        ]
+      },
+      "acceleration_norm_m_s2": {
+        "mean": 10.164448119011519,
+        "std": 0.11007022250840254,
+        "min": 9.770940257278859,
+        "max": 10.732776643647123
+      },
+      "quaternion_rpy_degrees_last": [
+        -54.870849940932814,
+        15.335886536624354,
+        -0.00042150099577881596
+      ]
+    },
+    "body": {
+      "samples": 140,
+      "last": {
+        "a": [
+          -0.09816227108240128,
+          0.05746084079146385,
+          9.388861656188965
+        ],
+        "g": [
+          -0.009587379172444344,
+          0.004261057358235121,
+          -0.0063915858045220375
+        ],
+        "rpy": [
+          0.01234479434788227,
+          -0.0008476191433146596,
+          -1.7652531862258911
+        ],
+        "q_sdk_order": [
+          0.6351143717765808,
+          0.0035928671713918447,
+          -0.005036755930632353,
+          -0.7723932862281799
+        ]
+      },
+      "a": {
+        "mean": [
+          -0.11622139071779591,
+          0.09198864945875747,
+          9.521329729897635
+        ],
+        "std": [
+          0.031494539993538184,
+          0.03433801086329261,
+          0.05794563832626002
+        ],
+        "min": [
+          -0.16879121959209442,
+          0.013168109580874443,
+          9.370905876159668
+        ],
+        "max": [
+          -0.047884032130241394,
+          0.17238251864910126,
+          9.677363395690918
+        ]
+      },
+      "g": {
+        "mean": [
+          -0.007243797312756734,
+          -0.003606680570270068,
+          -0.009899349051660724
+        ],
+        "std": [
+          0.008169760781911823,
+          0.008698703095713599,
+          0.005585562438810206
+        ],
+        "min": [
+          -0.03302319347858429,
+          -0.02556634321808815,
+          -0.021305285394191742
+        ],
+        "max": [
+          0.014913700520992279,
+          0.020240021869540215,
+          0.0031957929022610188
+        ]
+      },
+      "acceleration_norm_m_s2": {
+        "mean": 9.522598047645712,
+        "std": 0.05782969597675264,
+        "min": 9.371771547458035,
+        "max": 9.678225939202601
+      },
+      "rpy_degrees": {
+        "mean": [
+          0.7275243194810318,
+          -0.040130693526825315,
+          -101.18453474693091
+        ],
+        "std": [
+          0.008360028839352338,
+          0.009273298565092023,
+          0.013460066974360477
+        ],
+        "min": [
+          0.703152713848886,
+          -0.05708269900867993,
+          -101.20610263042133
+        ],
+        "max": [
+          0.7459696222909621,
+          -0.013371273407880187,
+          -101.14155734276471
+        ]
+      }
+    },
+    "odom": {
+      "samples": 1041,
+      "last": {
+        "q": [
+          0.003516380675137043,
+          -0.0051050386391580105,
+          -0.7812851071357727,
+          0.6241434216499329
+        ]
+      },
+      "quaternion_rpy_degrees_last": [
+        0.7085628575715609,
+        -0.0503034657330213,
+        -102.7598566759654
+      ]
+    }
+  },
+  "tf_tree": "FL_calf: \n  parent: 'FL_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nFL_thigh: \n  parent: 'FL_hip'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nFL_hip: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nbase_link: \n  parent: 'base_footprint'\n  broadcaster: 'default_authority'\n  rate: 43.045\n  most_recent_transform: 1792124845.213798\n  oldest_transform: 1792124838.244395\n  buffer_length: 6.969\nFR_calf: \n  parent: 'FR_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nFR_thigh: \n  parent: 'FR_hip'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nFR_hip: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nRL_calf: \n  parent: 'RL_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nRL_thigh: \n  parent: 'RL_hip'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nRL_hip: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nRR_calf: \n  parent: 'RR_thigh'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nRR_thigh: \n  parent: 'RR_hip'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nRR_hip: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 20.146\n  most_recent_transform: 1792124845.173694\n  oldest_transform: 1792124838.224447\n  buffer_length: 6.949\nFL_calf_rotor: \n  parent: 'FL_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_calflower1: \n  parent: 'FL_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_calflower: \n  parent: 'FL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_foot: \n  parent: 'FL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_hip_rotor: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFL_thigh_rotor: \n  parent: 'FL_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_calf_rotor: \n  parent: 'FR_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_calflower1: \n  parent: 'FR_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_calflower: \n  parent: 'FR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_foot: \n  parent: 'FR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_hip_rotor: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nFR_thigh_rotor: \n  parent: 'FR_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nHead_lower: \n  parent: 'Head_upper'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nHead_upper: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_calf_rotor: \n  parent: 'RL_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_calflower1: \n  parent: 'RL_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_calflower: \n  parent: 'RL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_foot: \n  parent: 'RL_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_hip_rotor: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRL_thigh_rotor: \n  parent: 'RL_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_calf_rotor: \n  parent: 'RR_thigh'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_calflower1: \n  parent: 'RR_calflower'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_calflower: \n  parent: 'RR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_foot: \n  parent: 'RR_calf'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_hip_rotor: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nRR_thigh_rotor: \n  parent: 'RR_hip'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nfront_camera: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nimu: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nradar: \n  parent: 'base_link'\n  broadcaster: 'default_authority'\n  rate: 10000.000\n  most_recent_transform: 0.000000\n  oldest_transform: 0.000000\n  buffer_length: 0.000\nbase_footprint: \n  parent: 'odom'\n  broadcaster: 'default_authority'\n  rate: 43.045\n  most_recent_transform: 1792124845.213798\n  oldest_transform: 1792124838.244395\n  buffer_length: 6.969\n"
+}

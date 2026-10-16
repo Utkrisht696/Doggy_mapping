@@ -1,0 +1,4 @@
+# REVIEW ONLY: not approved or loaded. Use with the ORIGINAL input profile (gyro variance 0.1).
+/**:
+  ros__parameters:
+    init_map_size: 4000

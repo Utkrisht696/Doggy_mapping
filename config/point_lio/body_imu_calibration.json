@@ -1,0 +1,28 @@
+{
+  "approved": true,
+  "source_topic": "/sportmodestate",
+  "output_topic": "/doggy/imu/body_calibrated",
+  "frame_id": "imu",
+  "acc_bias_xyz_m_s2": [
+    -0.03668060064686202,
+    0.004903338424733026,
+    -0.2773451302389767
+  ],
+  "gyro_bias_xyz_rad_s": [
+    -0.0035657965370423164,
+    -0.003959187291719748,
+    -0.011451726501776841
+  ],
+  "gravity_reference_m_s2": 9.80665,
+  "calibration_method": "Fixed accelerometer bias from five held-pose gravity norms; fixed gyro bias from separate quiet baseline.",
+  "evidence": "reports/point_lio_steps/step_01_accelerometer/body_bias_validation.json",
+  "timestamp_policy": "Preserve TimeSpec sec/nanosec exactly; drop identical duplicate stamps; stop on backward clock or changed data at the same stamp.",
+  "uncertainty_policy": "No fabricated covariance; message covariance remains unknown. Point-LIO noise settings require separate review.",
+  "approved_local": "2026-10-16T17:30:43.676332+11:00",
+  "authorization": "User explicitly approved applying adapter and running passive output check.",
+  "limitations": [
+    "Five held poses, small angular range, unit-gain fixed-bias model. Not a full scale/misalignment or dynamic calibration.",
+    "Body IMU is the selected candidate input; original LiDAR IMU remains unmodified and unvalidated.",
+    "Sensor timing, Point-LIO input configuration and extrinsics require their separate checks before mapping."
+  ]
+}

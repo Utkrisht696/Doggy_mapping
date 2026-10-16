@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "poses": 2074,
+    "registered_clouds": 2074,
+    "clocks": 5947,
+    "tf_messages": 10821
+  },
+  "frames": [
+    "map"
+  ],
+  "rviz_running": true,
+  "player_running": false,
+  "playback_returncode": 0
+}

@@ -1,0 +1,185 @@
+{
+  "saved_local": "2026-10-16T20:14:13.288874+11:00",
+  "approved_source_qos_change_applied": true,
+  "source_subscription": {
+    "reliability": "RELIABLE",
+    "depth": 2000
+  },
+  "source_qos_completeness_passed_for_observed_trials": true,
+  "full_timing_passed": false,
+  "comparison": "reports/point_lio_steps/step_04_timing/dropout_qos/20261016T195913+1100/comparison.json",
+  "phases": [
+    {
+      "phase": "sensor_baseline",
+      "shared_interval_s": 65.433972859,
+      "observed_source_union_unique_stamps": 19427,
+      "calibrated_output_missing": 0,
+      "matched_source_output": 19427,
+      "bias_math_max_error": 0.0,
+      "output_delay_relative_to_earliest_source_observer_ms": {
+        "min": 0.194965,
+        "median": 1.693831,
+        "p95": 5.019410500000003,
+        "p99": 61.59584154000108,
+        "max": 172.251322
+      },
+      "host_udp_receive_overflows": 0,
+      "adapter_socket_drop_deltas": {
+        "1149716": {
+          "4765740": 0,
+          "4765741": 0,
+          "4765742": 0,
+          "4765743": 0
+        }
+      },
+      "common_source_max_gap_ms": 14.245835
+    },
+    {
+      "phase": "with_recording",
+      "shared_interval_s": 65.341785058,
+      "observed_source_union_unique_stamps": 19494,
+      "calibrated_output_missing": 0,
+      "matched_source_output": 19494,
+      "bias_math_max_error": 0.0,
+      "output_delay_relative_to_earliest_source_observer_ms": {
+        "min": -3.311902,
+        "median": 2.81738,
+        "p95": 142.56587444999994,
+        "p99": 554.19633304,
+        "max": 606.711822
+      },
+      "host_udp_receive_overflows": 0,
+      "adapter_socket_drop_deltas": {
+        "1149716": {
+          "4765740": 0,
+          "4765741": 0,
+          "4765742": 0,
+          "4765743": 0
+        }
+      },
+      "common_source_max_gap_ms": 15.892627
+    }
+  ],
+  "unprofiled_metadata_latency": {
+    "recording_directory": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200446+1100",
+    "common_interval_s": 65.401929105,
+    "matched_unique_output_packets": 19516,
+    "source_union_stamps": 19516,
+    "missing_output_stamps": 0,
+    "output_dds_source_metadata_positive": true,
+    "output_observer_receipt_metadata_available": false,
+    "adapter_dds_publication_minus_first_source_observer_ms": {
+      "min": -28.646724,
+      "median": 1.11536,
+      "p95": 359.7292855,
+      "p99": 458.06610865,
+      "max": 554.462891
+    },
+    "output_callback_minus_adapter_dds_publication_ms": {
+      "min": 0.660329,
+      "median": 1.670594,
+      "p95": 35.4388845,
+      "p99": 112.56547109999873,
+      "max": 210.354911
+    },
+    "output_callback_minus_first_source_observer_ms": {
+      "min": -0.55611,
+      "median": 3.0871649999999997,
+      "p95": 378.87705374999996,
+      "p99": 509.7630187,
+      "max": 628.586706
+    },
+    "worst_events": [
+      {
+        "stamp_ns": 1792141477410126718,
+        "adapter_publication_relative_ms": 525.491253,
+        "output_observer_after_publication_ms": 103.095453,
+        "total_relative_ms": 628.586706
+      },
+      {
+        "stamp_ns": 1792141477414043718,
+        "adapter_publication_relative_ms": 524.204188,
+        "output_observer_after_publication_ms": 102.237299,
+        "total_relative_ms": 626.441487
+      },
+      {
+        "stamp_ns": 1792141477404077550,
+        "adapter_publication_relative_ms": 525.590549,
+        "output_observer_after_publication_ms": 98.91313,
+        "total_relative_ms": 624.503679
+      },
+      {
+        "stamp_ns": 1792141477416232677,
+        "adapter_publication_relative_ms": 520.886752,
+        "output_observer_after_publication_ms": 102.180091,
+        "total_relative_ms": 623.066843
+      },
+      {
+        "stamp_ns": 1792141477396094508,
+        "adapter_publication_relative_ms": 530.181875,
+        "output_observer_after_publication_ms": 92.88494,
+        "total_relative_ms": 623.066815
+      },
+      {
+        "stamp_ns": 1792141477406078676,
+        "adapter_publication_relative_ms": 524.750758,
+        "output_observer_after_publication_ms": 98.297181,
+        "total_relative_ms": 623.047939
+      },
+      {
+        "stamp_ns": 1792141477344026086,
+        "adapter_publication_relative_ms": 547.325885,
+        "output_observer_after_publication_ms": 74.525565,
+        "total_relative_ms": 621.85145
+      },
+      {
+        "stamp_ns": 1792141477350162170,
+        "adapter_publication_relative_ms": 543.83778,
+        "output_observer_after_publication_ms": 77.952718,
+        "total_relative_ms": 621.790498
+      },
+      {
+        "stamp_ns": 1792141477400075758,
+        "adapter_publication_relative_ms": 529.311758,
+        "output_observer_after_publication_ms": 92.249628,
+        "total_relative_ms": 621.561386
+      },
+      {
+        "stamp_ns": 1792141477420096094,
+        "adapter_publication_relative_ms": 520.148946,
+        "output_observer_after_publication_ms": 101.363807,
+        "total_relative_ms": 621.512753
+      }
+    ],
+    "method": "Same source TimeSpec matched across independent observers; earliest host callback time among source observers compared with output DDS source_timestamp (local publisher write timestamp) and output host callback time. DDS source stamp from robot is not compared directly to laptop time. Installed RMW provides received_timestamp=0, so network receipt and callback scheduling cannot be separated. Test-only executor preserves DDS metadata while retaining original callback scheduling.",
+    "limits": [
+      "Relative to independent source observer, not actual input receipt time inside adapter; negative values can occur.",
+      "DDS publication timestamp is write-time metadata and does not prove exact transmission completion or physical acquisition time.",
+      "Metadata retention adds small audit overhead.",
+      "The 68-second diagnostic is a separate recording-load trial and is not a re-interpretation of the earlier 606 ms event."
+    ]
+  },
+  "profiling": {
+    "file": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/adapter_recording_load.pstats",
+    "trace_directory": "reports/point_lio_steps/step_04_timing/dropout_qos/latency_metadata_20261016T200921+1100",
+    "overhead_material": true,
+    "observed_profiled_delay_not_representative_of_normal_operation": true,
+    "conclusion": "Profiler slows service below incoming rate during load. Aggregate profiling does not isolate the cause of unprofiled latency spikes; no further application change made."
+  },
+  "final_runtime_verification": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/final_runtime_verification.json",
+  "normal_adapter_restored": true,
+  "remaining": [
+    "Intermittent delivery backlog under recording load; source/publisher/executor/scheduling contribution not isolated.",
+    "Physical LiDAR-cloud/body-IMU acquisition offset remains uncalibrated.",
+    "Receive-buffer setup is temporary and resets after laptop reboot."
+  ],
+  "limits": [
+    "Missing counts are relative to the union of independently observed source timestamps, not every packet produced inside the robot.",
+    "Delay measurements are relative to independent source observers, not physical acquisition time.",
+    "No mapping, bag replay, TF edit, bias edit or timestamp correction was performed in this change."
+  ],
+  "user_doublecheck_pending": false,
+  "robot_commands_sent": false,
+  "mapping_started": false,
+  "user_doublecheck": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/user_seated_doublecheck.json"
+}

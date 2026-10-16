@@ -1,0 +1,22 @@
+{
+  "static_samples": 1958,
+  "rotation_samples": 3924,
+  "measured_mean_rotation_rad_s": 1.2031270446389297,
+  "eight_values_finite": true,
+  "robot_motion_routine_ran": true,
+  "source": "/home/jain/Desktop/imu_calib_data.yaml",
+  "workspace_target": "/home/jain/Doggy/config/slam/imu_calib_data.yaml",
+  "workspace_installed": false,
+  "status": "Rotation verified; acceleration/gravity convention requires review before using calibration",
+  "surface_user_report": "Small incline (user said 1/2 degree)",
+  "acceleration_bias_m_s2": [
+    5.69319,
+    -0.021872,
+    -18.4282
+  ],
+  "cmu_transformed_static_acceleration_m_s2": [
+    5.69319,
+    -0.021872,
+    -8.6182
+  ]
+}

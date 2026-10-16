@@ -1,0 +1,9 @@
+{
+  "saved_local": "2026-10-16T16:02:19.929454+11:00",
+  "user_context": "User explained previous capture included a sit-to-stand transition; this capture follows that report. No further posture commands sent by assistant.",
+  "motion_commands_sent": false,
+  "counts": {
+    "imu": 2937,
+    "body": 240
+  }
+}

@@ -1,0 +1,12 @@
+diff --git a/cyclonedds_ws/src/unitree/unitree_go/CMakeLists.txt b/cyclonedds_ws/src/unitree/unitree_go/CMakeLists.txt
+index 7ab5f1c..94d265b 100755
+--- a/cyclonedds_ws/src/unitree/unitree_go/CMakeLists.txt
++++ b/cyclonedds_ws/src/unitree/unitree_go/CMakeLists.txt
+@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
+         "msg/UwbState.msg"
+         "msg/UwbSwitch.msg"
+         "msg/WirelessController.msg"
++        "msg/VoxelMapCompressed.msg"
+   DEPENDENCIES geometry_msgs
+ )
+ 

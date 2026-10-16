@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>go2_description</name>
+  <version>0.0.1</version>
+  <description>ROS 2 packaging wrapper for the unchanged official Unitree Go2 URDF and meshes.</description>
+  <maintainer email="local@example.invalid">Local workspace</maintainer>
+  <license>BSD-3-Clause</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

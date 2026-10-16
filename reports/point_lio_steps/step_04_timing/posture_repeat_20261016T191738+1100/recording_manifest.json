@@ -1,0 +1,101 @@
+{
+  "directory": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100",
+  "bag": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/bag",
+  "log": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/record.log",
+  "qos": "reports/point_lio_steps/step_04_timing/posture_repeat_20261016T191738+1100/record_qos.yaml",
+  "topics": [
+    "/utlidar/cloud",
+    "/utlidar/cloud_base",
+    "/utlidar/imu",
+    "/doggy/imu/body_calibrated",
+    "/sportmodestate",
+    "/utlidar/robot_odom",
+    "/utlidar/lidar_state",
+    "/doggy/robot_clock",
+    "/tf",
+    "/tf_static"
+  ],
+  "status": "stopped_saved",
+  "user_posture": "Standing and settled; user replied ready again",
+  "robot_commands_sent": false,
+  "wrapper_pid": 1133662,
+  "started_host_ns": 1792138658220924515,
+  "pid": 1133685,
+  "session_id": 3690,
+  "verification": "Recorder alive for 13-second check; all ten topics subscribed; database file growing; no recorder errors. No database connection opened.",
+  "startup_file_sizes": [
+    {
+      "host_ns": 1792138682849469068,
+      "bytes": 71045120
+    },
+    {
+      "host_ns": 1792138683851190825,
+      "bytes": 74104832
+    },
+    {
+      "host_ns": 1792138684853102800,
+      "bytes": 77332480
+    },
+    {
+      "host_ns": 1792138685854793529,
+      "bytes": 80375808
+    },
+    {
+      "host_ns": 1792138686855945459,
+      "bytes": 83591168
+    },
+    {
+      "host_ns": 1792138687856854899,
+      "bytes": 86654976
+    },
+    {
+      "host_ns": 1792138688857978860,
+      "bytes": 89899008
+    },
+    {
+      "host_ns": 1792138689858954153,
+      "bytes": 92946432
+    },
+    {
+      "host_ns": 1792138690860102053,
+      "bytes": 96178176
+    },
+    {
+      "host_ns": 1792138691862156028,
+      "bytes": 99237888
+    },
+    {
+      "host_ns": 1792138692863882842,
+      "bytes": 102285312
+    },
+    {
+      "host_ns": 1792138693864951292,
+      "bytes": 105525248
+    },
+    {
+      "host_ns": 1792138694866183192,
+      "bytes": 108580864
+    }
+  ],
+  "cue_host_ns": 1792138739484015700,
+  "cue_local": "2026-10-16T19:18:59.484619+11:00",
+  "planned_sequence": "10 s still; gentle alternating pitch 4-5 times; neutral 5 s; gentle alternating roll 4-5 times; neutral still 10 s; user done. Comfortable small angles, no exact 5-degree requirement; feet planted; no automated movement.",
+  "returncode": -2,
+  "stopped_host_ns": 1792138841487432889,
+  "stop_reason": "User done; SIGINT stop completed with recorder flush, metadata and database checks. CLI return -2 reflects interrupt, not a recording failure.",
+  "stored_topic_counts": {
+    "/doggy/imu/body_calibrated": 53394,
+    "/tf": 11295,
+    "/tf_static": 1,
+    "/doggy/robot_clock": 7664,
+    "/sportmodestate": 54090,
+    "/utlidar/cloud_base": 2793,
+    "/utlidar/cloud": 2792,
+    "/utlidar/imu": 44776,
+    "/utlidar/lidar_state": 906,
+    "/utlidar/robot_odom": 27346
+  },
+  "stored_receipt_start_ns": 1792138660010894397,
+  "stored_receipt_end_ns": 1792138841221493988,
+  "metadata_message_count_matches": true
+}

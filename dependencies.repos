@@ -1,0 +1,49 @@
+repositories:
+  sdk/unilidar_sdk:
+    type: git
+    url: https://github.com/unitreerobotics/unilidar_sdk.git
+    version: 1bd7d95d8ab7ce7a22058d2bb07e39fd62612aa6
+  sdk/unilidar_sdk2:
+    type: git
+    url: https://github.com/unitreerobotics/unilidar_sdk2.git
+    version: 0e3c51f512e6b8ff60b8c32f160b412cb48445c2
+  sdk/unitree_model:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_model.git
+    version: b6a8942b0803b6c137e58cef12beb4b03e4a2fa7
+  sdk/unitree_ros:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_ros.git
+    version: 5994d4faef0a9cadd3287f8de0199a67eeb2a259
+  sdk/unitree_ros2:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_ros2.git
+    version: 668d1ec5a05d1c38d3306bdca7d59f2ba3581a88
+  sdk/unitree_sdk2:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_sdk2.git
+    version: 63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36
+  sdk/unitree_sdk2_python:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_sdk2_python.git
+    version: 814556d15970dd2ecf1c9984e845ca02ab07e206
+  sdk/unitree_slam:
+    type: git
+    url: https://github.com/unitreerobotics/unitree_slam.git
+    version: 1e49bfa4dca2c992a566ee7d1d8480d4102149b8
+  third_party/navigation2:
+    type: git
+    url: https://github.com/ros-navigation/navigation2.git
+    version: 3c3db59d6969d8ecee8e68468693d006397f4a0c
+  third_party/point_lio_ros2:
+    type: git
+    url: https://github.com/dfloreaa/point_lio_ros2.git
+    version: a8e2d0d5090af97ead8dd4fac3d37cf3dbb33ff7
+  third_party/pointcloud_to_laserscan:
+    type: git
+    url: https://github.com/ros-perception/pointcloud_to_laserscan.git
+    version: 59bf996fb3ee7db0026a5cd3ce0d2a39d2e602ea
+  third_party/robot_localization:
+    type: git
+    url: https://github.com/cra-ros-pkg/robot_localization.git
+    version: 8696ee5a9e4f959fcaae37835dcf2ed12ead581b

@@ -1,0 +1,138 @@
+{
+  "method": "Apply the previously recovered raw/body stream conversion unchanged to this independent operator-controlled pitch/roll/yaw bag; require exact header stamp and unique ring/time/intensity point correspondence. No fit to this bag and no TF published.",
+  "pairs": [
+    {
+      "requested_s": 2,
+      "receipt_s": 2.038467648,
+      "matched": true,
+      "unique_points": 1309,
+      "residual_m_quantiles": [
+        2.1961970243249336e-09,
+        6.374470165461531e-08,
+        3.0023047546815803e-07,
+        6.543531276788065e-07,
+        1.9312549156584234e-06
+      ]
+    },
+    {
+      "requested_s": 10,
+      "receipt_s": 10.014755102,
+      "matched": true,
+      "unique_points": 1197,
+      "residual_m_quantiles": [
+        2.0535644829860416e-09,
+        7.332418810930667e-08,
+        6.521452325653789e-07,
+        1.2815021260918019e-06,
+        1.875126136043631e-06
+      ]
+    },
+    {
+      "requested_s": 22,
+      "receipt_s": 22.011103711,
+      "matched": true,
+      "unique_points": 891,
+      "residual_m_quantiles": [
+        3.5280186160719187e-09,
+        5.858677935241593e-08,
+        5.172621396559039e-07,
+        1.2450426111044447e-06,
+        2.1808123604426017e-06
+      ]
+    },
+    {
+      "requested_s": 36,
+      "receipt_s": 36.017915736,
+      "matched": true,
+      "unique_points": 1288,
+      "residual_m_quantiles": [
+        5.492514463581952e-09,
+        6.73728843243707e-08,
+        5.178924001636434e-07,
+        1.1963491743367561e-06,
+        2.176495627562015e-06
+      ]
+    },
+    {
+      "requested_s": 45,
+      "receipt_s": 45.032892633,
+      "matched": true,
+      "unique_points": 946,
+      "residual_m_quantiles": [
+        9.361324331952403e-09,
+        6.713521356811846e-08,
+        5.741650205119539e-07,
+        1.1215783474764174e-06,
+        2.448172492893401e-06
+      ]
+    },
+    {
+      "requested_s": 48,
+      "receipt_s": 48.017229711,
+      "matched": true,
+      "unique_points": 1016,
+      "residual_m_quantiles": [
+        6.533694190679818e-09,
+        7.425025191780287e-08,
+        5.781747912972566e-07,
+        1.177149598542965e-06,
+        2.1290242625492805e-06
+      ]
+    },
+    {
+      "requested_s": 55,
+      "receipt_s": 55.021220526,
+      "matched": true,
+      "unique_points": 1236,
+      "residual_m_quantiles": [
+        1.573431630605384e-09,
+        7.383596222187953e-08,
+        7.365900467491873e-07,
+        1.3261065268825912e-06,
+        2.1940259549109234e-06
+      ]
+    },
+    {
+      "requested_s": 66,
+      "receipt_s": 66.043358463,
+      "matched": true,
+      "unique_points": 1366,
+      "residual_m_quantiles": [
+        5.164001401250246e-09,
+        6.404983744458998e-08,
+        2.810571603115669e-07,
+        5.141070755545812e-07,
+        8.546291553749783e-07
+      ]
+    },
+    {
+      "requested_s": 76,
+      "receipt_s": 76.032088939,
+      "matched": true,
+      "unique_points": 1272,
+      "residual_m_quantiles": [
+        5.385982315236325e-09,
+        6.254536378172827e-08,
+        2.849624318852356e-07,
+        5.956300719430651e-07,
+        9.87949130219807e-07
+      ]
+    },
+    {
+      "requested_s": 84,
+      "receipt_s": 84.011561472,
+      "matched": true,
+      "unique_points": 1317,
+      "residual_m_quantiles": [
+        3.693899187066284e-09,
+        6.397485395766409e-08,
+        2.553193917295165e-07,
+        5.246877575063187e-07,
+        1.7743381064069422e-06
+      ]
+    }
+  ],
+  "points": 11838,
+  "max_residual_m": 2.448172492893401e-06,
+  "sqlite_quick_check": "ok"
+}

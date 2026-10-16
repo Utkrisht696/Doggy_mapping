@@ -1,0 +1,59 @@
+[submodule "sdk/unilidar_sdk"]
+	path = sdk/unilidar_sdk
+	url = https://github.com/unitreerobotics/unilidar_sdk.git
+	ignore = untracked
+
+[submodule "sdk/unilidar_sdk2"]
+	path = sdk/unilidar_sdk2
+	url = https://github.com/unitreerobotics/unilidar_sdk2.git
+	ignore = untracked
+
+[submodule "sdk/unitree_model"]
+	path = sdk/unitree_model
+	url = https://github.com/unitreerobotics/unitree_model.git
+	ignore = untracked
+
+[submodule "sdk/unitree_ros"]
+	path = sdk/unitree_ros
+	url = https://github.com/unitreerobotics/unitree_ros.git
+	ignore = untracked
+
+[submodule "sdk/unitree_ros2"]
+	path = sdk/unitree_ros2
+	url = https://github.com/unitreerobotics/unitree_ros2.git
+	ignore = untracked
+
+[submodule "sdk/unitree_sdk2"]
+	path = sdk/unitree_sdk2
+	url = https://github.com/unitreerobotics/unitree_sdk2.git
+	ignore = untracked
+
+[submodule "sdk/unitree_sdk2_python"]
+	path = sdk/unitree_sdk2_python
+	url = https://github.com/unitreerobotics/unitree_sdk2_python.git
+	ignore = untracked
+
+[submodule "sdk/unitree_slam"]
+	path = sdk/unitree_slam
+	url = https://github.com/unitreerobotics/unitree_slam.git
+	ignore = untracked
+
+[submodule "third_party/navigation2"]
+	path = third_party/navigation2
+	url = https://github.com/ros-navigation/navigation2.git
+	ignore = untracked
+
+[submodule "third_party/point_lio_ros2"]
+	path = third_party/point_lio_ros2
+	url = https://github.com/dfloreaa/point_lio_ros2.git
+	ignore = untracked
+
+[submodule "third_party/pointcloud_to_laserscan"]
+	path = third_party/pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan.git
+	ignore = untracked
+
+[submodule "third_party/robot_localization"]
+	path = third_party/robot_localization
+	url = https://github.com/cra-ros-pkg/robot_localization.git
+	ignore = untracked

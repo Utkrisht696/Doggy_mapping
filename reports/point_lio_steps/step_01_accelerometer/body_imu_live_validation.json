@@ -1,0 +1,45 @@
+{
+  "checked_local": "2026-10-16T17:32:09.244963+11:00",
+  "scope": "Approved body IMU adapter live passive validation; no estimator, mapping, TF, calibration motion or robot commands.",
+  "duration_s": 20.940254676999757,
+  "source_messages_by_unique_stamp": 5823,
+  "output_messages": 5821,
+  "paired_messages": 5819,
+  "max_correction_numeric_error": 0.0,
+  "max_orientation_numeric_error": 0.0,
+  "mean_corrected_acceleration_xyz": [
+    0.8826264513503723,
+    -0.08162456281996051,
+    9.765541736276939
+  ],
+  "mean_corrected_acceleration_norm": 9.805754291804314,
+  "std_corrected_acceleration_norm": 0.027639665593964483,
+  "mean_corrected_gyro_xyz": [
+    -0.00017809767027216657,
+    4.9251717531629104e-05,
+    8.018103704284454e-05
+  ],
+  "reported_body_rpy_span_deg": [
+    0.11596441268920898,
+    0.11676378548145294,
+    0.1063733622431755
+  ],
+  "output_receipt_rate_hz": 295.5099578759368,
+  "output_publisher_nodes": [
+    "doggy_body_imu"
+  ],
+  "checks": {
+    "paired_messages_at_exact_source_timestamp": true,
+    "correction_math": true,
+    "orientation_copy_and_order": true,
+    "strictly_increasing_output_stamps": true,
+    "correct_developer_imu_frame": true,
+    "no_fabricated_covariance": true,
+    "single_output_publisher": true,
+    "all_output_values_finite": true,
+    "static_magnitude_mean_near_g": true,
+    "no_mapping_nodes": true
+  },
+  "passed": true,
+  "limits": "Stationary signal and adapter contract check only. Walking dynamics, full intrinsic calibration and LiDAR-relative acquisition timing remain untested."
+}

@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "imu": 1452,
+    "cloud": 77,
+    "clock": 212
+  },
+  "frames": {
+    "imu": "imu",
+    "clock": "robot clock",
+    "cloud": "utlidar_lidar"
+  },
+  "publishers": {
+    "/point_lio/odometry": 0,
+    "/doggy/imu/body_calibrated": 1,
+    "/doggy/robot_clock": 1
+  },
+  "adapter_pid": 1201330,
+  "adapter_alive": true,
+  "rmem_max": 8388608
+}

@@ -1,0 +1,12 @@
+{
+  "user_statement": "done. i walked 3m forward and backward (wasnt perfectly straight) and then i walked 5m forward and backward (not completely stragiht) i did not turn i tried to keep the same heading",
+  "legs_m": [
+    3.0,
+    5.0
+  ],
+  "paths_not_perfectly_straight": true,
+  "turned_around_at_far_point": false,
+  "user_attempted_same_heading": true,
+  "distance_measurement_method_not_provided": true,
+  "endpoint_physical_repositioning_precision_not_provided": true
+}

@@ -1,0 +1,17 @@
+{
+  "saved_local": "2026-10-16T17:17:09.765606+11:00",
+  "diagnostic_only": true,
+  "reader_source_sha256": "516df8e80ee62400c492e688a5fd744013a760e8159416c25042804bda87ef69",
+  "official_sdk_commit": "63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36",
+  "sdk_imu_header_sha256": "c622c7c4248920f919e7afdd6d87f353c2daa129c33a7fdc42933f65c1672cf8",
+  "native_topic": "rt/utlidar/imu",
+  "ros_topic": "/utlidar/imu",
+  "network_interface": "enp7s0",
+  "domain": 0,
+  "duration_native_seconds": 14,
+  "duration_ros_seconds": 19,
+  "compile_command": "c++ -std=c++17 -O1 -pthread -I sdk/unitree_sdk2/include -I sdk/unitree_sdk2/thirdparty/include -I sdk/unitree_sdk2/thirdparty/include/ddscxx /tmp/doggy_imu_decode_check/native_imu_reader.cpp local/lib/libunitree_sdk2.a -L local/lib -Wl,-rpath,/home/jain/Doggy/local/lib -lddsc -lddscxx -o /tmp/doggy_imu_decode_check/native_imu_reader",
+  "application_code_or_runtime_configuration_changed": false,
+  "temporary_executable": "/tmp/doggy_imu_decode_check/native_imu_reader",
+  "no_publisher_or_robot_command_api_used": true
+}

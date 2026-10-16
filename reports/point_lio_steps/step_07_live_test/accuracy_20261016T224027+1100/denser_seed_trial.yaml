@@ -1,0 +1,4 @@
+# User-approved temporary startup-map threshold override, original gyro variance 0.1.
+/**:
+  ros__parameters:
+    init_map_size: 4000

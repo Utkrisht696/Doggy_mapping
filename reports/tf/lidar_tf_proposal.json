@@ -1,0 +1,78 @@
+{
+  "saved_local": "2026-10-16T15:55:27.975815+11:00",
+  "status": "FOR REVIEW ONLY; not published; no code/config edits authorized or performed in this audit",
+  "parent": "radar",
+  "child": "utlidar_lidar",
+  "translation_m": [
+    -0.005152688450810778,
+    1.9947337309700327e-08,
+    -0.04710809557747969
+  ],
+  "quaternion_xyzw": [
+    0.0007911776879826205,
+    -0.00042867244871045253,
+    0.8788178054238481,
+    -0.4771566358626999
+  ],
+  "rpy_degrees_for_review": [
+    -0.08642968804679273,
+    -0.056236634339976395,
+    -123.00020940062508
+  ],
+  "basis": "Topic-derived conversion between vendor raw cloud and vendor body cloud, expressed relative to unchanged developer radar mount; not a manufacturer-specified raw-frame extrinsic.",
+  "urdf_radar_position_m": [
+    0.28945,
+    0.0,
+    -0.046825
+  ],
+  "urdf_radar_rpy_radians": [
+    0.0,
+    2.8782,
+    0.0
+  ],
+  "urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "effective_base_link_to_raw": {
+    "translation_m": [
+      0.28216002866813134,
+      1.994733730970033e-08,
+      -1.5374389983335845e-08
+    ],
+    "rotation_matrix": [
+      [
+        0.5261139017353029,
+        -0.8101358157255057,
+        0.2586196482860969
+      ],
+      [
+        -0.8386681734567218,
+        -0.5446427221842449,
+        1.5814066921490184e-06
+      ],
+      [
+        0.14085402809867137,
+        -0.21689690004816572,
+        -0.9659792324464709
+      ]
+    ]
+  },
+  "validation": {
+    "reference_stamp_ns": 1792126228063470363,
+    "later_pair_count": 12,
+    "later_unique_correspondences": 5706,
+    "later_capture_offset_s": 219.819008112,
+    "max_numerical_conversion_residual_m": 2.102832027085993e-06
+  },
+  "limitations": [
+    "Verifies published coordinate conversion only; does not survey physical sensor placement.",
+    "Stationary samples only; movement and restart stability are not yet checked.",
+    "The recovered conversion has a nontrivial rotation and origin offset relative to radar; an identity alias would be incorrect.",
+    "Raw IMU axes and orientation conventions remain unresolved; do not use the SDK translation blindly for this DDS stream."
+  ],
+  "proposed_action_after_approval": "Add this one fixed measurement-frame transform through a shared description/launch path; keep vendor geometry untouched; verify single ownership and source-stamp raw-cloud TF with RViz and numerical comparisons. Do not start SLAM or motion.",
+  "not_in_this_change": [
+    "IMU TF",
+    "CMU preprocessing",
+    "Point-LIO parameters",
+    "sensor covariance values"
+  ]
+}

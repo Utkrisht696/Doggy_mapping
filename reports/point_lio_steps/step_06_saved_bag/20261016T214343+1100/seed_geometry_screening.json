@@ -1,0 +1,61 @@
+{
+  "method": "Offline NumPy nearest-five plane-test approximation at zero motion, using scan 2 as a seed hypothesis; not a measurement from the running filter. The same held-out query scan is used for all seed counts. PCL voxel/numerical/map-filter differences are possible. Accepted matches do not prove correspondence correctness or estimator stability.",
+  "query_scan_index": 22,
+  "query_source_elapsed_s": 1.426815271,
+  "results": [
+    {
+      "seed_scans": 1,
+      "seed_points_before_map_voxel_merging": 481,
+      "query_points": 357,
+      "accepted_plane_matches": 216,
+      "accepted_fraction": 0.6050420168067226,
+      "near_horizontal_plane_fraction": 0.6296296296296297,
+      "normal_information_eigenvalues": [
+        15.157164386798161,
+        43.323535448084684,
+        157.51930016511722
+      ],
+      "rotation_schur_eigenvalues": [
+        17.164186318239427,
+        28.200272347128507,
+        99.65718928139205
+      ]
+    },
+    {
+      "seed_scans": 10,
+      "seed_points_before_map_voxel_merging": 4039,
+      "query_points": 357,
+      "accepted_plane_matches": 357,
+      "accepted_fraction": 1.0,
+      "near_horizontal_plane_fraction": 0.20168067226890757,
+      "normal_information_eigenvalues": [
+        46.48760834197611,
+        127.1475446271766,
+        183.3648470308472
+      ],
+      "rotation_schur_eigenvalues": [
+        37.101956020966206,
+        58.607794523920646,
+        115.03067206872089
+      ]
+    },
+    {
+      "seed_scans": 20,
+      "seed_points_before_map_voxel_merging": 8117,
+      "query_points": 357,
+      "accepted_plane_matches": 357,
+      "accepted_fraction": 1.0,
+      "near_horizontal_plane_fraction": 0.18207282913165265,
+      "normal_information_eigenvalues": [
+        58.007644993065114,
+        134.99658603600267,
+        163.99576897093223
+      ],
+      "rotation_schur_eigenvalues": [
+        34.40877613498896,
+        43.660087048639745,
+        104.7911043079597
+      ]
+    }
+  ]
+}

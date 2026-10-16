@@ -1,0 +1,9 @@
+{
+  "same_estimator_stamp_sequence": true,
+  "same_pose_array_bitwise": true,
+  "max_absolute_pose_component_difference": 0.0,
+  "all_source_imu_stamps_observed_exactly": true,
+  "all_source_cloud_stamps_observed_exactly": true,
+  "observer_imu_message_count": 73859,
+  "source_imu_message_count": 73859
+}

@@ -1,0 +1,63 @@
+{
+  "run": "reports/point_lio_steps/step_06_saved_bag/20261016T215933+1100",
+  "stop_reason": "playback_complete",
+  "source_interval_s": [
+    0.840530634,
+    253.276025534
+  ],
+  "odometry_messages": 3894,
+  "registered_clouds": 3894,
+  "estimator_tf_stamps_exact_match": true,
+  "multiple_tf_parents": {},
+  "default_profile_changed": false,
+  "gyro_variance": 0.1,
+  "init_map_size": 4000,
+  "acquisition_lag_validated": false,
+  "initial_still": {
+    "source_interval_s": [
+      5,
+      55
+    ],
+    "samples": 771,
+    "max_position_excursion_from_reference_m": 0.3459190343115177,
+    "max_orientation_change_from_first_deg": 4.374576085555154,
+    "position_start_to_end_m": 0.014772127859442019
+  },
+  "final_still": {
+    "source_interval_s": [
+      220,
+      250
+    ],
+    "samples": 463,
+    "max_position_excursion_from_reference_m": 0.03543161999278464,
+    "max_orientation_change_from_first_deg": 0.611710016974485,
+    "position_start_to_end_m": 0.013510840413215312
+  },
+  "imu_missing_in_observed_stamp_interval": 0,
+  "cloud_missing_in_observed_stamp_interval": 0,
+  "vendor_comparison": {
+    "not_external_ground_truth": true,
+    "alignment": "One initial rigid transform, including developer body->IMU lever arm; no trajectory optimization",
+    "position_difference_median_m": 0.3442333917192104,
+    "position_difference_p95_m": 1.7535232728494192,
+    "position_difference_max_m": 1.9196109350332045,
+    "orientation_difference_p95_deg": 12.30597453464411,
+    "orientation_difference_max_deg": 13.173599622444689
+  },
+  "initial_segment_comparisons": [
+    {
+      "label": "Original seed 10",
+      "max_position_displacement_first_13_75s_m": 2.3268964511760606
+    },
+    {
+      "label": "Gyro-only trial",
+      "max_position_displacement_first_13_75s_m": 1.655739627309983
+    },
+    {
+      "label": "Seed 4000, original gyro",
+      "max_position_displacement_first_13_75s_m": 0.045770747114519714
+    }
+  ],
+  "diagnostic_accumulation_points": 112836,
+  "diagnostic_accumulation_is_full_internal_map": false
+}

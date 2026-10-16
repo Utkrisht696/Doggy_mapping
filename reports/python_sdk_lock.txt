@@ -1,0 +1,12 @@
+click==8.5.0
+cyclonedds==0.10.2
+markdown-it-py==4.2.0
+mdurl==0.1.2
+numpy==1.26.4
+opencv-python==4.11.0.86
+packaging==26.3
+Pygments==2.21.0
+rich==15.0.0
+rich-click==1.9.9
+typing_extensions==4.16.0
+-e git+https://github.com/unitreerobotics/unitree_sdk2_python.git@814556d15970dd2ecf1c9984e845ca02ab07e206#egg=unitree_sdk2py

@@ -1,0 +1,331 @@
+{
+  "timestamp_transport_passed": true,
+  "acquisition_latency_calibrated": false,
+  "checks": {
+    "capture_no_decoding_errors": true,
+    "one_body_imu_publisher": true,
+    "one_cloud_publisher": true,
+    "one_private_robot_clock": true,
+    "no_global_clock_publisher": true,
+    "selected_imu_stamps_strictly_increasing": true,
+    "cloud_headers_strictly_increasing": true,
+    "odometry_and_robot_clock_increasing": true,
+    "matched_body_source_packets": true,
+    "matched_body_source_values_exact": true,
+    "clock_matches_odometry_in_reliable_crosscheck": true,
+    "point_times_finite_nonnegative": true,
+    "kept_point_times_within_scan_period_scale": true,
+    "all_scans_have_bracketing_imu": true,
+    "no_cross_scan_kept_point_time_reversal": true
+  },
+  "streams": {
+    "body": {
+      "messages": 13397,
+      "source_interval_ms": {
+        "min": 0.261041,
+        "median": 3.9655,
+        "p95": 4.11389575,
+        "p99": 5.5204054499999655,
+        "max": 17.738752,
+        "mean": 3.3592065713645867
+      },
+      "strictly_increasing": true,
+      "backsteps": 0,
+      "identical_stamps": 0,
+      "distinct_stamp_rate_hz": 297.6893438243594,
+      "receipt_minus_header_s": {
+        "min": 13.120192086,
+        "median": 13.121877559,
+        "p95": 13.123188274799999,
+        "p99": 13.12522545296,
+        "max": 13.148177155,
+        "mean": 13.121965295778978
+      },
+      "receipt_callback_interval_ms": {
+        "min": 0.309296,
+        "median": 3.330395,
+        "p95": 3.9669085,
+        "p99": 6.0404293,
+        "max": 29.028567,
+        "mean": 3.3590282915049263
+      },
+      "host_vs_monotonic_change_ms": {
+        "min": -0.019178,
+        "median": 0.000215,
+        "p95": 0.000274,
+        "p99": 0.000295,
+        "max": 0.000345,
+        "mean": 0.00017058580279166976
+      }
+    },
+    "sport": {
+      "messages": 13469,
+      "source_interval_ms": {
+        "min": 0.0,
+        "median": 3.9646885000000003,
+        "p95": 4.1134566,
+        "p99": 5.451014189999992,
+        "max": 17.738752,
+        "mean": 3.341254314300564
+      },
+      "strictly_increasing": false,
+      "backsteps": 0,
+      "identical_stamps": 72,
+      "distinct_stamp_rate_hz": 297.6888021952944,
+      "receipt_minus_header_s": {
+        "min": 13.119930198,
+        "median": 13.121547426,
+        "p95": 13.1228167304,
+        "p99": 13.12465107648,
+        "max": 13.148364983,
+        "mean": 13.121628490993913
+      },
+      "receipt_callback_interval_ms": {
+        "min": 0.254882,
+        "median": 3.3296365,
+        "p95": 3.92987105,
+        "p99": 5.475826859999999,
+        "max": 29.495378,
+        "mean": 3.341227213097713
+      },
+      "host_vs_monotonic_change_ms": {
+        "min": -0.028127,
+        "median": 3.5e-05,
+        "p95": 0.000144,
+        "p99": 0.000192,
+        "max": 0.00026,
+        "mean": -3.437048036231346e-05
+      }
+    },
+    "lidar_imu": {
+      "messages": 11126,
+      "source_interval_ms": {
+        "min": 0.132084,
+        "median": 4.481316,
+        "p95": 6.090689399999996,
+        "p99": 9.04521976,
+        "max": 14.057636,
+        "mean": 4.044596532764046
+      },
+      "strictly_increasing": true,
+      "backsteps": 0,
+      "identical_stamps": 0,
+      "distinct_stamp_rate_hz": 247.24344984705013,
+      "receipt_minus_header_s": {
+        "min": 13.119590208,
+        "median": 13.120262261,
+        "p95": 13.1208571335,
+        "p99": 13.1219228095,
+        "max": 13.148764385,
+        "mean": 13.12030792481404
+      },
+      "receipt_callback_interval_ms": {
+        "min": 0.222327,
+        "median": 4.400122,
+        "p95": 6.598029599999994,
+        "p99": 9.469027920000002,
+        "max": 33.082356,
+        "mean": 4.044519735640449
+      },
+      "host_vs_monotonic_change_ms": {
+        "min": -0.02328,
+        "median": -8.3e-05,
+        "p95": 3e-06,
+        "p99": 3.9e-05,
+        "max": 9.6e-05,
+        "mean": -0.00012502175085385582
+      }
+    },
+    "cloud": {
+      "messages": 694,
+      "source_interval_ms": {
+        "min": 57.97863,
+        "median": 64.894438,
+        "p95": 67.937899,
+        "p99": 69.48325163999999,
+        "max": 71.974277,
+        "mean": 64.84416759451659
+      },
+      "strictly_increasing": true,
+      "backsteps": 0,
+      "identical_stamps": 0,
+      "distinct_stamp_rate_hz": 15.421587431782575,
+      "receipt_minus_header_s": {
+        "min": 13.180671768,
+        "median": 13.187714472,
+        "p95": 13.1913583839,
+        "p99": 13.193493979340001,
+        "max": 13.205922219,
+        "mean": 13.187768053639768
+      },
+      "receipt_callback_interval_ms": {
+        "min": 47.595473,
+        "median": 64.780549,
+        "p95": 69.2281658,
+        "p99": 71.42970220000001,
+        "max": 81.458032,
+        "mean": 64.84399445598847
+      },
+      "host_vs_monotonic_change_ms": {
+        "min": -0.000971,
+        "median": -1.8e-05,
+        "p95": 9.435000000000002e-05,
+        "p99": 0.000125,
+        "max": 0.000147,
+        "mean": -6.974495677233428e-05
+      }
+    },
+    "odom": {
+      "messages": 6800,
+      "source_interval_ms": {
+        "min": 4.009247,
+        "median": 6.658315,
+        "p95": 7.109403799999998,
+        "p99": 9.100636959999973,
+        "max": 20.486831,
+        "mean": 6.617864662597442
+      },
+      "strictly_increasing": true,
+      "backsteps": 0,
+      "identical_stamps": 0,
+      "distinct_stamp_rate_hz": 151.1061423863435,
+      "receipt_minus_header_s": {
+        "min": 13.119758913,
+        "median": 13.1206815745,
+        "p95": 13.1213518093,
+        "p99": 13.12233407268,
+        "max": 13.149348578,
+        "mean": 13.120729815410588
+      },
+      "receipt_callback_interval_ms": {
+        "min": 0.662379,
+        "median": 6.654591,
+        "p95": 7.505596899999999,
+        "p99": 9.505405879999998,
+        "max": 34.927042,
+        "mean": 6.618007886600972
+      },
+      "host_vs_monotonic_change_ms": {
+        "min": -0.013753,
+        "median": 0.000173,
+        "p95": 0.000257,
+        "p99": 0.0002830100000000002,
+        "max": 0.000321,
+        "mean": 0.00014432382352941179
+      }
+    },
+    "clock": {
+      "messages": 1912,
+      "source_interval_ms": {
+        "min": 20.000696,
+        "median": 23.467779,
+        "p95": 26.807069499999997,
+        "p99": 28.154587100000008,
+        "max": 32.910347,
+        "mean": 23.545191962846676
+      },
+      "strictly_increasing": true,
+      "backsteps": 0,
+      "identical_stamps": 0,
+      "distinct_stamp_rate_hz": 42.471516120062134,
+      "receipt_minus_header_s": {
+        "min": 13.120265151,
+        "median": 13.1212021105,
+        "p95": 13.12207776025,
+        "p99": 13.12470821136,
+        "max": 13.136910876,
+        "mean": 13.121305666951883
+      },
+      "receipt_callback_interval_ms": {
+        "min": 11.088011,
+        "median": 23.668349,
+        "p95": 27.246104,
+        "p99": 29.894549600000015,
+        "max": 41.950514,
+        "mean": 23.54550159759288
+      },
+      "host_vs_monotonic_change_ms": {
+        "min": -0.019246,
+        "median": 0.000108,
+        "p95": 0.00019144999999999983,
+        "p99": 0.00021088999999999987,
+        "max": 0.000229,
+        "mean": 7.828504184100419e-05
+      }
+    }
+  },
+  "initial_best_effort_clock_stamps_absent_from_odom_capture": 0,
+  "source_matching": {
+    "exact_stamp_packets": 13396,
+    "max_acc_gyro_correction_error": 0.0
+  },
+  "coverage": {
+    "scans": 662,
+    "bracketed_scans": 662,
+    "samples_per_scan": {
+      "min": 14.0,
+      "median": 18.0,
+      "p95": 19.0,
+      "p99": 19.0,
+      "max": 20.0,
+      "mean": 17.835347432024168
+    },
+    "max_imu_gap_within_scans_ms": {
+      "min": 4.015667,
+      "median": 4.1492505,
+      "p95": 7.879733399999999,
+      "p99": 8.121035879999999,
+      "max": 17.738752,
+      "mean": 4.69734335347432
+    },
+    "wait_for_end_sample_ms": {
+      "min": 0.0,
+      "median": 0.0,
+      "p95": 1.1953732499999963,
+      "p99": 1.9814435599999956,
+      "max": 5.036679,
+      "mean": 0.12355012688821752
+    },
+    "scans_waiting_for_end_sample": 59,
+    "kept_scan_duration_ms": {
+      "min": 52.370583,
+      "median": 60.122958499999996,
+      "p95": 62.67397785,
+      "p99": 62.8455463,
+      "max": 64.558019,
+      "mean": 59.81364351585014
+    },
+    "gap_between_kept_scan_points_ms": {
+      "min": 1.502591,
+      "median": 4.752113,
+      "p95": 7.706980199999998,
+      "p99": 9.055417320000005,
+      "max": 11.428779,
+      "mean": 5.027885744588745
+    },
+    "raw_point_order_reversal_clouds": 72,
+    "maximum_point_unit_rounding_error_ns": 3
+  },
+  "cloud_receipt_minus_last_point_s": {
+    "min": 13.123450264,
+    "median": 13.126846972,
+    "p95": 13.13067819615,
+    "p99": 13.13259315791,
+    "max": 13.145403683,
+    "mean": 13.127011385778099
+  },
+  "body_gyro_std_rad_s": [
+    0.006937756413560007,
+    0.008081153164674042,
+    0.006217874451846468
+  ],
+  "profile_sha256": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+  "conclusions": [
+    "No source-stamp, point-time unit, bracketing or clock-owner defect detected in this capture.",
+    "The approx 13 s laptop/robot difference is not an inter-sensor correction.",
+    "Keep original acquisition stamps; do not stamp packets on receipt or change system clock.",
+    "0.004 s remains close to median observed IMU interval; actual header intervals vary and must drive integration.",
+    "Point-LIO sorts retained/downsampled points by time, so within-cloud record order is not itself an issue.",
+    "Independent dynamic acquisition-lag validation remains pending; zero configured lag is not certified by these checks."
+  ]
+}

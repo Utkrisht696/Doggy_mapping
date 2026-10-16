@@ -1,0 +1,105 @@
+{
+  "saved_local": "2026-10-16T20:49:51.660307+11:00",
+  "recording": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/bag",
+  "recording_duration_s": 207.610155744,
+  "report": "reports/point_lio_steps/step_04_timing/final_timing_check/motion_20261016T203925+1100/REPORT.md",
+  "passive_transport_timing_passed": true,
+  "dynamic_transport_timing_passed": true,
+  "interior_scan_count": 3170,
+  "all_interior_scans_imu_bracketed": true,
+  "interior_source_imu_count": 60193,
+  "observed_calibrated_output_samples_missing": 0,
+  "clock_exact_match_count": 8704,
+  "relative_gyro_timing_ms": [
+    {
+      "phase": "pitch_1",
+      "body_minus_lidar_imu_ms": -0.9999999999998344,
+      "correlation": 0.9996690604972537
+    },
+    {
+      "phase": "roll_3",
+      "body_minus_lidar_imu_ms": -1.9999999999998352,
+      "correlation": 0.9999771602153045
+    },
+    {
+      "phase": "pitch_2",
+      "body_minus_lidar_imu_ms": -1.9999999999998352,
+      "correlation": 0.9984614654000984
+    },
+    {
+      "phase": "roll_5",
+      "body_minus_lidar_imu_ms": -1.4999999999998348,
+      "correlation": 0.9896863463231237
+    }
+  ],
+  "body_minus_source_bag_receipt_ms_quantiles": [
+    -1.485103,
+    0.237957,
+    0.36493439999999994,
+    0.4844596400000002,
+    8.246953
+  ],
+  "max_source_and_output_imu_gap_ms": 35.957254,
+  "motion_gaps_over_12ms": 36,
+  "all_large_motion_gaps_also_in_source_capture": true,
+  "lidar_error_codes": [
+    0.0
+  ],
+  "lidar_packet_loss_field_max": {
+    "cloud_vendor_units": 0.0,
+    "imu_vendor_units": 0.0
+  },
+  "cloud_acquisition_lag_calibrated": false,
+  "cloud_fit_independent_repeat_best_ms": [
+    {
+      "phase": "pitch_1",
+      "lag_ms": 19.0,
+      "loss_improvement_percent": 0.30232583664502566,
+      "sensitivity_range_ms": [
+        -50.0,
+        80.0
+      ]
+    },
+    {
+      "phase": "roll_3",
+      "lag_ms": 4.0,
+      "loss_improvement_percent": 0.07365089543095195,
+      "sensitivity_range_ms": [
+        -30.0,
+        40.0
+      ]
+    },
+    {
+      "phase": "pitch_2",
+      "lag_ms": -5.0,
+      "loss_improvement_percent": 0.02435199597465245,
+      "sensitivity_range_ms": [
+        -90.0,
+        80.0
+      ]
+    },
+    {
+      "phase": "roll_5",
+      "lag_ms": -8.0,
+      "loss_improvement_percent": 0.09901327609707215,
+      "sensitivity_range_ms": [
+        -50.0,
+        50.0
+      ]
+    }
+  ],
+  "unchanged_time_lag_imu_to_lidar_s": 0.0,
+  "zero_lag_status": "Provisional starting value; not a certified physical synchronization correction.",
+  "decision": "Timestamp transport/coverage and repeat gyro response support proceeding to a controlled saved-bag Point-LIO experiment after output-TF integration and user review. Exact cloud acquisition lag is not established. Neither fitted gyro lag nor noisy floor minima should be applied as a correction.",
+  "mapping_readiness": "Ready to review the next TF/integration stage for an experimental saved-bag run; not yet validated for live mapping or autonomous navigation.",
+  "remaining": [
+    "Output-TF integration and launch must be reviewed/approved before implementation.",
+    "Source/capture gaps up to 35.96 ms must be assessed during the saved-bag estimator trial.",
+    "Precise cloud acquisition lag, measured sensor noise/saturation and estimator behavior under walking remain unvalidated."
+  ],
+  "application_hashes_unchanged": true,
+  "robot_commands_sent": false,
+  "mapper_or_replay_started": false,
+  "recording_status": "stopped_saved",
+  "user_doublecheck_pending": true
+}

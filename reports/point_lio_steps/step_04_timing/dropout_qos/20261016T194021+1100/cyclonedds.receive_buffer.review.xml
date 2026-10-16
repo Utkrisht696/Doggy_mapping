@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CycloneDDS xmlns="https://cdds.io/config">
+  <Domain id="any">
+    <General>
+      <Interfaces>
+        <NetworkInterface name="enp7s0" priority="default" multicast="default" />
+      </Interfaces>
+      <AllowMulticast>true</AllowMulticast>
+    </General>
+    <Internal>
+      <!-- Test-only: requires net.core.rmem_max >= 8388608. -->
+      <SocketReceiveBufferSize min="8 MiB" max="8 MiB" />
+    </Internal>
+  </Domain>
+</CycloneDDS>

@@ -1,0 +1,5 @@
+# REVIEW ONLY: not loaded or approved. One temporary override for an isolated bag trial.
+/**:
+  ros__parameters:
+    mapping:
+      imu_meas_omg_cov: 0.0001

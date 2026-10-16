@@ -1,0 +1,235 @@
+{
+  "created_local": "2026-10-16T17:27:47.015608+11:00",
+  "status": "Candidate body-IMU bias calibration; validation results only; not applied",
+  "model": "One fixed accelerometer bias, unit gain, known static gravity magnitude. No body RPY/quaternion used in the bias fit. No per-message magnitude normalization or synthesized acceleration.",
+  "gravity_m_s2": 9.80665,
+  "acc_bias_xyz_m_s2": [
+    -0.03668060064686202,
+    0.004903338424733026,
+    -0.2773451302389767
+  ],
+  "gyro_bias_xyz_rad_s": [
+    -0.0035657965370423164,
+    -0.003959187291719748,
+    -0.011451726501776841
+  ],
+  "training_pose_names": [
+    "baseline",
+    "pitch_negative",
+    "pitch_positive",
+    "roll_negative",
+    "roll_positive"
+  ],
+  "held_pose_results": [
+    {
+      "label": "baseline",
+      "used_for_acc_bias_fit": true,
+      "samples": 1249,
+      "raw_mean_vector": [
+        -0.25044518997900195,
+        -0.18088874335380628,
+        9.525326644066718
+      ],
+      "raw_mean_vector_magnitude": 9.530335314500904,
+      "corrected_mean_vector_magnitude": 9.806762356255684,
+      "corrected_mean_magnitude_error": 0.00011235625568417618,
+      "corrected_individual_magnitude_mean": 9.806897010959466
+    },
+    {
+      "label": "pitch_negative",
+      "used_for_acc_bias_fit": true,
+      "samples": 1250,
+      "raw_mean_vector": [
+        0.8733760486602783,
+        -0.06015479631200433,
+        9.486464908599853
+      ],
+      "raw_mean_vector_magnitude": 9.526773891721646,
+      "corrected_mean_vector_magnitude": 9.806346013698144,
+      "corrected_mean_magnitude_error": -0.0003039863018550193,
+      "corrected_individual_magnitude_mean": 9.806455390566025
+    },
+    {
+      "label": "pitch_positive",
+      "used_for_acc_bias_fit": true,
+      "samples": 1246,
+      "raw_mean_vector": [
+        -0.9826929736194794,
+        0.04756025943073951,
+        9.483045712711341
+      ],
+      "raw_mean_vector_magnitude": 9.533944799926795,
+      "corrected_mean_vector_magnitude": 9.80622192436391,
+      "corrected_mean_magnitude_error": -0.0004280756360888205,
+      "corrected_individual_magnitude_mean": 9.806300098042636
+    },
+    {
+      "label": "pause",
+      "used_for_acc_bias_fit": false,
+      "samples": 2000,
+      "raw_mean_vector": [
+        -0.39776728285849094,
+        0.01563593268650584,
+        9.521837069511413
+      ],
+      "raw_mean_vector_magnitude": 9.530154483114389,
+      "corrected_mean_vector_magnitude": 9.805838595681406,
+      "corrected_mean_magnitude_error": -0.0008114043185933895,
+      "corrected_individual_magnitude_mean": 9.805938943023486
+    },
+    {
+      "label": "roll_negative",
+      "used_for_acc_bias_fit": true,
+      "samples": 1500,
+      "raw_mean_vector": [
+        -0.3492940774361292,
+        -1.3240047172705331,
+        9.434057312011719
+      ],
+      "raw_mean_vector_magnitude": 9.532913101996071,
+      "corrected_mean_vector_magnitude": 9.806888456677521,
+      "corrected_mean_magnitude_error": 0.00023845667752198096,
+      "corrected_individual_magnitude_mean": 9.806975410232273
+    },
+    {
+      "label": "roll_positive",
+      "used_for_acc_bias_fit": true,
+      "samples": 1000,
+      "raw_mean_vector": [
+        -0.1146427571028471,
+        0.8854799363017082,
+        9.489761940002442
+      ],
+      "raw_mean_vector_magnitude": 9.531673481465253,
+      "corrected_mean_vector_magnitude": 9.807031852916955,
+      "corrected_mean_magnitude_error": 0.0003818529169556939,
+      "corrected_individual_magnitude_mean": 9.807102104985628
+    },
+    {
+      "label": "yaw_positive",
+      "used_for_acc_bias_fit": false,
+      "samples": 1500,
+      "raw_mean_vector": [
+        -0.10108718591928482,
+        0.0015362794717463353,
+        9.532429402033488
+      ],
+      "raw_mean_vector_magnitude": 9.532965503140364,
+      "corrected_mean_vector_magnitude": 9.809986540221852,
+      "corrected_mean_magnitude_error": 0.0033365402218521467,
+      "corrected_individual_magnitude_mean": 9.810080174560214
+    },
+    {
+      "label": "yaw_negative",
+      "used_for_acc_bias_fit": false,
+      "samples": 1500,
+      "raw_mean_vector": [
+        0.01917516138885791,
+        0.15604289388159912,
+        9.52866974322001
+      ],
+      "raw_mean_vector_magnitude": 9.529966639338342,
+      "corrected_mean_vector_magnitude": 9.807338616050492,
+      "corrected_mean_magnitude_error": 0.0006886160504926409,
+      "corrected_individual_magnitude_mean": 9.80741059469447
+    }
+  ],
+  "leave_one_pose_out": [
+    {
+      "omitted_pose": "baseline",
+      "bias": [
+        -0.03661732795427299,
+        0.004928890650728346,
+        -0.277372536692323
+      ],
+      "withheld_mean_magnitude_error": 0.00014161480140195692
+    },
+    {
+      "omitted_pose": "pitch_negative",
+      "bias": [
+        -0.027880941532082204,
+        0.004578561586379391,
+        -0.2769203155132906
+      ],
+      "withheld_mean_magnitude_error": -0.0015418616658653406
+    },
+    {
+      "omitted_pose": "pitch_positive",
+      "bias": [
+        -0.04163182520194964,
+        0.00603714908763342,
+        -0.2771772931930894
+      ],
+      "withheld_mean_magnitude_error": -0.0010764125580280393
+    },
+    {
+      "omitted_pose": "roll_negative",
+      "bias": [
+        -0.03616008927641929,
+        0.009930717116039907,
+        -0.2774852056613979
+      ],
+      "withheld_mean_magnitude_error": 0.0010762762694191963
+    },
+    {
+      "omitted_pose": "roll_positive",
+      "bias": [
+        -0.036504864985054335,
+        0.001005221218071623,
+        -0.2775907172583246
+      ],
+      "withheld_mean_magnitude_error": 0.0009786116015746416
+    }
+  ],
+  "fit_jacobian_singular_values": [
+    2.226076654624938,
+    0.16287499676874134,
+    0.13436605363600404
+  ],
+  "fresh_sport_validation": {
+    "messages": 6161,
+    "raw_mean_acceleration": [
+      0.8437371209464548,
+      -0.07779348491240735,
+      9.489477852764232
+    ],
+    "corrected_mean_vector_magnitude": 9.806773440352607,
+    "corrected_mean_vector_magnitude_error": 0.00012344035260802855,
+    "corrected_individual_magnitude_mean": 9.806840715205764,
+    "corrected_gyro_mean": [
+      -3.856961067045389e-05,
+      0.00025713014233847575,
+      -0.00011748307354942141
+    ],
+    "corrected_gyro_std": [
+      0.006887015990774898,
+      0.0080742882469989,
+      0.0062326404567043196
+    ],
+    "temperature_raw_median": 80.0
+  },
+  "sport_source_contract": {
+    "received_messages": 6190,
+    "positive_unique_timestamps": 6161,
+    "duplicate_source_stamps": 29,
+    "duplicates_with_changed_measurements": 0,
+    "backward_source_stamps": 0,
+    "source_rate_hz": 249.21085017597827,
+    "source_interval_ms_quantiles": [
+      1.004792,
+      1.9073806899999999,
+      3.996417,
+      8.167618779999994,
+      38.093045
+    ],
+    "exact_acc_and_gyro_matches_to_lowstate_within_20ms_receipt": 3216,
+    "orientation_differs_from_lowstate": "Roll/pitch agree closely, but heading has a small offset; do not claim identical fused orientation or use it as external calibration truth."
+  },
+  "limitations": [
+    "Small posture range; unit-gain bias model does not establish a complete scale/misalignment calibration.",
+    "Independent validation covers held poses and a later quiet capture, not walking or mapping performance.",
+    "SportModeState timestamps are publication stamps; acquisition latency relative to LiDAR remains to be checked in the timing step.",
+    "No body IMU input has been substituted into Point-LIO; selecting this source requires user review.",
+    "Calibrating an alternative does not repair or validate the LiDAR IMU stream."
+  ]
+}

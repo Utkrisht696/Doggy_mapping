@@ -1,0 +1,6622 @@
+[
+  {
+    "cloud_index": 17,
+    "header_ns": 1792143451041641473,
+    "first_point_ns": 1792143451041641473,
+    "last_point_ns": 1792143451104118356,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.087583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 18,
+    "header_ns": 1792143451106955289,
+    "first_point_ns": 1792143451109023803,
+    "last_point_ns": 1792143451169199689,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.083334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 19,
+    "header_ns": 1792143451171481847,
+    "first_point_ns": 1792143451173604389,
+    "last_point_ns": 1792143451231919065,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.814084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 20,
+    "header_ns": 1792143451235992908,
+    "first_point_ns": 1792143451236008345,
+    "last_point_ns": 1792143451298675968,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.864501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 21,
+    "header_ns": 1792143451300956249,
+    "first_point_ns": 1792143451300956249,
+    "last_point_ns": 1792143451363161880,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.223042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 22,
+    "header_ns": 1792143451367942810,
+    "first_point_ns": 1792143451369995887,
+    "last_point_ns": 1792143451426550442,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.192709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 23,
+    "header_ns": 1792143451430565595,
+    "first_point_ns": 1792143451430565595,
+    "last_point_ns": 1792143451491210386,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.054417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 24,
+    "header_ns": 1792143451495527505,
+    "first_point_ns": 1792143451495527505,
+    "last_point_ns": 1792143451558164224,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 7.598501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 25,
+    "header_ns": 1792143451562933683,
+    "first_point_ns": 1792143451565010359,
+    "last_point_ns": 1792143451623153043,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.153042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 26,
+    "header_ns": 1792143451626025199,
+    "first_point_ns": 1792143451628109595,
+    "last_point_ns": 1792143451686179950,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.186792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 27,
+    "header_ns": 1792143451690467357,
+    "first_point_ns": 1792143451690467357,
+    "last_point_ns": 1792143451751652980,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.217084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 28,
+    "header_ns": 1792143451756429433,
+    "first_point_ns": 1792143451756429433,
+    "last_point_ns": 1792143451817546987,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.121084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 29,
+    "header_ns": 1792143451819927692,
+    "first_point_ns": 1792143451821942177,
+    "last_point_ns": 1792143451880511623,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.150417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 30,
+    "header_ns": 1792143451884993076,
+    "first_point_ns": 1792143451884993076,
+    "last_point_ns": 1792143451945262447,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.033625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 31,
+    "header_ns": 1792143451951936483,
+    "first_point_ns": 1792143451951936483,
+    "last_point_ns": 1792143452012127615,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.058251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 32,
+    "header_ns": 1792143452014465332,
+    "first_point_ns": 1792143452016518848,
+    "last_point_ns": 1792143452077125534,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.266459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 33,
+    "header_ns": 1792143452080484390,
+    "first_point_ns": 1792143452082537467,
+    "last_point_ns": 1792143452139916317,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 5.971292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 34,
+    "header_ns": 1792143452144437789,
+    "first_point_ns": 1792143452144437789,
+    "last_point_ns": 1792143452204084952,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.182792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 35,
+    "header_ns": 1792143452209079027,
+    "first_point_ns": 1792143452209079027,
+    "last_point_ns": 1792143452271138738,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 7.817542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 36,
+    "header_ns": 1792143452273951768,
+    "first_point_ns": 1792143452275997564,
+    "last_point_ns": 1792143452333933862,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.133501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 37,
+    "header_ns": 1792143452338486909,
+    "first_point_ns": 1792143452338486909,
+    "last_point_ns": 1792143452399197740,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.089459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 38,
+    "header_ns": 1792143452404934883,
+    "first_point_ns": 1792143452404934883,
+    "last_point_ns": 1792143452466173813,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.08625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 39,
+    "header_ns": 1792143452468961238,
+    "first_point_ns": 1792143452471037470,
+    "last_point_ns": 1792143452531087028,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.125042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 40,
+    "header_ns": 1792143452533483505,
+    "first_point_ns": 1792143452535497990,
+    "last_point_ns": 1792143452594165428,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.117459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 41,
+    "header_ns": 1792143452598443508,
+    "first_point_ns": 1792143452598443508,
+    "last_point_ns": 1792143452658618717,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.120458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 42,
+    "header_ns": 1792143452662991046,
+    "first_point_ns": 1792143452662991046,
+    "last_point_ns": 1792143452725471179,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.165167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 43,
+    "header_ns": 1792143452730323791,
+    "first_point_ns": 1792143452732330558,
+    "last_point_ns": 1792143452790752483,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.976834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 44,
+    "header_ns": 1792143452793430089,
+    "first_point_ns": 1792143452793430089,
+    "last_point_ns": 1792143452853241784,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.150876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 45,
+    "header_ns": 1792143452857464313,
+    "first_point_ns": 1792143452857464313,
+    "last_point_ns": 1792143452919677600,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.046209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 46,
+    "header_ns": 1792143452922819614,
+    "first_point_ns": 1792143452924934438,
+    "last_point_ns": 1792143452984675754,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.096042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 47,
+    "header_ns": 1792143452987031459,
+    "first_point_ns": 1792143452989038226,
+    "last_point_ns": 1792143453047632629,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.051334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 48,
+    "header_ns": 1792143453052544593,
+    "first_point_ns": 1792143453052544593,
+    "last_point_ns": 1792143453112145904,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.081584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 49,
+    "header_ns": 1792143453121026039,
+    "first_point_ns": 1792143453121033757,
+    "last_point_ns": 1792143453179214104,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.731834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 50,
+    "header_ns": 1792143453185023307,
+    "first_point_ns": 1792143453187030074,
+    "last_point_ns": 1792143453244169963,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.97725,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 51,
+    "header_ns": 1792143453247946500,
+    "first_point_ns": 1792143453250091738,
+    "last_point_ns": 1792143453307368707,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.471542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 52,
+    "header_ns": 1792143453313862085,
+    "first_point_ns": 1792143453313862085,
+    "last_point_ns": 1792143453373691515,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.127292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 53,
+    "header_ns": 1792143453377642393,
+    "first_point_ns": 1792143453377642393,
+    "last_point_ns": 1792143453438566049,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.076042,
+    "wait_for_end_sample_ms": 0.897375
+  },
+  {
+    "cloud_index": 54,
+    "header_ns": 1792143453441525697,
+    "first_point_ns": 1792143453443547901,
+    "last_point_ns": 1792143453502043954,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.077334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 55,
+    "header_ns": 1792143453506595134,
+    "first_point_ns": 1792143453506595134,
+    "last_point_ns": 1792143453566692958,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.060376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 56,
+    "header_ns": 1792143453572964668,
+    "first_point_ns": 1792143453572964668,
+    "last_point_ns": 1792143453633793041,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.048917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 57,
+    "header_ns": 1792143453635996103,
+    "first_point_ns": 1792143453638026025,
+    "last_point_ns": 1792143453698152075,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.119209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 58,
+    "header_ns": 1792143453701948642,
+    "first_point_ns": 1792143453704056198,
+    "last_point_ns": 1792143453761200114,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.040292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 59,
+    "header_ns": 1792143453766443490,
+    "first_point_ns": 1792143453766443490,
+    "last_point_ns": 1792143453825724687,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.130875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 60,
+    "header_ns": 1792143453830564022,
+    "first_point_ns": 1792143453830564022,
+    "last_point_ns": 1792143453892189075,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 6.193251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 61,
+    "header_ns": 1792143453894936561,
+    "first_point_ns": 1792143453897066366,
+    "last_point_ns": 1792143453955012565,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.884042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 62,
+    "header_ns": 1792143453959428310,
+    "first_point_ns": 1792143453959428310,
+    "last_point_ns": 1792143454020239692,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.082959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 63,
+    "header_ns": 1792143454025426387,
+    "first_point_ns": 1792143454025511289,
+    "last_point_ns": 1792143454087136192,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.284792,
+    "wait_for_end_sample_ms": 0.736933
+  },
+  {
+    "cloud_index": 64,
+    "header_ns": 1792143454089563369,
+    "first_point_ns": 1792143454091585573,
+    "last_point_ns": 1792143454151891250,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.165292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 65,
+    "header_ns": 1792143454153999567,
+    "first_point_ns": 1792143454156059921,
+    "last_point_ns": 1792143454214695200,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.09575,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 66,
+    "header_ns": 1792143454219516038,
+    "first_point_ns": 1792143454219516038,
+    "last_point_ns": 1792143454279685876,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.047167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 67,
+    "header_ns": 1792143454284458398,
+    "first_point_ns": 1792143454284458398,
+    "last_point_ns": 1792143454346167577,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.215876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 68,
+    "header_ns": 1792143454349460601,
+    "first_point_ns": 1792143454351529115,
+    "last_point_ns": 1792143454408974704,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.125625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 69,
+    "header_ns": 1792143454415440082,
+    "first_point_ns": 1792143454415440082,
+    "last_point_ns": 1792143454474736255,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.106376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 70,
+    "header_ns": 1792143454479456424,
+    "first_point_ns": 1792143454479456424,
+    "last_point_ns": 1792143454541145877,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.024709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 71,
+    "header_ns": 1792143454543560743,
+    "first_point_ns": 1792143454545621538,
+    "last_point_ns": 1792143454605628011,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.179001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 72,
+    "header_ns": 1792143454608425617,
+    "first_point_ns": 1792143454610462821,
+    "last_point_ns": 1792143454668671844,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.145459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 73,
+    "header_ns": 1792143454672935724,
+    "first_point_ns": 1792143454672935724,
+    "last_point_ns": 1792143454733675291,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.969834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 74,
+    "header_ns": 1792143454740505218,
+    "first_point_ns": 1792143454740505218,
+    "last_point_ns": 1792143454800144210,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.119125,
+    "wait_for_end_sample_ms": 0.879412
+  },
+  {
+    "cloud_index": 75,
+    "header_ns": 1792143454802457809,
+    "first_point_ns": 1792143454804472294,
+    "last_point_ns": 1792143454864792747,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.349917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 76,
+    "header_ns": 1792143454867503643,
+    "first_point_ns": 1792143454867503643,
+    "last_point_ns": 1792143454927926407,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.060584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 77,
+    "header_ns": 1792143454932950019,
+    "first_point_ns": 1792143454932950019,
+    "last_point_ns": 1792143454995139995,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.414375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 78,
+    "header_ns": 1792143454996928215,
+    "first_point_ns": 1792143454999020331,
+    "last_point_ns": 1792143455059730873,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.228542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 79,
+    "header_ns": 1792143455061937332,
+    "first_point_ns": 1792143455063959536,
+    "last_point_ns": 1792143455122138141,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.032001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 80,
+    "header_ns": 1792143455126922607,
+    "first_point_ns": 1792143455126922607,
+    "last_point_ns": 1792143455187163372,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.216042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 81,
+    "header_ns": 1792143455193012475,
+    "first_point_ns": 1792143455193027912,
+    "last_point_ns": 1792143455253791017,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.32425,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 82,
+    "header_ns": 1792143455257464885,
+    "first_point_ns": 1792143455259456215,
+    "last_point_ns": 1792143455319141624,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.125042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 83,
+    "header_ns": 1792143455321958541,
+    "first_point_ns": 1792143455324134646,
+    "last_point_ns": 1792143455382222453,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.291292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 84,
+    "header_ns": 1792143455386630773,
+    "first_point_ns": 1792143455386684813,
+    "last_point_ns": 1792143455448660329,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.608334,
+    "wait_for_end_sample_ms": 1.238948
+  },
+  {
+    "cloud_index": 85,
+    "header_ns": 1792143455451473951,
+    "first_point_ns": 1792143455453612387,
+    "last_point_ns": 1792143455513573099,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.04775,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 86,
+    "header_ns": 1792143455515953779,
+    "first_point_ns": 1792143455517968264,
+    "last_point_ns": 1792143455576581346,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.101709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 87,
+    "header_ns": 1792143455581036329,
+    "first_point_ns": 1792143455581036329,
+    "last_point_ns": 1792143455641167299,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.962209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 88,
+    "header_ns": 1792143455645509719,
+    "first_point_ns": 1792143455645509719,
+    "last_point_ns": 1792143455707816436,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.168792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 89,
+    "header_ns": 1792143455713424444,
+    "first_point_ns": 1792143455715454366,
+    "last_point_ns": 1792143455773189947,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.051542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 90,
+    "header_ns": 1792143455776953220,
+    "first_point_ns": 1792143455779075762,
+    "last_point_ns": 1792143455835783256,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.099375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 91,
+    "header_ns": 1792143455840433359,
+    "first_point_ns": 1792143455840433359,
+    "last_point_ns": 1792143455902199312,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.208458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 92,
+    "header_ns": 1792143455905454635,
+    "first_point_ns": 1792143455905454635,
+    "last_point_ns": 1792143455967079002,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.208458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 93,
+    "header_ns": 1792143455971426248,
+    "first_point_ns": 1792143455973448452,
+    "last_point_ns": 1792143456030028329,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.066709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 94,
+    "header_ns": 1792143456034921407,
+    "first_point_ns": 1792143456034921407,
+    "last_point_ns": 1792143456094665746,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 8.729293,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 95,
+    "header_ns": 1792143456099534034,
+    "first_point_ns": 1792143456099534034,
+    "last_point_ns": 1792143456162155074,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.099042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 96,
+    "header_ns": 1792143456164442062,
+    "first_point_ns": 1792143456166456547,
+    "last_point_ns": 1792143456226788715,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.143876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 97,
+    "header_ns": 1792143456230257749,
+    "first_point_ns": 1792143456232341699,
+    "last_point_ns": 1792143456289686571,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 6.005709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 98,
+    "header_ns": 1792143456294970750,
+    "first_point_ns": 1792143456294970750,
+    "last_point_ns": 1792143456354485555,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.233751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 99,
+    "header_ns": 1792143456358976125,
+    "first_point_ns": 1792143456358976125,
+    "last_point_ns": 1792143456421650396,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.103958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 100,
+    "header_ns": 1792143456423917055,
+    "first_point_ns": 1792143456426047771,
+    "last_point_ns": 1792143456485323202,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.081459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 101,
+    "header_ns": 1792143456491647958,
+    "first_point_ns": 1792143456491647958,
+    "last_point_ns": 1792143456549600854,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.039292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 102,
+    "header_ns": 1792143456553427696,
+    "first_point_ns": 1792143456553427696,
+    "last_point_ns": 1792143456616116749,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.427333,
+    "wait_for_end_sample_ms": 2.61546
+  },
+  {
+    "cloud_index": 103,
+    "header_ns": 1792143456618841648,
+    "first_point_ns": 1792143456620895615,
+    "last_point_ns": 1792143456680689915,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.030667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 104,
+    "header_ns": 1792143456684433937,
+    "first_point_ns": 1792143456686487453,
+    "last_point_ns": 1792143456743662304,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.090626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 105,
+    "header_ns": 1792143456749024629,
+    "first_point_ns": 1792143456749024629,
+    "last_point_ns": 1792143456808096753,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.077209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 106,
+    "header_ns": 1792143456813438892,
+    "first_point_ns": 1792143456813438892,
+    "last_point_ns": 1792143456875655517,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.070792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 107,
+    "header_ns": 1792143456877677202,
+    "first_point_ns": 1792143456879737997,
+    "last_point_ns": 1792143456937954931,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.108709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 108,
+    "header_ns": 1792143456942434787,
+    "first_point_ns": 1792143456942434787,
+    "last_point_ns": 1792143457003231239,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.162376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 109,
+    "header_ns": 1792143457010465383,
+    "first_point_ns": 1792143457010465383,
+    "last_point_ns": 1792143457069641694,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.062042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 110,
+    "header_ns": 1792143457072475671,
+    "first_point_ns": 1792143457074552347,
+    "last_point_ns": 1792143457134604890,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.394542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 111,
+    "header_ns": 1792143457138998985,
+    "first_point_ns": 1792143457141021622,
+    "last_point_ns": 1792143457197128875,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.102875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 112,
+    "header_ns": 1792143457202445507,
+    "first_point_ns": 1792143457202445507,
+    "last_point_ns": 1792143457262608757,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.090042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 113,
+    "header_ns": 1792143457270139694,
+    "first_point_ns": 1792143457270139694,
+    "last_point_ns": 1792143457329166488,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.114542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 114,
+    "header_ns": 1792143457332056522,
+    "first_point_ns": 1792143457334078726,
+    "last_point_ns": 1792143457394224418,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.089751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 115,
+    "header_ns": 1792143457396606922,
+    "first_point_ns": 1792143457396606922,
+    "last_point_ns": 1792143457457227096,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.087,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 116,
+    "header_ns": 1792143457462925434,
+    "first_point_ns": 1792143457462925434,
+    "last_point_ns": 1792143457524179531,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.083333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 117,
+    "header_ns": 1792143457527482271,
+    "first_point_ns": 1792143457529597547,
+    "last_point_ns": 1792143457588104982,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.146334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 118,
+    "header_ns": 1792143457591575622,
+    "first_point_ns": 1792143457593574671,
+    "last_point_ns": 1792143457651097347,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.352542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 119,
+    "header_ns": 1792143457655660152,
+    "first_point_ns": 1792143457655660152,
+    "last_point_ns": 1792143457715982959,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.130501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 120,
+    "header_ns": 1792143457721523761,
+    "first_point_ns": 1792143457721523761,
+    "last_point_ns": 1792143457783144870,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.1975,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 121,
+    "header_ns": 1792143457785946369,
+    "first_point_ns": 1792143457787969006,
+    "last_point_ns": 1792143457848149788,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.117459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 122,
+    "header_ns": 1792143457851110935,
+    "first_point_ns": 1792143457853256632,
+    "last_point_ns": 1792143457911229385,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.036876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 123,
+    "header_ns": 1792143457917969226,
+    "first_point_ns": 1792143457917969226,
+    "last_point_ns": 1792143457977663619,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.332542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 124,
+    "header_ns": 1792143457980441808,
+    "first_point_ns": 1792143457980441808,
+    "last_point_ns": 1792143458042168004,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.439459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 125,
+    "header_ns": 1792143458045443534,
+    "first_point_ns": 1792143458047434438,
+    "last_point_ns": 1792143458105062213,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.111292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 126,
+    "header_ns": 1792143458112077474,
+    "first_point_ns": 1792143458112077474,
+    "last_point_ns": 1792143458170689744,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.139167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 127,
+    "header_ns": 1792143458175954580,
+    "first_point_ns": 1792143458175954580,
+    "last_point_ns": 1792143458237148210,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 8.086459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 128,
+    "header_ns": 1792143458239568948,
+    "first_point_ns": 1792143458241598870,
+    "last_point_ns": 1792143458302152410,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.672625,
+    "wait_for_end_sample_ms": 0.587102
+  },
+  {
+    "cloud_index": 129,
+    "header_ns": 1792143458304468154,
+    "first_point_ns": 1792143458306567541,
+    "last_point_ns": 1792143458365169360,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.166334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 130,
+    "header_ns": 1792143458368948698,
+    "first_point_ns": 1792143458368948698,
+    "last_point_ns": 1792143458429658934,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.279251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 131,
+    "header_ns": 1792143458435547351,
+    "first_point_ns": 1792143458435547351,
+    "last_point_ns": 1792143458496160522,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.124167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 132,
+    "header_ns": 1792143458500957250,
+    "first_point_ns": 1792143458502955871,
+    "last_point_ns": 1792143458559006864,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.162959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 133,
+    "header_ns": 1792143458564507961,
+    "first_point_ns": 1792143458564507961,
+    "last_point_ns": 1792143458624210521,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.193834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 134,
+    "header_ns": 1792143458628549098,
+    "first_point_ns": 1792143458628626298,
+    "last_point_ns": 1792143458691204085,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.151584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 135,
+    "header_ns": 1792143458696685314,
+    "first_point_ns": 1792143458698715671,
+    "last_point_ns": 1792143458756152733,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 8.065334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 136,
+    "header_ns": 1792143458757984161,
+    "first_point_ns": 1792143458760045397,
+    "last_point_ns": 1792143458818185516,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.0565,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 137,
+    "header_ns": 1792143458823752403,
+    "first_point_ns": 1792143458823752403,
+    "last_point_ns": 1792143458883057613,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.638459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 138,
+    "header_ns": 1792143458891884326,
+    "first_point_ns": 1792143458891884326,
+    "last_point_ns": 1792143458950219878,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.93425,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 139,
+    "header_ns": 1792143458956445455,
+    "first_point_ns": 1792143458958459940,
+    "last_point_ns": 1792143459012957776,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.116959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 140,
+    "header_ns": 1792143459019049406,
+    "first_point_ns": 1792143459019049406,
+    "last_point_ns": 1792143459078204821,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.083626,
+    "wait_for_end_sample_ms": 1.144306
+  },
+  {
+    "cloud_index": 141,
+    "header_ns": 1792143459082570791,
+    "first_point_ns": 1792143459082570791,
+    "last_point_ns": 1792143459145143045,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.173459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 142,
+    "header_ns": 1792143459147471189,
+    "first_point_ns": 1792143459149539703,
+    "last_point_ns": 1792143459209758623,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.904168,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 143,
+    "header_ns": 1792143459213616371,
+    "first_point_ns": 1792143459215646293,
+    "last_point_ns": 1792143459272662357,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.977126,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 144,
+    "header_ns": 1792143459277516365,
+    "first_point_ns": 1792143459277516365,
+    "last_point_ns": 1792143459337620308,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.852584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 145,
+    "header_ns": 1792143459342478513,
+    "first_point_ns": 1792143459342509386,
+    "last_point_ns": 1792143459404126153,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.333292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 146,
+    "header_ns": 1792143459406958103,
+    "first_point_ns": 1792143459408964870,
+    "last_point_ns": 1792143459469156994,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.112834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 147,
+    "header_ns": 1792143459472042560,
+    "first_point_ns": 1792143459472042560,
+    "last_point_ns": 1792143459531747619,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.112834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 148,
+    "header_ns": 1792143459536608457,
+    "first_point_ns": 1792143459536608457,
+    "last_point_ns": 1792143459598670492,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.109,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 149,
+    "header_ns": 1792143459604988336,
+    "first_point_ns": 1792143459607095892,
+    "last_point_ns": 1792143459663148382,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.161959,
+    "wait_for_end_sample_ms": 1.624734
+  },
+  {
+    "cloud_index": 150,
+    "header_ns": 1792143459665972471,
+    "first_point_ns": 1792143459667971520,
+    "last_point_ns": 1792143459726218820,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.095208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 151,
+    "header_ns": 1792143459734532117,
+    "first_point_ns": 1792143459734532117,
+    "last_point_ns": 1792143459791164552,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.415959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 152,
+    "header_ns": 1792143459795451641,
+    "first_point_ns": 1792143459795451641,
+    "last_point_ns": 1792143459858155407,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.111917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 153,
+    "header_ns": 1792143459861479043,
+    "first_point_ns": 1792143459863501680,
+    "last_point_ns": 1792143459923156365,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.008626,
+    "wait_for_end_sample_ms": 0.816546
+  },
+  {
+    "cloud_index": 154,
+    "header_ns": 1792143459925585269,
+    "first_point_ns": 1792143459927754121,
+    "last_point_ns": 1792143459985743060,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.203209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 155,
+    "header_ns": 1792143459990944862,
+    "first_point_ns": 1792143459991052942,
+    "last_point_ns": 1792143460052617145,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.191251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 156,
+    "header_ns": 1792143460055672645,
+    "first_point_ns": 1792143460057811081,
+    "last_point_ns": 1792143460117640808,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.189209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 157,
+    "header_ns": 1792143460120010375,
+    "first_point_ns": 1792143460122017572,
+    "last_point_ns": 1792143460180566569,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.694584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 158,
+    "header_ns": 1792143460186466455,
+    "first_point_ns": 1792143460186466455,
+    "last_point_ns": 1792143460245691099,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.600584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 159,
+    "header_ns": 1792143460249937295,
+    "first_point_ns": 1792143460249937295,
+    "last_point_ns": 1792143460312154454,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.15975,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 160,
+    "header_ns": 1792143460316454172,
+    "first_point_ns": 1792143460318460939,
+    "last_point_ns": 1792143460376774652,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.055,
+    "wait_for_end_sample_ms": 2.322919
+  },
+  {
+    "cloud_index": 161,
+    "header_ns": 1792143460379672050,
+    "first_point_ns": 1792143460381786874,
+    "last_point_ns": 1792143460439690753,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.141667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 162,
+    "header_ns": 1792143460443920135,
+    "first_point_ns": 1792143460443920135,
+    "last_point_ns": 1792143460503990558,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.072417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 163,
+    "header_ns": 1792143460508972644,
+    "first_point_ns": 1792143460508972644,
+    "last_point_ns": 1792143460571156757,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.230334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 164,
+    "header_ns": 1792143460574067354,
+    "first_point_ns": 1792143460576081408,
+    "last_point_ns": 1792143460634042852,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.048667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 165,
+    "header_ns": 1792143460639476776,
+    "first_point_ns": 1792143460639476776,
+    "last_point_ns": 1792143460699220013,
+    "bracketed": true,
+    "imu_samples_within": 14,
+    "max_bracketing_imu_gap_ms": 17.738752,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 166,
+    "header_ns": 1792143460703445911,
+    "first_point_ns": 1792143460703445911,
+    "last_point_ns": 1792143460766094223,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.176876,
+    "wait_for_end_sample_ms": 1.336692
+  },
+  {
+    "cloud_index": 167,
+    "header_ns": 1792143460768017530,
+    "first_point_ns": 1792143460770040167,
+    "last_point_ns": 1792143460830651537,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.076042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 168,
+    "header_ns": 1792143460833052873,
+    "first_point_ns": 1792143460835128661,
+    "last_point_ns": 1792143460893797620,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.179292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 169,
+    "header_ns": 1792143460900431632,
+    "first_point_ns": 1792143460900431632,
+    "last_point_ns": 1792143460958047828,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.114542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 170,
+    "header_ns": 1792143460962930917,
+    "first_point_ns": 1792143460962930917,
+    "last_point_ns": 1792143461025687211,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.074958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 171,
+    "header_ns": 1792143461027981281,
+    "first_point_ns": 1792143461029979902,
+    "last_point_ns": 1792143461087961483,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.034917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 172,
+    "header_ns": 1792143461092919349,
+    "first_point_ns": 1792143461092919349,
+    "last_point_ns": 1792143461153223228,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.03625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 173,
+    "header_ns": 1792143461157455205,
+    "first_point_ns": 1792143461157455205,
+    "last_point_ns": 1792143461219750806,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.223542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 174,
+    "header_ns": 1792143461222053766,
+    "first_point_ns": 1792143461224106843,
+    "last_point_ns": 1792143461284630380,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.028042,
+    "wait_for_end_sample_ms": 1.332789
+  },
+  {
+    "cloud_index": 175,
+    "header_ns": 1792143461286948204,
+    "first_point_ns": 1792143461289008558,
+    "last_point_ns": 1792143461347194569,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.028042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 176,
+    "header_ns": 1792143461352475166,
+    "first_point_ns": 1792143461352475166,
+    "last_point_ns": 1792143461412120483,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.869918,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 177,
+    "header_ns": 1792143461416974544,
+    "first_point_ns": 1792143461416974544,
+    "last_point_ns": 1792143461479150695,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 8.051459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 178,
+    "header_ns": 1792143461481962680,
+    "first_point_ns": 1792143461483977597,
+    "last_point_ns": 1792143461544090823,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.064376,
+    "wait_for_end_sample_ms": 5.036679
+  },
+  {
+    "cloud_index": 179,
+    "header_ns": 1792143461546571493,
+    "first_point_ns": 1792143461546571493,
+    "last_point_ns": 1792143461606740103,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.999292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 180,
+    "header_ns": 1792143461610943317,
+    "first_point_ns": 1792143461610943317,
+    "last_point_ns": 1792143461673608459,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.144292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 181,
+    "header_ns": 1792143461675967693,
+    "first_point_ns": 1792143461678052089,
+    "last_point_ns": 1792143461738571270,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.245792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 182,
+    "header_ns": 1792143461740936040,
+    "first_point_ns": 1792143461742989117,
+    "last_point_ns": 1792143461801130551,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.201459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 183,
+    "header_ns": 1792143461805552721,
+    "first_point_ns": 1792143461805552721,
+    "last_point_ns": 1792143461866142115,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.249,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 184,
+    "header_ns": 1792143461870975732,
+    "first_point_ns": 1792143461870975732,
+    "last_point_ns": 1792143461933169439,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.195625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 185,
+    "header_ns": 1792143461936939001,
+    "first_point_ns": 1792143461938968923,
+    "last_point_ns": 1792143461998130960,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.459584,
+    "wait_for_end_sample_ms": 1.830403
+  },
+  {
+    "cloud_index": 186,
+    "header_ns": 1792143462001144170,
+    "first_point_ns": 1792143462003336177,
+    "last_point_ns": 1792143462061234277,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.000876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 187,
+    "header_ns": 1792143462065434455,
+    "first_point_ns": 1792143462065434455,
+    "last_point_ns": 1792143462127674296,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.114543,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 188,
+    "header_ns": 1792143462131664514,
+    "first_point_ns": 1792143462133787056,
+    "last_point_ns": 1792143462192678079,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.157583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 189,
+    "header_ns": 1792143462194951534,
+    "first_point_ns": 1792143462197004611,
+    "last_point_ns": 1792143462255789680,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.279501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 190,
+    "header_ns": 1792143462263303279,
+    "first_point_ns": 1792143462263303279,
+    "last_point_ns": 1792143462320194141,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.089584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 191,
+    "header_ns": 1792143462324938774,
+    "first_point_ns": 1792143462324938774,
+    "last_point_ns": 1792143462387248257,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.082167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 192,
+    "header_ns": 1792143462390043735,
+    "first_point_ns": 1792143462392112249,
+    "last_point_ns": 1792143462451792881,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.176084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 193,
+    "header_ns": 1792143462453967332,
+    "first_point_ns": 1792143462456097592,
+    "last_point_ns": 1792143462514699796,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.063792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 194,
+    "header_ns": 1792143462518936157,
+    "first_point_ns": 1792143462518943875,
+    "last_point_ns": 1792143462581174537,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.08975,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 195,
+    "header_ns": 1792143462583564043,
+    "first_point_ns": 1792143462583571761,
+    "last_point_ns": 1792143462646198942,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.495459,
+    "wait_for_end_sample_ms": 3.456446
+  },
+  {
+    "cloud_index": 196,
+    "header_ns": 1792143462648926258,
+    "first_point_ns": 1792143462650940743,
+    "last_point_ns": 1792143462709038875,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.200876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 197,
+    "header_ns": 1792143462713423490,
+    "first_point_ns": 1792143462713423490,
+    "last_point_ns": 1792143462773676378,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.502168,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 198,
+    "header_ns": 1792143462782941341,
+    "first_point_ns": 1792143462782941341,
+    "last_point_ns": 1792143462840649765,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.089292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 199,
+    "header_ns": 1792143462847038507,
+    "first_point_ns": 1792143462849045704,
+    "last_point_ns": 1792143462906127050,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.506209,
+    "wait_for_end_sample_ms": 1.775843
+  },
+  {
+    "cloud_index": 200,
+    "header_ns": 1792143462908568143,
+    "first_point_ns": 1792143462910659812,
+    "last_point_ns": 1792143462968672589,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.135417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 201,
+    "header_ns": 1792143462973109960,
+    "first_point_ns": 1792143462973109960,
+    "last_point_ns": 1792143463033505960,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.052333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 202,
+    "header_ns": 1792143463037948846,
+    "first_point_ns": 1792143463037948846,
+    "last_point_ns": 1792143463100202939,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.142542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 203,
+    "header_ns": 1792143463103955507,
+    "first_point_ns": 1792143463106031739,
+    "last_point_ns": 1792143463163371649,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.163542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 204,
+    "header_ns": 1792143463167427062,
+    "first_point_ns": 1792143463167427062,
+    "last_point_ns": 1792143463227719108,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.04875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 205,
+    "header_ns": 1792143463231950283,
+    "first_point_ns": 1792143463231950283,
+    "last_point_ns": 1792143463295141235,
+    "bracketed": true,
+    "imu_samples_within": 20,
+    "max_bracketing_imu_gap_ms": 4.057375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 206,
+    "header_ns": 1792143463297156810,
+    "first_point_ns": 1792143463299186298,
+    "last_point_ns": 1792143463359630279,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.101251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 207,
+    "header_ns": 1792143463361999273,
+    "first_point_ns": 1792143463364059627,
+    "last_point_ns": 1792143463422182401,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.080709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 208,
+    "header_ns": 1792143463427963256,
+    "first_point_ns": 1792143463427963256,
+    "last_point_ns": 1792143463487078838,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.129876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 209,
+    "header_ns": 1792143463493921995,
+    "first_point_ns": 1792143463493921995,
+    "last_point_ns": 1792143463554147257,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.139376,
+    "wait_for_end_sample_ms": 1.011855
+  },
+  {
+    "cloud_index": 210,
+    "header_ns": 1792143463556427478,
+    "first_point_ns": 1792143463558441963,
+    "last_point_ns": 1792143463616436511,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.076417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 211,
+    "header_ns": 1792143463622511148,
+    "first_point_ns": 1792143463622511148,
+    "last_point_ns": 1792143463681796114,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.103458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 212,
+    "header_ns": 1792143463688451528,
+    "first_point_ns": 1792143463688451528,
+    "last_point_ns": 1792143463748687700,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.054751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 213,
+    "header_ns": 1792143463752446889,
+    "first_point_ns": 1792143463754523565,
+    "last_point_ns": 1792143463813129621,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.152458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 214,
+    "header_ns": 1792143463818959951,
+    "first_point_ns": 1792143463820982155,
+    "last_point_ns": 1792143463876150713,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.321042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 215,
+    "header_ns": 1792143463884763240,
+    "first_point_ns": 1792143463884763240,
+    "last_point_ns": 1792143463942082961,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.148667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 216,
+    "header_ns": 1792143463949455738,
+    "first_point_ns": 1792143463949455738,
+    "last_point_ns": 1792143464008166714,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.156833,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 217,
+    "header_ns": 1792143464010434865,
+    "first_point_ns": 1792143464012495660,
+    "last_point_ns": 1792143464073175294,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.144709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 218,
+    "header_ns": 1792143464075110673,
+    "first_point_ns": 1792143464075110673,
+    "last_point_ns": 1792143464135734361,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.090251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 219,
+    "header_ns": 1792143464139961004,
+    "first_point_ns": 1792143464139961004,
+    "last_point_ns": 1792143464202996179,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.824834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 220,
+    "header_ns": 1792143464209443569,
+    "first_point_ns": 1792143464211558393,
+    "last_point_ns": 1792143464267088669,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 6.062292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 221,
+    "header_ns": 1792143464269980907,
+    "first_point_ns": 1792143464271995392,
+    "last_point_ns": 1792143464329609203,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.125792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 222,
+    "header_ns": 1792143464334420442,
+    "first_point_ns": 1792143464334420442,
+    "last_point_ns": 1792143464394674821,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.09025,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 223,
+    "header_ns": 1792143464402431726,
+    "first_point_ns": 1792143464402431726,
+    "last_point_ns": 1792143464461677892,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.088,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 224,
+    "header_ns": 1792143464464928388,
+    "first_point_ns": 1792143464466942442,
+    "last_point_ns": 1792143464526644487,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.230459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 225,
+    "header_ns": 1792143464528990507,
+    "first_point_ns": 1792143464531135745,
+    "last_point_ns": 1792143464589252603,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.365958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 226,
+    "header_ns": 1792143464596419811,
+    "first_point_ns": 1792143464596419811,
+    "last_point_ns": 1792143464656228409,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.134958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 227,
+    "header_ns": 1792143464658447504,
+    "first_point_ns": 1792143464658447504,
+    "last_point_ns": 1792143464721148149,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.049875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 228,
+    "header_ns": 1792143464723563432,
+    "first_point_ns": 1792143464725585636,
+    "last_point_ns": 1792143464783546441,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.094708,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 229,
+    "header_ns": 1792143464788954496,
+    "first_point_ns": 1792143464788954496,
+    "last_point_ns": 1792143464848714960,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.674334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 230,
+    "header_ns": 1792143464854193925,
+    "first_point_ns": 1792143464854193925,
+    "last_point_ns": 1792143464915655954,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 8.292667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 231,
+    "header_ns": 1792143464922685384,
+    "first_point_ns": 1792143464924700301,
+    "last_point_ns": 1792143464980632852,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.125333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 232,
+    "header_ns": 1792143464983994007,
+    "first_point_ns": 1792143464986093843,
+    "last_point_ns": 1792143465043693195,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.935667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 233,
+    "header_ns": 1792143465051090002,
+    "first_point_ns": 1792143465051090002,
+    "last_point_ns": 1792143465108499628,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.117626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 234,
+    "header_ns": 1792143465112485647,
+    "first_point_ns": 1792143465112485647,
+    "last_point_ns": 1792143465175548330,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.966334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 235,
+    "header_ns": 1792143465177435636,
+    "first_point_ns": 1792143465179427393,
+    "last_point_ns": 1792143465237507905,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.686209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 236,
+    "header_ns": 1792143465242083549,
+    "first_point_ns": 1792143465242083549,
+    "last_point_ns": 1792143465302709026,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.073333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 237,
+    "header_ns": 1792143465306930780,
+    "first_point_ns": 1792143465307000245,
+    "last_point_ns": 1792143465369675264,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.177542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 238,
+    "header_ns": 1792143465372816085,
+    "first_point_ns": 1792143465374846007,
+    "last_point_ns": 1792143465434129401,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.183375,
+    "wait_for_end_sample_ms": 1.409294
+  },
+  {
+    "cloud_index": 239,
+    "header_ns": 1792143465436583995,
+    "first_point_ns": 1792143465438652509,
+    "last_point_ns": 1792143465497201903,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 5.853834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 240,
+    "header_ns": 1792143465501842021,
+    "first_point_ns": 1792143465501842021,
+    "last_point_ns": 1792143465562176696,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.222459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 241,
+    "header_ns": 1792143465570936679,
+    "first_point_ns": 1792143465570936679,
+    "last_point_ns": 1792143465628648055,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.144418,
+    "wait_for_end_sample_ms": 1.273281
+  },
+  {
+    "cloud_index": 242,
+    "header_ns": 1792143465631573200,
+    "first_point_ns": 1792143465633587685,
+    "last_point_ns": 1792143465691489425,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.095876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 243,
+    "header_ns": 1792143465696431636,
+    "first_point_ns": 1792143465696431636,
+    "last_point_ns": 1792143465756728149,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.098792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 244,
+    "header_ns": 1792143465761457920,
+    "first_point_ns": 1792143465761457920,
+    "last_point_ns": 1792143465823652042,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.127084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 245,
+    "header_ns": 1792143465826940059,
+    "first_point_ns": 1792143465829000854,
+    "last_point_ns": 1792143465888144512,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.092375,
+    "wait_for_end_sample_ms": 0.972456
+  },
+  {
+    "cloud_index": 246,
+    "header_ns": 1792143465890985727,
+    "first_point_ns": 1792143465893007498,
+    "last_point_ns": 1792143465951663450,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.158208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 247,
+    "header_ns": 1792143465957970619,
+    "first_point_ns": 1792143465957970619,
+    "last_point_ns": 1792143466016102600,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.254833,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 248,
+    "header_ns": 1792143466020415782,
+    "first_point_ns": 1792143466020415782,
+    "last_point_ns": 1792143466083133948,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.081292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 249,
+    "header_ns": 1792143466085460662,
+    "first_point_ns": 1792143466087528733,
+    "last_point_ns": 1792143466147669658,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.073542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 250,
+    "header_ns": 1792143466153294563,
+    "first_point_ns": 1792143466153294563,
+    "last_point_ns": 1792143466210977531,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.163251,
+    "wait_for_end_sample_ms": 1.264266
+  },
+  {
+    "cloud_index": 251,
+    "header_ns": 1792143466214936256,
+    "first_point_ns": 1792143466215036594,
+    "last_point_ns": 1792143466277560009,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.944168,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 252,
+    "header_ns": 1792143466282914400,
+    "first_point_ns": 1792143466285013787,
+    "last_point_ns": 1792143466342114435,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.48175,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 253,
+    "header_ns": 1792143466344486236,
+    "first_point_ns": 1792143466346500290,
+    "last_point_ns": 1792143466404666263,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.88025,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 254,
+    "header_ns": 1792143466409920930,
+    "first_point_ns": 1792143466409920930,
+    "last_point_ns": 1792143466469658288,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 8.029209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 255,
+    "header_ns": 1792143466473961353,
+    "first_point_ns": 1792143466473976790,
+    "last_point_ns": 1792143466538534809,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 7.993001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 256,
+    "header_ns": 1792143466539964914,
+    "first_point_ns": 1792143466541971252,
+    "last_point_ns": 1792143466601624571,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.956,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 257,
+    "header_ns": 1792143466603932380,
+    "first_point_ns": 1792143466606100768,
+    "last_point_ns": 1792143466664253036,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.128667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 258,
+    "header_ns": 1792143466668953895,
+    "first_point_ns": 1792143466668977050,
+    "last_point_ns": 1792143466731162322,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.152459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 259,
+    "header_ns": 1792143466734055042,
+    "first_point_ns": 1792143466736200739,
+    "last_point_ns": 1792143466795620521,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.181626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 260,
+    "header_ns": 1792143466798439264,
+    "first_point_ns": 1792143466800437885,
+    "last_point_ns": 1792143466858592977,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.186083,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 261,
+    "header_ns": 1792143466863478422,
+    "first_point_ns": 1792143466863478422,
+    "last_point_ns": 1792143466923868826,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.472167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 262,
+    "header_ns": 1792143466928937911,
+    "first_point_ns": 1792143466928937911,
+    "last_point_ns": 1792143466990658298,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.986876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 263,
+    "header_ns": 1792143466992975234,
+    "first_point_ns": 1792143466994974283,
+    "last_point_ns": 1792143467055631957,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.178834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 264,
+    "header_ns": 1792143467058009386,
+    "first_point_ns": 1792143467060124210,
+    "last_point_ns": 1792143467118213339,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.104542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 265,
+    "header_ns": 1792143467124930620,
+    "first_point_ns": 1792143467124930620,
+    "last_point_ns": 1792143467185190485,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.095875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 266,
+    "header_ns": 1792143467188964128,
+    "first_point_ns": 1792143467188964128,
+    "last_point_ns": 1792143467249565351,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.093167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 267,
+    "header_ns": 1792143467252436637,
+    "first_point_ns": 1792143467254442975,
+    "last_point_ns": 1792143467313369060,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.137584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 268,
+    "header_ns": 1792143467317414283,
+    "first_point_ns": 1792143467317414283,
+    "last_point_ns": 1792143467377742721,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.846333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 269,
+    "header_ns": 1792143467381936550,
+    "first_point_ns": 1792143467381936550,
+    "last_point_ns": 1792143467444169239,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.136126,
+    "wait_for_end_sample_ms": 0.842716
+  },
+  {
+    "cloud_index": 270,
+    "header_ns": 1792143467446458578,
+    "first_point_ns": 1792143467448480782,
+    "last_point_ns": 1792143467509128740,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.039459,
+    "wait_for_end_sample_ms": 1.548021
+  },
+  {
+    "cloud_index": 271,
+    "header_ns": 1792143467511453390,
+    "first_point_ns": 1792143467513521461,
+    "last_point_ns": 1792143467571701513,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.088876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 272,
+    "header_ns": 1792143467576549291,
+    "first_point_ns": 1792143467576549291,
+    "last_point_ns": 1792143467636532770,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.095,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 273,
+    "header_ns": 1792143467640935659,
+    "first_point_ns": 1792143467640935659,
+    "last_point_ns": 1792143467703675672,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.175208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 274,
+    "header_ns": 1792143467706037044,
+    "first_point_ns": 1792143467708090121,
+    "last_point_ns": 1792143467765978393,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.565292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 275,
+    "header_ns": 1792143467773355722,
+    "first_point_ns": 1792143467773355722,
+    "last_point_ns": 1792143467831735323,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.093542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 276,
+    "header_ns": 1792143467836545705,
+    "first_point_ns": 1792143467836545705,
+    "last_point_ns": 1792143467899148450,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.227875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 277,
+    "header_ns": 1792143467904436349,
+    "first_point_ns": 1792143467906489426,
+    "last_point_ns": 1792143467962644590,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.119209,
+    "wait_for_end_sample_ms": 1.499657
+  },
+  {
+    "cloud_index": 278,
+    "header_ns": 1792143467965947628,
+    "first_point_ns": 1792143467967977550,
+    "last_point_ns": 1792143468026177265,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.115708,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 279,
+    "header_ns": 1792143468030610322,
+    "first_point_ns": 1792143468030610322,
+    "last_point_ns": 1792143468091155488,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.144292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 280,
+    "header_ns": 1792143468095437049,
+    "first_point_ns": 1792143468095437049,
+    "last_point_ns": 1792143468157751811,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.137583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 281,
+    "header_ns": 1792143468160629510,
+    "first_point_ns": 1792143468162581831,
+    "last_point_ns": 1792143468222935361,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.350042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 282,
+    "header_ns": 1792143468224437952,
+    "first_point_ns": 1792143468224437952,
+    "last_point_ns": 1792143468285239500,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.200583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 283,
+    "header_ns": 1792143468289984464,
+    "first_point_ns": 1792143468289984464,
+    "last_point_ns": 1792143468351639196,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 7.518667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 284,
+    "header_ns": 1792143468354436397,
+    "first_point_ns": 1792143468356528066,
+    "last_point_ns": 1792143468416602867,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.096417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 285,
+    "header_ns": 1792143468420548200,
+    "first_point_ns": 1792143468422562685,
+    "last_point_ns": 1792143468480140416,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.111917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 286,
+    "header_ns": 1792143468484337329,
+    "first_point_ns": 1792143468484337329,
+    "last_point_ns": 1792143468544647384,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.114834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 287,
+    "header_ns": 1792143468552438020,
+    "first_point_ns": 1792143468552445740,
+    "last_point_ns": 1792143468611644906,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.117292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 288,
+    "header_ns": 1792143468613687992,
+    "first_point_ns": 1792143468615717914,
+    "last_point_ns": 1792143468676139995,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.358458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 289,
+    "header_ns": 1792143468678432226,
+    "first_point_ns": 1792143468680631951,
+    "last_point_ns": 1792143468739221552,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.068458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 290,
+    "header_ns": 1792143468743480443,
+    "first_point_ns": 1792143468743480443,
+    "last_point_ns": 1792143468805632337,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.299417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 291,
+    "header_ns": 1792143468809039592,
+    "first_point_ns": 1792143468811162134,
+    "last_point_ns": 1792143468870657916,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.102584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 292,
+    "header_ns": 1792143468873934030,
+    "first_point_ns": 1792143468875948084,
+    "last_point_ns": 1792143468933595975,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.119209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 293,
+    "header_ns": 1792143468938442707,
+    "first_point_ns": 1792143468938442707,
+    "last_point_ns": 1792143468999183075,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.017335,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 294,
+    "header_ns": 1792143469002940416,
+    "first_point_ns": 1792143469002940416,
+    "last_point_ns": 1792143469065634802,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.212792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 295,
+    "header_ns": 1792143469068070888,
+    "first_point_ns": 1792143469070123965,
+    "last_point_ns": 1792143469130125659,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 8.021626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 296,
+    "header_ns": 1792143469133114814,
+    "first_point_ns": 1792143469135244619,
+    "last_point_ns": 1792143469193197444,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 6.282709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 297,
+    "header_ns": 1792143469197932004,
+    "first_point_ns": 1792143469197939721,
+    "last_point_ns": 1792143469260141713,
+    "bracketed": true,
+    "imu_samples_within": 20,
+    "max_bracketing_imu_gap_ms": 4.230334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 298,
+    "header_ns": 1792143469262429237,
+    "first_point_ns": 1792143469262429237,
+    "last_point_ns": 1792143469324604381,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.195334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 299,
+    "header_ns": 1792143469328560113,
+    "first_point_ns": 1792143469330581439,
+    "last_point_ns": 1792143469387043244,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.081001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 300,
+    "header_ns": 1792143469391720771,
+    "first_point_ns": 1792143469391720771,
+    "last_point_ns": 1792143469452206298,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.185834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 301,
+    "header_ns": 1792143469456443548,
+    "first_point_ns": 1792143469456443548,
+    "last_point_ns": 1792143469518634004,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.046001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 302,
+    "header_ns": 1792143469521231174,
+    "first_point_ns": 1792143469523253378,
+    "last_point_ns": 1792143469583665325,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.152667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 303,
+    "header_ns": 1792143469585937500,
+    "first_point_ns": 1792143469588021005,
+    "last_point_ns": 1792143469646702843,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.193583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 304,
+    "header_ns": 1792143469651947021,
+    "first_point_ns": 1792143469651947021,
+    "last_point_ns": 1792143469711033695,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.634584,
+    "wait_for_end_sample_ms": 1.855043
+  },
+  {
+    "cloud_index": 305,
+    "header_ns": 1792143469715920925,
+    "first_point_ns": 1792143469715920925,
+    "last_point_ns": 1792143469778163833,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.951918,
+    "wait_for_end_sample_ms": 0.68898
+  },
+  {
+    "cloud_index": 306,
+    "header_ns": 1792143469780441999,
+    "first_point_ns": 1792143469782572259,
+    "last_point_ns": 1792143469840994115,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.104125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 307,
+    "header_ns": 1792143469845431804,
+    "first_point_ns": 1792143469845431804,
+    "last_point_ns": 1792143469905752609,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.08975,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 308,
+    "header_ns": 1792143469911427021,
+    "first_point_ns": 1792143469911427021,
+    "last_point_ns": 1792143469972656174,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.074292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 309,
+    "header_ns": 1792143469977451562,
+    "first_point_ns": 1792143469979512357,
+    "last_point_ns": 1792143470038135274,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.167626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 310,
+    "header_ns": 1792143470040432929,
+    "first_point_ns": 1792143470042486006,
+    "last_point_ns": 1792143470100671901,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.106083,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 311,
+    "header_ns": 1792143470105006456,
+    "first_point_ns": 1792143470105006456,
+    "last_point_ns": 1792143470165594362,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.183667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 312,
+    "header_ns": 1792143470169793367,
+    "first_point_ns": 1792143470169793367,
+    "last_point_ns": 1792143470232635988,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.300167,
+    "wait_for_end_sample_ms": 1.542958
+  },
+  {
+    "cloud_index": 313,
+    "header_ns": 1792143470234444618,
+    "first_point_ns": 1792143470236459103,
+    "last_point_ns": 1792143470297147049,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.180876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 314,
+    "header_ns": 1792143470299416780,
+    "first_point_ns": 1792143470299416780,
+    "last_point_ns": 1792143470359751264,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.100167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 315,
+    "header_ns": 1792143470364414930,
+    "first_point_ns": 1792143470364414930,
+    "last_point_ns": 1792143470426656648,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.049042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 316,
+    "header_ns": 1792143470431933164,
+    "first_point_ns": 1792143470434001678,
+    "last_point_ns": 1792143470491571374,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.073292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 317,
+    "header_ns": 1792143470493905782,
+    "first_point_ns": 1792143470495919836,
+    "last_point_ns": 1792143470554265992,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.070042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 318,
+    "header_ns": 1792143470558445692,
+    "first_point_ns": 1792143470558445692,
+    "last_point_ns": 1792143470619125921,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.017959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 319,
+    "header_ns": 1792143470623383045,
+    "first_point_ns": 1792143470623383045,
+    "last_point_ns": 1792143470685646549,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.264167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 320,
+    "header_ns": 1792143470688451766,
+    "first_point_ns": 1792143470690466251,
+    "last_point_ns": 1792143470750646365,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.379667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 321,
+    "header_ns": 1792143470752923727,
+    "first_point_ns": 1792143470752923727,
+    "last_point_ns": 1792143470813732965,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.335792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 322,
+    "header_ns": 1792143470818421602,
+    "first_point_ns": 1792143470818521962,
+    "last_point_ns": 1792143470880636053,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.757542,
+    "wait_for_end_sample_ms": 1.674846
+  },
+  {
+    "cloud_index": 323,
+    "header_ns": 1792143470886439085,
+    "first_point_ns": 1792143470888553909,
+    "last_point_ns": 1792143470945087927,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.083334,
+    "wait_for_end_sample_ms": 1.357178
+  },
+  {
+    "cloud_index": 324,
+    "header_ns": 1792143470948204040,
+    "first_point_ns": 1792143470950226244,
+    "last_point_ns": 1792143471008129318,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.126792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 325,
+    "header_ns": 1792143471014930248,
+    "first_point_ns": 1792143471014930248,
+    "last_point_ns": 1792143471073432251,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.174625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 326,
+    "header_ns": 1792143471078064441,
+    "first_point_ns": 1792143471078064441,
+    "last_point_ns": 1792143471140140693,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.085958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 327,
+    "header_ns": 1792143471143449068,
+    "first_point_ns": 1792143471145502584,
+    "last_point_ns": 1792143471205130175,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.130001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 328,
+    "header_ns": 1792143471207149744,
+    "first_point_ns": 1792143471209295441,
+    "last_point_ns": 1792143471267709208,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.110625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 329,
+    "header_ns": 1792143471272165775,
+    "first_point_ns": 1792143471272165775,
+    "last_point_ns": 1792143471334635124,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.077125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 330,
+    "header_ns": 1792143471336924552,
+    "first_point_ns": 1792143471336924552,
+    "last_point_ns": 1792143471399143237,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.748709,
+    "wait_for_end_sample_ms": 2.651476
+  },
+  {
+    "cloud_index": 331,
+    "header_ns": 1792143471401568889,
+    "first_point_ns": 1792143471403582943,
+    "last_point_ns": 1792143471462038421,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.150125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 332,
+    "header_ns": 1792143471466977119,
+    "first_point_ns": 1792143471466977119,
+    "last_point_ns": 1792143471527184944,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.068167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 333,
+    "header_ns": 1792143471531764507,
+    "first_point_ns": 1792143471531764507,
+    "last_point_ns": 1792143471593667759,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.814584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 334,
+    "header_ns": 1792143471597956180,
+    "first_point_ns": 1792143471599970665,
+    "last_point_ns": 1792143471658656135,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.137875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 335,
+    "header_ns": 1792143471663060665,
+    "first_point_ns": 1792143471665160052,
+    "last_point_ns": 1792143471721259670,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.066417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 336,
+    "header_ns": 1792143471725956201,
+    "first_point_ns": 1792143471725956201,
+    "last_point_ns": 1792143471786024045,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.078958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 337,
+    "header_ns": 1792143471790437459,
+    "first_point_ns": 1792143471790437459,
+    "last_point_ns": 1792143471853278890,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.158709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 338,
+    "header_ns": 1792143471855442285,
+    "first_point_ns": 1792143471857572545,
+    "last_point_ns": 1792143471915528234,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.043417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 339,
+    "header_ns": 1792143471922186136,
+    "first_point_ns": 1792143471922186136,
+    "last_point_ns": 1792143471980738500,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.030833,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 340,
+    "header_ns": 1792143471985481739,
+    "first_point_ns": 1792143471985481739,
+    "last_point_ns": 1792143472048155559,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.098625,
+    "wait_for_end_sample_ms": 1.658401
+  },
+  {
+    "cloud_index": 341,
+    "header_ns": 1792143472050456762,
+    "first_point_ns": 1792143472052517557,
+    "last_point_ns": 1792143472112736364,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.088,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 342,
+    "header_ns": 1792143472116753816,
+    "first_point_ns": 1792143472118814611,
+    "last_point_ns": 1792143472175700700,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.102876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 343,
+    "header_ns": 1792143472179939031,
+    "first_point_ns": 1792143472179939031,
+    "last_point_ns": 1792143472240684739,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.175209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 344,
+    "header_ns": 1792143472244937419,
+    "first_point_ns": 1792143472244937419,
+    "last_point_ns": 1792143472307630138,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.202625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 345,
+    "header_ns": 1792143472309954166,
+    "first_point_ns": 1792143472311906905,
+    "last_point_ns": 1792143472369988647,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.180459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 346,
+    "header_ns": 1792143472374947786,
+    "first_point_ns": 1792143472374947786,
+    "last_point_ns": 1792143472434776971,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.039,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 347,
+    "header_ns": 1792143472444420337,
+    "first_point_ns": 1792143472444420337,
+    "last_point_ns": 1792143472501170886,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.484375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 348,
+    "header_ns": 1792143472503700256,
+    "first_point_ns": 1792143472505768770,
+    "last_point_ns": 1792143472566147258,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.059709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 349,
+    "header_ns": 1792143472570442199,
+    "first_point_ns": 1792143472572472121,
+    "last_point_ns": 1792143472629652217,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.863167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 350,
+    "header_ns": 1792143472633461952,
+    "first_point_ns": 1792143472633461952,
+    "last_point_ns": 1792143472694108146,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.053293,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 351,
+    "header_ns": 1792143472698449850,
+    "first_point_ns": 1792143472698480723,
+    "last_point_ns": 1792143472760651838,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.095417,
+    "wait_for_end_sample_ms": 1.435747
+  },
+  {
+    "cloud_index": 352,
+    "header_ns": 1792143472763012647,
+    "first_point_ns": 1792143472765073883,
+    "last_point_ns": 1792143472825649717,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.181626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 353,
+    "header_ns": 1792143472828428983,
+    "first_point_ns": 1792143472828428983,
+    "last_point_ns": 1792143472888739991,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.061459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 354,
+    "header_ns": 1792143472893516302,
+    "first_point_ns": 1792143472893516302,
+    "last_point_ns": 1792143472955150919,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.096751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 355,
+    "header_ns": 1792143472958429574,
+    "first_point_ns": 1792143472960529871,
+    "last_point_ns": 1792143473020635343,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.165209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 356,
+    "header_ns": 1792143473022936820,
+    "first_point_ns": 1792143473024959457,
+    "last_point_ns": 1792143473083629966,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.203959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 357,
+    "header_ns": 1792143473087945222,
+    "first_point_ns": 1792143473087945222,
+    "last_point_ns": 1792143473148168527,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 6.006001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 358,
+    "header_ns": 1792143473152910232,
+    "first_point_ns": 1792143473152925672,
+    "last_point_ns": 1792143473215152694,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 8.146834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 359,
+    "header_ns": 1792143473217558145,
+    "first_point_ns": 1792143473219565342,
+    "last_point_ns": 1792143473280144704,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.024001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 360,
+    "header_ns": 1792143473282487392,
+    "first_point_ns": 1792143473284656708,
+    "last_point_ns": 1792143473342735157,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.078792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 361,
+    "header_ns": 1792143473347582340,
+    "first_point_ns": 1792143473347605500,
+    "last_point_ns": 1792143473409151474,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.328208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 362,
+    "header_ns": 1792143473412028312,
+    "first_point_ns": 1792143473414166748,
+    "last_point_ns": 1792143473474152908,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.039501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 363,
+    "header_ns": 1792143473476918935,
+    "first_point_ns": 1792143473478918412,
+    "last_point_ns": 1792143473537233880,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.092084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 364,
+    "header_ns": 1792143473541624307,
+    "first_point_ns": 1792143473541624307,
+    "last_point_ns": 1792143473602156198,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.239958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 365,
+    "header_ns": 1792143473606459856,
+    "first_point_ns": 1792143473606459856,
+    "last_point_ns": 1792143473668637533,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.331667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 366,
+    "header_ns": 1792143473671689987,
+    "first_point_ns": 1792143473673759397,
+    "last_point_ns": 1792143473733635021,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.074292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 367,
+    "header_ns": 1792143473736469030,
+    "first_point_ns": 1792143473738584306,
+    "last_point_ns": 1792143473796677660,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.083792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 368,
+    "header_ns": 1792143473800935983,
+    "first_point_ns": 1792143473800935983,
+    "last_point_ns": 1792143473863685720,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.959917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 369,
+    "header_ns": 1792143473866623640,
+    "first_point_ns": 1792143473866623640,
+    "last_point_ns": 1792143473928647631,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.119209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 370,
+    "header_ns": 1792143473930929422,
+    "first_point_ns": 1792143473932952059,
+    "last_point_ns": 1792143473991528993,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.074167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 371,
+    "header_ns": 1792143473995944499,
+    "first_point_ns": 1792143473995944499,
+    "last_point_ns": 1792143474056782283,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.762167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 372,
+    "header_ns": 1792143474061975240,
+    "first_point_ns": 1792143474062052457,
+    "last_point_ns": 1792143474123148935,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.253667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 373,
+    "header_ns": 1792143474125496625,
+    "first_point_ns": 1792143474127511984,
+    "last_point_ns": 1792143474188169873,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.204084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 374,
+    "header_ns": 1792143474192476987,
+    "first_point_ns": 1792143474194561383,
+    "last_point_ns": 1792143474251205003,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.170542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 375,
+    "header_ns": 1792143474255033016,
+    "first_point_ns": 1792143474255033016,
+    "last_point_ns": 1792143474315550937,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.018834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 376,
+    "header_ns": 1792143474320449590,
+    "first_point_ns": 1792143474320449590,
+    "last_point_ns": 1792143474382160821,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.250168,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 377,
+    "header_ns": 1792143474384933233,
+    "first_point_ns": 1792143474387063949,
+    "last_point_ns": 1792143474444991029,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.079042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 378,
+    "header_ns": 1792143474449455976,
+    "first_point_ns": 1792143474449455976,
+    "last_point_ns": 1792143474510224119,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.057084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 379,
+    "header_ns": 1792143474514496564,
+    "first_point_ns": 1792143474514504284,
+    "last_point_ns": 1792143474577264890,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.101667,
+    "wait_for_end_sample_ms": 1.454471
+  },
+  {
+    "cloud_index": 380,
+    "header_ns": 1792143474579435348,
+    "first_point_ns": 1792143474581488864,
+    "last_point_ns": 1792143474642137832,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.917917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 381,
+    "header_ns": 1792143474644428491,
+    "first_point_ns": 1792143474646489727,
+    "last_point_ns": 1792143474705162858,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.077001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 382,
+    "header_ns": 1792143474709001541,
+    "first_point_ns": 1792143474709001541,
+    "last_point_ns": 1792143474769609775,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.075834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 383,
+    "header_ns": 1792143474776992559,
+    "first_point_ns": 1792143474776992559,
+    "last_point_ns": 1792143474836644483,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.091125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 384,
+    "header_ns": 1792143474841450691,
+    "first_point_ns": 1792143474843465608,
+    "last_point_ns": 1792143474899947349,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.053584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 385,
+    "header_ns": 1792143474903947830,
+    "first_point_ns": 1792143474903947830,
+    "last_point_ns": 1792143474964228081,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.087084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 386,
+    "header_ns": 1792143474968994617,
+    "first_point_ns": 1792143474968994617,
+    "last_point_ns": 1792143475032662311,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.141959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 387,
+    "header_ns": 1792143475035494089,
+    "first_point_ns": 1792143475037571221,
+    "last_point_ns": 1792143475096067907,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.776042,
+    "wait_for_end_sample_ms": 1.124585
+  },
+  {
+    "cloud_index": 388,
+    "header_ns": 1792143475098015546,
+    "first_point_ns": 1792143475100030463,
+    "last_point_ns": 1792143475158659089,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.070125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 389,
+    "header_ns": 1792143475165209531,
+    "first_point_ns": 1792143475165209531,
+    "last_point_ns": 1792143475223751943,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.816876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 390,
+    "header_ns": 1792143475228439807,
+    "first_point_ns": 1792143475228439807,
+    "last_point_ns": 1792143475290631515,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.168792,
+    "wait_for_end_sample_ms": 0.613148
+  },
+  {
+    "cloud_index": 391,
+    "header_ns": 1792143475292968034,
+    "first_point_ns": 1792143475295013830,
+    "last_point_ns": 1792143475355142038,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.25325,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 392,
+    "header_ns": 1792143475357460975,
+    "first_point_ns": 1792143475357460975,
+    "last_point_ns": 1792143475417856143,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.260376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 393,
+    "header_ns": 1792143475422958135,
+    "first_point_ns": 1792143475423058517,
+    "last_point_ns": 1792143475485596818,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.186292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 394,
+    "header_ns": 1792143475489518880,
+    "first_point_ns": 1792143475491642341,
+    "last_point_ns": 1792143475549597741,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.065583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 395,
+    "header_ns": 1792143475551966667,
+    "first_point_ns": 1792143475554027903,
+    "last_point_ns": 1792143475612592819,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.081708,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 396,
+    "header_ns": 1792143475616951704,
+    "first_point_ns": 1792143475616951704,
+    "last_point_ns": 1792143475677974607,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.175917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 397,
+    "header_ns": 1792143475683921813,
+    "first_point_ns": 1792143475683921813,
+    "last_point_ns": 1792143475744210074,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.123293,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 398,
+    "header_ns": 1792143475747121095,
+    "first_point_ns": 1792143475749166891,
+    "last_point_ns": 1792143475809680440,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.015667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 399,
+    "header_ns": 1792143475811964035,
+    "first_point_ns": 1792143475814110191,
+    "last_point_ns": 1792143475872686699,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.095292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 400,
+    "header_ns": 1792143475876929044,
+    "first_point_ns": 1792143475876929044,
+    "last_point_ns": 1792143475939157266,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.056792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 401,
+    "header_ns": 1792143475942948818,
+    "first_point_ns": 1792143475942948818,
+    "last_point_ns": 1792143476004170227,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.546208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 402,
+    "header_ns": 1792143476006494760,
+    "first_point_ns": 1792143476008532837,
+    "last_point_ns": 1792143476067809598,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.163792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 403,
+    "header_ns": 1792143476071861743,
+    "first_point_ns": 1792143476071861743,
+    "last_point_ns": 1792143476131714656,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.153917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 404,
+    "header_ns": 1792143476136965990,
+    "first_point_ns": 1792143476136965990,
+    "last_point_ns": 1792143476198157415,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.081,
+    "wait_for_end_sample_ms": 1.8494
+  },
+  {
+    "cloud_index": 405,
+    "header_ns": 1792143476200936555,
+    "first_point_ns": 1792143476202943752,
+    "last_point_ns": 1792143476263146321,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.251917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 406,
+    "header_ns": 1792143476265448808,
+    "first_point_ns": 1792143476267548644,
+    "last_point_ns": 1792143476326211614,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.139042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 407,
+    "header_ns": 1792143476332128047,
+    "first_point_ns": 1792143476332128047,
+    "last_point_ns": 1792143476390563827,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.059251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 408,
+    "header_ns": 1792143476397938728,
+    "first_point_ns": 1792143476397938728,
+    "last_point_ns": 1792143476457609729,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.088584,
+    "wait_for_end_sample_ms": 1.107535
+  },
+  {
+    "cloud_index": 409,
+    "header_ns": 1792143476460464000,
+    "first_point_ns": 1792143476462594260,
+    "last_point_ns": 1792143476521353656,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.245501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 410,
+    "header_ns": 1792143476529955148,
+    "first_point_ns": 1792143476529955148,
+    "last_point_ns": 1792143476585715070,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.188334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 411,
+    "header_ns": 1792143476589923381,
+    "first_point_ns": 1792143476590000581,
+    "last_point_ns": 1792143476652152457,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.296834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 412,
+    "header_ns": 1792143476655995607,
+    "first_point_ns": 1792143476658056843,
+    "last_point_ns": 1792143476717146883,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.092958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 413,
+    "header_ns": 1792143476720070123,
+    "first_point_ns": 1792143476722138637,
+    "last_point_ns": 1792143476780715741,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.138917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 414,
+    "header_ns": 1792143476787132501,
+    "first_point_ns": 1792143476787132501,
+    "last_point_ns": 1792143476845042158,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.134667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 415,
+    "header_ns": 1792143476851104021,
+    "first_point_ns": 1792143476851104021,
+    "last_point_ns": 1792143476912155226,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.092459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 416,
+    "header_ns": 1792143476915053367,
+    "first_point_ns": 1792143476917067852,
+    "last_point_ns": 1792143476974488693,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.12125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 417,
+    "header_ns": 1792143476979432582,
+    "first_point_ns": 1792143476979432582,
+    "last_point_ns": 1792143477039781848,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.128834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 418,
+    "header_ns": 1792143477043967962,
+    "first_point_ns": 1792143477043967962,
+    "last_point_ns": 1792143477106237726,
+    "bracketed": true,
+    "imu_samples_within": 20,
+    "max_bracketing_imu_gap_ms": 4.19825,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 419,
+    "header_ns": 1792143477108906030,
+    "first_point_ns": 1792143477110974544,
+    "last_point_ns": 1792143477171151655,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.151876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 420,
+    "header_ns": 1792143477176020860,
+    "first_point_ns": 1792143477178050782,
+    "last_point_ns": 1792143477233683778,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 5.11525,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 421,
+    "header_ns": 1792143477238435745,
+    "first_point_ns": 1792143477238435745,
+    "last_point_ns": 1792143477298616256,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.068167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 422,
+    "header_ns": 1792143477303086519,
+    "first_point_ns": 1792143477303086519,
+    "last_point_ns": 1792143477365666643,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.148959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 423,
+    "header_ns": 1792143477367966175,
+    "first_point_ns": 1792143477369988379,
+    "last_point_ns": 1792143477430661217,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.113959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 424,
+    "header_ns": 1792143477435171127,
+    "first_point_ns": 1792143477435171127,
+    "last_point_ns": 1792143477493235630,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.2425,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 425,
+    "header_ns": 1792143477497661828,
+    "first_point_ns": 1792143477497808476,
+    "last_point_ns": 1792143477560145242,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.124167,
+    "wait_for_end_sample_ms": 1.035678
+  },
+  {
+    "cloud_index": 426,
+    "header_ns": 1792143477562462806,
+    "first_point_ns": 1792143477564562642,
+    "last_point_ns": 1792143477624629237,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.352959,
+    "wait_for_end_sample_ms": 1.636676
+  },
+  {
+    "cloud_index": 427,
+    "header_ns": 1792143477627989292,
+    "first_point_ns": 1792143477630003777,
+    "last_point_ns": 1792143477687624336,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.109001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 428,
+    "header_ns": 1792143477694442033,
+    "first_point_ns": 1792143477694442033,
+    "last_point_ns": 1792143477753132734,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.080709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 429,
+    "header_ns": 1792143477757941007,
+    "first_point_ns": 1792143477757956447,
+    "last_point_ns": 1792143477819665059,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.143126,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 430,
+    "header_ns": 1792143477822599887,
+    "first_point_ns": 1792143477824637964,
+    "last_point_ns": 1792143477884626308,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.154209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 431,
+    "header_ns": 1792143477887277364,
+    "first_point_ns": 1792143477889446680,
+    "last_point_ns": 1792143477947511686,
+    "bracketed": true,
+    "imu_samples_within": 15,
+    "max_bracketing_imu_gap_ms": 7.727209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 432,
+    "header_ns": 1792143477951440095,
+    "first_point_ns": 1792143477951548175,
+    "last_point_ns": 1792143478014146817,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.242292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 433,
+    "header_ns": 1792143478018947124,
+    "first_point_ns": 1792143478021093280,
+    "last_point_ns": 1792143478078636005,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.161792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 434,
+    "header_ns": 1792143478083480596,
+    "first_point_ns": 1792143478085487363,
+    "last_point_ns": 1792143478141572408,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.108125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 435,
+    "header_ns": 1792143478145974397,
+    "first_point_ns": 1792143478145974397,
+    "last_point_ns": 1792143478206657117,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.172584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 436,
+    "header_ns": 1792143478210935115,
+    "first_point_ns": 1792143478210935115,
+    "last_point_ns": 1792143478273157367,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.0845,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 437,
+    "header_ns": 1792143478275923252,
+    "first_point_ns": 1792143478277930449,
+    "last_point_ns": 1792143478338130157,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.089751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 438,
+    "header_ns": 1792143478340492010,
+    "first_point_ns": 1792143478342615006,
+    "last_point_ns": 1792143478401203169,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.087584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 439,
+    "header_ns": 1792143478405427217,
+    "first_point_ns": 1792143478405427217,
+    "last_point_ns": 1792143478468168928,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 7.917751,
+    "wait_for_end_sample_ms": 2.575101
+  },
+  {
+    "cloud_index": 440,
+    "header_ns": 1792143478470429897,
+    "first_point_ns": 1792143478470429897,
+    "last_point_ns": 1792143478532692184,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.097042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 441,
+    "header_ns": 1792143478535930871,
+    "first_point_ns": 1792143478537952642,
+    "last_point_ns": 1792143478595529023,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.048209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 442,
+    "header_ns": 1792143478600429534,
+    "first_point_ns": 1792143478600429534,
+    "last_point_ns": 1792143478661197349,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.069833,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 443,
+    "header_ns": 1792143478665449619,
+    "first_point_ns": 1792143478665526802,
+    "last_point_ns": 1792143478727639892,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.031417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 444,
+    "header_ns": 1792143478730207443,
+    "first_point_ns": 1792143478732230080,
+    "last_point_ns": 1792143478792661114,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.121542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 445,
+    "header_ns": 1792143478796034097,
+    "first_point_ns": 1792143478798118047,
+    "last_point_ns": 1792143478855181768,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.132334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 446,
+    "header_ns": 1792143478859422206,
+    "first_point_ns": 1792143478859422206,
+    "last_point_ns": 1792143478920089854,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.091959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 447,
+    "header_ns": 1792143478925417423,
+    "first_point_ns": 1792143478925417423,
+    "last_point_ns": 1792143478986676082,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.116292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 448,
+    "header_ns": 1792143478989003419,
+    "first_point_ns": 1792143478991017904,
+    "last_point_ns": 1792143479049494889,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.041501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 449,
+    "header_ns": 1792143479053914785,
+    "first_point_ns": 1792143479053914785,
+    "last_point_ns": 1792143479114706529,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.130709,
+    "wait_for_end_sample_ms": 0.890657
+  },
+  {
+    "cloud_index": 450,
+    "header_ns": 1792143479118946075,
+    "first_point_ns": 1792143479118953795,
+    "last_point_ns": 1792143479181140106,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.22975,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 451,
+    "header_ns": 1792143479183920860,
+    "first_point_ns": 1792143479185982096,
+    "last_point_ns": 1792143479245857399,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.128251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 452,
+    "header_ns": 1792143479248455047,
+    "first_point_ns": 1792143479250523561,
+    "last_point_ns": 1792143479308666602,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.057958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 453,
+    "header_ns": 1792143479313433170,
+    "first_point_ns": 1792143479313433170,
+    "last_point_ns": 1792143479373615612,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.923625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 454,
+    "header_ns": 1792143479378425836,
+    "first_point_ns": 1792143479378425836,
+    "last_point_ns": 1792143479440631322,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.174625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 455,
+    "header_ns": 1792143479443951845,
+    "first_point_ns": 1792143479445974049,
+    "last_point_ns": 1792143479503482755,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.793376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 456,
+    "header_ns": 1792143479509466886,
+    "first_point_ns": 1792143479509466886,
+    "last_point_ns": 1792143479568240682,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.013834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 457,
+    "header_ns": 1792143479572965145,
+    "first_point_ns": 1792143479572965145,
+    "last_point_ns": 1792143479635664387,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.235,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 458,
+    "header_ns": 1792143479637953281,
+    "first_point_ns": 1792143479640029513,
+    "last_point_ns": 1792143479700071521,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.038875,
+    "wait_for_end_sample_ms": 2.179147
+  },
+  {
+    "cloud_index": 459,
+    "header_ns": 1792143479702945709,
+    "first_point_ns": 1792143479704959320,
+    "last_point_ns": 1792143479763142559,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.148376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 460,
+    "header_ns": 1792143479767069339,
+    "first_point_ns": 1792143479767069339,
+    "last_point_ns": 1792143479828162315,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.048917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 461,
+    "header_ns": 1792143479832432746,
+    "first_point_ns": 1792143479832440464,
+    "last_point_ns": 1792143479894668593,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.077376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 462,
+    "header_ns": 1792143479897687911,
+    "first_point_ns": 1792143479899694249,
+    "last_point_ns": 1792143479959167018,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.092959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 463,
+    "header_ns": 1792143479961963415,
+    "first_point_ns": 1792143479961963415,
+    "last_point_ns": 1792143480022222147,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.409709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 464,
+    "header_ns": 1792143480027012348,
+    "first_point_ns": 1792143480027112708,
+    "last_point_ns": 1792143480089243809,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.121542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 465,
+    "header_ns": 1792143480092973470,
+    "first_point_ns": 1792143480095104186,
+    "last_point_ns": 1792143480153657449,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.112208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 466,
+    "header_ns": 1792143480156450748,
+    "first_point_ns": 1792143480158449797,
+    "last_point_ns": 1792143480216687160,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.991126,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 467,
+    "header_ns": 1792143480225415706,
+    "first_point_ns": 1792143480225415706,
+    "last_point_ns": 1792143480281658695,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.1445,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 468,
+    "header_ns": 1792143480286410808,
+    "first_point_ns": 1792143480286410808,
+    "last_point_ns": 1792143480348137927,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.104042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 469,
+    "header_ns": 1792143480352958679,
+    "first_point_ns": 1792143480354973596,
+    "last_point_ns": 1792143480413701931,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.959875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 470,
+    "header_ns": 1792143480415529251,
+    "first_point_ns": 1792143480417651793,
+    "last_point_ns": 1792143480476204796,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.1025,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 471,
+    "header_ns": 1792143480483225107,
+    "first_point_ns": 1792143480483232827,
+    "last_point_ns": 1792143480542652471,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.660417,
+    "wait_for_end_sample_ms": 1.397826
+  },
+  {
+    "cloud_index": 472,
+    "header_ns": 1792143480545480489,
+    "first_point_ns": 1792143480545488207,
+    "last_point_ns": 1792143480608179582,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.660417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 473,
+    "header_ns": 1792143480610447883,
+    "first_point_ns": 1792143480612470087,
+    "last_point_ns": 1792143480670550964,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.130751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 474,
+    "header_ns": 1792143480675476551,
+    "first_point_ns": 1792143480675476551,
+    "last_point_ns": 1792143480735693855,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.669334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 475,
+    "header_ns": 1792143480739993810,
+    "first_point_ns": 1792143480739993810,
+    "last_point_ns": 1792143480802646173,
+    "bracketed": true,
+    "imu_samples_within": 20,
+    "max_bracketing_imu_gap_ms": 4.661417,
+    "wait_for_end_sample_ms": 1.633152
+  },
+  {
+    "cloud_index": 476,
+    "header_ns": 1792143480804441690,
+    "first_point_ns": 1792143480806495206,
+    "last_point_ns": 1792143480867128923,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.661417,
+    "wait_for_end_sample_ms": 0.609643
+  },
+  {
+    "cloud_index": 477,
+    "header_ns": 1792143480869427442,
+    "first_point_ns": 1792143480871503674,
+    "last_point_ns": 1792143480930192544,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.277459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 478,
+    "header_ns": 1792143480934452056,
+    "first_point_ns": 1792143480934452056,
+    "last_point_ns": 1792143480994528796,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.531792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 479,
+    "header_ns": 1792143481001452445,
+    "first_point_ns": 1792143481001452445,
+    "last_point_ns": 1792143481061561965,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.854001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 480,
+    "header_ns": 1792143481065438747,
+    "first_point_ns": 1792143481067453232,
+    "last_point_ns": 1792143481124487484,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.981459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 481,
+    "header_ns": 1792143481129131555,
+    "first_point_ns": 1792143481129131555,
+    "last_point_ns": 1792143481189192220,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.099667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 482,
+    "header_ns": 1792143481194026231,
+    "first_point_ns": 1792143481194026231,
+    "last_point_ns": 1792143481256117559,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.327417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 483,
+    "header_ns": 1792143481258436679,
+    "first_point_ns": 1792143481260497474,
+    "last_point_ns": 1792143481321145072,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.099667,
+    "wait_for_end_sample_ms": 1.198061
+  },
+  {
+    "cloud_index": 484,
+    "header_ns": 1792143481323497533,
+    "first_point_ns": 1792143481325550610,
+    "last_point_ns": 1792143481384091989,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.493417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 485,
+    "header_ns": 1792143481388931989,
+    "first_point_ns": 1792143481388931989,
+    "last_point_ns": 1792143481448586068,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.957876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 486,
+    "header_ns": 1792143481454451799,
+    "first_point_ns": 1792143481454451799,
+    "last_point_ns": 1792143481516169561,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.471834,
+    "wait_for_end_sample_ms": 0.729591
+  },
+  {
+    "cloud_index": 487,
+    "header_ns": 1792143481524074554,
+    "first_point_ns": 1792143481526081321,
+    "last_point_ns": 1792143481578451904,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.120959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 488,
+    "header_ns": 1792143481583431959,
+    "first_point_ns": 1792143481583431959,
+    "last_point_ns": 1792143481643753870,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.523459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 489,
+    "header_ns": 1792143481648983955,
+    "first_point_ns": 1792143481648983955,
+    "last_point_ns": 1792143481710623813,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.033875,
+    "wait_for_end_sample_ms": 1.607009
+  },
+  {
+    "cloud_index": 490,
+    "header_ns": 1792143481712421655,
+    "first_point_ns": 1792143481714490611,
+    "last_point_ns": 1792143481775560335,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.126626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 491,
+    "header_ns": 1792143481777502298,
+    "first_point_ns": 1792143481779516783,
+    "last_point_ns": 1792143481837691171,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.127084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 492,
+    "header_ns": 1792143481842464923,
+    "first_point_ns": 1792143481842464923,
+    "last_point_ns": 1792143481902626155,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.043001,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 493,
+    "header_ns": 1792143481908916950,
+    "first_point_ns": 1792143481908916950,
+    "last_point_ns": 1792143481969661636,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.104333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 494,
+    "header_ns": 1792143481971971511,
+    "first_point_ns": 1792143481974024588,
+    "last_point_ns": 1792143482034127311,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.418,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 495,
+    "header_ns": 1792143482036535978,
+    "first_point_ns": 1792143482036535978,
+    "last_point_ns": 1792143482097232382,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.055168,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 496,
+    "header_ns": 1792143482101422309,
+    "first_point_ns": 1792143482101422309,
+    "last_point_ns": 1792143482163890521,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.204375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 497,
+    "header_ns": 1792143482169955253,
+    "first_point_ns": 1792143482172070529,
+    "last_point_ns": 1792143482229623664,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.277125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 498,
+    "header_ns": 1792143482231693267,
+    "first_point_ns": 1792143482233715471,
+    "last_point_ns": 1792143482291604568,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.087709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 499,
+    "header_ns": 1792143482296958684,
+    "first_point_ns": 1792143482296966402,
+    "last_point_ns": 1792143482356770040,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.232375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 500,
+    "header_ns": 1792143482363437891,
+    "first_point_ns": 1792143482363445611,
+    "last_point_ns": 1792143482423182592,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.211083,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 501,
+    "header_ns": 1792143482426547288,
+    "first_point_ns": 1792143482428569925,
+    "last_point_ns": 1792143482488631887,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.091209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 502,
+    "header_ns": 1792143482491034746,
+    "first_point_ns": 1792143482493180443,
+    "last_point_ns": 1792143482551727484,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.022959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 503,
+    "header_ns": 1792143482555963993,
+    "first_point_ns": 1792143482555963993,
+    "last_point_ns": 1792143482618144379,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.170042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 504,
+    "header_ns": 1792143482620433807,
+    "first_point_ns": 1792143482620433807,
+    "last_point_ns": 1792143482683318218,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.074584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 505,
+    "header_ns": 1792143482686440467,
+    "first_point_ns": 1792143482688447234,
+    "last_point_ns": 1792143482745926135,
+    "bracketed": true,
+    "imu_samples_within": 15,
+    "max_bracketing_imu_gap_ms": 7.059209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 506,
+    "header_ns": 1792143482749988079,
+    "first_point_ns": 1792143482749988079,
+    "last_point_ns": 1792143482810696255,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.546209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 507,
+    "header_ns": 1792143482815597772,
+    "first_point_ns": 1792143482815597772,
+    "last_point_ns": 1792143482877156804,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.021918,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 508,
+    "header_ns": 1792143482879946470,
+    "first_point_ns": 1792143482881969107,
+    "last_point_ns": 1792143482942203119,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.382417,
+    "wait_for_end_sample_ms": 0.95972
+  },
+  {
+    "cloud_index": 509,
+    "header_ns": 1792143482944447517,
+    "first_point_ns": 1792143482946546904,
+    "last_point_ns": 1792143483005182907,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.679792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 510,
+    "header_ns": 1792143483009454965,
+    "first_point_ns": 1792143483009454965,
+    "last_point_ns": 1792143483070001939,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.63625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 511,
+    "header_ns": 1792143483074419021,
+    "first_point_ns": 1792143483074419021,
+    "last_point_ns": 1792143483137147350,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.202625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 512,
+    "header_ns": 1792143483141088247,
+    "first_point_ns": 1792143483143210789,
+    "last_point_ns": 1792143483199524427,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.051417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 513,
+    "header_ns": 1792143483205939531,
+    "first_point_ns": 1792143483205939531,
+    "last_point_ns": 1792143483264231844,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.079084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 514,
+    "header_ns": 1792143483271483898,
+    "first_point_ns": 1792143483271561098,
+    "last_point_ns": 1792143483331148784,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.180042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 515,
+    "header_ns": 1792143483335520267,
+    "first_point_ns": 1792143483337566063,
+    "last_point_ns": 1792143483396636646,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.346376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 516,
+    "header_ns": 1792143483399550676,
+    "first_point_ns": 1792143483401627352,
+    "last_point_ns": 1792143483459193029,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.203209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 517,
+    "header_ns": 1792143483463975429,
+    "first_point_ns": 1792143483463975429,
+    "last_point_ns": 1792143483524060504,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.146626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 518,
+    "header_ns": 1792143483528437614,
+    "first_point_ns": 1792143483528437614,
+    "last_point_ns": 1792143483591136135,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.342334,
+    "wait_for_end_sample_ms": 1.463116
+  },
+  {
+    "cloud_index": 519,
+    "header_ns": 1792143483593026161,
+    "first_point_ns": 1792143483594979318,
+    "last_point_ns": 1792143483653472400,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.279917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 520,
+    "header_ns": 1792143483657935619,
+    "first_point_ns": 1792143483657935619,
+    "last_point_ns": 1792143483718272701,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.128542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 521,
+    "header_ns": 1792143483722944259,
+    "first_point_ns": 1792143483722944259,
+    "last_point_ns": 1792143483785169139,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.07,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 522,
+    "header_ns": 1792143483790966510,
+    "first_point_ns": 1792143483793042742,
+    "last_point_ns": 1792143483850158145,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.088584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 523,
+    "header_ns": 1792143483852452754,
+    "first_point_ns": 1792143483854498113,
+    "last_point_ns": 1792143483913277431,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.086334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 524,
+    "header_ns": 1792143483920951128,
+    "first_point_ns": 1792143483920951128,
+    "last_point_ns": 1792143483977609205,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.079834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 525,
+    "header_ns": 1792143483981998205,
+    "first_point_ns": 1792143483981998205,
+    "last_point_ns": 1792143484044685350,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.68575,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 526,
+    "header_ns": 1792143484046984910,
+    "first_point_ns": 1792143484049045705,
+    "last_point_ns": 1792143484109166875,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.915668,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 527,
+    "header_ns": 1792143484115164279,
+    "first_point_ns": 1792143484115164279,
+    "last_point_ns": 1792143484172371905,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.688959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 528,
+    "header_ns": 1792143484178778648,
+    "first_point_ns": 1792143484178778648,
+    "last_point_ns": 1792143484239140110,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.095084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 529,
+    "header_ns": 1792143484248477220,
+    "first_point_ns": 1792143484250568889,
+    "last_point_ns": 1792143484304121633,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.149542,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 530,
+    "header_ns": 1792143484307294607,
+    "first_point_ns": 1792143484309316378,
+    "last_point_ns": 1792143484367132028,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.940918,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 531,
+    "header_ns": 1792143484376145362,
+    "first_point_ns": 1792143484376145362,
+    "last_point_ns": 1792143484431631866,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.179959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 532,
+    "header_ns": 1792143484436436653,
+    "first_point_ns": 1792143484436452093,
+    "last_point_ns": 1792143484498689278,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.082751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 533,
+    "header_ns": 1792143484501008749,
+    "first_point_ns": 1792143484503062265,
+    "last_point_ns": 1792143484563691572,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.093834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 534,
+    "header_ns": 1792143484565941810,
+    "first_point_ns": 1792143484568118380,
+    "last_point_ns": 1792143484626252452,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.051501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 535,
+    "header_ns": 1792143484630959749,
+    "first_point_ns": 1792143484631067806,
+    "last_point_ns": 1792143484693161020,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.001293,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 536,
+    "header_ns": 1792143484695458650,
+    "first_point_ns": 1792143484697597086,
+    "last_point_ns": 1792143484758000238,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.134959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 537,
+    "header_ns": 1792143484760459184,
+    "first_point_ns": 1792143484762474101,
+    "last_point_ns": 1792143484820591501,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.049709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 538,
+    "header_ns": 1792143484827919960,
+    "first_point_ns": 1792143484827919960,
+    "last_point_ns": 1792143484885662502,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.076917,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 539,
+    "header_ns": 1792143484889946937,
+    "first_point_ns": 1792143484889946937,
+    "last_point_ns": 1792143484952225696,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 7.859251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 540,
+    "header_ns": 1792143484955435514,
+    "first_point_ns": 1792143484957442711,
+    "last_point_ns": 1792143485017159952,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.063417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 541,
+    "header_ns": 1792143485021472692,
+    "first_point_ns": 1792143485023595688,
+    "last_point_ns": 1792143485080206464,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 8.068376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 542,
+    "header_ns": 1792143485084453344,
+    "first_point_ns": 1792143485084453344,
+    "last_point_ns": 1792143485147263483,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.121251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 543,
+    "header_ns": 1792143485149455308,
+    "first_point_ns": 1792143485149455308,
+    "last_point_ns": 1792143485211581548,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.321667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 544,
+    "header_ns": 1792143485214484214,
+    "first_point_ns": 1792143485216521854,
+    "last_point_ns": 1792143485275067054,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.124292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 545,
+    "header_ns": 1792143485279517173,
+    "first_point_ns": 1792143485279517173,
+    "last_point_ns": 1792143485339812679,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.11075,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 546,
+    "header_ns": 1792143485345580101,
+    "first_point_ns": 1792143485345580101,
+    "last_point_ns": 1792143485406634346,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.542417,
+    "wait_for_end_sample_ms": 1.198311
+  },
+  {
+    "cloud_index": 547,
+    "header_ns": 1792143485408941030,
+    "first_point_ns": 1792143485410955515,
+    "last_point_ns": 1792143485471648054,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.055042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 548,
+    "header_ns": 1792143485476437330,
+    "first_point_ns": 1792143485478528999,
+    "last_point_ns": 1792143485534229830,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.115625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 549,
+    "header_ns": 1792143485538995981,
+    "first_point_ns": 1792143485538995981,
+    "last_point_ns": 1792143485598506864,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 7.845251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 550,
+    "header_ns": 1792143485602946519,
+    "first_point_ns": 1792143485602946519,
+    "last_point_ns": 1792143485665755612,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.153333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 551,
+    "header_ns": 1792143485667937278,
+    "first_point_ns": 1792143485670067538,
+    "last_point_ns": 1792143485728501315,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.143126,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 552,
+    "header_ns": 1792143485733466625,
+    "first_point_ns": 1792143485733466625,
+    "last_point_ns": 1792143485793211502,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.070084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 553,
+    "header_ns": 1792143485797448873,
+    "first_point_ns": 1792143485797448873,
+    "last_point_ns": 1792143485860228940,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.049625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 554,
+    "header_ns": 1792143485866955041,
+    "first_point_ns": 1792143485869008118,
+    "last_point_ns": 1792143485924659505,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.247834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 555,
+    "header_ns": 1792143485927548646,
+    "first_point_ns": 1792143485929601284,
+    "last_point_ns": 1792143485988034860,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.062417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 556,
+    "header_ns": 1792143485992934942,
+    "first_point_ns": 1792143485992934942,
+    "last_point_ns": 1792143486052572809,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.062334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 557,
+    "header_ns": 1792143486057437658,
+    "first_point_ns": 1792143486057437658,
+    "last_point_ns": 1792143486119729688,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.114167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 558,
+    "header_ns": 1792143486123669862,
+    "first_point_ns": 1792143486125683916,
+    "last_point_ns": 1792143486182473680,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.187584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 559,
+    "header_ns": 1792143486186930179,
+    "first_point_ns": 1792143486186930179,
+    "last_point_ns": 1792143486247715423,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.017709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 560,
+    "header_ns": 1792143486251974582,
+    "first_point_ns": 1792143486251974582,
+    "last_point_ns": 1792143486314158454,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.176459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 561,
+    "header_ns": 1792143486319947242,
+    "first_point_ns": 1792143486322015756,
+    "last_point_ns": 1792143486379084472,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.293626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 562,
+    "header_ns": 1792143486381426334,
+    "first_point_ns": 1792143486383448105,
+    "last_point_ns": 1792143486442151413,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.349042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 563,
+    "header_ns": 1792143486446441173,
+    "first_point_ns": 1792143486446441173,
+    "last_point_ns": 1792143486506727447,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.459584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 564,
+    "header_ns": 1792143486517501115,
+    "first_point_ns": 1792143486517501115,
+    "last_point_ns": 1792143486573167100,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.55025,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 565,
+    "header_ns": 1792143486575982570,
+    "first_point_ns": 1792143486578035647,
+    "last_point_ns": 1792143486638162784,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.056209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 566,
+    "header_ns": 1792143486641139030,
+    "first_point_ns": 1792143486641139030,
+    "last_point_ns": 1792143486701236290,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.063209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 567,
+    "header_ns": 1792143486708488941,
+    "first_point_ns": 1792143486708488941,
+    "last_point_ns": 1792143486768139465,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.346376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 568,
+    "header_ns": 1792143486771729946,
+    "first_point_ns": 1792143486773844770,
+    "last_point_ns": 1792143486832651813,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.096459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 569,
+    "header_ns": 1792143486835454702,
+    "first_point_ns": 1792143486837453323,
+    "last_point_ns": 1792143486895620962,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 7.951875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 570,
+    "header_ns": 1792143486901940822,
+    "first_point_ns": 1792143486901940822,
+    "last_point_ns": 1792143486960164741,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.723376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 571,
+    "header_ns": 1792143486964721441,
+    "first_point_ns": 1792143486964721441,
+    "last_point_ns": 1792143487027158273,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 6.136209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 572,
+    "header_ns": 1792143487030447721,
+    "first_point_ns": 1792143487032469925,
+    "last_point_ns": 1792143487092111734,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.219251,
+    "wait_for_end_sample_ms": 1.270723
+  },
+  {
+    "cloud_index": 573,
+    "header_ns": 1792143487094463109,
+    "first_point_ns": 1792143487096623781,
+    "last_point_ns": 1792143487155724656,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.07225,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 574,
+    "header_ns": 1792143487159453392,
+    "first_point_ns": 1792143487159453392,
+    "last_point_ns": 1792143487221811100,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.11525,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 575,
+    "header_ns": 1792143487224291801,
+    "first_point_ns": 1792143487226445216,
+    "last_point_ns": 1792143487286589569,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.214584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 576,
+    "header_ns": 1792143487293750524,
+    "first_point_ns": 1792143487295772295,
+    "last_point_ns": 1792143487349592737,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.093834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 577,
+    "header_ns": 1792143487353986024,
+    "first_point_ns": 1792143487353986024,
+    "last_point_ns": 1792143487414675550,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.401834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 578,
+    "header_ns": 1792143487418487310,
+    "first_point_ns": 1792143487418487310,
+    "last_point_ns": 1792143487481439367,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.207,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 579,
+    "header_ns": 1792143487483793973,
+    "first_point_ns": 1792143487485808890,
+    "last_point_ns": 1792143487546139638,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.221292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 580,
+    "header_ns": 1792143487548424005,
+    "first_point_ns": 1792143487550523841,
+    "last_point_ns": 1792143487608694772,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.086334,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 581,
+    "header_ns": 1792143487615933656,
+    "first_point_ns": 1792143487615933656,
+    "last_point_ns": 1792143487673467973,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.151875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 582,
+    "header_ns": 1792143487679450511,
+    "first_point_ns": 1792143487679450511,
+    "last_point_ns": 1792143487740081996,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.103459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 583,
+    "header_ns": 1792143487743933439,
+    "first_point_ns": 1792143487745994234,
+    "last_point_ns": 1792143487803050562,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.271751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 584,
+    "header_ns": 1792143487807456731,
+    "first_point_ns": 1792143487807456731,
+    "last_point_ns": 1792143487868212625,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.254792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 585,
+    "header_ns": 1792143487872456073,
+    "first_point_ns": 1792143487872540993,
+    "last_point_ns": 1792143487935251876,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.592168,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 586,
+    "header_ns": 1792143487937545776,
+    "first_point_ns": 1792143487939568857,
+    "last_point_ns": 1792143488000141300,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.064292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 587,
+    "header_ns": 1792143488002473831,
+    "first_point_ns": 1792143488004542787,
+    "last_point_ns": 1792143488062676140,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.075459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 588,
+    "header_ns": 1792143488067433357,
+    "first_point_ns": 1792143488067433357,
+    "last_point_ns": 1792143488128045181,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.105667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 589,
+    "header_ns": 1792143488133052825,
+    "first_point_ns": 1792143488133052825,
+    "last_point_ns": 1792143488194658679,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.074209,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 590,
+    "header_ns": 1792143488200966119,
+    "first_point_ns": 1792143488202988756,
+    "last_point_ns": 1792143488257517541,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.065834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 591,
+    "header_ns": 1792143488261961698,
+    "first_point_ns": 1792143488261961698,
+    "last_point_ns": 1792143488322224153,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 5.077792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 592,
+    "header_ns": 1792143488328428030,
+    "first_point_ns": 1792143488328428030,
+    "last_point_ns": 1792143488389152632,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.117458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 593,
+    "header_ns": 1792143488393440485,
+    "first_point_ns": 1792143488395501721,
+    "last_point_ns": 1792143488453661219,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.327167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 594,
+    "header_ns": 1792143488456434965,
+    "first_point_ns": 1792143488458457169,
+    "last_point_ns": 1792143488516660787,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.078375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 595,
+    "header_ns": 1792143488521032810,
+    "first_point_ns": 1792143488521032810,
+    "last_point_ns": 1792143488581599949,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.518043,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 596,
+    "header_ns": 1792143488587270021,
+    "first_point_ns": 1792143488587270021,
+    "last_point_ns": 1792143488648167142,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 7.824251,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 597,
+    "header_ns": 1792143488650951862,
+    "first_point_ns": 1792143488652989939,
+    "last_point_ns": 1792143488713159633,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.122125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 598,
+    "header_ns": 1792143488715460538,
+    "first_point_ns": 1792143488715460538,
+    "last_point_ns": 1792143488776229009,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.122125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 599,
+    "header_ns": 1792143488780944585,
+    "first_point_ns": 1792143488780944585,
+    "last_point_ns": 1792143488842634122,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.324375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 600,
+    "header_ns": 1792143488845555305,
+    "first_point_ns": 1792143488847655141,
+    "last_point_ns": 1792143488907594551,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.943709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 601,
+    "header_ns": 1792143488910437583,
+    "first_point_ns": 1792143488912459787,
+    "last_point_ns": 1792143488970631438,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.105792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 602,
+    "header_ns": 1792143488976059675,
+    "first_point_ns": 1792143488976059675,
+    "last_point_ns": 1792143489035751646,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.095042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 603,
+    "header_ns": 1792143489040046930,
+    "first_point_ns": 1792143489040062370,
+    "last_point_ns": 1792143489102658048,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.187333,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 604,
+    "header_ns": 1792143489109380960,
+    "first_point_ns": 1792143489111411317,
+    "last_point_ns": 1792143489167168630,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.083834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 605,
+    "header_ns": 1792143489169942855,
+    "first_point_ns": 1792143489172119425,
+    "last_point_ns": 1792143489230249118,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.162375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 606,
+    "header_ns": 1792143489234429359,
+    "first_point_ns": 1792143489234506542,
+    "last_point_ns": 1792143489297142669,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.083126,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 607,
+    "header_ns": 1792143489300035715,
+    "first_point_ns": 1792143489302173694,
+    "last_point_ns": 1792143489361583334,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.1135,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 608,
+    "header_ns": 1792143489363965272,
+    "first_point_ns": 1792143489365963893,
+    "last_point_ns": 1792143489424077737,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.024208,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 609,
+    "header_ns": 1792143489429069757,
+    "first_point_ns": 1792143489429069757,
+    "last_point_ns": 1792143489489677564,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.757958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 610,
+    "header_ns": 1792143489493941783,
+    "first_point_ns": 1792143489493941783,
+    "last_point_ns": 1792143489556148780,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.063625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 611,
+    "header_ns": 1792143489559140682,
+    "first_point_ns": 1792143489561155167,
+    "last_point_ns": 1792143489620644642,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.990084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 612,
+    "header_ns": 1792143489623239755,
+    "first_point_ns": 1792143489625355031,
+    "last_point_ns": 1792143489684185815,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.131167,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 613,
+    "header_ns": 1792143489689163684,
+    "first_point_ns": 1792143489689163684,
+    "last_point_ns": 1792143489750660850,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.067875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 614,
+    "header_ns": 1792143489754936456,
+    "first_point_ns": 1792143489754936456,
+    "last_point_ns": 1792143489815161954,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.165876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 615,
+    "header_ns": 1792143489818537235,
+    "first_point_ns": 1792143489820559872,
+    "last_point_ns": 1792143489878039345,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.228251,
+    "wait_for_end_sample_ms": 0.671582
+  },
+  {
+    "cloud_index": 616,
+    "header_ns": 1792143489882968187,
+    "first_point_ns": 1792143489882968187,
+    "last_point_ns": 1792143489943812917,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.138458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 617,
+    "header_ns": 1792143489954942464,
+    "first_point_ns": 1792143489955019664,
+    "last_point_ns": 1792143490010261754,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.169375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 618,
+    "header_ns": 1792143490012921094,
+    "first_point_ns": 1792143490014944175,
+    "last_point_ns": 1792143490075125581,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.215084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 619,
+    "header_ns": 1792143490077636003,
+    "first_point_ns": 1792143490079720399,
+    "last_point_ns": 1792143490138238943,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.075084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 620,
+    "header_ns": 1792143490142434358,
+    "first_point_ns": 1792143490142434358,
+    "last_point_ns": 1792143490203674062,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.093833,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 621,
+    "header_ns": 1792143490206989288,
+    "first_point_ns": 1792143490206989288,
+    "last_point_ns": 1792143490269166301,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.143709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 622,
+    "header_ns": 1792143490272692680,
+    "first_point_ns": 1792143490274645837,
+    "last_point_ns": 1792143490333321716,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.075459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 623,
+    "header_ns": 1792143490337022304,
+    "first_point_ns": 1792143490337022304,
+    "last_point_ns": 1792143490397222770,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.108042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 624,
+    "header_ns": 1792143490402040958,
+    "first_point_ns": 1792143490402040958,
+    "last_point_ns": 1792143490464250816,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.136708,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 625,
+    "header_ns": 1792143490466428279,
+    "first_point_ns": 1792143490468466356,
+    "last_point_ns": 1792143490529143497,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.057667,
+    "wait_for_end_sample_ms": 0.628233
+  },
+  {
+    "cloud_index": 626,
+    "header_ns": 1792143490531457424,
+    "first_point_ns": 1792143490533510501,
+    "last_point_ns": 1792143490591675655,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.092876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 627,
+    "header_ns": 1792143490595945358,
+    "first_point_ns": 1792143490595945358,
+    "last_point_ns": 1792143490656580948,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.160458,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 628,
+    "header_ns": 1792143490660925626,
+    "first_point_ns": 1792143490660925626,
+    "last_point_ns": 1792143490723126668,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.170417,
+    "wait_for_end_sample_ms": 0.873312
+  },
+  {
+    "cloud_index": 629,
+    "header_ns": 1792143490726454257,
+    "first_point_ns": 1792143490728414294,
+    "last_point_ns": 1792143490785994464,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.162084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 630,
+    "header_ns": 1792143490790925025,
+    "first_point_ns": 1792143490790925025,
+    "last_point_ns": 1792143490851733008,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.096459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 631,
+    "header_ns": 1792143490855931520,
+    "first_point_ns": 1792143490855931520,
+    "last_point_ns": 1792143490918145105,
+    "bracketed": true,
+    "imu_samples_within": 20,
+    "max_bracketing_imu_gap_ms": 4.106084,
+    "wait_for_end_sample_ms": 0.60262
+  },
+  {
+    "cloud_index": 632,
+    "header_ns": 1792143490920419692,
+    "first_point_ns": 1792143490922503642,
+    "last_point_ns": 1792143490983116664,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.0975,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 633,
+    "header_ns": 1792143490985585451,
+    "first_point_ns": 1792143490987599505,
+    "last_point_ns": 1792143491045768995,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.072084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 634,
+    "header_ns": 1792143491049943447,
+    "first_point_ns": 1792143491049943447,
+    "last_point_ns": 1792143491110612560,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.052,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 635,
+    "header_ns": 1792143491114938974,
+    "first_point_ns": 1792143491114938974,
+    "last_point_ns": 1792143491177166952,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.136875,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 636,
+    "header_ns": 1792143491181956768,
+    "first_point_ns": 1792143491183986256,
+    "last_point_ns": 1792143491242153881,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.155084,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 637,
+    "header_ns": 1792143491246023654,
+    "first_point_ns": 1792143491248215192,
+    "last_point_ns": 1792143491305356242,
+    "bracketed": true,
+    "imu_samples_within": 16,
+    "max_bracketing_imu_gap_ms": 4.193583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 638,
+    "header_ns": 1792143491311519145,
+    "first_point_ns": 1792143491311519145,
+    "last_point_ns": 1792143491371646090,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.105792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 639,
+    "header_ns": 1792143491373942613,
+    "first_point_ns": 1792143491376072873,
+    "last_point_ns": 1792143491436628744,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.068459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 640,
+    "header_ns": 1792143491438985347,
+    "first_point_ns": 1792143491441007551,
+    "last_point_ns": 1792143491499107795,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.10375,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 641,
+    "header_ns": 1792143491503646135,
+    "first_point_ns": 1792143491503646135,
+    "last_point_ns": 1792143491564168974,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.393501,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 642,
+    "header_ns": 1792143491568914890,
+    "first_point_ns": 1792143491568914890,
+    "last_point_ns": 1792143491631131481,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.171417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 643,
+    "header_ns": 1792143491633431196,
+    "first_point_ns": 1792143491635445681,
+    "last_point_ns": 1792143491696109274,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.109,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 644,
+    "header_ns": 1792143491699095010,
+    "first_point_ns": 1792143491701225270,
+    "last_point_ns": 1792143491758915734,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.100959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 645,
+    "header_ns": 1792143491763816833,
+    "first_point_ns": 1792143491763824551,
+    "last_point_ns": 1792143491825648078,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.13225,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 646,
+    "header_ns": 1792143491828455686,
+    "first_point_ns": 1792143491828455686,
+    "last_point_ns": 1792143491890555440,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 6.001043,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 647,
+    "header_ns": 1792143491893211126,
+    "first_point_ns": 1792143491895272362,
+    "last_point_ns": 1792143491953632646,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.132626,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 648,
+    "header_ns": 1792143491957952499,
+    "first_point_ns": 1792143491957952499,
+    "last_point_ns": 1792143492018706302,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 7.978417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 649,
+    "header_ns": 1792143492026001214,
+    "first_point_ns": 1792143492026001214,
+    "last_point_ns": 1792143492085171231,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.440418,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 650,
+    "header_ns": 1792143492088971138,
+    "first_point_ns": 1792143492090978335,
+    "last_point_ns": 1792143492150132969,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.944834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 651,
+    "header_ns": 1792143492152457475,
+    "first_point_ns": 1792143492154541425,
+    "last_point_ns": 1792143492212683038,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.113958,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 652,
+    "header_ns": 1792143492217300653,
+    "first_point_ns": 1792143492217300653,
+    "last_point_ns": 1792143492277520463,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.08625,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 653,
+    "header_ns": 1792143492282142639,
+    "first_point_ns": 1792143492282142639,
+    "last_point_ns": 1792143492344168434,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.137292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 654,
+    "header_ns": 1792143492346952199,
+    "first_point_ns": 1792143492349028875,
+    "last_point_ns": 1792143492406996587,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.072125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 655,
+    "header_ns": 1792143492411936521,
+    "first_point_ns": 1792143492411936521,
+    "last_point_ns": 1792143492472223684,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.144876,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 656,
+    "header_ns": 1792143492476453542,
+    "first_point_ns": 1792143492476453542,
+    "last_point_ns": 1792143492539141572,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.128834,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 657,
+    "header_ns": 1792143492541448831,
+    "first_point_ns": 1792143492543517787,
+    "last_point_ns": 1792143492603642534,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.043376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 658,
+    "header_ns": 1792143492607452630,
+    "first_point_ns": 1792143492609513866,
+    "last_point_ns": 1792143492666667409,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.043584,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 659,
+    "header_ns": 1792143492671449184,
+    "first_point_ns": 1792143492671449184,
+    "last_point_ns": 1792143492731587135,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.05125,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 660,
+    "header_ns": 1792143492738954544,
+    "first_point_ns": 1792143492738954544,
+    "last_point_ns": 1792143492799139896,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.039292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 661,
+    "header_ns": 1792143492800950050,
+    "first_point_ns": 1792143492802972687,
+    "last_point_ns": 1792143492861468586,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.061792,
+    "wait_for_end_sample_ms": 0.578797
+  },
+  {
+    "cloud_index": 662,
+    "header_ns": 1792143492866041421,
+    "first_point_ns": 1792143492866041421,
+    "last_point_ns": 1792143492926721887,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.038292,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 663,
+    "header_ns": 1792143492930944681,
+    "first_point_ns": 1792143492930975561,
+    "last_point_ns": 1792143492993098917,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.049792,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 664,
+    "header_ns": 1792143492995446681,
+    "first_point_ns": 1792143492997523357,
+    "last_point_ns": 1792143493057633357,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.117459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 665,
+    "header_ns": 1792143493060435771,
+    "first_point_ns": 1792143493062466128,
+    "last_point_ns": 1792143493120685580,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.060583,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 666,
+    "header_ns": 1792143493125478982,
+    "first_point_ns": 1792143493125478982,
+    "last_point_ns": 1792143493185620812,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.101417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 667,
+    "header_ns": 1792143493189949750,
+    "first_point_ns": 1792143493189949750,
+    "last_point_ns": 1792143493252637013,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 5.954084,
+    "wait_for_end_sample_ms": 0.966258
+  },
+  {
+    "cloud_index": 668,
+    "header_ns": 1792143493254937648,
+    "first_point_ns": 1792143493256959852,
+    "last_point_ns": 1792143493317784705,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.063417,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 669,
+    "header_ns": 1792143493319954395,
+    "first_point_ns": 1792143493319954395,
+    "last_point_ns": 1792143493380238876,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.170667,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 670,
+    "header_ns": 1792143493384908437,
+    "first_point_ns": 1792143493384908437,
+    "last_point_ns": 1792143493447161206,
+    "bracketed": true,
+    "imu_samples_within": 19,
+    "max_bracketing_imu_gap_ms": 4.074459,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 671,
+    "header_ns": 1792143493449451208,
+    "first_point_ns": 1792143493451558764,
+    "last_point_ns": 1792143493512161680,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.480959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 672,
+    "header_ns": 1792143493513933181,
+    "first_point_ns": 1792143493515948098,
+    "last_point_ns": 1792143493574604922,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 4.089,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 673,
+    "header_ns": 1792143493579545021,
+    "first_point_ns": 1792143493579545021,
+    "last_point_ns": 1792143493639671089,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.088376,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 674,
+    "header_ns": 1792143493645689725,
+    "first_point_ns": 1792143493645689725,
+    "last_point_ns": 1792143493707173562,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.089751,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 675,
+    "header_ns": 1792143493708930253,
+    "first_point_ns": 1792143493710922010,
+    "last_point_ns": 1792143493771620103,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 4.134959,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 676,
+    "header_ns": 1792143493774332523,
+    "first_point_ns": 1792143493776478679,
+    "last_point_ns": 1792143493834723724,
+    "bracketed": true,
+    "imu_samples_within": 18,
+    "max_bracketing_imu_gap_ms": 6.103709,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 677,
+    "header_ns": 1792143493842931985,
+    "first_point_ns": 1792143493842931985,
+    "last_point_ns": 1792143493901139329,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 5.843042,
+    "wait_for_end_sample_ms": 0.0
+  },
+  {
+    "cloud_index": 678,
+    "header_ns": 1792143493906791448,
+    "first_point_ns": 1792143493908938074,
+    "last_point_ns": 1792143493966095598,
+    "bracketed": true,
+    "imu_samples_within": 17,
+    "max_bracketing_imu_gap_ms": 8.158917,
+    "wait_for_end_sample_ms": 0.61707
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "interior_source_unique": 73250,
+  "missing_output_stamps": 0,
+  "extra_output_stamps": 0,
+  "interior_scans": 3876,
+  "interior_scans_bracketed": 3876,
+  "body_backsteps": 0,
+  "cloud_backsteps": 0,
+  "max_body_gap_ms": 25.350169,
+  "vendor_lidar_error_codes": [
+    0.0
+  ],
+  "vendor_lidar_packet_loss_max": {
+    "cloud_vendor_units": 0.5524861812591553,
+    "imu_vendor_units": 0.0
+  },
+  "configuration_changed": false
+}

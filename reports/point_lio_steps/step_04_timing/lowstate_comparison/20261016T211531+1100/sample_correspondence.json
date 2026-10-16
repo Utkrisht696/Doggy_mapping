@@ -1,0 +1,57 @@
+{
+  "sport_messages": 4428,
+  "matched_identical_gyro_acc_messages": 4428,
+  "matched_fraction": 1.0,
+  "tick_unit_inferred_only": true,
+  "clock_mapping_validated": false,
+  "application_changed": false,
+  "epoch_ms_per_tick_fit": 0.9999951650055878,
+  "matched_tick_to_sport_stamp_residual_ms": {
+    "min": -0.5381485918188673,
+    "p01": -0.5061749080965342,
+    "median": -0.3369233703588179,
+    "p95": 0.7482695624125878,
+    "p99": 1.9780817830527113,
+    "max": 6.854801779789341
+  },
+  "sport_source_minus_low_dds_source_ms": {
+    "min": -1.103375,
+    "p01": 0.80945384,
+    "median": 1.022875,
+    "p95": 1.24006415,
+    "p99": 3.0700456599999977,
+    "max": 7.245875
+  },
+  "sport_dds_minus_sport_source_ms": {
+    "min": 0.014,
+    "p01": 0.03682884,
+    "median": 1.0217085,
+    "p95": 2.008387499999999,
+    "p99": 5.557055999999998,
+    "max": 19.236877
+  },
+  "sport_dds_minus_low_dds_ms": {
+    "min": -0.483876,
+    "p01": 0.9991949800000001,
+    "median": 2.0860005,
+    "p95": 3.1731289499999997,
+    "p99": 6.768898249999911,
+    "max": 20.249252
+  },
+  "matched_fused_orientation_difference_deg": {
+    "min": 0.8700851052704364,
+    "p01": 0.8700852119872617,
+    "median": 0.8700857892087344,
+    "p95": 0.8700862784233347,
+    "p99": 0.8700863838604326,
+    "max": 0.8700864554359371
+  },
+  "fixed_1ms_tick_held_out_residual_ms": {
+    "min": -0.18012949999979355,
+    "p01": -0.17273596000074576,
+    "median": -0.006928500000185522,
+    "p95": 1.0876508500001818,
+    "p99": 2.947570940000541,
+    "max": 7.174364500000365
+  }
+}

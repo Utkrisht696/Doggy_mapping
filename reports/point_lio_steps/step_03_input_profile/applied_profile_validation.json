@@ -1,0 +1,341 @@
+{
+  "passed": true,
+  "checks": {
+    "reviewed_parameter_values_unchanged": true,
+    "all_52_parameters_loaded": true,
+    "all_names_declared_by_estimator": true,
+    "all_ros_types_match_cpp_declarations": true,
+    "all_ros_loaded_values_match_yaml": true,
+    "raw_cloud_selected": true,
+    "approved_body_imu_selected": true,
+    "exact_approved_extrinsics": true,
+    "pcd_and_body_cloud_disabled": true,
+    "stationary_initialization_and_fixed_extrinsics": true,
+    "point_time_in_seconds": true,
+    "finite_numeric_values": true,
+    "upstream_point_lio_unchanged": true
+  },
+  "parameter_count": 52,
+  "parameter_details": {
+    "common.lid_topic": {
+      "cpp_type": "std::string",
+      "ros_type": 4,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "common.imu_topic": {
+      "cpp_type": "std::string",
+      "ros_type": 4,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "common.con_frame": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "common.con_frame_num": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "common.cut_frame": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "common.cut_frame_time_interval": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "common.time_lag_imu_to_lidar": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "preprocess.lidar_type": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "preprocess.scan_line": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "preprocess.timestamp_unit": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "preprocess.blind": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.imu_en": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.start_in_aggressive_motion": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.extrinsic_est_en": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.imu_time_inte": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.satu_acc": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.satu_gyro": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.acc_norm": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.lidar_meas_cov": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.acc_cov_output": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.gyr_cov_output": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.b_acc_cov": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.b_gyr_cov": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.imu_meas_acc_cov": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.imu_meas_omg_cov": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.gyr_cov_input": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.acc_cov_input": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.plane_thr": {
+      "cpp_type": "float",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.match_s": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.fov_degree": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.det_range": {
+      "cpp_type": "float",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.gravity_align": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.gravity": {
+      "cpp_type": "std::vector<double>",
+      "ros_type": 8,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.gravity_init": {
+      "cpp_type": "std::vector<double>",
+      "ros_type": 8,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.extrinsic_T": {
+      "cpp_type": "std::vector<double>",
+      "ros_type": 8,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "mapping.extrinsic_R": {
+      "cpp_type": "std::vector<double>",
+      "ros_type": 8,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "odometry.publish_odometry_without_downsample": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "publish.path_en": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "publish.scan_publish_en": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "publish.scan_bodyframe_pub_en": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "pcd_save.pcd_save_en": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "pcd_save.interval": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "use_imu_as_input": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "prop_at_freq_of_imu": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "check_satu": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "init_map_size": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "point_filter_num": {
+      "cpp_type": "int",
+      "ros_type": 2,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "space_down_sample": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "filter_size_surf": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "filter_size_map": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "cube_side_length": {
+      "cpp_type": "double",
+      "ros_type": 3,
+      "type_matches": true,
+      "value_matches": true
+    },
+    "runtime_pos_log_enable": {
+      "cpp_type": "bool",
+      "ros_type": 1,
+      "type_matches": true,
+      "value_matches": true
+    }
+  },
+  "profile_sha256": "b2d2e9bcae2c8efb15c0bf0f03a980be91369ee79b535dd5ead09b6668d143bf",
+  "method": "Actual ROS parameter-file loader in a temporary validator on domain 197, CycloneDDS explicitly restricted to lo; C++ names/types compared statically. No estimator execution.",
+  "limitations": [
+    "L1 model identification provisional.",
+    "Noise/saturation thresholds retained from upstream, not measured sensor calibration.",
+    "Nominal 0.004 s interval and zero inter-sensor lag need step 4.",
+    "Output frames and runnable Go2 launch need step 5."
+  ]
+}

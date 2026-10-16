@@ -1,0 +1,171 @@
+{
+  "checked_local": "2026-10-12T19:52:22.985130+11:00",
+  "duration_s": 15.0,
+  "topics": {
+    "/utlidar/cloud": {
+      "messages": 232,
+      "receipt_rate_hz": 15.43,
+      "frame": "utlidar_lidar",
+      "stamp": 1791794355.6838772,
+      "laptop_minus_header_seconds": 787.296,
+      "points": 3744,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7
+        },
+        {
+          "name": "ring",
+          "offset": 20,
+          "datatype": 4
+        },
+        {
+          "name": "time",
+          "offset": 24,
+          "datatype": 7
+        }
+      ]
+    },
+    "/utlidar/cloud_base": {
+      "messages": 232,
+      "receipt_rate_hz": 15.43,
+      "frame": "base_link",
+      "stamp": 1791794355.6838772,
+      "laptop_minus_header_seconds": 787.296,
+      "points": 984,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7
+        },
+        {
+          "name": "ring",
+          "offset": 20,
+          "datatype": 4
+        },
+        {
+          "name": "time",
+          "offset": 24,
+          "datatype": 7
+        }
+      ]
+    },
+    "/utlidar/cloud_deskewed": {
+      "messages": 232,
+      "receipt_rate_hz": 15.42,
+      "frame": "odom",
+      "stamp": 1791794355.7456255,
+      "laptop_minus_header_seconds": 787.234,
+      "points": 10984,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7
+        }
+      ]
+    },
+    "/utlidar/imu": {
+      "messages": 3719,
+      "receipt_rate_hz": 248.01,
+      "frame": "utlidar_imu",
+      "stamp": 1791794355.7765439,
+      "laptop_minus_header_seconds": 787.203,
+      "acceleration_norm_m_s2": 10.385670892903306
+    },
+    "/utlidar/robot_odom": {
+      "messages": 2245,
+      "receipt_rate_hz": 149.68,
+      "frame": "odom",
+      "stamp": 1791794355.7767553,
+      "laptop_minus_header_seconds": 787.203,
+      "child_frame": "base_link"
+    },
+    "/lf/lowstate": {
+      "messages": 301,
+      "receipt_rate_hz": 20.01,
+      "motor_count": 20
+    },
+    "/tests/slam_toolbox/scan": {
+      "messages": 232,
+      "receipt_rate_hz": 15.43,
+      "frame": "base_link",
+      "stamp": 1791794355.7456255,
+      "laptop_minus_header_seconds": 787.234,
+      "beams": 360,
+      "finite_beams": 24,
+      "finite_beams_min": 14,
+      "finite_beams_max": 37
+    },
+    "/tests/slam_toolbox/map": {
+      "messages": 16,
+      "receipt_rate_hz": 1.03,
+      "frame": "map",
+      "stamp": 1791794355.3573542,
+      "laptop_minus_header_seconds": 787.622,
+      "width": 106,
+      "height": 158,
+      "resolution_m": 0.05000000074505806,
+      "known_cells": 214,
+      "occupied_cells": 22
+    }
+  },
+  "checks": {
+    "all_sensor_streams_received": true,
+    "scan_received": true,
+    "map_received": true,
+    "scan_has_returns": true,
+    "odom_to_scan_at_source_stamp": true,
+    "map_to_odom": true,
+    "official_radar_link": true
+  },
+  "startup_passed": true,
+  "scope": "Stationary read-only startup check; does not establish walking mapping quality or drift."
+}

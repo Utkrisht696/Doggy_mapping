@@ -1,0 +1,21 @@
+{
+  "approved": true,
+  "user_approval": "yeah do it",
+  "scope": "Change only init_map_size from 10 to 4000 relative to original baseline, original gyro variance 0.1, isolated saved-bag replay with same gates; no live adapter restart or robot commands.",
+  "production_launch_sha256": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd",
+  "trial_launch_changes": [
+    "Resolve root to original workspace location",
+    "Add one startup-map threshold parameter file to mapper only"
+  ],
+  "failed_gyro_override_loaded": false,
+  "repeat_of": "reports/point_lio_steps/step_06_saved_bag/20261016T215126+1100",
+  "repeat_reason": "Passive observer fell behind due to whole-trajectory array conversion on each callback and best-effort depth 5 IMU queue.",
+  "observer_changes": [
+    "Convert only the last pose for finite/magnitude checks; O(1) instead of O(N) per callback",
+    "Use reliable depth 10000 for passive IMU observation"
+  ],
+  "mapping_parameters_changed_from_approved_seed_trial": false,
+  "trial_completed": true,
+  "trial_result": "full_replay_completed_startup_improved_residual_tracking_anomalies",
+  "override_adopted_into_default": false
+}

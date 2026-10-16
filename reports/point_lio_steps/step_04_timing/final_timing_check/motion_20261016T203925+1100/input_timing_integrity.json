@@ -1,0 +1,233 @@
+{
+  "input_timing_integrity_passed": true,
+  "checks": {
+    "saved_bag_verified": true,
+    "no_decode_errors": true,
+    "body_source_no_observed_misses": true,
+    "body_source_no_observed_extras": true,
+    "fixed_bias_values_exact": true,
+    "body_stamps_strictly_increasing": true,
+    "cloud_headers_strictly_increasing": true,
+    "point_times_finite_nonnegative": true,
+    "point_times_under_100ms": true,
+    "scan_intervals_do_not_overlap": true,
+    "all_interior_scans_bracketed": true,
+    "clock_increasing": true,
+    "all_clock_stamps_match_vendor_or_exact_relay": true
+  },
+  "interior_scans": 3170,
+  "bracketed_scans": 3170,
+  "interior_source_unique_samples": 60193,
+  "body_missing_samples": 0,
+  "matched_body_source_values": 60779,
+  "max_value_error": 0.0,
+  "max_imu_gap_ms": 35.957254,
+  "motion_gaps_over_12ms": [
+    {
+      "source_s": 42.450862516,
+      "gap_ms": 15.013251,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 47.564000238,
+      "gap_ms": 19.891002,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 49.265906075,
+      "gap_ms": 35.957254,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 54.059982015,
+      "gap_ms": 19.892836,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 59.605993448,
+      "gap_ms": 13.147584,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 63.111932591,
+      "gap_ms": 14.53121,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 63.315943862,
+      "gap_ms": 17.96296,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 68.05595213,
+      "gap_ms": 13.37221,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 68.190021018,
+      "gap_ms": 19.862627,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 87.103935377,
+      "gap_ms": 15.929543,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 89.527910454,
+      "gap_ms": 16.642502,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 98.400070887,
+      "gap_ms": 13.894293,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 101.188157667,
+      "gap_ms": 17.998752,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 103.142424197,
+      "gap_ms": 15.44646,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 114.879960293,
+      "gap_ms": 17.905418,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 115.783985717,
+      "gap_ms": 17.904252,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 119.796028704,
+      "gap_ms": 15.031918,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 129.575996645,
+      "gap_ms": 14.473793,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 131.347920031,
+      "gap_ms": 17.938377,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 135.271955384,
+      "gap_ms": 17.930501,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 140.767916686,
+      "gap_ms": 18.002335,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 141.315963158,
+      "gap_ms": 16.037084,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 144.015916512,
+      "gap_ms": 12.874043,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 144.387919591,
+      "gap_ms": 28.005545,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 145.60798238,
+      "gap_ms": 17.886961,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 147.884012192,
+      "gap_ms": 15.00421,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 148.014013539,
+      "gap_ms": 14.570293,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 156.016056676,
+      "gap_ms": 31.926128,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 161.885925433,
+      "gap_ms": 17.979085,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 163.909893969,
+      "gap_ms": 16.025377,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 164.090047946,
+      "gap_ms": 13.94671,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 167.712074768,
+      "gap_ms": 17.811502,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 169.515925949,
+      "gap_ms": 16.843919,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 170.889995712,
+      "gap_ms": 19.908711,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 181.313921885,
+      "gap_ms": 17.999377,
+      "source_packets_inside": 0
+    },
+    {
+      "source_s": 181.728140051,
+      "gap_ms": 15.732794,
+      "source_packets_inside": 0
+    }
+  ],
+  "clock_samples_checked": 8704,
+  "clock_stamps_absent_from_direct_source_record": 0,
+  "clock_stamps_absent_from_relay_record": 0,
+  "body_minus_source_bag_receipt_ms_quantiles": [
+    -1.485103,
+    0.237957,
+    0.36493439999999994,
+    0.4844596400000002,
+    8.246953
+  ],
+  "lidar_error_codes": [
+    0.0
+  ],
+  "lidar_packet_loss_field_max": {
+    "cloud_vendor_units": 0.0,
+    "imu_vendor_units": 0.0
+  },
+  "hardware_acquisition_lag_calibrated": false,
+  "application_changed": false,
+  "mapping_started": false,
+  "limits": [
+    "Scan bracketing does not prove every physical sample was generated/received.",
+    "Common source and output gaps cannot be repaired by a constant timestamp shift.",
+    "Bag callback receipt differences are not physical acquisition lag.",
+    "A private-clock sample absent from direct vendor recording is accepted only if its exact stamp occurs in the unchanged vendor-odometry relay."
+  ]
+}

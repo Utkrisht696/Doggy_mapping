@@ -1,0 +1,43 @@
+{
+  "protected_files_unchanged": true,
+  "old_package_paths_removed": true,
+  "legacy_point_lio_command_exits_before_launch": true,
+  "python_and_shell_syntax": true,
+  "standalone_commit": "a8e2d0d5090af97ead8dd4fac3d37cf3dbb33ff7",
+  "upstream_worktree_clean": true,
+  "dependencies_declared": [
+    "rclcpp",
+    "rclpy",
+    "sensor_msgs",
+    "geometry_msgs",
+    "nav_msgs",
+    "tf2_ros",
+    "pcl_ros",
+    "pcl_conversions",
+    "visualization_msgs"
+  ],
+  "mapping_or_replay_started": false,
+  "sensor_config_or_tf_changed": false,
+  "build_success": true,
+  "executable": "/home/jain/Doggy/ros2_ws/install/point_lio/lib/point_lio/pointlio_mapping",
+  "shared_libraries_resolved": true,
+  "retired_packages_absent_from_ament": {
+    "point_lio_unilidar": true,
+    "transform_sensors": true,
+    "calibrate_imu": true,
+    "go2_sport_api": true
+  },
+  "launch_argument_introspection_passed": true,
+  "retained_toolbox_launch_introspection_passed": true,
+  "dependencies_discoverable": {
+    "rclcpp": "/opt/ros/humble",
+    "rclpy": "/opt/ros/humble",
+    "sensor_msgs": "/opt/ros/humble",
+    "geometry_msgs": "/opt/ros/humble",
+    "nav_msgs": "/opt/ros/humble",
+    "tf2_ros": "/opt/ros/humble",
+    "pcl_ros": "/home/jain/Doggy/local/system/opt/ros/humble",
+    "pcl_conversions": "/opt/ros/humble",
+    "visualization_msgs": "/opt/ros/humble"
+  }
+}

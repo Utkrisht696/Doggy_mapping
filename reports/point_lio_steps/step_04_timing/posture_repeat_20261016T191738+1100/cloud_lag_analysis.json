@@ -1,0 +1,177 @@
+{
+  "method": "Fit an unconstrained floor plane to each raw scan in body coordinates; assign its mean inlier point time. Integrate calibrated body gyro using real source intervals. Search delta so integrated_R(t_point+delta)*normal_cloud is most constant within each phase, allowing an unknown fixed world-floor normal. Minimize squared angular residual capped at 1.5 degrees for robustness. No orientation/rate gain or sensor extrinsic was fitted. Fused body orientation is a separate diagnostic only.",
+  "sign": "Positive delta means subtract delta from body IMU header stamps for Point-LIO.",
+  "fits": [
+    {
+      "reference": "integrated_calibrated_body_gyro",
+      "phase": "pitch",
+      "floor_scans": 553,
+      "body_stamp_minus_cloud_point_stamp_s": 0.02400000000000016,
+      "rms_world_floor_angle_at_zero_deg": 1.3784426883555925,
+      "rms_world_floor_angle_at_best_deg": 1.3780149121535408,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.12799999999999997,
+        0.15000000000000027
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "integrated_calibrated_body_gyro",
+      "phase": "roll",
+      "floor_scans": 555,
+      "body_stamp_minus_cloud_point_stamp_s": 0.02300000000000016,
+      "rms_world_floor_angle_at_zero_deg": 1.4601982207758717,
+      "rms_world_floor_angle_at_best_deg": 1.45689513683495,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.15,
+        0.15000000000000027
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "fused_body_orientation_diagnostic",
+      "phase": "pitch",
+      "floor_scans": 553,
+      "body_stamp_minus_cloud_point_stamp_s": 0.011000000000000149,
+      "rms_world_floor_angle_at_zero_deg": 1.138684087956445,
+      "rms_world_floor_angle_at_best_deg": 1.1380204052787584,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.05499999999999991,
+        0.0680000000000002
+      ],
+      "boundary_hit": false
+    },
+    {
+      "reference": "fused_body_orientation_diagnostic",
+      "phase": "roll",
+      "floor_scans": 555,
+      "body_stamp_minus_cloud_point_stamp_s": 0.019000000000000156,
+      "rms_world_floor_angle_at_zero_deg": 1.2952361864740858,
+      "rms_world_floor_angle_at_best_deg": 1.2878783373669236,
+      "within_5_percent_minimum_mse_lag_range_s": [
+        -0.03499999999999989,
+        0.062000000000000194
+      ],
+      "boundary_hit": false
+    }
+  ],
+  "short_window_fits": [
+    {
+      "phase": "pitch",
+      "start_s": 90.0,
+      "end_s": 100.0,
+      "scans": 154,
+      "lag_s": 0.019000000000000156,
+      "rms_best_deg": 1.1838382517606447,
+      "boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "start_s": 95.0,
+      "end_s": 105.0,
+      "scans": 153,
+      "lag_s": 0.019000000000000156,
+      "rms_best_deg": 1.1110188082274024,
+      "boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "start_s": 100.0,
+      "end_s": 110.0,
+      "scans": 153,
+      "lag_s": 0.008000000000000146,
+      "rms_best_deg": 1.2862737369177148,
+      "boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "start_s": 105.0,
+      "end_s": 115.0,
+      "scans": 154,
+      "lag_s": -0.015999999999999875,
+      "rms_best_deg": 1.0856634880360332,
+      "boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "start_s": 110.0,
+      "end_s": 120.0,
+      "scans": 154,
+      "lag_s": -0.018999999999999878,
+      "rms_best_deg": 1.3020911617283553,
+      "boundary_hit": false
+    },
+    {
+      "phase": "pitch",
+      "start_s": 115.0,
+      "end_s": 125.0,
+      "scans": 154,
+      "lag_s": 0.02300000000000016,
+      "rms_best_deg": 1.1437076083512123,
+      "boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "start_s": 129.0,
+      "end_s": 139.0,
+      "scans": 154,
+      "lag_s": -0.014999999999999875,
+      "rms_best_deg": 1.2465682540203396,
+      "boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "start_s": 134.0,
+      "end_s": 144.0,
+      "scans": 154,
+      "lag_s": 0.020000000000000157,
+      "rms_best_deg": 1.316335163436457,
+      "boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "start_s": 139.0,
+      "end_s": 149.0,
+      "scans": 154,
+      "lag_s": -0.023999999999999883,
+      "rms_best_deg": 1.3821290447331225,
+      "boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "start_s": 144.0,
+      "end_s": 154.0,
+      "scans": 154,
+      "lag_s": 0.02500000000000016,
+      "rms_best_deg": 1.3743951089039816,
+      "boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "start_s": 149.0,
+      "end_s": 159.0,
+      "scans": 154,
+      "lag_s": -0.0009999999999998621,
+      "rms_best_deg": 1.409818070315535,
+      "boundary_hit": false
+    },
+    {
+      "phase": "roll",
+      "start_s": 154.0,
+      "end_s": 164.0,
+      "scans": 154,
+      "lag_s": 0.018000000000000155,
+      "rms_best_deg": 1.3358128066395187,
+      "boundary_hit": false
+    }
+  ],
+  "quality_floor_scans": 1448,
+  "all_floor_scans": 1450,
+  "limits": [
+    "Planar stationary floor, rigid mounting and the approved topic-derived cloud/body conversion are assumed.",
+    "Each scan plane represents an average inlier acquisition time; rapid motion causes intra-scan distortion.",
+    "Residual gyro bias/drift, finite cloud density and floor-fit noise limit millisecond precision.",
+    "Objective-width intervals are sensitivity ranges, not confidence intervals."
+  ],
+  "configuration_changed": false
+}

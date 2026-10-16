@@ -1,0 +1,27 @@
+{
+  "adapter_pid": 1155223,
+  "adapter_session": 55738,
+  "samples": 2373,
+  "all_frames_imu": true,
+  "strictly_increasing_source_stamps": true,
+  "source_subscriptions": [
+    {
+      "node": "doggy_body_imu",
+      "reliability": "RELIABLE",
+      "depth": 2000
+    }
+  ],
+  "output_publishers": [
+    "doggy_body_imu"
+  ],
+  "socket_details": [
+    "skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o48,bl0,d0)",
+    "skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o48,bl0,d0)",
+    "skmem:(r0,rb16777216,t0,tb212992,f0,w0,o0,bl0,d0)",
+    "skmem:(r0,rb16777216,t0,tb212992,f4096,w0,o0,bl0,d0)"
+  ],
+  "kernel_rmem_max": "8388608",
+  "unprofiled_runtime_restored": true,
+  "point_lio_started": false,
+  "passed": true
+}

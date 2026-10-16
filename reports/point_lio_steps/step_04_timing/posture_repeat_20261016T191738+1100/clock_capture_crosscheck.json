@@ -1,0 +1,12 @@
+{
+  "clock_samples_checked": 7579,
+  "clock_stamps_present_in_vendor_odometry": 7578,
+  "clock_stamps_absent_from_vendor_odometry_capture": [
+    1792138818984099626
+  ],
+  "absent_source_stamps_matched_to_both_body_tf_edges": [
+    1792138818984099626
+  ],
+  "all_clock_stamps_have_source_or_both_body_tf_evidence": true,
+  "caveat": "TF edges and clock are copied from the same source callback by the reviewed state adapter. This supports source-topic recording loss; it does not claim per-packet DDS ownership or zero packet loss."
+}

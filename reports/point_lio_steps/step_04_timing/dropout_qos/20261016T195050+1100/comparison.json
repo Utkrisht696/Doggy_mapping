@@ -1,0 +1,422 @@
+{
+  "comparison_valid": true,
+  "checks": {
+    "all_observers_completed": true,
+    "recording_load_exited_cleanly": true,
+    "active_code_and_configs_unchanged": true,
+    "all_profiles_received_over_15000_unique_stamps": true,
+    "adapter_preserves_bias_math": true,
+    "no_source_clock_backsteps": true
+  },
+  "phases": [
+    {
+      "phase": "sensor_baseline",
+      "shared_source_interval_s": 65.342020058,
+      "source_union_unique_stamps": 19441,
+      "source_intersection_unique_stamps": 19430,
+      "profiles": {
+        "be5": {
+          "messages": 19533,
+          "unique_stamps": 19430,
+          "duplicate_stamps": 103,
+          "missing_against_observed_source_union": 11,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.209125,
+            "median": 3.963292,
+            "p95": 4.1120262,
+            "p99": 5.947842240000019,
+            "max": 43.710004
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.13307950000000002,
+            "p95": 2.2360793999999995,
+            "p99": 3.9731994299999953,
+            "max": 36.700102
+          }
+        },
+        "be2000": {
+          "messages": 19544,
+          "unique_stamps": 19441,
+          "duplicate_stamps": 103,
+          "missing_against_observed_source_union": 0,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.209125,
+            "median": 3.963167,
+            "p95": 4.111917,
+            "p99": 5.91039824,
+            "max": 26.284836
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.123814,
+            "p95": 2.236642,
+            "p99": 4.125150599999982,
+            "max": 39.051144
+          }
+        },
+        "reliable2000": {
+          "messages": 19544,
+          "unique_stamps": 19441,
+          "duplicate_stamps": 103,
+          "missing_against_observed_source_union": 0,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.209125,
+            "median": 3.963167,
+            "p95": 4.111917,
+            "p99": 5.91039824,
+            "max": 26.284836
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.092707,
+            "p95": 2.21548,
+            "p99": 12.423146799999282,
+            "max": 118.6484
+          }
+        },
+        "reliable_reference": {
+          "messages": 19544,
+          "unique_stamps": 19441,
+          "duplicate_stamps": 103,
+          "missing_against_observed_source_union": 0,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.209125,
+            "median": 3.963167,
+            "p95": 4.111917,
+            "p99": 5.91039824,
+            "max": 26.284836
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.10078,
+            "p95": 2.267449,
+            "p99": 12.66393639999991,
+            "max": 60.555612
+          }
+        },
+        "adapter_output": {
+          "messages": 19362,
+          "unique_stamps": 19362,
+          "duplicate_stamps": 0,
+          "missing_against_observed_source_union": 79,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.209125,
+            "median": 3.96375,
+            "p95": 4.115417,
+            "p99": 6.048050400000002,
+            "max": 26.284836
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": -0.847355,
+            "median": 1.891259,
+            "p95": 5.7567832,
+            "p99": 14.562791409999951,
+            "max": 46.676693
+          }
+        }
+      },
+      "paired_delays": {
+        "be2000_minus_be5_callback_ms": {
+          "min": -36.700102,
+          "median": -5.9999999999999995e-05,
+          "p95": 1.9470814499999998,
+          "p99": 3.5296550199999976,
+          "max": 38.94782
+        },
+        "reliable2000_minus_be5_callback_ms": {
+          "min": -36.576777,
+          "median": -0.0061595,
+          "p95": 1.935580049999999,
+          "p99": 8.773465549999981,
+          "max": 112.714333
+        },
+        "reliable_reference_minus_be5_callback_ms": {
+          "min": -36.576428,
+          "median": -0.0074035,
+          "p95": 2.0036253499999996,
+          "p99": 10.375206069999942,
+          "max": 60.555612
+        },
+        "adapter_output_minus_be5_callback_ms": {
+          "min": -33.140277,
+          "median": 1.583513,
+          "p95": 5.057217149999993,
+          "p99": 11.722962130000004,
+          "max": 46.137033
+        }
+      },
+      "matched_adapter_reference_packets": 19362,
+      "max_acc_gyro_fixed_bias_comparison_error": 0.0,
+      "gaps_over_12ms_present_in_all_observers": [
+        {
+          "source_s_from_first": 33.586315667,
+          "gap_ms": 26.284836
+        },
+        {
+          "source_s_from_first": 35.336316884,
+          "gap_ms": 13.872251
+        }
+      ],
+      "network": {
+        "phase": "sensor_baseline",
+        "observer_returncodes": {
+          "be5": 0,
+          "be2000": 0,
+          "reliable2000": 0,
+          "reliable_reference": 0,
+          "adapter_output": 0
+        },
+        "recorder_returncode": null,
+        "host_global_udp_delta": {
+          "InDatagrams": 538294,
+          "NoPorts": 6,
+          "InErrors": 0,
+          "OutDatagrams": 32199,
+          "RcvbufErrors": 0,
+          "SndbufErrors": 0,
+          "InCsumErrors": 0,
+          "IgnoredMulti": 29,
+          "MemErrors": 0
+        },
+        "ethernet_delta": {
+          "rx_packets": 436552,
+          "rx_bytes": 575257554,
+          "rx_errors": 0,
+          "rx_dropped": 0,
+          "rx_missed_errors": 0,
+          "tx_packets": 7402,
+          "tx_errors": 0,
+          "tx_dropped": 0
+        }
+      },
+      "existing_adapter_socket_drop_deltas": {
+        "1146579": {
+          "4759558": 0,
+          "4759559": 0,
+          "4759560": 0,
+          "4759557": 0
+        }
+      }
+    },
+    {
+      "phase": "with_recording",
+      "shared_source_interval_s": 65.439806943,
+      "source_union_unique_stamps": 19520,
+      "source_intersection_unique_stamps": 19417,
+      "profiles": {
+        "be5": {
+          "messages": 19503,
+          "unique_stamps": 19417,
+          "duplicate_stamps": 86,
+          "missing_against_observed_source_union": 103,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.428459,
+            "median": 3.961709,
+            "p95": 4.12755225,
+            "p99": 5.893417,
+            "max": 28.05367
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.106018,
+            "p95": 3.063159,
+            "p99": 7.279356800000005,
+            "max": 41.780004
+          }
+        },
+        "be2000": {
+          "messages": 19606,
+          "unique_stamps": 19520,
+          "duplicate_stamps": 86,
+          "missing_against_observed_source_union": 0,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.428459,
+            "median": 3.960834,
+            "p95": 4.123,
+            "p99": 4.577885679999999,
+            "max": 15.219168
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.1363875,
+            "p95": 4.7864974999999985,
+            "p99": 100.3216904000018,
+            "max": 239.136792
+          }
+        },
+        "reliable2000": {
+          "messages": 19606,
+          "unique_stamps": 19520,
+          "duplicate_stamps": 86,
+          "missing_against_observed_source_union": 0,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.428459,
+            "median": 3.960834,
+            "p95": 4.123,
+            "p99": 4.577885679999999,
+            "max": 15.219168
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.231759,
+            "p95": 4.708995649999996,
+            "p99": 78.83208466,
+            "max": 193.672091
+          }
+        },
+        "reliable_reference": {
+          "messages": 19606,
+          "unique_stamps": 19520,
+          "duplicate_stamps": 86,
+          "missing_against_observed_source_union": 0,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.428459,
+            "median": 3.960834,
+            "p95": 4.123,
+            "p99": 4.577885679999999,
+            "max": 15.219168
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": 0.0,
+            "median": 0.17297400000000002,
+            "p95": 5.046684149999992,
+            "p99": 75.01544900000023,
+            "max": 122.561224
+          }
+        },
+        "adapter_output": {
+          "messages": 19218,
+          "unique_stamps": 19218,
+          "duplicate_stamps": 0,
+          "missing_against_observed_source_union": 302,
+          "extra_not_observed_by_source_subscribers": 0,
+          "backward_stamps": 0,
+          "source_gap_ms": {
+            "min": 0.428459,
+            "median": 3.962875,
+            "p95": 4.135442,
+            "p99": 6.060904000000002,
+            "max": 49.999755
+          },
+          "callback_delay_from_first_source_observer_ms": {
+            "min": -91.688075,
+            "median": 2.5609640000000002,
+            "p95": 11.00578654999999,
+            "p99": 27.487344669999835,
+            "max": 119.048406
+          }
+        }
+      },
+      "paired_delays": {
+        "be2000_minus_be5_callback_ms": {
+          "min": -39.012084,
+          "median": 0.009965,
+          "p95": 3.5220194000000102,
+          "p99": 87.73827944000006,
+          "max": 239.136792
+        },
+        "reliable2000_minus_be5_callback_ms": {
+          "min": -41.780004,
+          "median": 0.0525,
+          "p95": 3.6710940000000036,
+          "p99": 74.63634120000005,
+          "max": 193.672091
+        },
+        "reliable_reference_minus_be5_callback_ms": {
+          "min": -40.859412,
+          "median": 0.022204,
+          "p95": 3.6809130000000008,
+          "p99": 73.51152787999999,
+          "max": 122.561224
+        },
+        "adapter_output_minus_be5_callback_ms": {
+          "min": -38.194509,
+          "median": 2.205366,
+          "p95": 9.464819399999998,
+          "p99": 24.27650432000022,
+          "max": 119.048406
+        }
+      },
+      "matched_adapter_reference_packets": 19218,
+      "max_acc_gyro_fixed_bias_comparison_error": 0.0,
+      "gaps_over_12ms_present_in_all_observers": [
+        {
+          "source_s_from_first": 20.026066179,
+          "gap_ms": 15.219168
+        },
+        {
+          "source_s_from_first": 53.528338295,
+          "gap_ms": 12.49996
+        }
+      ],
+      "network": {
+        "phase": "with_recording",
+        "observer_returncodes": {
+          "be5": 0,
+          "be2000": 0,
+          "reliable2000": 0,
+          "reliable_reference": 0,
+          "adapter_output": 0
+        },
+        "recorder_returncode": 0,
+        "host_global_udp_delta": {
+          "InDatagrams": 1000300,
+          "NoPorts": 101,
+          "InErrors": 0,
+          "OutDatagrams": 39704,
+          "RcvbufErrors": 0,
+          "SndbufErrors": 0,
+          "InCsumErrors": 0,
+          "IgnoredMulti": 31,
+          "MemErrors": 0
+        },
+        "ethernet_delta": {
+          "rx_packets": 455649,
+          "rx_bytes": 583352856,
+          "rx_errors": 0,
+          "rx_dropped": 0,
+          "rx_missed_errors": 0,
+          "tx_packets": 29108,
+          "tx_errors": 0,
+          "tx_dropped": 0
+        }
+      },
+      "existing_adapter_socket_drop_deltas": {
+        "1146579": {
+          "4759558": 0,
+          "4759559": 0,
+          "4759560": 0,
+          "4759557": 0
+        }
+      }
+    }
+  ],
+  "conclusions": [
+    "No host UDP receive-buffer overflows observed during either phase; check per-socket deltas as well.",
+    "These are real laptop-side drops, but per-socket DDS counters include all received topics and cannot equate each dropped datagram with a lost SportModeState sample.",
+    "Deeper best-effort application queues alone do not eliminate kernel socket drops.",
+    "Both reliable source subscribers received every source-union timestamp in these phases; callback-delay tails remain a separate consideration.",
+    "No reliable source packet sequence counter was available; source-stamp union is an observed reference, not every packet the robot generated.",
+    "Common observed source-stamp gaps may be upstream publishing, shared transport loss or stamp-generation behavior; cannot assign every gap to robot firmware."
+  ],
+  "application_changes_applied": false
+}

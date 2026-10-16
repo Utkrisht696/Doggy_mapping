@@ -1,0 +1,14 @@
+{
+  "observed_local": "2026-10-16T21:50:00.188580+11:00",
+  "live_body_imu_pid": 1155223,
+  "running": false,
+  "prior_session_id": 55738,
+  "session_exit_code": 1,
+  "existing_log": "reports/point_lio_steps/step_04_timing/dropout_qos/adapter_qos_runtime/body_imu_final.log",
+  "last_error": "Body orientation quaternion is outside the reviewed normalization range",
+  "test_shutdown_did_not_target_live_adapter": true,
+  "replayed_imu_input_affected": false,
+  "adapter_restarted": false,
+  "guard_changed": false,
+  "headless_sensor_launch_running": true
+}

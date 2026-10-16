@@ -1,0 +1,9 @@
+{
+  "directory": "reports/point_lio_steps/step_07_live_test/replay_20261016T222127+1100",
+  "status": "playing",
+  "session_id": 94024,
+  "rate": 1.0,
+  "bag": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag",
+  "isolated_domain": 197,
+  "estimator_started": false
+}

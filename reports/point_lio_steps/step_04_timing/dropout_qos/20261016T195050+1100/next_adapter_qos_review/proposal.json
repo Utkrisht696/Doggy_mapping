@@ -1,0 +1,17 @@
+{
+  "approved": false,
+  "status": "Review only; active adapter code unchanged.",
+  "application_file": "scripts/publish_body_imu.py",
+  "change": "Source /sportmodestate subscription: BEST_EFFORT depth 5 -> RELIABLE depth 2000.",
+  "preserved": [
+    "source timestamps and duplicate/backward/invalid-data guards",
+    "fixed acceleration/gyro biases and covariance policy",
+    "output topic, output publisher QoS and TF",
+    "robot settings and Point-LIO configuration"
+  ],
+  "reason": "After the kernel/socket buffer fix, deeper source observers receive every observed source stamp; shallow BE5 and calibrated output still miss stamps.",
+  "limitation": "This is a targeted next fix to test, not proof that all remaining output misses are caused by the source queue. Queueing/delivery latency must be checked too.",
+  "validation_after_approval": "Restart only unchanged-calibration body adapter with reviewed source QoS and existing approved buffer profile; repeat baseline/recording comparison and compare actual calibrated output completeness/latency.",
+  "candidate_compile_passed": true,
+  "sensor_model_or_mapper_restart_required": false
+}

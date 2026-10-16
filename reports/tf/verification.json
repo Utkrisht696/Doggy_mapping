@@ -1,0 +1,17 @@
+{
+  "setup": "Official Unitree Go2 URDF and meshes with live 12-joint encoder telemetry",
+  "source_commit": "5994d4faef0a9cadd3287f8de0199a67eeb2a259",
+  "developer_urdf_sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+  "tf_checks_passed": true,
+  "published_urdf_unchanged": true,
+  "resolved_urdf_links": 42,
+  "live_joint_count": 12,
+  "cloud_tf_checks": {
+    "/utlidar/cloud_base": 3,
+    "/utlidar/cloud_deskewed": 3
+  },
+  "visual_verification": "RViz screenshot: official Go2 mesh articulated from telemetry, RobotModel Status OK, Global Status OK, body and deskewed cloud Status OK.",
+  "preview": "reports/tf/official_urdf_preview.png",
+  "raw_sensor_frame": "Kept separate; utlidar_lidar is not the developer radar frame. No estimated sensor TF is active.",
+  "commands_sent_to_robot": false
+}

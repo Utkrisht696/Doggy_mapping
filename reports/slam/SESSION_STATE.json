@@ -1,0 +1,77 @@
+{
+  "saved_local": "2026-10-12T21:06:24.138141+11:00",
+  "status": "Paused at user request; resume tomorrow. Calibration candidate saved; gravity convention unresolved; SLAM off.",
+  "objective": "Check and prepare Point-LIO and SLAM Toolbox tests on the connected Go2 Pro X",
+  "completed": [
+    "CMU foxy-humble source downloaded and Point-LIO mapping executable built",
+    "transform_sensors package built with required calibration_file parameter and preserved source timestamps",
+    "Missing pcl_ros downloaded/extracted locally",
+    "NumPy-compatible transforms3d 0.4.2 installed under local/python and setup_ros.sh updated",
+    "Live raw cloud, body cloud, deskewed cloud, IMU and odometry verified",
+    "Raw cloud time/ring fields checked; per-point time spans approximately 0.062 seconds",
+    "Headless SLAM Toolbox scan conversion, Ceres solver, odometry TF and initial occupancy-map output verified",
+    "Separate headless test launcher/configs created; no RViz or control nodes",
+    "Official developer URDF remains unchanged; removed custom fitted TF remains deleted",
+    "Post-battery Ethernet and all six sensor streams confirmed live",
+    "Final SLAM Toolbox check passed with current height profile: scan/map messages and source-timestamp TF verified",
+    "Required software imports, package discovery, shared libraries and official URDF integrity verified",
+    "Missing Point-LIO calibration rejects launch before nodes start",
+    "Test commands and remaining prerequisites documented in SLAM_TESTS.md; rebuild cache updated"
+  ],
+  "remaining": [
+    "Resolve CMU IMU acceleration/gravity convention before accepting candidate",
+    "Assess gyro/projection results separately from accelerometer calibration",
+    "Confirm physical LiDAR generation",
+    "Keep SLAM deferred until user resumes and prerequisites are validated"
+  ],
+  "reference_source_commit": "43d5f54b389b251713f0097893c30fa76c870d54",
+  "latest_slam_toolbox_test_settings": {
+    "cloud": "/utlidar/cloud_deskewed",
+    "target_frame": "base_link",
+    "min_height_m": -0.15,
+    "max_height_m": 1.5,
+    "min_pass_through": 1
+  },
+  "previous_verified_slam_toolbox_settings": {
+    "cloud": "/utlidar/cloud_deskewed",
+    "min_height_m": 0.05,
+    "min_pass_through": 2
+  },
+  "rviz_stopped": true,
+  "robot_motion_commands_sent": false,
+  "files": [
+    "launch/slam/slam_test.launch.py",
+    "scripts/test_slam.sh",
+    "config/slam/slam_toolbox.yaml",
+    "scripts/setup_ros.sh",
+    "ros2_ws/src/transform_sensors/LOCAL_CHANGES.md"
+  ],
+  "evidence": [
+    "reports/slam/preflight_sensors.json",
+    "reports/slam/point_time_fields.json",
+    "reports/slam/point_lio_build.log",
+    "reports/slam/point_lio_startup_check.log",
+    "reports/slam/slam_toolbox_smoke_check.json",
+    "reports/slam/post_battery_sensors.json",
+    "reports/slam/software_check.json",
+    "reports/slam/point_lio_calibration_gate.log",
+    "SLAM_TESTS.md"
+  ],
+  "resume_after_battery": "Battery swap handled; use SLAM_TESTS.md for test commands and prerequisites.",
+  "current_document": "MAPPING_PREREQUISITES.md",
+  "foundation_evidence": "reports/foundation/readiness.json",
+  "user_motion_context": "User confirmed robot stays in place while standing, with vibration/sway from balancing; heading change may include physical body rotation.",
+  "calibration_attempt": {
+    "run": "reports/calibration/20261012T205218+1100",
+    "motion_completed": true,
+    "candidate_validated_for_acceleration_fusion": false,
+    "candidate": "config/slam/imu_calib_data.cmu_candidate.yaml",
+    "resume_document": "IMU_CALIBRATION_RESUME.md"
+  },
+  "superseded_for_point_lio": {
+    "saved_local": "2026-10-16T17:01:10.544165+11:00",
+    "status": "Earlier CMU build/startup results are historical. CMU active packages and launch branch have been removed.",
+    "current_readiness": "POINT_LIO_SETUP.md",
+    "manifest": "reports/point_lio_migration_20261016/migration.json"
+  }
+}

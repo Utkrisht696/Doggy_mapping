@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": {
+    "all_parameter_names_declared": true,
+    "raw_cloud_selected": true,
+    "approved_body_imu_selected": true,
+    "exact_approved_extrinsics": true,
+    "pcd_saving_disabled": true,
+    "active_profile_not_created": true
+  },
+  "parameter_count": 52,
+  "unknown_parameters": [],
+  "scope": "Static review-only draft validation; no estimator execution or active changes."
+}
