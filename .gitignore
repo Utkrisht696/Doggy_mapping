@@ -3,6 +3,7 @@
 /local/
 /downloads/
 /log/
+/maps/
 /ros2_ws/*
 !/ros2_ws/src/
 /sdk/

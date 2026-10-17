@@ -5,6 +5,16 @@ This repository preserves the standalone Point-LIO integration, calibrated body-
 
 The selected inputs are raw `/utlidar/cloud` and `/doggy/imu/body_calibrated`, derived from `/sportmodestate`. The internal LiDAR accelerometer remains unused. The robot uses DDS domain 0 through `enp7s0`; scripts and profiles are specific to the original laptop.
 
+## Live 2D terrain mapping
+
+The new [live 2D mapping pipeline](LIVE_2D_MAPPING.md) publishes 5 cm occupancy and
+terrain grids and shows a top-down map in RViz. Run `bash scripts/replay_2d.sh` to
+view the recorded walking session, or `bash scripts/start_live_2d.sh` for the
+complete live setup. This pipeline uses Point-LIO alone for `/odom` and local TF,
+with sensor-time clocking independent of vendor odometry. Terrain thresholds are
+provisional; no Nav2 movement controller is started. The older mapping launch
+described below retains the historical vendor-odom/map-correction arrangement.
+
 ## Latest verified result
 
 | Operator-reported outbound distance | Point-LIO displacement | Vendor displacement |
@@ -31,7 +41,7 @@ The full bags, NumPy sensor captures, build trees, virtual environment, extracte
 
 Historical setup documents preserve the investigation and may describe earlier paused states. For the current verified configuration, start with this README and REPRODUCING.md. Calibration is specific to this robot.
 
-The current TF chain during mapping is `map -> odom -> base_footprint -> base_link`, then the developer links including `imu` and `radar -> utlidar_lidar`. The source developer URDF is unchanged. Vendor odometry still owns the local odom/body chain; the Point-LIO bridge supplies `map -> odom`. Moving Point-LIO into Nav2's local odometry role remains future work.
+The historical mapping launch used for these recorded results has TF `map -> odom -> base_footprint -> base_link`, then the developer links including `imu` and `radar -> utlidar_lidar`. The source developer URDF is unchanged. In that older launch, vendor odometry owns the local odom/body chain and the Point-LIO bridge supplies `map -> odom`. The new live 2D pipeline instead derives `/odom` and local-body TF entirely from Point-LIO.
 
 ## Earlier setup notes
 
