@@ -1,0 +1,61 @@
+{
+  "source_elapsed_s": 217.237561941,
+  "odometry_messages": 3249,
+  "registered_clouds": 3249,
+  "map_to_odom_transforms": 3249,
+  "last_bridge_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": 1792305330141118764,
+    "last_tf_error": "",
+    "lookup_failures": 2887,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 3249,
+    "received": 3249,
+    "waiting": 0
+  },
+  "player_running": false,
+  "mapping_running": false,
+  "stop_reason": "playback_complete",
+  "tf_parents": {
+    "imu": [
+      "base_link"
+    ],
+    "radar": [
+      "base_link"
+    ],
+    "utlidar_lidar": [
+      "radar"
+    ],
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ],
+    "odom": [
+      "map"
+    ]
+  },
+  "multiple_tf_parents": {},
+  "input_cloud_messages": 3267,
+  "input_imu_messages": 61864,
+  "launch_returncode": 0,
+  "player_returncode": 0,
+  "application_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "robot_commands_sent": false,
+  "application_unchanged": true,
+  "cloud_delivery_exact": true,
+  "imu_delivery_exact": true
+}

@@ -1,0 +1,168 @@
+{
+  "bag": "doggy_real1",
+  "straight_checks": [
+    {
+      "nominal_distance_m": 5.0,
+      "route_assignment": "inferred from source order and motion; intermediate route unconfirmed",
+      "start_hold": 0,
+      "far_hold": 1,
+      "return_hold": 2,
+      "point_lio": {
+        "horizontal_displacement_m": 5.003750409163131,
+        "height_change_m": -0.0829396972332297,
+        "heading_change_deg": 1.5915629228173778,
+        "delta_xyz_m": [
+          4.984019577831578,
+          0.4439222961191949,
+          -0.0829396972332297
+        ],
+        "full_orientation_change_deg": 1.7508023615791568,
+        "nominal_difference_m": 0.0037504091631310743,
+        "nominal_difference_percent": 0.07500818326262149,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.07382466460633373,
+          "height_change_m": -0.0002468805652755446,
+          "heading_change_deg": -0.6255848806625447,
+          "delta_xyz_m": [
+            -0.06610164890643816,
+            -0.032873288793299156,
+            -0.0002468805652755446
+          ],
+          "full_orientation_change_deg": 0.6811682381184355
+        }
+      },
+      "vendor": {
+        "horizontal_displacement_m": 4.437872210294622,
+        "height_change_m": 0.0003435629764540482,
+        "heading_change_deg": 2.0344387580587893,
+        "delta_xyz_m": [
+          2.0644187397367015,
+          3.9284710794314375,
+          0.0003435629764540482
+        ],
+        "full_orientation_change_deg": 2.1820473105521265,
+        "nominal_difference_m": -0.5621277897053778,
+        "nominal_difference_percent": -11.242555794107556,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.12967619153206694,
+          "height_change_m": 0.0010743758389391567,
+          "heading_change_deg": -0.27203481266091656,
+          "delta_xyz_m": [
+            0.08810194604646782,
+            0.09515230818580589,
+            0.0010743758389391567
+          ],
+          "full_orientation_change_deg": 0.415143591226396
+        }
+      }
+    },
+    {
+      "nominal_distance_m": 10.0,
+      "route_assignment": "inferred from source order and motion; intermediate route unconfirmed",
+      "start_hold": 2,
+      "far_hold": 3,
+      "return_hold": 4,
+      "point_lio": {
+        "horizontal_displacement_m": 10.177776804623061,
+        "height_change_m": -0.2361749068550818,
+        "heading_change_deg": -0.49104425530681467,
+        "delta_xyz_m": [
+          10.148253513713682,
+          0.7746556048471489,
+          -0.2361749068550818
+        ],
+        "full_orientation_change_deg": 1.8289914635561957,
+        "nominal_difference_m": 0.17777680462306122,
+        "nominal_difference_percent": 1.7777680462306122,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.06352111746655854,
+          "height_change_m": 0.0025640334518114566,
+          "heading_change_deg": 0.9291842594042822,
+          "delta_xyz_m": [
+            0.06250935029610641,
+            0.011292187111405425,
+            0.0025640334518114566
+          ],
+          "full_orientation_change_deg": 0.9339460397390388
+        }
+      },
+      "vendor": {
+        "horizontal_displacement_m": 9.003386796314752,
+        "height_change_m": -0.0009655100101081948,
+        "heading_change_deg": 1.3208371773437557,
+        "delta_xyz_m": [
+          4.228762601018393,
+          7.9484929809545015,
+          -0.0009655100101081948
+        ],
+        "full_orientation_change_deg": 1.3555247670359654,
+        "nominal_difference_m": -0.9966132036852482,
+        "nominal_difference_percent": -9.966132036852482,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.2394686977097819,
+          "height_change_m": 0.0004848976489828516,
+          "heading_change_deg": 1.631278995887257,
+          "delta_xyz_m": [
+            0.1376227426350185,
+            0.19597254372088546,
+            0.0004848976489828516
+          ],
+          "full_orientation_change_deg": 1.6348167703758516
+        }
+      }
+    }
+  ],
+  "endpoints": {
+    "point_lio": {
+      "horizontal_displacement_m": 14.032026411411277,
+      "height_change_m": -0.19584796732818108,
+      "heading_change_deg": 46.48079096480801,
+      "delta_xyz_m": [
+        13.2533987086839,
+        -4.609250251309811,
+        -0.19584796732818108
+      ],
+      "full_orientation_change_deg": 46.53371894071178
+    },
+    "vendor": {
+      "horizontal_displacement_m": 4.94056150152466,
+      "height_change_m": -0.0005270345996610803,
+      "heading_change_deg": -28.686829407973416,
+      "delta_xyz_m": [
+        -3.212816825023779,
+        3.7532593834148638,
+        -0.0005270345996610803
+      ],
+      "full_orientation_change_deg": 28.689526981217995
+    }
+  },
+  "health": {
+    "poses": 4844,
+    "first_pose_source_s": 0.905221224,
+    "last_pose_source_s": 314.912228346,
+    "nonfinite_values": 0,
+    "nonincreasing_stamps": 0,
+    "median_contiguous_rate_hz": 15.400192323763351,
+    "contiguous_position_step_m": {
+      "median": 0.02527383128950439,
+      "p95": 0.04077975443278685,
+      "p99": 0.04957304103462113,
+      "max": 0.07089299864825974
+    },
+    "contiguous_rotation_step_deg": {
+      "median": 0.7158041905846687,
+      "p95": 2.84594757059768,
+      "p99": 4.14031261787191,
+      "max": 5.243176368515839
+    },
+    "output_gaps_over_150ms": [],
+    "missing_exact_stamp_tf": 0,
+    "reseed_events": 0,
+    "resume_events": 0,
+    "probation_events": 0
+  },
+  "travel": {
+    "point_lio": 103.06246422831353,
+    "vendor": 83.5972840592388
+  }
+}

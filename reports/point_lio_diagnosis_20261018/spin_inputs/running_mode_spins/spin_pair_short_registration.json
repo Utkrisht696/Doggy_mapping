@@ -1,0 +1,3651 @@
+{
+  "label": "spin_pair_short",
+  "pairs": 92,
+  "accepted_pairs": 0,
+  "rejection_counts": {
+    "implausible_pair_rotation_rate": 90,
+    "large_distance_residual": 57,
+    "low_overlap": 86,
+    "rotation_cycle_error": 92,
+    "rotation_degeneracy": 14,
+    "too_few_correspondences": 49,
+    "translation_cycle_error": 92,
+    "translation_degeneracy": 13
+  },
+  "stride": 4,
+  "registration_method": "plane",
+  "voxel_m": 0.06,
+  "point_time_window_s": 0.02,
+  "elapsed_s": 2.616774936002912,
+  "method": "Consecutive raw scans converted with fixed approved extrinsics, voxelised with per-voxel mean point time. Multiscale ICP from identity (point/plane per registration_method), equal independent reverse procedure, geometric Schur rotation/translation conditioning. No IMU, body attitude, vendor odometry or map used to initialize registration.",
+  "rows": [
+    {
+      "cloud_previous": 77,
+      "cloud_current": 78,
+      "t_previous_s": 5.031810430100903,
+      "t_current_s": 5.084413790142058,
+      "t_previous_weighted_s": 5.032435206775612,
+      "t_current_weighted_s": 5.0806364334468315,
+      "t_previous_allpoints_s": 5.024823730200386,
+      "t_current_allpoints_s": 5.0822271377353205,
+      "current_voxel_points": 297,
+      "previous_voxel_points": 216,
+      "correspondences": 55,
+      "fitness": 0.18518518518518517,
+      "inlier_rmse_m": 0.07859585175581967,
+      "plane_residual_rms_m": 0.03919182050201992,
+      "rotation_information_eigenvalues": [
+        0.0037256969217327766,
+        0.015445762175971866,
+        0.4323439201701209
+      ],
+      "rotation_information_ratio": 0.008617437988411565,
+      "translation_normal_eigenvalues": [
+        0.003183283415723409,
+        0.25742386668632605,
+        0.5481196583475203
+      ],
+      "translation_information_ratio": 0.005807643216666269,
+      "cycle_angle_deg": 42.12554010427537,
+      "cycle_translation_m": 3.379738510688654,
+      "rotation_speed_rad_s": 27.1844931769887,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 81,
+      "cloud_current": 82,
+      "t_previous_s": 5.277736631898853,
+      "t_current_s": 5.3496921990585715,
+      "t_previous_weighted_s": 5.275570757437457,
+      "t_current_weighted_s": 5.352455960147226,
+      "t_previous_allpoints_s": 5.283165296514829,
+      "t_current_allpoints_s": 5.3465514252450985,
+      "current_voxel_points": 238,
+      "previous_voxel_points": 289,
+      "correspondences": 70,
+      "fitness": 0.29411764705882354,
+      "inlier_rmse_m": 0.06556420553788499,
+      "plane_residual_rms_m": 0.009229600093544111,
+      "rotation_information_eigenvalues": [
+        0.004361549495410426,
+        0.03380794237420738,
+        0.14744200926353598
+      ],
+      "rotation_information_ratio": 0.029581457260356835,
+      "translation_normal_eigenvalues": [
+        0.05033282494350485,
+        0.06836680027700527,
+        0.8787161618094177
+      ],
+      "translation_information_ratio": 0.05727995811509996,
+      "cycle_angle_deg": 18.189594284588118,
+      "cycle_translation_m": 2.075827784393669,
+      "rotation_speed_rad_s": 13.163964242826191,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 97,
+      "cloud_current": 98,
+      "t_previous_s": 6.321474566050024,
+      "t_current_s": 6.385383347263197,
+      "t_previous_weighted_s": 6.320645386547807,
+      "t_current_weighted_s": 6.3845212064148145,
+      "t_previous_allpoints_s": 6.320006719152864,
+      "t_current_allpoints_s": 6.386037182546806,
+      "current_voxel_points": 308,
+      "previous_voxel_points": 364,
+      "correspondences": 202,
+      "fitness": 0.6558441558441559,
+      "inlier_rmse_m": 0.04970414899117254,
+      "plane_residual_rms_m": 0.024061258381135257,
+      "rotation_information_eigenvalues": [
+        0.017987598230194052,
+        0.07703178439670735,
+        0.3471313852549578
+      ],
+      "rotation_information_ratio": 0.051817838991950235,
+      "translation_normal_eigenvalues": [
+        0.005768637203270512,
+        0.06806598537478092,
+        0.8564490276802732
+      ],
+      "translation_information_ratio": 0.006735528930303183,
+      "cycle_angle_deg": 110.98810601354138,
+      "cycle_translation_m": 1.5607617861270835,
+      "rotation_speed_rad_s": 20.963728194987677,
+      "accepted": false,
+      "rejection_reasons": [
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 101,
+      "cloud_current": 102,
+      "t_previous_s": 6.572851991389784,
+      "t_current_s": 6.642521198569403,
+      "t_previous_weighted_s": 6.5752042217187014,
+      "t_current_weighted_s": 6.641107810008362,
+      "t_previous_allpoints_s": 6.569194756131928,
+      "t_current_allpoints_s": 6.645059031985025,
+      "current_voxel_points": 373,
+      "previous_voxel_points": 391,
+      "correspondences": 194,
+      "fitness": 0.5201072386058981,
+      "inlier_rmse_m": 0.05177577667599437,
+      "plane_residual_rms_m": 0.024251480794748703,
+      "rotation_information_eigenvalues": [
+        0.010984619399978317,
+        0.03837678735129181,
+        0.8165226407154588
+      ],
+      "rotation_information_ratio": 0.013452926902741243,
+      "translation_normal_eigenvalues": [
+        0.013030084949335044,
+        0.02158478613860355,
+        0.8966604633342502
+      ],
+      "translation_information_ratio": 0.014531793786114319,
+      "cycle_angle_deg": 12.847848525002233,
+      "cycle_translation_m": 0.10735742363521758,
+      "rotation_speed_rad_s": 22.251009008777707,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 109,
+      "cloud_current": 110,
+      "t_previous_s": 7.099533729203335,
+      "t_current_s": 7.152837158724426,
+      "t_previous_weighted_s": 7.100988911440866,
+      "t_current_weighted_s": 7.154795239639627,
+      "t_previous_allpoints_s": 7.101775015645757,
+      "t_current_allpoints_s": 7.1526436074492015,
+      "current_voxel_points": 375,
+      "previous_voxel_points": 347,
+      "correspondences": 209,
+      "fitness": 0.5573333333333333,
+      "inlier_rmse_m": 0.045853806141192596,
+      "plane_residual_rms_m": 0.02288602396160126,
+      "rotation_information_eigenvalues": [
+        0.0168057589822189,
+        0.0529133978404203,
+        0.5744230993156588
+      ],
+      "rotation_information_ratio": 0.02925676039532621,
+      "translation_normal_eigenvalues": [
+        0.016791994435147343,
+        0.045551385135316466,
+        0.8619787095318717
+      ],
+      "translation_information_ratio": 0.019480753120070488,
+      "cycle_angle_deg": 87.13786409317393,
+      "cycle_translation_m": 0.9243376884475303,
+      "rotation_speed_rad_s": 29.505438755244466,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 113,
+      "cloud_current": 114,
+      "t_previous_s": 7.352596119609753,
+      "t_current_s": 7.421268872168871,
+      "t_previous_weighted_s": 7.352450168115848,
+      "t_current_weighted_s": 7.422359041590296,
+      "t_previous_allpoints_s": 7.351748075239199,
+      "t_current_allpoints_s": 7.421348081295352,
+      "current_voxel_points": 238,
+      "previous_voxel_points": 367,
+      "correspondences": 121,
+      "fitness": 0.5084033613445378,
+      "inlier_rmse_m": 0.061905424579957014,
+      "plane_residual_rms_m": 0.02384557134719134,
+      "rotation_information_eigenvalues": [
+        0.014436746976011964,
+        0.021018041436524835,
+        0.18028910517319932
+      ],
+      "rotation_information_ratio": 0.0800755373550883,
+      "translation_normal_eigenvalues": [
+        0.005306120702060899,
+        0.0863070692175492,
+        0.8248669110942841
+      ],
+      "translation_information_ratio": 0.006432699179339972,
+      "cycle_angle_deg": 158.03037642198942,
+      "cycle_translation_m": 2.018847650067137,
+      "rotation_speed_rad_s": 15.99494042106711,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 133,
+      "cloud_current": 134,
+      "t_previous_s": 8.646126082441151,
+      "t_current_s": 8.718327877880618,
+      "t_previous_weighted_s": 8.64551673568553,
+      "t_current_weighted_s": 8.719267313195477,
+      "t_previous_allpoints_s": 8.646459934484719,
+      "t_current_allpoints_s": 8.72009026087619,
+      "current_voxel_points": 181,
+      "previous_voxel_points": 167,
+      "correspondences": 104,
+      "fitness": 0.574585635359116,
+      "inlier_rmse_m": 0.0588664790211347,
+      "plane_residual_rms_m": 0.010751550515415747,
+      "rotation_information_eigenvalues": [
+        0.0004968668568384513,
+        0.010167424834324054,
+        0.5024574519187694
+      ],
+      "rotation_information_ratio": 0.0009888734955388382,
+      "translation_normal_eigenvalues": [
+        0.00133201819349316,
+        0.0026478773997722464,
+        0.9920464924212584
+      ],
+      "translation_information_ratio": 0.0013426973470186288,
+      "cycle_angle_deg": 156.03498186935133,
+      "cycle_translation_m": 3.7794602438420606,
+      "rotation_speed_rad_s": 16.175410397477638,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 137,
+      "cloud_current": 138,
+      "t_previous_s": 8.917646928621512,
+      "t_current_s": 8.974580717224361,
+      "t_previous_weighted_s": 8.920304228321696,
+      "t_current_weighted_s": 8.97230915484607,
+      "t_previous_allpoints_s": 8.91350921447451,
+      "t_current_allpoints_s": 8.972425201196598,
+      "current_voxel_points": 188,
+      "previous_voxel_points": 153,
+      "correspondences": 78,
+      "fitness": 0.4148936170212766,
+      "inlier_rmse_m": 0.07253481234572673,
+      "plane_residual_rms_m": 0.019272609902246357,
+      "rotation_information_eigenvalues": [
+        0.0139645791503169,
+        0.021749778281561424,
+        0.2893824288161205
+      ],
+      "rotation_information_ratio": 0.048256486088138685,
+      "translation_normal_eigenvalues": [
+        0.013794530755065358,
+        0.015617522183725382,
+        0.9274928744925279
+      ],
+      "translation_information_ratio": 0.01487292370047905,
+      "cycle_angle_deg": 145.99372174189298,
+      "cycle_translation_m": 11.990985219764129,
+      "rotation_speed_rad_s": 30.312035506398306,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 149,
+      "cloud_current": 150,
+      "t_previous_s": 9.686930729516785,
+      "t_current_s": 9.756816927297729,
+      "t_previous_weighted_s": 9.688618705403561,
+      "t_current_weighted_s": 9.757999069748676,
+      "t_previous_allpoints_s": 9.686064452897279,
+      "t_current_allpoints_s": 9.756827630686294,
+      "current_voxel_points": 245,
+      "previous_voxel_points": 303,
+      "correspondences": 193,
+      "fitness": 0.7877551020408163,
+      "inlier_rmse_m": 0.051316555293766615,
+      "plane_residual_rms_m": 0.012736969157069776,
+      "rotation_information_eigenvalues": [
+        0.0025959575282135626,
+        0.024022155460975452,
+        1.026565284373496
+      ],
+      "rotation_information_ratio": 0.0025287797743889745,
+      "translation_normal_eigenvalues": [
+        0.012225996809001629,
+        0.025410902411898487,
+        0.9500840898624072
+      ],
+      "translation_information_ratio": 0.012868331276626491,
+      "cycle_angle_deg": 11.81064114701793,
+      "cycle_translation_m": 1.2274782818089376,
+      "rotation_speed_rad_s": 26.588720897295204,
+      "accepted": false,
+      "rejection_reasons": [
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 157,
+      "cloud_current": 158,
+      "t_previous_s": 10.206725381046681,
+      "t_current_s": 10.27132120684949,
+      "t_previous_weighted_s": 10.205979544835897,
+      "t_current_weighted_s": 10.27130147778769,
+      "t_previous_allpoints_s": 10.208718962665879,
+      "t_current_allpoints_s": 10.271459002242445,
+      "current_voxel_points": 249,
+      "previous_voxel_points": 276,
+      "correspondences": 158,
+      "fitness": 0.6345381526104418,
+      "inlier_rmse_m": 0.0459556819238573,
+      "plane_residual_rms_m": 0.009512447062120968,
+      "rotation_information_eigenvalues": [
+        0.0003716426128889208,
+        0.020547437265613522,
+        0.5507192212266012
+      ],
+      "rotation_information_ratio": 0.0006748313815181025,
+      "translation_normal_eigenvalues": [
+        0.0009292855985999799,
+        0.011954689486654204,
+        0.985458408340301
+      ],
+      "translation_information_ratio": 0.0009429982947378502,
+      "cycle_angle_deg": 126.49348411715367,
+      "cycle_translation_m": 7.4019664237147715,
+      "rotation_speed_rad_s": 20.267130242066816,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 161,
+      "cloud_current": 162,
+      "t_previous_s": 10.457459757840812,
+      "t_current_s": 10.537564324648743,
+      "t_previous_weighted_s": 10.455630023890377,
+      "t_current_weighted_s": 10.540499492205377,
+      "t_previous_allpoints_s": 10.46024496142315,
+      "t_current_allpoints_s": 10.534198328150561,
+      "current_voxel_points": 239,
+      "previous_voxel_points": 270,
+      "correspondences": 85,
+      "fitness": 0.35564853556485354,
+      "inlier_rmse_m": 0.06728119506023736,
+      "plane_residual_rms_m": 0.014787016853913012,
+      "rotation_information_eigenvalues": [
+        0.00749906367569487,
+        0.12251909521775438,
+        0.6873449128001905
+      ],
+      "rotation_information_ratio": 0.01091019011858873,
+      "translation_normal_eigenvalues": [
+        0.010160438997318574,
+        0.08867874420788266,
+        0.880198854778635
+      ],
+      "translation_information_ratio": 0.011543344940926861,
+      "cycle_angle_deg": 7.838455973941608,
+      "cycle_translation_m": 0.2446707000478472,
+      "rotation_speed_rad_s": 8.839968447393284,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 177,
+      "cloud_current": 178,
+      "t_previous_s": 11.494776133861505,
+      "t_current_s": 11.56959197237724,
+      "t_previous_weighted_s": 11.495475235188529,
+      "t_current_weighted_s": 11.569311557888424,
+      "t_previous_allpoints_s": 11.497233299164355,
+      "t_current_allpoints_s": 11.567088825914242,
+      "current_voxel_points": 268,
+      "previous_voxel_points": 272,
+      "correspondences": 111,
+      "fitness": 0.4141791044776119,
+      "inlier_rmse_m": 0.05841485404474485,
+      "plane_residual_rms_m": 0.021987385093398506,
+      "rotation_information_eigenvalues": [
+        0.0011106213396669285,
+        0.01257719233063163,
+        0.7044710893359691
+      ],
+      "rotation_information_ratio": 0.0015765321763790115,
+      "translation_normal_eigenvalues": [
+        0.008225394096154543,
+        0.01814162577028255,
+        0.9013410091682963
+      ],
+      "translation_information_ratio": 0.00912572934381899,
+      "cycle_angle_deg": 170.6366189489989,
+      "cycle_translation_m": 13.06931439321219,
+      "rotation_speed_rad_s": 15.1023347487889,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 185,
+      "cloud_current": 186,
+      "t_previous_s": 12.02349889418747,
+      "t_current_s": 12.07608650859788,
+      "t_previous_weighted_s": 12.022033805592882,
+      "t_current_weighted_s": 12.074826492437582,
+      "t_previous_allpoints_s": 12.01975776362074,
+      "t_current_allpoints_s": 12.077084675149644,
+      "current_voxel_points": 181,
+      "previous_voxel_points": 248,
+      "correspondences": 130,
+      "fitness": 0.7182320441988951,
+      "inlier_rmse_m": 0.056702513570236326,
+      "plane_residual_rms_m": 0.01791686469823045,
+      "rotation_information_eigenvalues": [
+        0.009884727308730343,
+        0.03476426715025257,
+        0.5858076693951013
+      ],
+      "rotation_information_ratio": 0.016873673434383687,
+      "translation_normal_eigenvalues": [
+        0.004160666833951244,
+        0.06178742753758623,
+        0.8910976034640343
+      ],
+      "translation_information_ratio": 0.004669148270377066,
+      "cycle_angle_deg": 146.68481106962125,
+      "cycle_translation_m": 1.380831382187231,
+      "rotation_speed_rad_s": 30.2691158310795,
+      "accepted": false,
+      "rejection_reasons": [
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 197,
+      "cloud_current": 198,
+      "t_previous_s": 12.785006825507965,
+      "t_current_s": 12.86374358137701,
+      "t_previous_weighted_s": 12.78591516228555,
+      "t_current_weighted_s": 12.865256157996624,
+      "t_previous_allpoints_s": 12.789791795368464,
+      "t_current_allpoints_s": 12.860883172891098,
+      "current_voxel_points": 212,
+      "previous_voxel_points": 250,
+      "correspondences": 107,
+      "fitness": 0.5047169811320755,
+      "inlier_rmse_m": 0.05884527287386351,
+      "plane_residual_rms_m": 0.013864000777194213,
+      "rotation_information_eigenvalues": [
+        0.005669130910000608,
+        0.0532152727444132,
+        0.38158806251684557
+      ],
+      "rotation_information_ratio": 0.014856677833705395,
+      "translation_normal_eigenvalues": [
+        0.015958300348746932,
+        0.08252652803044948,
+        0.8802233126112871
+      ],
+      "translation_information_ratio": 0.018129831509920747,
+      "cycle_angle_deg": 32.71223421834708,
+      "cycle_translation_m": 1.8334067559781522,
+      "rotation_speed_rad_s": 16.418755324728878,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 201,
+      "cloud_current": 202,
+      "t_previous_s": 13.046365519909104,
+      "t_current_s": 13.122841986171752,
+      "t_previous_weighted_s": 13.046925830732663,
+      "t_current_weighted_s": 13.12335129121343,
+      "t_previous_allpoints_s": 13.046030047725566,
+      "t_current_allpoints_s": 13.122627859800005,
+      "current_voxel_points": 236,
+      "previous_voxel_points": 254,
+      "correspondences": 148,
+      "fitness": 0.6271186440677966,
+      "inlier_rmse_m": 0.052072812825121446,
+      "plane_residual_rms_m": 0.0181420516086098,
+      "rotation_information_eigenvalues": [
+        0.0014959759902179643,
+        0.014664446240770169,
+        0.5257460424644071
+      ],
+      "rotation_information_ratio": 0.002845434619356629,
+      "translation_normal_eigenvalues": [
+        0.0021557032919468735,
+        0.00857507099259202,
+        0.9538196088500925
+      ],
+      "translation_information_ratio": 0.0022600744123364687,
+      "cycle_angle_deg": 107.97272472036724,
+      "cycle_translation_m": 4.145587391851732,
+      "rotation_speed_rad_s": 15.696860475460731,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 217,
+      "cloud_current": 218,
+      "t_previous_s": 14.08835739496608,
+      "t_current_s": 14.153894673137879,
+      "t_previous_weighted_s": 14.089438711476873,
+      "t_current_weighted_s": 14.154282987801187,
+      "t_previous_allpoints_s": 14.091373512788788,
+      "t_current_allpoints_s": 14.155632936152067,
+      "current_voxel_points": 233,
+      "previous_voxel_points": 291,
+      "correspondences": 74,
+      "fitness": 0.31759656652360513,
+      "inlier_rmse_m": 0.07013319975996024,
+      "plane_residual_rms_m": 0.0080082674572177,
+      "rotation_information_eigenvalues": [
+        0.011190040518500614,
+        0.015051304844767521,
+        0.22795282541957712
+      ],
+      "rotation_information_ratio": 0.04908928195078905,
+      "translation_normal_eigenvalues": [
+        0.00244684453954147,
+        0.015432212574373067,
+        0.9810846349653661
+      ],
+      "translation_information_ratio": 0.0024940198351265054,
+      "cycle_angle_deg": 158.311065009846,
+      "cycle_translation_m": 3.08599124261624,
+      "rotation_speed_rad_s": 20.969309482937163,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 221,
+      "cloud_current": 222,
+      "t_previous_s": 14.345733818427476,
+      "t_current_s": 14.416920031405109,
+      "t_previous_weighted_s": 14.346861555997691,
+      "t_current_weighted_s": 14.417578562048295,
+      "t_previous_allpoints_s": 14.345403055745273,
+      "t_current_allpoints_s": 14.415983756546812,
+      "current_voxel_points": 299,
+      "previous_voxel_points": 280,
+      "correspondences": 94,
+      "fitness": 0.31438127090301005,
+      "inlier_rmse_m": 0.06803503722485743,
+      "plane_residual_rms_m": 0.02412152996574644,
+      "rotation_information_eigenvalues": [
+        0.0034843761282770135,
+        0.016455086599971375,
+        0.6245809544775509
+      ],
+      "rotation_information_ratio": 0.005578742200347147,
+      "translation_normal_eigenvalues": [
+        0.0032557749302979497,
+        0.011143470564221679,
+        0.9146278689251968
+      ],
+      "translation_information_ratio": 0.003559671688250541,
+      "cycle_angle_deg": 162.30878833313045,
+      "cycle_translation_m": 1.024651940510623,
+      "rotation_speed_rad_s": 15.176596264826534,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 225,
+      "cloud_current": 226,
+      "t_previous_s": 14.615155940691801,
+      "t_current_s": 14.671604926733378,
+      "t_previous_weighted_s": 14.61240869339277,
+      "t_current_weighted_s": 14.670813232636027,
+      "t_previous_allpoints_s": 14.610941429426441,
+      "t_current_allpoints_s": 14.670505196361104,
+      "current_voxel_points": 260,
+      "previous_voxel_points": 231,
+      "correspondences": 72,
+      "fitness": 0.27692307692307694,
+      "inlier_rmse_m": 0.07983362745198622,
+      "plane_residual_rms_m": 0.021322767755266977,
+      "rotation_information_eigenvalues": [
+        0.006856686050447151,
+        0.021866854370993553,
+        0.4503817742203122
+      ],
+      "rotation_information_ratio": 0.015224164126794974,
+      "translation_normal_eigenvalues": [
+        0.010504406082868678,
+        0.1382241887404997,
+        0.7862811882719161
+      ],
+      "translation_information_ratio": 0.013359604985533478,
+      "cycle_angle_deg": 170.35485729808252,
+      "cycle_translation_m": 6.126723896692933,
+      "rotation_speed_rad_s": 16.964149834763322,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 237,
+      "cloud_current": 238,
+      "t_previous_s": 15.384922969820103,
+      "t_current_s": 15.463289743951194,
+      "t_previous_weighted_s": 15.381909284047566,
+      "t_current_weighted_s": 15.462603772719719,
+      "t_previous_allpoints_s": 15.389318758578188,
+      "t_current_allpoints_s": 15.461405765587024,
+      "current_voxel_points": 209,
+      "previous_voxel_points": 240,
+      "correspondences": 88,
+      "fitness": 0.42105263157894735,
+      "inlier_rmse_m": 0.057417901143632266,
+      "plane_residual_rms_m": 0.024854291459859727,
+      "rotation_information_eigenvalues": [
+        0.0030218161696668744,
+        0.015593649285444952,
+        0.3434309032773371
+      ],
+      "rotation_information_ratio": 0.0087989058085044,
+      "translation_normal_eigenvalues": [
+        0.006313279175506028,
+        0.0593071590784149,
+        0.8551458751542693
+      ],
+      "translation_information_ratio": 0.00738269265973727,
+      "cycle_angle_deg": 4.859261408845767,
+      "cycle_translation_m": 3.184713698686615,
+      "rotation_speed_rad_s": 12.931274187362135,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 241,
+      "cloud_current": 242,
+      "t_previous_s": 15.655416792636727,
+      "t_current_s": 15.719925719507645,
+      "t_previous_weighted_s": 15.654008342230103,
+      "t_current_weighted_s": 15.720513389299624,
+      "t_previous_allpoints_s": 15.653144508270252,
+      "t_current_allpoints_s": 15.719624080113155,
+      "current_voxel_points": 321,
+      "previous_voxel_points": 220,
+      "correspondences": 97,
+      "fitness": 0.30218068535825543,
+      "inlier_rmse_m": 0.052841361981864655,
+      "plane_residual_rms_m": 0.015503673764720914,
+      "rotation_information_eigenvalues": [
+        0.0008545201018585262,
+        0.0275258034411423,
+        0.06582702183612717
+      ],
+      "rotation_information_ratio": 0.012981296707996422,
+      "translation_normal_eigenvalues": [
+        0.0015358854414750799,
+        0.031330577571413006,
+        0.9414082839545002
+      ],
+      "translation_information_ratio": 0.0016314764461423752,
+      "cycle_angle_deg": 112.82226637924889,
+      "cycle_translation_m": 78.6894572447109,
+      "rotation_speed_rad_s": 15.82580146143705,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 249,
+      "cloud_current": 250,
+      "t_previous_s": 16.17408919811447,
+      "t_current_s": 16.245019462686873,
+      "t_previous_weighted_s": 16.172623635507815,
+      "t_current_weighted_s": 16.246003147794582,
+      "t_previous_allpoints_s": 16.176846912259016,
+      "t_current_allpoints_s": 16.24167918219711,
+      "current_voxel_points": 258,
+      "previous_voxel_points": 276,
+      "correspondences": 66,
+      "fitness": 0.2558139534883721,
+      "inlier_rmse_m": 0.07743514744936388,
+      "plane_residual_rms_m": 0.02155293838058279,
+      "rotation_information_eigenvalues": [
+        0.009454235859721032,
+        0.01595707514710719,
+        0.5482853844979658
+      ],
+      "rotation_information_ratio": 0.017243275358101596,
+      "translation_normal_eigenvalues": [
+        0.0038010094569290577,
+        0.060491199203667044,
+        0.8697820047850117
+      ],
+      "translation_information_ratio": 0.0043700713926227664,
+      "cycle_angle_deg": 13.536482655014277,
+      "cycle_translation_m": 2.4797113671657063,
+      "rotation_speed_rad_s": 19.993477455844,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 253,
+      "cloud_current": 254,
+      "t_previous_s": 16.430229982756046,
+      "t_current_s": 16.500674676904875,
+      "t_previous_weighted_s": 16.428852587011654,
+      "t_current_weighted_s": 16.502742529378573,
+      "t_previous_allpoints_s": 16.43219965723669,
+      "t_current_allpoints_s": 16.503235773654964,
+      "current_voxel_points": 258,
+      "previous_voxel_points": 289,
+      "correspondences": 73,
+      "fitness": 0.28294573643410853,
+      "inlier_rmse_m": 0.06681488404007412,
+      "plane_residual_rms_m": 0.021693386129171703,
+      "rotation_information_eigenvalues": [
+        0.00025435518891998746,
+        0.01738212933075009,
+        0.11041259147160304
+      ],
+      "rotation_information_ratio": 0.0023036791866750538,
+      "translation_normal_eigenvalues": [
+        0.0016629304427803091,
+        0.016454173330471018,
+        0.9215223460407413
+      ],
+      "translation_information_ratio": 0.001804547062721786,
+      "cycle_angle_deg": 92.62181219671325,
+      "cycle_translation_m": 7.1281699721458365,
+      "rotation_speed_rad_s": 25.496379496612487,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 265,
+      "cloud_current": 266,
+      "t_previous_s": 17.208264910978,
+      "t_current_s": 17.28538977022436,
+      "t_previous_weighted_s": 17.20811615191494,
+      "t_current_weighted_s": 17.285292268294913,
+      "t_previous_allpoints_s": 17.211259753259625,
+      "t_current_allpoints_s": 17.28536435261116,
+      "current_voxel_points": 244,
+      "previous_voxel_points": 268,
+      "correspondences": 152,
+      "fitness": 0.6229508196721312,
+      "inlier_rmse_m": 0.06073770967654458,
+      "plane_residual_rms_m": 0.015254825594214882,
+      "rotation_information_eigenvalues": [
+        0.014146994716238372,
+        0.04120825950781286,
+        0.6954869084280983
+      ],
+      "rotation_information_ratio": 0.02034113733098534,
+      "translation_normal_eigenvalues": [
+        0.0030986150352294295,
+        0.02453783761945976,
+        0.9505650984210824
+      ],
+      "translation_information_ratio": 0.003259760999405852,
+      "cycle_angle_deg": 151.32734386671723,
+      "cycle_translation_m": 5.779846582672915,
+      "rotation_speed_rad_s": 13.096356513558927,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 273,
+      "cloud_current": 274,
+      "t_previous_s": 17.73547733938732,
+      "t_current_s": 17.80355137495831,
+      "t_previous_weighted_s": 17.735660648101607,
+      "t_current_weighted_s": 17.80370538445207,
+      "t_previous_allpoints_s": 17.74104347382571,
+      "t_current_allpoints_s": 17.803666055129955,
+      "current_voxel_points": 250,
+      "previous_voxel_points": 290,
+      "correspondences": 120,
+      "fitness": 0.48,
+      "inlier_rmse_m": 0.0703808740067837,
+      "plane_residual_rms_m": 0.024460948941974713,
+      "rotation_information_eigenvalues": [
+        0.008844760991755515,
+        0.02375684087194492,
+        0.19525333676711332
+      ],
+      "rotation_information_ratio": 0.04529889802756623,
+      "translation_normal_eigenvalues": [
+        0.007659111105842514,
+        0.24496302018301183,
+        0.6798792229106407
+      ],
+      "translation_information_ratio": 0.01126539957060753,
+      "cycle_angle_deg": 86.72380779635445,
+      "cycle_translation_m": 3.217928986176528,
+      "rotation_speed_rad_s": 18.740976312766307,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 297,
+      "cloud_current": 298,
+      "t_previous_s": 19.296156436194188,
+      "t_current_s": 19.36042787905245,
+      "t_previous_weighted_s": 19.295621189669305,
+      "t_current_weighted_s": 19.359749237847232,
+      "t_previous_allpoints_s": 19.29550919183271,
+      "t_current_allpoints_s": 19.359032871073005,
+      "current_voxel_points": 248,
+      "previous_voxel_points": 250,
+      "correspondences": 113,
+      "fitness": 0.45564516129032256,
+      "inlier_rmse_m": 0.06947785284053352,
+      "plane_residual_rms_m": 0.01608489269426778,
+      "rotation_information_eigenvalues": [
+        0.008473600005172287,
+        0.023424108313204215,
+        0.23316592904692812
+      ],
+      "rotation_information_ratio": 0.03634150169284316,
+      "translation_normal_eigenvalues": [
+        0.007078406754896056,
+        0.03465012058125776,
+        0.9287591080444456
+      ],
+      "translation_information_ratio": 0.007621359180853729,
+      "cycle_angle_deg": 31.73086751178728,
+      "cycle_translation_m": 33.02668278911325,
+      "rotation_speed_rad_s": 17.76479246464397,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 301,
+      "cloud_current": 302,
+      "t_previous_s": 19.547630855525547,
+      "t_current_s": 19.61956789522189,
+      "t_previous_weighted_s": 19.544736988681244,
+      "t_current_weighted_s": 19.623988049262714,
+      "t_previous_allpoints_s": 19.547872919713424,
+      "t_current_allpoints_s": 19.617669989551537,
+      "current_voxel_points": 301,
+      "previous_voxel_points": 309,
+      "correspondences": 28,
+      "fitness": 0.09302325581395349,
+      "inlier_rmse_m": 0.06745624329821018,
+      "plane_residual_rms_m": 0.014278517140236414,
+      "rotation_information_eigenvalues": [
+        0.005869339983861149,
+        0.025216511784898824,
+        0.09765160575967961
+      ],
+      "rotation_information_ratio": 0.06010489984471512,
+      "translation_normal_eigenvalues": [
+        0.023298536835550016,
+        0.1343359463690764,
+        0.8298299587916549
+      ],
+      "translation_information_ratio": 0.02807627826485784,
+      "cycle_angle_deg": 63.18690074231679,
+      "cycle_translation_m": 2.4324318145757875,
+      "rotation_speed_rad_s": 3.7650093676515395,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error"
+      ]
+    },
+    {
+      "cloud_previous": 305,
+      "cloud_current": 306,
+      "t_previous_s": 19.8161608087215,
+      "t_current_s": 19.87311767890805,
+      "t_previous_weighted_s": 19.817359444243735,
+      "t_current_weighted_s": 19.87323796737314,
+      "t_previous_allpoints_s": 19.812178934169086,
+      "t_current_allpoints_s": 19.874127547947793,
+      "current_voxel_points": 277,
+      "previous_voxel_points": 238,
+      "correspondences": 81,
+      "fitness": 0.2924187725631769,
+      "inlier_rmse_m": 0.06803549608326759,
+      "plane_residual_rms_m": 0.01817864144217534,
+      "rotation_information_eigenvalues": [
+        0.0009023034150873616,
+        0.007467620850029773,
+        0.10790107274513971
+      ],
+      "rotation_information_ratio": 0.008362321079222124,
+      "translation_normal_eigenvalues": [
+        0.015430798693594414,
+        0.04218981973507981,
+        0.8987685717131761
+      ],
+      "translation_information_ratio": 0.017168823186797903,
+      "cycle_angle_deg": 75.9092733101612,
+      "cycle_translation_m": 2.3509586399277795,
+      "rotation_speed_rad_s": 18.3538958361266,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 309,
+      "cloud_current": 310,
+      "t_previous_s": 20.0745461566586,
+      "t_current_s": 20.127280715907446,
+      "t_previous_weighted_s": 20.0783070241084,
+      "t_current_weighted_s": 20.12429351704578,
+      "t_previous_allpoints_s": 20.071219827218794,
+      "t_current_allpoints_s": 20.13030296070949,
+      "current_voxel_points": 265,
+      "previous_voxel_points": 238,
+      "correspondences": 96,
+      "fitness": 0.3622641509433962,
+      "inlier_rmse_m": 0.056959058101643985,
+      "plane_residual_rms_m": 0.01522950049413199,
+      "rotation_information_eigenvalues": [
+        0.0036772582803310874,
+        0.01641969920557577,
+        0.23743189326334768
+      ],
+      "rotation_information_ratio": 0.015487634073879262,
+      "translation_normal_eigenvalues": [
+        0.004767819402071292,
+        0.1331247003183635,
+        0.8451188540675503
+      ],
+      "translation_information_ratio": 0.005641596302252417,
+      "cycle_angle_deg": 22.47219065856744,
+      "cycle_translation_m": 1.141265574608942,
+      "rotation_speed_rad_s": 19.969361020940028,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 317,
+      "cloud_current": 318,
+      "t_previous_s": 20.57719304502256,
+      "t_current_s": 20.65870087437836,
+      "t_previous_weighted_s": 20.577413018476697,
+      "t_current_weighted_s": 20.65907114945215,
+      "t_previous_allpoints_s": 20.580709146413447,
+      "t_current_allpoints_s": 20.65831577745317,
+      "current_voxel_points": 191,
+      "previous_voxel_points": 269,
+      "correspondences": 140,
+      "fitness": 0.7329842931937173,
+      "inlier_rmse_m": 0.051493133736774284,
+      "plane_residual_rms_m": 0.013591799597350893,
+      "rotation_information_eigenvalues": [
+        0.01050518129448858,
+        0.07036932547663378,
+        0.7325189070772407
+      ],
+      "rotation_information_ratio": 0.014341174259111456,
+      "translation_normal_eigenvalues": [
+        0.014221135756163437,
+        0.029227839425360468,
+        0.9457521977342866
+      ],
+      "translation_information_ratio": 0.01503685192615215,
+      "cycle_angle_deg": 5.200318153716707,
+      "cycle_translation_m": 0.1758343209600288,
+      "rotation_speed_rad_s": 13.085835471684996,
+      "accepted": false,
+      "rejection_reasons": [
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 321,
+      "cloud_current": 322,
+      "t_previous_s": 20.834825858410486,
+      "t_current_s": 20.91890204311014,
+      "t_previous_weighted_s": 20.8348231425011,
+      "t_current_weighted_s": 20.91978916666818,
+      "t_previous_allpoints_s": 20.841296971081583,
+      "t_current_allpoints_s": 20.914003185583173,
+      "current_voxel_points": 264,
+      "previous_voxel_points": 235,
+      "correspondences": 76,
+      "fitness": 0.2878787878787879,
+      "inlier_rmse_m": 0.0672806824926671,
+      "plane_residual_rms_m": 0.021471411774868807,
+      "rotation_information_eigenvalues": [
+        0.003013787226283097,
+        0.028631979735764382,
+        0.6262774972718103
+      ],
+      "rotation_information_ratio": 0.004812223398432413,
+      "translation_normal_eigenvalues": [
+        0.004887309913010058,
+        0.018500884603394916,
+        0.9345386913634788
+      ],
+      "translation_information_ratio": 0.005229649620904985,
+      "cycle_angle_deg": 26.531490065838916,
+      "cycle_translation_m": 1597.071539272771,
+      "rotation_speed_rad_s": 12.291586678097993,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 333,
+      "cloud_current": 334,
+      "t_previous_s": 21.63142255338936,
+      "t_current_s": 21.684761193814467,
+      "t_previous_weighted_s": 21.631157342514747,
+      "t_current_weighted_s": 21.683228266561635,
+      "t_previous_allpoints_s": 21.626285399183963,
+      "t_current_allpoints_s": 21.686394979372693,
+      "current_voxel_points": 177,
+      "previous_voxel_points": 286,
+      "correspondences": 80,
+      "fitness": 0.4519774011299435,
+      "inlier_rmse_m": 0.05915913640703913,
+      "plane_residual_rms_m": 0.01712778852768682,
+      "rotation_information_eigenvalues": [
+        0.0035101137867086544,
+        0.15202030859968488,
+        0.6053617485189312
+      ],
+      "rotation_information_ratio": 0.005798373939708687,
+      "translation_normal_eigenvalues": [
+        0.01495292007448835,
+        0.09158203349766239,
+        0.8513851012807041
+      ],
+      "translation_information_ratio": 0.0175630511410116,
+      "cycle_angle_deg": 32.48907293475473,
+      "cycle_translation_m": 4.148216285738822,
+      "rotation_speed_rad_s": 23.961712943857624,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 353,
+      "cloud_current": 354,
+      "t_previous_s": 22.90889170199323,
+      "t_current_s": 22.99242747198903,
+      "t_previous_weighted_s": 22.90839698609514,
+      "t_current_weighted_s": 22.99326054752894,
+      "t_previous_allpoints_s": 22.915727812428628,
+      "t_current_allpoints_s": 22.98811182205286,
+      "current_voxel_points": 212,
+      "previous_voxel_points": 267,
+      "correspondences": 92,
+      "fitness": 0.4339622641509434,
+      "inlier_rmse_m": 0.06257759591835602,
+      "plane_residual_rms_m": 0.01202122776910687,
+      "rotation_information_eigenvalues": [
+        0.0038703669110612265,
+        0.16369689552275357,
+        0.5672460250930291
+      ],
+      "rotation_information_ratio": 0.006823083353341226,
+      "translation_normal_eigenvalues": [
+        0.012865065377261656,
+        0.12048842539358307,
+        0.8532379891990118
+      ],
+      "translation_information_ratio": 0.015077933167672131,
+      "cycle_angle_deg": 8.114878573962011,
+      "cycle_translation_m": 0.071655049951983,
+      "rotation_speed_rad_s": 11.456879662243615,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 357,
+      "cloud_current": 358,
+      "t_previous_s": 23.174442351310645,
+      "t_current_s": 23.246100410426198,
+      "t_previous_weighted_s": 23.175931479426506,
+      "t_current_weighted_s": 23.245417459379063,
+      "t_previous_allpoints_s": 23.17209018165446,
+      "t_current_allpoints_s": 23.24743423243995,
+      "current_voxel_points": 282,
+      "previous_voxel_points": 230,
+      "correspondences": 119,
+      "fitness": 0.4219858156028369,
+      "inlier_rmse_m": 0.05983516981560938,
+      "plane_residual_rms_m": 0.01812007287281597,
+      "rotation_information_eigenvalues": [
+        0.0030739644995460545,
+        0.011793428759516913,
+        0.46597024563759143
+      ],
+      "rotation_information_ratio": 0.00659691155889132,
+      "translation_normal_eigenvalues": [
+        0.006802263712433152,
+        0.021861881907972145,
+        0.9282584230716027
+      ],
+      "translation_information_ratio": 0.007327984905242759,
+      "cycle_angle_deg": 173.83580634208664,
+      "cycle_translation_m": 2.9181666135220503,
+      "rotation_speed_rad_s": 15.835884052381049,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 361,
+      "cloud_current": 362,
+      "t_previous_s": 23.443274147067118,
+      "t_current_s": 23.499688227838636,
+      "t_previous_weighted_s": 23.442719909930982,
+      "t_current_weighted_s": 23.499194759928944,
+      "t_previous_allpoints_s": 23.441485251502368,
+      "t_current_allpoints_s": 23.499777676807224,
+      "current_voxel_points": 282,
+      "previous_voxel_points": 213,
+      "correspondences": 172,
+      "fitness": 0.6099290780141844,
+      "inlier_rmse_m": 0.06255579541458883,
+      "plane_residual_rms_m": 0.022585331666454236,
+      "rotation_information_eigenvalues": [
+        0.02202600552015609,
+        0.22157145084757346,
+        0.36371914570069197
+      ],
+      "rotation_information_ratio": 0.060557729172391446,
+      "translation_normal_eigenvalues": [
+        0.009552098836136771,
+        0.11049791577584299,
+        0.8212401184474287
+      ],
+      "translation_information_ratio": 0.01163131052851535,
+      "cycle_angle_deg": 101.03688807646965,
+      "cycle_translation_m": 8.886628763540301,
+      "rotation_speed_rad_s": 26.64235819686904,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 381,
+      "cloud_current": 382,
+      "t_previous_s": 24.721427199007604,
+      "t_current_s": 24.79940983072311,
+      "t_previous_weighted_s": 24.721652041471962,
+      "t_current_weighted_s": 24.80017432991245,
+      "t_previous_allpoints_s": 24.727254614114287,
+      "t_current_allpoints_s": 24.800995587803925,
+      "current_voxel_points": 255,
+      "previous_voxel_points": 266,
+      "correspondences": 90,
+      "fitness": 0.35294117647058826,
+      "inlier_rmse_m": 0.07867570063055396,
+      "plane_residual_rms_m": 0.03402297800095823,
+      "rotation_information_eigenvalues": [
+        0.0005285607038607055,
+        0.008215767481154919,
+        0.20257999052802805
+      ],
+      "rotation_information_ratio": 0.002609145663809162,
+      "translation_normal_eigenvalues": [
+        0.0006683989234502448,
+        0.04794430269666631,
+        0.8107591640900271
+      ],
+      "translation_information_ratio": 0.0008244111852876021,
+      "cycle_angle_deg": 101.98743177437163,
+      "cycle_translation_m": 85.37150942376206,
+      "rotation_speed_rad_s": 14.780354548204215,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 393,
+      "cloud_current": 394,
+      "t_previous_s": 25.51567081925866,
+      "t_current_s": 25.572375321201285,
+      "t_previous_weighted_s": 25.515663889307852,
+      "t_current_weighted_s": 25.572300900986388,
+      "t_previous_allpoints_s": 25.511504663667512,
+      "t_current_allpoints_s": 25.571649873079853,
+      "current_voxel_points": 222,
+      "previous_voxel_points": 274,
+      "correspondences": 94,
+      "fitness": 0.42342342342342343,
+      "inlier_rmse_m": 0.06229464917410449,
+      "plane_residual_rms_m": 0.012428211127350139,
+      "rotation_information_eigenvalues": [
+        0.0023480623015020158,
+        0.006615065012466537,
+        0.2996308612037896
+      ],
+      "rotation_information_ratio": 0.007836516879698233,
+      "translation_normal_eigenvalues": [
+        0.0011424455991363325,
+        0.11604895200614047,
+        0.8641019094182318
+      ],
+      "translation_information_ratio": 0.0013221190541119153,
+      "cycle_angle_deg": 127.36723674028377,
+      "cycle_translation_m": 50.860286594634125,
+      "rotation_speed_rad_s": 26.48810103787659,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 397,
+      "cloud_current": 398,
+      "t_previous_s": 25.761258510647355,
+      "t_current_s": 25.837105321840852,
+      "t_previous_weighted_s": 25.761343130762903,
+      "t_current_weighted_s": 25.83778125494508,
+      "t_previous_allpoints_s": 25.766153808366422,
+      "t_current_allpoints_s": 25.83210863936858,
+      "current_voxel_points": 269,
+      "previous_voxel_points": 250,
+      "correspondences": 91,
+      "fitness": 0.3382899628252788,
+      "inlier_rmse_m": 0.05577068148994514,
+      "plane_residual_rms_m": 0.021611559328334324,
+      "rotation_information_eigenvalues": [
+        0.004198993458278697,
+        0.009459824972141134,
+        0.7490788935123882
+      ],
+      "rotation_information_ratio": 0.005605542346267235,
+      "translation_normal_eigenvalues": [
+        0.023602164128568668,
+        0.07720966491343458,
+        0.8274306019433453
+      ],
+      "translation_information_ratio": 0.028524644934735836,
+      "cycle_angle_deg": 29.794405839308464,
+      "cycle_translation_m": 17.54588017130832,
+      "rotation_speed_rad_s": 17.506135327753423,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 409,
+      "cloud_current": 410,
+      "t_previous_s": 26.549072005699777,
+      "t_current_s": 26.603815712002937,
+      "t_previous_weighted_s": 26.55170098571302,
+      "t_current_weighted_s": 26.603244822126992,
+      "t_previous_allpoints_s": 26.54683349346105,
+      "t_current_allpoints_s": 26.605408816962644,
+      "current_voxel_points": 206,
+      "previous_voxel_points": 261,
+      "correspondences": 87,
+      "fitness": 0.4223300970873786,
+      "inlier_rmse_m": 0.07366218835443226,
+      "plane_residual_rms_m": 0.02149086370745175,
+      "rotation_information_eigenvalues": [
+        0.0014262481393692902,
+        0.006792909610397341,
+        0.3313851203454814
+      ],
+      "rotation_information_ratio": 0.004303899154803248,
+      "translation_normal_eigenvalues": [
+        0.0008231014214898638,
+        0.08834076821958499,
+        0.8599628134115271
+      ],
+      "translation_information_ratio": 0.0009571360629241259,
+      "cycle_angle_deg": 66.23086533742357,
+      "cycle_translation_m": 3.8664082098407326,
+      "rotation_speed_rad_s": 20.2459341090265,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 413,
+      "cloud_current": 414,
+      "t_previous_s": 26.806585584892836,
+      "t_current_s": 26.869583337752008,
+      "t_previous_weighted_s": 26.807538223215555,
+      "t_current_weighted_s": 26.869463227758366,
+      "t_previous_allpoints_s": 26.806726198473903,
+      "t_current_allpoints_s": 26.86948095022378,
+      "current_voxel_points": 192,
+      "previous_voxel_points": 254,
+      "correspondences": 126,
+      "fitness": 0.65625,
+      "inlier_rmse_m": 0.04842674313592861,
+      "plane_residual_rms_m": 0.013070543700814109,
+      "rotation_information_eigenvalues": [
+        0.00026132627337192973,
+        0.015510390892628258,
+        0.41917003918792584
+      ],
+      "rotation_information_ratio": 0.0006234373856447544,
+      "translation_normal_eigenvalues": [
+        0.00595958407490424,
+        0.04504798727721269,
+        0.9320994219163174
+      ],
+      "translation_information_ratio": 0.006393721458009104,
+      "cycle_angle_deg": 42.263217307939925,
+      "cycle_translation_m": 6.188829479440956,
+      "rotation_speed_rad_s": 21.527867583488455,
+      "accepted": false,
+      "rejection_reasons": [
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 417,
+      "cloud_current": 418,
+      "t_previous_s": 27.055140357446184,
+      "t_current_s": 27.133073171983686,
+      "t_previous_weighted_s": 27.05542981269483,
+      "t_current_weighted_s": 27.134316336822963,
+      "t_previous_allpoints_s": 27.056658108879382,
+      "t_current_allpoints_s": 27.13029463254729,
+      "current_voxel_points": 236,
+      "previous_voxel_points": 264,
+      "correspondences": 105,
+      "fitness": 0.4449152542372881,
+      "inlier_rmse_m": 0.05386283770261019,
+      "plane_residual_rms_m": 0.014656842831384829,
+      "rotation_information_eigenvalues": [
+        0.00786740896135009,
+        0.041699743981641495,
+        0.6721023002247513
+      ],
+      "rotation_information_ratio": 0.011705671828111918,
+      "translation_normal_eigenvalues": [
+        0.013865144807451168,
+        0.031584752140081,
+        0.9317021187333452
+      ],
+      "translation_information_ratio": 0.014881521173635323,
+      "cycle_angle_deg": 1.1738794392190814,
+      "cycle_translation_m": 0.09299591913576119,
+      "rotation_speed_rad_s": 14.71312709403222,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 421,
+      "cloud_current": 422,
+      "t_previous_s": 27.313058745506186,
+      "t_current_s": 27.388863151442894,
+      "t_previous_weighted_s": 27.314357044008773,
+      "t_current_weighted_s": 27.390389664104866,
+      "t_previous_allpoints_s": 27.314314938991984,
+      "t_current_allpoints_s": 27.389039067853737,
+      "current_voxel_points": 263,
+      "previous_voxel_points": 189,
+      "correspondences": 141,
+      "fitness": 0.5361216730038023,
+      "inlier_rmse_m": 0.060958679482079704,
+      "plane_residual_rms_m": 0.021677286386753994,
+      "rotation_information_eigenvalues": [
+        0.015203138280740852,
+        0.1699494323164804,
+        0.6545232093109881
+      ],
+      "rotation_information_ratio": 0.02322780623279209,
+      "translation_normal_eigenvalues": [
+        0.008148587195494106,
+        0.06028659155179311,
+        0.8698917854145967
+      ],
+      "translation_information_ratio": 0.00936735733354515,
+      "cycle_angle_deg": 5.227395948343646,
+      "cycle_translation_m": 1.2049370264946018,
+      "rotation_speed_rad_s": 14.842560968523907,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 437,
+      "cloud_current": 438,
+      "t_previous_s": 28.35063362901765,
+      "t_current_s": 28.41970642295517,
+      "t_previous_weighted_s": 28.35237810906278,
+      "t_current_weighted_s": 28.421311490779793,
+      "t_previous_allpoints_s": 28.350163850400932,
+      "t_current_allpoints_s": 28.42118097439149,
+      "current_voxel_points": 292,
+      "previous_voxel_points": 241,
+      "correspondences": 127,
+      "fitness": 0.4349315068493151,
+      "inlier_rmse_m": 0.06497975410411111,
+      "plane_residual_rms_m": 0.02020207460419073,
+      "rotation_information_eigenvalues": [
+        0.015154325657214926,
+        0.15863818471320104,
+        0.836039334136218
+      ],
+      "rotation_information_ratio": 0.018126330949335207,
+      "translation_normal_eigenvalues": [
+        0.008956022286730257,
+        0.043652095046458464,
+        0.888644486764458
+      ],
+      "translation_information_ratio": 0.010078296124177856,
+      "cycle_angle_deg": 31.550521437619377,
+      "cycle_translation_m": 0.5713680845863875,
+      "rotation_speed_rad_s": 20.261438629218468,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 457,
+      "cloud_current": 458,
+      "t_previous_s": 29.64694613367936,
+      "t_current_s": 29.722077196627843,
+      "t_previous_weighted_s": 29.646954352656092,
+      "t_current_weighted_s": 29.72163450294404,
+      "t_previous_allpoints_s": 29.64767203235744,
+      "t_current_allpoints_s": 29.720946744921083,
+      "current_voxel_points": 197,
+      "previous_voxel_points": 274,
+      "correspondences": 113,
+      "fitness": 0.5736040609137056,
+      "inlier_rmse_m": 0.05115117941876353,
+      "plane_residual_rms_m": 0.016682356953283635,
+      "rotation_information_eigenvalues": [
+        0.00894049062489888,
+        0.02097396281409459,
+        0.5298354195361272
+      ],
+      "rotation_information_ratio": 0.01687409013298188,
+      "translation_normal_eigenvalues": [
+        0.011928176621375642,
+        0.025386651200289108,
+        0.9402162066562432
+      ],
+      "translation_information_ratio": 0.012686631582108815,
+      "cycle_angle_deg": 62.458680718017426,
+      "cycle_translation_m": 43.86504459560832,
+      "rotation_speed_rad_s": 27.82824755062941,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 461,
+      "cloud_current": 462,
+      "t_previous_s": 29.90099624619256,
+      "t_current_s": 29.985536562632287,
+      "t_previous_weighted_s": 29.901119021890594,
+      "t_current_weighted_s": 29.986249273156478,
+      "t_previous_allpoints_s": 29.90769123157451,
+      "t_current_allpoints_s": 29.98012677456006,
+      "current_voxel_points": 270,
+      "previous_voxel_points": 222,
+      "correspondences": 71,
+      "fitness": 0.26296296296296295,
+      "inlier_rmse_m": 0.06882270621740758,
+      "plane_residual_rms_m": 0.018015113933190916,
+      "rotation_information_eigenvalues": [
+        0.002702270542975553,
+        0.005339842143803443,
+        0.6415660588517234
+      ],
+      "rotation_information_ratio": 0.004211991120309706,
+      "translation_normal_eigenvalues": [
+        0.002882614508635671,
+        0.055377456617972644,
+        0.9034764440619181
+      ],
+      "translation_information_ratio": 0.0031905807036604,
+      "cycle_angle_deg": 22.35458285684772,
+      "cycle_translation_m": 0.23125404153148293,
+      "rotation_speed_rad_s": 10.625524561191707,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 469,
+      "cloud_current": 470,
+      "t_previous_s": 30.438332848193152,
+      "t_current_s": 30.495890546644873,
+      "t_previous_weighted_s": 30.438989748602474,
+      "t_current_weighted_s": 30.49763297824424,
+      "t_previous_allpoints_s": 30.43507021009948,
+      "t_current_allpoints_s": 30.49570685562284,
+      "current_voxel_points": 171,
+      "previous_voxel_points": 268,
+      "correspondences": 83,
+      "fitness": 0.4853801169590643,
+      "inlier_rmse_m": 0.06713515602308393,
+      "plane_residual_rms_m": 0.0082288109316321,
+      "rotation_information_eigenvalues": [
+        0.0013709392667583438,
+        0.018543401535671116,
+        0.36152992847819343
+      ],
+      "rotation_information_ratio": 0.0037920491742664546,
+      "translation_normal_eigenvalues": [
+        0.000799697134902556,
+        0.022616276117245787,
+        0.972760493766734
+      ],
+      "translation_information_ratio": 0.0008220904734792012,
+      "cycle_angle_deg": 106.59844446372867,
+      "cycle_translation_m": 9.33021619485517,
+      "rotation_speed_rad_s": 28.217164992844157,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 477,
+      "cloud_current": 478,
+      "t_previous_s": 30.945026660475804,
+      "t_current_s": 31.02170216739558,
+      "t_previous_weighted_s": 30.941792185641727,
+      "t_current_weighted_s": 31.023109565841885,
+      "t_previous_allpoints_s": 30.948586656093582,
+      "t_current_allpoints_s": 31.018618979589032,
+      "current_voxel_points": 270,
+      "previous_voxel_points": 291,
+      "correspondences": 111,
+      "fitness": 0.4111111111111111,
+      "inlier_rmse_m": 0.05715742331523887,
+      "plane_residual_rms_m": 0.02210975944759882,
+      "rotation_information_eigenvalues": [
+        0.011099936649533022,
+        0.27517058596645527,
+        0.42076563813923207
+      ],
+      "rotation_information_ratio": 0.02638033062447945,
+      "translation_normal_eigenvalues": [
+        0.00699088309574822,
+        0.10252421009529274,
+        0.8253012907365874
+      ],
+      "translation_information_ratio": 0.008470704183085435,
+      "cycle_angle_deg": 114.78503584142375,
+      "cycle_translation_m": 2.56260283894001,
+      "rotation_speed_rad_s": 12.654908986159294,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 485,
+      "cloud_current": 486,
+      "t_previous_s": 31.4822673641234,
+      "t_current_s": 31.535085142081805,
+      "t_previous_weighted_s": 31.481432072499558,
+      "t_current_weighted_s": 31.532479164225922,
+      "t_previous_allpoints_s": 31.475502492835354,
+      "t_current_allpoints_s": 31.53355725498979,
+      "current_voxel_points": 212,
+      "previous_voxel_points": 260,
+      "correspondences": 68,
+      "fitness": 0.32075471698113206,
+      "inlier_rmse_m": 0.07515838902246556,
+      "plane_residual_rms_m": 0.030141066337891955,
+      "rotation_information_eigenvalues": [
+        0.005736002958095225,
+        0.015050405890244898,
+        0.3755094577082306
+      ],
+      "rotation_information_ratio": 0.015275255630317779,
+      "translation_normal_eigenvalues": [
+        0.0057246108202217115,
+        0.17348804574702975,
+        0.7132593632734101
+      ],
+      "translation_information_ratio": 0.008025987621037827,
+      "cycle_angle_deg": 61.920116079503785,
+      "cycle_translation_m": 5.456093665830004,
+      "rotation_speed_rad_s": 28.19795845536038,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 493,
+      "cloud_current": 494,
+      "t_previous_s": 31.989219019195897,
+      "t_current_s": 32.06482096817839,
+      "t_previous_weighted_s": 31.9855146653941,
+      "t_current_weighted_s": 32.06979391958049,
+      "t_previous_allpoints_s": 31.990284675698053,
+      "t_current_allpoints_s": 32.063717934480515,
+      "current_voxel_points": 261,
+      "previous_voxel_points": 212,
+      "correspondences": 36,
+      "fitness": 0.13793103448275862,
+      "inlier_rmse_m": 0.0603520086898133,
+      "plane_residual_rms_m": 0.019013164911985708,
+      "rotation_information_eigenvalues": [
+        0.001662245177438591,
+        0.013658594592285639,
+        0.08050717959238293
+      ],
+      "rotation_information_ratio": 0.020647166946534814,
+      "translation_normal_eigenvalues": [
+        0.0087876680153826,
+        0.048121830088487354,
+        0.8982227828204448
+      ],
+      "translation_information_ratio": 0.009783394702803101,
+      "cycle_angle_deg": 43.113997398449655,
+      "cycle_translation_m": 1.7375654409540857,
+      "rotation_speed_rad_s": 1.9860639189666434,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error"
+      ]
+    },
+    {
+      "cloud_previous": 501,
+      "cloud_current": 502,
+      "t_previous_s": 32.518382607534456,
+      "t_current_s": 32.58592106210981,
+      "t_previous_weighted_s": 32.51410911164989,
+      "t_current_weighted_s": 32.589907814687066,
+      "t_previous_allpoints_s": 32.51993338844524,
+      "t_current_allpoints_s": 32.58262975781921,
+      "current_voxel_points": 247,
+      "previous_voxel_points": 258,
+      "correspondences": 35,
+      "fitness": 0.1417004048582996,
+      "inlier_rmse_m": 0.07086185188030854,
+      "plane_residual_rms_m": 0.01724866441015111,
+      "rotation_information_eigenvalues": [
+        0.005153049550154288,
+        0.011266016918831853,
+        0.819658926701471
+      ],
+      "rotation_information_ratio": 0.006286821728266356,
+      "translation_normal_eigenvalues": [
+        0.0035944197467046913,
+        0.1229089083175701,
+        0.8364002223977599
+      ],
+      "translation_information_ratio": 0.004297487794061493,
+      "cycle_angle_deg": 163.39238079802203,
+      "cycle_translation_m": 12.932372291116017,
+      "rotation_speed_rad_s": 17.31482435634558,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 505,
+      "cloud_current": 506,
+      "t_previous_s": 32.77509405273882,
+      "t_current_s": 32.84513811494437,
+      "t_previous_weighted_s": 32.776935302140075,
+      "t_current_weighted_s": 32.84531326623559,
+      "t_previous_allpoints_s": 32.7739344010489,
+      "t_current_allpoints_s": 32.84291649792034,
+      "current_voxel_points": 306,
+      "previous_voxel_points": 302,
+      "correspondences": 125,
+      "fitness": 0.4084967320261438,
+      "inlier_rmse_m": 0.06412450581467914,
+      "plane_residual_rms_m": 0.023418092325078906,
+      "rotation_information_eigenvalues": [
+        0.0014183559485500842,
+        0.014898368443062355,
+        0.6624007386847526
+      ],
+      "rotation_information_ratio": 0.0021412354572042575,
+      "translation_normal_eigenvalues": [
+        0.005599740261173802,
+        0.016701993827331656,
+        0.9044011724540431
+      ],
+      "translation_information_ratio": 0.0061916552429705654,
+      "cycle_angle_deg": 116.06226844383708,
+      "cycle_translation_m": 9.6670672106925,
+      "rotation_speed_rad_s": 16.474051607184638,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 517,
+      "cloud_current": 518,
+      "t_previous_s": 33.551236096639556,
+      "t_current_s": 33.63325047478464,
+      "t_previous_weighted_s": 33.5512011008396,
+      "t_current_weighted_s": 33.63546474621367,
+      "t_previous_allpoints_s": 33.55607040882508,
+      "t_current_allpoints_s": 33.62962467651642,
+      "current_voxel_points": 262,
+      "previous_voxel_points": 224,
+      "correspondences": 91,
+      "fitness": 0.3473282442748092,
+      "inlier_rmse_m": 0.06623387393109888,
+      "plane_residual_rms_m": 0.015802912185280658,
+      "rotation_information_eigenvalues": [
+        0.005994042167690647,
+        0.02718489176442436,
+        0.7276484972339222
+      ],
+      "rotation_information_ratio": 0.00823755177187386,
+      "translation_normal_eigenvalues": [
+        0.004184912169165244,
+        0.05296159783007761,
+        0.916126576078459
+      ],
+      "translation_information_ratio": 0.004568050178261437,
+      "cycle_angle_deg": 9.903005350058912,
+      "cycle_translation_m": 0.9622834898612056,
+      "rotation_speed_rad_s": 10.591580957160463,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 525,
+      "cloud_current": 526,
+      "t_previous_s": 34.08568939056719,
+      "t_current_s": 34.1439569578307,
+      "t_previous_weighted_s": 34.087956064917016,
+      "t_current_weighted_s": 34.141641938913175,
+      "t_previous_allpoints_s": 34.08359687043862,
+      "t_current_allpoints_s": 34.145667194551564,
+      "current_voxel_points": 272,
+      "previous_voxel_points": 242,
+      "correspondences": 91,
+      "fitness": 0.33455882352941174,
+      "inlier_rmse_m": 0.0683031471397062,
+      "plane_residual_rms_m": 0.013313533645804712,
+      "rotation_information_eigenvalues": [
+        0.010229831081358666,
+        0.04797206255971421,
+        0.2263083108961781
+      ],
+      "rotation_information_ratio": 0.04520307292670191,
+      "translation_normal_eigenvalues": [
+        0.002975558711260213,
+        0.10022970155109187,
+        0.8811727073466522
+      ],
+      "translation_information_ratio": 0.003376816697171752,
+      "cycle_angle_deg": 44.87297657092621,
+      "cycle_translation_m": 3.442791720823914,
+      "rotation_speed_rad_s": 30.052748050583048,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 529,
+      "cloud_current": 530,
+      "t_previous_s": 34.33798700689785,
+      "t_current_s": 34.40737745990699,
+      "t_previous_weighted_s": 34.33492779420847,
+      "t_current_weighted_s": 34.409832623032926,
+      "t_previous_allpoints_s": 34.33784377675815,
+      "t_current_allpoints_s": 34.4062248347677,
+      "current_voxel_points": 281,
+      "previous_voxel_points": 286,
+      "correspondences": 91,
+      "fitness": 0.3238434163701068,
+      "inlier_rmse_m": 0.06159459127299901,
+      "plane_residual_rms_m": 0.01535556125898022,
+      "rotation_information_eigenvalues": [
+        0.0005541109229278849,
+        0.02462907656575865,
+        0.06340661772055353
+      ],
+      "rotation_information_ratio": 0.008739007738434649,
+      "translation_normal_eigenvalues": [
+        0.0037218710124084227,
+        0.023233057020561623,
+        0.9501967840167742
+      ],
+      "translation_information_ratio": 0.00391694759971185,
+      "cycle_angle_deg": 82.74467258512826,
+      "cycle_translation_m": 2.6632716235173333,
+      "rotation_speed_rad_s": 5.924108815150382,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 541,
+      "cloud_current": 542,
+      "t_previous_s": 35.112415246838175,
+      "t_current_s": 35.19370018300583,
+      "t_previous_weighted_s": 35.11269453053868,
+      "t_current_weighted_s": 35.195293474068386,
+      "t_previous_allpoints_s": 35.1139932380068,
+      "t_current_allpoints_s": 35.19117629078938,
+      "current_voxel_points": 239,
+      "previous_voxel_points": 281,
+      "correspondences": 137,
+      "fitness": 0.5732217573221757,
+      "inlier_rmse_m": 0.057297025849312525,
+      "plane_residual_rms_m": 0.012966152659245885,
+      "rotation_information_eigenvalues": [
+        0.016042992688047035,
+        0.1837292183666337,
+        0.8205350870430623
+      ],
+      "rotation_information_ratio": 0.019551866753024158,
+      "translation_normal_eigenvalues": [
+        0.026344760312483655,
+        0.08185043346172333,
+        0.8769363955657746
+      ],
+      "translation_information_ratio": 0.03004181425893124,
+      "cycle_angle_deg": 4.719865333633084,
+      "cycle_translation_m": 0.1548835011926209,
+      "rotation_speed_rad_s": 9.453908808564828,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 545,
+      "cloud_current": 546,
+      "t_previous_s": 35.374627001174524,
+      "t_current_s": 35.449452051268636,
+      "t_previous_weighted_s": 35.374121963843955,
+      "t_current_weighted_s": 35.44949571169182,
+      "t_previous_allpoints_s": 35.378001703555874,
+      "t_current_allpoints_s": 35.450030939768375,
+      "current_voxel_points": 250,
+      "previous_voxel_points": 218,
+      "correspondences": 97,
+      "fitness": 0.388,
+      "inlier_rmse_m": 0.062319007100515876,
+      "plane_residual_rms_m": 0.012892136668851226,
+      "rotation_information_eigenvalues": [
+        0.0034481349733504123,
+        0.012635226075915003,
+        0.35385052864432587
+      ],
+      "rotation_information_ratio": 0.009744608794456027,
+      "translation_normal_eigenvalues": [
+        0.008258747692413533,
+        0.02561107298035269,
+        0.9493804880158083
+      ],
+      "translation_information_ratio": 0.008699091456655273,
+      "cycle_angle_deg": 80.72452564088523,
+      "cycle_translation_m": 848.2309419579587,
+      "rotation_speed_rad_s": 17.788716615984374,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 573,
+      "cloud_current": 574,
+      "t_previous_s": 37.1984215896286,
+      "t_current_s": 37.2658688315154,
+      "t_previous_weighted_s": 37.1967304306288,
+      "t_current_weighted_s": 37.26845035158909,
+      "t_previous_allpoints_s": 37.201506052127186,
+      "t_current_allpoints_s": 37.263752687579554,
+      "current_voxel_points": 289,
+      "previous_voxel_points": 192,
+      "correspondences": 110,
+      "fitness": 0.3806228373702422,
+      "inlier_rmse_m": 0.05073117934578034,
+      "plane_residual_rms_m": 0.018876645553510978,
+      "rotation_information_eigenvalues": [
+        0.0004960117588240687,
+        0.006294953048003809,
+        0.6043308669801126
+      ],
+      "rotation_information_ratio": 0.0008207619135899466,
+      "translation_normal_eigenvalues": [
+        0.003098026442744675,
+        0.07011795809912193,
+        0.8680745079675348
+      ],
+      "translation_information_ratio": 0.003568848542734235,
+      "cycle_angle_deg": 153.43161885528716,
+      "cycle_translation_m": 2.628437611642991,
+      "rotation_speed_rad_s": 19.85083503091705,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 593,
+      "cloud_current": 594,
+      "t_previous_s": 38.501872990274734,
+      "t_current_s": 38.554410996359806,
+      "t_previous_weighted_s": 38.50432892811799,
+      "t_current_weighted_s": 38.55443723551601,
+      "t_previous_allpoints_s": 38.49869364921312,
+      "t_current_allpoints_s": 38.555493383065794,
+      "current_voxel_points": 282,
+      "previous_voxel_points": 278,
+      "correspondences": 152,
+      "fitness": 0.5390070921985816,
+      "inlier_rmse_m": 0.061092072986450564,
+      "plane_residual_rms_m": 0.020126278933597756,
+      "rotation_information_eigenvalues": [
+        0.011545821914230422,
+        0.07802009443315792,
+        0.5682748923203917
+      ],
+      "rotation_information_ratio": 0.020317318379290496,
+      "translation_normal_eigenvalues": [
+        0.002680177787661987,
+        0.08607606813075068,
+        0.8667688334236869
+      ],
+      "translation_information_ratio": 0.003092148314880496,
+      "cycle_angle_deg": 156.37973117126398,
+      "cycle_translation_m": 4.508742292357697,
+      "rotation_speed_rad_s": 23.121947628780237,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 597,
+      "cloud_current": 598,
+      "t_previous_s": 38.753931984069524,
+      "t_current_s": 38.819946793280614,
+      "t_previous_weighted_s": 38.75367187030494,
+      "t_current_weighted_s": 38.819555588882054,
+      "t_previous_allpoints_s": 38.757441778456815,
+      "t_current_allpoints_s": 38.819019622534654,
+      "current_voxel_points": 187,
+      "previous_voxel_points": 287,
+      "correspondences": 120,
+      "fitness": 0.6417112299465241,
+      "inlier_rmse_m": 0.04824440331900738,
+      "plane_residual_rms_m": 0.010644020381468024,
+      "rotation_information_eigenvalues": [
+        0.015318923718248497,
+        0.018173351004280476,
+        0.5172776471928362
+      ],
+      "rotation_information_ratio": 0.029614509347893295,
+      "translation_normal_eigenvalues": [
+        0.020537828762758427,
+        0.03303179831613989,
+        0.9371183720459543
+      ],
+      "translation_information_ratio": 0.02191593866409792,
+      "cycle_angle_deg": 161.1282561222485,
+      "cycle_translation_m": 3.994920119319606,
+      "rotation_speed_rad_s": 21.39934600565258,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 613,
+      "cloud_current": 614,
+      "t_previous_s": 39.79639961469512,
+      "t_current_s": 39.85747140230094,
+      "t_previous_weighted_s": 39.79828271571528,
+      "t_current_weighted_s": 39.854776071792436,
+      "t_previous_allpoints_s": 39.79667609791637,
+      "t_current_allpoints_s": 39.8555250068872,
+      "current_voxel_points": 250,
+      "previous_voxel_points": 226,
+      "correspondences": 34,
+      "fitness": 0.136,
+      "inlier_rmse_m": 0.054387152736785516,
+      "plane_residual_rms_m": 0.006224631016022037,
+      "rotation_information_eigenvalues": [
+        0.00020866018161352549,
+        0.006062210999933406,
+        0.013347221407553615
+      ],
+      "rotation_information_ratio": 0.015633229961663636,
+      "translation_normal_eigenvalues": [
+        0.002521989088008358,
+        0.023538525149777535,
+        0.9739394857622146
+      ],
+      "translation_information_ratio": 0.0025894720615363743,
+      "cycle_angle_deg": 109.32974016624517,
+      "cycle_translation_m": 3.352840792352435,
+      "rotation_speed_rad_s": 7.861164167373588,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 617,
+      "cloud_current": 618,
+      "t_previous_s": 40.05429214514689,
+      "t_current_s": 40.11729625044282,
+      "t_previous_weighted_s": 40.0571106171228,
+      "t_current_weighted_s": 40.116863135146126,
+      "t_previous_allpoints_s": 40.0564539465081,
+      "t_current_allpoints_s": 40.12019550193287,
+      "current_voxel_points": 191,
+      "previous_voxel_points": 237,
+      "correspondences": 73,
+      "fitness": 0.38219895287958117,
+      "inlier_rmse_m": 0.06149534516714136,
+      "plane_residual_rms_m": 0.018238877711620215,
+      "rotation_information_eigenvalues": [
+        0.00748871529822583,
+        0.01770209775122891,
+        0.555633525446486
+      ],
+      "rotation_information_ratio": 0.013477795984697257,
+      "translation_normal_eigenvalues": [
+        0.004411436998063502,
+        0.02454174721243039,
+        0.9334821431424026
+      ],
+      "translation_information_ratio": 0.004725786165778361,
+      "cycle_angle_deg": 85.94254678889098,
+      "cycle_translation_m": 4.00498241348162,
+      "rotation_speed_rad_s": 22.941249861535912,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 621,
+      "cloud_current": 622,
+      "t_previous_s": 40.308451224878304,
+      "t_current_s": 40.381313616563865,
+      "t_previous_weighted_s": 40.308841565584814,
+      "t_current_weighted_s": 40.37643777951554,
+      "t_previous_allpoints_s": 40.31009467568363,
+      "t_current_allpoints_s": 40.37712239380257,
+      "current_voxel_points": 231,
+      "previous_voxel_points": 221,
+      "correspondences": 30,
+      "fitness": 0.12987012987012986,
+      "inlier_rmse_m": 0.06713806034852479,
+      "plane_residual_rms_m": 0.029709508583200688,
+      "rotation_information_eigenvalues": [
+        0.010838403284620175,
+        0.07417233226031981,
+        0.29819132458782094
+      ],
+      "rotation_information_ratio": 0.0363471449063842,
+      "translation_normal_eigenvalues": [
+        0.007088603987624519,
+        0.10667622212788518,
+        0.7884637225690383
+      ],
+      "translation_information_ratio": 0.008990399665475842,
+      "cycle_angle_deg": 58.863920075517186,
+      "cycle_translation_m": 6.681043184121631,
+      "rotation_speed_rad_s": 20.55567091642841,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 645,
+      "cloud_current": 646,
+      "t_previous_s": 41.86066668421222,
+      "t_current_s": 41.940419432270474,
+      "t_previous_weighted_s": 41.8587923466009,
+      "t_current_weighted_s": 41.941705731072496,
+      "t_previous_allpoints_s": 41.86288377245674,
+      "t_current_allpoints_s": 41.93637895039695,
+      "current_voxel_points": 270,
+      "previous_voxel_points": 200,
+      "correspondences": 47,
+      "fitness": 0.17407407407407408,
+      "inlier_rmse_m": 0.06370314189450442,
+      "plane_residual_rms_m": 0.012032124204498344,
+      "rotation_information_eigenvalues": [
+        0.0009416777620373223,
+        0.005731430441089975,
+        0.30228356797146444
+      ],
+      "rotation_information_ratio": 0.003115213203141153,
+      "translation_normal_eigenvalues": [
+        0.0008576586312298198,
+        0.04213622436925244,
+        0.9441874886009971
+      ],
+      "translation_information_ratio": 0.0009083562762525194,
+      "cycle_angle_deg": 18.105419000879184,
+      "cycle_translation_m": 0.3811044752759364,
+      "rotation_speed_rad_s": 11.705152228013414,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 649,
+      "cloud_current": 650,
+      "t_previous_s": 42.11948310818592,
+      "t_current_s": 42.19929567410838,
+      "t_previous_weighted_s": 42.119384794493484,
+      "t_current_weighted_s": 42.20051206723032,
+      "t_previous_allpoints_s": 42.126543484806064,
+      "t_current_allpoints_s": 42.1943764636006,
+      "current_voxel_points": 283,
+      "previous_voxel_points": 200,
+      "correspondences": 87,
+      "fitness": 0.30742049469964666,
+      "inlier_rmse_m": 0.06150071948066207,
+      "plane_residual_rms_m": 0.01598463354869786,
+      "rotation_information_eigenvalues": [
+        0.004504568268926553,
+        0.010914668233001721,
+        0.4995425034936527
+      ],
+      "rotation_information_ratio": 0.009017387384302505,
+      "translation_normal_eigenvalues": [
+        0.0035336802554373275,
+        0.0328092971960661,
+        0.9220073565128402
+      ],
+      "translation_information_ratio": 0.00383259442614666,
+      "cycle_angle_deg": 104.43027154622827,
+      "cycle_translation_m": 25.744950823872696,
+      "rotation_speed_rad_s": 14.205326229918684,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 661,
+      "cloud_current": 662,
+      "t_previous_s": 42.90517817819094,
+      "t_current_s": 42.97720786375607,
+      "t_previous_weighted_s": 42.90264263400957,
+      "t_current_weighted_s": 42.97787653986327,
+      "t_previous_allpoints_s": 42.907778629429274,
+      "t_current_allpoints_s": 42.976565894302226,
+      "current_voxel_points": 258,
+      "previous_voxel_points": 257,
+      "correspondences": 99,
+      "fitness": 0.38372093023255816,
+      "inlier_rmse_m": 0.06479593570407186,
+      "plane_residual_rms_m": 0.029430920538414045,
+      "rotation_information_eigenvalues": [
+        0.0009306228241351636,
+        0.0048156467701539595,
+        0.45489035953972634
+      ],
+      "rotation_information_ratio": 0.0020458178649395862,
+      "translation_normal_eigenvalues": [
+        0.010702251635950318,
+        0.017677458595605298,
+        0.8388543381859714
+      ],
+      "translation_information_ratio": 0.012758176418439958,
+      "cycle_angle_deg": 20.76890078852846,
+      "cycle_translation_m": 0.27757413048180224,
+      "rotation_speed_rad_s": 15.373434902767158,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 673,
+      "cloud_current": 674,
+      "t_previous_s": 43.67980698384939,
+      "t_current_s": 43.760170413335004,
+      "t_previous_weighted_s": 43.679538500181884,
+      "t_current_weighted_s": 43.7599838456463,
+      "t_previous_allpoints_s": 43.685041252726116,
+      "t_current_allpoints_s": 43.75806941176525,
+      "current_voxel_points": 176,
+      "previous_voxel_points": 271,
+      "correspondences": 122,
+      "fitness": 0.6931818181818182,
+      "inlier_rmse_m": 0.05530885309429088,
+      "plane_residual_rms_m": 0.020404440475439427,
+      "rotation_information_eigenvalues": [
+        0.006907628137715767,
+        0.06555283784555381,
+        0.43280448272317895
+      ],
+      "rotation_information_ratio": 0.015960158486005967,
+      "translation_normal_eigenvalues": [
+        0.03603089080679756,
+        0.052583685432895905,
+        0.8624104641850282
+      ],
+      "translation_information_ratio": 0.0417792829552996,
+      "cycle_angle_deg": 161.24837824332812,
+      "cycle_translation_m": 6.376595929690178,
+      "rotation_speed_rad_s": 11.772358880504747,
+      "accepted": false,
+      "rejection_reasons": [
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 701,
+      "cloud_current": 702,
+      "t_previous_s": 45.50603293778835,
+      "t_current_s": 45.5754775119173,
+      "t_previous_weighted_s": 45.50382799850616,
+      "t_current_weighted_s": 45.576236302858085,
+      "t_previous_allpoints_s": 45.50859701698981,
+      "t_current_allpoints_s": 45.573417907552326,
+      "current_voxel_points": 266,
+      "previous_voxel_points": 248,
+      "correspondences": 131,
+      "fitness": 0.4924812030075188,
+      "inlier_rmse_m": 0.048181506954972225,
+      "plane_residual_rms_m": 0.0171476781958404,
+      "rotation_information_eigenvalues": [
+        0.0004363693678643248,
+        0.010751325327916198,
+        0.5856736184099396
+      ],
+      "rotation_information_ratio": 0.0007450726038318667,
+      "translation_normal_eigenvalues": [
+        0.0027111085448347553,
+        0.060287825136966976,
+        0.8987711793385963
+      ],
+      "translation_information_ratio": 0.003016461372103469,
+      "cycle_angle_deg": 4.817275759000162,
+      "cycle_translation_m": 0.05462038797106727,
+      "rotation_speed_rad_s": 17.61701215776546,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 705,
+      "cloud_current": 706,
+      "t_previous_s": 45.771107202689095,
+      "t_current_s": 45.835729897975654,
+      "t_previous_weighted_s": 45.768719073283776,
+      "t_current_weighted_s": 45.83589262657857,
+      "t_previous_allpoints_s": 45.77274684642573,
+      "t_current_allpoints_s": 45.83521402349506,
+      "current_voxel_points": 276,
+      "previous_voxel_points": 253,
+      "correspondences": 121,
+      "fitness": 0.4384057971014493,
+      "inlier_rmse_m": 0.0736476248810395,
+      "plane_residual_rms_m": 0.015643561167181595,
+      "rotation_information_eigenvalues": [
+        0.008133647895155227,
+        0.026910137015014858,
+        0.3206208102126582
+      ],
+      "rotation_information_ratio": 0.02536843410058262,
+      "translation_normal_eigenvalues": [
+        0.004331467957308374,
+        0.0887400355036779,
+        0.878044807771938
+      ],
+      "translation_information_ratio": 0.004933083048802018,
+      "cycle_angle_deg": 27.948528336726365,
+      "cycle_translation_m": 1.3408660222806799,
+      "rotation_speed_rad_s": 18.4113715744974,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 713,
+      "cloud_current": 714,
+      "t_previous_s": 46.2777535295161,
+      "t_current_s": 46.35237666136381,
+      "t_previous_weighted_s": 46.27637775318399,
+      "t_current_weighted_s": 46.352238506986225,
+      "t_previous_allpoints_s": 46.28383883813385,
+      "t_current_allpoints_s": 46.3531562294761,
+      "current_voxel_points": 281,
+      "previous_voxel_points": 252,
+      "correspondences": 130,
+      "fitness": 0.4626334519572954,
+      "inlier_rmse_m": 0.06381068412774639,
+      "plane_residual_rms_m": 0.028173905208635323,
+      "rotation_information_eigenvalues": [
+        0.010563682242915727,
+        0.08024585976017577,
+        0.22349519702558873
+      ],
+      "rotation_information_ratio": 0.04726581324119576,
+      "translation_normal_eigenvalues": [
+        0.004661568736083588,
+        0.14782020894056377,
+        0.7484783228851826
+      ],
+      "translation_information_ratio": 0.006228061112196937,
+      "cycle_angle_deg": 173.46115827405757,
+      "cycle_translation_m": 1.5767448498491892,
+      "rotation_speed_rad_s": 15.229463440257527,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 725,
+      "cloud_current": 726,
+      "t_previous_s": 47.06343153388405,
+      "t_current_s": 47.12693509144375,
+      "t_previous_weighted_s": 47.06751713680031,
+      "t_current_weighted_s": 47.127334121696144,
+      "t_previous_allpoints_s": 47.06124481489473,
+      "t_current_allpoints_s": 47.12802356580678,
+      "current_voxel_points": 182,
+      "previous_voxel_points": 248,
+      "correspondences": 82,
+      "fitness": 0.45054945054945056,
+      "inlier_rmse_m": 0.06945868588770292,
+      "plane_residual_rms_m": 0.021324052582825933,
+      "rotation_information_eigenvalues": [
+        0.004851742884081781,
+        0.02663821087795746,
+        0.25852381907255473
+      ],
+      "rotation_information_ratio": 0.018767102008191126,
+      "translation_normal_eigenvalues": [
+        0.02869796525444003,
+        0.0645548973076059,
+        0.856709226150425
+      ],
+      "translation_information_ratio": 0.033497906148849045,
+      "cycle_angle_deg": 107.11575862158428,
+      "cycle_translation_m": 4.250391497629106,
+      "rotation_speed_rad_s": 18.20022531644747,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 733,
+      "cloud_current": 734,
+      "t_previous_s": 47.57280809540667,
+      "t_current_s": 47.65062389369188,
+      "t_previous_weighted_s": 47.56997087502018,
+      "t_current_weighted_s": 47.655525408845726,
+      "t_previous_allpoints_s": 47.579517614522224,
+      "t_current_allpoints_s": 47.64644670853527,
+      "current_voxel_points": 298,
+      "previous_voxel_points": 227,
+      "correspondences": 67,
+      "fitness": 0.22483221476510068,
+      "inlier_rmse_m": 0.07282359466691404,
+      "plane_residual_rms_m": 0.02311291925460301,
+      "rotation_information_eigenvalues": [
+        0.0037609200917231556,
+        0.010706356011111102,
+        0.36185806070785265
+      ],
+      "rotation_information_ratio": 0.010393357230639522,
+      "translation_normal_eigenvalues": [
+        0.03445823109281373,
+        0.14043633304161401,
+        0.7485048611969516
+      ],
+      "translation_information_ratio": 0.04603608190027085,
+      "cycle_angle_deg": 72.35373158990532,
+      "cycle_translation_m": 1.2996987343639994,
+      "rotation_speed_rad_s": 11.353173307507038,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 777,
+      "cloud_current": 778,
+      "t_previous_s": 50.429657235180414,
+      "t_current_s": 50.49853583641141,
+      "t_previous_weighted_s": 50.429483996721416,
+      "t_current_weighted_s": 50.4996650919313,
+      "t_previous_allpoints_s": 50.43210165784162,
+      "t_current_allpoints_s": 50.49836996284492,
+      "current_voxel_points": 190,
+      "previous_voxel_points": 216,
+      "correspondences": 36,
+      "fitness": 0.18947368421052632,
+      "inlier_rmse_m": 0.06651540061978323,
+      "plane_residual_rms_m": 0.021254809305814533,
+      "rotation_information_eigenvalues": [
+        0.0005387614998181966,
+        0.003360464869221448,
+        0.09116096819785775
+      ],
+      "rotation_information_ratio": 0.005910001950054511,
+      "translation_normal_eigenvalues": [
+        0.011752512222282324,
+        0.04830699629131432,
+        0.880473514083224
+      ],
+      "translation_information_ratio": 0.013347945207096206,
+      "cycle_angle_deg": 20.60120419590834,
+      "cycle_translation_m": 3.0584297286131177,
+      "rotation_speed_rad_s": 13.822929660677648,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 801,
+      "cloud_current": 802,
+      "t_previous_s": 51.981994664998396,
+      "t_current_s": 52.0590984692112,
+      "t_previous_weighted_s": 51.98260639434809,
+      "t_current_weighted_s": 52.059820329828234,
+      "t_previous_allpoints_s": 51.982977737296935,
+      "t_current_allpoints_s": 52.058124669172116,
+      "current_voxel_points": 280,
+      "previous_voxel_points": 231,
+      "correspondences": 158,
+      "fitness": 0.5642857142857143,
+      "inlier_rmse_m": 0.06468558592045827,
+      "plane_residual_rms_m": 0.02284955080006273,
+      "rotation_information_eigenvalues": [
+        0.019662547286286518,
+        0.088988798126069,
+        0.8106106686930059
+      ],
+      "rotation_information_ratio": 0.024256462498809164,
+      "translation_normal_eigenvalues": [
+        0.0018190187825255304,
+        0.051301123545378954,
+        0.8968293189312704
+      ],
+      "translation_information_ratio": 0.0020282775597626657,
+      "cycle_angle_deg": 9.580659649183776,
+      "cycle_translation_m": 0.344178799960207,
+      "rotation_speed_rad_s": 12.129401842926582,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "translation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 809,
+      "cloud_current": 810,
+      "t_previous_s": 52.50737023009226,
+      "t_current_s": 52.56893273824963,
+      "t_previous_weighted_s": 52.507723741803446,
+      "t_current_weighted_s": 52.56950202380738,
+      "t_previous_allpoints_s": 52.51259367434015,
+      "t_current_allpoints_s": 52.570091383659154,
+      "current_voxel_points": 216,
+      "previous_voxel_points": 282,
+      "correspondences": 96,
+      "fitness": 0.4444444444444444,
+      "inlier_rmse_m": 0.07008874431934006,
+      "plane_residual_rms_m": 0.025989417626617488,
+      "rotation_information_eigenvalues": [
+        0.008033352744997915,
+        0.02972635496334853,
+        0.27000458910583147
+      ],
+      "rotation_information_ratio": 0.02975265261824549,
+      "translation_normal_eigenvalues": [
+        0.010638139717534594,
+        0.24843838213478506,
+        0.6654280662107107
+      ],
+      "translation_information_ratio": 0.015986911670428372,
+      "cycle_angle_deg": 99.26894014242028,
+      "cycle_translation_m": 3.0558138297889506,
+      "rotation_speed_rad_s": 25.668626356427726,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 813,
+      "cloud_current": 814,
+      "t_previous_s": 52.75795927386625,
+      "t_current_s": 52.83560582879377,
+      "t_previous_weighted_s": 52.75858976796582,
+      "t_current_weighted_s": 52.83582756525039,
+      "t_previous_allpoints_s": 52.76295673392335,
+      "t_current_allpoints_s": 52.832266325424214,
+      "current_voxel_points": 292,
+      "previous_voxel_points": 293,
+      "correspondences": 110,
+      "fitness": 0.3767123287671233,
+      "inlier_rmse_m": 0.051484801388097905,
+      "plane_residual_rms_m": 0.024608609662799992,
+      "rotation_information_eigenvalues": [
+        0.0014005974487521597,
+        0.009921753663586372,
+        0.6957381635868605
+      ],
+      "rotation_information_ratio": 0.00201310999174088,
+      "translation_normal_eigenvalues": [
+        0.007979427011307858,
+        0.01350917181999443,
+        0.8938163772789862
+      ],
+      "translation_information_ratio": 0.008927367202198003,
+      "cycle_angle_deg": 96.29100713950059,
+      "cycle_translation_m": 3.300131961054097,
+      "rotation_speed_rad_s": 14.037772287231322,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 825,
+      "cloud_current": 826,
+      "t_previous_s": 53.53408789430052,
+      "t_current_s": 53.615635608144736,
+      "t_previous_weighted_s": 53.5336410005348,
+      "t_current_weighted_s": 53.61755971251149,
+      "t_previous_allpoints_s": 53.53976380364794,
+      "t_current_allpoints_s": 53.611393930682084,
+      "current_voxel_points": 225,
+      "previous_voxel_points": 279,
+      "correspondences": 91,
+      "fitness": 0.40444444444444444,
+      "inlier_rmse_m": 0.05433150864263446,
+      "plane_residual_rms_m": 0.015171595553060002,
+      "rotation_information_eigenvalues": [
+        0.006957298155497164,
+        0.02710052792669701,
+        1.1514680263994994
+      ],
+      "rotation_information_ratio": 0.006042111457711761,
+      "translation_normal_eigenvalues": [
+        0.02714666284975194,
+        0.08118656812687139,
+        0.8641947663470216
+      ],
+      "translation_information_ratio": 0.031412667499135336,
+      "cycle_angle_deg": 5.847675921603275,
+      "cycle_translation_m": 0.11700061343259348,
+      "rotation_speed_rad_s": 11.530012402827975,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 829,
+      "cloud_current": 830,
+      "t_previous_s": 53.79782771260278,
+      "t_current_s": 53.87150711723349,
+      "t_previous_weighted_s": 53.7979046375832,
+      "t_current_weighted_s": 53.87354546919135,
+      "t_previous_allpoints_s": 53.801544722402404,
+      "t_current_allpoints_s": 53.868467300264605,
+      "current_voxel_points": 267,
+      "previous_voxel_points": 302,
+      "correspondences": 107,
+      "fitness": 0.40074906367041196,
+      "inlier_rmse_m": 0.05862022588889564,
+      "plane_residual_rms_m": 0.01208919079457528,
+      "rotation_information_eigenvalues": [
+        0.004120978509035369,
+        0.011432692564175076,
+        0.5959401335162813
+      ],
+      "rotation_information_ratio": 0.006915088072219561,
+      "translation_normal_eigenvalues": [
+        0.02934898895368385,
+        0.10382136022697706,
+        0.849858823106352
+      ],
+      "translation_information_ratio": 0.034533958059538905,
+      "cycle_angle_deg": 7.545925373377031,
+      "cycle_translation_m": 0.1756757345431734,
+      "rotation_speed_rad_s": 11.678004324361963,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 845,
+      "cloud_current": 846,
+      "t_previous_s": 54.835707286545286,
+      "t_current_s": 54.90361424106502,
+      "t_previous_weighted_s": 54.83435180334451,
+      "t_current_weighted_s": 54.90647038781573,
+      "t_previous_allpoints_s": 54.83513950581118,
+      "t_current_allpoints_s": 54.9048506025388,
+      "current_voxel_points": 300,
+      "previous_voxel_points": 239,
+      "correspondences": 22,
+      "fitness": 0.07333333333333333,
+      "inlier_rmse_m": 0.05434419761961465,
+      "plane_residual_rms_m": 0.03304802490054529,
+      "rotation_information_eigenvalues": [
+        0.013352664951424766,
+        0.02349524690820948,
+        0.12246265745012176
+      ],
+      "rotation_information_ratio": 0.10903458433329538,
+      "translation_normal_eigenvalues": [
+        0.028474526285181087,
+        0.12561994978308297,
+        0.7492319137989982
+      ],
+      "translation_information_ratio": 0.03800495649044142,
+      "cycle_angle_deg": 57.487296612313145,
+      "cycle_translation_m": 0.45196471159569185,
+      "rotation_speed_rad_s": 35.26086195893865,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 849,
+      "cloud_current": 850,
+      "t_previous_s": 55.09644066473024,
+      "t_current_s": 55.16213229892143,
+      "t_previous_weighted_s": 55.09772336094648,
+      "t_current_weighted_s": 55.162350615952874,
+      "t_previous_allpoints_s": 55.095756701581884,
+      "t_current_allpoints_s": 55.16418253435486,
+      "current_voxel_points": 276,
+      "previous_voxel_points": 225,
+      "correspondences": 179,
+      "fitness": 0.6485507246376812,
+      "inlier_rmse_m": 0.06020429264329594,
+      "plane_residual_rms_m": 0.012659273610958902,
+      "rotation_information_eigenvalues": [
+        0.02467666623628125,
+        0.30837403308230177,
+        1.1494647803914158
+      ],
+      "rotation_information_ratio": 0.02146796200913468,
+      "translation_normal_eigenvalues": [
+        0.007500857399979483,
+        0.06939068375242619,
+        0.9054672648765402
+      ],
+      "translation_information_ratio": 0.008283963088386437,
+      "cycle_angle_deg": 157.7581378390722,
+      "cycle_translation_m": 4126.058551312214,
+      "rotation_speed_rad_s": 24.237547133814402,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 853,
+      "cloud_current": 854,
+      "t_previous_s": 55.357169521517164,
+      "t_current_s": 55.416747232232225,
+      "t_previous_weighted_s": 55.355699543512436,
+      "t_current_weighted_s": 55.417863119116944,
+      "t_previous_allpoints_s": 55.353993477608455,
+      "t_current_allpoints_s": 55.41830155721712,
+      "current_voxel_points": 277,
+      "previous_voxel_points": 286,
+      "correspondences": 37,
+      "fitness": 0.13357400722021662,
+      "inlier_rmse_m": 0.08135282053541218,
+      "plane_residual_rms_m": 0.022310105999336256,
+      "rotation_information_eigenvalues": [
+        0.03594072453939199,
+        0.06372665789534615,
+        0.15862929664041164
+      ],
+      "rotation_information_ratio": 0.2265705345770026,
+      "translation_normal_eigenvalues": [
+        0.006901245739115791,
+        0.1794154748715513,
+        0.7559510095855815
+      ],
+      "translation_information_ratio": 0.009129223523226869,
+      "cycle_angle_deg": 12.763652533877359,
+      "cycle_translation_m": 1.6588893403857974,
+      "rotation_speed_rad_s": 11.168620841968876,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 861,
+      "cloud_current": 862,
+      "t_previous_s": 55.86854239363593,
+      "t_current_s": 55.94775289279209,
+      "t_previous_weighted_s": 55.868992653137624,
+      "t_current_weighted_s": 55.94826039702562,
+      "t_previous_allpoints_s": 55.87247435841863,
+      "t_current_allpoints_s": 55.945133845779075,
+      "current_voxel_points": 256,
+      "previous_voxel_points": 281,
+      "correspondences": 133,
+      "fitness": 0.51953125,
+      "inlier_rmse_m": 0.05763037365849333,
+      "plane_residual_rms_m": 0.009312977384062908,
+      "rotation_information_eigenvalues": [
+        0.01124655376578414,
+        0.07754349782570587,
+        1.0006272582994102
+      ],
+      "rotation_information_ratio": 0.011239503693810946,
+      "translation_normal_eigenvalues": [
+        0.0032050045206526534,
+        0.05392849274095132,
+        0.9370109012338117
+      ],
+      "translation_information_ratio": 0.0034204559588714013,
+      "cycle_angle_deg": 10.852086208622199,
+      "cycle_translation_m": 0.15257173146941347,
+      "rotation_speed_rad_s": 11.877175938109819,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 865,
+      "cloud_current": 866,
+      "t_previous_s": 56.132750867325576,
+      "t_current_s": 56.19931868154294,
+      "t_previous_weighted_s": 56.129212720904896,
+      "t_current_weighted_s": 56.20252691583183,
+      "t_previous_allpoints_s": 56.1345282729748,
+      "t_current_allpoints_s": 56.19946948392766,
+      "current_voxel_points": 286,
+      "previous_voxel_points": 245,
+      "correspondences": 93,
+      "fitness": 0.32517482517482516,
+      "inlier_rmse_m": 0.06612350275550441,
+      "plane_residual_rms_m": 0.013906937019800317,
+      "rotation_information_eigenvalues": [
+        0.0008240850973908248,
+        0.009234009537281354,
+        0.6078204039099552
+      ],
+      "rotation_information_ratio": 0.0013558036092399884,
+      "translation_normal_eigenvalues": [
+        0.0028516274324640206,
+        0.0858107880772342,
+        0.8839903817789232
+      ],
+      "translation_information_ratio": 0.003225857985836302,
+      "cycle_angle_deg": 126.97386102239044,
+      "cycle_translation_m": 1.9829769353841933,
+      "rotation_speed_rad_s": 18.777675969539477,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "rotation_degeneracy",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 889,
+      "cloud_current": 890,
+      "t_previous_s": 57.683458945431624,
+      "t_current_s": 57.76133511511461,
+      "t_previous_weighted_s": 57.68366675602199,
+      "t_current_weighted_s": 57.76264817312118,
+      "t_previous_allpoints_s": 57.687987631869284,
+      "t_current_allpoints_s": 57.7591980890081,
+      "current_voxel_points": 231,
+      "previous_voxel_points": 259,
+      "correspondences": 124,
+      "fitness": 0.5367965367965368,
+      "inlier_rmse_m": 0.05536368895933209,
+      "plane_residual_rms_m": 0.017560211236658595,
+      "rotation_information_eigenvalues": [
+        0.008407851235308348,
+        0.014219518276184395,
+        0.6413777089826806
+      ],
+      "rotation_information_ratio": 0.013109048096860797,
+      "translation_normal_eigenvalues": [
+        0.009409009932846553,
+        0.04050660592658595,
+        0.9274059605907734
+      ],
+      "translation_information_ratio": 0.010145513758454662,
+      "cycle_angle_deg": 155.93528826037746,
+      "cycle_translation_m": 6.760433038859133,
+      "rotation_speed_rad_s": 13.427592467662624,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 893,
+      "cloud_current": 894,
+      "t_previous_s": 57.94063636687934,
+      "t_current_s": 58.02046665220783,
+      "t_previous_weighted_s": 57.94007176100265,
+      "t_current_weighted_s": 58.02144269323189,
+      "t_previous_allpoints_s": 57.94529066850425,
+      "t_current_allpoints_s": 58.018528269103726,
+      "current_voxel_points": 239,
+      "previous_voxel_points": 167,
+      "correspondences": 94,
+      "fitness": 0.39330543933054396,
+      "inlier_rmse_m": 0.06545117041844128,
+      "plane_residual_rms_m": 0.026868675845641416,
+      "rotation_information_eigenvalues": [
+        0.0075676618565688894,
+        0.08133093862983812,
+        0.40357455538909426
+      ],
+      "rotation_information_ratio": 0.01875158320938434,
+      "translation_normal_eigenvalues": [
+        0.007436384496910596,
+        0.05327899866753391,
+        0.8542102378448102
+      ],
+      "translation_information_ratio": 0.008705567045968384,
+      "cycle_angle_deg": 71.62459306165316,
+      "cycle_translation_m": 10.302841999681307,
+      "rotation_speed_rad_s": 12.671905134231608,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 901,
+      "cloud_current": 902,
+      "t_previous_s": 58.469257719894614,
+      "t_current_s": 58.53537906909156,
+      "t_previous_weighted_s": 58.466260002122596,
+      "t_current_weighted_s": 58.533204320903984,
+      "t_previous_allpoints_s": 58.472352640852726,
+      "t_current_allpoints_s": 58.53445387234918,
+      "current_voxel_points": 260,
+      "previous_voxel_points": 264,
+      "correspondences": 160,
+      "fitness": 0.6153846153846154,
+      "inlier_rmse_m": 0.06203093359213637,
+      "plane_residual_rms_m": 0.02701925682094432,
+      "rotation_information_eigenvalues": [
+        0.018007930509370145,
+        0.049878074048968886,
+        0.6611849644722898
+      ],
+      "rotation_information_ratio": 0.02723584394231163,
+      "translation_normal_eigenvalues": [
+        0.020567005562820886,
+        0.05795313737118935,
+        0.8400971648226154
+      ],
+      "translation_information_ratio": 0.024481698574906584,
+      "cycle_angle_deg": 94.54870599536362,
+      "cycle_translation_m": 1.1532063042472451,
+      "rotation_speed_rad_s": 20.977554561771484,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 909,
+      "cloud_current": 910,
+      "t_previous_s": 58.97665358454738,
+      "t_current_s": 59.05487606728239,
+      "t_previous_weighted_s": 58.976104991809066,
+      "t_current_weighted_s": 59.05385422941285,
+      "t_previous_allpoints_s": 58.97961506462473,
+      "t_current_allpoints_s": 59.05252866151385,
+      "current_voxel_points": 276,
+      "previous_voxel_points": 184,
+      "correspondences": 92,
+      "fitness": 0.3333333333333333,
+      "inlier_rmse_m": 0.06074439927653857,
+      "plane_residual_rms_m": 0.025654232315578403,
+      "rotation_information_eigenvalues": [
+        0.0057853284750278375,
+        0.08525968958889212,
+        0.345624060463032
+      ],
+      "rotation_information_ratio": 0.01673878973378544,
+      "translation_normal_eigenvalues": [
+        0.027388723069250526,
+        0.22349018609571208,
+        0.6623715343470001
+      ],
+      "translation_information_ratio": 0.041349486880126476,
+      "cycle_angle_deg": 21.91071322463538,
+      "cycle_translation_m": 1.0485060498759273,
+      "rotation_speed_rad_s": 14.740480910382146,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 913,
+      "cloud_current": 914,
+      "t_previous_s": 59.249217026123745,
+      "t_current_s": 59.30473900393811,
+      "t_previous_weighted_s": 59.24922039280354,
+      "t_current_weighted_s": 59.3037315278955,
+      "t_previous_allpoints_s": 59.24770160422853,
+      "t_current_allpoints_s": 59.304367927207025,
+      "current_voxel_points": 260,
+      "previous_voxel_points": 263,
+      "correspondences": 161,
+      "fitness": 0.6192307692307693,
+      "inlier_rmse_m": 0.06269334073539995,
+      "plane_residual_rms_m": 0.01654499664799952,
+      "rotation_information_eigenvalues": [
+        0.018723249345035282,
+        0.1027122877189634,
+        0.651120583778509
+      ],
+      "rotation_information_ratio": 0.028755425356671492,
+      "translation_normal_eigenvalues": [
+        0.006880786611161982,
+        0.03894769859351027,
+        0.9259419655173526
+      ],
+      "translation_information_ratio": 0.007431120812541931,
+      "cycle_angle_deg": 138.9941039371903,
+      "cycle_translation_m": 4.641006753285115,
+      "rotation_speed_rad_s": 27.364435456984104,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 925,
+      "cloud_current": 926,
+      "t_previous_s": 60.014048267417984,
+      "t_current_s": 60.09510091270235,
+      "t_previous_weighted_s": 60.01410489688099,
+      "t_current_weighted_s": 60.09645759737846,
+      "t_previous_allpoints_s": 60.01780099302616,
+      "t_current_allpoints_s": 60.09152187041313,
+      "current_voxel_points": 237,
+      "previous_voxel_points": 234,
+      "correspondences": 93,
+      "fitness": 0.3924050632911392,
+      "inlier_rmse_m": 0.05654469137825277,
+      "plane_residual_rms_m": 0.019952227527104432,
+      "rotation_information_eigenvalues": [
+        0.0064534204358035864,
+        0.0934188977786713,
+        0.8103663543202745
+      ],
+      "rotation_information_ratio": 0.007963583879561038,
+      "translation_normal_eigenvalues": [
+        0.022023048538951265,
+        0.08498264312590163,
+        0.8549247319888453
+      ],
+      "translation_information_ratio": 0.025760219250785005,
+      "cycle_angle_deg": 58.91374435356305,
+      "cycle_translation_m": 1.5659806067962212,
+      "rotation_speed_rad_s": 11.927938823168168,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 929,
+      "cloud_current": 930,
+      "t_previous_s": 60.2856434626628,
+      "t_current_s": 60.346953318051696,
+      "t_previous_weighted_s": 60.283769496684435,
+      "t_current_weighted_s": 60.34646413902736,
+      "t_previous_allpoints_s": 60.28435534550369,
+      "t_current_allpoints_s": 60.346339749152186,
+      "current_voxel_points": 274,
+      "previous_voxel_points": 189,
+      "correspondences": 100,
+      "fitness": 0.36496350364963503,
+      "inlier_rmse_m": 0.07110016861155732,
+      "plane_residual_rms_m": 0.02181275166024923,
+      "rotation_information_eigenvalues": [
+        0.016181912485089184,
+        0.1643375924277079,
+        0.5813772701577022
+      ],
+      "rotation_information_ratio": 0.02783375497411472,
+      "translation_normal_eigenvalues": [
+        0.013870914966796825,
+        0.06175368154686031,
+        0.8575298328263782
+      ],
+      "translation_information_ratio": 0.016175431379546225,
+      "cycle_angle_deg": 32.985076391133944,
+      "cycle_translation_m": 2.275584589217665,
+      "rotation_speed_rad_s": 25.583386204399226,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 937,
+      "cloud_current": 938,
+      "t_previous_s": 60.79622396996778,
+      "t_current_s": 60.862015678515995,
+      "t_previous_weighted_s": 60.79543538470212,
+      "t_current_weighted_s": 60.86355260380578,
+      "t_previous_allpoints_s": 60.80243886867623,
+      "t_current_allpoints_s": 60.86771536534329,
+      "current_voxel_points": 247,
+      "previous_voxel_points": 279,
+      "correspondences": 53,
+      "fitness": 0.2145748987854251,
+      "inlier_rmse_m": 0.06722908066889326,
+      "plane_residual_rms_m": 0.025312809964806754,
+      "rotation_information_eigenvalues": [
+        0.0017062148022525916,
+        0.010053986064995434,
+        0.3138163620901615
+      ],
+      "rotation_information_ratio": 0.00543698483689128,
+      "translation_normal_eigenvalues": [
+        0.01297475606876823,
+        0.090695656850411,
+        0.8222723061505482
+      ],
+      "translation_information_ratio": 0.01577914757887116,
+      "cycle_angle_deg": 29.4876219451427,
+      "cycle_translation_m": 6.780572532249388,
+      "rotation_speed_rad_s": 24.961971357384442,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 957,
+      "cloud_current": 958,
+      "t_previous_s": 62.089844819476006,
+      "t_current_s": 62.17086954307817,
+      "t_previous_weighted_s": 62.087443271333704,
+      "t_current_weighted_s": 62.17410063025223,
+      "t_previous_allpoints_s": 62.09471220002518,
+      "t_current_allpoints_s": 62.16829788293072,
+      "current_voxel_points": 274,
+      "previous_voxel_points": 248,
+      "correspondences": 82,
+      "fitness": 0.29927007299270075,
+      "inlier_rmse_m": 0.054758588517216544,
+      "plane_residual_rms_m": 0.015804352004571087,
+      "rotation_information_eigenvalues": [
+        0.009328381181066003,
+        0.29063313772774796,
+        0.943771007633892
+      ],
+      "rotation_information_ratio": 0.009884157391582717,
+      "translation_normal_eigenvalues": [
+        0.003746440034941402,
+        0.059919228980634086,
+        0.9166645612009487
+      ],
+      "translation_information_ratio": 0.004087034880058069,
+      "cycle_angle_deg": 9.336220985496281,
+      "cycle_translation_m": 0.09821531878925445,
+      "rotation_speed_rad_s": 8.242871885696905,
+      "accepted": false,
+      "rejection_reasons": [
+        "too_few_correspondences",
+        "low_overlap",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 961,
+      "cloud_current": 962,
+      "t_previous_s": 62.36029386771763,
+      "t_current_s": 62.42224596071204,
+      "t_previous_weighted_s": 62.36162998639576,
+      "t_current_weighted_s": 62.42396571021976,
+      "t_previous_allpoints_s": 62.36042308999014,
+      "t_current_allpoints_s": 62.42226693509413,
+      "current_voxel_points": 273,
+      "previous_voxel_points": 193,
+      "correspondences": 160,
+      "fitness": 0.5860805860805861,
+      "inlier_rmse_m": 0.06005906434220483,
+      "plane_residual_rms_m": 0.018860179672179813,
+      "rotation_information_eigenvalues": [
+        0.014719047912765092,
+        0.21043996262394793,
+        0.47266103161684975
+      ],
+      "rotation_information_ratio": 0.031140811127194214,
+      "translation_normal_eigenvalues": [
+        0.034498227889591816,
+        0.05603663683609814,
+        0.8595959420336132
+      ],
+      "translation_information_ratio": 0.040133074393041764,
+      "cycle_angle_deg": 49.58175903364784,
+      "cycle_translation_m": 0.8408509812721955,
+      "rotation_speed_rad_s": 22.21882427276069,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    },
+    {
+      "cloud_previous": 965,
+      "cloud_current": 966,
+      "t_previous_s": 62.621092455934445,
+      "t_current_s": 62.685913006506034,
+      "t_previous_weighted_s": 62.61919555507415,
+      "t_current_weighted_s": 62.68622831978604,
+      "t_previous_allpoints_s": 62.622936024879415,
+      "t_current_allpoints_s": 62.68659730760677,
+      "current_voxel_points": 218,
+      "previous_voxel_points": 250,
+      "correspondences": 113,
+      "fitness": 0.518348623853211,
+      "inlier_rmse_m": 0.07040967705163072,
+      "plane_residual_rms_m": 0.024972214846395304,
+      "rotation_information_eigenvalues": [
+        0.008434425089403756,
+        0.027728852169975084,
+        0.18085454584440286
+      ],
+      "rotation_information_ratio": 0.04663651140215333,
+      "translation_normal_eigenvalues": [
+        0.010307292308038153,
+        0.22682036660191074,
+        0.6896779748929684
+      ],
+      "translation_information_ratio": 0.014945079708595519,
+      "cycle_angle_deg": 8.761052260640106,
+      "cycle_translation_m": 1.2797238923035175,
+      "rotation_speed_rad_s": 17.742982115226273,
+      "accepted": false,
+      "rejection_reasons": [
+        "low_overlap",
+        "large_distance_residual",
+        "rotation_cycle_error",
+        "translation_cycle_error",
+        "implausible_pair_rotation_rate"
+      ]
+    }
+  ],
+  "limits": [
+    "Full scans can be motion-distorted; scan-average effective time is uncertain.",
+    "Good overlap/conditioning/cycle consistency do not prove correct correspondences or true registration.",
+    "Quality thresholds are diagnostic choices, not a calibration accuracy specification."
+  ],
+  "mapper_or_replay_started": false,
+  "application_changed": false
+}

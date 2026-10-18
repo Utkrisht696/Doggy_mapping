@@ -1,0 +1,277 @@
+{
+  "only_changed_source_files": [
+    "src/laserMapping.cpp"
+  ],
+  "patch_scope": "Two reserve-to-resize replacements only; startup IMU clearing remains unchanged",
+  "excluded_copy_content": "image assets and .git only",
+  "hashes": {
+    "CMakeLists.txt": {
+      "baseline": "589eb4b998f3676066ecf20c6ae9115c9a87bc88a231b2f03ff46f8a2f0094a7",
+      "trial": "589eb4b998f3676066ecf20c6ae9115c9a87bc88a231b2f03ff46f8a2f0094a7"
+    },
+    ".gitignore": {
+      "baseline": "a14c102b933f1706173d2076d984f9a346c1d7820b949b2ae7fb5052bececab2",
+      "trial": "a14c102b933f1706173d2076d984f9a346c1d7820b949b2ae7fb5052bececab2"
+    },
+    "package.xml": {
+      "baseline": "3a48c7861879db8fc27566ac702af2450fd475cf5696090bb36d6859bfd0d690",
+      "trial": "3a48c7861879db8fc27566ac702af2450fd475cf5696090bb36d6859bfd0d690"
+    },
+    ".gitmodules": {
+      "baseline": "5b799f5b580e9024c58a552740ec55605d18767e479969db70caaa7515034195",
+      "trial": "5b799f5b580e9024c58a552740ec55605d18767e479969db70caaa7515034195"
+    },
+    "LICENSE": {
+      "baseline": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "trial": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    "README.md": {
+      "baseline": "215def0827b82dc9ba54d7b1ce0b19b49b434bcb9a7bc648c0ec49bd62bbd17c",
+      "trial": "215def0827b82dc9ba54d7b1ce0b19b49b434bcb9a7bc648c0ec49bd62bbd17c"
+    },
+    "PCD/temp.txt": {
+      "baseline": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "trial": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "Log/imu.txt": {
+      "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trial": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Log/plot_out.py": {
+      "baseline": "d42cd73bb5e2569564a56f9552a6c4b6b2fe89fc6c74dddd20ccd30bfecb81c0",
+      "trial": "d42cd73bb5e2569564a56f9552a6c4b6b2fe89fc6c74dddd20ccd30bfecb81c0"
+    },
+    "Log/imu_pbp.txt": {
+      "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trial": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Log/plot.py": {
+      "baseline": "bd5006d2f2c14de4b00e076a343ad3a3fc500be9a82c0ad8035757ac3bd9a762",
+      "trial": "bd5006d2f2c14de4b00e076a343ad3a3fc500be9a82c0ad8035757ac3bd9a762"
+    },
+    "Log/plot_imu.py": {
+      "baseline": "cd5f9cdd3c362c3888b13344318166c70b4c7ac1874821b5b52680a19641e038",
+      "trial": "cd5f9cdd3c362c3888b13344318166c70b4c7ac1874821b5b52680a19641e038"
+    },
+    "Log/guide.md": {
+      "baseline": "fed25e6327cf40ebfa87a960acc717eabb16a78890516c6934cb9ad1bc44ce14",
+      "trial": "fed25e6327cf40ebfa87a960acc717eabb16a78890516c6934cb9ad1bc44ce14"
+    },
+    "Log/mat_out.txt": {
+      "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trial": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Log/pos_log.txt": {
+      "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trial": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "config/horizon.yaml": {
+      "baseline": "4d88f344f906f8e00c0750c75da05569dd2e57f93088e76bf17087847c575c29",
+      "trial": "4d88f344f906f8e00c0750c75da05569dd2e57f93088e76bf17087847c575c29"
+    },
+    "config/mid360.yaml": {
+      "baseline": "f5c8d2a92b212c86b434aeafae84311c772dbc31a955700b682a9c3e9c50f7b7",
+      "trial": "f5c8d2a92b212c86b434aeafae84311c772dbc31a955700b682a9c3e9c50f7b7"
+    },
+    "config/unilidar_l1.yaml": {
+      "baseline": "5c6c54f5824b8ca47749eb7c0d60e0717f581fb8c141827e5472b0e2b90eb162",
+      "trial": "5c6c54f5824b8ca47749eb7c0d60e0717f581fb8c141827e5472b0e2b90eb162"
+    },
+    "config/avia.yaml": {
+      "baseline": "4b872c22e92eafb143333b071db87dfe021f964ff2e4a7f62b6255405451e641",
+      "trial": "4b872c22e92eafb143333b071db87dfe021f964ff2e4a7f62b6255405451e641"
+    },
+    "config/ouster64.yaml": {
+      "baseline": "d5679add6e77dd6e952ff269ed817d9457e20bb278ee0da2115c87a306c74ba8",
+      "trial": "d5679add6e77dd6e952ff269ed817d9457e20bb278ee0da2115c87a306c74ba8"
+    },
+    "config/velody16.yaml": {
+      "baseline": "a960f4a7721bd431518ec993b4252cfe97b32077e13f3fac8cbfb5fa67aee610",
+      "trial": "a960f4a7721bd431518ec993b4252cfe97b32077e13f3fac8cbfb5fa67aee610"
+    },
+    "config/unilidar_l2.yaml": {
+      "baseline": "5c6c54f5824b8ca47749eb7c0d60e0717f581fb8c141827e5472b0e2b90eb162",
+      "trial": "5c6c54f5824b8ca47749eb7c0d60e0717f581fb8c141827e5472b0e2b90eb162"
+    },
+    "launch/gdb_debug_example.launch.py": {
+      "baseline": "d95ccb9f7fc25015d0760005528e308727c7fe5e495e99ed97c2bb15769923b2",
+      "trial": "d95ccb9f7fc25015d0760005528e308727c7fe5e495e99ed97c2bb15769923b2"
+    },
+    "launch/mapping_ouster64.launch.py": {
+      "baseline": "2ed04f1635d82a858219cde76f60d45223d66a737de6118394ddd75d4fbdfd85",
+      "trial": "2ed04f1635d82a858219cde76f60d45223d66a737de6118394ddd75d4fbdfd85"
+    },
+    "launch/mapping_unilidar_l1.launch.py": {
+      "baseline": "182ab522d5da7fd927ae6657534b0d992b6d2cf6bc1c0d2c60edeabe061f60d7",
+      "trial": "182ab522d5da7fd927ae6657534b0d992b6d2cf6bc1c0d2c60edeabe061f60d7"
+    },
+    "launch/mapping_horizon.launch.py": {
+      "baseline": "447f6b64a00b4ef0018e46a1f2726a3aabc1053a823a3ec5458bd089c00b2822",
+      "trial": "447f6b64a00b4ef0018e46a1f2726a3aabc1053a823a3ec5458bd089c00b2822"
+    },
+    "launch/mapping_avia.launch.py": {
+      "baseline": "024543f9ae45d7fbfe11e0a048064627e400a8806d6650a003f34f9f3de8a5e6",
+      "trial": "024543f9ae45d7fbfe11e0a048064627e400a8806d6650a003f34f9f3de8a5e6"
+    },
+    "launch/mapping_mid360.launch.py": {
+      "baseline": "7c1ba09537d5a6ab0552b0b66705432623b0ff735d3dba6a3de74b84b7f46b9f",
+      "trial": "7c1ba09537d5a6ab0552b0b66705432623b0ff735d3dba6a3de74b84b7f46b9f"
+    },
+    "launch/correct_odom_unilidar_l2.launch.py": {
+      "baseline": "1183800c987551e13451e3709b442d0daa18c8c1f34fff904b83fc4129477d8e",
+      "trial": "1183800c987551e13451e3709b442d0daa18c8c1f34fff904b83fc4129477d8e"
+    },
+    "launch/mapping_velody16.launch.py": {
+      "baseline": "73ba38a215907ae4c99234e1556baeb309458e3c752cdaa4284c49eba2927623",
+      "trial": "73ba38a215907ae4c99234e1556baeb309458e3c752cdaa4284c49eba2927623"
+    },
+    "launch/mapping_unilidar_l2.launch.py": {
+      "baseline": "40d69bdd12cdceeb9e9f923e73236c9d17b8884cc3b566ffac88666760f8f6f5",
+      "trial": "40d69bdd12cdceeb9e9f923e73236c9d17b8884cc3b566ffac88666760f8f6f5"
+    },
+    "launch/correct_odom_unilidar_l1.launch.py": {
+      "baseline": "943bd3036ee0593a91473409e78a35baa5cacea72fae0709e2767219460c2a91",
+      "trial": "943bd3036ee0593a91473409e78a35baa5cacea72fae0709e2767219460c2a91"
+    },
+    "src/laserMapping.cpp": {
+      "baseline": "0fb6e4cc15aba90e088c01a6af1cef041906507f742ab1132438f93c243a910a",
+      "trial": "a83162fed8c2936b582a1583f650f9ddfb49599ba1b0909930dfc96b99648459"
+    },
+    "src/preprocess.h": {
+      "baseline": "44db3f909eafa7b13a1635610079ada719ee0569894828688391e1d0769d2e41",
+      "trial": "44db3f909eafa7b13a1635610079ada719ee0569894828688391e1d0769d2e41"
+    },
+    "src/Estimator.h": {
+      "baseline": "a7c06fd016a1f3e29609c6d5cc7a3f345c5d6bbdbd1cf00f0b0e692087ba400b",
+      "trial": "a7c06fd016a1f3e29609c6d5cc7a3f345c5d6bbdbd1cf00f0b0e692087ba400b"
+    },
+    "src/Estimator.cpp": {
+      "baseline": "27f0ee760e1232dd278dcf167ef503f6b06a0835c53f68741128f67694700b14",
+      "trial": "27f0ee760e1232dd278dcf167ef503f6b06a0835c53f68741128f67694700b14"
+    },
+    "src/parameters.h": {
+      "baseline": "0dd3f72c302390b72d03efe235339b8798e2b8c79b17c2514c9cfccb26f25f03",
+      "trial": "0dd3f72c302390b72d03efe235339b8798e2b8c79b17c2514c9cfccb26f25f03"
+    },
+    "src/IMU_Processing.hpp": {
+      "baseline": "e251bd59bcdf381a2df537742fd3303d24fd9b075e7bfa80475fe825fec04c5c",
+      "trial": "e251bd59bcdf381a2df537742fd3303d24fd9b075e7bfa80475fe825fec04c5c"
+    },
+    "src/gap_recovery.hpp": {
+      "baseline": "c3eef2db0b99f42cb5b962cf1c820a5310410fcd7577a4bff091264d214ea90c",
+      "trial": "c3eef2db0b99f42cb5b962cf1c820a5310410fcd7577a4bff091264d214ea90c"
+    },
+    "src/parameters.cpp": {
+      "baseline": "33654c2b1a76a99fb4b71ad41a7c6f93f2fe7a914ee0f0c2d481872d3adb2297",
+      "trial": "33654c2b1a76a99fb4b71ad41a7c6f93f2fe7a914ee0f0c2d481872d3adb2297"
+    },
+    "src/preprocess.cpp": {
+      "baseline": "ea149e34c36b77ae63efb63a75ae117149d074b7d94e72f678ea1ccff6fdc485",
+      "trial": "ea149e34c36b77ae63efb63a75ae117149d074b7d94e72f678ea1ccff6fdc485"
+    },
+    "rviz_cfg/loam_livox.rviz": {
+      "baseline": "99f67a529c0365a823163869fb61e0da47d197d7711f0ce3c27e9c8e137ecd17",
+      "trial": "99f67a529c0365a823163869fb61e0da47d197d7711f0ce3c27e9c8e137ecd17"
+    },
+    "include/so3_math.h": {
+      "baseline": "59f15756e7b6a06c2a093b794d4e70e6e726243605c7bcfa46806a7decf91c63",
+      "trial": "59f15756e7b6a06c2a093b794d4e70e6e726243605c7bcfa46806a7decf91c63"
+    },
+    "include/common_lib.h": {
+      "baseline": "37f63824a51ec74594d873ea9e509157df08e5e68550978e9c6627f0a63aa082",
+      "trial": "37f63824a51ec74594d873ea9e509157df08e5e68550978e9c6627f0a63aa082"
+    },
+    "include/IKFoM/.gitignore": {
+      "baseline": "3ba2020da55f76620d61950cb88f0d6cc0d5852eae7b2c03f8487a64c87da959",
+      "trial": "3ba2020da55f76620d61950cb88f0d6cc0d5852eae7b2c03f8487a64c87da959"
+    },
+    "include/IKFoM/LICENSE": {
+      "baseline": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "trial": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    "include/IKFoM/README.md": {
+      "baseline": "69f46f94d72f19eb1ddeb50f2515fbc3654720e12d127df6f1bfe9545f4e8e0d",
+      "trial": "69f46f94d72f19eb1ddeb50f2515fbc3654720e12d127df6f1bfe9545f4e8e0d"
+    },
+    "include/IKFoM/IKFoM_toolkit/.vscode/settings.json": {
+      "baseline": "4fc9b077141d17cf3d636541e3a769ea8483458cbeee37db23703da8b3bbdc7f",
+      "trial": "4fc9b077141d17cf3d636541e3a769ea8483458cbeee37db23703da8b3bbdc7f"
+    },
+    "include/IKFoM/IKFoM_toolkit/esekfom/util.hpp": {
+      "baseline": "3c4265d25ea3f8c7f586d1e34bc352e981e09e30555e42011cd23a0a147d6918",
+      "trial": "3c4265d25ea3f8c7f586d1e34bc352e981e09e30555e42011cd23a0a147d6918"
+    },
+    "include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp": {
+      "baseline": "35e22592d3761c5fa837b1d94462835b26e5b5f49c3e291bfe93b8a54628612c",
+      "trial": "35e22592d3761c5fa837b1d94462835b26e5b5f49c3e291bfe93b8a54628612c"
+    },
+    "include/IKFoM/IKFoM_toolkit/esekfom/.vscode/settings.json": {
+      "baseline": "6f906a12d2630fd82015a39fc4d2580f4e762032cb8d3ff40d34d29bd7528398",
+      "trial": "6f906a12d2630fd82015a39fc4d2580f4e762032cb8d3ff40d34d29bd7528398"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/build_manifold.hpp": {
+      "baseline": "fe018230140bfab649b7acdf43f2f063a64d2805a64b93438f22b676b7e23959",
+      "trial": "fe018230140bfab649b7acdf43f2f063a64d2805a64b93438f22b676b7e23959"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/startIdx.hpp": {
+      "baseline": "79cdc368bb4e083f5fda7549094c0aba8b599aee1f88e9f2a8b7fa785bf1f757",
+      "trial": "79cdc368bb4e083f5fda7549094c0aba8b599aee1f88e9f2a8b7fa785bf1f757"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/src/SubManifold.hpp": {
+      "baseline": "96709f0f453a0c8776b1969064275ebf14dc5234b7024e68eb1cfc51a513864f",
+      "trial": "96709f0f453a0c8776b1969064275ebf14dc5234b7024e68eb1cfc51a513864f"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/src/mtkmath.hpp": {
+      "baseline": "d28e5f44f521ea7e953f35e8a974d8e4c8aa7e699c4339cb924f3efe91acbe49",
+      "trial": "d28e5f44f521ea7e953f35e8a974d8e4c8aa7e699c4339cb924f3efe91acbe49"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/src/vectview.hpp": {
+      "baseline": "7855408124ea65df4423bae5f97d5104af5552318796bc6324bdbf98a45101f3",
+      "trial": "7855408124ea65df4423bae5f97d5104af5552318796bc6324bdbf98a45101f3"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/S2.hpp": {
+      "baseline": "4501a540264d3c796f0357f9e0a515f4f4f5d2b9bbc0783754e867aa897f62b2",
+      "trial": "4501a540264d3c796f0357f9e0a515f4f4f5d2b9bbc0783754e867aa897f62b2"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/SEn.hpp": {
+      "baseline": "a6ebb8b341db1a07fc588fcec40a1f2de4dae30366f208fa10e9532f1da79226",
+      "trial": "a6ebb8b341db1a07fc588fcec40a1f2de4dae30366f208fa10e9532f1da79226"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/SOn.hpp": {
+      "baseline": "394aa660f0d9051d97fca57b1cbcea2bfa923634cc53675ee183349df71bd2a2",
+      "trial": "394aa660f0d9051d97fca57b1cbcea2bfa923634cc53675ee183349df71bd2a2"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp": {
+      "baseline": "3040f43fcb4195a2572a8819be012ebd2c4b59a38cfae86fcac3e01d7039a589",
+      "trial": "3040f43fcb4195a2572a8819be012ebd2c4b59a38cfae86fcac3e01d7039a589"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/vect.hpp": {
+      "baseline": "5bb37a64384334de1bc339519580b5a6b33af6451e0ec98964ffadbebd9e4f5f",
+      "trial": "5bb37a64384334de1bc339519580b5a6b33af6451e0ec98964ffadbebd9e4f5f"
+    },
+    "include/IKFoM/.vscode/settings.json": {
+      "baseline": "cf633ef45225201b1ccc48581af7fd2b719d3a487f46c2db45025c865696b940",
+      "trial": "cf633ef45225201b1ccc48581af7fd2b719d3a487f46c2db45025c865696b940"
+    },
+    "include/ikd-Tree/ikd_Tree.h": {
+      "baseline": "bb87cab944c6c59e0be61cb0b3a2cd0e334d93dc1bf768875058857278135a4b",
+      "trial": "bb87cab944c6c59e0be61cb0b3a2cd0e334d93dc1bf768875058857278135a4b"
+    },
+    "include/ikd-Tree/ikd_Tree.cpp": {
+      "baseline": "ec3cbbbb6386eb6c68f9aa081c48b5d62209ada44fe167a002d4e3b112a1ea9f",
+      "trial": "ec3cbbbb6386eb6c68f9aa081c48b5d62209ada44fe167a002d4e3b112a1ea9f"
+    },
+    "include/ikd-Tree/README.md": {
+      "baseline": "a7f6feab008dc54a053963fb518e360389ee807af63ebddcc15e90b1ede78073",
+      "trial": "a7f6feab008dc54a053963fb518e360389ee807af63ebddcc15e90b1ede78073"
+    },
+    "include/FOV_Checker/FOV_Checker.cpp": {
+      "baseline": "5ebbd98bdb4ad270bd0d84dba12fa98bfe58e919fe7accbe69cde6ec59f29a46",
+      "trial": "5ebbd98bdb4ad270bd0d84dba12fa98bfe58e919fe7accbe69cde6ec59f29a46"
+    },
+    "include/FOV_Checker/FOV_Checker.h": {
+      "baseline": "4cae4e3670211a8c85b5514c6198c5d3365897c9755172064ca60e071b79a0f4",
+      "trial": "4cae4e3670211a8c85b5514c6198c5d3365897c9755172064ca60e071b79a0f4"
+    }
+  }
+}

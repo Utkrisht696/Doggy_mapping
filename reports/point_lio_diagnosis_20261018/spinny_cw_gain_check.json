@@ -1,0 +1,44 @@
+{
+  "source": "reports/point_lio_diagnosis_20261018/spin_inputs/spinny",
+  "reference": "reports/point_lio_diagnosis_20261018/endpoint_truth/spinny_cw/wall_reference.json",
+  "fits": [
+    {
+      "method": "existing_fixed_bias_only",
+      "additional_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nominal_integrated_heading_change_deg": -364.7237301137397,
+      "nearest_full_turns": -1,
+      "independent_wall_heading_modulo_deg": 2.6982401215879945,
+      "unwrapped_target_deg": -357.301759878412,
+      "gyro_z_gain": 0.9785884535708254,
+      "adjusted_integrated_heading_change_deg": -356.93321336212995,
+      "residual_deg": 0.36854651628203783,
+      "gain_fitted_on_this_bag": false
+    },
+    {
+      "method": "additional_stationary_start_bias",
+      "additional_bias_rad_s": [
+        -0.0009563136163862494,
+        -0.0008155547104821031,
+        6.381946807348559e-05
+      ],
+      "nominal_integrated_heading_change_deg": -364.75779310251545,
+      "nearest_full_turns": -1,
+      "independent_wall_heading_modulo_deg": 2.6982401215879945,
+      "unwrapped_target_deg": -357.301759878412,
+      "gyro_z_gain": 0.9785884535708254,
+      "adjusted_integrated_heading_change_deg": -356.96409091838285,
+      "residual_deg": 0.33766896002913427,
+      "gain_fitted_on_this_bag": false
+    }
+  ],
+  "physical_reference": "Independent raw-cloud quiet-wall registration, with its quality gates passed.",
+  "limits": [
+    "Full-turn integer selected nearest to gyro integration; assumes total gyro error is less than 180 degrees and no missed acquisition.",
+    "A fitted gain is not validated until tested unchanged on independent turn data.",
+    "Stationary-start residual bias is measured from a detected quiet window; it is separate from the fixed adapter calibration."
+  ]
+}

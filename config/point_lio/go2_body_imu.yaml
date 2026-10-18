@@ -1,11 +1,9 @@
-# User-approved input profile, used by launch/point_lio_go2.launch.py.
-# The launch defaults to preview; user review is required before a mapping test.
-# Source: unchanged community Point-LIO UniLiDAR L1 YAML + launch overrides.
-# Hardware L1 identification is provisional. Noise/saturation values below are
-# upstream starting values, not measured noise or established hardware limits.
-# imu_time_inte=0.004 is nominal, pending step-4 timing checks.
-# time_lag_imu_to_lidar=0.0 is uncalibrated, not a verified latency correction.
-# Output-TF integration is implemented; live estimator validation is still pending.
+# Go2 body-IMU profile: independently validated gyro gain and fixed residual bias.
+# Offline evidence: reports/point_lio_diagnosis_20261018/FINAL_REPORT.md.
+# L1 model identification remains provisional. Acceleration/noise/saturation
+# settings otherwise retain upstream values; this is not a full noise calibration.
+# imu_time_inte is nominal; original source/per-point timestamps are preserved.
+# time_lag_imu_to_lidar=0.0 remains an uncalibrated acquisition-time correction.
 /**:
   ros__parameters:
     common:
@@ -33,9 +31,10 @@
       acc_cov_output: 500.0
       gyr_cov_output: 1000.0
       b_acc_cov: 0.0001
-      b_gyr_cov: 0.0001
+      b_gyr_cov: 0.0
+      gyro_bias_initial_variance: 0.0
       imu_meas_acc_cov: 0.1
-      imu_meas_omg_cov: 0.1
+      imu_meas_omg_cov: 0.0001
       gyr_cov_input: 0.01
       acc_cov_input: 0.1
       plane_thr: 0.1
@@ -66,7 +65,7 @@
       - -0.21689690004816572
       - -0.9659792324464709
     odometry:
-      publish_odometry_without_downsample: true
+      publish_odometry_without_downsample: false
     publish:
       path_en: true
       scan_publish_en: true
@@ -77,7 +76,7 @@
     use_imu_as_input: false
     prop_at_freq_of_imu: true
     check_satu: true
-    init_map_size: 10
+    init_map_size: 4000
     point_filter_num: 1
     space_down_sample: true
     filter_size_surf: 0.1

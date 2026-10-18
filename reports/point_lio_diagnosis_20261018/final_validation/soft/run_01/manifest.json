@@ -1,0 +1,52 @@
+{
+  "source_bag": "/home/jain/go2_bags/wander_soft_turn_comeback",
+  "derived_replay": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/gain_inputs/soft/replay_stationary_start",
+  "domain": 165,
+  "localhost_only": true,
+  "robot_commands_sent": false,
+  "playback_rate": 1.0,
+  "topics_replayed": [
+    "/utlidar/cloud",
+    "/doggy/imu/body_calibrated",
+    "/utlidar/robot_odom",
+    "/doggy/robot_clock",
+    "/tf",
+    "/tf_static"
+  ],
+  "clock": "Source-header-derived /doggy/robot_clock, no player-generated /clock",
+  "source_time_origin_ns": 1792314342848279476,
+  "application_hashes_before": {
+    "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "diagnostic_override": {
+    "init_map_size": 4000,
+    "recovery.enabled": true,
+    "mapping.imu_meas_omg_cov": 0.0001,
+    "diagnostics.hold_residual_gyro_bias_zero": false
+  },
+  "excluded_initial_receipt_s": 0.0,
+  "reason_for_initial_exclusion": "No exclusion: full soft-turn recording begins with a quiet hold",
+  "status": "stopped_saved",
+  "vendor_aid_withheld_for_negative_test": false,
+  "launch_pid": 1655196,
+  "player_pid": 1655264,
+  "stop_reason": "playback_complete",
+  "effective_estimator_profile": {
+    "init_map_size": 4000,
+    "use_imu_as_input": false,
+    "mapping.imu_meas_omg_cov": 0.0001,
+    "mapping.gyro_bias_initial_variance": 0.0,
+    "mapping.b_gyr_cov": 0.0,
+    "gyro_gain_z": 0.9785884535708254,
+    "vendor_odometry_aid": false,
+    "gap_recovery_compiled": false,
+    "unique_initialization_samples": true
+  },
+  "metadata_note": "Original diagnostic_override was copied from an earlier diagnostic runner; effective_estimator_profile describes actual launch overrides and clean source. Original diagnostic metadata retained for audit."
+}

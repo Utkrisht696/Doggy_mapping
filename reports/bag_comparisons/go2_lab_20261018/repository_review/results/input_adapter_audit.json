@@ -1,0 +1,38 @@
+{
+  "repo_commit": "c3158fcef41532fc5dc754e5838b0dfdecb5506a",
+  "callback_sha256": "8dfa1d165804fc5e85b88ca7c49a371475f5de51603bb4ff796262293874a3ed",
+  "method": "Original LioInput callbacks, full original bag in receipt order, no source patches. Mock publishers write a separate passive replay bag. Defaults copied from original constructor.",
+  "counts": {
+    "/utlidar/robot_odom": 31905,
+    "/doggy/robot_clock": 9056,
+    "/go2/lio_imu": 52090,
+    "/go2/lio_cloud": 3241
+  },
+  "gyro_bias_raw_frame_rad_s": [
+    -0.0018917544386543644,
+    -0.00024248776662473879,
+    -0.0006213316315649232
+  ],
+  "clouds_dropped_for_missing_nearby_pose": 1,
+  "first_cloud_source_s": 3.237365484,
+  "first_imu_source_s": 3.20758295,
+  "logs": [
+    {
+      "level": "info",
+      "message": "measuring gyro bias: keep the robot standing still for 1.5 s",
+      "receipt_ns": 1792305139740439842
+    },
+    {
+      "level": "info",
+      "message": "gyro bias [-0.00189, -0.00024, -0.00062] rad/s (raw frame) from 375 samples; fixed value was [0.01009, 0.00047, 0.00048]",
+      "receipt_ns": 1792305142924048225
+    },
+    {
+      "level": "warn",
+      "message": "1 clouds without robot pose within 20 ms",
+      "receipt_ns": 1792305188038966168
+    }
+  ],
+  "header_stamps_changed": false,
+  "sensor_gaps_filled": false
+}

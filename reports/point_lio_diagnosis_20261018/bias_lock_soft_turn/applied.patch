@@ -1,0 +1,28 @@
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -886,6 +886,10 @@
+     p_imu->lidar_type = p_pre->lidar_type = lidar_type;
+     p_imu->imu_en = imu_en;
+ 
++    const bool hold_residual_gyro_bias_zero = nh->declare_parameter<bool>(
++        "diagnostics.hold_residual_gyro_bias_zero", false);
++    if (hold_residual_gyro_bias_zero && use_imu_as_input)
++        throw std::runtime_error("Residual gyro-bias diagnostic requires output model");
+     kf_input.init_dyn_share_modified(get_f_input, df_dx_input, h_model_input);
+     kf_output.init_dyn_share_modified_2h(get_f_output, df_dx_output, h_model_output, h_model_IMU_output);
+     Eigen::Matrix<double, 24, 24> P_init = MD(24, 24)::Identity() * 0.01;
+@@ -898,9 +902,14 @@
+     P_init_output.block<6, 6>(6, 6) = MD(6, 6)::Identity() * 0.0001;
+     P_init_output.block<6, 6>(24, 24) = MD(6, 6)::Identity() * 0.001;
+     kf_input.change_P(P_init);
++    if (hold_residual_gyro_bias_zero) {
++        kf_output.x_.bg.setZero();
++        P_init_output.block<3, 3>(24, 24).setZero();
++    }
+     kf_output.change_P(P_init_output);
+     Eigen::Matrix<double, 24, 24> Q_input = process_noise_cov_input();
+     Eigen::Matrix<double, 30, 30> Q_output = process_noise_cov_output();
++    if (hold_residual_gyro_bias_zero) Q_output.block<3, 3>(24, 24).setZero();
+     /*** debug record ***/
+     FILE *fp;
+     string pos_log_dir = root_dir + "/Log/pos_log.txt";

@@ -1,0 +1,229 @@
+{
+  "gaps": [
+    {
+      "before_s": 28.118704557,
+      "after_s": 28.378194332,
+      "lio_rotation_change_deg": 3.8453497714638565,
+      "vendor_rotation_change_deg": 1.8471792260189124,
+      "relative_rotation_disagreement_deg": 3.79285761486245,
+      "orientation_disagreement_before_deg": 3.0638796605405485,
+      "orientation_disagreement_after_deg": 3.229909366146098,
+      "lio_translation_m": 0.10277323725208332,
+      "vendor_translation_m": 0.09117507191532874
+    },
+    {
+      "before_s": 44.381457567,
+      "after_s": 48.334645033,
+      "lio_rotation_change_deg": 157.8490054270897,
+      "vendor_rotation_change_deg": 52.809446842412896,
+      "relative_rotation_disagreement_deg": 105.15692428508355,
+      "orientation_disagreement_before_deg": 5.270545284321615,
+      "orientation_disagreement_after_deg": 103.20367509650549,
+      "lio_translation_m": 1.4991199509112805,
+      "vendor_translation_m": 0.8175401722251919
+    }
+  ],
+  "timeline": [
+    {
+      "source_s": 2.977683544,
+      "position_disagreement_m": 0.010723236344437575,
+      "orientation_disagreement_deg": 0.5712170800662278,
+      "lio_position_m": [
+        0.0008501780050829463,
+        0.029157899798313708,
+        6.470250800714257e-05
+      ]
+    },
+    {
+      "source_s": 9.975199938,
+      "position_disagreement_m": 0.2549091385238753,
+      "orientation_disagreement_deg": 2.16621798379042,
+      "lio_position_m": [
+        1.0071718876834468,
+        1.6795542010586182,
+        -0.05621645382702782
+      ]
+    },
+    {
+      "source_s": 20.01790905,
+      "position_disagreement_m": 0.4801474214571771,
+      "orientation_disagreement_deg": 2.2737799898777786,
+      "lio_position_m": [
+        1.6588045159776583,
+        2.985279896959979,
+        -0.12759652253835943
+      ]
+    },
+    {
+      "source_s": 27.017219543,
+      "position_disagreement_m": 0.6876106644528828,
+      "orientation_disagreement_deg": 2.585756236235185,
+      "lio_position_m": [
+        2.286265088388263,
+        4.042225475602111,
+        -0.19131967163430094
+      ]
+    },
+    {
+      "source_s": 27.989156723,
+      "position_disagreement_m": 0.7233009395094582,
+      "orientation_disagreement_deg": 2.5727602374968233,
+      "lio_position_m": [
+        2.482525583136984,
+        4.344583247514968,
+        -0.19119652022718736
+      ]
+    },
+    {
+      "source_s": 29.998201847,
+      "position_disagreement_m": 0.7736382034676885,
+      "orientation_disagreement_deg": 2.113668461564335,
+      "lio_position_m": [
+        2.674833013329405,
+        4.596130440080207,
+        -0.20817746405059637
+      ]
+    },
+    {
+      "source_s": 34.987706899,
+      "position_disagreement_m": 0.7770645049623536,
+      "orientation_disagreement_deg": 2.0857004813448765,
+      "lio_position_m": [
+        2.7165120815945385,
+        4.713979587207638,
+        -0.2308498969308975
+      ]
+    },
+    {
+      "source_s": 39.979765177,
+      "position_disagreement_m": 1.04698994041873,
+      "orientation_disagreement_deg": 1.75800350530397,
+      "lio_position_m": [
+        2.6016957099528546,
+        5.033491190194835,
+        -0.22787280789907577
+      ]
+    },
+    {
+      "source_s": 43.992706776,
+      "position_disagreement_m": 0.9631828813669372,
+      "orientation_disagreement_deg": 4.878294555040801,
+      "lio_position_m": [
+        2.786739411541568,
+        4.900047951510549,
+        -0.2156143671478763
+      ]
+    },
+    {
+      "source_s": 48.983194589,
+      "position_disagreement_m": 3.899142212045542,
+      "orientation_disagreement_deg": 103.15430615194938,
+      "lio_position_m": [
+        3.7846205221270868,
+        6.6207143394263595,
+        -0.32552610415599104
+      ]
+    },
+    {
+      "source_s": 50.019149542,
+      "position_disagreement_m": 4.432590222919414,
+      "orientation_disagreement_deg": 90.79022523270368,
+      "lio_position_m": [
+        3.8185017889923203,
+        6.769158631949313,
+        -0.3435532365716174
+      ]
+    },
+    {
+      "source_s": 55.01172781,
+      "position_disagreement_m": 5.940545125026835,
+      "orientation_disagreement_deg": 74.98678790694431,
+      "lio_position_m": [
+        4.513282488354539,
+        5.874275622879925,
+        -0.2542387712599354
+      ]
+    },
+    {
+      "source_s": 60.005685329,
+      "position_disagreement_m": 7.979641696307506,
+      "orientation_disagreement_deg": 73.9828947816107,
+      "lio_position_m": [
+        6.168584179936992,
+        4.628560985094829,
+        -0.17160269360031072
+      ]
+    },
+    {
+      "source_s": 69.986200571,
+      "position_disagreement_m": 7.623330010679787,
+      "orientation_disagreement_deg": 68.1391097805641,
+      "lio_position_m": [
+        4.600971836051965,
+        4.369505022940206,
+        -0.1671207820447883
+      ]
+    },
+    {
+      "source_s": 90.017972708,
+      "position_disagreement_m": 13.107158318811411,
+      "orientation_disagreement_deg": 71.23450653926737,
+      "lio_position_m": [
+        8.629880494106631,
+        1.786911405858181,
+        0.017892499205338714
+      ]
+    },
+    {
+      "source_s": 120.02323246,
+      "position_disagreement_m": 13.80379296413215,
+      "orientation_disagreement_deg": 72.55781329427684,
+      "lio_position_m": [
+        7.709392590877901,
+        10.43844229641591,
+        -0.5443043438703357
+      ]
+    },
+    {
+      "source_s": 150.027004719,
+      "position_disagreement_m": 15.820591301933536,
+      "orientation_disagreement_deg": 70.70959509887952,
+      "lio_position_m": [
+        9.013667064719955,
+        11.3454142731564,
+        -0.6235904389115119
+      ]
+    },
+    {
+      "source_s": 180.030855656,
+      "position_disagreement_m": 11.680661680382558,
+      "orientation_disagreement_deg": 64.57517401585883,
+      "lio_position_m": [
+        5.79670115343717,
+        7.599122447470068,
+        -0.3307953692738624
+      ]
+    },
+    {
+      "source_s": 209.976241827,
+      "position_disagreement_m": 11.018324499578405,
+      "orientation_disagreement_deg": 69.27674047499534,
+      "lio_position_m": [
+        4.187777105981161,
+        9.525849439748578,
+        -0.4946482783588213
+      ]
+    },
+    {
+      "source_s": 216.003723383,
+      "position_disagreement_m": 11.019914218886273,
+      "orientation_disagreement_deg": 69.494146199756,
+      "lio_position_m": [
+        4.187279066075296,
+        9.527354552796664,
+        -0.4986798491748427
+      ]
+    }
+  ],
+  "note": "One initial rigid orientation/translation alignment. Vendor not ground truth; orientation divergence at recording gap is the diagnostic observation."
+}

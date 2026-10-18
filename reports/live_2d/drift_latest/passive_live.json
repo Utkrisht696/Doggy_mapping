@@ -1,0 +1,182 @@
+{
+  "imu": {
+    "messages": 3705,
+    "source_span_s": 19.978089174,
+    "source_step_median_s": 0.0039914584999999995,
+    "source_step_max_s": 0.078120424,
+    "source_backsteps": 0,
+    "host_minus_source_start_s": 18.245507072,
+    "host_minus_source_end_s": 18.244472551,
+    "accel_mean": [
+      0.14554375690569302,
+      -0.21246350083880064,
+      9.764753836064695
+    ],
+    "accel_std": [
+      0.6816753996181375,
+      1.1019673967838755,
+      1.1639021081017384
+    ],
+    "gyro_mean": [
+      -0.002836427653924319,
+      0.0019476923174320923,
+      0.008705615953490672
+    ],
+    "gyro_std": [
+      0.19241971179940973,
+      0.1271175505567192,
+      0.058849841663557056
+    ],
+    "accel_norm_median": 9.750616061612387
+  },
+  "vendor": {
+    "messages": 2574,
+    "source_span_s": 19.975872994,
+    "source_step_median_s": 0.00667739,
+    "source_step_max_s": 0.083050728,
+    "source_backsteps": 0,
+    "host_minus_source_start_s": 18.24345813,
+    "host_minus_source_end_s": 18.242581908,
+    "first_xyz": [
+      2.5478827953338623,
+      -1.0662953853607178,
+      0.3012407422065735
+    ],
+    "last_xyz": [
+      5.189672946929932,
+      -1.639177918434143,
+      0.2995367646217346
+    ],
+    "endpoint_change_m": 2.7031930203576318,
+    "max_excursion_m": 2.725533116415277,
+    "largest_position_step_m": 0.032958359186885874,
+    "twist_linear_median": [
+      5.434213335320237e-06,
+      8.74814970464044e-10,
+      -0.007326964754611254
+    ]
+  },
+  "clock": {
+    "messages": 821,
+    "source_span_s": 19.954352856,
+    "source_step_median_s": 0.023802638,
+    "source_step_max_s": 0.077499151,
+    "source_backsteps": 0,
+    "host_minus_source_start_s": 18.243799877,
+    "host_minus_source_end_s": 18.243124301
+  },
+  "cloud": {
+    "messages": 309,
+    "source_span_s": 19.955796242,
+    "source_step_median_s": 0.0648845435,
+    "source_step_max_s": 0.072592497,
+    "source_backsteps": 0,
+    "host_minus_source_start_s": 18.304634302,
+    "host_minus_source_end_s": 18.313774301
+  },
+  "lio": {
+    "messages": 309,
+    "source_span_s": 19.961031437,
+    "source_step_median_s": 0.0648797745,
+    "source_step_max_s": 0.067058564,
+    "source_backsteps": 0,
+    "host_minus_source_start_s": 18.251228531,
+    "host_minus_source_end_s": 18.256927849,
+    "first_xyz": [
+      -7.5360629253384825,
+      -1.4400811613630162,
+      -0.26975796852011347
+    ],
+    "last_xyz": [
+      -10.637210917029197,
+      -2.3840778674845096,
+      -0.4233218379752513
+    ],
+    "endpoint_change_m": 3.245278186771916,
+    "max_excursion_m": 3.289938851647848,
+    "largest_position_step_m": 0.04093510307257539,
+    "twist_linear_median": [
+      -0.14295333643825492,
+      0.005270667377442648,
+      -0.012970566493586133
+    ]
+  },
+  "current_run_path": {
+    "poses": 1121,
+    "duration_s": 72.578580618,
+    "first_xyz": [
+      -0.029214604425805098,
+      -0.03444215492249143,
+      -0.002444163360243787
+    ],
+    "last_xyz": [
+      -10.637210917029197,
+      -2.3840778674845096,
+      -0.4233218379752513
+    ],
+    "endpoint_change_m": 10.873247526242714,
+    "max_excursion_m": 10.915501788643189
+  },
+  "publishers": {
+    "/point_lio/odometry": [
+      "doggy_point_lio"
+    ],
+    "/odom": [
+      "doggy_go2_state"
+    ],
+    "/doggy/robot_clock": [
+      "doggy_go2_state"
+    ],
+    "/doggy/imu/body_calibrated": [
+      "doggy_body_imu"
+    ]
+  },
+  "tf_parents": {
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ],
+    "FL_calf": [
+      "FL_thigh"
+    ],
+    "FL_hip": [
+      "base_link"
+    ],
+    "FL_thigh": [
+      "FL_hip"
+    ],
+    "FR_calf": [
+      "FR_thigh"
+    ],
+    "FR_hip": [
+      "base_link"
+    ],
+    "FR_thigh": [
+      "FR_hip"
+    ],
+    "RL_calf": [
+      "RL_thigh"
+    ],
+    "RL_hip": [
+      "base_link"
+    ],
+    "RL_thigh": [
+      "RL_hip"
+    ],
+    "RR_calf": [
+      "RR_thigh"
+    ],
+    "RR_hip": [
+      "base_link"
+    ],
+    "RR_thigh": [
+      "RR_hip"
+    ],
+    "odom": [
+      "map"
+    ]
+  },
+  "robot_physically_stationary": "User confirmed"
+}

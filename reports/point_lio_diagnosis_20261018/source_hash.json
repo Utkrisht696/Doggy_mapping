@@ -1,0 +1,5 @@
+{
+  "path": "third_party/point_lio_ros2/src/laserMapping.cpp",
+  "sha256": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+  "patches_applied": false
+}

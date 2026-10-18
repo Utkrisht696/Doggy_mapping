@@ -1,0 +1,31 @@
+{
+  "checked_local": "2026-10-18T15:40:51.307428+11:00",
+  "source_capture": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag",
+  "source_output_span_s": 134.417033911,
+  "source_cache_verified": true,
+  "whole_route_horizontal_drift_m": null,
+  "reason": "No surveyed reference or closed physical endpoint; reliable horizontal shared-wall constraints do not span the complete route.",
+  "initial_leg_median_absolute_wall_plane_mismatch_m": [
+    0.019765496822252704,
+    0.01651424042142491,
+    0.0156239822461164,
+    0.010598393178054319
+  ],
+  "drain_floor_median_absolute_repeat_difference_m": 0.010809004306793213,
+  "final_section_below_drain_in_raw_map_m": [
+    0.1381760017088362,
+    0.14353215247099577,
+    0.14081896280379058,
+    0.1502434948171847
+  ],
+  "conditional_initial_floor_tilt_detrended_m": [
+    0.07150141934124005,
+    0.0769492813799133,
+    0.07375806597167417,
+    0.08349570234076376
+  ],
+  "vendor_endpoint_disagreement_m": 1.9253885700478037,
+  "vendor_is_ground_truth": false,
+  "application_or_settings_changed": false,
+  "estimator_rerun": false
+}

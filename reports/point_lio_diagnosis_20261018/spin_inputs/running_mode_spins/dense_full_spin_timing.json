@@ -1,0 +1,128 @@
+{
+  "label": "dense_full_spin",
+  "independent_cloud_poses": 107,
+  "all_registered_clouds": 894,
+  "accepted_endpoint_relative_pairs": 33,
+  "interval_separation_scans": 3,
+  "phase_fits": [
+    {
+      "time_mode": "allpoints",
+      "phase": "early_spins",
+      "usable_excited_pairs": 18,
+      "fit_available": true,
+      "best_body_minus_cloud_offset_s": 0.0010000000000000842,
+      "boundary_hit": false,
+      "relative_improvement_over_zero_percent": 0.003425330963222712,
+      "relative_rotation_rmse_zero_deg": 16.90285256087268,
+      "relative_rotation_rmse_best_deg": 16.916322868923675,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.04899999999999996,
+        0.04400000000000012
+      ]
+    },
+    {
+      "time_mode": "allpoints",
+      "phase": "later_spins",
+      "usable_excited_pairs": 3,
+      "fit_available": false
+    },
+    {
+      "time_mode": "allpoints",
+      "phase": "all_spins",
+      "usable_excited_pairs": 23,
+      "fit_available": true,
+      "best_body_minus_cloud_offset_s": 0.009000000000000091,
+      "boundary_hit": false,
+      "relative_improvement_over_zero_percent": 0.2205742631132164,
+      "relative_rotation_rmse_zero_deg": 15.413543133066938,
+      "relative_rotation_rmse_best_deg": 15.504355507481366,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.04099999999999995,
+        0.06000000000000014
+      ]
+    },
+    {
+      "time_mode": "matched",
+      "phase": "early_spins",
+      "usable_excited_pairs": 18,
+      "fit_available": true,
+      "best_body_minus_cloud_offset_s": 0.0010000000000000842,
+      "boundary_hit": false,
+      "relative_improvement_over_zero_percent": 0.00290265346911317,
+      "relative_rotation_rmse_zero_deg": 16.879188197195038,
+      "relative_rotation_rmse_best_deg": 16.89242142667899,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.04899999999999996,
+        0.04300000000000012
+      ]
+    },
+    {
+      "time_mode": "matched",
+      "phase": "later_spins",
+      "usable_excited_pairs": 3,
+      "fit_available": false
+    },
+    {
+      "time_mode": "matched",
+      "phase": "all_spins",
+      "usable_excited_pairs": 23,
+      "fit_available": true,
+      "best_body_minus_cloud_offset_s": 0.00800000000000009,
+      "boundary_hit": false,
+      "relative_improvement_over_zero_percent": 0.2008706625037167,
+      "relative_rotation_rmse_zero_deg": 15.392412603298075,
+      "relative_rotation_rmse_best_deg": 15.473143277253435,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.04099999999999995,
+        0.058000000000000135
+      ]
+    },
+    {
+      "time_mode": "weighted",
+      "phase": "early_spins",
+      "usable_excited_pairs": 18,
+      "fit_available": true,
+      "best_body_minus_cloud_offset_s": -0.0029999999999999194,
+      "boundary_hit": false,
+      "relative_improvement_over_zero_percent": 0.03449478110348783,
+      "relative_rotation_rmse_zero_deg": 17.11463446692496,
+      "relative_rotation_rmse_best_deg": 17.069033928158234,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.04799999999999996,
+        0.03800000000000012
+      ]
+    },
+    {
+      "time_mode": "weighted",
+      "phase": "later_spins",
+      "usable_excited_pairs": 3,
+      "fit_available": false
+    },
+    {
+      "time_mode": "weighted",
+      "phase": "all_spins",
+      "usable_excited_pairs": 23,
+      "fit_available": true,
+      "best_body_minus_cloud_offset_s": 0.005000000000000088,
+      "boundary_hit": false,
+      "relative_improvement_over_zero_percent": 0.0910178307586948,
+      "relative_rotation_rmse_zero_deg": 15.595616828376233,
+      "relative_rotation_rmse_best_deg": 15.648524368545305,
+      "within_5_percent_minimum_loss_range_s": [
+        -0.04099999999999995,
+        0.05300000000000013
+      ]
+    }
+  ],
+  "calibration_applied": false,
+  "acquisition_offset_validated": false,
+  "method": "Relative rotations between quality-accepted cloud poses three scan intervals apart; compare with integrated calibrated body gyro at the endpoints plus a candidate lag. Search +/-100 ms at 1 ms spacing, non-saturating Huber loss. Repeat with allpoint, matched-point and rotation-sensitivity-weighted mean times. Independent final movement block held out from first-block fit. Sensor extrinsics, bias and gain are not fitted.",
+  "sign": "Positive lag = body event timestamp minus cloud event timestamp; it would be subtracted from body headers only after validation.",
+  "limits": [
+    "Cloud poses are noisy and raw full scans are motion-distorted.",
+    "Scan-average effective time varies with geometry; changing its definition tests sensitivity, not hardware timing.",
+    "Pairs are correlated; profile-width ranges are not confidence intervals.",
+    "Some accepted registrations can still be incorrect despite geometric/local-consistency checks.",
+    "A boundary minimum, inconsistent repeated fits, broad minimum or failed held-out improvement prevents acceptance."
+  ]
+}

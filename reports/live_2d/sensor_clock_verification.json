@@ -1,0 +1,7 @@
+{
+  "clock": 100,
+  "joints": 12,
+  "joint_stamp": 100,
+  "vendor_odometry_used": false,
+  "odom_publishers": 0
+}

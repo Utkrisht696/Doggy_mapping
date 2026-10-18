@@ -1,0 +1,30 @@
+{
+  "status": "Proposal only, not applied or run",
+  "single_setting": "mapping.imu_meas_omg_cov",
+  "before": 0.1,
+  "proposed": 0.001,
+  "purpose": "Controlled stronger-gyro-weight experiment, not an established calibration or validated fix",
+  "reason": "At source time 55.8992 s the 18.53-degree heading discrepancy contains about -14.26 degrees cumulative LiDAR correction, while gyro integration and body orientation agree closely.",
+  "scale": "100x smaller measurement variance, 10x smaller assumed standard deviation; no heading scaling",
+  "stationary_gyro_variance_context": "Prior quiet-window sample variance roughly 4e-5 to 6e-5. Proposed 0.001 is still above those short-window values; they are not a validated dynamic covariance.",
+  "baseline": "Same private cache-fixed estimator with diagnostic trace; original startup behavior preserved",
+  "input": "Full soft-turn recording at 1x, localhost only",
+  "compare": [
+    "RMS/peak heading discrepancy throughout route",
+    "horizontal return offset",
+    "height return offset",
+    "bias estimates and prediction/IMU/LiDAR heading contributions",
+    "output continuity, finite state, input delivery, TF completeness"
+  ],
+  "acceptance": "Do not call it fixed from this bag alone; reject the candidate if heading improves by trading away position/height or stability. Review result before another recording/test change.",
+  "unchanged": [
+    "active workspace",
+    "IMU calibration and raw samples",
+    "LiDAR timing and acquisition lag",
+    "extrinsics/TF",
+    "gyro bias random walk and prior",
+    "LiDAR measurement covariance",
+    "accelerometer covariance",
+    "startup correction remains excluded"
+  ]
+}

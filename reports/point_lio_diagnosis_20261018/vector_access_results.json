@@ -1,0 +1,12 @@
+{
+  "reserve": {
+    "returncode": -6,
+    "stdout": "points size=0 capacity=2\n",
+    "stderr": ""
+  },
+  "resize": {
+    "returncode": 0,
+    "stdout": "points size=2 capacity=2\n",
+    "stderr": ""
+  }
+}

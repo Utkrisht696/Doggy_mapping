@@ -1,0 +1,180 @@
+{
+  "repository": "https://github.com/Faheemibrahim/unitree_go2_ros2/tree/real-go2",
+  "commit": "c3158fcef41532fc5dc754e5838b0dfdecb5506a",
+  "application_file": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/real_tf_bridge.py",
+  "callback_sha256": "ef9ba6de990fe01b5a4ca0086b9d5a32bfd2fc0cde655ae69d2e99d793b51380",
+  "method": "Original RealTfBridge.on_odom called for every source message in bag receipt order. Mock sinks/clock replace only ROS side effects; yaw correction and offset calculations unchanged. No fitting to this bag. Metrics use the same IMU lever arm and quiet holds as the existing lab comparison.",
+  "source_seconds_origin_ns": 1792303240042911052,
+  "results": {
+    "identity": {
+      "yaw_scale": 1.0,
+      "samples": 13169,
+      "horizontal_return_offset_m": 0.24926459413398191,
+      "height_return_change_m": -0.003712769313827302,
+      "heading_return_change_deg": 7.542080793988017,
+      "full_orientation_change_deg": 7.565607253083372,
+      "holds": {
+        "start": {
+          "median_position_imu_m": [
+            0.2955591788449795,
+            1.2033776494007025,
+            0.34284337453137764
+          ],
+          "orientation_xyzw": [
+            0.01851210356434684,
+            -0.002879292217468188,
+            0.3825386700864851,
+            -0.9237495210209384
+          ],
+          "p95_position_radius_m": 0.00013585588907047012
+        },
+        "far_3m": {
+          "median_position_imu_m": [
+            2.166700866622013,
+            -0.3797031143502055,
+            0.3394801715378384
+          ],
+          "orientation_xyzw": [
+            0.0028806823132557367,
+            0.0015492451537774121,
+            0.3472270709242867,
+            -0.9377753796758603
+          ],
+          "p95_position_radius_m": 0.002687319110890977
+        },
+        "return_3m": {
+          "median_position_imu_m": [
+            0.27104872987756384,
+            1.2993699398343963,
+            0.33731779840603077
+          ],
+          "orientation_xyzw": [
+            0.011648765356238051,
+            -0.014282473981317323,
+            0.31731714255465876,
+            -0.948140363154947
+          ],
+          "p95_position_radius_m": 0.0008332727487266654
+        },
+        "far_5m": {
+          "median_position_imu_m": [
+            3.47204672902894,
+            -1.5357079473416917,
+            0.3384347513365542
+          ],
+          "orientation_xyzw": [
+            0.02517955107491221,
+            -0.012092340529083478,
+            0.31023594587574227,
+            -0.9502491375396126
+          ],
+          "p95_position_radius_m": 0.0011696817089837466
+        },
+        "return_5m": {
+          "median_position_imu_m": [
+            0.12977877379008976,
+            1.3895219353420534,
+            0.33913060521755034
+          ],
+          "orientation_xyzw": [
+            0.016076897912868458,
+            -0.0061176606275488155,
+            0.3208780786437708,
+            -0.9469642898377043
+          ],
+          "p95_position_radius_m": 0.003388181540190577
+        }
+      },
+      "identity_callback_matches_original_pose_max_absolute_difference": 2.0872192862952943e-14,
+      "distance_checks": {
+        "3.0m": 2.4509826438176265,
+        "5.0m": 4.275985829832221
+      }
+    },
+    "repo_default": {
+      "yaw_scale": 0.9814,
+      "samples": 13169,
+      "horizontal_return_offset_m": 0.2502982669151726,
+      "height_return_change_m": -0.003712769313827302,
+      "heading_return_change_deg": 7.401798006900947,
+      "full_orientation_change_deg": 7.425761845119441,
+      "holds": {
+        "start": {
+          "median_position_imu_m": [
+            0.2955571794990043,
+            1.2033758459472321,
+            0.34284337453137764
+          ],
+          "orientation_xyzw": [
+            0.018512238751178637,
+            -0.002878423166890909,
+            0.3824953021502214,
+            -0.9237674791469453
+          ],
+          "p95_position_radius_m": 0.000135918910202633
+        },
+        "far_3m": {
+          "median_position_imu_m": [
+            2.1657856456623463,
+            -0.3808402012419091,
+            0.3394801715378384
+          ],
+          "orientation_xyzw": [
+            0.0028817016017762456,
+            0.0015473480421176466,
+            0.34784448596873657,
+            -0.9375465402267026
+          ],
+          "p95_position_radius_m": 0.0026872925256563635
+        },
+        "return_3m": {
+          "median_position_imu_m": [
+            0.2727423964427896,
+            1.301243805131472,
+            0.33731779840603077
+          ],
+          "orientation_xyzw": [
+            0.011630983749701701,
+            -0.014296958092861134,
+            0.31849672535816165,
+            -0.9477447721525205
+          ],
+          "p95_position_radius_m": 0.0008333015775282401
+        },
+        "far_5m": {
+          "median_position_imu_m": [
+            3.4726698058042844,
+            -1.535346446822058,
+            0.3384347513365542
+          ],
+          "orientation_xyzw": [
+            0.02516280682195105,
+            -0.01212714793255587,
+            0.311549583802568,
+            -0.9498192576844874
+          ],
+          "p95_position_radius_m": 0.001169838166251623
+        },
+        "return_5m": {
+          "median_position_imu_m": [
+            0.13459274156371706,
+            1.3950518020317553,
+            0.33913060521755034
+          ],
+          "orientation_xyzw": [
+            0.016069684595582338,
+            -0.006136582536487523,
+            0.3219926706887532,
+            -0.9465858796826075
+          ],
+          "p95_position_radius_m": 0.0033881311236871534
+        }
+      },
+      "distance_checks": {
+        "3.0m": 2.4510191757347135,
+        "5.0m": 4.276187517247198
+      }
+    }
+  },
+  "source_gap_policy": "Preserved; bridge integrates pose steps across gaps using recorded endpoint poses and yaw, without inventing intermediate sensor data."
+}

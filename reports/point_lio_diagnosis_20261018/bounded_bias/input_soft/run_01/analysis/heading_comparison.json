@@ -1,0 +1,50 @@
+{
+  "heading_change_at_final_hold_deg": {
+    "Point-LIO": -6.5293434191071205,
+    "Vendor": -2.841480233019155,
+    "Body orientation": -2.8416102593417207,
+    "Integrated calibrated gyro": -3.1051248111132566
+  },
+  "disagreement_vs_body_orientation_during_analyzed_route": {
+    "Point-LIO": {
+      "max_abs_deg": 3.9733321913879536,
+      "max_abs_at_source_s": 89.942243576,
+      "rms_deg": 2.6458318223891766,
+      "p95_abs_deg": 3.7306425283329743
+    },
+    "Vendor": {
+      "max_abs_deg": 0.40919656645021973,
+      "max_abs_at_source_s": 128.260680675,
+      "rms_deg": 0.024886300369918023,
+      "p95_abs_deg": 0.04785632704101558
+    },
+    "Integrated calibrated gyro": {
+      "max_abs_deg": 0.3112268104495257,
+      "max_abs_at_source_s": 133.902274847,
+      "rms_deg": 0.12794648008091603,
+      "p95_abs_deg": 0.26204281929932877
+    }
+  },
+  "first_abs_disagreement_vs_body_orientation_s": {
+    "Point-LIO": {
+      "5": null,
+      "10": null,
+      "20": null,
+      "40": null
+    },
+    "Vendor": {
+      "5": null,
+      "10": null,
+      "20": null,
+      "40": null
+    },
+    "Integrated calibrated gyro": {
+      "5": null,
+      "10": null,
+      "20": null,
+      "40": null
+    }
+  },
+  "gyro_integration_resets_at_gaps_over_50ms": 0,
+  "method": "Trapezoidal calibrated body angular velocity integrated as body-frame quaternion increments, no new bias estimate, scale fitting or timestamp fitting. This is a diagnostic; signals share sensors and none is external surveyed heading."
+}

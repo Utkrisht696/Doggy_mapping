@@ -1,0 +1,11 @@
+{
+  "source_elapsed_s": 193.900109053,
+  "lio_poses": 318,
+  "hybrid_poses": 28401,
+  "raw_bridge_poses": 28401,
+  "received_inputs": {
+    "cloud": 2879,
+    "imu": 46272,
+    "vendor": 28406
+  }
+}

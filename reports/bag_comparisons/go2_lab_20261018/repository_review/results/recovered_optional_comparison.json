@@ -1,0 +1,103 @@
+{
+  "commit": "c3158fcef41532fc5dc754e5838b0dfdecb5506a",
+  "method": "The original bridge finished processing the bag, but its separate observer was interrupted before saving pose arrays. Exact start/end output is recovered by calling original on_odom with saved accepted correction M (identity at start, constant final M during the finish hold). Every source vendor message in both endpoint windows was received by the bridge. No complete LIO/hybrid trajectory is claimed.",
+  "optional_guarded_hybrid": {
+    "horizontal_return_offset_m": 0.886801549179214,
+    "height_return_change_m": -0.0012006111808770537,
+    "heading_return_change_deg": -5.99844444353984,
+    "full_orientation_change_deg": 6.047090078463133,
+    "holds": {
+      "start": {
+        "window_s": [
+          2.6,
+          3.6
+        ],
+        "samples": 148,
+        "correction_applied": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_position_imu_m": [
+          1.6225529593712553,
+          0.9473397626705499,
+          0.35674195330435227
+        ],
+        "mean_quaternion_xyzw": [
+          0.0020900836374861064,
+          -0.007956680225423618,
+          -0.48342405517624903,
+          0.8753476484615297
+        ],
+        "p95_position_radius_m": 8.313354229414207e-05
+      },
+      "finish": {
+        "window_s": [
+          210.0,
+          216.0
+        ],
+        "samples": 897,
+        "correction_applied": [
+          0.7962790819900158,
+          0.1579792869854706,
+          0.019401227708556235
+        ],
+        "median_position_imu_m": [
+          1.9829911388914443,
+          0.13709208055672498,
+          0.3555413421234752
+        ],
+        "mean_quaternion_xyzw": [
+          0.0029943155576490003,
+          0.004066415740990648,
+          0.5286036891882279,
+          -0.8488537200919591
+        ],
+        "p95_position_radius_m": 0.00013284458447703664
+      }
+    },
+    "height_is_vendor_pass_through": true
+  },
+  "guard": {
+    "accepted": 69,
+    "rejected": 290,
+    "unmatched": 0,
+    "first_lio_source_s": 4.273710251,
+    "first_rejection_source_s": 48.594155073,
+    "last_accepted_source_s": 44.122184038,
+    "last_lio_source_s": 217.169931173,
+    "final_correction": [
+      0.7962790819900158,
+      0.1579792869854706,
+      0.019401227708556235
+    ],
+    "events_after_44s": {
+      "accepted": 1,
+      "rejected": 290
+    },
+    "bridge_source_messages": 31901,
+    "source_messages_total": 31905,
+    "bridge_missing_vendor_source_times_s": [
+      0.019450664,
+      0.027157545,
+      0.032807588,
+      48.281332016
+    ]
+  },
+  "source_and_application_files_unchanged": true,
+  "hashes_after": {
+    "/home/jain/Doggy/scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "/home/jain/Doggy/config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "/home/jain/Doggy/config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "/home/jain/Doggy/config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/real_tf_bridge.py": "ef9ba6de990fe01b5a4ca0086b9d5a32bfd2fc0cde655ae69d2e99d793b51380",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/lio_input.py": "8dfa1d165804fc5e85b88ca7c49a371475f5de51603bb4ff796262293874a3ed",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/config/point_lio_go2.yaml": "70f6e574db8f3434bf3caefce8f7718c43c8ea2b10c35c68fa9dcc9f33ebe729",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/third_party/point_lio_unilidar/src/laserMapping.cpp": "4e223bc7c58b7c20249089d91dfb29d70ec8586e2cc131755aaf2c0e986f006c"
+  },
+  "observer_pose_arrays_saved": false,
+  "full_input_delivery_verified": false,
+  "replay_domain": 210,
+  "replay_rate": 0.5,
+  "gaps_preserved": true
+}

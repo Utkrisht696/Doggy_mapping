@@ -14,15 +14,28 @@
     -0.011451726501776841
   ],
   "gravity_reference_m_s2": 9.80665,
-  "calibration_method": "Fixed accelerometer bias from five held-pose gravity norms; fixed gyro bias from separate quiet baseline.",
+  "calibration_method": "Fixed accelerometer bias from five held-pose gravity norms; fixed gyro bias from separate quiet baseline. Body gyro Z gain from independent stationary-wall registration, validated on a separate CW/CCW bag.",
   "evidence": "reports/point_lio_steps/step_01_accelerometer/body_bias_validation.json",
   "timestamp_policy": "Preserve TimeSpec sec/nanosec exactly; drop identical duplicate stamps; stop on backward clock or changed data at the same stamp.",
-  "uncertainty_policy": "No fabricated covariance; message covariance remains unknown. Point-LIO noise settings require separate review.",
+  "uncertainty_policy": "Gyro and acceleration covariance remain zero (unknown); vendor fused orientation is marked unavailable with covariance[0]=-1. Point-LIO uses its separately validated configured noise.",
   "approved_local": "2026-10-16T17:30:43.676332+11:00",
-  "authorization": "User explicitly approved applying adapter and running passive output check.",
+  "authorization": "User authorized continuing offline diagnosis and fixes until heading issue is resolved.",
   "limitations": [
-    "Five held poses, small angular range, unit-gain fixed-bias model. Not a full scale/misalignment or dynamic calibration.",
+    "Fixed bias plus measured body gyro Z gain; no full three-axis scale or misalignment calibration.",
     "Body IMU is the selected candidate input; original LiDAR IMU remains unmodified and unvalidated.",
-    "Sensor timing, Point-LIO input configuration and extrinsics require their separate checks before mapping."
-  ]
+    "Source timestamps and extrinsics are preserved; physical LiDAR/IMU acquisition lag remains uncalibrated at zero configured correction.",
+    "Vendor fused quaternion is retained for inspection but marked unavailable (orientation_covariance[0] = -1); Point-LIO uses angular velocity and acceleration."
+  ],
+  "gyro_scale_xyz": [
+    1.0,
+    1.0,
+    0.9785884535708254
+  ],
+  "vendor_orientation_available": false,
+  "gyro_gain_evidence": {
+    "training": "reports/point_lio_diagnosis_20261018/gyro_gain_running_fit.json",
+    "held_out_validation": "reports/point_lio_diagnosis_20261018/spinny_gain_validation.json",
+    "gain_refitted_on_validation": false
+  },
+  "gyro_gain_calibrated_local": "2026-10-18"
 }

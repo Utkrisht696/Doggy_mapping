@@ -1,0 +1,14 @@
+{
+  "saved": "/home/jain/Doggy/maps/replay_20261016_234342/map.yaml",
+  "success": true,
+  "replay": {
+    "mode": "recorded Point-LIO output replay",
+    "completed": false,
+    "published": 5277,
+    "total": 5758,
+    "recorded_seconds": 171.033904552,
+    "rate": 1.0,
+    "vendor_odometry_replayed": false,
+    "robot_commands_sent": false
+  }
+}

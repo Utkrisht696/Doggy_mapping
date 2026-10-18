@@ -1,0 +1,17 @@
+{
+  "source_bag": "reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/bag/bag_0.db3",
+  "source_coordinates": "Recorded Point-LIO map frame reused as local odom; no estimator rerun or vendor poses",
+  "scans": 2879,
+  "voxels": 116901,
+  "missing_matching_poses": 0,
+  "integration_seconds": 4.314468739001313,
+  "max_integration_callback_seconds": 0.007008682005107403,
+  "render_seconds": 0.18909838699619286,
+  "width": 276,
+  "height": 305,
+  "free_cells": 11995,
+  "occupied_cells": 4261,
+  "terrain_blocked_cells": 4680,
+  "observed_slope_median_deg": 2.2896244525909424,
+  "saved": "/home/jain/Doggy/reports/live_2d/offline_validation/map.yaml"
+}

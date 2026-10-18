@@ -1,0 +1,7 @@
+"""Read-only timing statistics of decoded bag inputs."""
+from pathlib import Path
+import sys,json,numpy as np
+r=Path(sys.argv[1]);a=np.load(r/'source_decoded.npz');o=int(a['raw_stamp_ns'][0]);d={}
+for k in ['raw','imu','vendor','sport']:
+ st=a[k+'_stamp_ns'];dt=np.diff(st)/1e9;positive=dt[dt>0];d[k]={'samples':len(st),'start_s':float((st[0]-o)/1e9),'end_s':float((st[-1]-o)/1e9),'duplicates':int((dt==0).sum()),'backwards':int((dt<0).sum()),'positive_dt_median_p95_p99_max_s':np.percentile(positive,[50,95,99,100]).tolist(),'source_gaps_over_3_median_count':int((dt>3*np.median(positive)).sum()),'receipt_minus_header_first_last_s':[(int(a[k+'_receipt_ns'][i])-int(st[i]))/1e9 for i in [0,-1]]}
+rv=a['raw_values'];start=a['raw_stamp_ns']+np.rint(rv[:,2]*1e9).astype('int64');end=a['raw_stamp_ns']+np.rint(rv[:,3]*1e9).astype('int64');inside=(start>=a['imu_stamp_ns'][0])&(end<=a['imu_stamp_ns'][-1]);d['scans_imu_bracketed']={'within_recording':int(inside.sum()),'outside_recording':int((~inside).sum()),'point_time_span_median_min_max_s':[float(np.median(rv[:,3]-rv[:,2])),float(np.min(rv[:,3]-rv[:,2])),float(np.max(rv[:,3]-rv[:,2]))],'valid_points_median_min_max':np.percentile(rv[:,1],[50,0,100]).tolist()};mode,ct=np.unique(a['sport_values'][:,7:9],axis=0,return_counts=True);d['sport_mode_gait_counts']=[{'mode':int(m[0]),'gait_type':int(m[1]),'samples':int(c)} for m,c in zip(mode,ct)];(r/'source_timing.json').write_text(json.dumps(d,indent=2)+'\n');print(r.name,json.dumps(d))

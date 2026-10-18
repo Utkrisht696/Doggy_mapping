@@ -1,0 +1,13 @@
+{
+  "requested_bags": [
+    "small_wander_comeback",
+    "wander_soft_turn_comeback"
+  ],
+  "original_bag_root": "/home/jain/go2_bags",
+  "physical_endpoint_assumption": "Uses user instruction that all bags finish at starting pose, plus comeback filenames. Endpoint uncertainty not surveyed.",
+  "playback_rate": 1.0,
+  "active_code_changes": false,
+  "estimator": "Previously built isolated standalone Point-LIO recovery trial, unchanged go2_body_imu profile, startup init_map_size 4000 and scan-rate output",
+  "controls_replayed": false,
+  "rviz_started": false
+}

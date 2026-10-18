@@ -1,0 +1,43 @@
+{
+  "bag": "/home/jain/go2_bags/spinny",
+  "low_samples": 39368,
+  "sport_samples": 23217,
+  "low_tick_first_last": [
+    162340.0,
+    241083.0
+  ],
+  "low_tick_delta_quantiles": [
+    0.0,
+    2.0,
+    3.0,
+    8.0
+  ],
+  "low_vs_sport_gyro_affine_by_receipt": [
+    [
+      0.9579483933852438,
+      -0.0024467025377561988,
+      0.0019099078321941556
+    ],
+    [
+      -0.004139390491334527,
+      0.9562674703992422,
+      -0.004551488258786041
+    ],
+    [
+      0.00042355036646564426,
+      0.0008626882509129574,
+      0.9998394052092374
+    ],
+    [
+      -0.000354089621084807,
+      -0.0009678674574199464,
+      0.0001534010077171577
+    ]
+  ],
+  "residual_rms_rad_s": [
+    0.06993061643163749,
+    0.05177023058493627,
+    0.023046932516549566
+  ],
+  "limits": "Receipt-time interpolation only, not acquisition calibration; use to detect large source-value differences."
+}

@@ -1,0 +1,18 @@
+{
+  "checked_local": "2026-10-18T16:58:32.553993+11:00",
+  "bag": "/home/jain/go2_bags/robot_20261018_055326",
+  "bytes": 49889371,
+  "duration_s": 12.475717951,
+  "messages_read": 24109,
+  "container_integrity_passed": true,
+  "all_mapping_input_messages_decode": true,
+  "fully_decodable_under_recorded_schemas": false,
+  "camera_schema_mismatch": true,
+  "camera_alternate_layout_consistent_for_all_samples": true,
+  "camera_messages": 356,
+  "checksum_scope": "Summary/footer CRC verified. Recording contains no chunk CRCs and no data-section CRC; no original Jetson SHA-256 supplied for byte-for-byte transfer verification.",
+  "sha256": "fb83782c8c34f34ec15977390efedc6e5c8391a4b7b9815ddda807683b2331fb",
+  "original_files_modified": false,
+  "played_or_published_messages": false,
+  "compatibility": "Recorded using Jazzy metadata version 9; local Humble ros2 bag info cannot parse its newer QoS representation."
+}

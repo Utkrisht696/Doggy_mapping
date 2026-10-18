@@ -1,0 +1,440 @@
+{
+  "method": "Wall-normal matching, horizontal translation/yaw point-to-plane fit, 3 initial yaw values, alternate source-point holdout. No estimator, TF or sensor configuration changes.",
+  "results": [
+    {
+      "early_s": 10,
+      "late_s": 35,
+      "raw_wall_overlap_min_fraction": 0.5992023928215354,
+      "before_fit": {
+        "matches": 526,
+        "source_fraction": 0.563169164882227,
+        "median_abs_plane_residual_m": 0.019765496822252704,
+        "p90_abs_plane_residual_m": 0.0565924576871678
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": true,
+          "iterations": 28,
+          "fit_translation_xy_m": [
+            0.037147272641413064,
+            0.016663002013933937
+          ],
+          "fit_yaw_deg": 0.3678755157960964,
+          "jacobian_condition_units_mixed": 17.715530650872186,
+          "rank": 3,
+          "heldout_matches": 250,
+          "heldout_median_abs_plane_residual_m": 0.015586484420449714
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": true,
+          "iterations": 15,
+          "fit_translation_xy_m": [
+            0.03714740917377859,
+            0.016663418877013954
+          ],
+          "fit_yaw_deg": 0.3678740087245849,
+          "jacobian_condition_units_mixed": 17.71556241856799,
+          "rank": 3,
+          "heldout_matches": 250,
+          "heldout_median_abs_plane_residual_m": 0.015586491409243544
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": true,
+          "iterations": 33,
+          "fit_translation_xy_m": [
+            0.03714840956145269,
+            0.016668088811713125
+          ],
+          "fit_yaw_deg": 0.36787286170117584,
+          "jacobian_condition_units_mixed": 17.715989529122673,
+          "rank": 3,
+          "heldout_matches": 250,
+          "heldout_median_abs_plane_residual_m": 0.015585761322501644
+        }
+      ],
+      "initialization_translation_spread_m": 5.086797779187829e-06,
+      "initialization_yaw_spread_deg": 2.6540949205622333e-06,
+      "accepted_as_local_surface_consistency": true,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.040713628393880034,
+      "local_correction_yaw_deg": 0.3678740087245849,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    },
+    {
+      "early_s": 10,
+      "late_s": 45,
+      "raw_wall_overlap_min_fraction": 0.5183443085606774,
+      "before_fit": {
+        "matches": 500,
+        "source_fraction": 0.5307855626326964,
+        "median_abs_plane_residual_m": 0.01651424042142491,
+        "p90_abs_plane_residual_m": 0.04969414562096895
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": true,
+          "iterations": 11,
+          "fit_translation_xy_m": [
+            -0.09834109440633071,
+            -0.3342502140376108
+          ],
+          "fit_yaw_deg": 1.0364708527939783,
+          "jacobian_condition_units_mixed": 37.88766611310535,
+          "rank": 3,
+          "heldout_matches": 276,
+          "heldout_median_abs_plane_residual_m": 0.015267901382381467
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": true,
+          "iterations": 12,
+          "fit_translation_xy_m": [
+            0.006621693908794029,
+            -0.10652096178179078
+          ],
+          "fit_yaw_deg": 1.3475945882327802,
+          "jacobian_condition_units_mixed": 35.00313359057552,
+          "rank": 3,
+          "heldout_matches": 243,
+          "heldout_median_abs_plane_residual_m": 0.016633210582947214
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": true,
+          "iterations": 10,
+          "fit_translation_xy_m": [
+            0.05931357996348531,
+            -0.004055884305235006
+          ],
+          "fit_yaw_deg": 1.841468081882086,
+          "jacobian_condition_units_mixed": 32.59030773812642,
+          "rank": 3,
+          "heldout_matches": 259,
+          "heldout_median_abs_plane_residual_m": 0.018283426471631135
+        }
+      ],
+      "initialization_translation_spread_m": 0.3301943297323758,
+      "initialization_yaw_spread_deg": 0.8049972290881078,
+      "accepted_as_local_surface_consistency": false,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.10672657648936132,
+      "local_correction_yaw_deg": 1.3475945882327802,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    },
+    {
+      "early_s": 10,
+      "late_s": 55,
+      "raw_wall_overlap_min_fraction": 0.5454545454545454,
+      "before_fit": {
+        "matches": 313,
+        "source_fraction": 0.5452961672473867,
+        "median_abs_plane_residual_m": 0.0156239822461164,
+        "p90_abs_plane_residual_m": 0.03227802194302085
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": true,
+          "iterations": 8,
+          "fit_translation_xy_m": [
+            -0.13720065494865077,
+            -0.36652315668579805
+          ],
+          "fit_yaw_deg": 0.5587574395467966,
+          "jacobian_condition_units_mixed": 59.8868225152696,
+          "rank": 3,
+          "heldout_matches": 168,
+          "heldout_median_abs_plane_residual_m": 0.012075194156627847
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": true,
+          "iterations": 9,
+          "fit_translation_xy_m": [
+            -0.0330347958646265,
+            -0.15608702691422963
+          ],
+          "fit_yaw_deg": 1.0382927097171255,
+          "jacobian_condition_units_mixed": 54.83372229753717,
+          "rank": 3,
+          "heldout_matches": 157,
+          "heldout_median_abs_plane_residual_m": 0.012693114892366426
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": false,
+          "iterations": 60,
+          "fit_translation_xy_m": [
+            0.0054056334728980185,
+            -0.09161226995648894
+          ],
+          "fit_yaw_deg": 1.4067487255118756,
+          "jacobian_condition_units_mixed": 43.57195614178862,
+          "rank": 3,
+          "heldout_matches": 148,
+          "heldout_median_abs_plane_residual_m": 0.016515033203789317
+        }
+      ],
+      "initialization_translation_spread_m": 0.2749108867293091,
+      "initialization_yaw_spread_deg": 0.847991285965079,
+      "accepted_as_local_surface_consistency": false,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.15954453205528854,
+      "local_correction_yaw_deg": 1.0382927097171255,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    },
+    {
+      "early_s": 10,
+      "late_s": 65,
+      "raw_wall_overlap_min_fraction": 0.49604743083003955,
+      "before_fit": {
+        "matches": 284,
+        "source_fraction": 0.6876513317191283,
+        "median_abs_plane_residual_m": 0.010598393178054319,
+        "p90_abs_plane_residual_m": 0.028618892756656206
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": true,
+          "iterations": 22,
+          "fit_translation_xy_m": [
+            -0.002108780537346595,
+            -0.05220257271739092
+          ],
+          "fit_yaw_deg": 0.8853984649874616,
+          "jacobian_condition_units_mixed": 33.918646850711575,
+          "rank": 3,
+          "heldout_matches": 139,
+          "heldout_median_abs_plane_residual_m": 0.013232390222001457
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": true,
+          "iterations": 12,
+          "fit_translation_xy_m": [
+            -0.0021087816654555254,
+            -0.05220257583444222
+          ],
+          "fit_yaw_deg": 0.8853984770254716,
+          "jacobian_condition_units_mixed": 33.91864670213872,
+          "rank": 3,
+          "heldout_matches": 139,
+          "heldout_median_abs_plane_residual_m": 0.013232389960300905
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": true,
+          "iterations": 10,
+          "fit_translation_xy_m": [
+            0.058445568483289474,
+            0.07689313167627428
+          ],
+          "fit_yaw_deg": 1.0998786224746395,
+          "jacobian_condition_units_mixed": 34.437516990946875,
+          "rank": 3,
+          "heldout_matches": 135,
+          "heldout_median_abs_plane_residual_m": 0.012671264938166501
+        }
+      ],
+      "initialization_translation_spread_m": 0.1290957075107165,
+      "initialization_yaw_spread_deg": 0.21448015748717797,
+      "accepted_as_local_surface_consistency": false,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.05224515177376033,
+      "local_correction_yaw_deg": 0.8853984770254716,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    },
+    {
+      "early_s": 65,
+      "late_s": 115,
+      "raw_wall_overlap_min_fraction": 0.0996309963099631,
+      "before_fit": {
+        "matches": 22,
+        "source_fraction": 0.0990990990990991,
+        "median_abs_plane_residual_m": 0.032919898491181,
+        "p90_abs_plane_residual_m": 0.23549794829935763
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": -2.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 8,
+          "heldout_median_abs_plane_residual_m": 0.17868180661517616
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": 0.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 11,
+          "heldout_median_abs_plane_residual_m": 0.03334724456366334
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": 2.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 9,
+          "heldout_median_abs_plane_residual_m": 0.05714704023332229
+        }
+      ],
+      "initialization_translation_spread_m": 0.0,
+      "initialization_yaw_spread_deg": 4.0,
+      "accepted_as_local_surface_consistency": false,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.0,
+      "local_correction_yaw_deg": 0.0,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    },
+    {
+      "early_s": 45,
+      "late_s": 125,
+      "raw_wall_overlap_min_fraction": 0.0018814675446848542,
+      "before_fit": {
+        "matches": 0,
+        "source_fraction": 0.0,
+        "median_abs_plane_residual_m": null,
+        "p90_abs_plane_residual_m": null
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": -2.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 0,
+          "heldout_median_abs_plane_residual_m": null
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": 0.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 0,
+          "heldout_median_abs_plane_residual_m": null
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": 2.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 0,
+          "heldout_median_abs_plane_residual_m": null
+        }
+      ],
+      "initialization_translation_spread_m": 0.0,
+      "initialization_yaw_spread_deg": 4.0,
+      "accepted_as_local_surface_consistency": false,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.0,
+      "local_correction_yaw_deg": 0.0,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    },
+    {
+      "early_s": 55,
+      "late_s": 132,
+      "raw_wall_overlap_min_fraction": 0.0,
+      "before_fit": {
+        "matches": 0,
+        "source_fraction": 0.0,
+        "median_abs_plane_residual_m": null,
+        "p90_abs_plane_residual_m": null
+      },
+      "fits": [
+        {
+          "initial_yaw_deg": -2,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": -2.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 0,
+          "heldout_median_abs_plane_residual_m": null
+        },
+        {
+          "initial_yaw_deg": 0,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": 0.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 0,
+          "heldout_median_abs_plane_residual_m": null
+        },
+        {
+          "initial_yaw_deg": 2,
+          "converged": false,
+          "iterations": 1,
+          "fit_translation_xy_m": [
+            0.0,
+            0.0
+          ],
+          "fit_yaw_deg": 2.0,
+          "jacobian_condition_units_mixed": null,
+          "rank": 0,
+          "heldout_matches": 0,
+          "heldout_median_abs_plane_residual_m": null
+        }
+      ],
+      "initialization_translation_spread_m": 0.0,
+      "initialization_yaw_spread_deg": 4.0,
+      "accepted_as_local_surface_consistency": false,
+      "accepted_as_global_drift": false,
+      "local_correction_norm_m": 0.0,
+      "local_correction_yaw_deg": 0.0,
+      "note": "Rigid adjustment of shared wall returns in the already registered map. Robust nearest-neighbour fit may be biased by limited visibility; not independent position truth or end-of-route drift."
+    }
+  ],
+  "global_horizontal_drift_measured": false
+}

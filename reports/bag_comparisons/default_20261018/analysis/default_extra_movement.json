@@ -1,0 +1,58 @@
+{
+  "brief_first_stop": {
+    "time_window_s": [
+      74.8,
+      75.8
+    ],
+    "lio_samples": 16,
+    "point_lio": {
+      "median_position_xyz_m": [
+        -0.0021716838190137594,
+        -0.011237820542845537,
+        -0.004966301732279252
+      ],
+      "horizontal_offset_from_original_start_m": 0.012429379027508023,
+      "vertical_offset_from_original_start_m": -0.006913643656540248,
+      "position_p95_radius_m": 0.011399969826279315
+    },
+    "vendor": {
+      "median_position_xyz_m": [
+        0.21440247627748718,
+        1.3059223547188812,
+        0.33773552520967914
+      ],
+      "horizontal_offset_from_original_start_m": 0.13076991230307025,
+      "vertical_offset_from_original_start_m": -0.005107340601922861,
+      "position_p95_radius_m": 0.010401389363231994
+    }
+  },
+  "final_quiet_hold": {
+    "time_window_s": [
+      81,
+      87
+    ],
+    "lio_samples": 92,
+    "point_lio": {
+      "median_position_xyz_m": [
+        -0.14333344647161364,
+        -0.017125121902289035,
+        -0.0044041307215859585
+      ],
+      "horizontal_offset_from_original_start_m": 0.1400606161634521,
+      "vertical_offset_from_original_start_m": -0.006351472645846954,
+      "position_p95_radius_m": 0.0171648035178046
+    },
+    "vendor": {
+      "median_position_xyz_m": [
+        0.12976854758899276,
+        1.3895169528132838,
+        0.3391305262318409
+      ],
+      "horizontal_offset_from_original_start_m": 0.24926371619961585,
+      "vertical_offset_from_original_start_m": -0.0037123395797610814,
+      "position_p95_radius_m": 0.003244257200288127
+    }
+  },
+  "point_lio_shift_between_these_stops_m": 0.14128559582891356,
+  "note": "There is renewed SportModeState speed and body gyro motion at about 76\u201378 s. First stop is brief and has more body sway; it is supplementary and not substituted for the standard final quiet hold."
+}

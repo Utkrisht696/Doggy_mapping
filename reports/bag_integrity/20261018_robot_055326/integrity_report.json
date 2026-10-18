@@ -1,0 +1,334 @@
+{
+  "bag_directory": "/home/jain/go2_bags/robot_20261018_055326",
+  "file": "/home/jain/go2_bags/robot_20261018_055326/robot_20261018_055326_0.mcap",
+  "bytes": 49889371,
+  "sha256": "fb83782c8c34f34ec15977390efedc6e5c8391a4b7b9815ddda807683b2331fb",
+  "ros_distro": "jazzy",
+  "metadata_version": 9,
+  "storage": "mcap",
+  "checks": {
+    "source_file_unchanged_during_read": true,
+    "complete_header_footer_and_trailing_magic": true,
+    "all_chunks_decompressed": true,
+    "present_chunk_crcs_verified": true,
+    "summary_crc_passed": true,
+    "metadata_total_matches": true,
+    "per_topic_metadata_counts_match": true,
+    "summary_total_matches": true,
+    "summary_channel_counts_match": true,
+    "all_messages_decoded": false,
+    "pointcloud_layout_checks_passed": true,
+    "recorded_start_matches_metadata": true,
+    "recorded_duration_matches_metadata": true
+  },
+  "no_corruption_detected": false,
+  "messages_read": 24109,
+  "messages_decoded": 23753,
+  "duration_s": 12.475717951,
+  "listed_topics": 83,
+  "nonempty_topics": 27,
+  "chunks": 148,
+  "chunks_with_crc": 0,
+  "data_section_crc_present": false,
+  "summary_crc_present": true,
+  "compression": {
+    "zstd": 148
+  },
+  "topic_counts": {
+    "/api/obstacles_avoid/request": 153,
+    "/api/obstacles_avoid/response": 152,
+    "/api/uwbswitch/request": 33,
+    "/api/uwbswitch/response": 33,
+    "/api/vui/request": 24,
+    "/api/vui/response": 24,
+    "/audiohub/player/state": 50,
+    "/audiosender": 621,
+    "/frontvideostream": 356,
+    "/gnss": 12,
+    "/lf/lowstate": 249,
+    "/lf/sportmodestate": 249,
+    "/lowcmd": 6082,
+    "/lowstate": 6238,
+    "/multiplestate": 12,
+    "/public_network_status": 1,
+    "/rtc/state": 12,
+    "/sportmodestate": 3665,
+    "/utlidar/cloud": 191,
+    "/utlidar/cloud_base": 192,
+    "/utlidar/cloud_deskewed": 192,
+    "/utlidar/height_map_array": 193,
+    "/utlidar/imu": 3045,
+    "/utlidar/lidar_state": 62,
+    "/utlidar/range_info": 192,
+    "/utlidar/robot_odom": 1844,
+    "/utlidar/robot_pose": 232
+  },
+  "decoded_topic_counts": {
+    "/api/obstacles_avoid/request": 153,
+    "/api/obstacles_avoid/response": 152,
+    "/api/uwbswitch/request": 33,
+    "/api/uwbswitch/response": 33,
+    "/api/vui/request": 24,
+    "/api/vui/response": 24,
+    "/audiohub/player/state": 50,
+    "/audiosender": 621,
+    "/gnss": 12,
+    "/lf/lowstate": 249,
+    "/lf/sportmodestate": 249,
+    "/lowcmd": 6082,
+    "/lowstate": 6238,
+    "/multiplestate": 12,
+    "/public_network_status": 1,
+    "/rtc/state": 12,
+    "/sportmodestate": 3665,
+    "/utlidar/cloud": 191,
+    "/utlidar/cloud_base": 192,
+    "/utlidar/cloud_deskewed": 192,
+    "/utlidar/height_map_array": 193,
+    "/utlidar/imu": 3045,
+    "/utlidar/lidar_state": 62,
+    "/utlidar/range_info": 192,
+    "/utlidar/robot_odom": 1844,
+    "/utlidar/robot_pose": 232
+  },
+  "decode_error_counts": {
+    "/frontvideostream": 356
+  },
+  "count_mismatches": {},
+  "decoding_errors": [
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 1,
+      "error": "error('unpack_from requires a buffer of at least 2108176512 bytes for unpacking 4 bytes at offset 2108176508 (actual buffer size is 2312)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 2,
+      "error": "error('unpack_from requires a buffer of at least 2345407424 bytes for unpacking 4 bytes at offset 2345407420 (actual buffer size is 10700)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 3,
+      "error": "error('unpack_from requires a buffer of at least 3276369788 bytes for unpacking 4 bytes at offset 3276369784 (actual buffer size is 2112)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 4,
+      "error": "error('unpack_from requires a buffer of at least 1900562756 bytes for unpacking 4 bytes at offset 1900562752 (actual buffer size is 10044)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 5,
+      "error": "error('unpack_from requires a buffer of at least 1070033048 bytes for unpacking 4 bytes at offset 1070033044 (actual buffer size is 2244)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 6,
+      "error": "error('unpack_from requires a buffer of at least 3260399512 bytes for unpacking 4 bytes at offset 3260399508 (actual buffer size is 11908)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 7,
+      "error": "error('unpack_from requires a buffer of at least 2408933268 bytes for unpacking 4 bytes at offset 2408933264 (actual buffer size is 2260)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 8,
+      "error": "error('unpack_from requires a buffer of at least 1145927064 bytes for unpacking 4 bytes at offset 1145927060 (actual buffer size is 9580)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 9,
+      "error": "error('unpack_from requires a buffer of at least 2135577740 bytes for unpacking 4 bytes at offset 2135577736 (actual buffer size is 2368)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 10,
+      "error": "error('unpack_from requires a buffer of at least 661814484 bytes for unpacking 4 bytes at offset 661814480 (actual buffer size is 11436)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 11,
+      "error": "error('unpack_from requires a buffer of at least 4216032080 bytes for unpacking 4 bytes at offset 4216032076 (actual buffer size is 2220)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 12,
+      "error": "error('unpack_from requires a buffer of at least 2530110480 bytes for unpacking 4 bytes at offset 2530110476 (actual buffer size is 10612)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 13,
+      "error": "error('unpack_from requires a buffer of at least 1834289544 bytes for unpacking 4 bytes at offset 1834289540 (actual buffer size is 9080)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 14,
+      "error": "error('unpack_from requires a buffer of at least 2791885668 bytes for unpacking 4 bytes at offset 2791885664 (actual buffer size is 2168)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 15,
+      "error": "error('unpack_from requires a buffer of at least 2160426296 bytes for unpacking 4 bytes at offset 2160426292 (actual buffer size is 1852)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 16,
+      "error": "error('unpack_from requires a buffer of at least 1289314220 bytes for unpacking 4 bytes at offset 1289314216 (actual buffer size is 10644)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 17,
+      "error": "error('unpack_from requires a buffer of at least 2990315884 bytes for unpacking 4 bytes at offset 2990315880 (actual buffer size is 2176)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 18,
+      "error": "error('unpack_from requires a buffer of at least 2419279028 bytes for unpacking 4 bytes at offset 2419279024 (actual buffer size is 8904)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 19,
+      "error": "error('unpack_from requires a buffer of at least 1587744576 bytes for unpacking 4 bytes at offset 1587744572 (actual buffer size is 1956)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 20,
+      "error": "error('unpack_from requires a buffer of at least 3614548148 bytes for unpacking 4 bytes at offset 3614548144 (actual buffer size is 9828)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 21,
+      "error": "error('unpack_from requires a buffer of at least 4117208344 bytes for unpacking 4 bytes at offset 4117208340 (actual buffer size is 2068)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 22,
+      "error": "error('unpack_from requires a buffer of at least 1685620088 bytes for unpacking 4 bytes at offset 1685620084 (actual buffer size is 9716)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 23,
+      "error": "error('unpack_from requires a buffer of at least 3542478820 bytes for unpacking 4 bytes at offset 3542478816 (actual buffer size is 2132)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 24,
+      "error": "error('unpack_from requires a buffer of at least 3200415300 bytes for unpacking 4 bytes at offset 3200415296 (actual buffer size is 8552)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 25,
+      "error": "error('unpack_from requires a buffer of at least 592067808 bytes for unpacking 4 bytes at offset 592067804 (actual buffer size is 2124)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 26,
+      "error": "error('unpack_from requires a buffer of at least 3289171436 bytes for unpacking 4 bytes at offset 3289171432 (actual buffer size is 9796)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 27,
+      "error": "error('unpack_from requires a buffer of at least 1036681276 bytes for unpacking 4 bytes at offset 1036681272 (actual buffer size is 2228)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 28,
+      "error": "error('unpack_from requires a buffer of at least 837432664 bytes for unpacking 4 bytes at offset 837432660 (actual buffer size is 9436)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 29,
+      "error": "error('unpack_from requires a buffer of at least 125765452 bytes for unpacking 4 bytes at offset 125765448 (actual buffer size is 1948)')"
+    },
+    {
+      "topic": "/frontvideostream",
+      "sequence_index": 30,
+      "error": "error('unpack_from requires a buffer of at least 2518374688 bytes for unpacking 4 bytes at offset 2518374684 (actual buffer size is 10076)')"
+    }
+  ],
+  "pointcloud_layout_errors": [],
+  "point_counts": {
+    "/utlidar/cloud_base": 245093,
+    "/utlidar/cloud_deskewed": 2165093,
+    "/utlidar/cloud": 747665
+  },
+  "nonzero_finite_point_counts": {
+    "/utlidar/cloud_base": 245093,
+    "/utlidar/cloud_deskewed": 245093,
+    "/utlidar/cloud": 747665
+  },
+  "nonfinite_selected_imu_fields": {
+    "/sportmodestate": 0,
+    "/lf/sportmodestate": 0,
+    "/utlidar/imu": 0
+  },
+  "frames": {
+    "/utlidar/cloud_base": [
+      "base_link"
+    ],
+    "/utlidar/imu": [
+      "utlidar_imu"
+    ],
+    "/utlidar/robot_odom": [
+      "odom"
+    ],
+    "/utlidar/robot_pose": [
+      "odom"
+    ],
+    "/utlidar/cloud_deskewed": [
+      "odom"
+    ],
+    "/utlidar/range_info": [
+      "base_link"
+    ],
+    "/utlidar/cloud": [
+      "utlidar_lidar"
+    ]
+  },
+  "sensor_timestamp_checks": {
+    "/utlidar/cloud": {
+      "messages": 191,
+      "first_source_stamp_ns": 1792302781886399269,
+      "last_source_stamp_ns": 1792302794206106424,
+      "backward_source_steps": 0,
+      "duplicate_source_stamps": 0,
+      "median_positive_dt_ms": 64.9029015,
+      "max_positive_dt_ms": 70.210457
+    },
+    "/sportmodestate": {
+      "messages": 3665,
+      "first_source_stamp_ns": 1792302781867852249,
+      "last_source_stamp_ns": 1792302794289907164,
+      "backward_source_steps": 0,
+      "duplicate_source_stamps": 63,
+      "median_positive_dt_ms": 3.957626,
+      "max_positive_dt_ms": 25.525002
+    },
+    "/utlidar/robot_odom": {
+      "messages": 1844,
+      "first_source_stamp_ns": 1792302781898330688,
+      "last_source_stamp_ns": 1792302794290773153,
+      "backward_source_steps": 0,
+      "duplicate_source_stamps": 0,
+      "median_positive_dt_ms": 6.662368,
+      "max_positive_dt_ms": 21.540642
+    },
+    "/utlidar/imu": {
+      "messages": 3045,
+      "first_source_stamp_ns": 1792302781891986131,
+      "last_source_stamp_ns": 1792302794292883872,
+      "backward_source_steps": 0,
+      "duplicate_source_stamps": 0,
+      "median_positive_dt_ms": 4.4840575000000005,
+      "max_positive_dt_ms": 16.479969
+    }
+  },
+  "humble_rosbag_info": "Fails on Jazzy version-9 metadata/QoS representation; raw MCAP independently audited without modifying metadata",
+  "inspection_only_no_playback_or_publish": true,
+  "libraries": {
+    "mcap": "1.5.0",
+    "mcap-ros2-support": "0.5.7",
+    "installation": "Temporary /tmp/doggy_mcap_integrity_tools"
+  }
+}

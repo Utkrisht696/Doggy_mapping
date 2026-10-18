@@ -1,0 +1,283 @@
+{
+  "trace_rows": 2176,
+  "trial_vs_control": {
+    "common_stamps": 2176,
+    "all_pose_values_exactly_equal": false,
+    "max_position_difference_m": 2.5454300320194236,
+    "max_orientation_difference_deg": 16.655313364018447
+  },
+  "accounting": {
+    "max_per_scan_closure_error_deg": 5.088887490341627e-14,
+    "max_phase_sum_minus_heading_deg": 1.4210854715202004e-13,
+    "max_csv_vs_published_orientation_difference_deg": 6.382815161267396e-15,
+    "min_output_minus_scan_stamp_s": 0.05140089988708496,
+    "max_output_minus_scan_stamp_s": 0.06722497940063477
+  },
+  "phase_counts": {
+    "prediction": 1075934,
+    "imu": 41299,
+    "lidar": 1034635
+  },
+  "lidar_successful_updates": 1021378,
+  "prediction_dt": {
+    "negative_steps": 2,
+    "scans_with_negative_dt": 2,
+    "min_s": -0.00020313262939453125,
+    "max_s": 0.009212732315063477,
+    "interpretation": "Negative dt is audited, not automatically classified as erroneous: this implementation backtracks between point-time and IMU-time predictions."
+  },
+  "final_hold_heading_change_deg": {
+    "point_lio": -4.094165573617495,
+    "body_orientation": -2.8416102593417207,
+    "phase_contributions": {
+      "prediction": -2.9183052752367455,
+      "imu": -0.007029566145261233,
+      "lidar": -1.1667684763085098
+    }
+  },
+  "gyro_bias_range_rad_s": {
+    "bgx": [
+      0.0,
+      0.0
+    ],
+    "bgy": [
+      0.0,
+      0.0
+    ],
+    "bgz": [
+      0.0,
+      0.0
+    ]
+  },
+  "snapshots": [
+    {
+      "source_s": 6.027324676,
+      "point_lio_heading_deg": 0.011758701474094968,
+      "body_heading_deg": -0.01437174562389032,
+      "heading_disagreement_deg": 0.026130447097985288,
+      "cumulative_phase_heading_deg": {
+        "prediction": 0.014607950741376705,
+        "imu": 0.00024864756610518807,
+        "lidar": -0.00010740887019655698
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        -0.8769006338172911,
+        -0.3214812528295644
+      ]
+    },
+    {
+      "source_s": 19.972730875,
+      "point_lio_heading_deg": 49.09456155744788,
+      "body_heading_deg": 49.02929087074298,
+      "heading_disagreement_deg": 0.0652706867048991,
+      "cumulative_phase_heading_deg": {
+        "prediction": 49.20462405633155,
+        "imu": 0.0010354569066399987,
+        "lidar": -0.10810746782711547
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        0.5282369735538993,
+        -1.0076052286797548
+      ]
+    },
+    {
+      "source_s": 30.022248268,
+      "point_lio_heading_deg": 103.55110610330372,
+      "body_heading_deg": 104.47163729358022,
+      "heading_disagreement_deg": -0.9205311902764919,
+      "cumulative_phase_heading_deg": {
+        "prediction": 104.45095395355501,
+        "imu": -0.0014155927061487706,
+        "lidar": -0.8954417695819681
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        -0.6151862873650297,
+        0.7597344189980981
+      ]
+    },
+    {
+      "source_s": 40.009201288,
+      "point_lio_heading_deg": 75.3232116975204,
+      "body_heading_deg": 76.73185922854229,
+      "heading_disagreement_deg": -1.4086475310218844,
+      "cumulative_phase_heading_deg": {
+        "prediction": 76.76230293199026,
+        "imu": -0.001992732282988595,
+        "lidar": -1.4341080142236793
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        -0.9200561863347115,
+        -0.45989301298109725
+      ]
+    },
+    {
+      "source_s": 52.527729749,
+      "point_lio_heading_deg": 0.24328022543224825,
+      "body_heading_deg": 1.7820407265275549,
+      "heading_disagreement_deg": -1.5387605010953065,
+      "cumulative_phase_heading_deg": {
+        "prediction": 1.8629759316270362,
+        "imu": -0.0033597782602938385,
+        "lidar": -1.6133454399712888
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        -0.9090556146884115,
+        -0.8779223977864575
+      ]
+    },
+    {
+      "source_s": 56.029701471,
+      "point_lio_heading_deg": -41.63772712647531,
+      "body_heading_deg": -39.549830124599,
+      "heading_disagreement_deg": -2.087897001876314,
+      "cumulative_phase_heading_deg": {
+        "prediction": -39.51695041757038,
+        "imu": -0.0034636802760232444,
+        "lidar": -2.114322540665696
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        0.920504791226082,
+        -2.7739341455074413
+      ]
+    },
+    {
+      "source_s": 69.969209432,
+      "point_lio_heading_deg": -107.73363219901756,
+      "body_heading_deg": -106.1808717835803,
+      "heading_disagreement_deg": -1.5527604154372625,
+      "cumulative_phase_heading_deg": {
+        "prediction": -106.15208952707249,
+        "imu": -0.002254340633866473,
+        "lidar": -1.5762978433479973
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        2.464742329191133,
+        -4.759967474434898
+      ]
+    },
+    {
+      "source_s": 90.006709575,
+      "point_lio_heading_deg": -138.1662380814877,
+      "body_heading_deg": -136.2668911224369,
+      "heading_disagreement_deg": -1.8993469590508028,
+      "cumulative_phase_heading_deg": {
+        "prediction": -136.3794273886969,
+        "imu": -0.0053345434975986105,
+        "lidar": -1.7784856613299995
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        2.335981310984476,
+        -1.5337222840449318
+      ]
+    },
+    {
+      "source_s": 109.976278066,
+      "point_lio_heading_deg": -133.39243785344019,
+      "body_heading_deg": -132.27902166472742,
+      "heading_disagreement_deg": -1.1134161887127618,
+      "cumulative_phase_heading_deg": {
+        "prediction": -132.40262435324175,
+        "imu": -0.007506036170388022,
+        "lidar": -0.9793169760648945
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        2.3477634336239945,
+        -3.1738877497966826
+      ]
+    },
+    {
+      "source_s": 130.010220289,
+      "point_lio_heading_deg": -18.21896587842034,
+      "body_heading_deg": -17.036202622999056,
+      "heading_disagreement_deg": -1.1827632554212855,
+      "cumulative_phase_heading_deg": {
+        "prediction": -17.064675575090178,
+        "imu": -0.008207525790683096,
+        "lidar": -1.1430922895763291
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        -0.9785499621089239,
+        -2.2860954439305416
+      ]
+    },
+    {
+      "source_s": 140.002700328,
+      "point_lio_heading_deg": -4.102203095671857,
+      "body_heading_deg": -2.8500662232820133,
+      "heading_disagreement_deg": -1.252136872389844,
+      "cumulative_phase_heading_deg": {
+        "prediction": -2.9294560404561523,
+        "imu": -0.007050232532471194,
+        "lidar": -1.1627063347200828
+      },
+      "gyro_bias_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tilt_deg": [
+        -0.7788007569488609,
+        -1.2065563867117302
+      ]
+    }
+  ],
+  "protected_active_and_baseline_files_unchanged": true,
+  "source_bag_files_unchanged": true,
+  "limits": [
+    "Heading components are sums of local Euler yaw changes for each filter operation, not independent physical rotations. They identify algorithmic changes without establishing which correction is physically correct.",
+    "Body orientation shares the same body IMU. No independent surveyed yaw reference.",
+    "Only final per-scan state is retained; transient bias/state changes within each scan are not captured.",
+    "Pre-update innovation values are RMS vector norms aggregated per scan, not per-axis innovations.",
+    "This private trial changes only gyro measurement variance from 0.1 to 0.001; no active source/config changes are included."
+  ]
+}

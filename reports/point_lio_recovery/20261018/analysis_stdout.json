@@ -1,0 +1,124 @@
+{
+  "returns": {
+    "point_lio": {
+      "horizontal_return_offset_m": 0.5862852712169435,
+      "height_return_change_m": -0.03223655555258847,
+      "return_3d_offset_m": 0.587170856531402,
+      "heading_return_change_deg": -6.700513588541602,
+      "full_orientation_change_deg": 6.710423940372817,
+      "relative_pose_translation_start_imu_axes_m": [
+        -0.3946910837227666,
+        0.4334427800479439,
+        -0.033405383007501475
+      ],
+      "relative_pose_quaternion_xyzw": [
+        0.0019386163673008388,
+        0.002866552506484616,
+        0.05842363534807111,
+        -0.9982858826388479
+      ],
+      "delta_map_axes_xyz_m": [
+        -0.3926423489210973,
+        0.435387649204302,
+        -0.03223655555258847
+      ]
+    },
+    "vendor": {
+      "horizontal_return_offset_m": 1.0830846544554424,
+      "height_return_change_m": -0.0012020191448669504,
+      "return_3d_offset_m": 1.0830853214622058,
+      "heading_return_change_deg": -7.109887986380972,
+      "full_orientation_change_deg": 7.152100395299667,
+      "relative_pose_translation_start_imu_axes_m": [
+        0.6065371913778992,
+        -0.8973201037086647,
+        0.001755141752302498
+      ],
+      "relative_pose_quaternion_xyzw": [
+        -0.006734204414627792,
+        0.0005911569980608162,
+        -0.06200591960404963,
+        0.998052887856331
+      ],
+      "delta_map_axes_xyz_m": [
+        -0.4364619298898318,
+        -0.9912483808176984,
+        -0.0012020191448669504
+      ]
+    }
+  },
+  "travel": {
+    "point_lio": {
+      "smoothed_observed_path_excluding_gaps_m": 63.23138579993381,
+      "straight_chord_lengths_across_gaps_m": [
+        0.20965481843523984,
+        0.9934687656256845
+      ],
+      "method": "Separate contiguous segments, 0.1 s resampling, Gaussian sigma 0.2 s. Gaps >0.15 s are excluded. This is estimator-derived travel, not surveyed distance."
+    },
+    "vendor": {
+      "smoothed_observed_path_excluding_gaps_m": 52.77736978338491,
+      "straight_chord_lengths_across_gaps_m": [
+        0.1545546997253103,
+        0.8684453867851594
+      ],
+      "method": "Separate contiguous segments, 0.1 s resampling, Gaussian sigma 0.2 s. Gaps >0.15 s are excluded. This is estimator-derived travel, not surveyed distance."
+    }
+  },
+  "health": {
+    "pose_count": 3249,
+    "first_pose_s": 2.394764423,
+    "last_pose_s": 217.299943685,
+    "nonfinite_pose_values": 0,
+    "nonincreasing_pose_stamps": 0,
+    "average_rate_including_gaps_hz": 15.113642263782884,
+    "median_contiguous_rate_hz": 15.413350137584859,
+    "contiguous_dt_s": {
+      "median": 0.06487882199999717,
+      "p95": 0.0660056475000026,
+      "p99": 0.0666010981500051,
+      "max": 0.06999397299998122
+    },
+    "contiguous_translation_steps_m": {
+      "median": 0.024435230569465193,
+      "p95": 0.039433755729414946,
+      "p99": 0.046585106620581955,
+      "max": 0.07343904728858404
+    },
+    "contiguous_rotation_steps_deg": {
+      "median": 0.829473095648747,
+      "p95": 4.045646371914822,
+      "p99": 4.659481441758935,
+      "max": 5.956966462201967
+    },
+    "contiguous_steps_over_15cm_count": 0,
+    "contiguous_steps_over_5deg_count": 12,
+    "recording_gap_pose_changes": [
+      {
+        "before_source_s": 28.118704557,
+        "after_source_s": 28.57221818,
+        "dt_s": 0.4535136229999992,
+        "lio_pose_change_m": 0.20965481843523984,
+        "lio_rotation_change_deg": 1.8609821586029156
+      },
+      {
+        "before_source_s": 44.381457567,
+        "after_source_s": 48.464674473,
+        "dt_s": 4.083216906000004,
+        "lio_pose_change_m": 0.9934687656256845,
+        "lio_rotation_change_deg": 50.603272005799646
+      }
+    ],
+    "tf_full_pose_stamp_match": true,
+    "tf_missing_pose_count": 0,
+    "tf_extra_stamp_count": 0
+  },
+  "floor": {
+    "common_15cm_cells": 267,
+    "method": "Unadjusted map XY cells, >=5 points each, within 3 m and .15-.9 m below original IMU. Assumes sufficient horizontal correspondence; not absolute height accuracy.",
+    "median_signed_difference_m": -0.021803855895996094,
+    "median_absolute_difference_m": 0.025260761380195618,
+    "p90_absolute_difference_m": 0.05197678506374359
+  },
+  "registration_disagreement": {}
+}

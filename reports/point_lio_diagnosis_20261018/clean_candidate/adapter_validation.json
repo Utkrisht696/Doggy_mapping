@@ -1,0 +1,12 @@
+{
+  "recording": "spinny",
+  "source_messages": 154054,
+  "converted_imu_samples": 22828,
+  "identical_duplicate_stamps_dropped": 389,
+  "all_numeric_measurements_exactly_match_independent_replay_preparation": true,
+  "all_source_timestamps_exactly_preserved": true,
+  "frame_id": "imu",
+  "vendor_orientation_marked_unavailable": true,
+  "gyro_and_acc_covariance_unknown_not_fabricated": true,
+  "invalid_gain_profiles_rejected": true
+}

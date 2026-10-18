@@ -1,0 +1,8 @@
+{
+  "illustrative_unique_samples": 60,
+  "old_measurement_applications": 120,
+  "corrected_measurement_applications": 60,
+  "code_evidence": "sync_packages calls shrink_to_fit, which does not clear the vector, then appends; IMU_init loops over the whole retained vector each time.",
+  "example_batch_size": 20,
+  "not_a_claim_of_exact_runtime_batch_counts": true
+}

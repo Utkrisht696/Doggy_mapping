@@ -1,0 +1,236 @@
+{
+  "only_estimator_change": "crossmat_list.reserve and pbody_list.reserve changed to resize",
+  "initializer_timing_calibration_noise_unchanged": true,
+  "saved_baseline": "/home/jain/Doggy/reports/bag_comparisons/wander_comeback_20261018/wander_soft_turn_comeback/run_01",
+  "cases": {
+    "saved_baseline": {
+      "return_check": {
+        "horizontal_displacement_m": 3.510261418141651,
+        "height_change_m": -0.43261989306372595,
+        "heading_change_deg": 0.27791133450572164,
+        "delta_xyz_m": [
+          -2.6523478133601537,
+          2.2993447546328163,
+          -0.43261989306372595
+        ],
+        "full_orientation_change_deg": 1.8141306008295508
+      },
+      "vendor_return_check": {
+        "horizontal_displacement_m": 0.7054736599718996,
+        "height_change_m": 0.00011344809120050758,
+        "heading_change_deg": -2.844551712544252,
+        "delta_xyz_m": [
+          0.6029807582122735,
+          0.366206622195584,
+          0.00011344809120050758
+        ],
+        "full_orientation_change_deg": 2.8543524039624604
+      },
+      "health": {
+        "poses": 2176,
+        "first_pose_source_s": 0.84030509,
+        "last_pose_source_s": 141.88373208,
+        "nonfinite_values": 0,
+        "nonincreasing_stamps": 0,
+        "median_contiguous_rate_hz": 15.403133268402412,
+        "contiguous_position_step_m": {
+          "median": 0.0203327750681778,
+          "p95": 0.03818991994987495,
+          "p99": 0.044542751797233895,
+          "max": 0.0562782075387092
+        },
+        "contiguous_rotation_step_deg": {
+          "median": 0.8131934819418425,
+          "p95": 2.070685890287834,
+          "p99": 2.6053042294043944,
+          "max": 3.3122320913921435
+        },
+        "output_gaps_over_150ms": [],
+        "missing_exact_stamp_tf": 0,
+        "reseed_events": 0,
+        "resume_events": 0,
+        "probation_events": 0
+      },
+      "delivery": {
+        "cloud_exact": true,
+        "imu_exact": true
+      },
+      "quiet_windows": [
+        [
+          0.89030509,
+          6.057172143000001
+        ],
+        [
+          137.05717214300003,
+          141.557172143
+        ]
+      ]
+    },
+    "fresh_control": {
+      "return_check": {
+        "horizontal_displacement_m": 3.510261418141651,
+        "height_change_m": -0.43261989306372595,
+        "heading_change_deg": 0.27791133450572164,
+        "delta_xyz_m": [
+          -2.6523478133601537,
+          2.2993447546328163,
+          -0.43261989306372595
+        ],
+        "full_orientation_change_deg": 1.8141306008295508
+      },
+      "vendor_return_check": {
+        "horizontal_displacement_m": 0.7054736599718996,
+        "height_change_m": 0.00011344809120050758,
+        "heading_change_deg": -2.844551712544252,
+        "delta_xyz_m": [
+          0.6029807582122735,
+          0.366206622195584,
+          0.00011344809120050758
+        ],
+        "full_orientation_change_deg": 2.8543524039624604
+      },
+      "health": {
+        "poses": 2176,
+        "first_pose_source_s": 0.84030509,
+        "last_pose_source_s": 141.88373208,
+        "nonfinite_values": 0,
+        "nonincreasing_stamps": 0,
+        "median_contiguous_rate_hz": 15.403133268402412,
+        "contiguous_position_step_m": {
+          "median": 0.0203327750681778,
+          "p95": 0.03818991994987495,
+          "p99": 0.044542751797233895,
+          "max": 0.0562782075387092
+        },
+        "contiguous_rotation_step_deg": {
+          "median": 0.8131934819418425,
+          "p95": 2.070685890287834,
+          "p99": 2.6053042294043944,
+          "max": 3.3122320913921435
+        },
+        "output_gaps_over_150ms": [],
+        "missing_exact_stamp_tf": 0,
+        "reseed_events": 0,
+        "resume_events": 0,
+        "probation_events": 0
+      },
+      "delivery": {
+        "cloud_exact": true,
+        "imu_exact": true
+      },
+      "quiet_windows": [
+        [
+          0.89030509,
+          6.057172143000001
+        ],
+        [
+          137.05717214300003,
+          141.557172143
+        ]
+      ]
+    },
+    "cache_fix": {
+      "return_check": {
+        "horizontal_displacement_m": 3.510261418141651,
+        "height_change_m": -0.43261989306372595,
+        "heading_change_deg": 0.27791133450572164,
+        "delta_xyz_m": [
+          -2.6523478133601537,
+          2.2993447546328163,
+          -0.43261989306372595
+        ],
+        "full_orientation_change_deg": 1.8141306008295508
+      },
+      "vendor_return_check": {
+        "horizontal_displacement_m": 0.7054736599718996,
+        "height_change_m": 0.00011344809120050758,
+        "heading_change_deg": -2.844551712544252,
+        "delta_xyz_m": [
+          0.6029807582122735,
+          0.366206622195584,
+          0.00011344809120050758
+        ],
+        "full_orientation_change_deg": 2.8543524039624604
+      },
+      "health": {
+        "poses": 2176,
+        "first_pose_source_s": 0.84030509,
+        "last_pose_source_s": 141.88373208,
+        "nonfinite_values": 0,
+        "nonincreasing_stamps": 0,
+        "median_contiguous_rate_hz": 15.403133268402412,
+        "contiguous_position_step_m": {
+          "median": 0.0203327750681778,
+          "p95": 0.03818991994987495,
+          "p99": 0.044542751797233895,
+          "max": 0.0562782075387092
+        },
+        "contiguous_rotation_step_deg": {
+          "median": 0.8131934819418425,
+          "p95": 2.070685890287834,
+          "p99": 2.6053042294043944,
+          "max": 3.3122320913921435
+        },
+        "output_gaps_over_150ms": [],
+        "missing_exact_stamp_tf": 0,
+        "reseed_events": 0,
+        "resume_events": 0,
+        "probation_events": 0
+      },
+      "delivery": {
+        "cloud_exact": true,
+        "imu_exact": true
+      },
+      "quiet_windows": [
+        [
+          0.89030509,
+          6.057172143000001
+        ],
+        [
+          137.05717214300003,
+          141.557172143
+        ]
+      ]
+    }
+  },
+  "paired_pose_comparison": {
+    "fix_vs_control": {
+      "common_pose_stamps": 2176,
+      "pose_values_exactly_equal": true,
+      "max_pose_position_difference_m": 0.0,
+      "p95_pose_position_difference_m": 0.0,
+      "max_pose_orientation_difference_deg": 6.411383366189122e-15,
+      "fix_first_last_only_difference_not_surveyed_accuracy": true
+    },
+    "control_vs_saved": {
+      "common_pose_stamps": 2176,
+      "pose_values_exactly_equal": true,
+      "max_pose_position_difference_m": 0.0,
+      "p95_pose_position_difference_m": 0.0,
+      "max_pose_orientation_difference_deg": 6.411383366189122e-15,
+      "fix_first_last_only_difference_not_surveyed_accuracy": true
+    },
+    "fix_vs_saved": {
+      "common_pose_stamps": 2176,
+      "pose_values_exactly_equal": true,
+      "max_pose_position_difference_m": 0.0,
+      "p95_pose_position_difference_m": 0.0,
+      "max_pose_orientation_difference_deg": 6.411383366189122e-15,
+      "fix_first_last_only_difference_not_surveyed_accuracy": true
+    }
+  },
+  "protected_active_and_baseline_files_unchanged": true,
+  "protected_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+    "reports/point_lio_recovery/20261018/src/point_lio/src/laserMapping.cpp": "0fb6e4cc15aba90e088c01a6af1cef041906507f742ab1132438f93c243a910a",
+    "reports/point_lio_recovery/20261018/install/point_lio/lib/point_lio/pointlio_mapping": "aa3065c54b41504130501728ad4dc4a93837b70358362b1898749221a5600824"
+  },
+  "original_bag_files_unchanged": true,
+  "scope": "Isolated fixed-cache trial and fresh unchanged control on the same full soft-turn recording at 1x. Return offsets use user approximate physical return reference, not surveyed ground truth."
+}

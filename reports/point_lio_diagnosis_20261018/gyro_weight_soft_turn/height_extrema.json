@@ -1,0 +1,10 @@
+{
+  "control": {
+    "minimum_height_change_m": -0.47604544811814453,
+    "maximum_height_change_m": 0.008529703272912758
+  },
+  "gyro_weight": {
+    "minimum_height_change_m": -0.5203792918992227,
+    "maximum_height_change_m": 0.005167986179260615
+  }
+}

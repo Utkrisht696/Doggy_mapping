@@ -1,0 +1,35 @@
+{
+  "source_origin_ns": 1792314342848279476,
+  "duration_source_s": 141.857172143,
+  "method": "Candidate stationary windows: 0.1s grid, smoothed vendor position speed <0.05m/s, body gyro RMS <0.08rad/s, yaw rate <5deg/s; >=1.8s, trimmed 0.3s. Actual acquisition holes excluded. These identify pauses, not surveyed poses.",
+  "holds": [
+    {
+      "index": 0,
+      "source_window_s": [
+        0.357172143,
+        6.057172143000001
+      ],
+      "vendor_body_median_xyz_m": [
+        -2.3069844245910645,
+        9.214325904846191,
+        0.3140754848718643
+      ],
+      "vendor_body_yaw_deg": -104.63781828454174,
+      "vendor_position_p95_radius_m": 0.0001609892994781342
+    },
+    {
+      "index": 1,
+      "source_window_s": [
+        137.05717214300003,
+        141.557172143
+      ],
+      "vendor_body_median_xyz_m": [
+        -1.7050801515579224,
+        9.580803871154785,
+        0.3142135590314865
+      ],
+      "vendor_body_yaw_deg": -107.48548516912113,
+      "vendor_position_p95_radius_m": 0.000411055065201868
+    }
+  ]
+}

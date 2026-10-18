@@ -1,0 +1,39 @@
+{
+  "stationary_near_body_points": 55794,
+  "inside_urdf_collision_plus_25mm": 566,
+  "per_link": [
+    {
+      "link": "RL_calf",
+      "points": 38
+    },
+    {
+      "link": "RL_calflower",
+      "points": 213
+    },
+    {
+      "link": "RL_calflower1",
+      "points": 167
+    },
+    {
+      "link": "RL_foot",
+      "points": 113
+    },
+    {
+      "link": "RR_calf",
+      "points": 68
+    },
+    {
+      "link": "RR_calflower",
+      "points": 217
+    },
+    {
+      "link": "RR_calflower1",
+      "points": 221
+    },
+    {
+      "link": "RR_foot",
+      "points": 94
+    }
+  ],
+  "joint_pose_source": "first recorded JointState; static diagnostic only"
+}

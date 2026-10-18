@@ -1,0 +1,42 @@
+{
+  "frame": "odom",
+  "scans": 2074,
+  "voxels": 225438,
+  "clipped_points": 0,
+  "capacity_drops": 0,
+  "provisional_thresholds": true,
+  "config": {
+    "resolution": 0.05,
+    "vertical_resolution": 0.03,
+    "terrain_cell_size": 0.25,
+    "min_observations": 2,
+    "sensor_range": 10.0,
+    "max_extent": 80.0,
+    "max_voxels": 600000,
+    "ground_tolerance": 0.08,
+    "obstacle_min_height": 0.15,
+    "obstacle_max_height": 1.0,
+    "slope_cost_start_deg": 8.0,
+    "slope_block_deg": 20.0,
+    "roughness_cost_start": 0.02,
+    "roughness_block": 0.06,
+    "step_height": 0.12,
+    "ground_connect_slope_deg": 40.0,
+    "seed_min_below_imu": 0.15,
+    "seed_max_below_imu": 0.85,
+    "seed_radius": 1.25,
+    "fit_radius": 2,
+    "fit_min_cells": 6
+  },
+  "preprocessing": {
+    "robot_self_filter": "URDF primitive collision volumes at source scan time",
+    "padding_m": 0.025,
+    "removed_points": 2071,
+    "skipped_scans_missing_model_or_joints": 0,
+    "joint_sample_modes": {
+      "exact": 0,
+      "interpolated": 2074,
+      "bounded_past": 0
+    }
+  }
+}

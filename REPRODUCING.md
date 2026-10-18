@@ -1,6 +1,6 @@
 # Restoring and running this workspace snapshot
 
-This is a source/configuration and evidence snapshot of the existing laptop setup. It is not a portable system image or an installer for a fresh computer. Existing runtime scripts and calibration were preserved unchanged for this publication. Several launches and report utilities contain `/home/jain/Doggy` paths; the tested commands below assume that location. Calibration values belong to the tested Go2 Pro X.
+This is a source/configuration and evidence snapshot of the existing laptop setup. It is not a portable system image or an installer for a fresh computer. The body gyro calibration and Point-LIO profile were updated after independent heading checks on 18 October 2026. Several launches and report utilities contain `/home/jain/Doggy` paths; the tested commands below assume that location. Calibration values belong to the tested Go2 Pro X.
 
 ## Source dependencies
 
@@ -14,6 +14,15 @@ cp reports/patches/VoxelMapCompressed.msg sdk/unitree_ros2/cyclonedds_ws/src/uni
 ```
 
 On the original laptop that patch is already applied. Do not apply it twice. The custom message definitions and official description wrapper in `ros2_ws/src` are tracked, including relative symlinks to their pinned dependencies. Upstream SDK code is retained under its original licenses.
+
+Point-LIO also has a local patch, preserved independently because its source is a submodule. On a fresh checkout, apply it before building:
+
+```bash
+git -C third_party/point_lio_ros2 apply --check ../../reports/patches/point_lio_heading_20261018.patch
+git -C third_party/point_lio_ros2 apply ../../reports/patches/point_lio_heading_20261018.patch
+```
+
+It is already applied on the original laptop. The patch fixes initialization/cache handling and adds `mapping.gyro_bias_initial_variance`; the reviewed profile requires the rebuilt executable. Source/build evidence and reversible originals are under `reports/point_lio_diagnosis_20261018/deployment`.
 
 ## Original laptop prerequisites
 
@@ -46,11 +55,22 @@ export CYCLONEDDS_URI="$PWD/config/point_lio/cyclonedds_live.xml"
 python3 -u scripts/publish_body_imu.py --calibration-file config/point_lio/body_imu_calibration.json
 ```
 
-This uses the body IMU from SportModeState, preserves source timestamps, subtracts the approved fixed accelerometer/gyro biases, and publishes `/doggy/imu/body_calibrated` in developer frame `imu`. It does not publish TF or send robot commands. The original LiDAR IMU is not repaired or selected.
+This uses the body IMU from SportModeState, preserves source timestamps, subtracts the approved fixed accelerometer/gyro biases, applies the measured gyro Z gain, and publishes `/doggy/imu/body_calibrated` in developer frame `imu`. The uncalibrated vendor fused quaternion is marked unavailable with `orientation_covariance[0] = -1`; acceleration and gyro covariance remain unknown. It does not publish TF or send robot commands. The original LiDAR IMU is not repaired or selected.
 
-## Exact successful mapping trial
+## Current standalone mapping profile
 
-Keep the robot stationary for initialization. The successful test uses the retained 4000-point override, rather than the base profile's older value of 10:
+The shared YAML now contains the validated 4000-point initialization and heading profile. After starting the sensor bringup and exactly one calibrated-IMU adapter above, run:
+
+```bash
+cd /home/jain/Doggy
+bash scripts/start_point_lio.sh start_mapping:=true rviz:=true
+```
+
+Keep the robot stationary for initialization. This older launch still uses vendor odometry for the local body TF and bridges Point-LIO into `map -> odom`; the mapper itself has no vendor-odometry aid. For the newer Point-LIO-only local TF and terrain pipeline, follow [LIVE_2D_MAPPING.md](LIVE_2D_MAPPING.md), without running both bringups together. Both current launches read the same calibrated profile.
+
+## Historical successful mapping trial
+
+The original 16 October test used the retained 4000-point override. This command now loads the updated shared profile, so it does not reproduce historical numerical outputs exactly:
 
 ```bash
 cd /home/jain/Doggy
@@ -63,15 +83,15 @@ ros2 launch "$PWD/reports/point_lio_steps/step_07_live_test/accuracy_20261016T22
 
 This launch starts Point-LIO, its map/odom TF bridge and RViz. Closing one launch component closes the launch. It does not start sensors, the IMU adapter, a rosbag recorder or any robot motion controller. The retained supervisor scripts document the recorded tests; they use per-run pointers/PID files and are not general launch wrappers.
 
-`scripts/start_point_lio.sh` remains the original preview/mapping wrapper. Its default is preview, and its base profile does not automatically select the successful trial override. No default application parameter was changed solely for publication.
+`scripts/start_point_lio.sh` defaults to preview. Its current shared profile includes the validated 4000-point initialization.
 
 ## What was calibrated and checked
 
-- Fixed body accelerometer bias from five held poses, gyro bias from a separate quiet baseline; not full scale, misalignment, temperature or dynamic calibration.
+- Fixed body accelerometer bias from five held poses, gyro bias from a separate quiet baseline, and body gyro Z gain from independent quiet-wall registration on an earlier spin bag. The fixed gain was validated on a separate CW/CCW bag; it is not a full three-axis scale, misalignment or temperature calibration.
 - LiDAR-to-body-IMU extrinsics from vendor raw/body point correspondences composed with the developer mount. This is topic-derived geometry, not a surveyed physical mount.
 - Original source clock and per-point times preserved; sample coverage, adapter delivery and TF composition checked. Physical LiDAR/cloud acquisition lag was not conclusively calibrated; configured offset remains zero.
 - Reliable adapter subscription, larger DDS receive buffers and user-selected Performance mode removed the tested delivery backlog. Larger startup map improved initialization.
-- Incoming covariance remains unknown; Point-LIO uses its configured noise values. Upstream source remains unchanged.
+- Acceleration/gyro message covariance remains unknown; vendor orientation is marked unavailable. Point-LIO uses configured gyro variance `0.0001` and holds additional gyro bias at zero after adapter calibration. Upstream Point-LIO has the minimal local patch described above; developer URDF and extrinsics remain unchanged.
 
 ## Data and evidence
 

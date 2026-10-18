@@ -42,8 +42,10 @@ bash scripts/start_live_2d.sh
 ```
 
 Add `rviz:=false` for headless operation. This launch starts no robot movement
-controller or command publisher. The body-IMU calibration and LiDAR extrinsics
-are retained, with the previously successful `init_map_size: 4000` override.
+controller or command publisher. The shared body-IMU calibration/profile now
+includes the independently checked 18 October gyro Z gain and fixed residual
+gyro bias, with `init_map_size: 4000`; LiDAR extrinsics remain unchanged. See the
+[heading validation report](reports/point_lio_diagnosis_20261018/FINAL_REPORT.md).
 The sensor clock comes from calibrated IMU timestamps and does not depend on
 vendor odometry or Point-LIO outputs.
 

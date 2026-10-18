@@ -1,0 +1,198 @@
+{
+  "repository_commit": "c3158fcef41532fc5dc754e5838b0dfdecb5506a",
+  "default_corrected_vendor": {
+    "yaw_scale": 0.9814,
+    "samples": 31905,
+    "horizontal_return_offset_m": 0.15450801407602935,
+    "height_return_change_m": -0.0012006111808770537,
+    "heading_return_change_deg": -6.977806092718894,
+    "full_orientation_change_deg": 7.020722869288994,
+    "holds": {
+      "start": {
+        "median_position_imu_m": [
+          1.622583323622295,
+          0.9473671517240116,
+          0.35674195330435227
+        ],
+        "orientation_xyzw": [
+          0.0020866089683733114,
+          -0.007957592103598365,
+          -0.4838062435790681,
+          0.8751364701946993
+        ],
+        "p95_position_radius_m": 8.31130387346373e-05
+      },
+      "finish": {
+        "median_position_imu_m": [
+          1.5538454739159162,
+          0.8089914514314323,
+          0.3555413421234752
+        ],
+        "orientation_xyzw": [
+          0.003030723686809621,
+          0.004039353937558943,
+          0.5362076881796418,
+          -0.8440709765598776
+        ],
+        "p95_position_radius_m": 0.0001331842055213286
+      }
+    }
+  },
+  "raw_vendor": {
+    "yaw_scale": 1.0,
+    "samples": 31905,
+    "horizontal_return_offset_m": 1.083085077676887,
+    "height_return_change_m": -0.0012006111808770537,
+    "heading_return_change_deg": -7.110052908612228,
+    "full_orientation_change_deg": 7.152315852327897,
+    "holds": {
+      "start": {
+        "median_position_imu_m": [
+          1.6225529593712553,
+          0.9473397626705499,
+          0.35674195330435227
+        ],
+        "orientation_xyzw": [
+          0.0020900836374861,
+          -0.007956680225423396,
+          -0.4834240551762498,
+          0.8753476484615293
+        ],
+        "p95_position_radius_m": 8.313354229414207e-05
+      },
+      "finish": {
+        "median_position_imu_m": [
+          1.1860836453528336,
+          -0.04390582920193682,
+          0.3555413421234752
+        ],
+        "orientation_xyzw": [
+          0.0030336207835569796,
+          0.004037178170322009,
+          0.5368130910875883,
+          -0.8436860811785099
+        ],
+        "p95_position_radius_m": 0.00013264831997399754
+      }
+    },
+    "identity_callback_matches_original_pose_max_absolute_difference": 5.906386491005833e-14
+  },
+  "optional_guarded_hybrid": {
+    "horizontal_return_offset_m": 0.886801549179214,
+    "height_return_change_m": -0.0012006111808770537,
+    "heading_return_change_deg": -5.99844444353984,
+    "full_orientation_change_deg": 6.047090078463133,
+    "holds": {
+      "start": {
+        "window_s": [
+          2.6,
+          3.6
+        ],
+        "samples": 148,
+        "correction_applied": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_position_imu_m": [
+          1.6225529593712553,
+          0.9473397626705499,
+          0.35674195330435227
+        ],
+        "mean_quaternion_xyzw": [
+          0.0020900836374861064,
+          -0.007956680225423618,
+          -0.48342405517624903,
+          0.8753476484615297
+        ],
+        "p95_position_radius_m": 8.313354229414207e-05
+      },
+      "finish": {
+        "window_s": [
+          210.0,
+          216.0
+        ],
+        "samples": 897,
+        "correction_applied": [
+          0.7962790819900158,
+          0.1579792869854706,
+          0.019401227708556235
+        ],
+        "median_position_imu_m": [
+          1.9829911388914443,
+          0.13709208055672498,
+          0.3555413421234752
+        ],
+        "mean_quaternion_xyzw": [
+          0.0029943155576490003,
+          0.004066415740990648,
+          0.5286036891882279,
+          -0.8488537200919591
+        ],
+        "p95_position_radius_m": 0.00013284458447703664
+      }
+    },
+    "height_is_vendor_pass_through": true
+  },
+  "guard": {
+    "accepted": 69,
+    "rejected": 290,
+    "unmatched": 0,
+    "first_lio_source_s": 4.273710251,
+    "first_rejection_source_s": 48.594155073,
+    "last_accepted_source_s": 44.122184038,
+    "last_lio_source_s": 217.169931173,
+    "final_correction": [
+      0.7962790819900158,
+      0.1579792869854706,
+      0.019401227708556235
+    ],
+    "events_after_44s": {
+      "accepted": 1,
+      "rejected": 290
+    },
+    "bridge_source_messages": 31901,
+    "source_messages_total": 31905,
+    "bridge_missing_vendor_source_times_s": [
+      0.019450664,
+      0.027157545,
+      0.032807588,
+      48.281332016
+    ]
+  },
+  "straight_distance_checks": {
+    "classic": {
+      "raw": {
+        "3.0m": 2.704616203844741,
+        "5.0m": 4.5320994439579
+      },
+      "corrected": {
+        "3.0m": 2.7046121234408043,
+        "5.0m": 4.532130632350315
+      }
+    },
+    "default": {
+      "raw": {
+        "3.0m": 2.4509826438176265,
+        "5.0m": 4.275985829832221
+      },
+      "corrected": {
+        "3.0m": 2.4510191757347135,
+        "5.0m": 4.276187517247198
+      }
+    },
+    "nromal-np": {
+      "raw": {
+        "3.0m": 2.6567581067031845,
+        "5.0m": 4.4989142620545035
+      },
+      "corrected": {
+        "3.0m": 2.656783466750265,
+        "5.0m": 4.498937635978868
+      }
+    }
+  },
+  "optional_observer_interrupted": true,
+  "optional_endpoint_recovery_method": "The original bridge finished processing the bag, but its separate observer was interrupted before saving pose arrays. Exact start/end output is recovered by calling original on_odom with saved accepted correction M (identity at start, constant final M during the finish hold). Every source vendor message in both endpoint windows was received by the bridge. No complete LIO/hybrid trajectory is claimed.",
+  "application_unchanged": true
+}

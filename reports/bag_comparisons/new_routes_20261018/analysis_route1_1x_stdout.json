@@ -1,0 +1,137 @@
+{
+  "bag": "measured_route_1",
+  "straight_checks": [
+    {
+      "nominal_distance_m": 5.0,
+      "route_assignment": "user-confirmed straight sequence",
+      "start_hold": 0,
+      "far_hold": 1,
+      "return_hold": null,
+      "point_lio": {
+        "horizontal_displacement_m": 5.032957111282058,
+        "height_change_m": -0.0604973273107276,
+        "heading_change_deg": -2.7191452348435443,
+        "delta_xyz_m": [
+          5.030546610361224,
+          0.1557500721920759,
+          -0.0604973273107276
+        ],
+        "full_orientation_change_deg": 2.7203763000498076,
+        "nominal_difference_m": 0.032957111282057916,
+        "nominal_difference_percent": 0.6591422256411583
+      },
+      "vendor": {
+        "horizontal_displacement_m": 4.454740333608343,
+        "height_change_m": -0.00030337088596399386,
+        "heading_change_deg": -2.3914098957859267,
+        "delta_xyz_m": [
+          3.831206047166874,
+          2.2730093849407984,
+          -0.00030337088596399386
+        ],
+        "full_orientation_change_deg": 2.417834959858765,
+        "nominal_difference_m": -0.5452596663916571,
+        "nominal_difference_percent": -10.905193327833143
+      }
+    },
+    {
+      "nominal_distance_m": 10.0,
+      "route_assignment": "user-confirmed straight sequence",
+      "start_hold": 0,
+      "far_hold": 2,
+      "return_hold": null,
+      "point_lio": {
+        "horizontal_displacement_m": 10.175400327164231,
+        "height_change_m": -0.1837789093629067,
+        "heading_change_deg": -3.086047033960873,
+        "delta_xyz_m": [
+          10.17455383137355,
+          0.13124843060299857,
+          -0.1837789093629067
+        ],
+        "full_orientation_change_deg": 3.509245190742496,
+        "nominal_difference_m": 0.17540032716423148,
+        "nominal_difference_percent": 1.7540032716423148
+      },
+      "vendor": {
+        "horizontal_displacement_m": 8.971614766124523,
+        "height_change_m": -0.0004490317714060388,
+        "heading_change_deg": -0.9992038790071164,
+        "delta_xyz_m": [
+          7.808078057125087,
+          4.418573136837876,
+          -0.0004490317714060388
+        ],
+        "full_orientation_change_deg": 1.1867842451938173,
+        "nominal_difference_m": -1.0283852338754773,
+        "nominal_difference_percent": -10.283852338754773
+      }
+    }
+  ],
+  "endpoints": {
+    "point_lio": {
+      "horizontal_displacement_m": 6.804586610712357,
+      "height_change_m": -0.31120272814093075,
+      "heading_change_deg": 19.314405447912232,
+      "delta_xyz_m": [
+        6.160184797652746,
+        -2.890419035616442,
+        -0.31120272814093075
+      ],
+      "full_orientation_change_deg": 19.3379782827983
+    },
+    "vendor": {
+      "horizontal_displacement_m": 3.5538241700253033,
+      "height_change_m": -0.00047474128894470224,
+      "heading_change_deg": -42.3166632908691,
+      "delta_xyz_m": [
+        -1.1747519225009526,
+        3.354045937675325,
+        -0.00047474128894470224
+      ],
+      "full_orientation_change_deg": 42.32212965111536
+    }
+  },
+  "health": {
+    "poses": 5422,
+    "first_pose_source_s": 0.840553522,
+    "last_pose_source_s": 352.804952621,
+    "nonfinite_values": 0,
+    "nonincreasing_stamps": 0,
+    "median_contiguous_rate_hz": 15.39764819092346,
+    "contiguous_position_step_m": {
+      "median": 0.02483814339545659,
+      "p95": 0.04033382566168331,
+      "p99": 0.04871410896853992,
+      "max": 0.06622400213234315
+    },
+    "contiguous_rotation_step_deg": {
+      "median": 0.8343980189910755,
+      "p95": 3.8399539604682915,
+      "p99": 4.674966590488852,
+      "max": 8.729123122866312
+    },
+    "output_gaps_over_150ms": [
+      {
+        "before_s": 330.831944465,
+        "duration_s": 0.259546279999995,
+        "pose_change_m": 0.10024211263332619,
+        "rotation_change_deg": 14.58699066926742
+      },
+      {
+        "before_s": 332.129460335,
+        "duration_s": 0.25990819900005135,
+        "pose_change_m": 0.1003212128803065,
+        "rotation_change_deg": 16.10616384187899
+      }
+    ],
+    "missing_exact_stamp_tf": 0,
+    "reseed_events": 0,
+    "resume_events": 0,
+    "probation_events": 0
+  },
+  "travel": {
+    "point_lio": 109.88286005008005,
+    "vendor": 93.51409457405732
+  }
+}

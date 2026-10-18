@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "mapping.imu_meas_omg_cov": 0.0001,
+    "mapping.gyro_bias_initial_variance": 0.0,
+    "mapping.b_gyr_cov": 0.0,
+    "init_map_size": 4000,
+    "use_imu_as_input": false,
+    "odometry.publish_odometry_without_downsample": false,
+    "common.time_lag_imu_to_lidar": 0.0
+  },
+  "all_expected_values_match": true,
+  "binary": "/home/jain/Doggy/ros2_ws/install/point_lio/lib/point_lio/pointlio_mapping",
+  "binary_sha256": "b4ab12fddaa7777f3316ad79df801cfb42c913fccba9e7f1c39d2a64aa734596",
+  "domain": 170,
+  "localhost_only": true,
+  "robot_inputs_replayed": false,
+  "robot_commands_sent": false,
+  "rviz_started": false,
+  "offline_validation_source_exact_match": true,
+  "adapter_source_exact_match": true
+}

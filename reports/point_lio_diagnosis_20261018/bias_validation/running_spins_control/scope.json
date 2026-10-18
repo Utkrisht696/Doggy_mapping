@@ -1,0 +1,9 @@
+{
+  "input": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/spin_inputs/running_mode_spins",
+  "gyro_measurement_variance": 0.1,
+  "hold_residual_gyro_bias_zero": false,
+  "binary": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/bias_lock_soft_turn/install/point_lio/lib/point_lio/pointlio_mapping",
+  "archive_trace_from": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/bias_lock_soft_turn/src/point_lio/Log/heading_trace.csv",
+  "no_robot_commands": true,
+  "no_per_bag_tuning": true
+}

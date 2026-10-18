@@ -1,0 +1,30 @@
+/doggy/imu/body_calibrated:
+  depth: 10000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/doggy/robot_clock:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/tf:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/tf_static:
+  depth: 100
+  durability: transient_local
+  history: keep_last
+  reliability: reliable
+/utlidar/cloud:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/utlidar/robot_odom:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable

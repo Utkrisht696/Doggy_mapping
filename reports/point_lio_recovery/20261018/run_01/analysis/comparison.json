@@ -1,0 +1,336 @@
+{
+  "source_bag": "/home/jain/go2_bags/go2_20261018_173219",
+  "user_route": "Moved around the lab, returning roughly to the same starting position and heading. No surveyed route length or endpoint error supplied.",
+  "source_seconds_reference": "First original raw-cloud header timestamp",
+  "holds": {
+    "start": {
+      "window_source_s": [
+        2.6,
+        3.6
+      ],
+      "samples": 15,
+      "point_lio": {
+        "median_xyz_m": [
+          -0.00400248316328175,
+          0.019838621087249913,
+          -0.001862977127947525
+        ],
+        "mean_quaternion_xyzw": [
+          0.0034425812817253042,
+          -0.002314400334390565,
+          -0.0021831539316597235,
+          0.9999890129517031
+        ],
+        "position_p95_radius_m": 0.03447678252906353,
+        "median_first_last_8_samples_shift_m": 0.01024306482840767
+      },
+      "vendor": {
+        "median_xyz_m": [
+          1.622545052919239,
+          0.947343627821343,
+          0.3567433563837519
+        ],
+        "mean_quaternion_xyzw": [
+          0.0020870672626299314,
+          -0.007955463655390238,
+          -0.4834252771175512,
+          0.8753469918792709
+        ],
+        "position_p95_radius_m": 7.34867090547323e-05,
+        "median_first_last_8_samples_shift_m": 2.04757386532965e-05
+      }
+    },
+    "finish": {
+      "window_source_s": [
+        210.0,
+        216.0
+      ],
+      "samples": 92,
+      "point_lio": {
+        "median_xyz_m": [
+          -0.39664483208437906,
+          0.45522627029155194,
+          -0.03409953268053599
+        ],
+        "mean_quaternion_xyzw": [
+          0.0016270427815649878,
+          -0.004971593780726646,
+          -0.06061676026874193,
+          0.9981474061287686
+        ],
+        "position_p95_radius_m": 0.031840735543780835,
+        "median_first_last_8_samples_shift_m": 0.020740576323226664
+      },
+      "vendor": {
+        "median_xyz_m": [
+          1.186083123029407,
+          -0.04390475299635549,
+          0.3555413372388849
+        ],
+        "mean_quaternion_xyzw": [
+          0.003032695992989735,
+          0.0040376108153148405,
+          0.5368130290280823,
+          -0.8436861219195281
+        ],
+        "position_p95_radius_m": 0.00013201793317195898,
+        "median_first_last_8_samples_shift_m": 0.0001871352331546663
+      }
+    }
+  },
+  "return_checks": {
+    "point_lio": {
+      "horizontal_return_offset_m": 0.5862852712169435,
+      "height_return_change_m": -0.03223655555258847,
+      "return_3d_offset_m": 0.587170856531402,
+      "heading_return_change_deg": -6.700513588541602,
+      "full_orientation_change_deg": 6.710423940372817,
+      "relative_pose_translation_start_imu_axes_m": [
+        -0.3946910837227666,
+        0.4334427800479439,
+        -0.033405383007501475
+      ],
+      "relative_pose_quaternion_xyzw": [
+        0.0019386163673008388,
+        0.002866552506484616,
+        0.05842363534807111,
+        -0.9982858826388479
+      ],
+      "delta_map_axes_xyz_m": [
+        -0.3926423489210973,
+        0.435387649204302,
+        -0.03223655555258847
+      ]
+    },
+    "vendor": {
+      "horizontal_return_offset_m": 1.0830846544554424,
+      "height_return_change_m": -0.0012020191448669504,
+      "return_3d_offset_m": 1.0830853214622058,
+      "heading_return_change_deg": -7.109887986380972,
+      "full_orientation_change_deg": 7.152100395299667,
+      "relative_pose_translation_start_imu_axes_m": [
+        0.6065371913778992,
+        -0.8973201037086647,
+        0.001755141752302498
+      ],
+      "relative_pose_quaternion_xyzw": [
+        -0.006734204414627792,
+        0.0005911569980608162,
+        -0.06200591960404963,
+        0.998052887856331
+      ],
+      "delta_map_axes_xyz_m": [
+        -0.4364619298898318,
+        -0.9912483808176984,
+        -0.0012020191448669504
+      ]
+    }
+  },
+  "estimated_travel": {
+    "point_lio": {
+      "smoothed_observed_path_excluding_gaps_m": 63.23138579993381,
+      "straight_chord_lengths_across_gaps_m": [
+        0.20965481843523984,
+        0.9934687656256845
+      ],
+      "method": "Separate contiguous segments, 0.1 s resampling, Gaussian sigma 0.2 s. Gaps >0.15 s are excluded. This is estimator-derived travel, not surveyed distance."
+    },
+    "vendor": {
+      "smoothed_observed_path_excluding_gaps_m": 52.77736978338491,
+      "straight_chord_lengths_across_gaps_m": [
+        0.1545546997253103,
+        0.8684453867851594
+      ],
+      "method": "Separate contiguous segments, 0.1 s resampling, Gaussian sigma 0.2 s. Gaps >0.15 s are excluded. This is estimator-derived travel, not surveyed distance."
+    }
+  },
+  "health": {
+    "pose_count": 3249,
+    "first_pose_s": 2.394764423,
+    "last_pose_s": 217.299943685,
+    "nonfinite_pose_values": 0,
+    "nonincreasing_pose_stamps": 0,
+    "average_rate_including_gaps_hz": 15.113642263782884,
+    "median_contiguous_rate_hz": 15.413350137584859,
+    "contiguous_dt_s": {
+      "median": 0.06487882199999717,
+      "p95": 0.0660056475000026,
+      "p99": 0.0666010981500051,
+      "max": 0.06999397299998122
+    },
+    "contiguous_translation_steps_m": {
+      "median": 0.024435230569465193,
+      "p95": 0.039433755729414946,
+      "p99": 0.046585106620581955,
+      "max": 0.07343904728858404
+    },
+    "contiguous_rotation_steps_deg": {
+      "median": 0.829473095648747,
+      "p95": 4.045646371914822,
+      "p99": 4.659481441758935,
+      "max": 5.956966462201967
+    },
+    "contiguous_steps_over_15cm_count": 0,
+    "contiguous_steps_over_5deg_count": 12,
+    "recording_gap_pose_changes": [
+      {
+        "before_source_s": 28.118704557,
+        "after_source_s": 28.57221818,
+        "dt_s": 0.4535136229999992,
+        "lio_pose_change_m": 0.20965481843523984,
+        "lio_rotation_change_deg": 1.8609821586029156
+      },
+      {
+        "before_source_s": 44.381457567,
+        "after_source_s": 48.464674473,
+        "dt_s": 4.083216906000004,
+        "lio_pose_change_m": 0.9934687656256845,
+        "lio_rotation_change_deg": 50.603272005799646
+      }
+    ],
+    "tf_full_pose_stamp_match": true,
+    "tf_missing_pose_count": 0,
+    "tf_extra_stamp_count": 0
+  },
+  "revisited_floor": {
+    "common_15cm_cells": 267,
+    "method": "Unadjusted map XY cells, >=5 points each, within 3 m and .15-.9 m below original IMU. Assumes sufficient horizontal correspondence; not absolute height accuracy.",
+    "median_signed_difference_m": -0.021803855895996094,
+    "median_absolute_difference_m": 0.025260761380195618,
+    "p90_absolute_difference_m": 0.05197678506374359
+  },
+  "independent_source_cloud_registration_consistent": false,
+  "relative_pose_disagreement_vs_static_scene_registration": {},
+  "source_gaps": {
+    "raw": [
+      {
+        "before_s": 28.055990934,
+        "after_s": 28.315670013,
+        "gap_s": 0.259679079,
+        "receipt_gap_s": 0.259490045
+      },
+      {
+        "before_s": 44.319057703,
+        "after_s": 48.272037983,
+        "gap_s": 3.95298028,
+        "receipt_gap_s": 3.95316294
+      }
+    ],
+    "imu": [
+      {
+        "before_s": 28.158153129,
+        "after_s": 28.358003107,
+        "gap_s": 0.199849978,
+        "receipt_gap_s": 0.200132734
+      },
+      {
+        "before_s": 44.403927553,
+        "after_s": 48.260264732,
+        "gap_s": 3.856337179,
+        "receipt_gap_s": 3.856517023
+      }
+    ],
+    "vendor": [
+      {
+        "before_s": 28.156806707,
+        "after_s": 28.363399029,
+        "gap_s": 0.206592322,
+        "receipt_gap_s": 0.206665509
+      },
+      {
+        "before_s": 44.405080557,
+        "after_s": 48.281332016,
+        "gap_s": 3.876251459,
+        "receipt_gap_s": 3.920894975
+      }
+    ]
+  },
+  "stationary_start": {
+    "omitted_initial_receipt_time_s": 1.5,
+    "receipt_cut_ns": 1792305141230348344,
+    "source_origin_ns": 1792305112841175079,
+    "first_raw_source_s": 1.490004778,
+    "first_imu_source_s": 1.508119868,
+    "counts": {
+      "/tf_static": 1,
+      "/doggy/imu/body_calibrated": 61864,
+      "/utlidar/robot_odom": 31682,
+      "/tf": 8991,
+      "/doggy/robot_clock": 8991,
+      "/utlidar/cloud": 3267
+    },
+    "source_header_times_changed": false,
+    "gaps_filled": false,
+    "static_sensor_tf_reissued_at_replay_start": true
+  },
+  "replay_result": {
+    "source_elapsed_s": 217.237561941,
+    "odometry_messages": 3249,
+    "registered_clouds": 3249,
+    "map_to_odom_transforms": 3249,
+    "last_bridge_status": {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 0,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792305330141118764,
+      "last_tf_error": "",
+      "lookup_failures": 2887,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 3249,
+      "received": 3249,
+      "waiting": 0
+    },
+    "player_running": false,
+    "mapping_running": false,
+    "stop_reason": "playback_complete",
+    "tf_parents": {
+      "imu": [
+        "base_link"
+      ],
+      "radar": [
+        "base_link"
+      ],
+      "utlidar_lidar": [
+        "radar"
+      ],
+      "base_footprint": [
+        "odom"
+      ],
+      "base_link": [
+        "base_footprint"
+      ],
+      "odom": [
+        "map"
+      ]
+    },
+    "multiple_tf_parents": {},
+    "input_cloud_messages": 3267,
+    "input_imu_messages": 61864,
+    "launch_returncode": 0,
+    "player_returncode": 0,
+    "application_hashes_after": {
+      "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+      "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+      "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+      "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+      "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+      "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+    },
+    "robot_commands_sent": false,
+    "application_unchanged": true,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true
+  },
+  "limitations": [
+    "Physical return position/heading only approximate, so median return offset is not pure estimator drift.",
+    "Sensor recording contains an approximately four-second gap during motion and a shorter gap. Both are retained; no samples are fabricated.",
+    "Path lengths come from the estimates, not a tape measure; unobserved motion during gaps is unknown.",
+    "This trial uses vendor relative pose to reseed at acquisition gaps; no global loop closure. Small endpoint error does not prove the trajectory is accurate everywhere.",
+    "Vendor odometry is a comparison estimate sharing body IMU information, not ground truth.",
+    "Zero acquisition-lag correction remains uncalibrated; replay success is not proof of exact LiDAR/IMU acquisition synchronization.",
+    "Raw-cloud registration is a conditional static-scene geometric check, not independent surveyed truth."
+  ]
+}

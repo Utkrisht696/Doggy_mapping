@@ -1,0 +1,95 @@
+{
+  "raw": {
+    "samples": 1289,
+    "start_s": 0.0,
+    "end_s": 83.519022465,
+    "duplicates": 0,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.06490314,
+      0.06641381965,
+      0.06901949645,
+      0.07533598
+    ],
+    "source_gaps_over_3_median_count": 0,
+    "receipt_minus_header_first_last_s": [
+      25.754214929,
+      25.772341667
+    ]
+  },
+  "imu": {
+    "samples": 24564,
+    "start_s": -0.015457784,
+    "end_s": 83.606568326,
+    "duplicates": 0,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.003961709,
+      0.004184542,
+      0.006016471040000001,
+      0.028146711
+    ],
+    "source_gaps_over_3_median_count": 102,
+    "receipt_minus_header_first_last_s": [
+      25.690214489,
+      25.70657849
+    ]
+  },
+  "vendor": {
+    "samples": 12516,
+    "start_s": 0.067004919,
+    "end_s": 83.604587794,
+    "duplicates": 0,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.006660462,
+      0.007327198899999999,
+      0.011626744080000032,
+      0.021559
+    ],
+    "source_gaps_over_3_median_count": 5,
+    "receipt_minus_header_first_last_s": [
+      25.688039458,
+      25.704994225
+    ]
+  },
+  "sport": {
+    "samples": 24889,
+    "start_s": -0.015457784,
+    "end_s": 83.606568326,
+    "duplicates": 325,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.003961709,
+      0.004184542,
+      0.006016471040000001,
+      0.028146711
+    ],
+    "source_gaps_over_3_median_count": 102,
+    "receipt_minus_header_first_last_s": [
+      25.690214489,
+      25.70657849
+    ]
+  },
+  "scans_imu_bracketed": {
+    "within_recording": 1289,
+    "outside_recording": 0,
+    "point_time_span_median_min_max_s": [
+      0.062230295363406185,
+      0.051949307322502136,
+      0.06767591089010239
+    ],
+    "valid_points_median_min_max": [
+      1415.0,
+      1072.0,
+      1713.0
+    ]
+  },
+  "sport_mode_gait_counts": [
+    {
+      "mode": 0,
+      "gait_type": 0,
+      "samples": 24889
+    }
+  ]
+}

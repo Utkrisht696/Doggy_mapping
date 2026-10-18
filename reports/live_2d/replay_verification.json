@@ -1,0 +1,80 @@
+{
+  "/map": {
+    "frame": "odom",
+    "resolution": 0.05000000074505806,
+    "width": 272,
+    "height": 265,
+    "known_cells": 9476
+  },
+  "/terrain/costmap": {
+    "frame": "odom",
+    "resolution": 0.05000000074505806,
+    "width": 272,
+    "height": 265,
+    "known_cells": 9532
+  },
+  "/terrain/traversability": {
+    "frame": "odom",
+    "resolution": 0.05000000074505806,
+    "width": 272,
+    "height": 265,
+    "known_cells": 9532
+  },
+  "/terrain/status": {
+    "scans": 648,
+    "voxels": 63761,
+    "unmatched_clouds": 0,
+    "pending_clouds": 0,
+    "clipped_points": 0,
+    "capacity_drops": 0,
+    "resolution": 0.05,
+    "frame": "odom",
+    "source": "Point-LIO only",
+    "provisional_terrain_thresholds": true,
+    "last_error": "",
+    "input_age_seconds": 0.04244901300990023,
+    "width": 272,
+    "height": 265,
+    "free_cells": 7222,
+    "occupied_cells": 2237,
+    "terrain_blocked_cells": 2532
+  },
+  "/terrain/replay_status": {
+    "mode": "recorded Point-LIO output replay",
+    "completed": false,
+    "published": 1328,
+    "total": 5758,
+    "recorded_seconds": 42.988104542,
+    "rate": 1.0,
+    "vendor_odometry_replayed": false,
+    "robot_commands_sent": false
+  },
+  "/odom": {
+    "frame": "odom",
+    "child": "base_link"
+  },
+  "owners": {
+    "/odom": [
+      "doggy_lio_odometry"
+    ],
+    "/map": [
+      "doggy_terrain_mapper"
+    ],
+    "/point_lio/odometry": [
+      "doggy_lio_output_replay"
+    ]
+  },
+  "tf_parents": {
+    "base_footprint": [
+      "odom"
+    ],
+    "base_link": [
+      "base_footprint"
+    ]
+  },
+  "map_updates": {
+    "/map": 9,
+    "/terrain/costmap": 9,
+    "/terrain/traversability": 9
+  }
+}

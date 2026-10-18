@@ -1,0 +1,105 @@
+{
+  "source_origin_ns": 1792318573107180118,
+  "duration_source_s": 78.63279355300001,
+  "method": "Candidate stationary windows: 0.1s grid, smoothed vendor position speed <0.05m/s, body gyro RMS <0.08rad/s, yaw rate <5deg/s; >=1.8s, trimmed 0.3s. Actual acquisition holes excluded. These identify pauses, not surveyed poses.",
+  "holds": [
+    {
+      "index": 0,
+      "source_window_s": [
+        0.332793553,
+        7.332793553000001
+      ],
+      "vendor_body_median_xyz_m": [
+        0.7239994406700134,
+        1.8045130968093872,
+        0.3150801360607147
+      ],
+      "vendor_body_yaw_deg": 82.52125412695723,
+      "vendor_position_p95_radius_m": 0.0001412278728460299
+    },
+    {
+      "index": 1,
+      "source_window_s": [
+        16.332793553000002,
+        19.532793553
+      ],
+      "vendor_body_median_xyz_m": [
+        0.7372778654098511,
+        1.7274880409240723,
+        0.3151805102825165
+      ],
+      "vendor_body_yaw_deg": 77.63797841940551,
+      "vendor_position_p95_radius_m": 0.0004257972684352531
+    },
+    {
+      "index": 2,
+      "source_window_s": [
+        27.732793553000004,
+        29.332793553000002
+      ],
+      "vendor_body_median_xyz_m": [
+        0.7721882462501526,
+        1.6516270637512207,
+        0.3150941729545593
+      ],
+      "vendor_body_yaw_deg": 64.01311911663619,
+      "vendor_position_p95_radius_m": 0.0005590466148792309
+    },
+    {
+      "index": 3,
+      "source_window_s": [
+        36.832793552999995,
+        38.232793553
+      ],
+      "vendor_body_median_xyz_m": [
+        0.7842634320259094,
+        1.583030104637146,
+        0.31575027108192444
+      ],
+      "vendor_body_yaw_deg": 80.6303595114453,
+      "vendor_position_p95_radius_m": 0.0004193163917536109
+    },
+    {
+      "index": 4,
+      "source_window_s": [
+        45.732793553,
+        47.032793553000005
+      ],
+      "vendor_body_median_xyz_m": [
+        0.8263593316078186,
+        1.520636260509491,
+        0.315102681517601
+      ],
+      "vendor_body_yaw_deg": 90.23785285476171,
+      "vendor_position_p95_radius_m": 0.0011268081796302586
+    },
+    {
+      "index": 5,
+      "source_window_s": [
+        54.532793553,
+        55.732793553
+      ],
+      "vendor_body_median_xyz_m": [
+        0.8791284561157227,
+        1.4415327310562134,
+        0.31478384137153625
+      ],
+      "vendor_body_yaw_deg": 77.82654334933001,
+      "vendor_position_p95_radius_m": 0.0009073576710776399
+    },
+    {
+      "index": 6,
+      "source_window_s": [
+        73.132793553,
+        78.33279355300002
+      ],
+      "vendor_body_median_xyz_m": [
+        0.6159151792526245,
+        1.8045727014541626,
+        0.31503868103027344
+      ],
+      "vendor_body_yaw_deg": 79.32682071628535,
+      "vendor_position_p95_radius_m": 0.0007404693920595663
+    }
+  ]
+}

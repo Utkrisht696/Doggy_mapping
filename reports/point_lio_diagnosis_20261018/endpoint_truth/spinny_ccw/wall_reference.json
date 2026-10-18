@@ -1,0 +1,85 @@
+{
+  "source": "reports/point_lio_diagnosis_20261018/spin_inputs/spinny",
+  "source_windows_s": [
+    [
+      16.332793553000002,
+      19.532793553
+    ],
+    [
+      27.732793553000004,
+      29.332793553000002
+    ]
+  ],
+  "scans": [
+    49,
+    24
+  ],
+  "wall_points": [
+    1039,
+    834
+  ],
+  "self_tests": [
+    {
+      "applied_angle_deg": 7,
+      "angle_error_deg": 0.020274595894744785,
+      "position_error_m": 0.011355115840221421,
+      "median_match_distance_m": 0.03316668614204973,
+      "fraction_within_5cm": 0.6795031055900621
+    },
+    {
+      "applied_angle_deg": -20,
+      "angle_error_deg": 0.020274595894743896,
+      "position_error_m": 0.011355115840221428,
+      "median_match_distance_m": 0.033166686142049547,
+      "fraction_within_5cm": 0.6795031055900621
+    },
+    {
+      "applied_angle_deg": 0,
+      "angle_error_deg": 0.020274595894743893,
+      "position_error_m": 0.011355115840221352,
+      "median_match_distance_m": 0.033166686142049276,
+      "fraction_within_5cm": 0.6795031055900621
+    }
+  ],
+  "quality_passed": true,
+  "end_pose_in_start_frame": {
+    "yaw_deg": -5.879188052685306,
+    "xy_m": [
+      -0.08021501227543643,
+      -0.06307229590626472
+    ]
+  },
+  "median_match_distance_m": 0.020944540710592974,
+  "fraction_within_5cm": 0.8693045563549161,
+  "reverse_median_m": 0.024437292687241024,
+  "reverse_fraction_within_5cm": 0.8017324350336862,
+  "reverse_cycle_angle_deg": -0.14189598931933264,
+  "reverse_cycle_translation_m": 0.007612637259848474,
+  "end_half_repeats": [
+    {
+      "yaw_deg": -5.890474294430844,
+      "xy_m": [
+        -0.08225444846159378,
+        -0.06255453896552096
+      ],
+      "median_match_distance_m": 0.01931608546767908,
+      "fraction_within_5cm": 0.8966202783300199
+    },
+    {
+      "yaw_deg": -5.826547677038295,
+      "xy_m": [
+        -0.07718226865124891,
+        -0.07388113811864361
+      ],
+      "median_match_distance_m": 0.021547877201821306,
+      "fraction_within_5cm": 0.9031620553359684
+    }
+  ],
+  "method": "Raw clouds transformed only by reviewed fixed sensor extrinsics; accumulate detected quiet holds, exclude floor, exhaustive 2D wall raster correlation +/-45 degrees and +/-2.5m followed by ICP. Independent reverse, disjoint-source repeats and known perturbation recovery checks. No gyro/odom/Point-LIO guides matching.",
+  "code_source": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/odom_lidar_check.py",
+  "limits": [
+    "Static endpoint check only; it does not calibrate timing or validate the complete trajectory.",
+    "Repeated walls and partial overlap can remain ambiguous even after these checks.",
+    "2D wall projection assumes small roll/pitch changes during the quiet holds."
+  ]
+}

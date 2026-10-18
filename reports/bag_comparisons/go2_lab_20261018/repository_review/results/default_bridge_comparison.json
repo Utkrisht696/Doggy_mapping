@@ -1,0 +1,88 @@
+{
+  "repository": "https://github.com/Faheemibrahim/unitree_go2_ros2/tree/real-go2",
+  "commit": "c3158fcef41532fc5dc754e5838b0dfdecb5506a",
+  "application_file": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/real_tf_bridge.py",
+  "callback_sha256": "ef9ba6de990fe01b5a4ca0086b9d5a32bfd2fc0cde655ae69d2e99d793b51380",
+  "method": "Original RealTfBridge.on_odom called for every source message in bag receipt order. Mock sinks/clock replace only ROS side effects; yaw correction and offset calculations unchanged. No fitting to this bag. Metrics use the same IMU lever arm and quiet holds as the existing lab comparison.",
+  "source_seconds_origin_ns": 1792305112841175079,
+  "results": {
+    "identity": {
+      "yaw_scale": 1.0,
+      "samples": 31905,
+      "horizontal_return_offset_m": 1.083085077676887,
+      "height_return_change_m": -0.0012006111808770537,
+      "heading_return_change_deg": -7.110052908612228,
+      "full_orientation_change_deg": 7.152315852327897,
+      "holds": {
+        "start": {
+          "median_position_imu_m": [
+            1.6225529593712553,
+            0.9473397626705499,
+            0.35674195330435227
+          ],
+          "orientation_xyzw": [
+            0.0020900836374861,
+            -0.007956680225423396,
+            -0.4834240551762498,
+            0.8753476484615293
+          ],
+          "p95_position_radius_m": 8.313354229414207e-05
+        },
+        "finish": {
+          "median_position_imu_m": [
+            1.1860836453528336,
+            -0.04390582920193682,
+            0.3555413421234752
+          ],
+          "orientation_xyzw": [
+            0.0030336207835569796,
+            0.004037178170322009,
+            0.5368130910875883,
+            -0.8436860811785099
+          ],
+          "p95_position_radius_m": 0.00013264831997399754
+        }
+      },
+      "identity_callback_matches_original_pose_max_absolute_difference": 5.906386491005833e-14
+    },
+    "repo_default": {
+      "yaw_scale": 0.9814,
+      "samples": 31905,
+      "horizontal_return_offset_m": 0.15450801407602935,
+      "height_return_change_m": -0.0012006111808770537,
+      "heading_return_change_deg": -6.977806092718894,
+      "full_orientation_change_deg": 7.020722869288994,
+      "holds": {
+        "start": {
+          "median_position_imu_m": [
+            1.622583323622295,
+            0.9473671517240116,
+            0.35674195330435227
+          ],
+          "orientation_xyzw": [
+            0.0020866089683733114,
+            -0.007957592103598365,
+            -0.4838062435790681,
+            0.8751364701946993
+          ],
+          "p95_position_radius_m": 8.31130387346373e-05
+        },
+        "finish": {
+          "median_position_imu_m": [
+            1.5538454739159162,
+            0.8089914514314323,
+            0.3555413421234752
+          ],
+          "orientation_xyzw": [
+            0.003030723686809621,
+            0.004039353937558943,
+            0.5362076881796418,
+            -0.8440709765598776
+          ],
+          "p95_position_radius_m": 0.0001331842055213286
+        }
+      }
+    }
+  },
+  "source_gap_policy": "Preserved; bridge integrates pose steps across gaps using recorded endpoint poses and yaw, without inventing intermediate sensor data."
+}

@@ -1,0 +1,104 @@
+{
+  "gain_z": 0.9785884535708254,
+  "gain_training_bag": "running_mode_spins",
+  "validation_bag": "spinny",
+  "gain_refitted_on_validation_bag": false,
+  "blocks": [
+    {
+      "block": "CW1",
+      "source_windows_s": [
+        [
+          0.332793553,
+          7.332793553000001
+        ],
+        [
+          16.332793553000002,
+          19.532793553
+        ]
+      ],
+      "independent_wall_rotation_deg": -357.301759878412,
+      "raw_gyro_rotation_deg": -364.7237301137397,
+      "corrected_gyro_rotation_deg": -356.93321336212995,
+      "raw_error_deg": -7.421970235327706,
+      "corrected_error_deg": 0.36854651628203783
+    },
+    {
+      "block": "CW2",
+      "source_windows_s": [
+        [
+          16.332793553000002,
+          19.532793553
+        ],
+        [
+          27.732793553000004,
+          29.332793553000002
+        ]
+      ],
+      "independent_wall_rotation_deg": -365.8791880526853,
+      "raw_gyro_rotation_deg": -373.38460217337405,
+      "corrected_gyro_rotation_deg": -365.4104203275835,
+      "raw_error_deg": -7.505414120688727,
+      "corrected_error_deg": 0.4687677251018272
+    },
+    {
+      "block": "CCW1",
+      "source_windows_s": [
+        [
+          27.732793553000004,
+          29.332793553000002
+        ],
+        [
+          36.832793552999995,
+          38.232793553
+        ]
+      ],
+      "independent_wall_rotation_deg": 368.9576262470101,
+      "raw_gyro_rotation_deg": 376.72139109933755,
+      "corrected_gyro_rotation_deg": 368.660808115898,
+      "raw_error_deg": 7.7637648523274265,
+      "corrected_error_deg": -0.2968181311121043
+    }
+  ],
+  "stationary_wall_references": {
+    "0": {
+      "unwrapped_yaw_deg": 0.0,
+      "source_window_s": [
+        0.332793553,
+        7.332793553000001
+      ]
+    },
+    "1": {
+      "unwrapped_yaw_deg": -357.301759878412,
+      "source_window_s": [
+        16.332793553000002,
+        19.532793553
+      ]
+    },
+    "2": {
+      "unwrapped_yaw_deg": -723.1809479310973,
+      "source_window_s": [
+        27.732793553000004,
+        29.332793553000002
+      ]
+    },
+    "3": {
+      "unwrapped_yaw_deg": -354.2233216840872,
+      "source_window_s": [
+        36.832793552999995,
+        38.232793553
+      ]
+    },
+    "6": {
+      "unwrapped_yaw_deg": -2.89312975030898,
+      "source_window_s": [
+        73.132793553,
+        78.33279355300002
+      ]
+    }
+  },
+  "limits": [
+    "CW2 global reference composes two independently accepted wall matches; CCW1 is a difference of accepted global wall references.",
+    "The second CCW stop fails wall-check quality gates and is excluded from quantitative validation.",
+    "Gain is calibrated only for body gyro Z and current hardware/configuration. All original data and active IMU adapter are untouched."
+  ]
+}

@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    mapping:
+      imu_meas_omg_cov: 0.0001
+      gyro_bias_initial_variance: 0.0
+      b_gyr_cov: 0.0

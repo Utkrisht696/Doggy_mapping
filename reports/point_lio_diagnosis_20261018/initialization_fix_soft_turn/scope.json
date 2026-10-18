@@ -1,0 +1,13 @@
+{
+  "user_approved": "Test only initialization sample-reuse fix on same soft-turn recording; focus on heading",
+  "new_changes": 2,
+  "baseline": "Previously tested cache-resize version; all 2176 poses exactly matched its old controls",
+  "heading_reference": "Body orientation and integrated gyro are diagnostic comparisons, not external truth",
+  "analysis_start_window_s": [
+    2.0,
+    6.0
+  ],
+  "reason_for_analysis_window": "Choose shared quiet window after both old and corrected initializers have completed; recompute control metrics identically without overwriting prior reports",
+  "timing_extrinsics_noise_and_calibration_changed": false,
+  "active_package_changes": false
+}

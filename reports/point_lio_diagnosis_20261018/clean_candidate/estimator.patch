@@ -1,0 +1,54 @@
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -414,7 +414,7 @@
+     /*** push imu data, and pop from imu buffer ***/
+     if (p_imu->imu_need_init_) {
+         double imu_time = get_time_sec(imu_deque.front()->header.stamp);
+-        meas.imu.shrink_to_fit();
++        meas.imu.clear();
+         while ((!imu_deque.empty()) && (imu_time < lidar_end_time)) {
+             imu_time = get_time_sec(imu_deque.front()->header.stamp);
+             if (imu_time > lidar_end_time) break;
+@@ -426,7 +426,7 @@
+         }
+     } else if (!init_map) {
+         double imu_time = get_time_sec(imu_deque.front()->header.stamp);
+-        meas.imu.shrink_to_fit();
++        meas.imu.clear();
+         meas.imu.emplace_back(imu_last_ptr);
+ 
+         while ((!imu_deque.empty()) && (imu_time < lidar_end_time)) {
+@@ -746,16 +746,22 @@
+ 
+     kf_input.init_dyn_share_modified(get_f_input, df_dx_input, h_model_input);
+     kf_output.init_dyn_share_modified_2h(get_f_output, df_dx_output, h_model_output, h_model_IMU_output);
++    const double gyro_bias_initial_variance = nh->declare_parameter<double>(
++        "mapping.gyro_bias_initial_variance", 0.001);
++    if (!std::isfinite(gyro_bias_initial_variance) || gyro_bias_initial_variance < 0.)
++        throw std::runtime_error("gyro_bias_initial_variance must be finite and nonnegative");
+     Eigen::Matrix<double, 24, 24> P_init = MD(24, 24)::Identity() * 0.01;
+     P_init.block<3, 3>(21, 21) = MD(3, 3)::Identity() * 0.0001;
+     P_init.block<6, 6>(15, 15) = MD(6, 6)::Identity() * 0.001;
+     P_init.block<6, 6>(6, 6) = MD(6, 6)::Identity() * 0.0001;
++    P_init.block<3, 3>(15, 15) = MD(3, 3)::Identity() * gyro_bias_initial_variance;
+     kf_input.change_P(P_init);
+     Eigen::Matrix<double, 30, 30> P_init_output = MD(30, 30)::Identity() * 0.01;
+     P_init_output.block<3, 3>(21, 21) = MD(3, 3)::Identity() * 0.0001;
+     P_init_output.block<6, 6>(6, 6) = MD(6, 6)::Identity() * 0.0001;
+     P_init_output.block<6, 6>(24, 24) = MD(6, 6)::Identity() * 0.001;
+     kf_input.change_P(P_init);
++    P_init_output.block<3, 3>(24, 24) = MD(3, 3)::Identity() * gyro_bias_initial_variance;
+     kf_output.change_P(P_init_output);
+     Eigen::Matrix<double, 24, 24> Q_input = process_noise_cov_input();
+     Eigen::Matrix<double, 30, 30> Q_output = process_noise_cov_output();
+@@ -933,8 +939,8 @@
+             t2 = omp_get_wtime();
+ 
+             /*** iterated state estimation ***/
+-            crossmat_list.reserve(feats_down_size);
+-            pbody_list.reserve(feats_down_size);
++            crossmat_list.resize(feats_down_size);
++            pbody_list.resize(feats_down_size);
+             // pbody_ext_list.reserve(feats_down_size);
+ 
+             for (size_t i = 0; i < feats_down_body->size(); i++) {

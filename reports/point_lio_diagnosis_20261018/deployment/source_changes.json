@@ -1,0 +1,25 @@
+{
+  "authorization": "User: do everything you can until you fix the issue",
+  "before": {
+    "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "after": {
+    "third_party/point_lio_ros2/src/laserMapping.cpp": "f18121bf2bfe62b26f27c26f8afea1c2d026150f590b35bc2d204fe5ef86af7f",
+    "scripts/publish_body_imu.py": "bd222da67ec45658bcda8ee9fb474726611dd0819328c187b93d0d2d5e6e367e",
+    "config/point_lio/body_imu_calibration.json": "80613b82999347d8080f3992e52ff193f0ff5ba991954b110526c723d8b574de",
+    "config/point_lio/go2_body_imu.yaml": "a4ee0500b10711af59277a6e1a738e974cd2f3f55424a3e5dd0dddb3c9f0e2a6",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "candidate_estimator_exact_match": true,
+  "robot_commands_sent": false,
+  "live_processes_restarted": false,
+  "originals": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/deployment/original"
+}

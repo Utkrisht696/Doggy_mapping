@@ -1,0 +1,470 @@
+{
+  "source_bag": "/home/jain/go2_bags/classic",
+  "seconds_reference": "First raw cloud source header timestamp",
+  "user_route": "3 m forward, wait, 3 m back, wait, 5 m forward, wait, 5 m back, wait",
+  "measurement_limitations": [
+    "Reported 3 m and 5 m are nominal references; physical measurement method and uncertainty were not supplied.",
+    "Curved walking paths: reported hold-to-hold horizontal displacement, not integrated travelled path length.",
+    "No independent endpoint survey. Return offsets include real placement differences and estimator error; they are not pure drift measurements.",
+    "Vendor odometry shares body IMU information and is not ground truth. Its poses include the developer body-to-IMU lever arm.",
+    "Repeated floor-cell agreement measures internal consistency, not surveyed absolute vertical accuracy.",
+    "Zero LiDAR/IMU acquisition-lag correction remains uncalibrated. Replay success does not prove exact sensor synchronization."
+  ],
+  "holds": {
+    "start": {
+      "time_window_s": [
+        3.0,
+        7.0
+      ],
+      "point_lio_samples": 61,
+      "lio_median_xyz_m": [
+        -0.00564324089462825,
+        -0.005282988290278445,
+        0.0021642771641241397
+      ],
+      "vendor_median_xyz_m": [
+        -0.19031684380915312,
+        1.4387117226556352,
+        0.35741695342084956
+      ],
+      "lio_mean_quaternion_xyzw": [
+        0.009167489519584193,
+        -0.00019690626569868197,
+        -0.0008054536333037129,
+        -0.9999576339066953
+      ],
+      "vendor_mean_quaternion_xyzw": [
+        0.010124904142715958,
+        0.003501568043794645,
+        0.3557973667787283,
+        -0.9345017170292724
+      ],
+      "body_gyro_rms_rad_s": 0.01298733606183496,
+      "lio_position_p95_distance_to_median_m": 0.017626360333938284,
+      "lio_hold_start_end_translation_m": 0.0050107603111030664,
+      "vendor_position_p95_distance_to_median_m": 0.00011426683734099376,
+      "vendor_hold_start_end_translation_m": 6.218420424143019e-05
+    },
+    "far_3m": {
+      "time_window_s": [
+        27.5,
+        30.5
+      ],
+      "point_lio_samples": 46,
+      "lio_median_xyz_m": [
+        2.960342586813053,
+        0.38278489399255766,
+        -0.06391814118037517
+      ],
+      "vendor_median_xyz_m": [
+        1.9793540995786096,
+        -0.17604847130233087,
+        0.3568339983076225
+      ],
+      "lio_mean_quaternion_xyzw": [
+        0.0021727451009817458,
+        -0.005138324030182995,
+        -0.04280672903736069,
+        -0.9990677958747388
+      ],
+      "vendor_mean_quaternion_xyzw": [
+        4.373190750317076e-05,
+        -0.007383617750851612,
+        -0.3181001506533871,
+        0.9480283616172682
+      ],
+      "body_gyro_rms_rad_s": 0.012569741986445906,
+      "lio_position_p95_distance_to_median_m": 0.02250265456160612,
+      "lio_hold_start_end_translation_m": 0.016139641498568818,
+      "vendor_position_p95_distance_to_median_m": 0.0003127550626939817,
+      "vendor_hold_start_end_translation_m": 0.0003600516892439018
+    },
+    "return_3m": {
+      "time_window_s": [
+        46.5,
+        50.0
+      ],
+      "point_lio_samples": 54,
+      "lio_median_xyz_m": [
+        -0.036781053322989685,
+        -0.02192434502499356,
+        0.0023970541932954053
+      ],
+      "vendor_median_xyz_m": [
+        -0.04006671977096463,
+        1.3969905629936392,
+        0.35720837463471455
+      ],
+      "lio_mean_quaternion_xyzw": [
+        0.0027076754371477994,
+        0.001619854870725801,
+        0.015737529894622192,
+        0.9998711790609534
+      ],
+      "vendor_mean_quaternion_xyzw": [
+        0.001123329510754052,
+        -0.008769018253583227,
+        -0.3436737011111086,
+        0.939047511904627
+      ],
+      "body_gyro_rms_rad_s": 0.012318871039816841,
+      "lio_position_p95_distance_to_median_m": 0.02072574565268322,
+      "lio_hold_start_end_translation_m": 0.006711811454813358,
+      "vendor_position_p95_distance_to_median_m": 0.00013104660708278962,
+      "vendor_hold_start_end_translation_m": 0.00017153872697943083
+    },
+    "far_5m": {
+      "time_window_s": [
+        73.0,
+        76.0
+      ],
+      "point_lio_samples": 47,
+      "lio_median_xyz_m": [
+        5.044337060944237,
+        0.5681842132985909,
+        -0.10767392921114413
+      ],
+      "vendor_median_xyz_m": [
+        3.4723364775650207,
+        -1.4670969789610249,
+        0.35669367176343353
+      ],
+      "lio_mean_quaternion_xyzw": [
+        0.011421345895262372,
+        -0.003916803656148882,
+        -0.0207981667706202,
+        -0.9997107820595124
+      ],
+      "vendor_mean_quaternion_xyzw": [
+        0.0007517582143899188,
+        0.0042029010685296075,
+        0.34326012625752494,
+        -0.9392306725207938
+      ],
+      "body_gyro_rms_rad_s": 0.01225866462345867,
+      "lio_position_p95_distance_to_median_m": 0.030262635845861537,
+      "lio_hold_start_end_translation_m": 0.0067562034955822746,
+      "vendor_position_p95_distance_to_median_m": 0.0005387541751472639,
+      "vendor_hold_start_end_translation_m": 0.00086270970163937
+    },
+    "return_5m": {
+      "time_window_s": [
+        106.0,
+        109.5
+      ],
+      "point_lio_samples": 54,
+      "lio_median_xyz_m": [
+        0.010531708466856868,
+        -0.01659171427876934,
+        0.0028599258905678895
+      ],
+      "vendor_median_xyz_m": [
+        0.22841695820483338,
+        1.2321745755229234,
+        0.3565051063804599
+      ],
+      "lio_mean_quaternion_xyzw": [
+        0.00770214571379364,
+        0.0020144932039627417,
+        -0.002008720907837026,
+        0.9999662913362874
+      ],
+      "vendor_mean_quaternion_xyzw": [
+        0.005798877575043149,
+        -0.009389249250802534,
+        -0.3624146042102648,
+        0.9319516455656341
+      ],
+      "body_gyro_rms_rad_s": 0.012477302995541862,
+      "lio_position_p95_distance_to_median_m": 0.014942077574701274,
+      "lio_hold_start_end_translation_m": 0.006418491310679827,
+      "vendor_position_p95_distance_to_median_m": 0.0003561264157103819,
+      "vendor_hold_start_end_translation_m": 0.0003671829077697188
+    }
+  },
+  "distance_and_return_checks": [
+    {
+      "nominal_distance_m": 3.0,
+      "start_hold": "start",
+      "far_hold": "far_3m",
+      "return_hold": "return_3m",
+      "point_lio": {
+        "outbound_horizontal_endpoint_distance_m": 2.9912653863243737,
+        "inbound_horizontal_endpoint_distance_m": 3.024324665509391,
+        "outbound_projected_initial_heading_m": 2.9666057107686967,
+        "outbound_vertical_change_m": -0.06608241834449931,
+        "nominal_distance_difference_m": -0.008734613675626335,
+        "nominal_distance_difference_percent": -0.2911537891875445,
+        "return_horizontal_offset_m": 0.035305780217917124,
+        "return_vertical_offset_m": 0.00023277702917126565,
+        "return_3d_offset_m": 0.035306547578900685,
+        "return_orientation_change_deg": 2.1923550521464135,
+        "outbound_displacement_xyz_m": [
+          2.9659858277076814,
+          0.3880678822828361,
+          -0.06608241834449931
+        ],
+        "return_displacement_xyz_m": [
+          -0.031137812428361434,
+          -0.016641356734715115,
+          0.00023277702917126565
+        ]
+      },
+      "vendor": {
+        "outbound_horizontal_endpoint_distance_m": 2.7046113374332204,
+        "inbound_horizontal_endpoint_distance_m": 2.559787539824605,
+        "outbound_projected_initial_heading_m": 2.694226692789564,
+        "outbound_vertical_change_m": -0.000582955113227035,
+        "nominal_distance_difference_m": -0.29538866256677965,
+        "nominal_distance_difference_percent": -9.846288752225988,
+        "return_horizontal_offset_m": 0.15593509847700351,
+        "return_vertical_offset_m": -0.00020857878613500525,
+        "return_3d_offset_m": 0.15593523797443223,
+        "return_orientation_change_deg": 2.056032358910956,
+        "outbound_displacement_xyz_m": [
+          2.1696709433877626,
+          -1.614760193957966,
+          -0.000582955113227035
+        ],
+        "return_displacement_xyz_m": [
+          0.1502501240381885,
+          -0.041721159661995966,
+          -0.00020857878613500525
+        ]
+      }
+    },
+    {
+      "nominal_distance_m": 5.0,
+      "start_hold": "return_3m",
+      "far_hold": "far_5m",
+      "return_hold": "return_5m",
+      "point_lio": {
+        "outbound_horizontal_endpoint_distance_m": 5.115270217861543,
+        "inbound_horizontal_endpoint_distance_m": 5.067658158568302,
+        "outbound_projected_initial_heading_m": 5.097176409523924,
+        "outbound_vertical_change_m": -0.11007098340443953,
+        "nominal_distance_difference_m": 0.11527021786154279,
+        "nominal_distance_difference_percent": 2.305404357230856,
+        "return_horizontal_offset_m": 0.04761233431431754,
+        "return_vertical_offset_m": 0.0004628716972724842,
+        "return_3d_offset_m": 0.04761458420554017,
+        "return_orientation_change_deg": 2.1131148700644706,
+        "outbound_displacement_xyz_m": [
+          5.081118114267227,
+          0.5901085583235844,
+          -0.11007098340443953
+        ],
+        "return_displacement_xyz_m": [
+          0.04731276178984655,
+          0.005332630746224219,
+          0.0004628716972724842
+        ]
+      },
+      "vendor": {
+        "outbound_horizontal_endpoint_distance_m": 4.532104772468964,
+        "inbound_horizontal_endpoint_distance_m": 4.220080659529177,
+        "outbound_projected_initial_heading_m": 4.531397174189974,
+        "outbound_vertical_change_m": -0.0005147028712810253,
+        "nominal_distance_difference_m": -0.4678952275310362,
+        "nominal_distance_difference_percent": -9.357904550620724,
+        "return_horizontal_offset_m": 0.31503618056559657,
+        "return_vertical_offset_m": -0.000703268254254652,
+        "return_3d_offset_m": 0.31503696553197785,
+        "return_orientation_change_deg": 2.3591203730521504,
+        "outbound_displacement_xyz_m": [
+          3.5124031973359853,
+          -2.864087541954664,
+          -0.0005147028712810253
+        ],
+        "return_displacement_xyz_m": [
+          0.26848367797579803,
+          -0.1648159874707158,
+          -0.000703268254254652
+        ]
+      }
+    }
+  ],
+  "overall_return_check": {
+    "point_lio": {
+      "final_horizontal_offset_from_original_start_m": 0.019736166556081177,
+      "final_vertical_offset_from_original_start_m": 0.0006956487264437499,
+      "final_3d_offset_from_original_start_m": 0.019748422658024616,
+      "final_orientation_change_deg": 1.9708920698464396
+    },
+    "vendor": {
+      "final_horizontal_offset_from_original_start_m": 0.46689997868366606,
+      "final_vertical_offset_from_original_start_m": -0.0009118470403896572,
+      "final_3d_offset_from_original_start_m": 0.46690086909303663,
+      "final_orientation_change_deg": 2.10839705938297
+    }
+  },
+  "revisited_start_floor_checks": [
+    {
+      "hold": "return_3m",
+      "common_15cm_xy_cells": 578,
+      "median_signed_floor_height_difference_m": -0.0009420514106750488,
+      "median_absolute_floor_height_difference_m": 0.0026224106550216675,
+      "p90_absolute_floor_height_difference_m": 0.026875118911266337
+    },
+    {
+      "hold": "return_5m",
+      "common_15cm_xy_cells": 573,
+      "median_signed_floor_height_difference_m": 0.00033673644065856934,
+      "median_absolute_floor_height_difference_m": 0.0022525638341903687,
+      "p90_absolute_floor_height_difference_m": 0.022597101330757152
+    }
+  ],
+  "floor_method": "Map XY grid 15 cm, >=5 points per cell, within 3 m of initial IMU and .15-.9 m below it; no ICP/relevelling. Same XY assumes adequate horizontal registration.",
+  "health": {
+    "lio_poses": 1687,
+    "first_pose_s": 0.776213646,
+    "last_pose_s": 110.09613967,
+    "nonfinite_pose_values": 0,
+    "nonincreasing_pose_stamps": 0,
+    "lio_dt_s": {
+      "median": 0.06493830650000021,
+      "p95": 0.06557691100000085,
+      "p99": 0.06648705019999986,
+      "max": 0.0716485979999959
+    },
+    "average_pose_frequency_hz": 15.422622950091066,
+    "lio_step_translation_m": {
+      "median": 0.013014266491494536,
+      "p95": 0.02259901230607729,
+      "p99": 0.0275319365290036,
+      "max": 0.039002693256478684
+    },
+    "lio_step_rotation_deg": {
+      "median": 0.4851704506627632,
+      "p95": 1.0551881499596711,
+      "p99": 1.4546037982902698,
+      "max": 2.2132349306360264
+    },
+    "steps_over_0_15_m": 0,
+    "rotation_steps_over_5_deg": 0,
+    "tf_pose_stamps_exact": false,
+    "tf_missing_pose_stamp_count": 1,
+    "tf_extra_stamp_count": 0,
+    "lio_yaw_range_relative_to_start_deg": [
+      -5.78587154624855,
+      6.10714069189345
+    ],
+    "largest_imu_gaps": [
+      {
+        "time_s": 101.232119415,
+        "imu_gap_s": 0.03217992,
+        "nearby_max_lio_step_m": 0.01808498366293752
+      },
+      {
+        "time_s": 73.1219941535,
+        "imu_gap_s": 0.031952961,
+        "nearby_max_lio_step_m": 0.011218176186379781
+      },
+      {
+        "time_s": 0.772298301,
+        "imu_gap_s": 0.024289294,
+        "nearby_max_lio_step_m": 0.039002693256478684
+      },
+      {
+        "time_s": 33.986229492,
+        "imu_gap_s": 0.023072168,
+        "nearby_max_lio_step_m": 0.01934027733618618
+      },
+      {
+        "time_s": 15.4460804835,
+        "imu_gap_s": 0.022950961,
+        "nearby_max_lio_step_m": 0.0156564577115208
+      },
+      {
+        "time_s": 42.6797884695,
+        "imu_gap_s": 0.022931127,
+        "nearby_max_lio_step_m": 0.01566533288855577
+      },
+      {
+        "time_s": 18.269305913,
+        "imu_gap_s": 0.022616586,
+        "nearby_max_lio_step_m": 0.0181485044485052
+      },
+      {
+        "time_s": 81.1990517775,
+        "imu_gap_s": 0.021857503,
+        "nearby_max_lio_step_m": 0.021371785330294973
+      },
+      {
+        "time_s": 29.3809772165,
+        "imu_gap_s": 0.021322127,
+        "nearby_max_lio_step_m": 0.009237645867900962
+      },
+      {
+        "time_s": 65.506723805,
+        "imu_gap_s": 0.021175294,
+        "nearby_max_lio_step_m": 0.02307237392169531
+      }
+    ]
+  },
+  "replay_result": {
+    "source_elapsed_s": 110.033455372,
+    "odometry_messages": 1687,
+    "registered_clouds": 1687,
+    "map_to_odom_transforms": 1686,
+    "last_bridge_status": {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 1,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792303199901021957,
+      "last_tf_error": "Lookup would require extrapolation into the future.  Requested time 1792303199.965961 but the latest data is at time 1792303199.946605, when looking up transform from frame [imu] to frame [odom]",
+      "lookup_failures": 2304,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 1686,
+      "received": 1687,
+      "waiting": 0
+    },
+    "player_running": false,
+    "mapping_running": false,
+    "stop_reason": "playback_complete",
+    "tf_parents": {
+      "imu": [
+        "base_link"
+      ],
+      "radar": [
+        "base_link"
+      ],
+      "utlidar_lidar": [
+        "radar"
+      ],
+      "base_footprint": [
+        "odom"
+      ],
+      "base_link": [
+        "base_footprint"
+      ],
+      "odom": [
+        "map"
+      ]
+    },
+    "multiple_tf_parents": {},
+    "input_cloud_messages": 1698,
+    "input_imu_messages": 31978,
+    "launch_returncode": 0,
+    "player_returncode": 0,
+    "application_hashes_after": {
+      "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+      "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+      "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+      "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+      "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+      "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+    },
+    "robot_commands_sent": false,
+    "application_unchanged": true,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true
+  },
+  "application_settings_changed": false,
+  "diagnostic_startup_override": {
+    "init_map_size": 4000
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "interval_s": [
+      0,
+      20
+    ],
+    "samples": 309,
+    "net_displacement_m": 0.006746369192785816,
+    "max_distance_from_interval_start_m": 0.017609827950751677,
+    "xyz_spread_m": [
+      0.01999080476947563,
+      0.023187311086859945,
+      0.009427025892252394
+    ],
+    "yaw_range_deg": 1.9003804617367932
+  },
+  {
+    "interval_s": [
+      20,
+      40
+    ],
+    "samples": 309,
+    "net_displacement_m": 0.004949331644206865,
+    "max_distance_from_interval_start_m": 0.015246819180491396,
+    "xyz_spread_m": [
+      0.013811008401649392,
+      0.020822095676193017,
+      0.008607468823182396
+    ],
+    "yaw_range_deg": 0.7575427010283808
+  },
+  {
+    "interval_s": [
+      40,
+      60
+    ],
+    "samples": 308,
+    "net_displacement_m": 0.03125835605510488,
+    "max_distance_from_interval_start_m": 0.06798260660071023,
+    "xyz_spread_m": [
+      0.04789521891787217,
+      0.07021848442853033,
+      0.023921441867183233
+    ],
+    "yaw_range_deg": 95.52859822661452
+  },
+  {
+    "interval_s": [
+      60,
+      80
+    ],
+    "samples": 309,
+    "net_displacement_m": 0.042880936509041574,
+    "max_distance_from_interval_start_m": 0.10432848338293112,
+    "xyz_spread_m": [
+      0.1303536431183821,
+      0.12161197276085621,
+      0.028712879762304758
+    ],
+    "yaw_range_deg": 212.93722052150622
+  },
+  {
+    "interval_s": [
+      0,
+      80
+    ],
+    "samples": 1235,
+    "net_displacement_m": 0.03727685017525522,
+    "max_distance_from_interval_start_m": 0.09455113324641398,
+    "xyz_spread_m": [
+      0.1303536431183821,
+      0.12846439224420794,
+      0.028712879762304758
+    ],
+    "yaw_range_deg": 308.7017503983057
+  },
+  {
+    "interval_s": [
+      240,
+      245
+    ],
+    "samples": 64,
+    "net_displacement_m": 0.04127341867207675,
+    "max_distance_from_interval_start_m": 0.0550018272605766,
+    "xyz_spread_m": [
+      0.056815064310794305,
+      0.030491863735634617,
+      0.01572087341784778
+    ],
+    "yaw_range_deg": 0.5632713751624403
+  }
+]

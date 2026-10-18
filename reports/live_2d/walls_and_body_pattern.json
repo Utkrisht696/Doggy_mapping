@@ -1,0 +1,11 @@
+{
+  "stationary": {
+    "near_elevated_returns": 2693,
+    "pose_displacement_m": 0.013054903520563627
+  },
+  "moving": {
+    "near_elevated_returns": 9653,
+    "pose_displacement_m": 4.861895327787526
+  },
+  "body_frame_histogram_overlap": 0.5668729034135062
+}

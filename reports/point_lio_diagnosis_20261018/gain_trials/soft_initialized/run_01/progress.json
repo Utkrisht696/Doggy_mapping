@@ -1,0 +1,23 @@
+{
+  "source_elapsed_s": 132.541527748,
+  "odometry_messages": 2030,
+  "registered_clouds": 2030,
+  "map_to_odom_transforms": 2030,
+  "last_bridge_status": {
+    "acquisition_lag_calibrated": false,
+    "edge": "map -> odom",
+    "expired": 0,
+    "input": "/point_lio/odometry",
+    "invalid": 0,
+    "last_published_stamp_ns": 1792314472145507335,
+    "last_tf_error": "",
+    "lookup_failures": 1679,
+    "nonincreasing": 0,
+    "overflow": 0,
+    "published": 1979,
+    "received": 1979,
+    "waiting": 0
+  },
+  "player_running": true,
+  "mapping_running": true
+}

@@ -1,0 +1,71 @@
+{
+  "source_bag": "/home/jain/go2_bags/spinny",
+  "source_files": [
+    {
+      "file": "robot_20261018_101639_0.mcap",
+      "bytes": 319165176,
+      "mtime_ns": 1792318680297461493,
+      "messages": 154054,
+      "chunks": 942,
+      "summary_crc_present": true,
+      "summary_crc_valid": true,
+      "full_stream_validated": true
+    }
+  ],
+  "duration_s": 78.779518273,
+  "messages": 154054,
+  "metadata_counts_match": true,
+  "chunks": 942,
+  "chunks_with_crc": 0,
+  "all_file_summary_crcs_valid": true,
+  "counts": {
+    "/utlidar/robot_odom": 11770,
+    "/utlidar/imu": 19586,
+    "/utlidar/height_map_array": 1217,
+    "/lowstate": 39368,
+    "/api/obstacles_avoid/response": 996,
+    "/lf/lowstate": 1575,
+    "/utlidar/cloud_base": 1216,
+    "/utlidar/cloud_deskewed": 1216,
+    "/utlidar/robot_pose": 1470,
+    "/utlidar/range_info": 1216,
+    "/lowcmd": 38563,
+    "/sportmodestate": 23217,
+    "/frontvideostream": 2247,
+    "/utlidar/lidar_state": 394,
+    "/utlidar/cloud": 1215,
+    "/lf/sportmodestate": 1574,
+    "/audiosender": 3933,
+    "/api/obstacles_avoid/request": 995,
+    "/api/vui/request": 158,
+    "/api/vui/response": 158,
+    "/rtc/state": 79,
+    "/api/uwbswitch/request": 210,
+    "/api/uwbswitch/response": 210,
+    "/multiplestate": 79,
+    "/audiohub/player/state": 313,
+    "/gnss": 79,
+    "/wirelesscontroller": 1000
+  },
+  "replay_topics": {
+    "/tf_static": 1,
+    "/utlidar/robot_odom": 11770,
+    "/tf": 3354,
+    "/doggy/robot_clock": 3354,
+    "/doggy/imu/body_calibrated": 22828,
+    "/utlidar/cloud": 1215
+  },
+  "raw_frames": [
+    "utlidar_lidar"
+  ],
+  "calibrated_imu_duplicates_dropped": 389,
+  "body_converter_errors": 0,
+  "geometry_pairs": 13,
+  "geometry_matches": 11221,
+  "geometry_max_residual_m": 2.816941639557761e-06,
+  "initial_2s_vendor_position_excursion_m": 0.0002796610821803509,
+  "initial_2s_calibrated_acc_norm_mean": 9.768841460773812,
+  "initial_2s_calibrated_gyro_norm_max": 0.03578019897324665,
+  "robot_commands_replayed": false,
+  "metadata_compatibility": "Original Jazzy MCAP left unchanged; separate Humble sqlite replay contains only raw cloud, calibrated body IMU, vendor odometry, derived clock and canonical sensor TF."
+}

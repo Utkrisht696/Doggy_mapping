@@ -1,0 +1,283 @@
+{
+  "trace_rows": 2176,
+  "trial_vs_control": {
+    "common_stamps": 2176,
+    "all_pose_values_exactly_equal": false,
+    "max_position_difference_m": 1.6022168254171365,
+    "max_orientation_difference_deg": 8.11789247438215
+  },
+  "accounting": {
+    "max_per_scan_closure_error_deg": 1.5902773407317584e-15,
+    "max_phase_sum_minus_heading_deg": 1.5631940186722204e-13,
+    "max_csv_vs_published_orientation_difference_deg": 6.41369419104923e-15,
+    "min_output_minus_scan_stamp_s": 0.05140089988708496,
+    "max_output_minus_scan_stamp_s": 0.06722497940063477
+  },
+  "phase_counts": {
+    "prediction": 1075934,
+    "imu": 41299,
+    "lidar": 1034635
+  },
+  "lidar_successful_updates": 1020393,
+  "prediction_dt": {
+    "negative_steps": 2,
+    "scans_with_negative_dt": 2,
+    "min_s": -0.00020313262939453125,
+    "max_s": 0.009212732315063477,
+    "interpretation": "Negative dt is audited, not automatically classified as erroneous: this implementation backtracks between point-time and IMU-time predictions."
+  },
+  "final_hold_heading_change_deg": {
+    "point_lio": -6.660665667530046,
+    "body_orientation": -2.8416102593417207,
+    "phase_contributions": {
+      "prediction": -6.721431948348926,
+      "imu": -0.05316686210421924,
+      "lidar": 0.13967939077941371
+    }
+  },
+  "gyro_bias_range_rad_s": {
+    "bgx": [
+      -0.07656307454803703,
+      0.004883420750199995
+    ],
+    "bgy": [
+      -0.01022213147347035,
+      0.019777323460001967
+    ],
+    "bgz": [
+      -0.044346393075539454,
+      0.05731814068192477
+    ]
+  },
+  "snapshots": [
+    {
+      "source_s": 6.027324676,
+      "point_lio_heading_deg": 0.0863372979830495,
+      "body_heading_deg": -0.01437174562389032,
+      "heading_disagreement_deg": 0.10070904360693982,
+      "cumulative_phase_heading_deg": {
+        "prediction": -0.006491117690856474,
+        "imu": 0.0017539144409809057,
+        "lidar": 0.0822177341062102
+      },
+      "gyro_bias_rad_s": [
+        -0.0012043463463005666,
+        -0.0011818728764822547,
+        -0.00026010728579031154
+      ],
+      "tilt_deg": [
+        -0.6212879607734874,
+        -0.13987458046475348
+      ]
+    },
+    {
+      "source_s": 19.972730875,
+      "point_lio_heading_deg": 48.88477048300694,
+      "body_heading_deg": 49.02929087074298,
+      "heading_disagreement_deg": -0.14452038773604414,
+      "cumulative_phase_heading_deg": {
+        "prediction": 48.80487211300372,
+        "imu": 0.003947898428554485,
+        "lidar": 0.06709370444794782
+      },
+      "gyro_bias_rad_s": [
+        0.002491667244718355,
+        0.0005355203517063921,
+        -0.0001939486392341308
+      ],
+      "tilt_deg": [
+        -0.18628677396636428,
+        -0.6649680958193508
+      ]
+    },
+    {
+      "source_s": 30.022248268,
+      "point_lio_heading_deg": 101.14182366874422,
+      "body_heading_deg": 104.47163729358022,
+      "heading_disagreement_deg": -3.3298136248359924,
+      "cumulative_phase_heading_deg": {
+        "prediction": 102.28453922105119,
+        "imu": -0.013580200866971072,
+        "lidar": -1.1379921185667006
+      },
+      "gyro_bias_rad_s": [
+        0.0002847171359154929,
+        -0.001362750162682419,
+        0.005617781246846367
+      ],
+      "tilt_deg": [
+        -1.086773457285875,
+        1.6468308913468597
+      ]
+    },
+    {
+      "source_s": 40.009201288,
+      "point_lio_heading_deg": 70.49275740475295,
+      "body_heading_deg": 76.73185922854229,
+      "heading_disagreement_deg": -6.2391018237893405,
+      "cumulative_phase_heading_deg": {
+        "prediction": 71.49514270588418,
+        "imu": -0.017473753078474305,
+        "lidar": -0.9937683151794297
+      },
+      "gyro_bias_rad_s": [
+        -0.0020382920785683195,
+        0.0009396132637394551,
+        0.005016307951344589
+      ],
+      "tilt_deg": [
+        -1.564351326201271,
+        0.05335845554341727
+      ]
+    },
+    {
+      "source_s": 52.527729749,
+      "point_lio_heading_deg": -6.013200956009701,
+      "body_heading_deg": 1.7820407265275549,
+      "heading_disagreement_deg": -7.795241682537256,
+      "cumulative_phase_heading_deg": {
+        "prediction": -5.498967973366681,
+        "imu": -0.027029518142620598,
+        "lidar": -0.49606023162708657
+      },
+      "gyro_bias_rad_s": [
+        -0.0010095198884744235,
+        0.0007660074978829278,
+        0.0028691321709941797
+      ],
+      "tilt_deg": [
+        -1.0268163585866663,
+        -1.9290492666838666
+      ]
+    },
+    {
+      "source_s": 56.029701471,
+      "point_lio_heading_deg": -50.13249411743504,
+      "body_heading_deg": -39.549830124599,
+      "heading_disagreement_deg": -10.58266399283604,
+      "cumulative_phase_heading_deg": {
+        "prediction": -47.90285231422298,
+        "imu": -0.027645932358626894,
+        "lidar": -2.2108526379801234
+      },
+      "gyro_bias_rad_s": [
+        -0.002544485502068438,
+        -0.00018280443477238255,
+        0.011669257951104468
+      ],
+      "tilt_deg": [
+        1.8692732943899006,
+        -3.5485990445060787
+      ]
+    },
+    {
+      "source_s": 69.969209432,
+      "point_lio_heading_deg": -114.93296578577404,
+      "body_heading_deg": -106.1808717835803,
+      "heading_disagreement_deg": -8.752094002193743,
+      "cumulative_phase_heading_deg": {
+        "prediction": -115.77616161044007,
+        "imu": -0.018091442791037186,
+        "lidar": 0.8524305003304554
+      },
+      "gyro_bias_rad_s": [
+        -0.0013426084239132998,
+        1.5810509610842057e-05,
+        -0.0033213575399880135
+      ],
+      "tilt_deg": [
+        4.283257567997985,
+        -4.798710287494399
+      ]
+    },
+    {
+      "source_s": 90.006709575,
+      "point_lio_heading_deg": -143.81733365632095,
+      "body_heading_deg": -136.2668911224369,
+      "heading_disagreement_deg": -7.550442533884052,
+      "cumulative_phase_heading_deg": {
+        "prediction": -144.06323670662135,
+        "imu": -0.03817176389226513,
+        "lidar": 0.2752180470660561
+      },
+      "gyro_bias_rad_s": [
+        -0.0031708802942353783,
+        -0.0013492558296612956,
+        -0.0004398925045205242
+      ],
+      "tilt_deg": [
+        1.9784743121406088,
+        -1.2317548092356623
+      ]
+    },
+    {
+      "source_s": 109.976278066,
+      "point_lio_heading_deg": -134.54933230531122,
+      "body_heading_deg": -132.27902166472742,
+      "heading_disagreement_deg": -2.2703106405838014,
+      "cumulative_phase_heading_deg": {
+        "prediction": -134.4034893900889,
+        "imu": -0.05163921162105288,
+        "lidar": -0.10306047072787644
+      },
+      "gyro_bias_rad_s": [
+        0.004182992271275684,
+        -0.0024050785377347987,
+        0.0013674217651020143
+      ],
+      "tilt_deg": [
+        2.4001729561469274,
+        -1.7978459965247553
+      ]
+    },
+    {
+      "source_s": 130.010220289,
+      "point_lio_heading_deg": -20.49774353667072,
+      "body_heading_deg": -17.036202622999056,
+      "heading_disagreement_deg": -3.461540913671662,
+      "cumulative_phase_heading_deg": {
+        "prediction": -20.257758667671563,
+        "imu": -0.06168604007363855,
+        "lidar": -0.18715559605209076
+      },
+      "gyro_bias_rad_s": [
+        2.325702846970818e-06,
+        -0.005613783129213123,
+        0.0019467637090258719
+      ],
+      "tilt_deg": [
+        0.9487030475445957,
+        -1.8030771789888307
+      ]
+    },
+    {
+      "source_s": 140.002700328,
+      "point_lio_heading_deg": -6.594426139537326,
+      "body_heading_deg": -2.8500662232820133,
+      "heading_disagreement_deg": -3.7443599162553127,
+      "cumulative_phase_heading_deg": {
+        "prediction": -6.744537277745587,
+        "imu": -0.05326274407650221,
+        "lidar": 0.19451711515818337
+      },
+      "gyro_bias_rad_s": [
+        -0.0017032848707344984,
+        -0.0012944126753992359,
+        -3.7423991665296114e-05
+      ],
+      "tilt_deg": [
+        1.2307807598182317,
+        -0.11029732521981286
+      ]
+    }
+  ],
+  "protected_active_and_baseline_files_unchanged": true,
+  "source_bag_files_unchanged": true,
+  "limits": [
+    "Heading components are sums of local Euler yaw changes for each filter operation, not independent physical rotations. They identify algorithmic changes without establishing which correction is physically correct.",
+    "Body orientation shares the same body IMU. No independent surveyed yaw reference.",
+    "Only final per-scan state is retained; transient bias/state changes within each scan are not captured.",
+    "Pre-update innovation values are RMS vector norms aggregated per scan, not per-axis innovations.",
+    "This private trial changes only gyro measurement variance from 0.1 to 0.001; no active source/config changes are included."
+  ]
+}

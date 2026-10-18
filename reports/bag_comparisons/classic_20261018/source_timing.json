@@ -1,0 +1,88 @@
+{
+  "raw": {
+    "samples": 1698,
+    "start_s": 0.0,
+    "end_s": 110.033455372,
+    "duplicates": 0,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.064888239,
+      0.0660925862,
+      0.06828722940000001,
+      0.072198391
+    ],
+    "source_gaps_over_3_median_count": 0,
+    "receipt_minus_header_first_last_s": [
+      25.731363245,
+      25.731751188
+    ]
+  },
+  "imu": {
+    "samples": 31978,
+    "start_s": 0.010364037,
+    "end_s": 110.098077098,
+    "duplicates": 0,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.003955583,
+      0.0042358752,
+      0.008038252,
+      0.03217992
+    ],
+    "source_gaps_over_3_median_count": 163,
+    "receipt_minus_header_first_last_s": [
+      25.665800061,
+      25.667089686
+    ]
+  },
+  "vendor": {
+    "samples": 16410,
+    "start_s": 0.047126294,
+    "end_s": 110.096744538,
+    "duplicates": 0,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.006658077,
+      0.007371664,
+      0.01243330056,
+      0.034487486
+    ],
+    "source_gaps_over_3_median_count": 23,
+    "receipt_minus_header_first_last_s": [
+      25.664123579,
+      25.664813738
+    ]
+  },
+  "sport": {
+    "samples": 32534,
+    "start_s": 0.010364037,
+    "end_s": 110.098077098,
+    "duplicates": 556,
+    "backwards": 0,
+    "positive_dt_median_p95_p99_max_s": [
+      0.003955583,
+      0.0042358752,
+      0.008038252,
+      0.03217992
+    ],
+    "source_gaps_over_3_median_count": 163,
+    "receipt_minus_header_first_last_s": [
+      25.665800061,
+      25.667089686
+    ]
+  },
+  "scans_imu_bracketed": {
+    "within_recording": 1697,
+    "outside_recording": 1,
+    "point_time_span_median_min_max_s": [
+      0.06222911365330219,
+      0.05498647317290306,
+      0.06749223324004561
+    ],
+    "valid_points_median_min_max": [
+      1497.0,
+      1139.0,
+      1852.0
+    ]
+  }
+}

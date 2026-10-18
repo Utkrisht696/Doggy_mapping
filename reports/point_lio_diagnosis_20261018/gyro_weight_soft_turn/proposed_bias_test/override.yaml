@@ -1,0 +1,7 @@
+# PROPOSED ONLY; not applied or loaded by any launch.
+/**:
+  ros__parameters:
+    mapping:
+      imu_meas_omg_cov: 0.001
+    diagnostics:
+      hold_residual_gyro_bias_zero: true

@@ -1,0 +1,27 @@
+{
+  "status": "Prepared only, requires separate approval; not applied or compiled",
+  "baseline": "reports/point_lio_diagnosis_20261018/gyro_weight_soft_turn/src/point_lio/src/laserMapping.cpp",
+  "baseline_sha256": "4abed718f7ef4762c36b033e141bcc5bd3cc0b93d666afee55d2359f73ecb024",
+  "purpose": "Test whether additional estimated residual gyro bias is driving heading error after the approved fixed adapter bias correction",
+  "single_conceptual_change": "Hold additional gyro-bias state at zero by zero initialization, zero prior covariance and zero process noise in its three state entries; accelerometer bias remains estimated",
+  "why": "With stronger gyro weighting, raw gyro integrated minus the logged estimated residual bias reproduces predicted heading within 0.10 degree RMS. At 61.93 s it explains about 10.7 degrees departure from plain gyro integration.",
+  "profile": "Retain tested gyro measurement variance 0.001; no additional tuning",
+  "planned_input": "Same full soft-turn bag at 1x over localhost; review results before other tests",
+  "preserved": [
+    "approved fixed body-IMU adapter calibration",
+    "raw input samples",
+    "timing and extrinsics",
+    "accelerometer bias estimation",
+    "LiDAR noise/model",
+    "active code/config",
+    "older trial outputs"
+  ],
+  "validation": [
+    "Trace residual gyro bias remains exactly zero",
+    "Compare heading RMS/peak/full curve against both earlier cases",
+    "Position and height return errors plus trajectory continuity",
+    "Same exact input delivery and complete TF",
+    "No recovery reseeds or robot commands"
+  ],
+  "limits": "Diagnostic hypothesis test, not a general recommendation to disable gyro-bias estimation. Real thermal/time-varying sensor bias is possible and would require later validation."
+}

@@ -1,0 +1,7 @@
+# PROPOSED ONLY: not loaded by any launch. Requires user approval.
+# Change only gyro measurement variance; retain body calibration, bias process
+# noise, LiDAR covariance, extrinsics, timing and all other estimator settings.
+/**:
+  ros__parameters:
+    mapping:
+      imu_meas_omg_cov: 0.001

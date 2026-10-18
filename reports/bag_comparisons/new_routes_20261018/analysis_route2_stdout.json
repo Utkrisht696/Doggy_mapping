@@ -1,0 +1,168 @@
+{
+  "bag": "measured_route_2",
+  "straight_checks": [
+    {
+      "nominal_distance_m": 5.0,
+      "route_assignment": "user-confirmed straight sequence",
+      "start_hold": 0,
+      "far_hold": 1,
+      "return_hold": 2,
+      "point_lio": {
+        "horizontal_displacement_m": 5.056695331385237,
+        "height_change_m": -0.08359816473689659,
+        "heading_change_deg": 2.8077208247467547,
+        "delta_xyz_m": [
+          5.026960756100177,
+          0.5475702978449376,
+          -0.08359816473689659
+        ],
+        "full_orientation_change_deg": 2.809252794397564,
+        "nominal_difference_m": 0.05669533138523697,
+        "nominal_difference_percent": 1.1339066277047394,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.09139518192196161,
+          "height_change_m": -0.0006453524239282012,
+          "heading_change_deg": 0.07333901236631978,
+          "delta_xyz_m": [
+            -0.0698203950458708,
+            -0.05897619616580064,
+            -0.0006453524239282012
+          ],
+          "full_orientation_change_deg": 0.9829575954730075
+        }
+      },
+      "vendor": {
+        "horizontal_displacement_m": 4.469939559530803,
+        "height_change_m": -0.0009176851882560788,
+        "heading_change_deg": 2.927229266617661,
+        "delta_xyz_m": [
+          4.436934110881566,
+          -0.5421949479237478,
+          -0.0009176851882560788
+        ],
+        "full_orientation_change_deg": 2.9772799355016697,
+        "nominal_difference_m": -0.5300604404691969,
+        "nominal_difference_percent": -10.601208809383937,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.06029442148626155,
+          "height_change_m": 0.00041359242280925024,
+          "heading_change_deg": 0.308968995272297,
+          "delta_xyz_m": [
+            0.02339908501676291,
+            -0.05556887692531909,
+            0.00041359242280925024
+          ],
+          "full_orientation_change_deg": 0.9140790541429005
+        }
+      }
+    },
+    {
+      "nominal_distance_m": 10.0,
+      "route_assignment": "user-confirmed straight sequence",
+      "start_hold": 2,
+      "far_hold": 3,
+      "return_hold": 4,
+      "point_lio": {
+        "horizontal_displacement_m": 10.228613950470963,
+        "height_change_m": -0.21823887648423468,
+        "heading_change_deg": 6.711101113729096,
+        "delta_xyz_m": [
+          10.18650824463718,
+          0.9271424538375811,
+          -0.21823887648423468
+        ],
+        "full_orientation_change_deg": 6.920742118383068,
+        "nominal_difference_m": 0.22861395047096345,
+        "nominal_difference_percent": 2.2861395047096345,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.09272301945283563,
+          "height_change_m": 0.002057983865928533,
+          "heading_change_deg": 2.112273608583848,
+          "delta_xyz_m": [
+            0.09228778531383622,
+            0.00897346189150041,
+            0.002057983865928533
+          ],
+          "full_orientation_change_deg": 2.133399952111444
+        }
+      },
+      "vendor": {
+        "horizontal_displacement_m": 9.021441866432507,
+        "height_change_m": 8.374165853125559e-05,
+        "heading_change_deg": 7.512355090104519,
+        "delta_xyz_m": [
+          8.93989817382038,
+          -1.2102206373815738,
+          8.374165853125559e-05
+        ],
+        "full_orientation_change_deg": 7.524711287581069,
+        "nominal_difference_m": -0.9785581335674927,
+        "nominal_difference_percent": -9.785581335674927,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.22956290590164002,
+          "height_change_m": 2.5975998331206895e-06,
+          "heading_change_deg": 2.580648476373109,
+          "delta_xyz_m": [
+            0.22402021892028223,
+            -0.05014049541951149,
+            2.5975998331206895e-06
+          ],
+          "full_orientation_change_deg": 2.5840084520644253
+        }
+      }
+    }
+  ],
+  "endpoints": {
+    "point_lio": {
+      "horizontal_displacement_m": 4.2566780644187325,
+      "height_change_m": 0.0010945426490918746,
+      "heading_change_deg": 23.264561896183693,
+      "delta_xyz_m": [
+        3.229442121837112,
+        -2.773087038988827,
+        0.0010945426490918746
+      ],
+      "full_orientation_change_deg": 23.324089394115916
+    },
+    "vendor": {
+      "horizontal_displacement_m": 4.838531273515177,
+      "height_change_m": -9.49952607037785e-06,
+      "heading_change_deg": -28.517640815926,
+      "delta_xyz_m": [
+        2.2669040579921456,
+        4.274638098908859,
+        -9.49952607037785e-06
+      ],
+      "full_orientation_change_deg": 28.516613251394897
+    }
+  },
+  "health": {
+    "poses": 4241,
+    "first_pose_source_s": 0.840838433,
+    "last_pose_source_s": 275.774127484,
+    "nonfinite_values": 0,
+    "nonincreasing_stamps": 0,
+    "median_contiguous_rate_hz": 15.39982484393072,
+    "contiguous_position_step_m": {
+      "median": 0.025222257902267113,
+      "p95": 0.038302160433699536,
+      "p99": 0.04323929184263728,
+      "max": 0.05447691462890246
+    },
+    "contiguous_rotation_step_deg": {
+      "median": 0.6931043295855139,
+      "p95": 3.3972994040561755,
+      "p99": 4.40190149029465,
+      "max": 6.664946262807507
+    },
+    "output_gaps_over_150ms": [],
+    "missing_exact_stamp_tf": 1,
+    "reseed_events": 0,
+    "resume_events": 0,
+    "probation_events": 0
+  },
+  "travel": {
+    "point_lio": 82.13109558908133,
+    "vendor": 69.68572386976915
+  }
+}

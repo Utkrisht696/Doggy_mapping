@@ -1,0 +1,9 @@
+{
+  "last_pose_source_s": 28.118704557,
+  "last_input_source_s": 42.052036285,
+  "poses_after_gap_28_2s": 0,
+  "vendor_reseed_attempts": 0,
+  "waiting_for_vendor_events": 212,
+  "recording_was_deliberately_stopped_early": true,
+  "passes": true
+}

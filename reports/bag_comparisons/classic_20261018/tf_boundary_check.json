@@ -1,0 +1,5 @@
+{
+  "only_final_pose_missing_tf": true,
+  "all_earlier_pose_tf_sequences_exact": true,
+  "last_pose_beyond_last_derived_vendor_tf_ms": 19.356251
+}

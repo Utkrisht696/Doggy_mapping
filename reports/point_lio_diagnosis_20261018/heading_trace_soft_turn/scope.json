@@ -1,0 +1,13 @@
+{
+  "status": "Approved patch applied and built in private copy; replay started",
+  "baseline": "reports/point_lio_diagnosis_20261018/cache_fix_soft_turn/src/point_lio/src/laserMapping.cpp",
+  "baseline_sha256": "a83162fed8c2936b582a1583f650f9ddfb49599ba1b0909930dfc96b99648459",
+  "proposed_sha256": "4abed718f7ef4762c36b033e141bcc5bd3cc0b93d666afee55d2359f73ecb024",
+  "purpose": "Separate heading changes due to prediction, IMU correction and LiDAR correction; record pre-update IMU innovation norms, predicted dt bounds/signs and final bias/tilt each scan.",
+  "algorithm_changes": false,
+  "startup_batch_fix_included": false,
+  "cache_fix_included": true,
+  "requested_test": "Full soft-turn recording at 1x in a new private build on localhost only, comparing trace-enabled output with existing exact reproducible cache-fixed control.",
+  "validation": "Same inputs/config; verify finite/increasing/continuous outputs and exact TF, no recovery aids, pose equality or differences vs control, heading-change accounting closure; original files and active workspace hashes protected.",
+  "domain": 223
+}

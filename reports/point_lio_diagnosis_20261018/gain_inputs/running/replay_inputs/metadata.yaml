@@ -1,0 +1,56 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 66326711276
+  starting_time:
+    nanoseconds_since_epoch: 1792313291008198273
+  message_count: 36055
+  topics_with_message_count:
+    - topic_metadata:
+        name: /tf
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2813
+    - topic_metadata:
+        name: /doggy/robot_clock
+        type: rosgraph_msgs/msg/Clock
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2813
+    - topic_metadata:
+        name: /utlidar/robot_odom
+        type: nav_msgs/msg/Odometry
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 9945
+    - topic_metadata:
+        name: /doggy/imu/body_calibrated
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 19461
+    - topic_metadata:
+        name: /tf_static
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1
+    - topic_metadata:
+        name: /utlidar/cloud
+        type: sensor_msgs/msg/PointCloud2
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1022
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - replay_inputs_0.db3
+  files:
+    - path: replay_inputs_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1792313291008198273
+      duration:
+        nanoseconds: 66326711276
+      message_count: 36055

@@ -1,0 +1,21 @@
+{
+  "all_unchanged": true,
+  "bags": {
+    "measured_route_1": {
+      "source_files_unchanged": true,
+      "segments": 6
+    },
+    "measured_route_2": {
+      "source_files_unchanged": true,
+      "segments": 5
+    },
+    "doggy_real1": {
+      "source_files_unchanged": true,
+      "segments": 5
+    },
+    "doggy_real2": {
+      "source_files_unchanged": true,
+      "segments": 5
+    }
+  }
+}

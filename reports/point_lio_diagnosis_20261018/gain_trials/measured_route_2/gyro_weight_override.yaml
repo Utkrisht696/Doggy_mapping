@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    mapping:
+      imu_meas_omg_cov: 0.0001

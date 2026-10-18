@@ -1,0 +1,54 @@
+--- a/scripts/publish_body_imu.py
++++ b/scripts/publish_body_imu.py
+@@ -1,7 +1,7 @@
+ #!/usr/bin/env python3
+ """Publish a calibrated body IMU from timestamped SportModeState; no robot commands.
+ 
+-Fixed biases are loaded from an explicitly approved calibration file. Source
++Fixed biases and optional gyro gains come from the reviewed calibration file. Source
+ TimeSpec timestamps are preserved. This node publishes no TF and does not launch
+ an estimator, clock, controller or calibration routine.
+ """
+@@ -31,6 +31,10 @@
+         if not isinstance(values, list) or len(values) != 3 or any(
+                 not isinstance(v, (int, float)) or not math.isfinite(v) or abs(v) > bound for v in values):
+             raise ValueError(f'Invalid or out-of-profile {key}')
++    gains = data.get('gyro_scale_xyz', [1.0, 1.0, 1.0])
++    if not isinstance(gains, list) or len(gains) != 3 or any(
++            not isinstance(v, (int, float)) or not math.isfinite(v) or not 0.9 <= v <= 1.1 for v in gains):
++        raise ValueError('Invalid gyro_scale_xyz')
+     return data
+ 
+ 
+@@ -38,6 +42,7 @@
+     """Message conversion with checked source time; usable in offline validation."""
+     def __init__(self, calibration):
+         self.calibration = calibration
++        self.gyro_scale = calibration.get('gyro_scale_xyz', [1.0, 1.0, 1.0])
+         self.last_stamp_ns = None
+         self.last_values = None
+ 
+@@ -71,8 +76,12 @@
+         out.linear_acceleration.x, out.linear_acceleration.y, out.linear_acceleration.z = (
+             values[j] - ba[j] for j in range(3))
+         out.angular_velocity.x, out.angular_velocity.y, out.angular_velocity.z = (
+-            values[j+3] - bg[j] for j in range(3))
+-        # Covariances remain zero (unknown). No per-sample acceleration normalization,
++            (values[j+3] - bg[j]) * self.gyro_scale[j] for j in range(3))
++        # The vendor fused orientation has not received gyro-gain calibration.
++        # Keep its values for inspection, but let consumers ignore it when configured.
++        if self.calibration.get('vendor_orientation_available', True) is False:
++            out.orientation_covariance[0] = -1.0
++        # Gyro/acceleration covariances remain zero (unknown). No per-sample acceleration normalization,
+         # gravity synthesis/removal, axes rotation or fabricated noise matrices.
+         self.last_stamp_ns, self.last_values = stamp_ns, values
+         return out
+@@ -88,7 +97,7 @@
+             QoSProfile(depth=2000, reliability=ReliabilityPolicy.RELIABLE))
+         self.published = self.duplicates = 0
+         self.create_timer(5.0, self.status)
+-        self.get_logger().info('Body IMU only: preserving source stamps and applying reviewed fixed biases.')
++        self.get_logger().info('Body IMU only: preserving source stamps and applying reviewed fixed biases and gyro gains.')
+ 
+     def receive(self, source):
+         # A violated data/time contract stops this passive node; no hidden retiming.

@@ -1,0 +1,383 @@
+{
+  "only_new_estimator_change": "Both startup meas.imu.shrink_to_fit calls replaced with clear; cache resize retained in both cases",
+  "cases": {
+    "control": {
+      "return": {
+        "horizontal_displacement_m": 3.509376271777938,
+        "height_change_m": -0.4325822166442164,
+        "heading_change_deg": 0.3364038452581107,
+        "delta_xyz_m": [
+          -2.652725054317718,
+          2.2975577475034403,
+          -0.4325822166442164
+        ],
+        "full_orientation_change_deg": 1.8120377769375036
+      },
+      "vendor_return": {
+        "horizontal_displacement_m": 0.7054636232238412,
+        "height_change_m": 0.00011328915073027801,
+        "heading_change_deg": -2.8408102757820015,
+        "delta_xyz_m": [
+          0.6029690154163898,
+          0.366206622195584,
+          0.00011328915073027801
+        ],
+        "full_orientation_change_deg": 2.850694192715395
+      },
+      "heading": {
+        "heading_change_at_final_hold_deg": {
+          "Point-LIO": 0.289436027694716,
+          "Vendor": -2.841480233019155,
+          "Body orientation": -2.8416102593417207,
+          "Integrated calibrated gyro": -3.1051248111132566
+        },
+        "disagreement_vs_body_orientation_during_analyzed_route": {
+          "Point-LIO": {
+            "max_abs_deg": 18.529876250336848,
+            "max_abs_at_source_s": 55.899199724,
+            "rms_deg": 7.616722955027738,
+            "p95_abs_deg": 14.816132155693145
+          },
+          "Vendor": {
+            "max_abs_deg": 0.40919656645021973,
+            "max_abs_at_source_s": 128.260680675,
+            "rms_deg": 0.024886300369918023,
+            "p95_abs_deg": 0.04785632704101558
+          },
+          "Integrated calibrated gyro": {
+            "max_abs_deg": 0.3112268104495257,
+            "max_abs_at_source_s": 133.902274847,
+            "rms_deg": 0.12794648008091603,
+            "p95_abs_deg": 0.26204281929932877
+          }
+        },
+        "first_abs_disagreement_vs_body_orientation_s": {
+          "Point-LIO": {
+            "5": 35.209743738,
+            "10": 52.657199382,
+            "20": null,
+            "40": null
+          },
+          "Vendor": {
+            "5": null,
+            "10": null,
+            "20": null,
+            "40": null
+          },
+          "Integrated calibrated gyro": {
+            "5": null,
+            "10": null,
+            "20": null,
+            "40": null
+          }
+        },
+        "gyro_integration_resets_at_gaps_over_50ms": 0,
+        "method": "Trapezoidal calibrated body angular velocity integrated as body-frame quaternion increments, no new bias estimate, scale fitting or timestamp fitting. This is a diagnostic; signals share sensors and none is external surveyed heading."
+      },
+      "health": {
+        "poses": 2176,
+        "first_pose_source_s": 0.84030509,
+        "last_pose_source_s": 141.88373208,
+        "nonfinite_values": 0,
+        "nonincreasing_stamps": 0,
+        "median_contiguous_rate_hz": 15.403133268402412,
+        "contiguous_position_step_m": {
+          "median": 0.0203327750681778,
+          "p95": 0.03818991994987495,
+          "p99": 0.044542751797233895,
+          "max": 0.0562782075387092
+        },
+        "contiguous_rotation_step_deg": {
+          "median": 0.8131934819418425,
+          "p95": 2.070685890287834,
+          "p99": 2.6053042294043944,
+          "max": 3.3122320913921435
+        },
+        "output_gaps_over_150ms": [],
+        "missing_exact_stamp_tf": 0,
+        "reseed_events": 0,
+        "resume_events": 0,
+        "probation_events": 0
+      },
+      "delivery": {
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true
+      },
+      "quiet_windows": [
+        [
+          2.0,
+          6.0
+        ],
+        [
+          137.05717214300003,
+          141.557172143
+        ]
+      ],
+      "replay_result": {
+        "source_elapsed_s": 141.821519136,
+        "odometry_messages": 2176,
+        "registered_clouds": 2176,
+        "map_to_odom_transforms": 2176,
+        "last_bridge_status": {
+          "acquisition_lag_calibrated": false,
+          "edge": "map -> odom",
+          "expired": 0,
+          "input": "/point_lio/odometry",
+          "invalid": 0,
+          "last_published_stamp_ns": 1792314484732011556,
+          "last_tf_error": "",
+          "lookup_failures": 1736,
+          "nonincreasing": 0,
+          "overflow": 0,
+          "published": 2176,
+          "received": 2176,
+          "waiting": 0
+        },
+        "player_running": false,
+        "mapping_running": false,
+        "stop_reason": "playback_complete",
+        "tf_parents": {
+          "base_footprint": [
+            "odom"
+          ],
+          "base_link": [
+            "base_footprint"
+          ],
+          "imu": [
+            "base_link"
+          ],
+          "radar": [
+            "base_link"
+          ],
+          "utlidar_lidar": [
+            "radar"
+          ],
+          "odom": [
+            "map"
+          ]
+        },
+        "multiple_tf_parents": {},
+        "input_cloud_messages": 2188,
+        "input_imu_messages": 41521,
+        "launch_returncode": 0,
+        "player_returncode": 0,
+        "application_hashes_after": {
+          "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+          "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+          "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+          "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+          "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+          "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+          "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+        },
+        "robot_commands_sent": false,
+        "application_unchanged": true,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true
+      }
+    },
+    "initialization_fix": {
+      "return": {
+        "horizontal_displacement_m": 4.198559820880227,
+        "height_change_m": -0.4306336452503441,
+        "heading_change_deg": -14.609714484577347,
+        "delta_xyz_m": [
+          -3.506195417500041,
+          2.3096532778344723,
+          -0.4306336452503441
+        ],
+        "full_orientation_change_deg": 14.71221931930761
+      },
+      "vendor_return": {
+        "horizontal_displacement_m": 0.7054636232238412,
+        "height_change_m": 0.00011328915073027801,
+        "heading_change_deg": -2.8408102757820015,
+        "delta_xyz_m": [
+          0.6029690154163898,
+          0.366206622195584,
+          0.00011328915073027801
+        ],
+        "full_orientation_change_deg": 2.850694192715395
+      },
+      "heading": {
+        "heading_change_at_final_hold_deg": {
+          "Point-LIO": -14.506943133403896,
+          "Vendor": -2.841480233019155,
+          "Body orientation": -2.8416102593417207,
+          "Integrated calibrated gyro": -3.1051248111132566
+        },
+        "disagreement_vs_body_orientation_during_analyzed_route": {
+          "Point-LIO": {
+            "max_abs_deg": 17.65042079973027,
+            "max_abs_at_source_s": 55.899199724,
+            "rms_deg": 9.57745407600805,
+            "p95_abs_deg": 15.062693343282492
+          },
+          "Vendor": {
+            "max_abs_deg": 0.40919656645021973,
+            "max_abs_at_source_s": 128.260680675,
+            "rms_deg": 0.024886300369918023,
+            "p95_abs_deg": 0.04785632704101558
+          },
+          "Integrated calibrated gyro": {
+            "max_abs_deg": 0.3112268104495257,
+            "max_abs_at_source_s": 133.902274847,
+            "rms_deg": 0.12794648008091603,
+            "p95_abs_deg": 0.26204281929932877
+          }
+        },
+        "first_abs_disagreement_vs_body_orientation_s": {
+          "Point-LIO": {
+            "5": 35.339230537,
+            "10": 52.398213386,
+            "20": null,
+            "40": null
+          },
+          "Vendor": {
+            "5": null,
+            "10": null,
+            "20": null,
+            "40": null
+          },
+          "Integrated calibrated gyro": {
+            "5": null,
+            "10": null,
+            "20": null,
+            "40": null
+          }
+        },
+        "gyro_integration_resets_at_gaps_over_50ms": 0,
+        "method": "Trapezoidal calibrated body angular velocity integrated as body-frame quaternion increments, no new bias estimate, scale fitting or timestamp fitting. This is a diagnostic; signals share sensors and none is external surveyed heading."
+      },
+      "health": {
+        "poses": 2173,
+        "first_pose_source_s": 1.036187648,
+        "last_pose_source_s": 141.88373208,
+        "nonfinite_values": 0,
+        "nonincreasing_stamps": 0,
+        "median_contiguous_rate_hz": 15.403218088073263,
+        "contiguous_position_step_m": {
+          "median": 0.020765718264052158,
+          "p95": 0.038373591867779624,
+          "p99": 0.0451476264307699,
+          "max": 0.05738057668026453
+        },
+        "contiguous_rotation_step_deg": {
+          "median": 0.8130920057604005,
+          "p95": 2.10251451584995,
+          "p99": 2.5458936120357474,
+          "max": 3.2791831719484095
+        },
+        "output_gaps_over_150ms": [],
+        "missing_exact_stamp_tf": 0,
+        "reseed_events": 0,
+        "resume_events": 0,
+        "probation_events": 0
+      },
+      "delivery": {
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true
+      },
+      "quiet_windows": [
+        [
+          2.0,
+          6.0
+        ],
+        [
+          137.05717214300003,
+          141.557172143
+        ]
+      ],
+      "replay_result": {
+        "source_elapsed_s": 141.821519136,
+        "odometry_messages": 2173,
+        "registered_clouds": 2173,
+        "map_to_odom_transforms": 2173,
+        "last_bridge_status": {
+          "acquisition_lag_calibrated": false,
+          "edge": "map -> odom",
+          "expired": 0,
+          "input": "/point_lio/odometry",
+          "invalid": 0,
+          "last_published_stamp_ns": 1792314484732011556,
+          "last_tf_error": "",
+          "lookup_failures": 1833,
+          "nonincreasing": 0,
+          "overflow": 0,
+          "published": 2173,
+          "received": 2173,
+          "waiting": 0
+        },
+        "player_running": false,
+        "mapping_running": false,
+        "stop_reason": "playback_complete",
+        "tf_parents": {
+          "imu": [
+            "base_link"
+          ],
+          "radar": [
+            "base_link"
+          ],
+          "utlidar_lidar": [
+            "radar"
+          ],
+          "base_footprint": [
+            "odom"
+          ],
+          "base_link": [
+            "base_footprint"
+          ],
+          "odom": [
+            "map"
+          ]
+        },
+        "multiple_tf_parents": {},
+        "input_cloud_messages": 2188,
+        "input_imu_messages": 41521,
+        "launch_returncode": 0,
+        "player_returncode": 0,
+        "application_hashes_after": {
+          "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+          "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+          "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+          "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+          "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+          "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+          "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+        },
+        "robot_commands_sent": false,
+        "application_unchanged": true,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true
+      }
+    }
+  },
+  "paired_pose_comparison": {
+    "common_stamps": 2173,
+    "exact_pose_equality": false,
+    "max_direct_position_difference_m": 1.051229028615234,
+    "max_direct_orientation_difference_deg": 16.054758305853497
+  },
+  "protected_active_and_baseline_files_unchanged": true,
+  "protected_hashes_after": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+    "reports/point_lio_recovery/20261018/src/point_lio/src/laserMapping.cpp": "0fb6e4cc15aba90e088c01a6af1cef041906507f742ab1132438f93c243a910a",
+    "reports/point_lio_recovery/20261018/install/point_lio/lib/point_lio/pointlio_mapping": "aa3065c54b41504130501728ad4dc4a93837b70358362b1898749221a5600824",
+    "reports/point_lio_diagnosis_20261018/cache_fix_soft_turn/src/point_lio/src/laserMapping.cpp": "a83162fed8c2936b582a1583f650f9ddfb49599ba1b0909930dfc96b99648459",
+    "reports/point_lio_diagnosis_20261018/cache_fix_soft_turn/install/point_lio/lib/point_lio/pointlio_mapping": "62bdc8d6d0f60cd083ccb51357c94cce255de3cde6912386d9bc8253f3883488",
+    "reports/point_lio_diagnosis_20261018/cache_fix_soft_turn/run_01/outputs.npz": "c71713acd0c9cf6fef2ccbab55d6b1875bea008ccfb2ac01db5660d689bdeaa1"
+  },
+  "original_bag_files_unchanged": true,
+  "limits": [
+    "Physical return is user reported, not surveyed.",
+    "Body quaternion and integrated gyro share the same body IMU; they are diagnostic comparisons, not independent ground truth.",
+    "Zero acquisition-lag correction remains uncalibrated.",
+    "Saved cache-fixed control is used; its full pose array was exactly reproduced in three earlier baseline/control runs."
+  ]
+}

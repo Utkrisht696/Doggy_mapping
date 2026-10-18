@@ -1,0 +1,44 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 217343405096
+  starting_time:
+    nanoseconds_since_epoch: 1792305139740403764
+  message_count: 96292
+  topics_with_message_count:
+    - topic_metadata:
+        name: /doggy/robot_clock
+        type: rosgraph_msgs/msg/Clock
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 9056
+    - topic_metadata:
+        name: /go2/lio_imu
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 52090
+    - topic_metadata:
+        name: /go2/lio_cloud
+        type: sensor_msgs/msg/PointCloud2
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3241
+    - topic_metadata:
+        name: /utlidar/robot_odom
+        type: nav_msgs/msg/Odometry
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 31905
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - lio_replay_inputs_0.db3
+  files:
+    - path: lio_replay_inputs_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1792305139740403764
+      duration:
+        nanoseconds: 217343405096
+      message_count: 96292

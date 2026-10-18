@@ -1,0 +1,1 @@
+<CycloneDDS xmlns="https://cdds.io/config"><Domain id="any"><General><AllowMulticast>false</AllowMulticast></General><Discovery><ParticipantIndex>auto</ParticipantIndex><Peers><Peer address="127.0.0.1"/></Peers></Discovery><Internal><SocketReceiveBufferSize min="8 MiB" max="8 MiB"/></Internal></Domain></CycloneDDS>

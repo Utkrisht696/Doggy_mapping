@@ -1,0 +1,75 @@
+{
+  "control": {
+    "prediction_vs_bias_subtracted_integration_rms_deg": 4.069595933487476,
+    "prediction_vs_bias_subtracted_integration_max_abs_deg": 7.732121517412914,
+    "snapshots": [
+      {
+        "source_s": 40.009201288,
+        "plain_gyro_heading_deg": 76.86238164345382,
+        "gyro_minus_estimated_bias_heading_deg": 75.77489577256526,
+        "predicted_heading_contribution_deg": 76.69448087000238,
+        "estimated_z_bias_integral_deg": 1.0652813240404182
+      },
+      {
+        "source_s": 55.899199724,
+        "plain_gyro_heading_deg": -40.29842833420196,
+        "gyro_minus_estimated_bias_heading_deg": -44.259027866237034,
+        "predicted_heading_contribution_deg": -44.68169870891614,
+        "estimated_z_bias_integral_deg": 3.924630228158052
+      },
+      {
+        "source_s": 61.928814888,
+        "plain_gyro_heading_deg": -66.94916691406138,
+        "gyro_minus_estimated_bias_heading_deg": -73.2714680977918,
+        "predicted_heading_contribution_deg": -72.77293408805542,
+        "estimated_z_bias_integral_deg": 6.288122833402792
+      },
+      {
+        "source_s": 140.002700328,
+        "plain_gyro_heading_deg": -3.119402673412452,
+        "gyro_minus_estimated_bias_heading_deg": -2.110051409461377,
+        "predicted_heading_contribution_deg": 5.454693800475721,
+        "estimated_z_bias_integral_deg": -0.9405174310247946
+      }
+    ]
+  },
+  "gyro_weight": {
+    "prediction_vs_bias_subtracted_integration_rms_deg": 0.09754401616001494,
+    "prediction_vs_bias_subtracted_integration_max_abs_deg": 0.3048646114000846,
+    "snapshots": [
+      {
+        "source_s": 40.009201288,
+        "plain_gyro_heading_deg": 76.86238164345382,
+        "gyro_minus_estimated_bias_heading_deg": 71.53994664550234,
+        "predicted_heading_contribution_deg": 71.49514270588418,
+        "estimated_z_bias_integral_deg": 5.289907133305906
+      },
+      {
+        "source_s": 55.899199724,
+        "plain_gyro_heading_deg": -40.29842833420196,
+        "gyro_minus_estimated_bias_heading_deg": -48.72070508212636,
+        "predicted_heading_contribution_deg": -48.61530768248164,
+        "estimated_z_bias_integral_deg": 8.323019175659164
+      },
+      {
+        "source_s": 61.928814888,
+        "plain_gyro_heading_deg": -66.94916691406138,
+        "gyro_minus_estimated_bias_heading_deg": -77.68437260803131,
+        "predicted_heading_contribution_deg": -77.58384899939688,
+        "estimated_z_bias_integral_deg": 10.661251604829893
+      },
+      {
+        "source_s": 140.002700328,
+        "plain_gyro_heading_deg": -3.119402673412452,
+        "gyro_minus_estimated_bias_heading_deg": -6.869252697655682,
+        "predicted_heading_contribution_deg": -6.744537277745587,
+        "estimated_z_bias_integral_deg": 3.940103516311666
+      }
+    ]
+  },
+  "limits": [
+    "Diagnostic reconstruction from per-scan final bias interpolated to IMU times; it cannot reproduce transient bias changes within scans.",
+    "This does not prove the physically correct bias or validate a bias-lock remedy. Body orientation and gyro share sensor inputs.",
+    "No estimator is modified or rerun for this analysis."
+  ]
+}

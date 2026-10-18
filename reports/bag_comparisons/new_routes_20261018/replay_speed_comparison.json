@@ -1,0 +1,134 @@
+{
+  "shared_output_stamps": 5397,
+  "max_position_difference_m": 9.32241034983301,
+  "max_orientation_difference_deg": 13.885643043806875,
+  "normal_speed": {
+    "closure": {
+      "point_lio": {
+        "horizontal_displacement_m": 6.804586610712357,
+        "height_change_m": -0.31120272814093075,
+        "heading_change_deg": 19.314405447912232,
+        "delta_xyz_m": [
+          6.160184797652746,
+          -2.890419035616442,
+          -0.31120272814093075
+        ],
+        "full_orientation_change_deg": 19.3379782827983
+      },
+      "vendor": {
+        "horizontal_displacement_m": 3.5538241700253033,
+        "height_change_m": -0.00047474128894470224,
+        "heading_change_deg": -42.3166632908691,
+        "delta_xyz_m": [
+          -1.1747519225009526,
+          3.354045937675325,
+          -0.00047474128894470224
+        ],
+        "full_orientation_change_deg": 42.32212965111536
+      }
+    },
+    "health": {
+      "poses": 5422,
+      "first_pose_source_s": 0.840553522,
+      "last_pose_source_s": 352.804952621,
+      "nonfinite_values": 0,
+      "nonincreasing_stamps": 0,
+      "median_contiguous_rate_hz": 15.39764819092346,
+      "contiguous_position_step_m": {
+        "median": 0.02483814339545659,
+        "p95": 0.04033382566168331,
+        "p99": 0.04871410896853992,
+        "max": 0.06622400213234315
+      },
+      "contiguous_rotation_step_deg": {
+        "median": 0.8343980189910755,
+        "p95": 3.8399539604682915,
+        "p99": 4.674966590488852,
+        "max": 8.729123122866312
+      },
+      "output_gaps_over_150ms": [
+        {
+          "before_s": 330.831944465,
+          "duration_s": 0.259546279999995,
+          "pose_change_m": 0.10024211263332619,
+          "rotation_change_deg": 14.58699066926742
+        },
+        {
+          "before_s": 332.129460335,
+          "duration_s": 0.25990819900005135,
+          "pose_change_m": 0.1003212128803065,
+          "rotation_change_deg": 16.10616384187899
+        }
+      ],
+      "missing_exact_stamp_tf": 0,
+      "reseed_events": 0,
+      "resume_events": 0,
+      "probation_events": 0
+    }
+  },
+  "double_speed": {
+    "closure": {
+      "point_lio": {
+        "horizontal_displacement_m": 12.547231071374528,
+        "height_change_m": -0.43038090357167286,
+        "heading_change_deg": 13.157139383332822,
+        "delta_xyz_m": [
+          11.911056823722616,
+          3.9445827283145256,
+          -0.43038090357167286
+        ],
+        "full_orientation_change_deg": 13.231621082099684
+      },
+      "vendor": {
+        "horizontal_displacement_m": 3.5538241700253033,
+        "height_change_m": -0.00047474128894470224,
+        "heading_change_deg": -42.3166632908691,
+        "delta_xyz_m": [
+          -1.1747519225009526,
+          3.354045937675325,
+          -0.00047474128894470224
+        ],
+        "full_orientation_change_deg": 42.32212965111536
+      }
+    },
+    "health": {
+      "poses": 5402,
+      "first_pose_source_s": 0.840553522,
+      "last_pose_source_s": 352.804952621,
+      "nonfinite_values": 0,
+      "nonincreasing_stamps": 0,
+      "median_contiguous_rate_hz": 15.397591764299122,
+      "contiguous_position_step_m": {
+        "median": 0.025255823845519207,
+        "p95": 0.040790629786320615,
+        "p99": 0.055579826222689255,
+        "max": 0.11198652137950962
+      },
+      "contiguous_rotation_step_deg": {
+        "median": 0.8264424600216431,
+        "p95": 3.7683068494362946,
+        "p99": 4.676419272719124,
+        "max": 6.115029880987795
+      },
+      "output_gaps_over_150ms": [
+        {
+          "before_s": 329.598477363,
+          "duration_s": 0.908447504000037,
+          "pose_change_m": 0.4836728126332645,
+          "rotation_change_deg": 58.87724868962506
+        },
+        {
+          "before_s": 331.285978079,
+          "duration_s": 0.9730734819999611,
+          "pose_change_m": 0.3934753895082512,
+          "rotation_change_deg": 61.168525222458484
+        }
+      ],
+      "missing_exact_stamp_tf": 0,
+      "reseed_events": 0,
+      "resume_events": 0,
+      "probation_events": 0
+    }
+  },
+  "interpretation": "Both replays fail return consistency. 1x reduces, but does not remove, output pauses near 331-332s. It also changes the final trajectory substantially. Exact internal estimator delivery has not been instrumented, and scheduling/map evolution effects are unresolved. Do not present the 2x endpoint as a reproducible accuracy number."
+}

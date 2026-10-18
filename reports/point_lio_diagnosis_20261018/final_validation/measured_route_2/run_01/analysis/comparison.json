@@ -1,0 +1,679 @@
+{
+  "bag": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start",
+  "run": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/final_validation/measured_route_2/run_01",
+  "route_confirmation": "Uses the user instruction that recordings return to the original starting pose; these new comeback filenames agree. Physical endpoint uncertainty and exact wandering route are not surveyed.",
+  "startup": {
+    "omitted_initial_receipt_time_s": 0.0,
+    "quiet_startup_check": {
+      "start_source_s": 0.0,
+      "duration_s": 2.0,
+      "position_excursion_m": 0.0001022940437521255,
+      "orientation_excursion_deg": 0.022219584753048846,
+      "body_gyro_rms_rad_s": 0.012056554898324561
+    },
+    "receipt_cut_ns": 1792312686441383319,
+    "source_origin_ns": 1792312658816831111,
+    "source_header_times_changed": false,
+    "gaps_filled": false
+  },
+  "holds": [
+    {
+      "source_hold_index": 0,
+      "analysis_window_s": [
+        1.1569934680000005,
+        7.1569934680000005
+      ],
+      "samples": 93,
+      "point_lio": {
+        "median_xyz_m": [
+          0.000218952679277737,
+          -0.01906640224200891,
+          0.0019145244323249488
+        ],
+        "mean_quaternion_xyzw": [
+          0.005163374896643043,
+          -0.0018666568866894107,
+          -0.009146527004628254,
+          -0.9999430964787434
+        ],
+        "position_p95_radius_m": 0.04045799606529162,
+        "hold_first_last_shift_m": 0.05806437064677068
+      },
+      "vendor": {
+        "median_xyz_m": [
+          -6.93809702110249,
+          6.952901228736915,
+          0.35604654825729476
+        ],
+        "mean_quaternion_xyzw": [
+          0.001621637553314472,
+          0.004469555874094477,
+          0.08132249007100047,
+          -0.9966765001596987
+        ],
+        "position_p95_radius_m": 0.00012303228014741758,
+        "hold_first_last_shift_m": 0.00015171491788757148
+      }
+    },
+    {
+      "source_hold_index": 1,
+      "analysis_window_s": [
+        21.056993468000005,
+        22.756993468
+      ],
+      "samples": 27,
+      "point_lio": {
+        "median_xyz_m": [
+          5.033422580733058,
+          0.6097707413745498,
+          -0.08650448876927799
+        ],
+        "mean_quaternion_xyzw": [
+          0.005684242849741042,
+          0.0027424342172676086,
+          -0.03390587378216881,
+          -0.9994051031292851
+        ],
+        "position_p95_radius_m": 0.024718816605231023,
+        "hold_first_last_shift_m": 0.020160464306406497
+      },
+      "vendor": {
+        "median_xyz_m": [
+          -2.501163300458673,
+          6.410705826947358,
+          0.35512869729200025
+        ],
+        "mean_quaternion_xyzw": [
+          0.0018372259456081992,
+          -0.007539238310001362,
+          -0.055814039746302974,
+          0.9984110263081671
+        ],
+        "position_p95_radius_m": 0.002055018218333582,
+        "hold_first_last_shift_m": 0.002441977536400689
+      }
+    },
+    {
+      "source_hold_index": 2,
+      "analysis_window_s": [
+        41.056993468,
+        45.55699346800001
+      ],
+      "samples": 69,
+      "point_lio": {
+        "median_xyz_m": [
+          -0.06514734927091792,
+          -0.07521230930335919,
+          -0.0018278327804304103
+        ],
+        "mean_quaternion_xyzw": [
+          0.0026107659741353966,
+          -0.0016063784789088764,
+          0.007875024094726108,
+          0.9999642930848671
+        ],
+        "position_p95_radius_m": 0.014831944301823108,
+        "hold_first_last_shift_m": 0.008156991320996254
+      },
+      "vendor": {
+        "median_xyz_m": [
+          -6.914698326323476,
+          6.8973318979457865,
+          0.3564599749030656
+        ],
+        "mean_quaternion_xyzw": [
+          0.005654274897845342,
+          -0.006259929464073277,
+          -0.07859066089078197,
+          0.9968712807976938
+        ],
+        "position_p95_radius_m": 0.0007797285109600241,
+        "hold_first_last_shift_m": 0.001700105152303797
+      }
+    },
+    {
+      "source_hold_index": 3,
+      "analysis_window_s": [
+        70.95699346800001,
+        72.35699346800001
+      ],
+      "samples": 21,
+      "point_lio": {
+        "median_xyz_m": [
+          10.096982309481703,
+          1.025022310057125,
+          -0.214399242662741
+        ],
+        "mean_quaternion_xyzw": [
+          0.01124169712101865,
+          0.00047643493830107353,
+          -0.07009022938561661,
+          -0.9974771962307006
+        ],
+        "position_p95_radius_m": 0.01709998199719096,
+        "hold_first_last_shift_m": 0.018866595406095824
+      },
+      "vendor": {
+        "median_xyz_m": [
+          2.025199847496904,
+          5.687111260564213,
+          0.35654371656159684
+        ],
+        "mean_quaternion_xyzw": [
+          0.0018204308297022082,
+          -0.004470381606151763,
+          -0.0131435681755085,
+          0.9999019693627499
+        ],
+        "position_p95_radius_m": 0.0010323911712470418,
+        "hold_first_last_shift_m": 0.0016619165288035813
+      }
+    },
+    {
+      "source_hold_index": 4,
+      "analysis_window_s": [
+        93.556993468,
+        95.85699346800001
+      ],
+      "samples": 36,
+      "point_lio": {
+        "median_xyz_m": [
+          0.026421390246055925,
+          -0.06581579633271248,
+          -0.0009741105816051685
+        ],
+        "mean_quaternion_xyzw": [
+          0.001835602276611808,
+          0.0012147384548443219,
+          0.026584603884242605,
+          0.9996441435886505
+        ],
+        "position_p95_radius_m": 0.014354307542705102,
+        "hold_first_last_shift_m": 0.009836684575791179
+      },
+      "vendor": {
+        "median_xyz_m": [
+          -6.690678107403194,
+          6.847191402526275,
+          0.3564625725028987
+        ],
+        "mean_quaternion_xyzw": [
+          0.006538310156207089,
+          -0.005482759129685433,
+          -0.05612324919702141,
+          0.998387385112711
+        ],
+        "position_p95_radius_m": 0.0013625130575204082,
+        "hold_first_last_shift_m": 0.001879079556846998
+      }
+    },
+    {
+      "source_hold_index": 5,
+      "analysis_window_s": [
+        125.356993468,
+        128.756993468
+      ],
+      "samples": 52,
+      "point_lio": {
+        "median_xyz_m": [
+          11.211108739613799,
+          1.4548710799745925,
+          -0.24645337935544823
+        ],
+        "mean_quaternion_xyzw": [
+          0.01116851417711859,
+          0.0035765136132951403,
+          0.03275727550821419,
+          -0.999394533576569
+        ],
+        "position_p95_radius_m": 0.017420182180992734,
+        "hold_first_last_shift_m": 0.011516323669788555
+      },
+      "vendor": {
+        "median_xyz_m": [
+          3.177493989321681,
+          5.793990890224266,
+          0.3565997528977586
+        ],
+        "mean_quaternion_xyzw": [
+          0.0013125080259601667,
+          -0.00683851114996159,
+          -0.11342999827609541,
+          0.9935215888842168
+        ],
+        "position_p95_radius_m": 0.0010474394145230596,
+        "hold_first_last_shift_m": 0.0015970187967988768
+      }
+    },
+    {
+      "source_hold_index": 6,
+      "analysis_window_s": [
+        157.15699346800002,
+        159.456993468
+      ],
+      "samples": 36,
+      "point_lio": {
+        "median_xyz_m": [
+          11.23893864139723,
+          1.4647337777930416,
+          -0.23453763539444655
+        ],
+        "mean_quaternion_xyzw": [
+          0.014662918601032365,
+          -0.012811958751302699,
+          -0.07602370389321665,
+          -0.9969158685553213
+        ],
+        "position_p95_radius_m": 0.05835485732869829,
+        "hold_first_last_shift_m": 0.04891310358788272
+      },
+      "vendor": {
+        "median_xyz_m": [
+          3.3672984620209307,
+          5.704242667060138,
+          0.3547747333437534
+        ],
+        "mean_quaternion_xyzw": [
+          0.0027849765604269134,
+          -0.006084730184581999,
+          -0.06927170301989895,
+          0.9975753861863581
+        ],
+        "position_p95_radius_m": 0.0017485111581575276,
+        "hold_first_last_shift_m": 0.0025109350110043864
+      }
+    },
+    {
+      "source_hold_index": 7,
+      "analysis_window_s": [
+        166.15699346800002,
+        170.156993468
+      ],
+      "samples": 62,
+      "point_lio": {
+        "median_xyz_m": [
+          12.297976944022542,
+          1.7072766887574233,
+          -0.2657740883878502
+        ],
+        "mean_quaternion_xyzw": [
+          0.01461737858769842,
+          0.015120014485958233,
+          0.6933132000517057,
+          -0.7203294552072903
+        ],
+        "position_p95_radius_m": 0.0626539211157621,
+        "hold_first_last_shift_m": 0.09259503179791861
+      },
+      "vendor": {
+        "median_xyz_m": [
+          4.274967429768553,
+          5.607587776822768,
+          0.35442774020911294
+        ],
+        "mean_quaternion_xyzw": [
+          0.0034689033837687847,
+          0.0055308141248566756,
+          0.802567029666946,
+          -0.5965262271652487
+        ],
+        "position_p95_radius_m": 0.0013144816769966488,
+        "hold_first_last_shift_m": 0.0018673458003775646
+      }
+    },
+    {
+      "source_hold_index": 8,
+      "analysis_window_s": [
+        197.856993468,
+        202.056993468
+      ],
+      "samples": 65,
+      "point_lio": {
+        "median_xyz_m": [
+          12.334928206654903,
+          1.8056305691145693,
+          -0.27152334603929973
+        ],
+        "mean_quaternion_xyzw": [
+          0.01632249266366391,
+          0.014755157570972122,
+          0.6743511195203692,
+          -0.7380829419245004
+        ],
+        "position_p95_radius_m": 0.03329218438950074,
+        "hold_first_last_shift_m": 0.022539835305680503
+      },
+      "vendor": {
+        "median_xyz_m": [
+          4.430569809844977,
+          5.464124433449838,
+          0.35599112291666635
+        ],
+        "mean_quaternion_xyzw": [
+          0.003180849129954191,
+          0.006491943390985577,
+          0.8248487495789844,
+          -0.5653072414075432
+        ],
+        "position_p95_radius_m": 0.0016010845927230874,
+        "hold_first_last_shift_m": 0.0015739953956537042
+      }
+    },
+    {
+      "source_hold_index": 9,
+      "analysis_window_s": [
+        221.05699346800003,
+        225.056993468
+      ],
+      "samples": 61,
+      "point_lio": {
+        "median_xyz_m": [
+          12.359963035214813,
+          1.8312524000184869,
+          -0.27125813134163157
+        ],
+        "mean_quaternion_xyzw": [
+          0.01632446510278074,
+          0.01238371571525787,
+          0.7086714838994858,
+          -0.70524101081254
+        ],
+        "position_p95_radius_m": 0.08137790487363845,
+        "hold_first_last_shift_m": 0.05595891575864445
+      },
+      "vendor": {
+        "median_xyz_m": [
+          4.451966233147336,
+          5.378126638507211,
+          0.35439054327474556
+        ],
+        "mean_quaternion_xyzw": [
+          0.0051052589130167764,
+          0.004146719401116106,
+          0.8841652453829209,
+          -0.4671279909260397
+        ],
+        "position_p95_radius_m": 0.000990352464523809,
+        "hold_first_last_shift_m": 0.0009578074601263886
+      }
+    },
+    {
+      "source_hold_index": 10,
+      "analysis_window_s": [
+        269.856993468,
+        275.45699346799995
+      ],
+      "samples": 87,
+      "point_lio": {
+        "median_xyz_m": [
+          0.005124447591629239,
+          -0.038553979117594096,
+          0.0009266978678639025
+        ],
+        "mean_quaternion_xyzw": [
+          0.0028983040610377976,
+          -0.0025420311402508666,
+          -0.01612992277702224,
+          -0.9998624722942948
+        ],
+        "position_p95_radius_m": 0.03252348890734712,
+        "hold_first_last_shift_m": 0.027627071283504608
+      },
+      "vendor": {
+        "median_xyz_m": [
+          -4.671193353348094,
+          11.227538873779965,
+          0.35603688295418595
+        ],
+        "mean_quaternion_xyzw": [
+          0.00114838266705369,
+          0.00420816067663532,
+          0.32429397661293713,
+          -0.9459462930492077
+        ],
+        "position_p95_radius_m": 0.0009061244345783885,
+        "hold_first_last_shift_m": 0.0018550618870824898
+      }
+    }
+  ],
+  "nominal_distance_checks": [
+    {
+      "nominal_distance_m": 5.0,
+      "route_assignment": "user-confirmed straight sequence",
+      "start_hold": 0,
+      "far_hold": 1,
+      "return_hold": 2,
+      "point_lio": {
+        "horizontal_displacement_m": 5.072334266848506,
+        "height_change_m": -0.08841901320160295,
+        "heading_change_deg": 2.8408185371289747,
+        "delta_xyz_m": [
+          5.03320362805378,
+          0.6288371436165587,
+          -0.08841901320160295
+        ],
+        "full_orientation_change_deg": 2.8873055088478345,
+        "nominal_difference_m": 0.07233426684850564,
+        "nominal_difference_percent": 1.4466853369701127,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.086169114596739,
+          "height_change_m": -0.0037423572127553593,
+          "heading_change_deg": -0.14507611868887244,
+          "delta_xyz_m": [
+            -0.06536630195019566,
+            -0.05614590706135028,
+            -0.0037423572127553593
+          ],
+          "full_orientation_change_deg": 0.9865319533897963
+        }
+      },
+      "vendor": {
+        "horizontal_displacement_m": 4.4699392272275835,
+        "height_change_m": -0.0009178509652945088,
+        "heading_change_deg": 2.927365232969889,
+        "delta_xyz_m": [
+          4.436933720643817,
+          -0.5421954017895576,
+          -0.0009178509652945088
+        ],
+        "full_orientation_change_deg": 2.9774280627234577,
+        "nominal_difference_m": -0.5300607727724165,
+        "nominal_difference_percent": -10.60121545544833,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.06029468833931701,
+          "height_change_m": 0.0004134266457708202,
+          "heading_change_deg": 0.30910496162452544,
+          "delta_xyz_m": [
+            0.02339869477901413,
+            -0.05556933079112891,
+            0.0004134266457708202
+          ],
+          "full_orientation_change_deg": 0.9141900799526429
+        }
+      }
+    },
+    {
+      "nominal_distance_m": 10.0,
+      "route_assignment": "user-confirmed straight sequence",
+      "start_hold": 2,
+      "far_hold": 3,
+      "return_hold": 4,
+      "point_lio": {
+        "horizontal_displacement_m": 10.221516297445255,
+        "height_change_m": -0.21257140988231057,
+        "heading_change_deg": 7.1365055823564685,
+        "delta_xyz_m": [
+          10.16212965875262,
+          1.1002346193604842,
+          -0.21257140988231057
+        ],
+        "full_orientation_change_deg": 7.311862937613975,
+        "nominal_difference_m": 0.22151629744525536,
+        "nominal_difference_percent": 2.2151629744525536,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.09204959811283774,
+          "height_change_m": 0.0008537221988252419,
+          "heading_change_deg": 2.145046412580024,
+          "delta_xyz_m": [
+            0.09156873951697385,
+            0.009396512970646712,
+            0.0008537221988252419
+          ],
+          "full_orientation_change_deg": 2.1703567901827947
+        }
+      },
+      "vendor": {
+        "horizontal_displacement_m": 9.021441866432507,
+        "height_change_m": 8.374165853125559e-05,
+        "heading_change_deg": 7.512355090104519,
+        "delta_xyz_m": [
+          8.93989817382038,
+          -1.2102206373815738,
+          8.374165853125559e-05
+        ],
+        "full_orientation_change_deg": 7.524711287581069,
+        "nominal_difference_m": -0.9785581335674927,
+        "nominal_difference_percent": -9.785581335674927,
+        "return_to_segment_start": {
+          "horizontal_displacement_m": 0.22956290590164002,
+          "height_change_m": 2.5975998331206895e-06,
+          "heading_change_deg": 2.580648476373109,
+          "delta_xyz_m": [
+            0.22402021892028223,
+            -0.05014049541951149,
+            2.5975998331206895e-06
+          ],
+          "full_orientation_change_deg": 2.5840084520644253
+        }
+      }
+    }
+  ],
+  "first_to_last_analyzed_hold": {
+    "point_lio": {
+      "horizontal_displacement_m": 0.020095510265154975,
+      "height_change_m": -0.0009878265644610463,
+      "heading_change_deg": 0.800582850598371,
+      "delta_xyz_m": [
+        0.004905494912351502,
+        -0.019487576875585187,
+        -0.0009878265644610463
+      ],
+      "full_orientation_change_deg": 0.8448844219002379
+    },
+    "vendor": {
+      "horizontal_displacement_m": 4.8385306897133065,
+      "height_change_m": -9.665303108807866e-06,
+      "heading_change_deg": -28.517504849573772,
+      "delta_xyz_m": [
+        2.266903667754397,
+        4.274637645043049,
+        -9.665303108807866e-06
+      ],
+      "full_orientation_change_deg": 28.51647714210639
+    }
+  },
+  "estimated_observed_travel_excluding_gaps_m": {
+    "point_lio": 84.16136584035415,
+    "vendor": 69.6853832623963
+  },
+  "health": {
+    "poses": 4238,
+    "first_pose_source_s": 1.035186291,
+    "last_pose_source_s": 275.774127484,
+    "nonfinite_values": 0,
+    "nonincreasing_stamps": 0,
+    "median_contiguous_rate_hz": 15.39979650400731,
+    "contiguous_position_step_m": {
+      "median": 0.025686698605476496,
+      "p95": 0.03880393897917239,
+      "p99": 0.044593274340595776,
+      "max": 0.07015494027778171
+    },
+    "contiguous_rotation_step_deg": {
+      "median": 0.5812550156287274,
+      "p95": 3.316948600173042,
+      "p99": 4.296142692267399,
+      "max": 4.738076075160679
+    },
+    "output_gaps_over_150ms": [],
+    "missing_exact_stamp_tf": 1,
+    "reseed_events": 0,
+    "resume_events": 0,
+    "probation_events": 0
+  },
+  "source_gaps_over_150ms": {
+    "raw": [],
+    "imu": [],
+    "vendor": []
+  },
+  "recovery_events": [],
+  "replay_result": {
+    "source_elapsed_s": 275.711496354,
+    "odometry_messages": 4238,
+    "registered_clouds": 4238,
+    "map_to_odom_transforms": 4237,
+    "last_bridge_status": {
+      "acquisition_lag_calibrated": false,
+      "edge": "map -> odom",
+      "expired": 1,
+      "input": "/point_lio/odometry",
+      "invalid": 0,
+      "last_published_stamp_ns": 1792312934526263713,
+      "last_tf_error": "Lookup would require extrapolation into the future.  Requested time 1792312934.590959 but the latest data is at time 1792312934.590518, when looking up transform from frame [imu] to frame [odom]",
+      "lookup_failures": 3559,
+      "nonincreasing": 0,
+      "overflow": 0,
+      "published": 4237,
+      "received": 4238,
+      "waiting": 0
+    },
+    "player_running": false,
+    "mapping_running": false,
+    "stop_reason": "playback_complete",
+    "tf_parents": {
+      "imu": [
+        "base_link"
+      ],
+      "radar": [
+        "base_link"
+      ],
+      "utlidar_lidar": [
+        "radar"
+      ],
+      "base_footprint": [
+        "odom"
+      ],
+      "base_link": [
+        "base_footprint"
+      ],
+      "odom": [
+        "map"
+      ]
+    },
+    "multiple_tf_parents": {},
+    "input_cloud_messages": 4253,
+    "input_imu_messages": 80894,
+    "launch_returncode": 0,
+    "player_returncode": 0,
+    "application_hashes_after": {
+      "third_party/point_lio_ros2/src/laserMapping.cpp": "85d99144657e7c4e235f70ccbfd7c32bf82ab260cf9ceb117f155dfc7c4e34d5",
+      "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+      "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+      "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+      "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+      "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+      "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+    },
+    "robot_commands_sent": false,
+    "application_unchanged": true,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true
+  },
+  "limits": [
+    "User confirmed intended physical return to start pose, but endpoint uncertainty is not surveyed; intermediate distance labels remain inferred unless separately confirmed.",
+    "Reported straight distances are horizontal hold-to-hold displacements; curved walking path length differs.",
+    "Vendor is a comparison sharing body IMU information, not ground truth.",
+    "Same approved fixed calibration and zero uncalibrated acquisition-lag correction; no per-bag tuning.",
+    "Clean mapper has no vendor aid, recovery, reseeding, loop closure or endpoint correction. Final source and effective profile are recorded separately."
+  ]
+}

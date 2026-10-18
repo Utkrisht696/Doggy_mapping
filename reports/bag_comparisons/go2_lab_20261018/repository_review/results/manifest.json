@@ -1,0 +1,22 @@
+{
+  "repo_commit": "c3158fcef41532fc5dc754e5838b0dfdecb5506a",
+  "bag": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/results/lio_replay_inputs",
+  "domain": 210,
+  "localhost_only": true,
+  "rate": 0.5,
+  "mapping_config": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/config/point_lio_go2.yaml",
+  "mapping_parameters_overridden": {
+    "use_sim_time": true
+  },
+  "robot_commands_replayed": false,
+  "hashes_before": {
+    "/home/jain/Doggy/scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "/home/jain/Doggy/config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "/home/jain/Doggy/config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "/home/jain/Doggy/config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/real_tf_bridge.py": "ef9ba6de990fe01b5a4ca0086b9d5a32bfd2fc0cde655ae69d2e99d793b51380",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/scripts/lio_input.py": "8dfa1d165804fc5e85b88ca7c49a371475f5de51603bb4ff796262293874a3ed",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/unitree_go2_real/config/point_lio_go2.yaml": "70f6e574db8f3434bf3caefce8f7718c43c8ea2b10c35c68fa9dcc9f33ebe729",
+    "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2/third_party/point_lio_unilidar/src/laserMapping.cpp": "4e223bc7c58b7c20249089d91dfb29d70ec8586e2cc131755aaf2c0e986f006c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "omitted_initial_receipt_time_s": 1.5,
+  "receipt_cut_ns": 1792305141230348344,
+  "source_origin_ns": 1792305112841175079,
+  "first_raw_source_s": 1.490004778,
+  "first_imu_source_s": 1.508119868,
+  "counts": {
+    "/tf_static": 1,
+    "/doggy/imu/body_calibrated": 61864,
+    "/utlidar/robot_odom": 31682,
+    "/tf": 8991,
+    "/doggy/robot_clock": 8991,
+    "/utlidar/cloud": 3267
+  },
+  "source_header_times_changed": false,
+  "gaps_filled": false,
+  "static_sensor_tf_reissued_at_replay_start": true
+}

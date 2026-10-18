@@ -1,0 +1,14 @@
+{
+  "omitted_initial_receipt_time_s": 0.0,
+  "quiet_startup_check": {
+    "start_source_s": 0.0,
+    "duration_s": 2.0,
+    "position_excursion_m": 0.0003045049807042556,
+    "orientation_excursion_deg": 0.0572136763620688,
+    "body_gyro_rms_rad_s": 0.012066266768469277
+  },
+  "receipt_cut_ns": 1792314261961972096,
+  "source_origin_ns": 1792314234315298557,
+  "source_header_times_changed": false,
+  "gaps_filled": false
+}

@@ -1,0 +1,246 @@
+{
+  "classic": {
+    "source_bag": "/home/jain/go2_bags/classic",
+    "duration_s": 110.156689704,
+    "outbound_3m": {
+      "point_lio": 2.9912653863243737,
+      "vendor": 2.7046113374332204
+    },
+    "outbound_5m": {
+      "point_lio": 5.115270217861543,
+      "vendor": 4.532104772468964
+    },
+    "return_3m": {
+      "point_lio": 0.035305780217917124,
+      "vendor": 0.15593509847700351
+    },
+    "return_5m": {
+      "point_lio": 0.04761233431431754,
+      "vendor": 0.31503618056559657
+    },
+    "final_return_xy_m": {
+      "point_lio": 0.019736166556081177,
+      "vendor": 0.46689997868366606
+    },
+    "final_return_z_m": {
+      "point_lio": 0.0006956487264437499,
+      "vendor": -0.0009118470403896572
+    },
+    "lio_quiet_hold_p95_radius_range_m": [
+      0.014942077574701274,
+      0.030262635845861537
+    ],
+    "point_lio_rate_hz": 15.422622950091066,
+    "registered_clouds": 1687,
+    "pose_count": 1687,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true,
+    "application_unchanged": true,
+    "nonfinite_poses": 0,
+    "nonincreasing_pose_stamps": 0,
+    "largest_step_m": 0.039002693256478684,
+    "largest_rotation_step_deg": 2.2132349306360264,
+    "steps_over_15cm": 0,
+    "rotation_steps_over_5deg": 0,
+    "tf_missing_pose_stamps": 1,
+    "tf_conflicting_parents": {},
+    "revisited_floor_checks": [
+      {
+        "hold": "return_3m",
+        "common_15cm_xy_cells": 578,
+        "median_signed_floor_height_difference_m": -0.0009420514106750488,
+        "median_absolute_floor_height_difference_m": 0.0026224106550216675,
+        "p90_absolute_floor_height_difference_m": 0.026875118911266337
+      },
+      {
+        "hold": "return_5m",
+        "common_15cm_xy_cells": 573,
+        "median_signed_floor_height_difference_m": 0.00033673644065856934,
+        "median_absolute_floor_height_difference_m": 0.0022525638341903687,
+        "p90_absolute_floor_height_difference_m": 0.022597101330757152
+      }
+    ]
+  },
+  "default": {
+    "source_bag": "/home/jain/go2_bags/default",
+    "duration_s": 88.426923504,
+    "outbound_3m": {
+      "point_lio": 2.9142678673502096,
+      "vendor": 2.4509909992220984
+    },
+    "outbound_5m": {
+      "point_lio": 5.128381012966575,
+      "vendor": 4.275992354973635
+    },
+    "return_3m": {
+      "point_lio": 0.07141716474204184,
+      "vendor": 0.09906788697381665
+    },
+    "return_5m": {
+      "point_lio": 0.10594430352461971,
+      "vendor": 0.16758998975689224
+    },
+    "final_return_xy_m": {
+      "point_lio": 0.1400606161634521,
+      "vendor": 0.24926371619961585
+    },
+    "final_return_z_m": {
+      "point_lio": -0.006351472645846954,
+      "vendor": -0.0037123395797610814
+    },
+    "lio_quiet_hold_p95_radius_range_m": [
+      0.013526196645198968,
+      0.021486827369017254
+    ],
+    "point_lio_rate_hz": 15.423478240755715,
+    "registered_clouds": 1353,
+    "pose_count": 1353,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true,
+    "application_unchanged": true,
+    "nonfinite_poses": 0,
+    "nonincreasing_pose_stamps": 0,
+    "largest_step_m": 0.04540535861467482,
+    "largest_rotation_step_deg": 2.929114984492304,
+    "steps_over_15cm": 0,
+    "rotation_steps_over_5deg": 0,
+    "tf_missing_pose_stamps": 0,
+    "tf_conflicting_parents": {},
+    "revisited_floor_checks": [
+      {
+        "hold": "return_3m",
+        "common_15cm_xy_cells": 528,
+        "median_signed_floor_height_difference_m": -0.0025458484888076782,
+        "median_absolute_floor_height_difference_m": 0.004776820540428162,
+        "p90_absolute_floor_height_difference_m": 0.030364385247230532
+      },
+      {
+        "hold": "return_5m",
+        "common_15cm_xy_cells": 573,
+        "median_signed_floor_height_difference_m": -0.002290070056915283,
+        "median_absolute_floor_height_difference_m": 0.004720792174339294,
+        "p90_absolute_floor_height_difference_m": 0.02814984619617464
+      }
+    ],
+    "extra_movement_after_main_return": {
+      "brief_first_stop": {
+        "time_window_s": [
+          74.8,
+          75.8
+        ],
+        "lio_samples": 16,
+        "point_lio": {
+          "median_position_xyz_m": [
+            -0.0021716838190137594,
+            -0.011237820542845537,
+            -0.004966301732279252
+          ],
+          "horizontal_offset_from_original_start_m": 0.012429379027508023,
+          "vertical_offset_from_original_start_m": -0.006913643656540248,
+          "position_p95_radius_m": 0.011399969826279315
+        },
+        "vendor": {
+          "median_position_xyz_m": [
+            0.21440247627748718,
+            1.3059223547188812,
+            0.33773552520967914
+          ],
+          "horizontal_offset_from_original_start_m": 0.13076991230307025,
+          "vertical_offset_from_original_start_m": -0.005107340601922861,
+          "position_p95_radius_m": 0.010401389363231994
+        }
+      },
+      "final_quiet_hold": {
+        "time_window_s": [
+          81,
+          87
+        ],
+        "lio_samples": 92,
+        "point_lio": {
+          "median_position_xyz_m": [
+            -0.14333344647161364,
+            -0.017125121902289035,
+            -0.0044041307215859585
+          ],
+          "horizontal_offset_from_original_start_m": 0.1400606161634521,
+          "vertical_offset_from_original_start_m": -0.006351472645846954,
+          "position_p95_radius_m": 0.0171648035178046
+        },
+        "vendor": {
+          "median_position_xyz_m": [
+            0.12976854758899276,
+            1.3895169528132838,
+            0.3391305262318409
+          ],
+          "horizontal_offset_from_original_start_m": 0.24926371619961585,
+          "vertical_offset_from_original_start_m": -0.0037123395797610814,
+          "position_p95_radius_m": 0.003244257200288127
+        }
+      },
+      "point_lio_shift_between_these_stops_m": 0.14128559582891356,
+      "note": "There is renewed SportModeState speed and body gyro motion at about 76\u201378 s. First stop is brief and has more body sway; it is supplementary and not substituted for the standard final quiet hold."
+    }
+  },
+  "nromal-np": {
+    "source_bag": "/home/jain/go2_bags/nromal-np",
+    "duration_s": 83.640939166,
+    "outbound_3m": {
+      "point_lio": 3.095574770806881,
+      "vendor": 2.656652971161986
+    },
+    "outbound_5m": {
+      "point_lio": 5.241324757646754,
+      "vendor": 4.498917844689868
+    },
+    "return_3m": {
+      "point_lio": 0.021602320934218242,
+      "vendor": 0.09798017691583379
+    },
+    "return_5m": {
+      "point_lio": 0.10974674029942343,
+      "vendor": 0.15716599081143034
+    },
+    "final_return_xy_m": {
+      "point_lio": 0.10750168587900845,
+      "vendor": 0.23768549366622718
+    },
+    "final_return_z_m": {
+      "point_lio": 0.010038050770011834,
+      "vendor": 0.013031996073437746
+    },
+    "lio_quiet_hold_p95_radius_range_m": [
+      0.012482385013381836,
+      0.03012667235608452
+    ],
+    "point_lio_rate_hz": 15.421563545964043,
+    "registered_clouds": 1279,
+    "pose_count": 1279,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true,
+    "application_unchanged": true,
+    "nonfinite_poses": 0,
+    "nonincreasing_pose_stamps": 0,
+    "largest_step_m": 0.0474165117232711,
+    "largest_rotation_step_deg": 2.4966769688084125,
+    "steps_over_15cm": 0,
+    "rotation_steps_over_5deg": 0,
+    "tf_missing_pose_stamps": 0,
+    "tf_conflicting_parents": {},
+    "revisited_floor_checks": [
+      {
+        "hold": "return_3m",
+        "common_15cm_xy_cells": 558,
+        "median_signed_floor_height_difference_m": -0.00012717396020889282,
+        "median_absolute_floor_height_difference_m": 0.0022909268736839294,
+        "p90_absolute_floor_height_difference_m": 0.020777767896652224
+      },
+      {
+        "hold": "return_5m",
+        "common_15cm_xy_cells": 544,
+        "median_signed_floor_height_difference_m": 0.0009889006614685059,
+        "median_absolute_floor_height_difference_m": 0.004628397524356842,
+        "p90_absolute_floor_height_difference_m": 0.023489557206630707
+      }
+    ]
+  }
+}

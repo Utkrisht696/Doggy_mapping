@@ -1,0 +1,526 @@
+{
+  "method": "Robust point-to-plane ICP on voxelized source raw clouds transformed by fixed approved sensor extrinsics. No vendor/Point-LIO poses used. Frames pooled only within stationary start/end holds; no trajectory alignment.",
+  "start_window_s": [
+    2.6,
+    3.6
+  ],
+  "finish_window_s": [
+    210,
+    216
+  ],
+  "trials": [
+    {
+      "correspondences": 4747,
+      "source_voxels": 8431,
+      "target_plane_voxels": 2478,
+      "fraction_matched": 0.5630411576325466,
+      "plane_abs_residual_median_m": 0.009639146753518372,
+      "plane_abs_residual_p90_m": 0.05287388861935811,
+      "normal_matrix_condition": 78.07479752666875,
+      "translation_normal_eigenvalues": [
+        0.07282338371979863,
+        0.1598639979485668,
+        0.7673126183316341
+      ],
+      "iterations_last_stage": 35,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9950493993388505,
+          0.0993814556932792,
+          0.00013834622650086385,
+          0.06559311050425423
+        ],
+        [
+          -0.09937508254261924,
+          0.9949677768563895,
+          0.01279515482910608,
+          0.028287120561264523
+        ],
+        [
+          0.001133951075319422,
+          -0.012745559294827595,
+          0.9999181290851878,
+          -0.006061013358710028
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06559311050425423,
+        0.028287120561264523,
+        -0.006061013358710028
+      ],
+      "rotation_rpy_deg": [
+        -0.7302869980013761,
+        -0.06497062471381754,
+        -5.703189776957841
+      ],
+      "rotation_angle_deg": 5.750495006205015,
+      "initial_translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_yaw_deg": 0
+    },
+    {
+      "correspondences": 4747,
+      "source_voxels": 8431,
+      "target_plane_voxels": 2478,
+      "fraction_matched": 0.5630411576325466,
+      "plane_abs_residual_median_m": 0.009639146753517904,
+      "plane_abs_residual_p90_m": 0.05287388861935753,
+      "normal_matrix_condition": 78.07479752666846,
+      "translation_normal_eigenvalues": [
+        0.07282338371979863,
+        0.1598639979485668,
+        0.7673126183316341
+      ],
+      "iterations_last_stage": 35,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9950493993388525,
+          0.09938145569328036,
+          0.00013834622650056791,
+          0.06559311050424783
+        ],
+        [
+          -0.09937508254262037,
+          0.9949677768563906,
+          0.012795154829106098,
+          0.028287120561267993
+        ],
+        [
+          0.001133951075319726,
+          -0.012745559294827569,
+          0.9999181290851895,
+          -0.006061013358709754
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06559311050424783,
+        0.028287120561267993,
+        -0.006061013358709754
+      ],
+      "rotation_rpy_deg": [
+        -0.7302869980013741,
+        -0.06497062471383026,
+        -5.7031897769579
+      ],
+      "rotation_angle_deg": 5.750495006205072,
+      "initial_translation_m": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "initial_yaw_deg": 0
+    },
+    {
+      "correspondences": 4747,
+      "source_voxels": 8431,
+      "target_plane_voxels": 2478,
+      "fraction_matched": 0.5630411576325466,
+      "plane_abs_residual_median_m": 0.009639146753518249,
+      "plane_abs_residual_p90_m": 0.05287388861935796,
+      "normal_matrix_condition": 78.07479752666859,
+      "translation_normal_eigenvalues": [
+        0.07282338371979863,
+        0.1598639979485668,
+        0.7673126183316341
+      ],
+      "iterations_last_stage": 35,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.995049399338851,
+          0.0993814556932794,
+          0.00013834622650080934,
+          0.06559311050425297
+        ],
+        [
+          -0.09937508254261931,
+          0.9949677768563896,
+          0.012795154829106084,
+          0.028287120561264822
+        ],
+        [
+          0.0011339510753194748,
+          -0.012745559294827588,
+          0.9999181290851878,
+          -0.006061013358710106
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06559311050425297,
+        0.028287120561264822,
+        -0.006061013358710106
+      ],
+      "rotation_rpy_deg": [
+        -0.7302869980013758,
+        -0.06497062471381754,
+        -5.703189776957849
+      ],
+      "rotation_angle_deg": 5.750495006205023,
+      "initial_translation_m": [
+        -0.1,
+        0.0,
+        0.0
+      ],
+      "initial_yaw_deg": 0
+    },
+    {
+      "correspondences": 4747,
+      "source_voxels": 8431,
+      "target_plane_voxels": 2478,
+      "fraction_matched": 0.5630411576325466,
+      "plane_abs_residual_median_m": 0.00963914675351833,
+      "plane_abs_residual_p90_m": 0.052873888619358066,
+      "normal_matrix_condition": 78.07479752666865,
+      "translation_normal_eigenvalues": [
+        0.07282338371979863,
+        0.1598639979485668,
+        0.7673126183316341
+      ],
+      "iterations_last_stage": 35,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9950493993388505,
+          0.09938145569327918,
+          0.00013834622650086078,
+          0.06559311050425422
+        ],
+        [
+          -0.09937508254261923,
+          0.9949677768563894,
+          0.012795154829106078,
+          0.02828712056126444
+        ],
+        [
+          0.0011339510753194193,
+          -0.01274555929482759,
+          0.9999181290851875,
+          -0.006061013358710146
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06559311050425422,
+        0.02828712056126444,
+        -0.006061013358710146
+      ],
+      "rotation_rpy_deg": [
+        -0.730286998001376,
+        -0.06497062471381754,
+        -5.70318977695784
+      ],
+      "rotation_angle_deg": 5.750495006205014,
+      "initial_translation_m": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "initial_yaw_deg": 2
+    },
+    {
+      "correspondences": 4747,
+      "source_voxels": 8431,
+      "target_plane_voxels": 2478,
+      "fraction_matched": 0.5630411576325466,
+      "plane_abs_residual_median_m": 0.00963914675351803,
+      "plane_abs_residual_p90_m": 0.05287388861935785,
+      "normal_matrix_condition": 78.07479752666849,
+      "translation_normal_eigenvalues": [
+        0.07282338371979863,
+        0.1598639979485668,
+        0.7673126183316341
+      ],
+      "iterations_last_stage": 35,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9950493993388511,
+          0.09938145569327961,
+          0.00013834622650070352,
+          0.06559311050425215
+        ],
+        [
+          -0.09937508254261965,
+          0.9949677768563907,
+          0.012795154829106153,
+          0.028287120561265682
+        ],
+        [
+          0.0011339510753195872,
+          -0.012745559294827622,
+          0.9999181290851881,
+          -0.006061013358710106
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06559311050425215,
+        0.028287120561265682,
+        -0.006061013358710106
+      ],
+      "rotation_rpy_deg": [
+        -0.7302869980013783,
+        -0.06497062471383026,
+        -5.7031897769578626
+      ],
+      "rotation_angle_deg": 5.750495006205035,
+      "initial_translation_m": [
+        0.0,
+        -0.1,
+        0.0
+      ],
+      "initial_yaw_deg": -2
+    }
+  ],
+  "interleaved_frame_checks": [
+    {
+      "correspondences": 3783,
+      "source_voxels": 6450,
+      "target_plane_voxels": 1871,
+      "fraction_matched": 0.5865116279069768,
+      "plane_abs_residual_median_m": 0.009974750092347818,
+      "plane_abs_residual_p90_m": 0.05178141037846061,
+      "normal_matrix_condition": 99.20494756549934,
+      "translation_normal_eigenvalues": [
+        0.06108418963134987,
+        0.14003150054765912,
+        0.798884309820991
+      ],
+      "iterations_last_stage": 10,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9958470016902005,
+          0.09104254738523349,
+          -6.156497014477888e-05,
+          0.069814999781632
+        ],
+        [
+          -0.09103438042547284,
+          0.9957662829402351,
+          0.012737791799975369,
+          0.009373196938558495
+        ],
+        [
+          0.0012209853350128887,
+          -0.012679287243246448,
+          0.9999188691437999,
+          -0.005236690453339185
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.069814999781632,
+        0.009373196938558495,
+        -0.005236690453339185
+      ],
+      "rotation_rpy_deg": [
+        -0.7264896543039502,
+        -0.0699573239257326,
+        -5.2231209251367074
+      ],
+      "rotation_angle_deg": 5.274271278141028,
+      "start_frame_parity": 0,
+      "finish_frame_parity": 0
+    },
+    {
+      "correspondences": 3806,
+      "source_voxels": 6521,
+      "target_plane_voxels": 1871,
+      "fraction_matched": 0.583652813985585,
+      "plane_abs_residual_median_m": 0.009423943410441275,
+      "plane_abs_residual_p90_m": 0.050374861257487885,
+      "normal_matrix_condition": 98.45814236227427,
+      "translation_normal_eigenvalues": [
+        0.05732885730666759,
+        0.13679888450378166,
+        0.8058722581895508
+      ],
+      "iterations_last_stage": 11,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9955926651084254,
+          0.09378049877014621,
+          0.0006806120222232869,
+          0.07026708158834324
+        ],
+        [
+          -0.09378149195601947,
+          0.9955100479097043,
+          0.012836521231312365,
+          0.013834378804148393
+        ],
+        [
+          0.0005262592566946168,
+          -0.012843775194290466,
+          0.999917376831683,
+          -0.004684519018191925
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.07026708158834324,
+        0.013834378804148393,
+        -0.004684519018191925
+      ],
+      "rotation_rpy_deg": [
+        -0.7359144475569002,
+        -0.030152435730064004,
+        -5.381192079289821
+      ],
+      "rotation_angle_deg": 5.43151844712481,
+      "start_frame_parity": 0,
+      "finish_frame_parity": 1
+    },
+    {
+      "correspondences": 3580,
+      "source_voxels": 6450,
+      "target_plane_voxels": 1700,
+      "fraction_matched": 0.5550387596899224,
+      "plane_abs_residual_median_m": 0.008433766348518126,
+      "plane_abs_residual_p90_m": 0.04918386880639423,
+      "normal_matrix_condition": 112.07706692497489,
+      "translation_normal_eigenvalues": [
+        0.05847692713734162,
+        0.11760807354209149,
+        0.8239149993205666
+      ],
+      "iterations_last_stage": 7,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.9950290756609597,
+          0.09957749595782024,
+          0.0012086720262586021,
+          0.06989258014605165
+        ],
+        [
+          -0.09958482913025511,
+          0.9949581910243189,
+          0.011876864936231028,
+          0.02219672213688309
+        ],
+        [
+          -1.990966260883597e-05,
+          -0.011938191336457507,
+          0.9999287370564064,
+          -0.003793483104045962
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06989258014605165,
+        0.02219672213688309,
+        -0.003793483104045962
+      ],
+      "rotation_rpy_deg": [
+        -0.6840242272928774,
+        0.0011407396390891835,
+        -5.715263603145698
+      ],
+      "rotation_angle_deg": 5.756011000306598,
+      "start_frame_parity": 1,
+      "finish_frame_parity": 0
+    },
+    {
+      "correspondences": 3589,
+      "source_voxels": 6521,
+      "target_plane_voxels": 1700,
+      "fraction_matched": 0.550375709247048,
+      "plane_abs_residual_median_m": 0.008615924940279688,
+      "plane_abs_residual_p90_m": 0.04824733625153053,
+      "normal_matrix_condition": 121.80931924516563,
+      "translation_normal_eigenvalues": [
+        0.05392157475529261,
+        0.1154318730170308,
+        0.8306465522276762
+      ],
+      "iterations_last_stage": 11,
+      "transform_finish_imu_to_start_imu": [
+        [
+          0.994947948710839,
+          0.10038382272084603,
+          0.0012913140768583073,
+          0.06836435144422968
+        ],
+        [
+          -0.10039210356974539,
+          0.9948743629054639,
+          0.012100726188484592,
+          0.024062681755578588
+        ],
+        [
+          -6.997811702693174e-05,
+          -0.01216923043568929,
+          0.9999259497251118,
+          -0.003854229588340571
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.06836435144422968,
+        0.024062681755578588,
+        -0.003854229588340571
+      ],
+      "rotation_rpy_deg": [
+        -0.6972627559431708,
+        0.004009450767190723,
+        -5.761749997791904
+      ],
+      "rotation_angle_deg": 5.803728416901313,
+      "start_frame_parity": 1,
+      "finish_frame_parity": 1
+    }
+  ],
+  "translation_seed_spread_m": 7.283010450934796e-15,
+  "rotation_seed_spread_deg": 6.1306843851885e-14,
+  "split_frame_translation_spread_m": 0.019396916356171502,
+  "passes_consistency_gates": false,
+  "limitations": "Conditional static-scene geometric check, not surveyed ground truth. People, changed objects, sparse surfaces and robot body sway can affect it. Accepted only if seeds, split samples, overlap, residuals and geometry conditioning agree."
+}

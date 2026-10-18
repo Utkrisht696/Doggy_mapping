@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/jain/Doggy/reports/bag_comparisons/classic_20261018/run_replay.py", line 37, in <module>
+    rclpy.init();node=rclpy.create_node('classic_bag_observer')
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 176, in create_node
+    return Node(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 175, in __init__
+    self.__node = _rclpy.Node(
+rclpy._rclpy_pybind11.RCLError: error creating node: rcl node's rmw handle is invalid, at ./src/rcl/node.c:415

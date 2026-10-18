@@ -1,0 +1,44 @@
+{
+  "all_topic_receipt_gaps_over_150ms": [
+    {
+      "before_receipt_ns": 1792305167881541743,
+      "after_receipt_ns": 1792305168080783401,
+      "gap_s": 0.199241658
+    },
+    {
+      "before_receipt_ns": 1792305184127449950,
+      "after_receipt_ns": 1792305187983312045,
+      "gap_s": 3.855862095
+    }
+  ],
+  "vendor_context": [
+    {
+      "lidar_gap": {
+        "before_s": 28.055990934,
+        "after_s": 28.315670013,
+        "gap_s": 0.259679079,
+        "receipt_gap_s": 0.259490045
+      },
+      "vendor_displacement_between_nearest_samples_m": 0.10604563759347907,
+      "vendor_delta_xyz_m": [
+        0.10595369338989258,
+        -0.0032843947410583496,
+        0.0029504001140594482
+      ]
+    },
+    {
+      "lidar_gap": {
+        "before_s": 44.319057703,
+        "after_s": 48.272037983,
+        "gap_s": 3.95298028,
+        "receipt_gap_s": 3.95316294
+      },
+      "vendor_displacement_between_nearest_samples_m": 0.8138093723594719,
+      "vendor_delta_xyz_m": [
+        -0.8136777877807617,
+        0.0014601945877075195,
+        0.014560908079147339
+      ]
+    }
+  ]
+}

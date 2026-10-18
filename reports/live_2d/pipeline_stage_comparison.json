@@ -1,0 +1,98 @@
+{
+  "/utlidar/cloud": {
+    "near_robot": {
+      "returns": 1033160,
+      "z_quantiles_m": [
+        -0.366,
+        -0.3483,
+        -0.2909,
+        -0.1676
+      ],
+      "returns_above_body_z_minus_0_25_m": 46712
+    },
+    "front_left": {
+      "returns": 33968,
+      "z_quantiles_m": [
+        -0.357,
+        -0.3117,
+        -0.2012,
+        -0.1514
+      ],
+      "returns_above_body_z_minus_0_25_m": 4651
+    },
+    "front_right": {
+      "returns": 19131,
+      "z_quantiles_m": [
+        -0.3548,
+        -0.3216,
+        -0.3071,
+        -0.1592
+      ],
+      "returns_above_body_z_minus_0_25_m": 1485
+    }
+  },
+  "/utlidar/cloud_base": {
+    "near_robot": {
+      "returns": 208087,
+      "z_quantiles_m": [
+        -0.3637,
+        -0.3328,
+        -0.2911,
+        -0.1826
+      ],
+      "returns_above_body_z_minus_0_25_m": 10376
+    },
+    "front_left": {
+      "returns": 12818,
+      "z_quantiles_m": [
+        -0.3512,
+        -0.307,
+        -0.1819,
+        -0.1503
+      ],
+      "returns_above_body_z_minus_0_25_m": 2990
+    },
+    "front_right": {
+      "returns": 7321,
+      "z_quantiles_m": [
+        -0.3452,
+        -0.3195,
+        -0.1933,
+        -0.1555
+      ],
+      "returns_above_body_z_minus_0_25_m": 1000
+    }
+  },
+  "/point_lio/cloud_registered": {
+    "near_robot": {
+      "returns": 41197,
+      "z_quantiles_m": [
+        -0.355,
+        -0.3156,
+        -0.2636,
+        -0.1982
+      ],
+      "returns_above_body_z_minus_0_25_m": 2693
+    },
+    "front_left": {
+      "returns": 2129,
+      "z_quantiles_m": [
+        -0.3437,
+        -0.3052,
+        -0.1959,
+        -0.169
+      ],
+      "returns_above_body_z_minus_0_25_m": 490
+    },
+    "front_right": {
+      "returns": 1481,
+      "z_quantiles_m": [
+        -0.3636,
+        -0.3192,
+        -0.229,
+        -0.1659
+      ],
+      "returns_above_body_z_minus_0_25_m": 157
+    }
+  }
+}

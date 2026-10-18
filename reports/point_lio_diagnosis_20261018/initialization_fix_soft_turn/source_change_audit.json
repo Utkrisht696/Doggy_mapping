@@ -1,0 +1,128 @@
+{
+  "changed_files": [
+    "src/laserMapping.cpp"
+  ],
+  "hashes": {
+    "CMakeLists.txt": {
+      "baseline": "589eb4b998f3676066ecf20c6ae9115c9a87bc88a231b2f03ff46f8a2f0094a7",
+      "trial": "589eb4b998f3676066ecf20c6ae9115c9a87bc88a231b2f03ff46f8a2f0094a7"
+    },
+    "package.xml": {
+      "baseline": "3a48c7861879db8fc27566ac702af2450fd475cf5696090bb36d6859bfd0d690",
+      "trial": "3a48c7861879db8fc27566ac702af2450fd475cf5696090bb36d6859bfd0d690"
+    },
+    "PCD/temp.txt": {
+      "baseline": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "trial": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "src/laserMapping.cpp": {
+      "baseline": "a83162fed8c2936b582a1583f650f9ddfb49599ba1b0909930dfc96b99648459",
+      "trial": "5214a2156aca12ac494e82b17656f522c2931957d1d83f0e8c3197fee2e24801"
+    },
+    "src/preprocess.h": {
+      "baseline": "44db3f909eafa7b13a1635610079ada719ee0569894828688391e1d0769d2e41",
+      "trial": "44db3f909eafa7b13a1635610079ada719ee0569894828688391e1d0769d2e41"
+    },
+    "src/Estimator.h": {
+      "baseline": "a7c06fd016a1f3e29609c6d5cc7a3f345c5d6bbdbd1cf00f0b0e692087ba400b",
+      "trial": "a7c06fd016a1f3e29609c6d5cc7a3f345c5d6bbdbd1cf00f0b0e692087ba400b"
+    },
+    "src/Estimator.cpp": {
+      "baseline": "27f0ee760e1232dd278dcf167ef503f6b06a0835c53f68741128f67694700b14",
+      "trial": "27f0ee760e1232dd278dcf167ef503f6b06a0835c53f68741128f67694700b14"
+    },
+    "src/parameters.h": {
+      "baseline": "0dd3f72c302390b72d03efe235339b8798e2b8c79b17c2514c9cfccb26f25f03",
+      "trial": "0dd3f72c302390b72d03efe235339b8798e2b8c79b17c2514c9cfccb26f25f03"
+    },
+    "src/IMU_Processing.hpp": {
+      "baseline": "e251bd59bcdf381a2df537742fd3303d24fd9b075e7bfa80475fe825fec04c5c",
+      "trial": "e251bd59bcdf381a2df537742fd3303d24fd9b075e7bfa80475fe825fec04c5c"
+    },
+    "src/gap_recovery.hpp": {
+      "baseline": "c3eef2db0b99f42cb5b962cf1c820a5310410fcd7577a4bff091264d214ea90c",
+      "trial": "c3eef2db0b99f42cb5b962cf1c820a5310410fcd7577a4bff091264d214ea90c"
+    },
+    "src/parameters.cpp": {
+      "baseline": "33654c2b1a76a99fb4b71ad41a7c6f93f2fe7a914ee0f0c2d481872d3adb2297",
+      "trial": "33654c2b1a76a99fb4b71ad41a7c6f93f2fe7a914ee0f0c2d481872d3adb2297"
+    },
+    "src/preprocess.cpp": {
+      "baseline": "ea149e34c36b77ae63efb63a75ae117149d074b7d94e72f678ea1ccff6fdc485",
+      "trial": "ea149e34c36b77ae63efb63a75ae117149d074b7d94e72f678ea1ccff6fdc485"
+    },
+    "include/so3_math.h": {
+      "baseline": "59f15756e7b6a06c2a093b794d4e70e6e726243605c7bcfa46806a7decf91c63",
+      "trial": "59f15756e7b6a06c2a093b794d4e70e6e726243605c7bcfa46806a7decf91c63"
+    },
+    "include/common_lib.h": {
+      "baseline": "37f63824a51ec74594d873ea9e509157df08e5e68550978e9c6627f0a63aa082",
+      "trial": "37f63824a51ec74594d873ea9e509157df08e5e68550978e9c6627f0a63aa082"
+    },
+    "include/IKFoM/IKFoM_toolkit/esekfom/util.hpp": {
+      "baseline": "3c4265d25ea3f8c7f586d1e34bc352e981e09e30555e42011cd23a0a147d6918",
+      "trial": "3c4265d25ea3f8c7f586d1e34bc352e981e09e30555e42011cd23a0a147d6918"
+    },
+    "include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp": {
+      "baseline": "35e22592d3761c5fa837b1d94462835b26e5b5f49c3e291bfe93b8a54628612c",
+      "trial": "35e22592d3761c5fa837b1d94462835b26e5b5f49c3e291bfe93b8a54628612c"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/build_manifold.hpp": {
+      "baseline": "fe018230140bfab649b7acdf43f2f063a64d2805a64b93438f22b676b7e23959",
+      "trial": "fe018230140bfab649b7acdf43f2f063a64d2805a64b93438f22b676b7e23959"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/startIdx.hpp": {
+      "baseline": "79cdc368bb4e083f5fda7549094c0aba8b599aee1f88e9f2a8b7fa785bf1f757",
+      "trial": "79cdc368bb4e083f5fda7549094c0aba8b599aee1f88e9f2a8b7fa785bf1f757"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/src/SubManifold.hpp": {
+      "baseline": "96709f0f453a0c8776b1969064275ebf14dc5234b7024e68eb1cfc51a513864f",
+      "trial": "96709f0f453a0c8776b1969064275ebf14dc5234b7024e68eb1cfc51a513864f"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/src/mtkmath.hpp": {
+      "baseline": "d28e5f44f521ea7e953f35e8a974d8e4c8aa7e699c4339cb924f3efe91acbe49",
+      "trial": "d28e5f44f521ea7e953f35e8a974d8e4c8aa7e699c4339cb924f3efe91acbe49"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/src/vectview.hpp": {
+      "baseline": "7855408124ea65df4423bae5f97d5104af5552318796bc6324bdbf98a45101f3",
+      "trial": "7855408124ea65df4423bae5f97d5104af5552318796bc6324bdbf98a45101f3"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/S2.hpp": {
+      "baseline": "4501a540264d3c796f0357f9e0a515f4f4f5d2b9bbc0783754e867aa897f62b2",
+      "trial": "4501a540264d3c796f0357f9e0a515f4f4f5d2b9bbc0783754e867aa897f62b2"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/SEn.hpp": {
+      "baseline": "a6ebb8b341db1a07fc588fcec40a1f2de4dae30366f208fa10e9532f1da79226",
+      "trial": "a6ebb8b341db1a07fc588fcec40a1f2de4dae30366f208fa10e9532f1da79226"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/SOn.hpp": {
+      "baseline": "394aa660f0d9051d97fca57b1cbcea2bfa923634cc53675ee183349df71bd2a2",
+      "trial": "394aa660f0d9051d97fca57b1cbcea2bfa923634cc53675ee183349df71bd2a2"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp": {
+      "baseline": "3040f43fcb4195a2572a8819be012ebd2c4b59a38cfae86fcac3e01d7039a589",
+      "trial": "3040f43fcb4195a2572a8819be012ebd2c4b59a38cfae86fcac3e01d7039a589"
+    },
+    "include/IKFoM/IKFoM_toolkit/mtk/types/vect.hpp": {
+      "baseline": "5bb37a64384334de1bc339519580b5a6b33af6451e0ec98964ffadbebd9e4f5f",
+      "trial": "5bb37a64384334de1bc339519580b5a6b33af6451e0ec98964ffadbebd9e4f5f"
+    },
+    "include/ikd-Tree/ikd_Tree.h": {
+      "baseline": "bb87cab944c6c59e0be61cb0b3a2cd0e334d93dc1bf768875058857278135a4b",
+      "trial": "bb87cab944c6c59e0be61cb0b3a2cd0e334d93dc1bf768875058857278135a4b"
+    },
+    "include/ikd-Tree/ikd_Tree.cpp": {
+      "baseline": "ec3cbbbb6386eb6c68f9aa081c48b5d62209ada44fe167a002d4e3b112a1ea9f",
+      "trial": "ec3cbbbb6386eb6c68f9aa081c48b5d62209ada44fe167a002d4e3b112a1ea9f"
+    },
+    "include/FOV_Checker/FOV_Checker.cpp": {
+      "baseline": "5ebbd98bdb4ad270bd0d84dba12fa98bfe58e919fe7accbe69cde6ec59f29a46",
+      "trial": "5ebbd98bdb4ad270bd0d84dba12fa98bfe58e919fe7accbe69cde6ec59f29a46"
+    },
+    "include/FOV_Checker/FOV_Checker.h": {
+      "baseline": "4cae4e3670211a8c85b5514c6198c5d3365897c9755172064ca60e071b79a0f4",
+      "trial": "4cae4e3670211a8c85b5514c6198c5d3365897c9755172064ca60e071b79a0f4"
+    }
+  },
+  "only_new_semantic_change": "Two meas.imu.shrink_to_fit calls replaced with clear; previous cache resize fix retained"
+}

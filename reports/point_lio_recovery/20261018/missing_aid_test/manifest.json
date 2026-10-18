@@ -1,0 +1,36 @@
+{
+  "source_bag": "/home/jain/go2_bags/go2_20261018_173219",
+  "derived_replay": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018/replay_stationary_start",
+  "domain": 212,
+  "localhost_only": true,
+  "robot_commands_sent": false,
+  "playback_rate": 1.0,
+  "topics_replayed": [
+    "/utlidar/cloud",
+    "/doggy/imu/body_calibrated",
+    "/doggy/robot_clock",
+    "/tf",
+    "/tf_static"
+  ],
+  "clock": "Source-header-derived /doggy/robot_clock, no player-generated /clock",
+  "source_time_origin_ns": 1792305112841175079,
+  "application_hashes_before": {
+    "scripts/publish_body_imu.py": "be51c66553b1e5df2061b6c7f1b3d4dd93fde4860801143e7df73c97b997e928",
+    "config/point_lio/body_imu_calibration.json": "6987c2b96029055666f53993d84b42b5ac02c5e8e6cee2290c1c97f5a81d1a8e",
+    "config/point_lio/go2_body_imu.yaml": "fb633b300a883a3b371968737e877c7c6c6ce30167c1c84a0c9aec0e3d2b11b3",
+    "config/point_lio/sensor_geometry.json": "2313b1eb51d015ef26cd4885cb64f829c82b6ec1b24383968c85f46ceabcd82d",
+    "scripts/publish_point_lio_tf.py": "b84b0547d61b87e15f57d99de71747f0de130d871b3289665a2cbe62443111d6",
+    "launch/point_lio_go2.launch.py": "df74297cf01f5cef5201cbe8c91d28732dc428ff1a81f8284731c8c7722d61fd"
+  },
+  "diagnostic_override": {
+    "init_map_size": 4000,
+    "recovery.enabled": true
+  },
+  "excluded_initial_receipt_s": 1.5,
+  "reason_for_initial_exclusion": "Initial body motion; estimator starts in subsequent quiet pause, with later gaps preserved",
+  "status": "stopped_saved",
+  "vendor_aid_withheld_for_negative_test": true,
+  "launch_pid": 1569351,
+  "player_pid": 1569407,
+  "stop_reason": "wall_time_limit"
+}

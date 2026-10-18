@@ -1,0 +1,20 @@
+/doggy/robot_clock:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/go2/lio_cloud:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/go2/lio_imu:
+  depth: 10000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/utlidar/robot_odom:
+  depth: 10000
+  durability: volatile
+  history: keep_last
+  reliability: reliable

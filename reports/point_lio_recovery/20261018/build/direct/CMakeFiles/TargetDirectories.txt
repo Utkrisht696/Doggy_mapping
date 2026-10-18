@@ -1,0 +1,10 @@
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/uninstall.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/point_lio_uninstall.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/pointlio_mapping.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/test.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/edit_cache.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/rebuild_cache.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/list_install_components.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/install.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/install/local.dir
+/home/jain/Doggy/reports/point_lio_recovery/20261018/build/direct/CMakeFiles/install/strip.dir

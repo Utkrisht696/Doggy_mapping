@@ -1,0 +1,8 @@
+{
+  "all_recordings_expected_to_finish_at_original_start_pose": true,
+  "user_statement": "all the bags should end in start pose,",
+  "newest_measured_route_sequence": "5 m out/back, 10 m out/back, travel to rectangle area, two 1x3 m rectangles and one 1x1 m rectangle, return. User confirmed roughly correct.",
+  "endpoint_accuracy": "Approximate physical return; no surveyed endpoint uncertainty.",
+  "doggy_real2_exception": "Replay omits moving initial 14.38 s; first processed hold is not the original recording start, so its first/last processed-hold displacement is not a full-route closure measurement.",
+  "earlier_measured_route_straight_sequence": "User confirmed 5 m forward, pause, continue another 5 m to 10 m total; no initial out-and-back."
+}

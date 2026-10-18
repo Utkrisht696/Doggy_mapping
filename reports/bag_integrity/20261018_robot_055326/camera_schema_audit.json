@@ -1,0 +1,13 @@
+{
+  "messages": 356,
+  "advertised_schema": "uint64 time_frame\nuint8[] video720p\nuint8[] video360p\nuint8[] video180p ",
+  "standard_schema_decoder_failure_count": 356,
+  "bounded_layout_observation": "Each record fits uint64 + uint32 + uint8 sequence, plus CDR declared trailing padding; this does not match the advertised three video-sequence fields. Field semantics are not asserted.",
+  "uint32_marker_counts": {
+    "360": 178,
+    "720": 178
+  },
+  "bounded_layout_errors": [],
+  "payloads_with_annex_b_start_code": 356,
+  "interpretation": "All samples show a consistent alternate wire layout, supporting a camera schema/publisher compatibility issue rather than random container truncation. Camera schema repair is outside this integrity check."
+}

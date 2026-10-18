@@ -1,0 +1,57 @@
+{
+  "bag": "control",
+  "straight_checks": [],
+  "endpoints": {
+    "point_lio": {
+      "horizontal_displacement_m": 3.510261418141651,
+      "height_change_m": -0.43261989306372595,
+      "heading_change_deg": 0.27791133450572164,
+      "delta_xyz_m": [
+        -2.6523478133601537,
+        2.2993447546328163,
+        -0.43261989306372595
+      ],
+      "full_orientation_change_deg": 1.8141306008295508
+    },
+    "vendor": {
+      "horizontal_displacement_m": 0.7054736599718996,
+      "height_change_m": 0.00011344809120050758,
+      "heading_change_deg": -2.844551712544252,
+      "delta_xyz_m": [
+        0.6029807582122735,
+        0.366206622195584,
+        0.00011344809120050758
+      ],
+      "full_orientation_change_deg": 2.8543524039624604
+    }
+  },
+  "health": {
+    "poses": 2176,
+    "first_pose_source_s": 0.84030509,
+    "last_pose_source_s": 141.88373208,
+    "nonfinite_values": 0,
+    "nonincreasing_stamps": 0,
+    "median_contiguous_rate_hz": 15.403133268402412,
+    "contiguous_position_step_m": {
+      "median": 0.0203327750681778,
+      "p95": 0.03818991994987495,
+      "p99": 0.044542751797233895,
+      "max": 0.0562782075387092
+    },
+    "contiguous_rotation_step_deg": {
+      "median": 0.8131934819418425,
+      "p95": 2.070685890287834,
+      "p99": 2.6053042294043944,
+      "max": 3.3122320913921435
+    },
+    "output_gaps_over_150ms": [],
+    "missing_exact_stamp_tf": 0,
+    "reseed_events": 0,
+    "resume_events": 0,
+    "probation_events": 0
+  },
+  "travel": {
+    "point_lio": 36.70383306460303,
+    "vendor": 29.779260776809096
+  }
+}

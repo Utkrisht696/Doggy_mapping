@@ -1,0 +1,116 @@
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -30,6 +30,67 @@
+ 
+ #define MAXN                (720000)
+ #define PUBFRAME_PERIOD     (20)
++
++
++// Diagnostic only: one buffered CSV row per scan; no filter state writes.
++struct DoggyHeadingTrace {
++    const state_output &state;
++    double scan_time, first_yaw, previous_yaw;
++    double changes[3] = {0.,0.,0.};
++    int counts[3] = {0,0,0};
++    int negative_dt = 0, lidar_success = 0, imu_residual_count = 0;
++    double min_dt = 1e9, max_dt = -1e9, gyro_residual_sq = 0., acc_residual_sq = 0.;
++    static double yaw(const state_output &s) {
++        const auto R = s.rot.normalized().toRotationMatrix();
++        return std::atan2(R(1,0), R(0,0));
++    }
++    static double wrap(double angle) { return std::atan2(std::sin(angle), std::cos(angle)); }
++    static std::ofstream &file() {
++        static std::ofstream out(DEBUG_FILE_DIR("heading_trace.csv"));
++        static bool header = false;
++        if (!header) {
++            out.precision(17);
++            out << "scan_stamp_s,dyaw_prediction_rad,dyaw_imu_rad,dyaw_lidar_rad,dyaw_total_rad,prediction_count,imu_count,lidar_count,lidar_success,negative_prediction_dt,min_prediction_dt_s,max_prediction_dt_s,gyro_innovation_rms_vector,acc_innovation_rms_vector,roll_rad,pitch_rad,yaw_rad,px,py,pz,omgx,omgy,omgz,bgx,bgy,bgz,bax,bay,baz,qx,qy,qz,qw\n";
++            header = true;
++        }
++        return out;
++    }
++    DoggyHeadingTrace(const state_output &s, double time):state(s),scan_time(time),first_yaw(yaw(s)),previous_yaw(first_yaw) { file(); }
++    void imu_before(const V3D &gyro, const V3D &acc) {
++        gyro_residual_sq += (gyro-state.omg-state.bg).squaredNorm();
++        acc_residual_sq += (acc*G_m_s2/acc_norm-state.acc-state.ba).squaredNorm();
++        ++imu_residual_count;
++    }
++    void sample(int phase, double dt = 0.) {
++        double current = yaw(state);
++        changes[phase] += wrap(current-previous_yaw);
++        previous_yaw = current;
++        ++counts[phase];
++        if (phase == 0) {
++            if (dt < 0.) ++negative_dt;
++            if (dt < min_dt) min_dt = dt;
++            if (dt > max_dt) max_dt = dt;
++        }
++    }
++    ~DoggyHeadingTrace() {
++        auto &out = file();
++        const auto R = state.rot.normalized().toRotationMatrix();
++        double roll = std::atan2(R(2,1),R(2,2));
++        double pitch = std::atan2(-R(2,0),std::hypot(R(2,1),R(2,2)));
++        out << scan_time << ',' << changes[0] << ',' << changes[1] << ',' << changes[2] << ',' << wrap(yaw(state)-first_yaw)
++            << ',' << counts[0] << ',' << counts[1] << ',' << counts[2] << ',' << lidar_success << ',' << negative_dt
++            << ',' << (counts[0]?min_dt:0.) << ',' << (counts[0]?max_dt:0.)
++            << ',' << (imu_residual_count?std::sqrt(gyro_residual_sq/imu_residual_count):0.)
++            << ',' << (imu_residual_count?std::sqrt(acc_residual_sq/imu_residual_count):0.)
++            << ',' << roll << ',' << pitch << ',' << yaw(state);
++        for (int i=0;i<3;++i) out << ',' << state.pos[i];
++        for (int i=0;i<3;++i) out << ',' << state.omg[i];
++        for (int i=0;i<3;++i) out << ',' << state.bg[i];
++        for (int i=0;i<3;++i) out << ',' << state.ba[i];
++        for (int i=0;i<4;++i) out << ',' << state.rot.coeffs()[i];
++        out << '\n';
++    }
++};
+ 
+ const float MOV_THRESHOLD = 1.5f;
+ 
+@@ -1050,6 +1111,7 @@
+             }
+ 
+             if (!use_imu_as_input) {
++                DoggyHeadingTrace heading_trace(kf_output.x_, Measures.lidar_beg_time);
+                 bool imu_upda_cov = false;
+                 effct_feat_num = 0;
+                 /**** point by point update ****/
+@@ -1095,6 +1157,7 @@
+                             imu_deque.pop_front();
+                             double dt = get_time_sec(imu_last.header.stamp) - time_predict_last_const;
+                             kf_output.predict(dt, Q_output, input_in, true, false);
++                            heading_trace.sample(0, dt);
+                             time_predict_last_const = get_time_sec(imu_last.header.stamp); // big problem
+                             imu_comes = time_current > get_time_sec(imu_next.header.stamp);
+                             // if (!imu_comes)
+@@ -1109,7 +1172,9 @@
+ 
+                                     propag_time += omp_get_wtime() - propag_imu_start;
+                                     double solve_imu_start = omp_get_wtime();
++                                    heading_trace.imu_before(angvel_avr, acc_avr);
+                                     kf_output.update_iterated_dyn_share_IMU();
++                                    heading_trace.sample(1);
+                                     solve_time += omp_get_wtime() - solve_imu_start;
+                                 }
+                             }
+@@ -1126,6 +1191,7 @@
+                         }
+                     }
+                     kf_output.predict(dt, Q_output, input_in, true, false);
++                            heading_trace.sample(0, dt);
+                     propag_time += omp_get_wtime() - propag_state_start;
+                     time_predict_last_const = time_current;
+                     // if(k == 0)
+@@ -1141,7 +1207,10 @@
+                         idx += time_seq[k];
+                         continue;
+                     }
+-                    if (!kf_output.update_iterated_dyn_share_modified()) {
++                    const bool lidar_updated = kf_output.update_iterated_dyn_share_modified();
++                    heading_trace.sample(2);
++                    if (lidar_updated) ++heading_trace.lidar_success;
++                    if (!lidar_updated) {
+                         idx = idx + time_seq[k];
+                         continue;
+                     }

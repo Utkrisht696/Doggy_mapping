@@ -1,0 +1,36 @@
+{
+  "small_wander_comeback": {
+    "raw_point_time_span_median_s": 0.062221281230449677,
+    "consecutive_raw_scan_point_intervals_overlap_count": 2,
+    "largest_raw_scan_interval_overlap_s": 0.000561214,
+    "stationary_corrected_gyro_mean_rad_s": [
+      -0.0008161965013193033,
+      -0.0005874842958244241,
+      1.4287231191585196e-05
+    ],
+    "stationary_corrected_gyro_sample_variance": [
+      3.868078716668657e-05,
+      6.109511792482536e-05,
+      3.789121011998718e-05
+    ],
+    "configured_gyro_measurement_variance": 0.1,
+    "limitations": "Intervals use declared headers and relative point times, not a calibrated physical acquisition reference. Covariance of standing/sway measurements is not a validated dynamic IMU noise model."
+  },
+  "wander_soft_turn_comeback": {
+    "raw_point_time_span_median_s": 0.06222236156463623,
+    "consecutive_raw_scan_point_intervals_overlap_count": 2,
+    "largest_raw_scan_interval_overlap_s": 0.000218794,
+    "stationary_corrected_gyro_mean_rad_s": [
+      -0.000555855750733681,
+      -0.0001256410444400083,
+      -0.00039769502598876056
+    ],
+    "stationary_corrected_gyro_sample_variance": [
+      4.439735856754162e-05,
+      5.938513299734919e-05,
+      3.7722791005309934e-05
+    ],
+    "configured_gyro_measurement_variance": 0.1,
+    "limitations": "Intervals use declared headers and relative point times, not a calibrated physical acquisition reference. Covariance of standing/sway measurements is not a validated dynamic IMU noise model."
+  }
+}

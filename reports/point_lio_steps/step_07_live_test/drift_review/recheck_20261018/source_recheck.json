@@ -1,0 +1,8 @@
+{
+  "recorded_poses": 2074,
+  "cached_poses": 2074,
+  "stamp_sequence_exact_match": true,
+  "pose_values_exact_match": true,
+  "source_bag": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag/bag_0.db3",
+  "read_only": true
+}

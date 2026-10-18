@@ -1,0 +1,20 @@
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -414,7 +414,7 @@
+     /*** push imu data, and pop from imu buffer ***/
+     if (p_imu->imu_need_init_) {
+         double imu_time = get_time_sec(imu_deque.front()->header.stamp);
+-        meas.imu.shrink_to_fit();
++        meas.imu.clear();
+         while ((!imu_deque.empty()) && (imu_time < lidar_end_time)) {
+             imu_time = get_time_sec(imu_deque.front()->header.stamp);
+             if (imu_time > lidar_end_time) break;
+@@ -426,7 +426,7 @@
+         }
+     } else if (!init_map) {
+         double imu_time = get_time_sec(imu_deque.front()->header.stamp);
+-        meas.imu.shrink_to_fit();
++        meas.imu.clear();
+         meas.imu.emplace_back(imu_last_ptr);
+ 
+         while ((!imu_deque.empty()) && (imu_time < lidar_end_time)) {

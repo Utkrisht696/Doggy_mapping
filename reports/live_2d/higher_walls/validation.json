@@ -1,0 +1,28 @@
+{
+  "source_bag": "reports/point_lio_steps/step_07_live_test/20261016T220926+1100/bag/bag_0.db3",
+  "source_coordinates": "Recorded Point-LIO map frame reused as local odom; no estimator rerun or vendor poses",
+  "scans": 2074,
+  "voxels": 225438,
+  "missing_matching_poses": 0,
+  "integration_seconds": 5.92740521999076,
+  "max_integration_callback_seconds": 0.009264714026357979,
+  "render_seconds": 0.47813147099805064,
+  "width": 371,
+  "height": 555,
+  "free_cells": 23695,
+  "occupied_cells": 7289,
+  "terrain_blocked_cells": 8051,
+  "observed_slope_median_deg": 1.7580397129058838,
+  "saved": "/home/jain/Doggy/reports/live_2d/higher_walls/map.yaml",
+  "self_filter": {
+    "robot_self_filter": "URDF primitive collision volumes at source scan time",
+    "padding_m": 0.025,
+    "removed_points": 2071,
+    "skipped_scans_missing_model_or_joints": 0,
+    "joint_sample_modes": {
+      "exact": 0,
+      "interpolated": 2074,
+      "bounded_past": 0
+    }
+  }
+}

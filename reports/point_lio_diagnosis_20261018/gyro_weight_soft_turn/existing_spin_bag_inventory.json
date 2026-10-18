@@ -1,0 +1,71 @@
+[
+  {
+    "bag": "classic_mode_spins",
+    "duration_s": 127.75733718,
+    "message_count": 262434,
+    "files": [
+      "robot_20261018_085618_0.mcap",
+      "robot_20261018_085618_1.mcap"
+    ],
+    "topics": [
+      {
+        "name": "/lf/sportmodestate",
+        "count": 2553
+      },
+      {
+        "name": "/sportmodestate",
+        "count": 37976
+      },
+      {
+        "name": "/utlidar/robot_odom",
+        "count": 19192
+      },
+      {
+        "name": "/utlidar/imu",
+        "count": 31580
+      },
+      {
+        "name": "/utlidar/cloud",
+        "count": 1970
+      },
+      {
+        "name": "/lowstate",
+        "count": 63831
+      }
+    ]
+  },
+  {
+    "bag": "running_mode_spins",
+    "duration_s": 66.328461535,
+    "message_count": 136260,
+    "files": [
+      "robot_20261018_084809_0.mcap"
+    ],
+    "topics": [
+      {
+        "name": "/lf/sportmodestate",
+        "count": 1325
+      },
+      {
+        "name": "/sportmodestate",
+        "count": 19756
+      },
+      {
+        "name": "/utlidar/robot_odom",
+        "count": 9945
+      },
+      {
+        "name": "/utlidar/imu",
+        "count": 16407
+      },
+      {
+        "name": "/utlidar/cloud",
+        "count": 1022
+      },
+      {
+        "name": "/lowstate",
+        "count": 33142
+      }
+    ]
+  }
+]

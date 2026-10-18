@@ -1,0 +1,113 @@
+from pathlib import Path
+import difflib
+r=Path(__file__).resolve().parent;p=r/'src/point_lio/src/laserMapping.cpp';original=Path('/home/jain/Doggy/third_party/point_lio_ros2/src/laserMapping.cpp').read_text();s=original
+s=s.replace('#include "Estimator.h"','#include "Estimator.h"\n#include "gap_recovery.hpp"')
+needle='auto logger = rclcpp::get_logger("laserMapping");'
+addition=r'''
+// Explicitly opt-in, output-model-only prototype; the active package is unchanged.
+bool recovery_enabled=false, recovery_pending=false, recovery_probation=false;
+int recovery_good=0, recovery_attempts=0;
+double recovery_last_imu=-1.;
+gap_recovery::Aid recovery_aid;
+Eigen::Vector3d recovery_mount(-.02557,0.,.04232);
+void recovery_vendor(const nav_msgs::msg::Odometry::SharedPtr m) {
+    if(m->header.frame_id!="odom" || m->child_frame_id!="base_link") return;
+    auto &p=m->pose.pose.position;auto &q=m->pose.pose.orientation;
+    Eigen::Quaterniond R(q.w,q.x,q.y,q.z);
+    if(!R.coeffs().allFinite() || std::abs(R.norm()-1.)>.05) return;
+    R.normalize();
+    recovery_aid.add({get_time_sec(m->header.stamp),Eigen::Vector3d(p.x,p.y,p.z)+R*recovery_mount,R});
+}
+bool recovery_reseed(double stamp) {
+    gap_recovery::Seed seed;
+    if(!recovery_aid.seed(stamp,seed)) {
+        RCLCPP_WARN(logger,"RECOVERY waiting_for_vendor stamp=%.9f",stamp);return false;
+    }
+    // Select the latest real IMU at/before the first point. Never fabricate gap samples.
+    while(!imu_deque.empty() && get_time_sec(imu_deque.front()->header.stamp)<=stamp) {
+        imu_last=imu_next;imu_next=*imu_deque.front();imu_deque.pop_front();
+    }
+    const auto fresh=imu_next;
+    if(imu_deque.empty()) return false;
+    if(stamp-get_time_sec(fresh.header.stamp)>recovery_aid.max_gap) return false;
+    auto state=kf_output.x_;
+    state.pos=seed.p;state.rot=seed.q;state.vel=seed.vel;
+    state.omg=Eigen::Vector3d(fresh.angular_velocity.x,fresh.angular_velocity.y,fresh.angular_velocity.z)-state.bg;
+    state.acc=Eigen::Vector3d(fresh.linear_acceleration.x,fresh.linear_acceleration.y,fresh.linear_acceleration.z)*G_m_s2/acc_norm-state.ba;
+    kf_output.change_x(state);
+    auto P=kf_output.get_P();
+    // Clear stale cross-correlations for the reseeded dynamic components. Preserve
+    // extrinsics, gravity and IMU bias estimates. These are conservative trial priors.
+    std::vector<int> ids={0,1,2,3,4,5,12,13,14,15,16,17,18,19,20};
+    for(int i:ids) {P.row(i).setZero();P.col(i).setZero();}
+    for(int i=0;i<3;++i) {P(i,i)=.25;P(3+i,3+i)=.04;P(12+i,12+i)=.25;P(15+i,15+i)=.01;P(18+i,18+i)=1.;}
+    kf_output.change_P(P);
+    imu_last=fresh;imu_next=*imu_deque.front();imu_deque.pop_front();
+    angvel_avr=Eigen::Vector3d(fresh.angular_velocity.x,fresh.angular_velocity.y,fresh.angular_velocity.z);
+    acc_avr=Eigen::Vector3d(fresh.linear_acceleration.x,fresh.linear_acceleration.y,fresh.linear_acceleration.z);
+    time_predict_last_const=time_update_last=time_current=t_last=stamp;
+    is_first_frame=false;
+    recovery_pending=false;recovery_probation=true;recovery_good=0;++recovery_attempts;
+    RCLCPP_WARN(logger,"RECOVERY reseeded attempt=%d stamp=%.9f anchor=%.9f xyz=%.5f,%.5f,%.5f",recovery_attempts,stamp,recovery_aid.anchor_lio.t,seed.p.x(),seed.p.y(),seed.p.z());
+    return true;
+}
+bool recovery_check_scan() {
+    if(!recovery_probation) return true;
+    int tested=0,matched=0;double residual2=0.;
+    for(size_t i=0;i<feats_down_body->size();i+=std::max<size_t>(1,feats_down_body->size()/200)) {
+        PointType point;pointBodyToWorld(&feats_down_body->points[i],&point);
+        PointVector near;std::vector<float> distance;ikdtree.Nearest_Search(point,NUM_MATCH_POINTS,near,distance,2.236);
+        ++tested;Eigen::Matrix<float,4,1> plane;
+        if(near.size()<NUM_MATCH_POINTS || !esti_plane(plane,near,plane_thr)) continue;
+        double residual=plane(0)*point.x+plane(1)*point.y+plane(2)*point.z+plane(3);
+        if(std::abs(residual)>.15) continue;
+        ++matched;residual2+=residual*residual;
+    }
+    bool good=matched>=25 && matched>=.25*tested && kf_output.x_.pos.allFinite() && kf_output.x_.rot.coeffs().allFinite();
+    recovery_good=good ? recovery_good+1 : 0;
+    RCLCPP_INFO(logger,"RECOVERY probation matched=%d tested=%d rms=%.6f streak=%d",matched,tested,matched?std::sqrt(residual2/matched):-1.,recovery_good);
+    if(recovery_good>=3) {recovery_probation=false;RCLCPP_WARN(logger,"RECOVERY resumed stamp=%.9f",lidar_end_time);return true;}
+    return false;
+}
+'''
+s=s.replace(needle,needle+'\n'+addition)
+# Callback detection uses acquisition stamps, never wall-clock playback gaps.
+s=s.replace('    imu_deque.emplace_back(msg);',r'''    if(recovery_enabled && recovery_last_imu>0. && timestamp-recovery_last_imu>recovery_aid.max_gap) {
+        recovery_aid.gaps.push_back({recovery_last_imu,timestamp});
+        RCLCPP_WARN(logger,"RECOVERY gap begin=%.9f end=%.9f duration=%.6f",recovery_last_imu,timestamp,timestamp-recovery_last_imu);
+    }
+    recovery_last_imu=timestamp;
+    imu_deque.emplace_back(msg);''')
+s=s.replace('    cout << "lidar_type: " << lidar_type << endl;',r'''    recovery_enabled=nh->declare_parameter<bool>("recovery.enabled",false);
+    recovery_aid.max_gap=nh->declare_parameter<double>("recovery.max_imu_gap_s",.15);
+    recovery_aid.tolerance=nh->declare_parameter<double>("recovery.max_vendor_pose_distance_s",.05);
+    if(recovery_enabled && (use_imu_as_input || publish_odometry_without_downsample)) throw std::runtime_error("Recovery trial requires output model and scan-rate odometry");
+    auto recovery_sub=nh->create_subscription<nav_msgs::msg::Odometry>("/utlidar/robot_odom",rclcpp::QoS(10000).reliable(),recovery_vendor);
+    cout << "lidar_type: " << lidar_type << endl;''')
+s=s.replace('            double t0, t1, t2, t3, t4, t5, match_start, solve_start;',r'''            if(recovery_enabled && init_map) {
+                bool overlap=false;
+                while(!recovery_aid.gaps.empty() && lidar_end_time>recovery_aid.gaps.front().begin) {
+                    const auto gap=recovery_aid.gaps.front();recovery_pending=true;
+                    if(Measures.lidar_beg_time<gap.end) {overlap=true;break;}
+                    recovery_aid.gaps.pop_front();
+                }
+                if(overlap) {RCLCPP_WARN(logger,"RECOVERY discard_overlap stamp=%.9f",Measures.lidar_beg_time);continue;}
+            }
+            double t0, t1, t2, t3, t4, t5, match_start, solve_start;''')
+s=s.replace('            /*** ICP and Kalman filter update ***/',r'''            if(recovery_enabled && recovery_pending) {
+                if(feats_down_size<1 || !recovery_reseed(Measures.lidar_beg_time+feats_down_body->points.front().curvature/1000.)) continue;
+            }
+            /*** ICP and Kalman filter update ***/''')
+s=s.replace('            /******* Publish odometry downsample *******/',r'''            // Quarantine reseeded scans until repeated old-map agreement. No public
+            // pose, clouds or new map points are emitted during this probation.
+            if(recovery_enabled && !recovery_check_scan()) continue;
+            /******* Publish odometry downsample *******/''')
+s=s.replace('    pubOdomAftMapped->publish(odomAftMapped);',r'''    if(recovery_enabled && !recovery_pending && !recovery_probation) {
+        recovery_aid.anchor(time_current,kf_output.x_.pos,kf_output.x_.rot);
+    }
+    pubOdomAftMapped->publish(odomAftMapped);''')
+p.write_text(s);(r/'trial.patch').write_text(''.join(difflib.unified_diff(original.splitlines(True),s.splitlines(True),fromfile='original/src/laserMapping.cpp',tofile='trial/src/laserMapping.cpp')))
+
+header=r/"src/point_lio/src/gap_recovery.hpp"
+with (r/"trial.patch").open("a") as out:
+    out.write("".join(difflib.unified_diff([],header.read_text().splitlines(True),fromfile="/dev/null",tofile="trial/src/gap_recovery.hpp")))

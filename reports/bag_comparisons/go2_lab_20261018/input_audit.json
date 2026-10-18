@@ -1,0 +1,59 @@
+{
+  "source_bag": "/home/jain/go2_bags/go2_20261018_173219/go2_20261018_173219_0.db3",
+  "duration_s": 217.353460516,
+  "messages": 410412,
+  "metadata_counts_match": true,
+  "storage": "sqlite3",
+  "sqlite_integrity_check": [
+    "ok"
+  ],
+  "counts": {
+    "/lowstate": 106607,
+    "/lowcmd": 104606,
+    "/utlidar/robot_odom": 31905,
+    "/utlidar/imu": 52882,
+    "/utlidar/robot_pose": 3988,
+    "/sportmodestate": 63191,
+    "/utlidar/height_map_array": 3292,
+    "/utlidar/range_info": 3292,
+    "/audiosender": 10665,
+    "/lf/lowstate": 4266,
+    "/utlidar/cloud": 3290,
+    "/lf/sportmodestate": 4264,
+    "/utlidar/cloud_base": 3291,
+    "/api/obstacles_avoid/request": 2696,
+    "/api/uwbswitch/request": 569,
+    "/api/obstacles_avoid/response": 2694,
+    "/api/uwbswitch/response": 568,
+    "/utlidar/cloud_deskewed": 3291,
+    "/utlidar/voxel_map_compressed": 1643,
+    "/utlidar/lidar_state": 1069,
+    "/rtc/state": 215,
+    "/audiohub/player/state": 851,
+    "/gnss": 214,
+    "/api/vui/request": 425,
+    "/api/vui/response": 425,
+    "/multiplestate": 213
+  },
+  "replay_topics": {
+    "/tf_static": 1,
+    "/utlidar/robot_odom": 31905,
+    "/tf": 9056,
+    "/doggy/robot_clock": 9056,
+    "/doggy/imu/body_calibrated": 62301,
+    "/utlidar/cloud": 3290
+  },
+  "raw_frames": [
+    "utlidar_lidar"
+  ],
+  "calibrated_imu_duplicates_dropped": 890,
+  "body_converter_errors": 0,
+  "geometry_pairs": 33,
+  "geometry_matches": 23481,
+  "geometry_max_residual_m": 5.94967805973764e-06,
+  "initial_2s_vendor_position_excursion_m": 0.024047212049620573,
+  "initial_2s_calibrated_acc_norm_mean": 9.807122945992223,
+  "initial_2s_calibrated_gyro_norm_max": 0.8190540848504043,
+  "robot_commands_replayed": false,
+  "metadata_compatibility": "Original SQLite bag left unchanged; separate diagnostic SQLite replay contains only raw cloud, calibrated body IMU, vendor odometry, derived clock and canonical sensor TF."
+}

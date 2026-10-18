@@ -1,0 +1,13 @@
+{
+  "input": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/gain_inputs/rectangles",
+  "gyro_measurement_variance": 0.0001,
+  "hold_residual_gyro_bias_zero": true,
+  "binary": "/home/jain/Doggy/reports/point_lio_diagnosis_20261018/clean_candidate/install/point_lio/lib/point_lio/pointlio_mapping",
+  "no_robot_commands": true,
+  "no_per_bag_tuning": true,
+  "gyro_bias_initial_variance": 0.0,
+  "gyro_bias_process_cov": 0.0,
+  "unique_initialization_samples": true,
+  "raw_vendor_orientation_used_by_estimator": false,
+  "vendor_odometry_aid": false
+}

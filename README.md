@@ -1,7 +1,7 @@
 # Go2 Pro X mapping workspace
 
 Validated on Ubuntu 22.04 / ROS 2 Humble with a Unitree Go2 Pro X over Ethernet.
-This repository preserves the standalone Point-LIO integration, calibrated body-IMU adapter, developer-URDF TF setup, diagnostic tools and mapping results from 16 October 2026. No Nav2 movement bridge or autonomous mission controller is implemented yet.
+This repository preserves the standalone Point-LIO integration, calibrated body-IMU adapter, developer-URDF TF setup, diagnostic tools and mapping results. The heading calibration/profile was updated on 18 October 2026. No Nav2 movement bridge or autonomous mission controller is implemented yet.
 
 The selected inputs are raw `/utlidar/cloud` and `/doggy/imu/body_calibrated`, derived from `/sportmodestate`. The internal LiDAR accelerometer remains unused. The robot uses DDS domain 0 through `enp7s0`; scripts and profiles are specific to the original laptop.
 
@@ -15,7 +15,15 @@ with sensor-time clocking independent of vendor odometry. Terrain thresholds are
 provisional; no Nav2 movement controller is started. The older mapping launch
 described below retains the historical vendor-odom/map-correction arrangement.
 
-## Latest verified result
+## Heading calibration update — 18 October 2026
+
+The current adapter applies measured body gyro Z gain **0.9785884535708254** after the existing fixed bias subtraction. Independent quiet-wall checks on a separate CW/CCW recording reduced angular-rate integration error from 7–8 degrees per turn to less than 0.5 degrees on three accepted turns. The vendor fused quaternion is retained for inspection but marked unavailable; Point-LIO uses calibrated acceleration and angular velocity.
+
+The shared Point-LIO profile now uses gyro measurement variance `0.0001`, zero additional gyro-bias prior/process variance and `init_map_size: 4000`. A minimal local upstream patch clears initialization batches correctly, sizes indexed point caches and exposes the bias-prior parameter. See the [heading report](reports/point_lio_diagnosis_20261018/FINAL_REPORT.md) and [replay comparison](reports/point_lio_diagnosis_20261018/final_validation/route_comparison.png).
+
+With one fixed profile, the measured 5/10 m plus rectangle recording's estimated return offset improved from **4.26 m to 2.0 cm**. The soft-turn and small-wander recordings still have approximately **0.74 m and 0.62 m** offsets, respectively. These are offline replay results; approximate physical returns, cloud-registration reference uncertainty and residual position drift limit accuracy claims. No loop closure or vendor position scaling is applied. Physical acquisition-time offset remains uncalibrated at zero.
+
+## Earlier short-distance live result — 16 October 2026
 
 | Operator-reported outbound distance | Point-LIO displacement | Vendor displacement |
 |---|---:|---:|
@@ -26,7 +34,7 @@ After both out-and-back trips, the estimated horizontal offset from the original
 
 Read the [latest test report](reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/REPORT.md), [comparison plot](reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/analysis/distance_comparison.png), and [longer-drive drift review](reports/point_lio_steps/step_07_live_test/drift_review/REPORT.md).
 
-The successful trials used **`init_map_size: 4000`**, supplied by the retained trial launch; the base YAML still contains the earlier value of 10. The original gyro measurement variance of 0.1 was retained. Acquisition-time offset remains provisionally zero, and noise values are not a full measured noise calibration.
+Those historical trials used **`init_map_size: 4000`**, supplied by their retained trial launch, and gyro measurement variance 0.1. The current shared YAML uses the heading-calibrated profile described above, so a new replay will differ from the historical outputs. Noise values are not a full measured noise calibration.
 
 ## Repository contents and restoration
 
