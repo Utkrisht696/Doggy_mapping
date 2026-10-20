@@ -1,4 +1,4 @@
-"""Complete Point-LIO-only odometry, terrain mapping and 2D visualization."""
+"""Point-LIO XY/orientation plus causal vendor-height fusion and 2D mapping."""
 from datetime import datetime
 from pathlib import Path
 import sys
@@ -32,15 +32,19 @@ def generate_launch_description():
     mapper = Node(package='point_lio',executable='pointlio_mapping',name='doggy_point_lio',
         parameters=[str(root/'config/point_lio/go2_body_imu.yaml'),{
             'use_sim_time':True,'init_map_size':4000,'odom_only':False,
-            'odom_header_frame_id':'odom','odom_child_frame_id':'imu',
+            'odom_header_frame_id':'lio_local','odom_child_frame_id':'imu',
+            'publish.path_en':False,
             'odometry.publish_odometry_without_downsample':False}],
         remappings=clock+[
             ('/tf','/point_lio/raw_tf'),('/tf_static','/point_lio/raw_tf_static'),
-            ('/aft_mapped_to_init','/point_lio/odometry'),
-            ('/cloud_registered','/point_lio/cloud_registered'),
+            ('/aft_mapped_to_init','/point_lio/raw/odometry'),
+            ('/cloud_registered','/point_lio/raw/cloud_registered'),
             ('/cloud_registered_body','/point_lio/cloud_registered_body'),
-            ('/cloud_effected','/point_lio/cloud_effected'),
-            ('/Laser_map','/point_lio/initial_map'),('/path','/point_lio/path')],output='screen')
+            ('/cloud_effected','/point_lio/raw/cloud_effected'),
+            ('/Laser_map','/point_lio/raw/initial_map'),('/path','/point_lio/raw/path')],output='screen')
+    fusion = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/publish_height_fusion.py'),
+        *ros_time,'--params-file',str(root/'config/point_lio/height_fusion.yaml'),
+        '-p','output_frame:=odom'],output='screen')
     odom = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/publish_lio_odometry.py'),*ros_time],output='screen')
     terrain = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/publish_terrain_map.py'),
         *ros_time,'--params-file',str(root/'config/terrain_mapping.yaml'),
@@ -51,8 +55,8 @@ def generate_launch_description():
     actions = [DeclareLaunchArgument('rviz',default_value='true'),
         DeclareLaunchArgument('rviz_config',default_value=str(root/'config/live_walls.rviz')),
         DeclareLaunchArgument('output_map',default_value=str(root/'maps'/datetime.now().strftime('terrain_%Y%m%d_%H%M%S')/'map')),
-        imu,state,model,mapper,odom,terrain,rviz]
-    for process in (imu,state,model,mapper,odom,terrain,rviz):
+        imu,state,model,mapper,fusion,odom,terrain,rviz]
+    for process in (imu,state,model,mapper,fusion,odom,terrain,rviz):
         actions.append(RegisterEventHandler(OnProcessExit(target_action=process,
             on_exit=[EmitEvent(event=Shutdown(reason='Live 2D mapping component stopped'))])))
     return LaunchDescription(actions)

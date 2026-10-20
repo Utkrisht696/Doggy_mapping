@@ -1,6 +1,7 @@
 # Live terrain-aware 2D mapping
 
-The new pipeline uses Point-LIO as the only source of `/odom` and local-body TF.
+The current pipeline uses Point-LIO X/Y and orientation with permanently enabled
+causal vendor-height fusion for `/odom`, registered clouds and local-body TF.
 It builds 5 cm XY occupancy and terrain grids from registered Point-LIO scans,
 and opens RViz in a top-down view with no 3D cloud display enabled. The default
 view is the user-selected higher-return wall layer; terrain assessment is an
@@ -16,13 +17,16 @@ bash scripts/replay_2d.sh
 This replays the retained 3 m/5 m out-and-back session at its original rate in
 localhost-only ROS domain 74. The map grows during playback and remains visible
 after playback ends. Close RViz or press Ctrl+C in the launcher to end the
-session and save its maps. `rate:=2.0` selects twice the playback speed.
+session and save its maps. Use the default 1× rate for accuracy checks.
 
 This is replay of **recorded Point-LIO output and measured joint states**, not a rerun of the estimator.
 The old recording called its local estimator frame `map`; the replay consistently
-calls those same coordinates `odom`. Vendor odometry, vendor world-frame clouds
-and the historical `map -> odom` TF are not replayed. The new body adapter builds
-the local TF from the recorded IMU poses and the unchanged URDF IMU mount.
+routes those same raw coordinates through `lio_local` and the height filter to
+`odom`. Recorded vendor odometry supplies only the height filter. Vendor TF,
+world-frame clouds and the historical `map -> odom` TF are excluded. The body
+adapter builds local TF from corrected IMU poses and the unchanged URDF mount.
+New fused recordings must include raw `/point_lio/raw/odometry` and
+`/point_lio/raw/cloud_registered`; fused data is never silently corrected twice.
 Recorded joint states retain their original headers so the self-filter can
 interpolate measured leg positions at each scan timestamp.
 
@@ -53,8 +57,24 @@ vendor odometry or Point-LIO outputs.
 axes. The adapter accounts for the IMU-to-body pose and velocity lever arms.
 TF is `odom -> base_footprint -> base_link -> developer sensor links`. The
 footprint's Z=0 is an odometry reference plane, not a measured terrain surface.
-No `map -> odom` transform is introduced. The existing upstream mapping mode has
-unknown/zero covariance; the adapter does not invent uncertainty estimates.
+No `map -> odom` transform is introduced. The body adapter leaves covariance
+unknown rather than presenting a full fused-state uncertainty estimate.
+
+Height fusion is an essential process in both live mapping launches. Raw
+diagnostic pose/cloud topics use `/point_lio/raw/*` in `lio_local`; canonical
+`/point_lio/odometry` and `/point_lio/cloud_registered` contain matching corrected
+Z in `odom`. X/Y, quaternion and acquisition stamps stay unchanged. Only past
+vendor measurements no older than 50 ms are used. Missing or rejected height
+measurements cause propagation using raw LIO increments with increasing
+uncertainty; `/point_lio/height_status` exposes this mode. The filter's parameters
+are in `config/point_lio/height_fusion.yaml`. Its path visualization is bounded
+and published at most twice per second, independently of odometry/cloud rate.
+
+The scalar height settings are provisional. Upstream twist remains unchanged;
+full fused velocity/covariance and vendor world elevation over slopes/drains are
+unvalidated. The correction does not feed back into Point-LIO's internal map or
+fix horizontal/heading drift. Recorded-data gaps and replay delivery sensitivity
+remain relevant. See the [integration report](reports/height_fusion_20261020/REPORT.md).
 
 Older visualization/SLAM launch files remain available as historical tools and
 still use vendor odometry. Do not run them alongside the new pipeline.
@@ -63,6 +83,8 @@ still use vendor odometry. Do not run them alongside the new pipeline.
 
 | Topic | Contents |
 |---|---|
+| `/point_lio/height_status` | Height updates, source age, fallback/rejection counters, bounded path and cloud pairing |
+| `/point_lio/raw/odometry`, `/point_lio/raw/cloud_registered` | Unmodified estimator outputs in `lio_local`, for diagnostics and reproducible recordings |
 | `/map` | Occupancy: observed ground free, observed obstacles occupied, unsupported ground unknown |
 | `/terrain/costmap` | Separate slope/roughness/height-discontinuity costs; unknown where ground lacks support |
 | `/terrain/traversability` | Combined display: obstacles and terrain hazards blocked; ordinary ground free; moderate terrain costs shaded |

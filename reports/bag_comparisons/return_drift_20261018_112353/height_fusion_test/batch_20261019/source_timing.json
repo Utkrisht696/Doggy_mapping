@@ -1,0 +1,1803 @@
+{
+  "bags": {
+    "small_wander": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/wander_comeback_20261018/small_wander_comeback",
+      "streams": {
+        "raw": {
+          "count": 1101,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.88311250000001,
+          "max_interval_ms": 69.839716,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.204102713,
+          "receipt_minus_source_median_s": 27.66387255,
+          "receipt_minus_source_p01_p99_s": [
+            27.661770056,
+            27.667721349
+          ],
+          "max_absolute_offset_change_s": 0.139763314,
+          "delivery_offset_steps": []
+        },
+        "imu": {
+          "count": 20954,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.9730829999999995,
+          "max_interval_ms": 19.938043999999998,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.193585732,
+          "receipt_minus_source_median_s": 27.599058903,
+          "receipt_minus_source_p01_p99_s": [
+            27.5977984602,
+            27.60200621066
+          ],
+          "max_absolute_offset_change_s": 0.191581982,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.140227463,
+              "change_s": 0.191581982,
+              "source_interval_s": 0.00200375,
+              "receipt_interval_s": 0.193585732
+            }
+          ]
+        },
+        "vendor": {
+          "count": 10700,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.659269,
+          "max_interval_ms": 22.978306,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.193376098,
+          "receipt_minus_source_median_s": 27.597715616499997,
+          "receipt_minus_source_p01_p99_s": [
+            27.59713271253,
+            27.599929037200003
+          ],
+          "max_absolute_offset_change_s": 0.186574731,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.141730785,
+              "change_s": 0.186574731,
+              "source_interval_s": 0.006801367,
+              "receipt_interval_s": 0.193376098
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/small_wander_comeback",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "robot_20261018_090420_0.mcap",
+            "bytes": 1074693133,
+            "mtime_ns": 1792314328211070449,
+            "messages": 135894,
+            "chunks": 1990,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_090420_1.mcap",
+            "bytes": 87442911,
+            "mtime_ns": 1792314333467099483,
+            "messages": 10733,
+            "chunks": 160,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 2150,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/small_wander_comeback/robot_20261018_090420_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/small_wander_comeback/robot_20261018_090420_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    },
+    "soft_wander": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/wander_comeback_20261018/wander_soft_turn_comeback",
+      "streams": {
+        "raw": {
+          "count": 2188,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.90182899999999,
+          "max_interval_ms": 75.907707,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.236917899,
+          "receipt_minus_source_median_s": 27.664652093999997,
+          "receipt_minus_source_p01_p99_s": [
+            27.661519029289998,
+            27.66977745448
+          ],
+          "max_absolute_offset_change_s": 0.17194526,
+          "delivery_offset_steps": [
+            {
+              "start_s": 63.748078584,
+              "change_s": 0.17194526,
+              "source_interval_s": 0.064972639,
+              "receipt_interval_s": 0.236917899
+            },
+            {
+              "start_s": 127.874553442,
+              "change_s": 0.156358876,
+              "source_interval_s": 0.065611839,
+              "receipt_interval_s": 0.221970715
+            }
+          ]
+        },
+        "imu": {
+          "count": 41521,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.9719175,
+          "max_interval_ms": 22.379794,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.211191152,
+          "receipt_minus_source_median_s": 27.599743572,
+          "receipt_minus_source_p01_p99_s": [
+            27.5980127154,
+            27.6043294602
+          ],
+          "max_absolute_offset_change_s": 0.209229402,
+          "delivery_offset_steps": [
+            {
+              "start_s": 63.857262845,
+              "change_s": 0.191070955,
+              "source_interval_s": 0.001989167,
+              "receipt_interval_s": 0.193060122
+            },
+            {
+              "start_s": 127.951228618,
+              "change_s": 0.209229402,
+              "source_interval_s": 0.00196175,
+              "receipt_interval_s": 0.211191152
+            }
+          ]
+        },
+        "vendor": {
+          "count": 21248,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.659031000000001,
+          "max_interval_ms": 25.687694,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.21082879,
+          "receipt_minus_source_median_s": 27.598127925500002,
+          "receipt_minus_source_p01_p99_s": [
+            27.597377704939998,
+            27.60222892882
+          ],
+          "max_absolute_offset_change_s": 0.204009065,
+          "delivery_offset_steps": [
+            {
+              "start_s": 63.861498356,
+              "change_s": 0.182939199,
+              "source_interval_s": 0.006682634,
+              "receipt_interval_s": 0.189621833
+            },
+            {
+              "start_s": 127.951657295,
+              "change_s": 0.204009065,
+              "source_interval_s": 0.006819725,
+              "receipt_interval_s": 0.21082879
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/wander_soft_turn_comeback",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "robot_20261018_090609_0.mcap",
+            "bytes": 1074485211,
+            "mtime_ns": 1792314434463657951,
+            "messages": 130994,
+            "chunks": 1915,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_090609_1.mcap",
+            "bytes": 1075312123,
+            "mtime_ns": 1792314498572012942,
+            "messages": 131925,
+            "chunks": 1929,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_090609_2.mcap",
+            "bytes": 231178964,
+            "mtime_ns": 1792314512545090362,
+            "messages": 28570,
+            "chunks": 419,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 4263,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/wander_soft_turn_comeback/robot_20261018_090609_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/wander_soft_turn_comeback/robot_20261018_090609_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/wander_soft_turn_comeback/robot_20261018_090609_2.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    },
+    "classic": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/classic_20261018",
+      "streams": {
+        "raw": {
+          "count": 1698,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.888239,
+          "max_interval_ms": 72.198391,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.072232784,
+          "receipt_minus_source_median_s": 25.7304958345,
+          "receipt_minus_source_p01_p99_s": [
+            25.72748647412,
+            25.733130127699997
+          ],
+          "max_absolute_offset_change_s": 0.009784331,
+          "delivery_offset_steps": []
+        },
+        "imu": {
+          "count": 31978,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.9555830000000003,
+          "max_interval_ms": 32.17992,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.031223378,
+          "receipt_minus_source_median_s": 25.6656835915,
+          "receipt_minus_source_p01_p99_s": [
+            25.66445374442,
+            25.66760271702
+          ],
+          "max_absolute_offset_change_s": 0.02074977,
+          "delivery_offset_steps": []
+        },
+        "vendor": {
+          "count": 16410,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.6580770000000005,
+          "max_interval_ms": 34.487486,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.034180713,
+          "receipt_minus_source_median_s": 25.6644466965,
+          "receipt_minus_source_p01_p99_s": [
+            25.66382787809,
+            25.665340051669997
+          ],
+          "max_absolute_offset_change_s": 0.005760854,
+          "delivery_offset_steps": []
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/classic/robot_20261018_055834_0.mcap",
+        "metadata_counts_match": true,
+        "chunks": 1320,
+        "chunks_with_crc": 0,
+        "summary_crc_matches": true
+      }
+    },
+    "default": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/default_20261018",
+      "streams": {
+        "raw": {
+          "count": 1363,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.863563,
+          "max_interval_ms": 71.608543,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.068464914,
+          "receipt_minus_source_median_s": 25.736098969,
+          "receipt_minus_source_p01_p99_s": [
+            25.72890248812,
+            25.74872546202
+          ],
+          "max_absolute_offset_change_s": 0.007460642,
+          "delivery_offset_steps": []
+        },
+        "imu": {
+          "count": 25681,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.957333,
+          "max_interval_ms": 24.041503,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.02407222,
+          "receipt_minus_source_median_s": 25.671416627,
+          "receipt_minus_source_p01_p99_s": [
+            25.6651175768,
+            25.6837348946
+          ],
+          "max_absolute_offset_change_s": 0.018578213,
+          "delivery_offset_steps": []
+        },
+        "vendor": {
+          "count": 13169,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.6597465,
+          "max_interval_ms": 25.63119,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.025551227,
+          "receipt_minus_source_median_s": 25.670146543,
+          "receipt_minus_source_p01_p99_s": [
+            25.66444871188,
+            25.68204964224
+          ],
+          "max_absolute_offset_change_s": 0.00442513,
+          "delivery_offset_steps": []
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/default/robot_20261018_060104_0.mcap",
+        "metadata_counts_match": true,
+        "chunks": 1052,
+        "chunks_with_crc": 0,
+        "summary_crc_matches": true
+      }
+    },
+    "normal": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/nromal-np_20261018",
+      "streams": {
+        "raw": {
+          "count": 1289,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.90314,
+          "max_interval_ms": 75.33597999999999,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.071375123,
+          "receipt_minus_source_median_s": 25.762985511,
+          "receipt_minus_source_p01_p99_s": [
+            25.75321059024,
+            25.77180055272
+          ],
+          "max_absolute_offset_change_s": 0.011600679,
+          "delivery_offset_steps": []
+        },
+        "imu": {
+          "count": 24564,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.961709,
+          "max_interval_ms": 28.146711,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.025922446,
+          "receipt_minus_source_median_s": 25.6980799265,
+          "receipt_minus_source_p01_p99_s": [
+            25.68859634264,
+            25.70670775088
+          ],
+          "max_absolute_offset_change_s": 0.015614051,
+          "delivery_offset_steps": []
+        },
+        "vendor": {
+          "count": 12516,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.660462,
+          "max_interval_ms": 21.558999999999997,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.021853576,
+          "receipt_minus_source_median_s": 25.696848279999998,
+          "receipt_minus_source_p01_p99_s": [
+            25.6876894923,
+            25.7049461315
+          ],
+          "max_absolute_offset_change_s": 0.005908106,
+          "delivery_offset_steps": []
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/nromal-np/robot_20261018_060254_0.mcap",
+        "metadata_counts_match": true,
+        "chunks": 1000,
+        "chunks_with_crc": 0,
+        "summary_crc_matches": true
+      }
+    },
+    "lab": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/go2_lab_20261018",
+      "streams": {
+        "raw": {
+          "count": 3290,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.850092,
+          "max_interval_ms": 3952.9802799999998,
+          "source_gaps": [
+            {
+              "start_s": 28.055990934,
+              "duration_s": 0.259679079
+            },
+            {
+              "start_s": 44.319057703,
+              "duration_s": 3.95298028
+            }
+          ],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 3.95316294,
+          "receipt_minus_source_median_s": 26.948067948000002,
+          "receipt_minus_source_p01_p99_s": [
+            26.94471860402,
+            26.951689331809998
+          ],
+          "max_absolute_offset_change_s": 0.013222637,
+          "delivery_offset_steps": []
+        },
+        "imu": {
+          "count": 62301,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.953251,
+          "max_interval_ms": 3856.337179,
+          "source_gaps": [
+            {
+              "start_s": 28.158153129,
+              "duration_s": 0.199849978
+            },
+            {
+              "start_s": 44.403927553,
+              "duration_s": 3.856337179
+            }
+          ],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 3.856517023,
+          "receipt_minus_source_median_s": 26.883272994,
+          "receipt_minus_source_p01_p99_s": [
+            26.880461063,
+            26.886171521
+          ],
+          "max_absolute_offset_change_s": 0.021417523,
+          "delivery_offset_steps": []
+        },
+        "vendor": {
+          "count": 31905,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.659508,
+          "max_interval_ms": 3876.251459,
+          "source_gaps": [
+            {
+              "start_s": 28.156806707,
+              "duration_s": 0.206592322
+            },
+            {
+              "start_s": 44.405080557,
+              "duration_s": 3.876251459
+            }
+          ],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 3.920894975,
+          "receipt_minus_source_median_s": 26.881942863,
+          "receipt_minus_source_p01_p99_s": [
+            26.8798412782,
+            26.88399110324
+          ],
+          "max_absolute_offset_change_s": 0.044643516,
+          "delivery_offset_steps": []
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/go2_20261018_173219/go2_20261018_173219_0.db3",
+        "storage": "sqlite3",
+        "metadata_counts_match": true,
+        "sqlite_integrity_check": [
+          "ok"
+        ]
+      }
+    },
+    "real1": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/new_routes_20261018/doggy_real1",
+      "streams": {
+        "raw": {
+          "count": 4857,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.89312699999999,
+          "max_interval_ms": 73.486089,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.26374191,
+          "receipt_minus_source_median_s": 27.644363983,
+          "receipt_minus_source_p01_p99_s": [
+            27.64154825144,
+            27.64829494612
+          ],
+          "max_absolute_offset_change_s": 0.20009607,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.647656441,
+              "change_s": 0.161722454,
+              "source_interval_s": 0.064899921,
+              "receipt_interval_s": 0.226622375
+            },
+            {
+              "start_s": 197.111176014,
+              "change_s": 0.168285771,
+              "source_interval_s": 0.064856768,
+              "receipt_interval_s": 0.233142539
+            },
+            {
+              "start_s": 259.675892353,
+              "change_s": 0.20009607,
+              "source_interval_s": 0.06364584,
+              "receipt_interval_s": 0.26374191
+            }
+          ]
+        },
+        "imu": {
+          "count": 92090,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.974542,
+          "max_interval_ms": 28.331336,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.212721011,
+          "receipt_minus_source_median_s": 27.5796978865,
+          "receipt_minus_source_p01_p99_s": [
+            27.57838662152,
+            27.58301354569
+          ],
+          "max_absolute_offset_change_s": 0.208721094,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.727199867,
+              "change_s": 0.208721094,
+              "source_interval_s": 0.003999917,
+              "receipt_interval_s": 0.212721011
+            },
+            {
+              "start_s": 135.071264692,
+              "change_s": 0.197492751,
+              "source_interval_s": 0.002002001,
+              "receipt_interval_s": 0.199494752
+            },
+            {
+              "start_s": 197.217254645,
+              "change_s": 0.187649372,
+              "source_interval_s": 0.003979792,
+              "receipt_interval_s": 0.191629164
+            },
+            {
+              "start_s": 259.797226849,
+              "change_s": 0.20240019,
+              "source_interval_s": 0.004001376,
+              "receipt_interval_s": 0.206401566
+            }
+          ]
+        },
+        "vendor": {
+          "count": 47162,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.6607,
+          "max_interval_ms": 29.082535999999998,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.213765365,
+          "receipt_minus_source_median_s": 27.5783621265,
+          "receipt_minus_source_p01_p99_s": [
+            27.577737142990003,
+            27.58047999395
+          ],
+          "max_absolute_offset_change_s": 0.207174283,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.725030184,
+              "change_s": 0.207174283,
+              "source_interval_s": 0.006591082,
+              "receipt_interval_s": 0.213765365
+            },
+            {
+              "start_s": 135.07192874,
+              "change_s": 0.193028754,
+              "source_interval_s": 0.005866766,
+              "receipt_interval_s": 0.19889552
+            },
+            {
+              "start_s": 197.218607426,
+              "change_s": 0.185698517,
+              "source_interval_s": 0.006661654,
+              "receipt_interval_s": 0.192360171
+            },
+            {
+              "start_s": 259.799230576,
+              "change_s": 0.193633325,
+              "source_interval_s": 0.011028051,
+              "receipt_interval_s": 0.204661376
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/doggy_real1",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "doggy_real1_0.mcap",
+            "bytes": 1075292506,
+            "mtime_ns": 1792311059786339188,
+            "messages": 136607,
+            "chunks": 2004,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real1_1.mcap",
+            "bytes": 1074795337,
+            "mtime_ns": 1792311128129078067,
+            "messages": 140299,
+            "chunks": 2053,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real1_2.mcap",
+            "bytes": 1074868489,
+            "mtime_ns": 1792311190274313886,
+            "messages": 127707,
+            "chunks": 1876,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real1_3.mcap",
+            "bytes": 1075300199,
+            "mtime_ns": 1792311252860349402,
+            "messages": 128634,
+            "chunks": 1886,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real1_4.mcap",
+            "bytes": 886637535,
+            "mtime_ns": 1792311308018983424,
+            "messages": 113094,
+            "chunks": 1661,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 9480,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/doggy_real1/doggy_real1_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real1/doggy_real1_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real1/doggy_real1_2.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real1/doggy_real1_3.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real1/doggy_real1_4.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    },
+    "real2": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/new_routes_20261018/doggy_real2",
+      "streams": {
+        "raw": {
+          "count": 4614,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.88061,
+          "max_interval_ms": 6542.712688,
+          "source_gaps": [
+            {
+              "start_s": 230.28800869,
+              "duration_s": 1.427118302
+            },
+            {
+              "start_s": 234.761459828,
+              "duration_s": 6.291886568
+            },
+            {
+              "start_s": 244.100030661,
+              "duration_s": 6.161571503
+            },
+            {
+              "start_s": 253.309646368,
+              "duration_s": 3.242327691
+            },
+            {
+              "start_s": 259.602473021,
+              "duration_s": 0.45498848
+            },
+            {
+              "start_s": 263.040045023,
+              "duration_s": 5.574266196
+            },
+            {
+              "start_s": 271.661045075,
+              "duration_s": 6.352638245
+            },
+            {
+              "start_s": 281.057516337,
+              "duration_s": 4.47087574
+            },
+            {
+              "start_s": 288.51399231,
+              "duration_s": 4.665986061
+            },
+            {
+              "start_s": 296.227993727,
+              "duration_s": 3.43860507
+            },
+            {
+              "start_s": 302.711994172,
+              "duration_s": 4.147963285
+            },
+            {
+              "start_s": 309.907113314,
+              "duration_s": 5.837145329
+            },
+            {
+              "start_s": 319.310498715,
+              "duration_s": 5.768980026
+            },
+            {
+              "start_s": 328.069911004,
+              "duration_s": 6.542712688
+            },
+            {
+              "start_s": 337.659508706,
+              "duration_s": 4.668543577
+            },
+            {
+              "start_s": 345.376009942,
+              "duration_s": 3.50052452
+            },
+            {
+              "start_s": 351.922512293,
+              "duration_s": 1.555926562
+            },
+            {
+              "start_s": 356.525960684,
+              "duration_s": 0.712561846
+            }
+          ],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 14.294442857,
+          "receipt_minus_source_median_s": 27.6435209795,
+          "receipt_minus_source_p01_p99_s": [
+            27.64029994354,
+            33.16268297137999
+          ],
+          "max_absolute_offset_change_s": 8.457297528,
+          "delivery_offset_steps": [
+            {
+              "start_s": 65.676504374,
+              "change_s": 0.156152866,
+              "source_interval_s": 0.065461636,
+              "receipt_interval_s": 0.221614502
+            },
+            {
+              "start_s": 129.017076493,
+              "change_s": 0.152497884,
+              "source_interval_s": 0.064880132,
+              "receipt_interval_s": 0.217378016
+            },
+            {
+              "start_s": 192.040116072,
+              "change_s": 0.300313982,
+              "source_interval_s": 0.063858748,
+              "receipt_interval_s": 0.36417273
+            },
+            {
+              "start_s": 309.907113314,
+              "change_s": 8.457297528,
+              "source_interval_s": 5.837145329,
+              "receipt_interval_s": 14.294442857
+            },
+            {
+              "start_s": 319.310498715,
+              "change_s": -4.951682419,
+              "source_interval_s": 5.768980026,
+              "receipt_interval_s": 0.817297607
+            }
+          ]
+        },
+        "imu": {
+          "count": 86595,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.9742500000000005,
+          "max_interval_ms": 9115.305665,
+          "source_gaps": [
+            {
+              "start_s": 230.388110587,
+              "duration_s": 1.360044803
+            },
+            {
+              "start_s": 234.830524366,
+              "duration_s": 6.26964588
+            },
+            {
+              "start_s": 244.194141932,
+              "duration_s": 6.106033239
+            },
+            {
+              "start_s": 253.386160939,
+              "duration_s": 3.195996154
+            },
+            {
+              "start_s": 259.672187154,
+              "duration_s": 0.40199704
+            },
+            {
+              "start_s": 263.142069503,
+              "duration_s": 5.518172721
+            },
+            {
+              "start_s": 271.748138701,
+              "duration_s": 6.3120303
+            },
+            {
+              "start_s": 281.152135395,
+              "duration_s": 4.386099858
+            },
+            {
+              "start_s": 288.62818748,
+              "duration_s": 4.599963462
+            },
+            {
+              "start_s": 296.302317126,
+              "duration_s": 3.417828677
+            },
+            {
+              "start_s": 302.838184866,
+              "duration_s": 4.068006492
+            },
+            {
+              "start_s": 309.980673959,
+              "duration_s": 5.805496708
+            },
+            {
+              "start_s": 315.970196186,
+              "duration_s": 9.115305665
+            },
+            {
+              "start_s": 328.188174163,
+              "duration_s": 6.470038692
+            },
+            {
+              "start_s": 337.728179538,
+              "duration_s": 4.647992009
+            },
+            {
+              "start_s": 345.466153733,
+              "duration_s": 3.470047057
+            },
+            {
+              "start_s": 351.996224514,
+              "duration_s": 1.529965403
+            },
+            {
+              "start_s": 356.592179559,
+              "duration_s": 0.683947819
+            }
+          ],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 14.287838134,
+          "receipt_minus_source_median_s": 27.578649899,
+          "receipt_minus_source_p01_p99_s": [
+            27.576884159760002,
+            27.58214841362
+          ],
+          "max_absolute_offset_change_s": 8.482341426,
+          "delivery_offset_steps": [
+            {
+              "start_s": 65.774158505,
+              "change_s": 0.184589202,
+              "source_interval_s": 0.003982417,
+              "receipt_interval_s": 0.188571619
+            },
+            {
+              "start_s": 129.102142243,
+              "change_s": 0.198832446,
+              "source_interval_s": 0.001972834,
+              "receipt_interval_s": 0.20080528
+            },
+            {
+              "start_s": 192.152224161,
+              "change_s": 0.314487197,
+              "source_interval_s": 0.001995001,
+              "receipt_interval_s": 0.316482198
+            },
+            {
+              "start_s": 309.980673959,
+              "change_s": 8.482341426,
+              "source_interval_s": 5.805496708,
+              "receipt_interval_s": 14.287838134
+            },
+            {
+              "start_s": 315.970196186,
+              "change_s": -8.359544223,
+              "source_interval_s": 9.115305665,
+              "receipt_interval_s": 0.755761442
+            }
+          ]
+        },
+        "vendor": {
+          "count": 44329,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.6607,
+          "max_interval_ms": 8938.527584,
+          "source_gaps": [
+            {
+              "start_s": 230.389183045,
+              "duration_s": 1.363319397
+            },
+            {
+              "start_s": 234.832340479,
+              "duration_s": 6.269260168
+            },
+            {
+              "start_s": 244.194662571,
+              "duration_s": 6.10608244
+            },
+            {
+              "start_s": 253.387116671,
+              "duration_s": 3.196167231
+            },
+            {
+              "start_s": 259.669763804,
+              "duration_s": 0.407788277
+            },
+            {
+              "start_s": 263.14254284,
+              "duration_s": 5.519686698
+            },
+            {
+              "start_s": 271.745106459,
+              "duration_s": 6.316088915
+            },
+            {
+              "start_s": 281.154216052,
+              "duration_s": 4.389548063
+            },
+            {
+              "start_s": 288.626896859,
+              "duration_s": 4.599420547
+            },
+            {
+              "start_s": 296.299449206,
+              "duration_s": 3.426442861
+            },
+            {
+              "start_s": 302.835451842,
+              "duration_s": 4.072986603
+            },
+            {
+              "start_s": 309.981250763,
+              "duration_s": 5.809489251
+            },
+            {
+              "start_s": 316.147396088,
+              "duration_s": 8.938527584
+            },
+            {
+              "start_s": 328.186272145,
+              "duration_s": 6.472706556
+            },
+            {
+              "start_s": 337.728771687,
+              "duration_s": 4.652774572
+            },
+            {
+              "start_s": 345.468046427,
+              "duration_s": 3.469646216
+            },
+            {
+              "start_s": 351.997363806,
+              "duration_s": 1.532918215
+            },
+            {
+              "start_s": 356.593899727,
+              "duration_s": 0.682662249
+            }
+          ],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 14.287987318,
+          "receipt_minus_source_median_s": 27.577359221,
+          "receipt_minus_source_p01_p99_s": [
+            27.57616104716,
+            27.57992114892
+          ],
+          "max_absolute_offset_change_s": 8.478498067,
+          "delivery_offset_steps": [
+            {
+              "start_s": 65.775740386,
+              "change_s": 0.181557459,
+              "source_interval_s": 0.006751537,
+              "receipt_interval_s": 0.188308996
+            },
+            {
+              "start_s": 129.102686406,
+              "change_s": 0.194117724,
+              "source_interval_s": 0.006690979,
+              "receipt_interval_s": 0.200808703
+            },
+            {
+              "start_s": 192.149921656,
+              "change_s": 0.31249744,
+              "source_interval_s": 0.006558418,
+              "receipt_interval_s": 0.319055858
+            },
+            {
+              "start_s": 309.981250763,
+              "change_s": 8.478498067,
+              "source_interval_s": 5.809489251,
+              "receipt_interval_s": 14.287987318
+            },
+            {
+              "start_s": 316.147396088,
+              "change_s": -8.182568255,
+              "source_interval_s": 8.938527584,
+              "receipt_interval_s": 0.755959329
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/doggy_real2",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "doggy_real2_0.mcap",
+            "bytes": 1074686337,
+            "mtime_ns": 1792311453899695404,
+            "messages": 134850,
+            "chunks": 1983,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real2_1.mcap",
+            "bytes": 1074819744,
+            "mtime_ns": 1792311517228074943,
+            "messages": 130261,
+            "chunks": 1909,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real2_2.mcap",
+            "bytes": 1075569750,
+            "mtime_ns": 1792311580378333830,
+            "messages": 129602,
+            "chunks": 1900,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real2_3.mcap",
+            "bytes": 1119091772,
+            "mtime_ns": 1792311712169643058,
+            "messages": 148598,
+            "chunks": 2181,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "doggy_real2_4.mcap",
+            "bytes": 535676235,
+            "mtime_ns": 1792311762680430996,
+            "messages": 64983,
+            "chunks": 1049,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 9022,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/doggy_real2/doggy_real2_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real2/doggy_real2_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real2/doggy_real2_2.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real2/doggy_real2_3.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/doggy_real2/doggy_real2_4.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    },
+    "measured1": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/new_routes_20261018/measured_route_1",
+      "streams": {
+        "raw": {
+          "count": 5441,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.90731199999999,
+          "max_interval_ms": 78.82905,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 3.784525694,
+          "receipt_minus_source_median_s": 27.64305099,
+          "receipt_minus_source_p01_p99_s": [
+            27.6380355666,
+            27.956906500000017
+          ],
+          "max_absolute_offset_change_s": 3.719242633,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.665730476,
+              "change_s": 0.189223342,
+              "source_interval_s": 0.065078259,
+              "receipt_interval_s": 0.254301601
+            },
+            {
+              "start_s": 130.272236109,
+              "change_s": 0.160221066,
+              "source_interval_s": 0.06303358,
+              "receipt_interval_s": 0.223254646
+            },
+            {
+              "start_s": 192.130865097,
+              "change_s": 0.172346442,
+              "source_interval_s": 0.064418316,
+              "receipt_interval_s": 0.236764758
+            },
+            {
+              "start_s": 259.947276354,
+              "change_s": 0.327653336,
+              "source_interval_s": 0.065150261,
+              "receipt_interval_s": 0.392803597
+            },
+            {
+              "start_s": 329.341484546,
+              "change_s": 3.719242633,
+              "source_interval_s": 0.065283061,
+              "receipt_interval_s": 3.784525694
+            }
+          ]
+        },
+        "imu": {
+          "count": 103471,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.9742500000000005,
+          "max_interval_ms": 21.940043,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 3.731593827,
+          "receipt_minus_source_median_s": 27.578330805,
+          "receipt_minus_source_p01_p99_s": [
+            27.5737294582,
+            28.06608274870001
+          ],
+          "max_absolute_offset_change_s": 3.727616076,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.750419129,
+              "change_s": 0.233419805,
+              "source_interval_s": 0.001983626,
+              "receipt_interval_s": 0.235403431
+            },
+            {
+              "start_s": 130.350454311,
+              "change_s": 0.205811084,
+              "source_interval_s": 0.003917376,
+              "receipt_interval_s": 0.20972846
+            },
+            {
+              "start_s": 192.230365154,
+              "change_s": 0.196819314,
+              "source_interval_s": 0.004077792,
+              "receipt_interval_s": 0.200897106
+            },
+            {
+              "start_s": 260.0344028,
+              "change_s": 0.36968971,
+              "source_interval_s": 0.002030875,
+              "receipt_interval_s": 0.371720585
+            },
+            {
+              "start_s": 329.460522692,
+              "change_s": 3.727616076,
+              "source_interval_s": 0.003977751,
+              "receipt_interval_s": 3.731593827
+            }
+          ]
+        },
+        "vendor": {
+          "count": 52908,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.659985,
+          "max_interval_ms": 25.442362,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 3.731463422,
+          "receipt_minus_source_median_s": 27.5769918535,
+          "receipt_minus_source_p01_p99_s": [
+            27.57305351671,
+            27.9476549908
+          ],
+          "max_absolute_offset_change_s": 3.724728335,
+          "delivery_offset_steps": [
+            {
+              "start_s": 66.75107336,
+              "change_s": 0.228363686,
+              "source_interval_s": 0.006671906,
+              "receipt_interval_s": 0.235035592
+            },
+            {
+              "start_s": 130.34944129,
+              "change_s": 0.206042774,
+              "source_interval_s": 0.00541377,
+              "receipt_interval_s": 0.211456544
+            },
+            {
+              "start_s": 192.229924202,
+              "change_s": 0.197386808,
+              "source_interval_s": 0.005305767,
+              "receipt_interval_s": 0.202692575
+            },
+            {
+              "start_s": 260.031835317,
+              "change_s": 0.367697531,
+              "source_interval_s": 0.006599665,
+              "receipt_interval_s": 0.374297196
+            },
+            {
+              "start_s": 329.461543798,
+              "change_s": 3.724728335,
+              "source_interval_s": 0.006735087,
+              "receipt_interval_s": 3.731463422
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "robot_20261018_083147_0.mcap",
+            "bytes": 1074706937,
+            "mtime_ns": 1792312376252344857,
+            "messages": 136738,
+            "chunks": 2005,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083147_1.mcap",
+            "bytes": 1074714899,
+            "mtime_ns": 1792312439838885580,
+            "messages": 130450,
+            "chunks": 1912,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083147_2.mcap",
+            "bytes": 1075186323,
+            "mtime_ns": 1792312501713393033,
+            "messages": 127225,
+            "chunks": 1860,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083147_3.mcap",
+            "bytes": 1075873625,
+            "mtime_ns": 1792312569668931616,
+            "messages": 139487,
+            "chunks": 2043,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083147_4.mcap",
+            "bytes": 1128523652,
+            "mtime_ns": 1792312642471433974,
+            "messages": 142755,
+            "chunks": 2092,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083147_5.mcap",
+            "bytes": 365553647,
+            "mtime_ns": 1792312663781520169,
+            "messages": 47836,
+            "chunks": 710,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 10622,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start/robot_20261018_083147_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start/robot_20261018_083147_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start/robot_20261018_083147_2.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start/robot_20261018_083147_3.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start/robot_20261018_083147_4.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x1m_1x3m_1x3m_wander_return_start/robot_20261018_083147_5.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    },
+    "measured2": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/new_routes_20261018/measured_route_2",
+      "streams": {
+        "raw": {
+          "count": 4253,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.8826355,
+          "max_interval_ms": 71.601152,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.261883909,
+          "receipt_minus_source_median_s": 27.653365771,
+          "receipt_minus_source_p01_p99_s": [
+            27.64893162204,
+            27.658529221560002
+          ],
+          "max_absolute_offset_change_s": 0.199708874,
+          "delivery_offset_steps": [
+            {
+              "start_s": 67.501085282,
+              "change_s": 0.158531126,
+              "source_interval_s": 0.064394474,
+              "receipt_interval_s": 0.2229256
+            },
+            {
+              "start_s": 136.555455923,
+              "change_s": 0.182368948,
+              "source_interval_s": 0.064635039,
+              "receipt_interval_s": 0.247003987
+            },
+            {
+              "start_s": 199.071030379,
+              "change_s": 0.190816114,
+              "source_interval_s": 0.06692791,
+              "receipt_interval_s": 0.257744024
+            },
+            {
+              "start_s": 265.472672463,
+              "change_s": 0.199708874,
+              "source_interval_s": 0.062175035,
+              "receipt_interval_s": 0.261883909
+            }
+          ]
+        },
+        "imu": {
+          "count": 80894,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.9733750000000003,
+          "max_interval_ms": 25.028211000000002,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.233879027,
+          "receipt_minus_source_median_s": 27.588443789000003,
+          "receipt_minus_source_p01_p99_s": [
+            27.584549243220003,
+            27.59259007408
+          ],
+          "max_absolute_offset_change_s": 0.229907694,
+          "delivery_offset_steps": [
+            {
+              "start_s": 67.582666378,
+              "change_s": 0.202735303,
+              "source_interval_s": 0.003990584,
+              "receipt_interval_s": 0.206725887
+            },
+            {
+              "start_s": 136.658646069,
+              "change_s": 0.203884797,
+              "source_interval_s": 0.004010417,
+              "receipt_interval_s": 0.207895214
+            },
+            {
+              "start_s": 199.176612642,
+              "change_s": 0.215318804,
+              "source_interval_s": 0.004071084,
+              "receipt_interval_s": 0.219389888
+            },
+            {
+              "start_s": 265.562670354,
+              "change_s": 0.229907694,
+              "source_interval_s": 0.003971333,
+              "receipt_interval_s": 0.233879027
+            }
+          ]
+        },
+        "vendor": {
+          "count": 41376,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.659746,
+          "max_interval_ms": 27.968168000000002,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.233462474,
+          "receipt_minus_source_median_s": 27.5871307965,
+          "receipt_minus_source_p01_p99_s": [
+            27.5836656775,
+            27.59043828575
+          ],
+          "max_absolute_offset_change_s": 0.226955315,
+          "delivery_offset_steps": [
+            {
+              "start_s": 67.58434558,
+              "change_s": 0.199842251,
+              "source_interval_s": 0.006621837,
+              "receipt_interval_s": 0.206464088
+            },
+            {
+              "start_s": 136.657253743,
+              "change_s": 0.204132554,
+              "source_interval_s": 0.006778478,
+              "receipt_interval_s": 0.210911032
+            },
+            {
+              "start_s": 199.174296618,
+              "change_s": 0.21593904,
+              "source_interval_s": 0.006733417,
+              "receipt_interval_s": 0.222672457
+            },
+            {
+              "start_s": 265.564530611,
+              "change_s": 0.226955315,
+              "source_interval_s": 0.006507159,
+              "receipt_interval_s": 0.233462474
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "robot_20261018_083805_0.mcap",
+            "bytes": 1074607508,
+            "mtime_ns": 1792312754130899816,
+            "messages": 138573,
+            "chunks": 2032,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083805_1.mcap",
+            "bytes": 1075386062,
+            "mtime_ns": 1792312823211203891,
+            "messages": 141991,
+            "chunks": 2078,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083805_2.mcap",
+            "bytes": 1074852404,
+            "mtime_ns": 1792312885739488041,
+            "messages": 128301,
+            "chunks": 1878,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083805_3.mcap",
+            "bytes": 1074984500,
+            "mtime_ns": 1792312952143797962,
+            "messages": 136408,
+            "chunks": 1993,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_083805_4.mcap",
+            "bytes": 161023953,
+            "mtime_ns": 1792312962346846260,
+            "messages": 20873,
+            "chunks": 308,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 8289,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start/robot_20261018_083805_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start/robot_20261018_083805_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start/robot_20261018_083805_2.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start/robot_20261018_083805_3.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/5m_10m_1x3m_1x3m_1x1m_return_start/robot_20261018_083805_4.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    },
+    "latest": {
+      "folder": "/home/jain/Doggy/reports/bag_comparisons/return_drift_20261018_112353",
+      "streams": {
+        "raw": {
+          "count": 5024,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 64.861536,
+          "max_interval_ms": 71.44784899999999,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.264730221,
+          "receipt_minus_source_median_s": 28.098548940500002,
+          "receipt_minus_source_p01_p99_s": [
+            28.09598153511,
+            28.1008692043
+          ],
+          "max_absolute_offset_change_s": 0.19686628,
+          "delivery_offset_steps": [
+            {
+              "start_s": 279.457570553,
+              "change_s": 0.19686628,
+              "source_interval_s": 0.067863941,
+              "receipt_interval_s": 0.264730221
+            }
+          ]
+        },
+        "imu": {
+          "count": 95186,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 3.968125,
+          "max_interval_ms": 23.930544,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.259437627,
+          "receipt_minus_source_median_s": 28.033949182500002,
+          "receipt_minus_source_p01_p99_s": [
+            28.03274106125,
+            28.0361231484
+          ],
+          "max_absolute_offset_change_s": 0.255485544,
+          "delivery_offset_steps": [
+            {
+              "start_s": 279.527518949,
+              "change_s": 0.255485544,
+              "source_interval_s": 0.003952083,
+              "receipt_interval_s": 0.259437627
+            }
+          ]
+        },
+        "vendor": {
+          "count": 48804,
+          "backwards": 0,
+          "duplicates": 0,
+          "median_interval_ms": 6.659985,
+          "max_interval_ms": 25.260925999999998,
+          "source_gaps": [],
+          "receipt_backwards": 0,
+          "max_receipt_gap_s": 0.261512706,
+          "receipt_minus_source_median_s": 28.0326893405,
+          "receipt_minus_source_p01_p99_s": [
+            28.03212644381,
+            28.033576886280002
+          ],
+          "max_absolute_offset_change_s": 0.25255675,
+          "delivery_offset_steps": [
+            {
+              "start_s": 279.527562618,
+              "change_s": 0.25255675,
+              "source_interval_s": 0.008955956,
+              "receipt_interval_s": 0.261512706
+            }
+          ]
+        }
+      },
+      "prior_container_integrity": {
+        "source_bag": "/home/jain/go2_bags/robot_20261018_112353",
+        "metadata_counts_match": true,
+        "source_files": [
+          {
+            "file": "robot_20261018_112353_0.mcap",
+            "bytes": 1075109791,
+            "mtime_ns": 1792322914240197802,
+            "messages": 549527,
+            "chunks": 3354,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          },
+          {
+            "file": "robot_20261018_112353_1.mcap",
+            "bytes": 184672267,
+            "mtime_ns": 1792322960405544912,
+            "messages": 90419,
+            "chunks": 560,
+            "summary_crc_present": true,
+            "summary_crc_valid": true,
+            "full_stream_validated": true
+          }
+        ],
+        "chunks": 3914,
+        "chunks_with_crc": 0,
+        "all_file_summary_crcs_valid": true
+      },
+      "prior_integrity_source_identity": [
+        {
+          "file": "/home/jain/go2_bags/robot_20261018_112353/robot_20261018_112353_0.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        },
+        {
+          "file": "/home/jain/go2_bags/robot_20261018_112353/robot_20261018_112353_1.mcap",
+          "size_matches_prior": true,
+          "mtime_matches_prior": true
+        }
+      ]
+    }
+  },
+  "limits": [
+    "A continuous stream of header stamps does not establish physical acquisition synchronisation.",
+    "Receipt minus source includes host/robot clock offset. It is not an absolute delivery-latency measurement.",
+    "A common offset step across streams can be host clock adjustment or recording/delivery batching.",
+    "Old integrity checks are retained as provenance, not represented as newly repeated CRC scans.",
+    "No missing messages are synthesised and original bags are read only."
+  ]
+}

@@ -1,0 +1,13 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'start_mapping':
+        Explicit opt-in to start the estimator; false previews configuration only
+        (default: 'false')
+
+    'rviz':
+        Open the prepared RViz view
+        (default: 'true')
+
+    'fixed_frame':
+        Automatically odom for preview and map for mapping; may be overridden
+        (default: PythonExpr(''map' if '' + LaunchConfig('start_mapping') + ''.lower() == 'true' else 'odom''))

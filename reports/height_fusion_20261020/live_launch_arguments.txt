@@ -1,0 +1,13 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'rviz':
+        no description given
+        (default: 'true')
+
+    'rviz_config':
+        no description given
+        (default: '/home/jain/Doggy/config/live_walls.rviz')
+
+    'output_map':
+        no description given
+        (default: '/home/jain/Doggy/maps/terrain_20261020_124336/map')

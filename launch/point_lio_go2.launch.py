@@ -28,16 +28,22 @@ def generate_launch_description():
         parameters=[str(root/'config/point_lio/go2_body_imu.yaml'), {
             'use_sim_time': True,
             'odom_only': False,
-            'odom_header_frame_id': 'map', 'odom_child_frame_id': 'imu',
+            'odom_header_frame_id': 'lio_local', 'odom_child_frame_id': 'imu',
+            'publish.path_en': False,
             'odometry.publish_odometry_without_downsample': False,
         }],
         remappings=[clock_remap, ('/tf', '/point_lio/raw_tf'),
             ('/tf_static', '/point_lio/raw_tf_static'),
-            ('/aft_mapped_to_init', '/point_lio/odometry'),
-            ('/cloud_registered', '/point_lio/cloud_registered'),
+            ('/aft_mapped_to_init', '/point_lio/raw/odometry'),
+            ('/cloud_registered', '/point_lio/raw/cloud_registered'),
             ('/cloud_registered_body', '/point_lio/cloud_registered_body'),
-            ('/cloud_effected', '/point_lio/cloud_effected'),
-            ('/Laser_map', '/point_lio/initial_map'), ('/path', '/point_lio/path')])
+            ('/cloud_effected', '/point_lio/raw/cloud_effected'),
+            ('/Laser_map', '/point_lio/raw/initial_map'), ('/path', '/point_lio/raw/path')])
+    fusion = ExecuteProcess(cmd=[
+        'python3', '-u', str(root/'scripts/publish_height_fusion.py'),
+        '--ros-args', '-p', 'use_sim_time:=true', '-r', '/clock:=/doggy/robot_clock',
+        '--params-file', str(root/'config/point_lio/height_fusion.yaml'),
+        '-p', 'output_frame:=map'], output='screen')
     bridge = ExecuteProcess(cmd=[
         'python3', '-u', str(root/'scripts/publish_point_lio_tf.py'),
         '--ros-args', '-p', 'use_sim_time:=true', '-r', '/clock:=/doggy/robot_clock'], output='screen')
@@ -53,9 +59,9 @@ def generate_launch_description():
         DeclareLaunchArgument('fixed_frame', default_value=PythonExpression([
             "'map' if '", mapping_enabled, "'.lower() == 'true' else 'odom'"]),
             description='Automatically odom for preview and map for mapping; may be overridden'),
-        bridge, mapper, rviz]
+        fusion, bridge, mapper, rviz]
     # Closing RViz or losing either essential process stops this launch as a unit.
-    for process in (bridge, mapper, rviz):
+    for process in (fusion, bridge, mapper, rviz):
         actions.append(RegisterEventHandler(OnProcessExit(target_action=process,
             on_exit=[EmitEvent(event=Shutdown(reason='Point-LIO launch component stopped'))])))
     return LaunchDescription(actions)

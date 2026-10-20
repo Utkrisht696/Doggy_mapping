@@ -4,7 +4,15 @@ This is a source/configuration and evidence snapshot of the existing laptop setu
 
 ## Source dependencies
 
-Clone with `--recurse-submodules`, or run `git submodule update --init --recursive`. All 12 current SDK/third-party repositories are pinned by Git links and listed independently in `dependencies.repos`. The older CMU stack is retired and is not an active dependency. `reports/download_manifest.json` is historical provenance and contains retired entries.
+Clone with `--recurse-submodules`, or run `git submodule update --init --recursive`. All 12 current SDK/third-party repositories are pinned by Git links and listed independently in `dependencies.repos`. One additional pinned repository under reports is a review snapshot, with its Git submodule URL recorded in `.gitmodules`. The older CMU stack is retired and is not an active dependency. `reports/download_manifest.json` is historical provenance and contains retired entries.
+
+The current mapping launches permanently include the standalone Python height
+filter (`scripts/height_fusion.py`, `scripts/publish_height_fusion.py`) and
+`config/point_lio/height_fusion.yaml`. No additional package build or prototype
+binary is needed. Raw outputs are under `/point_lio/raw/`; public Point-LIO
+odometry/clouds, local TF and terrain maps use the corrected Z. The Point-LIO
+submodule's estimator math and the approved IMU calibration are unchanged by
+this integration. See README and LIVE_2D_MAPPING.md for current limitations.
 
 The original Unitree ROS 2 checkout has one intentional local patch. After a fresh clone, apply it once:
 
@@ -66,7 +74,7 @@ cd /home/jain/Doggy
 bash scripts/start_point_lio.sh start_mapping:=true rviz:=true
 ```
 
-Keep the robot stationary for initialization. This older launch still uses vendor odometry for the local body TF and bridges Point-LIO into `map -> odom`; the mapper itself has no vendor-odometry aid. For the newer Point-LIO-only local TF and terrain pipeline, follow [LIVE_2D_MAPPING.md](LIVE_2D_MAPPING.md), without running both bringups together. Both current launches read the same calibrated profile.
+Keep the robot stationary for initialization. This older launch uses vendor odometry for the local body TF and bridges height-fused Point-LIO into `map -> odom`; the internal estimator has no vendor-odometry aid. For the current local TF and terrain pipeline, which uses Point-LIO XY/orientation and fused height, follow [LIVE_2D_MAPPING.md](LIVE_2D_MAPPING.md), without running both bringups together. Both launches read the same calibrated profile and start height fusion unconditionally.
 
 ## Historical successful mapping trial
 

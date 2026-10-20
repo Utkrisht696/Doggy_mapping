@@ -26,6 +26,9 @@ def generate_launch_description():
         parameters=[{'robot_description':description,'use_sim_time':True}],remappings=clock,output='screen')
     replay = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/replay_lio_outputs.py'),
         '--bag',LaunchConfiguration('bag'),'--rate',LaunchConfiguration('rate')],output='screen')
+    fusion = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/publish_height_fusion.py'),
+        *ros_time,'--params-file',str(root/'config/point_lio/height_fusion.yaml'),
+        '-p','output_frame:=odom'],output='screen')
     odom = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/publish_lio_odometry.py'),*ros_time],output='screen')
     terrain = ExecuteProcess(cmd=['python3','-u',str(root/'scripts/publish_terrain_map.py'),
         *ros_time,'--params-file',str(root/'config/terrain_mapping.yaml'),
@@ -37,8 +40,8 @@ def generate_launch_description():
         DeclareLaunchArgument('rate',default_value='1.0'),DeclareLaunchArgument('rviz',default_value='true'),
         DeclareLaunchArgument('rviz_config',default_value=str(root/'config/live_walls.rviz')),
         DeclareLaunchArgument('output_map',default_value=str(root/'maps'/datetime.now().strftime('replay_%Y%m%d_%H%M%S')/'map')),
-        model,odom,terrain,replay,rviz]
-    for process in (model,odom,terrain,replay,rviz):
+        model,fusion,odom,terrain,replay,rviz]
+    for process in (model,fusion,odom,terrain,replay,rviz):
         actions.append(RegisterEventHandler(OnProcessExit(target_action=process,
             on_exit=[EmitEvent(event=Shutdown(reason='2D replay component stopped'))])))
     return LaunchDescription(actions)

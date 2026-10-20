@@ -1,0 +1,1421 @@
+{
+  "bags": [
+    {
+      "name": "small_wander",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 1087,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 1.8998980522155762e-07,
+        "fusion_status": {
+          "raw_poses": 1076,
+          "fused_poses": 1076,
+          "raw_clouds": 1076,
+          "fused_clouds": 1076,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 10506,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 1075,
+            "stale": 0,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 7.30348340111092e-05,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 1087,
+        "raw_count": 1087,
+        "fused_count": 1087,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 1087,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 351,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 1087,
+        "finite": true,
+        "max_source_interval_s": 0.067882061,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 1087,
+        "finite": true,
+        "max_source_interval_s": 0.067882061,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.364339657,
+          1.5643396569999999
+        ],
+        [
+          68.164339657,
+          71.064339657
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.6483063444686189,
+        "z_error_m": -0.036248898082012024,
+        "yaw_error_deg": -1.6007765406793055,
+        "full_rotation_error_deg": 1.8724313014842908,
+        "relative_position_m": [
+          -0.2819897577417517,
+          0.5554288590457586,
+          -0.03906252732089456
+        ]
+      },
+      "fused": {
+        "xy_error_m": 0.6485173935089245,
+        "z_error_m": -0.00041135439053329803,
+        "yaw_error_deg": -1.6007765406793055,
+        "full_rotation_error_deg": 1.8724313014842908,
+        "relative_position_m": [
+          -0.2822176825463931,
+          0.55553260272774,
+          -0.0032249836294158335
+        ]
+      },
+      "vendor": {
+        "xy_error_m": 0.7377436958871753,
+        "z_error_m": 0.005895453017108835,
+        "yaw_error_deg": -0.3272874248106348,
+        "full_rotation_error_deg": 0.5439169832685724,
+        "relative_position_m": [
+          -0.5815990672678257,
+          0.35612770007429884,
+          0.0030818237782263003
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 1086,
+          "initial_alignment": 1
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.024250269
+      }
+    },
+    {
+      "name": "classic",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 1685,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.3422762751579285e-07,
+        "fusion_status": {
+          "raw_poses": 1608,
+          "fused_poses": 1608,
+          "raw_clouds": 1608,
+          "fused_clouds": 1608,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 15071,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 1605,
+            "stale": 2,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 7.177346999265874e-05,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 1685,
+        "raw_count": 1685,
+        "fused_count": 1685,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 1685,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 343,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 1685,
+        "finite": true,
+        "max_source_interval_s": 0.071648598,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 1685,
+        "finite": true,
+        "max_source_interval_s": 0.071648598,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 1,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.347126294,
+          8.247126294
+        ],
+        [
+          104.44712629399999,
+          109.74712629399998
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.024428936167103142,
+        "z_error_m": 0.007027245546946075,
+        "yaw_error_deg": 0.5975966250896363,
+        "full_rotation_error_deg": 0.911072892522496,
+        "relative_position_m": [
+          0.02535170216844284,
+          -0.029801625616137063,
+          0.005237084798546077
+        ]
+      },
+      "fused": {
+        "xy_error_m": 0.024308742909349344,
+        "z_error_m": 9.54377994561936e-05,
+        "yaw_error_deg": 0.5975966250896363,
+        "full_rotation_error_deg": 0.911072892522496,
+        "relative_position_m": [
+          0.025332408881631414,
+          -0.029682518131588082,
+          -0.0016947229489438047
+        ]
+      },
+      "vendor": {
+        "xy_error_m": 0.45013789568318946,
+        "z_error_m": -0.0032964718957917928,
+        "yaw_error_deg": -0.5377055514996414,
+        "full_rotation_error_deg": 0.5722106431700382,
+        "relative_position_m": [
+          0.45020079513898925,
+          0.124219915931566,
+          -0.005086632644191791
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 1682,
+          "initial_alignment": 1,
+          "prediction_only": 2
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.044439793
+      }
+    },
+    {
+      "name": "default",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 1350,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.335536919417791e-07,
+        "fusion_status": {
+          "raw_poses": 1297,
+          "fused_poses": 1297,
+          "raw_clouds": 1297,
+          "fused_clouds": 1297,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 12382,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 1296,
+            "stale": 0,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 7.418269458016945e-05,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 1350,
+        "raw_count": 1350,
+        "fused_count": 1350,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 1350,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 344,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 1350,
+        "finite": true,
+        "max_source_interval_s": 0.067143917,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 1350,
+        "finite": true,
+        "max_source_interval_s": 0.067143917,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": false,
+      "source_windows_s": [
+        [
+          0.305082234,
+          8.405082234
+        ],
+        [
+          79.10508223400001,
+          88.00508223400001
+        ]
+      ],
+      "fusion_health": {
+        "modes": {
+          "fused": 1349,
+          "initial_alignment": 1
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.038513899
+      }
+    },
+    {
+      "name": "normal",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 1276,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 1.1920928955078125e-07,
+        "fusion_status": {
+          "raw_poses": 1229,
+          "fused_poses": 1229,
+          "raw_clouds": 1229,
+          "fused_clouds": 1229,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 11938,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 1228,
+            "stale": 0,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 7.470133400554942e-05,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 1276,
+        "raw_count": 1276,
+        "fused_count": 1276,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 1276,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 343,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 1276,
+        "finite": true,
+        "max_source_interval_s": 0.070039033,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 1276,
+        "finite": true,
+        "max_source_interval_s": 0.070039033,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.367004919,
+          5.767004919000001
+        ],
+        [
+          77.067004919,
+          83.267004919
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.009330971783717334,
+        "z_error_m": 0.00485645873868568,
+        "yaw_error_deg": 0.7176854965654513,
+        "full_rotation_error_deg": 1.3175998647453742,
+        "relative_position_m": [
+          0.0264289704561975,
+          0.110592972579207,
+          0.015895612132665392
+        ]
+      },
+      "fused": {
+        "xy_error_m": 0.009342866954069728,
+        "z_error_m": 0.004072582021445725,
+        "yaw_error_deg": 0.7176854965654513,
+        "full_rotation_error_deg": 1.3175998647453742,
+        "relative_position_m": [
+          0.026431174777463033,
+          0.11060693280492062,
+          0.015111735415425438
+        ]
+      },
+      "vendor": {
+        "xy_error_m": 0.22174603241556226,
+        "z_error_m": 0.0008698753897691744,
+        "yaw_error_deg": -0.5721362435190258,
+        "full_rotation_error_deg": 0.6062155961606752,
+        "relative_position_m": [
+          0.2332906431660925,
+          0.042192197225952244,
+          0.011909028783748887
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 1275,
+          "initial_alignment": 1
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.016621351
+      }
+    },
+    {
+      "name": "lab",
+      "result": {
+        "stop_reason": "impossible_pose_step",
+        "odometry_messages": 645,
+        "cloud_delivery_exact": false,
+        "imu_delivery_exact": false,
+        "vendor_delivery_exact": false,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.384185791015625e-07,
+        "fusion_status": {
+          "raw_poses": 644,
+          "fused_poses": 644,
+          "raw_clouds": 644,
+          "fused_clouds": 644,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 6327,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 643,
+            "stale": 0,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 7.123063339658622e-05,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 645,
+        "raw_count": 645,
+        "fused_count": 645,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 645,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 350,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 645,
+        "finite": true,
+        "max_source_interval_s": 3.953187466,
+        "intervals_over_150ms": 2
+      },
+      "fused_output_health": {
+        "count": 645,
+        "finite": true,
+        "max_source_interval_s": 3.953187466,
+        "intervals_over_150ms": 2
+      },
+      "missing_cloud_stamps": 1,
+      "missing_tf_stamps": 1,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          1.490004778,
+          3.8194506640000006
+        ],
+        [
+          208.51945066400003,
+          217.019450664
+        ]
+      ],
+      "score_errors": {
+        "raw": "Only 0 poses in quiet window [208.51945066400003, 217.019450664]",
+        "fused": "Only 0 poses in quiet window [208.51945066400003, 217.019450664]"
+      },
+      "vendor": {
+        "xy_error_m": 1.0663378063793385,
+        "z_error_m": 0.007153807339670391,
+        "yaw_error_deg": -1.5108778379295416,
+        "full_rotation_error_deg": 1.5236761972840933,
+        "relative_position_m": [
+          0.6065900167295925,
+          -0.8972224931491795,
+          0.0017140025679812654
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 643,
+          "initial_alignment": 1,
+          "prediction_only": 1
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.020706415
+      }
+    },
+    {
+      "name": "real1",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 4665,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": false,
+        "cloud_xy_preserved_exact": false,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": null,
+        "fusion_status": {
+          "raw_poses": 4488,
+          "fused_poses": 4488,
+          "raw_clouds": 4487,
+          "fused_clouds": 4487,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 22659,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 3823,
+            "stale": 664,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 0.0001060113744619653,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 4665,
+        "raw_count": 4841,
+        "fused_count": 4665,
+        "missing_fused_poses": 176,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 4841,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 358,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 4841,
+        "finite": true,
+        "max_source_interval_s": 0.069514274,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 4665,
+        "finite": true,
+        "max_source_interval_s": 0.069514274,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 2,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.399629506,
+          7.499629506000001
+        ],
+        [
+          305.199629506,
+          314.599629506
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.4420956719659891,
+        "z_error_m": -0.01993696754176167,
+        "yaw_error_deg": -1.8968340433139588,
+        "full_rotation_error_deg": 1.9673531457370677,
+        "relative_position_m": [
+          -0.02752051103411448,
+          0.4597580503576076,
+          -0.022693591356280237
+        ]
+      },
+      "score_errors": {
+        "fused": "Only 0 poses in quiet window [305.199629506, 314.599629506]"
+      },
+      "vendor": {
+        "xy_error_m": 4.9430227923078105,
+        "z_error_m": -0.04118450374644013,
+        "yaw_error_deg": -28.88320288936046,
+        "full_rotation_error_deg": 28.88679155128146,
+        "relative_position_m": [
+          1.7578988620534175,
+          4.616958176265597,
+          -0.04394112756095869
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 3926,
+          "initial_alignment": 1,
+          "prediction_only": 737
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.049885749
+      }
+    },
+    {
+      "name": "real2",
+      "result": {
+        "stop_reason": "impossible_pose_step",
+        "odometry_messages": 3367,
+        "cloud_delivery_exact": false,
+        "imu_delivery_exact": false,
+        "vendor_delivery_exact": false,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.384185791015625e-07,
+        "fusion_status": {
+          "raw_poses": 3366,
+          "fused_poses": 3366,
+          "raw_clouds": 3366,
+          "fused_clouds": 3366,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 25556,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 3214,
+            "stale": 151,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 7.280195634600625e-05,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 3367,
+        "raw_count": 3367,
+        "fused_count": 3367,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 3367,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 357,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 3367,
+        "finite": true,
+        "max_source_interval_s": 6.292208433,
+        "intervals_over_150ms": 2
+      },
+      "fused_output_health": {
+        "count": 3367,
+        "finite": true,
+        "max_source_interval_s": 6.292208433,
+        "intervals_over_150ms": 2
+      },
+      "missing_cloud_stamps": 1,
+      "missing_tf_stamps": 1,
+      "reference_quality_passed": false,
+      "source_windows_s": [
+        [
+          15.010158522000001,
+          17.210158522
+        ],
+        [
+          367.21015852200003,
+          372.510158522
+        ]
+      ],
+      "fusion_health": {
+        "modes": {
+          "fused": 3215,
+          "initial_alignment": 1,
+          "prediction_only": 151
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.049965143
+      }
+    },
+    {
+      "name": "measured1",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 5164,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": false,
+        "cloud_xy_preserved_exact": false,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": null,
+        "fusion_status": {
+          "raw_poses": 4925,
+          "fused_poses": 4925,
+          "raw_clouds": 4924,
+          "fused_clouds": 4924,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 26724,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 4156,
+            "stale": 768,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 0.00024451839219704615,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 5164,
+        "raw_count": 5382,
+        "fused_count": 5164,
+        "missing_fused_poses": 218,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 5382,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 358,
+        "recorded_scans_without_output_between_first_and_last": 45,
+        "missing_scan_source_times_s": [
+          329.601888656,
+          329.666225433,
+          329.730757713,
+          329.795392751,
+          329.86026597,
+          329.926236391,
+          329.990434408,
+          330.055348873,
+          330.120308637,
+          330.185247659,
+          330.25039196,
+          330.316783666,
+          330.379721403,
+          330.445302725,
+          330.509768963,
+          330.575354576,
+          330.639332056,
+          330.704807997,
+          330.769721746,
+          330.834431886,
+          330.899250507,
+          330.964240551,
+          331.028786421,
+          331.093766212,
+          331.159397363,
+          331.22377634,
+          331.288389206,
+          331.353379488,
+          331.418733597,
+          331.483277082,
+          331.548261642,
+          331.613257408,
+          331.677789688,
+          331.742855787,
+          331.807428121,
+          331.873876333,
+          331.93790102,
+          332.004024267,
+          332.066794872,
+          332.132242918,
+          332.196750402,
+          332.261825323,
+          332.32697463,
+          332.391804218,
+          332.456885814
+        ],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 5382,
+        "finite": true,
+        "max_source_interval_s": 2.985452891,
+        "intervals_over_150ms": 1
+      },
+      "fused_output_health": {
+        "count": 5164,
+        "finite": true,
+        "max_source_interval_s": 2.985452891,
+        "intervals_over_150ms": 1
+      },
+      "missing_cloud_stamps": 2,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.322464133,
+          11.522464133
+        ],
+        [
+          344.62246413300005,
+          352.522464133
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 2.121420237621909,
+        "z_error_m": -0.04011225674107548,
+        "yaw_error_deg": -0.573767076584204,
+        "full_rotation_error_deg": 0.7004420473027119,
+        "relative_position_m": [
+          0.5143099825979491,
+          2.078253476974187,
+          -0.04213494288575889
+        ]
+      },
+      "score_errors": {
+        "fused": "Only 0 poses in quiet window [344.62246413300005, 352.522464133]"
+      },
+      "vendor": {
+        "xy_error_m": 3.534125391614277,
+        "z_error_m": -0.02002138815494954,
+        "yaw_error_deg": -37.88732083426635,
+        "full_rotation_error_deg": 37.88975663917597,
+        "relative_position_m": [
+          0.8202685223951076,
+          3.4577583589287357,
+          -0.022044074299632954
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 4280,
+          "initial_alignment": 1,
+          "prediction_only": 882
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.049990177
+      }
+    },
+    {
+      "name": "measured2",
+      "result": {
+        "stop_reason": "playback_complete_output_drain_timeout",
+        "odometry_messages": 4238,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.3748725652694702e-07,
+        "fusion_status": {
+          "raw_poses": 4083,
+          "fused_poses": 4083,
+          "raw_clouds": 4082,
+          "fused_clouds": 4082,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 26580,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 3720,
+            "stale": 362,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 0.0005368230884144892,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 4238,
+        "raw_count": 4238,
+        "fused_count": 4238,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 4238,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 358,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 4238,
+        "finite": true,
+        "max_source_interval_s": 0.072874308,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 4238,
+        "finite": true,
+        "max_source_interval_s": 0.072874308,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 1,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.356993468,
+          7.1569934680000005
+        ],
+        [
+          269.856993468,
+          275.45699346799995
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.03850843971754992,
+        "z_error_m": 0.0011638270501212445,
+        "yaw_error_deg": -0.6953854868525013,
+        "full_rotation_error_deg": 0.7120039333688639,
+        "relative_position_m": [
+          0.004166507761585082,
+          -0.020962387092247434,
+          -0.0011910204433203462
+        ]
+      },
+      "fused": {
+        "xy_error_m": 0.038495433429572436,
+        "z_error_m": 0.0023315225112704886,
+        "yaw_error_deg": -0.6953854868525013,
+        "full_rotation_error_deg": 0.7120039333688639,
+        "relative_position_m": [
+          0.004161729701409494,
+          -0.02097465206524858,
+          -2.3324982171102175e-05
+        ]
+      },
+      "vendor": {
+        "xy_error_m": 4.8953658883046955,
+        "z_error_m": -0.0003021876164181715,
+        "yaw_error_deg": -29.998458652449955,
+        "full_rotation_error_deg": 29.999036446115472,
+        "relative_position_m": [
+          1.543800559396625,
+          4.5856254205603335,
+          -0.002657035109859762
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 3819,
+          "initial_alignment": 1,
+          "prediction_only": 418
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.049981117
+      }
+    },
+    {
+      "name": "real1_drained",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 4841,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.384185791015625e-07,
+        "fusion_status": {
+          "raw_poses": 4580,
+          "fused_poses": 4580,
+          "raw_clouds": 4579,
+          "fused_clouds": 4579,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 26415,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 4029,
+            "stale": 550,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 0.0001700136838424498,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 4841,
+        "raw_count": 4841,
+        "fused_count": 4841,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 4841,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 358,
+        "recorded_scans_without_output_between_first_and_last": 0,
+        "missing_scan_source_times_s": [],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 4841,
+        "finite": true,
+        "max_source_interval_s": 0.069514274,
+        "intervals_over_150ms": 0
+      },
+      "fused_output_health": {
+        "count": 4841,
+        "finite": true,
+        "max_source_interval_s": 0.069514274,
+        "intervals_over_150ms": 0
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.399629506,
+          7.499629506000001
+        ],
+        [
+          305.199629506,
+          314.599629506
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.8127894584936229,
+        "z_error_m": -0.025803687632203323,
+        "yaw_error_deg": -2.1977313284310753,
+        "full_rotation_error_deg": 2.236731506286005,
+        "relative_position_m": [
+          -0.0014654334313362522,
+          0.8295403376925312,
+          -0.02856031144672189
+        ]
+      },
+      "fused": {
+        "xy_error_m": 0.8128067645948992,
+        "z_error_m": 0.0011022559965911053,
+        "yaw_error_deg": -2.1977313284310753,
+        "full_rotation_error_deg": 2.236731506286005,
+        "relative_position_m": [
+          -0.001673139655382161,
+          0.8295714677178703,
+          -0.0016543678179274598
+        ]
+      },
+      "vendor": {
+        "xy_error_m": 4.9430227923078105,
+        "z_error_m": -0.04118450374644013,
+        "yaw_error_deg": -28.88320288936046,
+        "full_rotation_error_deg": 28.88679155128146,
+        "relative_position_m": [
+          1.7578988620534175,
+          4.616958176265597,
+          -0.04394112756095869
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 4184,
+          "initial_alignment": 1,
+          "prediction_only": 656
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.04995656
+      }
+    },
+    {
+      "name": "measured1_drained",
+      "result": {
+        "stop_reason": "playback_complete",
+        "odometry_messages": 5391,
+        "cloud_delivery_exact": true,
+        "imu_delivery_exact": true,
+        "vendor_delivery_exact": true,
+        "x_y_orientation_preserved_exact": true,
+        "cloud_xy_preserved_exact": true,
+        "application_unchanged": true,
+        "max_cloud_z_correction_error_m": 2.384185791015625e-07,
+        "fusion_status": {
+          "raw_poses": 4960,
+          "fused_poses": 4960,
+          "raw_clouds": 4959,
+          "fused_clouds": 4959,
+          "invalid_vendor": 0,
+          "invalid_lio": 0,
+          "cloud_expired": 0,
+          "filter": {
+            "received": 26623,
+            "invalid": 0,
+            "old": 0,
+            "source_jump": 0,
+            "anchored": 1,
+            "updated": 4210,
+            "stale": 749,
+            "missing": 0,
+            "gated": 0
+          },
+          "pose_z_variance": 0.0002710909640407554,
+          "waiting_clouds": 0,
+          "x_y_orientation_preserved": true,
+          "coupled_into_lio": false,
+          "world_height_on_real_slopes_validated": false
+        },
+        "multiple_tf_parents": {}
+      },
+      "observed_input_prefix_exact": {
+        "raw": true,
+        "imu": true,
+        "vendor": true
+      },
+      "delivery_note": "Full-stream exact delivery is meaningful only for completed playback. An intentional early stop can have an exact prefix but not the complete expected stream.",
+      "matching_pose_preservation": {
+        "common": 5391,
+        "raw_count": 5391,
+        "fused_count": 5391,
+        "missing_fused_poses": 0,
+        "missing_raw_poses": 0,
+        "xy_quaternion_exact": true
+      },
+      "scan_processing_coverage": {
+        "output_stamps_matched": 5391,
+        "output_stamps_unmatched": 0,
+        "maximum_stamp_matching_error_ns": 358,
+        "recorded_scans_without_output_between_first_and_last": 36,
+        "missing_scan_source_times_s": [
+          329.601888656,
+          329.666225433,
+          329.730757713,
+          329.795392751,
+          329.86026597,
+          329.926236391,
+          329.990434408,
+          330.055348873,
+          330.120308637,
+          330.185247659,
+          330.25039196,
+          330.316783666,
+          330.379721403,
+          330.445302725,
+          330.509768963,
+          330.575354576,
+          330.639332056,
+          330.704807997,
+          330.769721746,
+          330.834431886,
+          330.899250507,
+          330.964240551,
+          331.028786421,
+          331.093766212,
+          331.159397363,
+          331.22377634,
+          331.288389206,
+          331.353379488,
+          331.418733597,
+          331.483277082,
+          331.548261642,
+          331.613257408,
+          331.677789688,
+          331.742855787,
+          332.780817032,
+          332.84528017
+        ],
+        "method": "Match raw odometry stamp to recorded header plus maximum point time, within 1 ms; exclude initialisation and any tail after intentional stop.",
+        "limit": "Indirect processed-scan coverage, not an instrumented estimator input callback counter."
+      },
+      "raw_output_health": {
+        "count": 5391,
+        "finite": true,
+        "max_source_interval_s": 2.271587611,
+        "intervals_over_150ms": 2
+      },
+      "fused_output_health": {
+        "count": 5391,
+        "finite": true,
+        "max_source_interval_s": 2.271587611,
+        "intervals_over_150ms": 2
+      },
+      "missing_cloud_stamps": 0,
+      "missing_tf_stamps": 0,
+      "reference_quality_passed": true,
+      "source_windows_s": [
+        [
+          0.322464133,
+          11.522464133
+        ],
+        [
+          344.62246413300005,
+          352.522464133
+        ]
+      ],
+      "raw": {
+        "xy_error_m": 0.017828186523429518,
+        "z_error_m": -0.004352075449591732,
+        "yaw_error_deg": -0.4238114998667868,
+        "full_rotation_error_deg": 0.4619429178455197,
+        "relative_position_m": [
+          0.005188263015384661,
+          0.03695866784362488,
+          -0.006374761594275146
+        ]
+      },
+      "fused": {
+        "xy_error_m": 0.017826254109644547,
+        "z_error_m": 0.0012092861827462478,
+        "yaw_error_deg": -0.4238114998667868,
+        "full_rotation_error_deg": 0.4619429178455197,
+        "relative_position_m": [
+          0.005191885376203702,
+          0.03695499744544321,
+          -0.0008133999619371664
+        ]
+      },
+      "vendor": {
+        "xy_error_m": 3.534125391614277,
+        "z_error_m": -0.02002138815494954,
+        "yaw_error_deg": -37.88732083426635,
+        "full_rotation_error_deg": 37.88975663917597,
+        "relative_position_m": [
+          0.8202685223951076,
+          3.4577583589287357,
+          -0.022044074299632954
+        ]
+      },
+      "fusion_health": {
+        "modes": {
+          "fused": 4428,
+          "initial_alignment": 1,
+          "prediction_only": 962
+        },
+        "future_samples_used": 0,
+        "maximum_age_s": 0.049981356
+      }
+    }
+  ],
+  "limits": [
+    "Endpoint references are independent cloud registrations, not surveyed truth.",
+    "The height filter changes only Z. XY and quaternion are checked for exact preservation.",
+    "Error coordinates are the initially tilted IMU axes; changing Z can slightly affect reported XY norm.",
+    "Repeated physical floor height changes remain unmeasured. Return consistency is not full-route accuracy.",
+    "Header-stamp continuity and exact playback delivery do not calibrate physical acquisition offset."
+  ]
+}

@@ -203,7 +203,7 @@ class TerrainMapper(Node):
         status = dict(scans=self.grid.scans,voxels=len(self.grid.voxels),unmatched_clouds=self.dropped,
             pending_clouds=len(self.pending),clipped_points=self.grid.clipped_points,
             capacity_drops=self.grid.capacity_drops,resolution=self.grid.cfg.resolution,frame='odom',
-            source='Point-LIO only',provisional_terrain_thresholds=True,last_error=self.last_error,
+            source='Point-LIO XY/orientation with causal vendor-height fusion',provisional_terrain_thresholds=True,last_error=self.last_error,
             input_age_seconds=None if self.last_cloud_wall is None else time.monotonic()-self.last_cloud_wall)
         status.update(self.preprocessing_metadata(),self_filter_model_ready=self.robot_filter is not None)
         if data is not None:

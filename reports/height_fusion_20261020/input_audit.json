@@ -1,0 +1,12 @@
+{
+  "source": "/home/jain/go2_bags/robot_20261018_112353",
+  "counts": {
+    "/lf/lowstate": 6515,
+    "/sportmodestate": 96545,
+    "/utlidar/robot_odom": 48804,
+    "/utlidar/cloud": 5024
+  },
+  "original_size_and_mtime_unchanged": true,
+  "source_and_receipt_timestamps_preserved": true,
+  "robot_commands_included": false
+}

@@ -57,3 +57,8 @@
 	path = third_party/robot_localization
 	url = https://github.com/cra-ros-pkg/robot_localization.git
 	ignore = untracked
+
+[submodule "reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2"]
+	path = reports/bag_comparisons/go2_lab_20261018/repository_review/unitree_go2_ros2
+	url = https://github.com/Faheemibrahim/unitree_go2_ros2.git
+	ignore = untracked

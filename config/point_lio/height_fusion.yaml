@@ -1,0 +1,9 @@
+# Permanent output-height fusion. Point-LIO's internal estimator is unchanged.
+# Fixed settings from the causal bag tests; uncertainty is provisional.
+/**:
+  ros__parameters:
+    vendor_height_std: 0.01
+    process_variance_per_s: 0.0025
+    max_vendor_age: 0.05
+    path_sample_period: 0.2
+    path_max_poses: 6000

@@ -1,0 +1,21 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'bag':
+        no description given
+        (default: '/home/jain/Doggy/reports/point_lio_steps/step_07_live_test/accuracy_20261016T224027+1100/bag')
+
+    'rate':
+        no description given
+        (default: '1.0')
+
+    'rviz':
+        no description given
+        (default: 'true')
+
+    'rviz_config':
+        no description given
+        (default: '/home/jain/Doggy/config/live_walls.rviz')
+
+    'output_map':
+        no description given
+        (default: '/home/jain/Doggy/maps/replay_20261020_124336/map')

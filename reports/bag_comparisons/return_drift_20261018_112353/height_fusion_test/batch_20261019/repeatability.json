@@ -1,0 +1,29 @@
+{
+  "bag": "real1",
+  "playback_rate": 3,
+  "raw_output_source_stamps_identical": true,
+  "maximum_raw_position_difference_m": 0.40642286705955494,
+  "first_return_error": {
+    "xy_error_m": 0.4420956719659891,
+    "z_error_m": -0.01993696754176167,
+    "yaw_error_deg": -1.8968340433139588,
+    "full_rotation_error_deg": 1.9673531457370677,
+    "relative_position_m": [
+      -0.02752051103411448,
+      0.4597580503576076,
+      -0.022693591356280237
+    ]
+  },
+  "repeat_return_error": {
+    "xy_error_m": 0.8127894584936229,
+    "z_error_m": -0.025803687632203323,
+    "yaw_error_deg": -2.1977313284310753,
+    "full_rotation_error_deg": 2.236731506286005,
+    "relative_position_m": [
+      -0.0014654334313362522,
+      0.8295403376925312,
+      -0.02856031144672189
+    ]
+  },
+  "conclusion": "Accelerated replay is not sufficiently repeatable to establish robust accuracy. The estimator and fusion code/calibration were unchanged; cause remains unisolated."
+}

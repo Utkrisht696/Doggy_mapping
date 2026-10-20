@@ -1,0 +1,102 @@
+{
+  "returns": [
+    {
+      "return_name": "first_return",
+      "horizontal_error_m": 0.14098789896658231,
+      "height_error_m": -0.002473465559475548,
+      "heading_error_deg": -0.43701732735473797,
+      "full_rotation_error_deg": 1.5541879774859952,
+      "relative_rpy_deg": [
+        0.9283165202771441,
+        -1.386624657923536,
+        1.122891914030399
+      ],
+      "reference_rpy_deg": [
+        0.4306805554382695,
+        0.02123911183127931,
+        1.5599092413851467
+      ]
+    },
+    {
+      "return_name": "final_return",
+      "horizontal_error_m": 0.14069079041684854,
+      "height_error_m": -0.0009060899189369151,
+      "heading_error_deg": -0.37283939322185233,
+      "full_rotation_error_deg": 1.7618860776370433,
+      "relative_rpy_deg": [
+        0.5717979644166034,
+        -1.6972665593301195,
+        0.24851991654248282
+      ],
+      "reference_rpy_deg": [
+        0.061128751298975346,
+        -0.050971263601121954,
+        0.6213593097643251
+      ]
+    }
+  ],
+  "health": {
+    "poses": 5010,
+    "all_finite": true,
+    "strictly_increasing": true,
+    "median_rate_hz": 15.404094929087151,
+    "output_gaps_over_150ms": 0,
+    "missing_exact_cloud_stamps": 0,
+    "missing_exact_tf_stamps": 0,
+    "application_unchanged": true,
+    "cloud_delivery_exact": true,
+    "imu_delivery_exact": true,
+    "vendor_delivery_exact": true,
+    "tf_conflicts": {},
+    "raw_and_fused_pose_stamps_exact": true,
+    "x_y_orientation_preserved_exact": true,
+    "raw_and_fused_cloud_stamps_exact": true,
+    "cloud_xy_preserved_exact": true,
+    "max_cloud_z_correction_error_m": 2.384185791015625e-07,
+    "fusion_status": {
+      "raw_poses": 4976,
+      "fused_poses": 4976,
+      "raw_clouds": 4976,
+      "fused_clouds": 4976,
+      "invalid_vendor": 0,
+      "invalid_lio": 0,
+      "cloud_expired": 0,
+      "filter": {
+        "received": 48306,
+        "invalid": 0,
+        "old": 0,
+        "source_jump": 0,
+        "anchored": 1,
+        "updated": 4975,
+        "stale": 0,
+        "missing": 0,
+        "gated": 0
+      },
+      "pose_z_variance": 7.098344770784852e-05,
+      "waiting_clouds": 0,
+      "x_y_orientation_preserved": true,
+      "coupled_into_lio": false,
+      "world_height_on_real_slopes_validated": false
+    }
+  },
+  "fusion": {
+    "kind": "separate_scalar_output_fusion",
+    "applied": 5009,
+    "source_modes": {
+      "initial_alignment": 1,
+      "fused": 5009
+    },
+    "max_source_age_s": 0.035036087,
+    "min_source_age_s": 0.0,
+    "future_samples_used": 0,
+    "median_gain_z": 0.6951880686209093,
+    "internal_estimator_changed": false
+  },
+  "causal_run": true,
+  "future_loop_constraints_used": false,
+  "limits": [
+    "Cloud reference is sensor-derived, not surveyed ground truth.",
+    "Vendor and LIO share body-IMU information; height-noise settings are provisional.",
+    "Real slopes, ramps, dropout recovery and unseen trajectories require further verification."
+  ]
+}

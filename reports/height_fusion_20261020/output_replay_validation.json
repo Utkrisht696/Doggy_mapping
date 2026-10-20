@@ -1,0 +1,44 @@
+{
+  "matched_poses": 219,
+  "fused_clouds": 219,
+  "xy_orientation_exact": true,
+  "height_status": {
+    "raw_poses": 158,
+    "fused_poses": 158,
+    "raw_clouds": 158,
+    "fused_clouds": 158,
+    "invalid_vendor": 0,
+    "invalid_lio": 0,
+    "cloud_expired": 0,
+    "path_publications": 21,
+    "filter": {
+      "received": 2269,
+      "invalid": 0,
+      "old": 0,
+      "source_jump": 0,
+      "anchored": 1,
+      "updated": 157,
+      "stale": 0,
+      "missing": 0,
+      "gated": 0
+    },
+    "last_state": {
+      "z": -0.007392293059358928,
+      "variance": 6.988262320636934e-05,
+      "source_stamp": 1792150837133422136,
+      "source_age": 0.000266552,
+      "gain": 0.6987021251533794,
+      "innovation": 0.0019564053962356984,
+      "mode": "fused"
+    },
+    "output_frame": "odom",
+    "waiting_clouds": 0,
+    "path_poses": 40,
+    "input_age_seconds": 0.04087355499905243,
+    "x_y_orientation_preserved": true,
+    "coupled_into_lio": false,
+    "world_height_on_real_slopes_validated": false
+  },
+  "robot_commands_sent": false,
+  "passed": true
+}

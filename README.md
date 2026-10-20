@@ -10,10 +10,45 @@ The selected inputs are raw `/utlidar/cloud` and `/doggy/imu/body_calibrated`, d
 The new [live 2D mapping pipeline](LIVE_2D_MAPPING.md) publishes 5 cm occupancy and
 terrain grids and shows a top-down map in RViz. Run `bash scripts/replay_2d.sh` to
 view the recorded walking session, or `bash scripts/start_live_2d.sh` for the
-complete live setup. This pipeline uses Point-LIO alone for `/odom` and local TF,
-with sensor-time clocking independent of vendor odometry. Terrain thresholds are
+complete live setup. The current solution permanently fuses vendor height with
+Point-LIO X/Y and orientation for `/odom`, registered clouds and local TF.
+Sensor-time clocking remains independent of vendor odometry. Terrain thresholds are
 provisional; no Nav2 movement controller is started. The older mapping launch
-described below retains the historical vendor-odom/map-correction arrangement.
+described below also uses height-fused Point-LIO output, with the historical
+vendor-odom/map-correction TF arrangement.
+
+## Permanent height fusion — 20 October 2026
+
+Both current mapping launches start `scripts/publish_height_fusion.py` as an
+essential component; no enable flag is needed. Point-LIO publishes diagnostic
+outputs under `/point_lio/raw/` in `lio_local`. The height filter publishes the
+canonical `/point_lio/odometry`, `/point_lio/cloud_registered` and `/point_lio/path`.
+The 2D mapper, `/odom` adapter and TF consume those corrected outputs. The complete
+2D pipeline uses `odom`; the legacy 3D launch uses `map`.
+
+The unchanged scalar filter uses past `/utlidar/robot_odom` height, converted to
+the developer IMU origin, with at most 50 ms source age and one startup alignment.
+X/Y, quaternion and source stamps are preserved. Every cloud receives exactly
+the same Z shift as its matching pose. Missing/rejected vendor samples propagate
+Point-LIO height increments and increase uncertainty; status reports the fallback.
+The path display is sampled at no more than 5 Hz, published at most twice per
+second and bounded to 6,000 poses. Odometry/clouds retain their input rate.
+
+Settings are in `config/point_lio/height_fusion.yaml`; diagnostics are on
+`/point_lio/height_status`. The filter runs outside Point-LIO and does not correct
+its internal scan-matching map, horizontal drift or heading. Upstream twist is
+retained; the configured height uncertainty is provisional and full fused
+velocity/covariance is not a validated navigation-state estimator. Vendor height
+has not been shown to measure world elevation over ramps/drains. Making this the
+current mapping solution does not establish that terrain-height limitation as fixed.
+
+Recorded-output replay also runs height fusion and requires recorded vendor
+odometry. New fused recordings must retain `/point_lio/raw/odometry` and
+`/point_lio/raw/cloud_registered`, preventing repeated correction of fused data.
+Use normal-speed replay for accuracy checks: accelerated tests exposed scan loss
+after receipt pauses and inconsistent trajectories. See the
+[multi-bag findings](reports/bag_comparisons/return_drift_20261018_112353/height_fusion_test/batch_20261019/REPORT.md)
+and [production integration verification](reports/height_fusion_20261020/REPORT.md).
 
 ## Heading calibration update — 18 October 2026
 
@@ -49,7 +84,7 @@ The full bags, NumPy sensor captures, build trees, virtual environment, extracte
 
 Historical setup documents preserve the investigation and may describe earlier paused states. For the current verified configuration, start with this README and REPRODUCING.md. Calibration is specific to this robot.
 
-The historical mapping launch used for these recorded results has TF `map -> odom -> base_footprint -> base_link`, then the developer links including `imu` and `radar -> utlidar_lidar`. The source developer URDF is unchanged. In that older launch, vendor odometry owns the local odom/body chain and the Point-LIO bridge supplies `map -> odom`. The new live 2D pipeline instead derives `/odom` and local-body TF entirely from Point-LIO.
+The historical mapping launch used for these recorded results has TF `map -> odom -> base_footprint -> base_link`, then the developer links including `imu` and `radar -> utlidar_lidar`. The source developer URDF is unchanged. In that older launch, vendor odometry owns the local odom/body chain and the Point-LIO bridge supplies `map -> odom`. The current live 2D pipeline derives `/odom` and local-body TF from Point-LIO X/Y/orientation and the height-fused Z output.
 
 ## Earlier setup notes
 

@@ -1,0 +1,51 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+test_heading_wrap_does_not_change_the_composed_pose (test_go2_frames.FrameTests) ... ok
+test_invalid_poses_are_rejected (test_go2_frames.FrameTests) ... ok
+test_measurement_chain_and_stored_body_imu_extrinsics_agree (test_go2_frames.FrameTests) ... ok
+test_only_root_link_name_changes (test_go2_frames.FrameTests) ... ok
+test_pose_composition_for_full_body_motion (test_go2_frames.FrameTests) ... ok
+test_unapproved_stale_or_invalid_measurement_geometry_is_rejected (test_go2_frames.FrameTests) ... ok
+test_constant_reference_rejects_lio_height_drift (test_height_fusion.HeightTests) ... ok
+test_missing_future_stale_and_invalid_source (test_height_fusion.HeightTests) ... ok
+test_missing_reference_uses_lio_increments_and_grows_uncertainty (test_height_fusion.HeightTests) ... ok
+test_preserve_ramp_if_reference_measures_world_elevation (test_height_fusion.HeightTests) ... ok
+test_feedback_frames_and_repeated_stamps_are_rejected (test_height_fusion_node.HeightNodeTests) ... [INFO] [1792460518.994522813] [doggy_height_fusion]: Height fusion is the canonical output in odom; raw XY/orientation preserved
+ok
+test_padded_big_endian_cloud_waits_for_exact_pose_and_preserves_other_bytes (test_height_fusion_node.HeightNodeTests) ... [INFO] [1792460519.007316578] [doggy_height_fusion]: Height fusion is the canonical output in odom; raw XY/orientation preserved
+ok
+test_path_is_bounded_and_does_not_publish_per_odometry_sample (test_height_fusion_node.HeightNodeTests) ... [INFO] [1792460519.022473668] [doggy_height_fusion]: Height fusion is the canonical output in odom; raw XY/orientation preserved
+ok
+test_pose_and_raw_messages_preserved_except_height_and_world_label (test_height_fusion_node.HeightNodeTests) ... [INFO] [1792460519.235961206] [doggy_height_fusion]: Height fusion is the canonical output in odom; raw XY/orientation preserved
+ok
+test_missing_tf_expires_without_publishing_an_identity_fallback (test_point_lio_tf.BridgeTests) ... [INFO] [1792460519.340723135] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+ok
+test_queue_is_bounded_and_reports_overflow (test_point_lio_tf.BridgeTests) ... [INFO] [1792460519.347837420] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+ok
+test_rejects_wrong_frames_zero_time_invalid_pose_and_clock_reset (test_point_lio_tf.BridgeTests) ... [INFO] [1792460519.369959264] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+[ERROR] [1792460519.370620957] [doggy_point_lio_tf]: Refusing Point-LIO pose: Expected positive source stamp and map / imu frames
+[ERROR] [1792460519.373174781] [doggy_point_lio_tf]: Nonincreasing LIO stamp rejected; restart this launch after a bag/robot clock reset.
+ok
+test_waits_for_exact_stamp_and_interpolates_instead_of_latest (test_point_lio_tf.BridgeTests) ... [INFO] [1792460519.382892688] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+ok
+test_imu_lever_arm_and_tilt_are_preserved (test_point_lio_tf.CompositionTests) ... ok
+test_invalid_measurements_rejected (test_point_lio_tf.CompositionTests) ... ok
+test_random_full_3d_poses_against_matrix_inverse (test_point_lio_tf.CompositionTests) ... ok
+test_body_shapes_and_nearby_obstacles_under_rotated_world_pose (test_robot_self_filter.SelfFilterTests) ... ok
+test_joint_interpolation_and_stale_data_rejection (test_robot_self_filter.SelfFilterTests) ... ok
+test_leg_mask_follows_measured_joint_angle (test_robot_self_filter.SelfFilterTests) ... ok
+test_missing_joint_measurement_is_rejected (test_robot_self_filter.SelfFilterTests) ... ok
+test_turn_in_place_removes_imu_lever_arm_velocity (test_terrain_grid.OdometryTests) ... ok
+test_world_velocity_is_rotated_to_body_axes (test_terrain_grid.OdometryTests) ... ok
+test_flat_floor_is_free_and_unobserved_hole_stays_unknown (test_terrain_grid.TerrainTests) ... ok
+test_gentle_ramp_is_ground_while_steep_ramp_has_cost (test_terrain_grid.TerrainTests) ... ok
+test_observed_step_gets_terrain_hazard (test_terrain_grid.TerrainTests) ... ok
+test_save_preserves_origin_and_terrain_layers (test_terrain_grid.TerrainTests) ... ok
+test_single_scan_outliers_do_not_establish_an_obstacle (test_terrain_grid.TerrainTests) ... ok
+test_wall_is_occupied_but_high_overhang_is_not (test_terrain_grid.TerrainTests) ... ok
+test_wall_view_preserves_ground_without_importing_low_obstacles (test_terrain_grid.TerrainTests) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 1.553s
+
+OK

@@ -1,0 +1,20 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+test_missing_tf_expires_without_publishing_an_identity_fallback (test_point_lio_tf.BridgeTests) ... [INFO] [1792460348.301420262] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+ok
+test_queue_is_bounded_and_reports_overflow (test_point_lio_tf.BridgeTests) ... [INFO] [1792460348.309514817] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+ok
+test_rejects_wrong_frames_zero_time_invalid_pose_and_clock_reset (test_point_lio_tf.BridgeTests) ... [INFO] [1792460348.328368495] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+[ERROR] [1792460348.328802576] [doggy_point_lio_tf]: Refusing Point-LIO pose: Expected positive source stamp and map / imu frames
+[ERROR] [1792460348.330439851] [doggy_point_lio_tf]: Nonincreasing LIO stamp rejected; restart this launch after a bag/robot clock reset.
+ok
+test_waits_for_exact_stamp_and_interpolates_instead_of_latest (test_point_lio_tf.BridgeTests) ... [INFO] [1792460348.341677758] [doggy_point_lio_tf]: Waiting for /point_lio/odometry (map / imu); only map -> odom will be published.
+ok
+test_imu_lever_arm_and_tilt_are_preserved (test_point_lio_tf.CompositionTests) ... ok
+test_invalid_measurements_rejected (test_point_lio_tf.CompositionTests) ... ok
+test_random_full_3d_poses_against_matrix_inverse (test_point_lio_tf.CompositionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.424s
+
+OK
